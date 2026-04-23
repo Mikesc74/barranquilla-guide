@@ -177,6 +177,178 @@
     if (nav && isHero) updateNav();
   });
 
+  /* ── Auto-generated sticky Table of Contents on guide pages ──── */
+  function slugify(str) {
+    return String(str)
+      .toLowerCase()
+      .trim()
+      .replace(/[\u2018\u2019\u201c\u201d]/g, '')
+      .replace(/&[^;]+;/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function buildArticleToc() {
+    var article = document.querySelector('article.single-article');
+    if (!article) return;
+    var body = article.querySelector('.article-body');
+    if (!body) return;
+
+    // Hide any legacy inline TOC blocks so the new sidebar is the only TOC
+    var inlineToc = body.querySelectorAll('.toc, #ez-toc-container');
+    for (var i = 0; i < inlineToc.length; i++) {
+      inlineToc[i].style.display = 'none';
+    }
+
+    // Collect candidate headings — prefer H2, include H3 as sub-items
+    var allHeadings = body.querySelectorAll('h2, h3');
+    var headings = [];
+    var usedIds = {};
+    for (var j = 0; j < allHeadings.length; j++) {
+      var h = allHeadings[j];
+      // Skip headings that live inside a hidden TOC/legacy block
+      if (h.closest('.toc') || h.closest('#ez-toc-container')) continue;
+      var text = h.textContent.replace(/\s+/g, ' ').trim();
+      if (!text) continue;
+      if (!h.id) {
+        var slug = slugify(text) || 'section';
+        var base = slug;
+        var n = 2;
+        while (document.getElementById(slug) || usedIds[slug]) {
+          slug = base + '-' + n++;
+        }
+        h.id = slug;
+      }
+      usedIds[h.id] = true;
+      headings.push(h);
+    }
+
+    // Need enough H2s to justify a TOC
+    var h2Count = 0;
+    for (var k = 0; k < headings.length; k++) if (headings[k].tagName === 'H2') h2Count++;
+    if (h2Count < 3) return;
+
+    // Build the aside element
+    var aside = document.createElement('aside');
+    aside.className = 'article-toc';
+    aside.setAttribute('aria-label', 'Table of contents');
+
+    var isMobile = window.matchMedia('(max-width: 1024px)').matches;
+    var listHost;
+    if (isMobile) {
+      var details = document.createElement('details');
+      details.className = 'article-toc-details';
+      details.open = false;
+      var summary = document.createElement('summary');
+      summary.textContent = 'Jump to section';
+      details.appendChild(summary);
+      aside.appendChild(details);
+      listHost = details;
+    } else {
+      var title = document.createElement('div');
+      title.className = 'article-toc-title';
+      title.textContent = 'Jump to';
+      aside.appendChild(title);
+      listHost = aside;
+    }
+
+    var list = document.createElement('ol');
+    list.className = 'article-toc-list';
+
+    for (var m = 0; m < headings.length; m++) {
+      var hd = headings[m];
+      var li = document.createElement('li');
+      li.className = hd.tagName === 'H3' ? 'toc-level-3' : 'toc-level-2';
+      var a = document.createElement('a');
+      a.href = '#' + hd.id;
+      a.textContent = hd.textContent.replace(/\s+/g, ' ').trim();
+      a.setAttribute('data-target', hd.id);
+      li.appendChild(a);
+      list.appendChild(li);
+    }
+    listHost.appendChild(list);
+
+    // Wrap .article-body and the aside in a grid layout
+    var layout = document.createElement('div');
+    layout.className = 'article-layout';
+    body.parentNode.insertBefore(layout, body);
+    layout.appendChild(aside);
+    layout.appendChild(body);
+
+    // Smooth scroll + collapse mobile TOC on click
+    var tocLinks = list.querySelectorAll('a');
+    tocLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (isMobile) {
+          var det = aside.querySelector('details');
+          if (det) det.open = false;
+        }
+      });
+    });
+
+    // Active-section tracking via IntersectionObserver
+    if ('IntersectionObserver' in window) {
+      var linkByIdMap = {};
+      tocLinks.forEach(function (link) { linkByIdMap[link.getAttribute('data-target')] = link; });
+
+      var currentActive = null;
+      var visible = {};
+
+      function updateActive() {
+        // Pick the topmost visible heading
+        var best = null;
+        var bestTop = Infinity;
+        for (var id in visible) {
+          if (!visible[id]) continue;
+          var top = visible[id].getBoundingClientRect().top;
+          if (top < bestTop) { bestTop = top; best = id; }
+        }
+        if (!best) return;
+        if (currentActive === best) return;
+        if (currentActive && linkByIdMap[currentActive]) {
+          linkByIdMap[currentActive].classList.remove('is-active');
+        }
+        if (linkByIdMap[best]) {
+          linkByIdMap[best].classList.add('is-active');
+          // Keep the active link visible in the sidebar
+          if (!isMobile) {
+            var linkRect = linkByIdMap[best].getBoundingClientRect();
+            var asideRect = aside.getBoundingClientRect();
+            if (linkRect.top < asideRect.top || linkRect.bottom > asideRect.bottom) {
+              linkByIdMap[best].scrollIntoView({ block: 'nearest' });
+            }
+          }
+        }
+        currentActive = best;
+      }
+
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          var id = entry.target.id;
+          if (entry.isIntersecting) {
+            visible[id] = entry.target;
+          } else {
+            delete visible[id];
+          }
+        });
+        updateActive();
+      }, {
+        rootMargin: '-96px 0px -65% 0px',
+        threshold: 0
+      });
+
+      headings.forEach(function (h) { observer.observe(h); });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildArticleToc);
+  } else {
+    buildArticleToc();
+  }
+
 })();
 
 

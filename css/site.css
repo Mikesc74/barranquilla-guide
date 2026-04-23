@@ -699,6 +699,139 @@ p:last-child { margin-bottom: 0; }
 .article-body a { color: var(--coral); border-bottom: 1px solid rgba(232,83,58,0.3); }
 .article-body a:hover { border-color: var(--coral); }
 
+/* ─── ARTICLE SIDEBAR TOC (auto-generated) ───────────────────────── */
+/* Two-column guide layout: sticky TOC on the left, article body on the right.
+   Injected at runtime by js/main.js so individual guide HTML needs no edits. */
+.article-layout {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 32px 80px;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 740px);
+  gap: 56px;
+  align-items: start;
+  justify-content: center;
+}
+.article-layout > .article-body {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article-toc {
+  position: sticky;
+  top: calc(var(--nav-height) + 24px);
+  max-height: calc(100vh - var(--nav-height) - 48px);
+  overflow-y: auto;
+  padding-right: 8px;
+  font-family: var(--font-sans);
+}
+.article-toc::-webkit-scrollbar { width: 4px; }
+.article-toc::-webkit-scrollbar-thumb { background: var(--mid-gray); border-radius: 2px; }
+
+.article-toc-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--coral);
+  margin-bottom: 18px;
+}
+.article-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--mid-gray);
+}
+.article-toc-list li { margin: 0; padding: 0; }
+.article-toc-list li + li { margin-top: 2px; }
+.article-toc-list a {
+  display: block;
+  padding: 6px 0 6px 16px;
+  margin-left: -2px;
+  border-left: 2px solid transparent;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--dark-gray);
+  text-decoration: none;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.article-toc-list a:hover {
+  color: var(--navy);
+  border-left-color: var(--mid-gray);
+}
+.article-toc-list a.is-active {
+  color: var(--navy);
+  font-weight: 600;
+  border-left-color: var(--coral);
+}
+.article-toc-list .toc-level-3 a {
+  padding-left: 28px;
+  font-size: 12px;
+  color: var(--mid-gray);
+}
+.article-toc-list .toc-level-3 a:hover,
+.article-toc-list .toc-level-3 a.is-active { color: var(--navy); }
+
+/* Hide any legacy inline TOC blocks — the sidebar replaces them */
+.article-body > .toc,
+.article-body #ez-toc-container,
+.article-body .ez-toc-v2_0_82_2,
+.article-layout .article-body > .toc,
+.article-layout .article-body > div > #ez-toc-container { display: none !important; }
+
+/* Give anchored headings room beneath the sticky nav */
+.article-body h2[id],
+.article-body h3[id] { scroll-margin-top: calc(var(--nav-height) + 20px); }
+
+/* Mobile: collapse the TOC into a details panel above the body */
+@media (max-width: 1024px) {
+  .article-layout {
+    grid-template-columns: minmax(0, 740px);
+    max-width: 740px;
+    gap: 24px;
+    padding: 0 32px 60px;
+  }
+  .article-toc {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    background: var(--light-gray);
+    border-radius: 4px;
+  }
+  .article-toc-details {
+    padding: 16px 20px;
+  }
+  .article-toc-details > summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .article-toc-details > summary::-webkit-details-marker { display: none; }
+  .article-toc-details > summary::after {
+    content: '+';
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--coral);
+    transition: transform 0.2s;
+  }
+  .article-toc-details[open] > summary::after { content: '–'; }
+  .article-toc-details .article-toc-title { display: none; }
+  .article-toc-details .article-toc-list { margin-top: 14px; }
+}
+@media (max-width: 600px) {
+  .article-layout { padding: 0 20px 60px; }
+}
+
 /* ─── ARCHIVE / INDEX ────────────────────────────────────────────── */
 .archive-header {
   background: var(--navy); padding: 100px 0 60px; margin-top: var(--nav-height);
