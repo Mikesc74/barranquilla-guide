@@ -1,0 +1,5 @@
+# Block internal tooling from being served on the public site.
+# The /tools/ directory holds maintenance scripts (e.g. the daily social
+# publisher) that are checked into the repo for durable state but must not
+# be publicly accessible.
+/tools/* /404.html 404
