@@ -54,32 +54,9 @@
   if (hamburger) hamburger.addEventListener('click', openMobileNav);
   if (mobileClose) mobileClose.addEventListener('click', closeMobileNav);
 
-  /* ── Search overlay ───────────────────────────────────────────── */
-  var searchToggle  = document.getElementById('search-toggle');
-  var searchOverlay = document.getElementById('search-overlay');
-  var searchClose   = document.getElementById('search-overlay-close');
-
-  function openSearch() {
-    searchOverlay.classList.add('is-open');
-    searchOverlay.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-    var input = searchOverlay.querySelector('input[type="search"]');
-    if (input) setTimeout(function () { input.focus(); }, 100);
-  }
-
-  function closeSearch() {
-    searchOverlay.classList.remove('is-open');
-    searchOverlay.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-  }
-
-  if (searchToggle)  searchToggle.addEventListener('click', openSearch);
-  if (searchClose)   searchClose.addEventListener('click', closeSearch);
-
-  /* ── Esc key closes all overlays ─────────────────────────────── */
+  /* ── Esc key closes the mobile nav ────────────────────────────── */
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
-      closeSearch();
       closeMobileNav();
     }
   });

@@ -163,19 +163,32 @@ If you change the guide template in a way that renames `.article-body` or
 `.single-article`, update the selectors in `buildArticleToc()` or the TOC
 will silently stop appearing.
 
-### 2. Nav / search / mobile menu / newsletter form
+### 2. Nav / mobile menu / newsletter form
 
 All in `js/main.js`. The newsletter form currently posts to a WordPress AJAX
 endpoint (`bgData.ajaxUrl`) that is legacy from the WordPress origin — audit
 before relying on it. The live newsletter pipeline is Formspree (see below).
 
-### 3. Chatbase chatbot
+There is **no on-site search**. The WordPress search endpoint was dropped
+in the port, and on 2026-04-23 the magnifying-glass icon and full-screen
+`search-overlay` sheet were removed entirely. Discovery on this site is
+Chatbase (primary) + the hero "reading paths" (Planning a visit? / Thinking
+of moving? / Already living here?) + in-body links.
+
+### 3. Chatbase chatbot (primary discovery path)
 
 Bot id `wv8hNpU46aEhF0eXDOVF4`. Loaded at the end of `<body>` via an inline
 bootstrap script. A `<style id="chatbase-position-fix">` block just above it
 tunes the bubble placement to sit above the sticky "Moving here?" CTA bar.
 **Don't edit those coords casually — they're tuned.** CSP permits
 `https://www.chatbase.co` in `script-src`, `connect-src`, and `frame-src`.
+
+The homepage hero includes a `.hero-chat-cta` block with copy
+("Got a question about Barranquilla? Ask our AI guide — fastest way to find
+what you need.") and an "Ask the guide" button. The button calls
+`window.chatbase('open')` via an inline `onclick` to trigger the widget
+— the Chatbase proxy queues the call until the embed script loads, so it
+works even on first paint before the embed has loaded.
 
 ---
 
@@ -223,7 +236,7 @@ On Linux drop the empty `''` after `-i`.
 HTML is `max-age=600, must-revalidate`, so content-only edits propagate
 within 10 minutes without any cache-busting.
 
-Current version in use: **`20260423b`** (update this line when you bump).
+Current version in use: **`20260423c`** (update this line when you bump).
 
 ---
 
@@ -474,11 +487,13 @@ https://developers.facebook.com/tools/debug/ and click "Scrape Again".
 - **Homepage has ~58 absolute `https://barranquilla.guide/<slug>/` URLs**
   inside a JS search-data object. They resolve correctly against prod DNS;
   no action needed unless one of the referenced slugs stops existing.
-- **Hero-search form posts to `/`** — the old WordPress `?s=` query was
-  dropped. There's no static-site search yet. If Mike wants one, Pagefind
-  (small client-side index) or a CF Worker are the two options.
+- **No on-site search.** Intentionally removed — the WordPress `?s=` query
+  was gone after the static port, and rather than bolt Pagefind on top, the
+  search UI was stripped on 2026-04-23 and replaced with a hero-level CTA
+  that opens the Chatbase assistant. The chatbot covers discovery for this
+  site's Q&A-shaped content.
 - **`scripts/build_sitemap.py` is referenced in the README but doesn't
-  exist.** Only `fix-og-images.py` is checked in.
+  exist.** Only `fix-og-images.py` and `remove-search.py` are checked in.
 - **No cookie-consent banner.** GA4 fires on every page load. Add a gate
   (mirror medellin.guide's `consent.js`) if that becomes a regulatory issue.
 
@@ -519,6 +534,19 @@ shape — don't copy patterns blindly between the two.** See that repo's own
 
 Newest first. Add an entry every time you push.
 
+- **2026-04-23** — Removed the broken on-site search UI (the WordPress
+  `?s=` endpoint was gone after the port, so the magnifying-glass icon and
+  full-screen `search-overlay` sheet led to dead URLs). Replaced the
+  hero-search form on `index.html` with a `.hero-chat-cta` block that opens
+  the existing Chatbase assistant. Dropped `.nav-search-btn`,
+  `.search-overlay*`, and `.search-popular-link` CSS rules, and deleted
+  the search overlay open/close code from `js/main.js`. Added
+  `scripts/remove-search.py` (idempotent) which handles the nav + overlay
+  removal and cache-buster bump across all 103 HTML files. Cache-buster
+  bumped `20260423b` → `20260423c`. **Action still open for Mike**:
+  confirm Chatbase (bot `wv8hNpU46aEhF0eXDOVF4`) is trained on
+  `barranquilla.guide` — add the sitemap URL as a source in the Chatbase
+  dashboard if not.
 - **2026-04-23** — Expanded `CLAUDE.md` to match the medellin.guide
   operator's-manual standard. Added CF account id + preview URL, rollback
   parachute note, brand color tokens, Playfair + Inter font names, full CSP
