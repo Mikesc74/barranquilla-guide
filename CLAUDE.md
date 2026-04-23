@@ -220,10 +220,54 @@ that file only).
 
 ---
 
+## Open Graph image metadata
+
+Every page must have a complete OG image block, or social platforms (Facebook,
+LinkedIn, WhatsApp, Slack, iMessage) silently skip the image preview. The
+required tags are:
+
+```html
+<meta property="og:image"            content="https://barranquilla.guide/img/<file>.jpg" />
+<meta property="og:image:secure_url" content="https://barranquilla.guide/img/<file>.jpg" />
+<meta property="og:image:type"       content="image/jpeg" />
+<meta property="og:image:width"      content="1200" />
+<meta property="og:image:height"     content="630" />
+<meta property="og:image:alt"        content="<og:title>" />
+<meta name="twitter:image"           content="https://barranquilla.guide/img/<file>.jpg" />
+```
+
+`scripts/fix-og-images.py` walks every HTML file, reads the real dimensions
+off the image on disk, and inserts the missing tags. Idempotent — safe to
+re-run after editing any guide. Run it whenever you add a new page or change
+an `og:image` URL:
+
+```bash
+python3 scripts/fix-og-images.py
+```
+
+**Watch out for og:image URLs that 404.** This site is a WordPress export and
+some pages reference base filenames (e.g. `bus-interior.jpg`) where only sized
+variants (`bus-interior-992x900.jpg`) exist on disk. CF Pages serves an HTML
+404 fallback for missing image paths — which Facebook silently rejects.
+The script's "skip (image not found locally: ...)" output flags these. Fix by
+swapping the og:image URL to the largest variant that exists in `img/`.
+
+**Forcing Facebook to re-scrape after a fix:** Facebook caches "no image" for
+a long time. After changes hit production, paste the URL into
+https://developers.facebook.com/tools/debug/ and click "Scrape Again".
+
 ## Recent changes
 
 Newest first. Add an entry every time you push.
 
+- **2026-04-23** — Completed Open Graph image metadata across every page
+  (87 + 16 = 103 HTML files). Added `og:image:secure_url`, `og:image:type`,
+  `og:image:width`, `og:image:height`, `og:image:alt`, and `twitter:image`
+  alongside each existing `og:image`. Fixed 16 broken `og:image` URLs that
+  pointed to base filenames where only sized variants existed on disk
+  (causing CF Pages to return an HTML 404 fallback that Facebook rejected).
+  Added `scripts/fix-og-images.py` to keep the metadata complete on future
+  guide additions.
 - **2026-04-23** — Added sticky sidebar Table of Contents to every guide
   (auto-generated from H2/H3 headings, coral active-state, mobile-collapsing
   layout under 1024px). Also introduced the `?v=...` cache-buster pattern on
