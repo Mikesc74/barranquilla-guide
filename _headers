@@ -1,0 +1,28 @@
+# Cloudflare Pages security + caching headers
+# Applies to every path on barranquilla.guide.
+# If you add new third-party scripts, update the matching *-src directive
+# in the CSP below or the browser will block them and log a console error.
+
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  X-DNS-Prefetch-Control: off
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://formspree.io; upgrade-insecure-requests; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://formspree.io https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com; worker-src 'self' blob:; manifest-src 'self'
+
+# Long-cache immutable static assets
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML is default-cached by CF edge but revalidated
+/*.html
+  Cache-Control: public, max-age=600, must-revalidate

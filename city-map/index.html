@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1B2A47" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="description" content="An interactive map of Barranquilla&#039;s neighborhoods, key landmarks, restaurants, hotels, and essential services for visitors and new residents." />
+  <link rel="canonical" href="https://barranquilla.guide/city-map/" />
+
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="City Map - Barranquilla Guide" />
+  <meta property="og:description" content="An interactive map of Barranquilla&#039;s neighborhoods, key landmarks, restaurants, hotels, and essential services for visitors and new residents." />
+  <meta property="og:url" content="https://barranquilla.guide/city-map/" />
+  <meta property="og:site_name" content="Barranquilla Guide" />
+  <meta property="og:image" content="https://barranquilla.guide/img/og-carnival1.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="article:modified_time" content="2026-04-23T06:26:36+00:00" />
+
+  <title>City Map - Barranquilla Guide</title>
+
+  <link rel="icon" href="/img/favicon-32.jpg" sizes="32x32" />
+  <link rel="icon" href="/img/favicon-192.jpg" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/img/favicon-180.jpg" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" />
+  <link rel="stylesheet" href="/css/site.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GT-TNSNLWV');
+  </script>
+</head>
+<body>
+<nav class="site-nav site-nav--solid" id="site-nav" role="navigation" aria-label="Primary Navigation">
+  <div class="nav-inner">
+    <a href="/" class="site-logo" aria-label="Barranquilla Guide - Home">
+      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
+    </a>
+    <ul id="primary-menu" class="menu">
+      <li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
+      <li class="menu-item"><a href="/section/live/">Live</a></li>
+      <li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+      <li class="menu-item"><a href="/moving-to-barranquilla/">Moving to Barranquilla</a></li>
+      <li class="menu-item"><a href="/category/now/">Latest News</a></li>
+      <li class="menu-item"><a href="/city-map/">City Map</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="nav-search-btn" id="search-toggle" aria-label="Open search">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
+      <a href="/#newsletter-form" class="nav-cta">Subscribe</a>
+    </div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true" role="dialog" aria-label="Mobile Navigation">
+  <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
+  <a href="/section/explore/" class="mobile-nav-link">Things to Do</a>
+  <a href="/section/live/" class="mobile-nav-link">Live</a>
+  <a href="/section/eat-drink/" class="mobile-nav-link">Eat &amp; Drink</a>
+  <a href="/moving-to-barranquilla/" class="mobile-nav-link">Moving to Barranquilla</a>
+  <a href="/category/now/" class="mobile-nav-link">Latest News</a>
+  <a href="/city-map/" class="mobile-nav-link">City Map</a>
+  <div class="mobile-nav-ctas">
+    <a href="/#newsletter-form" class="btn btn--coral">Subscribe to the newsletter</a>
+    <a href="/section/explore/" class="btn btn--outline-white">Just visiting</a>
+  </div>
+</div>
+<div class="search-overlay" id="search-overlay" aria-hidden="true" role="search">
+  <button class="search-overlay-close" id="search-overlay-close" aria-label="Close search">&times;</button>
+  <div class="search-overlay-inner">
+    <div class="search-overlay-label">Search the guide</div>
+    <form role="search" class="search-overlay-form" action="/search/" method="get">
+      <svg width="24" height="24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="search" name="q" placeholder="Neighborhoods, guides, restaurants…" aria-label="Search" />
+      <button type="submit" class="screen-reader-text">Search</button>
+    </form>
+    <div class="search-popular-title">Popular searches</div>
+    <div id="search-popular-links">
+      <a href="/moving-to-barranquilla/" class="search-popular-link">Moving to Barranquilla guide</a>
+      <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/" class="search-popular-link">Cost of living 2026</a>
+      <a href="/neighborhoods/el-prado/" class="search-popular-link">El Prado neighborhood</a>
+      <a href="/barranquilla-carnival-complete-guide/" class="search-popular-link">Carnaval</a>
+      <a href="/best-restaurants-barranquilla/" class="search-popular-link">Best restaurants Barranquilla</a>
+    </div>
+  </div>
+</div>
+<style>
+html,body{margin:0;padding:0}
+.city-map-wrap{background:#f5f5f0;min-height:calc(100vh - var(--nav-height,70px));padding-top:var(--nav-height,70px)}
+.map-hero{background:#0a0e1a;padding:32px 20px 20px;text-align:center}
+.map-hero h1{color:#ffffff;font-size:1.8rem;font-weight:700;margin:0 0 6px;letter-spacing:-0.5px}
+.map-hero p{color:rgba(255,255,255,0.85);font-size:0.9rem;margin:0}
+.map-filters{background:#0c1018;padding:10px 16px;display:flex;gap:7px;flex-wrap:wrap;justify-content:center;border-top:1px solid rgba(255,255,255,0.06);border-bottom:1px solid rgba(255,255,255,0.06)}
+.mf-btn{padding:5px 13px;border-radius:20px;border:1px solid rgba(255,255,255,0.14);background:transparent;color:rgba(255,255,255,0.55);font-size:0.78rem;font-weight:500;cursor:pointer;transition:all 0.18s;display:inline-flex;align-items:center;gap:4px;font-family:inherit}
+.mf-btn:hover{border-color:rgba(201,150,58,0.5);color:#C9963A}
+.mf-btn.on{background:#C9963A;border-color:#C9963A;color:#fff}
+#baq-map{height:calc(100vh - 180px);min-height:520px;width:100%}
+.leaflet-popup-content-wrapper{background:#0d1220!important;border:1px solid rgba(201,150,58,0.25)!important;border-radius:10px!important;box-shadow:0 8px 32px rgba(0,0,0,0.7)!important;padding:0!important;overflow:hidden!important}
+.leaflet-popup-content{margin:0!important;width:230px!important}
+.leaflet-popup-tip{background:#0d1220!important}
+.leaflet-tile-pane{filter:saturate(2.8)}
+.leaflet-popup-close-button{color:rgba(255,255,255,0.4)!important;top:8px!important;right:8px!important;font-size:16px!important}
+.p-in{padding:14px 16px}
+.p-cat{font-size:0.68rem;text-transform:uppercase;letter-spacing:0.1em;font-weight:700;margin-bottom:3px}
+.p-name{color:#ffffff;font-size:0.95rem;font-weight:700;margin:0 0 5px;line-height:1.3}
+.p-desc{color:rgba(255,255,255,0.82);font-size:0.78rem;line-height:1.5;margin:0 0 10px}
+.p-link{display:inline-flex;align-items:center;gap:4px;color:#C9963A;font-size:0.78rem;font-weight:600;text-decoration:none}
+.p-link:hover{color:#e0b060;text-decoration:none}
+.leaflet-control-zoom{border:1px solid rgba(255,255,255,0.15)!important}
+.leaflet-control-zoom a{background:#0d1220!important;color:#fff!important;border-bottom:1px solid rgba(255,255,255,0.1)!important}
+.leaflet-control-zoom a:hover{background:#1a2035!important}
+.leaflet-control-attribution{background:rgba(10,14,26,0.8)!important;color:rgba(255,255,255,0.3)!important;font-size:10px!important}
+.leaflet-control-attribution a{color:rgba(201,150,58,0.6)!important}
+</style>
+
+<div class="city-map-wrap">
+  <div class="map-hero">
+    <h1>Barranquilla City Map</h1>
+    <p>Neighborhoods, restaurants, bars, hotels, landmarks & more</p>
+  </div>
+  <div class="map-filters">
+    <button class="mf-btn on" data-cat="all">All</button>
+    <button class="mf-btn" data-cat="hood">🏘 Neighborhoods</button>
+    <button class="mf-btn" data-cat="food">🍽 Food</button>
+    <button class="mf-btn" data-cat="bar">🍸 Bars & Nightlife</button>
+    <button class="mf-btn" data-cat="hotel">🏨 Hotels</button>
+    <button class="mf-btn" data-cat="sight">🎯 Attractions</button>
+    <button class="mf-btn" data-cat="beach">🏖 Beaches & Trips</button>
+    <button class="mf-btn" data-cat="info">ℹ Practical</button>
+  </div>
+  <div id="baq-map"></div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+<script>
+(function(){
+  var map = L.map('baq-map',{center:[10.983,-74.820],zoom:13,zoomControl:true});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
+    attribution:'&copy; <a href="https://openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com">CARTO</a>',
+    subdomains:'abcd',maxZoom:19
+  }).addTo(map);
+
+  var C={hood:"#8B9FCC",food:"#C9963A",bar:'#C45AA0',hotel:'#4A90D9',sight:'#E05555',beach:'#2AB87A',info:'#888'};
+  var E={hood:"🏘",food:"🍽",bar:'🍸',hotel:'🏨',sight:'🎯',beach:'🏖',info:'ℹ'};
+  var L2={hood:"Neighborhood",food:"Restaurant / Food",bar:'Bar & Nightlife',hotel:'Hotel',sight:'Attraction',beach:'Beach & Day Trip',info:'Practical'};
+
+  function icon(cat){
+    var col=C[cat]||'#C9963A';
+    var emj=E[cat]||'';
+    return L.divIcon({
+      html:'<div style="width:44px;height:44px;border-radius:50%;background:'+col+';border:3px solid rgba(255,255,255,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;font-size:20px;line-height:1;">'+emj+'<\/div>',
+      iconSize:[44,44],
+      iconAnchor:[22,22],
+      popupAnchor:[0,-26]
+    });
+  }
+  function popup(d){
+    var c=C[d.cat]||'#C9963A';
+    return '<div class="p-in"><div class="p-cat" style="color:'+c+'">'+(L2[d.cat]||d.cat)+'</div>'
+      +'<div class="p-name">'+d.n+'</div>'
+      +(d.d?'<div class="p-desc">'+d.d+'</div>':'')
+      +(d.u?'<a href="'+d.u+'" class="p-link" target="_blank">Read the guide &rarr;</a>':'')
+      +'</div>';
+  }
+
+  var places=[
+    {n:'El Prado',lat:10.9891,lng:-74.8071,cat:'hood',d:"The most elegant barrio in Barranquilla - art deco architecture, tree-lined streets, the best restaurants and bars.",u:'https://barranquilla.guide/exploring-the-enchanting-neighborhoods-of-barranquilla/'},
+    {n:'Villa Country',lat:10.998,lng:-74.806,cat:'hood',d:"Upscale and expat-friendly - great cafes, gyms, and a quieter residential feel close to everything.",u:'https://barranquilla.guide/exploring-the-enchanting-neighborhoods-of-barranquilla/'},
+    {n:'Buenavista',lat:11.003,lng:-74.813,cat:'hood',d:"Modern commercial zone with malls, mid-range restaurants, and easy access to the west of the city.",u:'https://barranquilla.guide/exploring-the-enchanting-neighborhoods-of-barranquilla/'},
+    {n:'El Centro',lat:10.9629,lng:-74.7851,cat:'hood',d:"The original downtown - chaotic, colorful, historic. Heart of the Carnival parade routes.",u:'https://barranquilla.guide/exploring-the-enchanting-neighborhoods-of-barranquilla/'},
+    {n:'Riomar',lat:11.0030,lng:-74.8150,cat:'hood',d:"Affluent northern neighborhood close to the coast, popular with wealthy Barranquilleros.",u:'https://barranquilla.guide/where-to-stay-in-barranquilla-best-neighbourhoods-hotels-2026/'},
+    {n:'Best Restaurants Guide',lat:10.9870,lng:-74.8050,cat:'food',d:"Full roundup of where to eat in Barranquilla right now, for every taste and budget.",u:'https://barranquilla.guide/best-restaurants-in-barranquilla-2026-where-to-eat-right-now/'},
+    {n:'Fine Dining (El Prado)',lat:10.9895,lng:-74.8090,cat:'food',d:"The concentration of upscale restaurants in El Prado - serious wine lists and polished service.",u:'https://barranquilla.guide/the-best-fine-dining-restaurants-in-barranquilla/'},
+    {n:'Seafood (Coastal Area)',lat:11.0150,lng:-74.8380,cat:'food',d:"Best spots for Caribbean ceviche, whole fried fish, and fresh mariscos near the coast.",u:'https://barranquilla.guide/where-to-eat-the-best-seafood-in-barranquilla/'},
+    {n:'Street Food (Centro)',lat:10.9645,lng:-74.7875,cat:'food',d:"Where to find the best street food - arepa de huevo, empanadas, and fresh tropical juices.",u:'https://barranquilla.guide/barranquilla-food-tour-downtown-street-food-experience-2026/'},
+    {n:'Family Restaurants',lat:10.9862,lng:-74.8030,cat:'food',d:"Best kid-friendly restaurants in Barranquilla for a proper family outing.",u:'https://barranquilla.guide/best-restaurants-for-a-family-outing-in-barranquilla/'},
+    {n:'Best Desserts',lat:10.9855,lng:-74.8010,cat:'food',d:"Artisan ice cream, arequipe cakes, and Caribbean sweets - top dessert spots in the city.",u:'https://barranquilla.guide/the-best-desserts-in-barranquilla/'},
+    {n:'El Prado Nightlife Strip',lat:10.9905,lng:-74.8060,cat:'bar',d:"The main bar and club zone - craft cocktails, rooftop spots, and Caribbean rumba all within walking distance.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
+    {n:'Best Bars Guide',lat:10.9885,lng:-74.8035,cat:'bar',d:"Top picks for bars in Barranquilla - from craft cocktail lounges to neighborhood joints.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
+    {n:'Nightlife Guide 2026',lat:10.9878,lng:-74.8005,cat:'bar',d:"Where to go out in Barranquilla - complete 2026 guide to bars, clubs, and the rumba scene.",u:'https://barranquilla.guide/barranquilla-nightlife-2026-best-bars-clubs-where-to-go-out/'},
+    {n:'Salsa and Dance Schools',lat:10.9850,lng:-74.8070,cat:'bar',d:"Where to learn salsa, cumbia, and champeta in Barranquilla.",u:'https://barranquilla.guide/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/'},
+    {n:'El Prado Hotel',lat:10.9890,lng:-74.8072,cat:'hotel',d:"The most iconic hotel in Barranquilla - a 1930s art deco landmark with a great pool and prime location.",u:'https://barranquilla.guide/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla/'},
+    {n:'Marriott Barranquilla',lat:11.0172,lng:-74.8406,cat:'hotel',d:"The most prestigious international hotel in the city - in the financial district, excellent facilities.",u:'https://barranquilla.guide/discovering-the-allure-of-marriott-hotel-barranquilla/'},
+    {n:'Best Hotels Guide',lat:10.9860,lng:-74.8115,cat:'hotel',d:"Where to stay in Barranquilla for every budget - boutique, business, and value options.",u:'https://barranquilla.guide/best-hotels-in-barranquilla-2026-where-to-stay-every-budget/'},
+    {n:'Gran Malecon del Rio',lat:11.0256,lng:-74.7993,cat:'sight',d:"An impressive riverside promenade - one of the great public spaces in Colombia.",u:'https://barranquilla.guide/gran-malecon-carnaval-museum-barranquilla-city-tour-is-it-worth-it/'},
+    {n:'Museo del Carnaval',lat:10.9928,lng:-74.7877,cat:'sight',d:"Brings the famous Barranquilla Carnival to life year-round - costumes, history, and music.",u:'https://barranquilla.guide/barranquilla-carnival-the-complete-insiders-guide-to-colombias-greatest-festival/'},
+    {n:'Zoologico de Barranquilla',lat:11.0110,lng:-74.7980,cat:'sight',d:"One of the best urban zoos in Colombia, right in the city center.",u:'https://barranquilla.guide/things-to-do-in-barranquilla-the-complete-2026-guide/'},
+    {n:'Portal del Prado Mall',lat:10.9896,lng:-74.7887,cat:'sight',d:"Central mall with cinema, food court, and major stores - the most convenient shopping in the city.",u:'https://barranquilla.guide/exploring-barranquillas-vibrant-malls/'},
+    {n:'Buenavista Mall',lat:11.0137,lng:-74.8284,cat:'sight',d:"The largest mall in Barranquilla - anchor stores, restaurants, and an IMAX cinema.",u:'https://barranquilla.guide/exploring-barranquillas-vibrant-malls/'},
+    {n:'Manuel Restaurante',lat:11.0018,lng:-74.8028,cat:'food',d:"Tasting menu Caribbean fusion - one of the most acclaimed dining experiences in Barranquilla.",u:'https://barranquilla.guide/the-best-fine-dining-restaurants-in-barranquilla/'},
+  {n:'Miura Steak House',lat:11.0034,lng:-74.8080,cat:'food',d:"Premium steakhouse with top-grade cuts - one of the best steak experiences in Colombia.",u:'https://barranquilla.guide/the-best-fine-dining-restaurants-in-barranquilla/'},
+  {n:'El Celler',lat:11.0026,lng:-74.8048,cat:'food',d:"Spanish tapas and wine in an intimate setting - a fine dining gem in northern Barranquilla.",u:'https://barranquilla.guide/the-best-fine-dining-restaurants-in-barranquilla/'},
+  {n:'Restaurante La Cueva',lat:10.9856,lng:-74.7964,cat:'food',d:"Barranquilla's most famous restaurant - a cultural landmark with traditional Colombian cuisine.",u:'https://barranquilla.guide/best-restaurants-barranquilla/'},
+  {n:'Varadero',lat:11.0027,lng:-74.8101,cat:'food',d:"Beloved seafood restaurant with live music - Cuban-Caribbean flavors and Barranquilla's best rice dishes.",u:'https://barranquilla.guide/best-seafood-restaurants-barranquilla/'},
+  {n:'Pescayé',lat:11.0006,lng:-74.7971,cat:'food',d:"Fresh seafood at fair prices with genuine warmth - a local favourite for ceviche and grilled fish.",u:'https://barranquilla.guide/best-seafood-restaurants-barranquilla/'},
+  {n:'Restaurante Palo de Mango',lat:11.0030,lng:-74.8037,cat:'food',d:"Caribbean cuisine with great cocktails - try their signature Palo e' Mango.",u:'https://barranquilla.guide/best-seafood-restaurants-barranquilla/'},
+  {n:'La Gelateria',lat:11.0073,lng:-74.8204,cat:'food',d:"Top artisan gelato in Barranquilla - zapote, strawberry, pistachio and stevia options.",u:'https://barranquilla.guide/best-desserts-barranquilla/'},
+  {n:'Tart by Michelle Cure',lat:11.0097,lng:-74.8122,cat:'food',d:"Barranquilla's best patisserie - visually stunning cakes and tarts by a top pastry chef.",u:'https://barranquilla.guide/best-desserts-barranquilla/'},
+  {n:'Caimán del Río',lat:11.0233,lng:-74.7964,cat:'food',d:"Food market right at the Gran Malecón - great for a riverside lunch with Caribbean views.",u:'https://barranquilla.guide/best-restaurants-with-children-barranquilla/'},
+  {n:'Lobo Cocktail Bar',lat:11.0152,lng:-74.8266,cat:'bar',d:"Signature cocktails and sushi on a beautiful outdoor terrace - one of Barranquilla's best bars.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
+  {n:'Fierabras Punto de Fábrica',lat:10.9841,lng:-74.7873,cat:'bar',d:"Craft beer brewed on-site - Barranquilla's best craft brewery and taproom.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
+  {n:'Bogotá Beer Company',lat:11.0065,lng:-74.8135,cat:'bar',d:"Colombia's beloved craft beer chain - great pub food and consistent brews.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
+  {n:'Kava Rooftop & Gastro-Bar',lat:11.0025,lng:-74.8212,cat:'bar',d:"Barranquilla's premier rooftop bar - city views, craft cocktails, and a great atmosphere.",u:'https://barranquilla.guide/barranquilla-nightlife-bars-clubs/'},
+  {n:'La Troja VIP',lat:11.0027,lng:-74.8055,cat:'bar',d:"A living archive of Caribbean music - cultural heritage site for cumbia and vallenato.",u:'https://barranquilla.guide/barranquilla-nightlife-bars-clubs/'},
+  {n:'Trucupey Latin Disco',lat:10.9903,lng:-74.7888,cat:'bar',d:"Barranquilla's top Latin club - the place to dance salsa, merengue, and champeta.",u:'https://barranquilla.guide/barranquilla-nightlife-bars-clubs/'},
+  {n:'Dann Carlton Hotel',lat:11.0131,lng:-74.8269,cat:'hotel',d:"Rooftop pool, city views, multiple restaurants - one of Barranquilla's premier business hotels.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
+  {n:'Estelar Alto Prado',lat:11.0048,lng:-74.8032,cat:'hotel',d:"Reliable quality, great pool, consistent reviews - a solid choice in the northern zone.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
+  {n:'Hampton by Hilton',lat:11.0053,lng:-74.8200,cat:'hotel',d:"Fast WiFi, included breakfast, and convenient location - ideal for business travellers.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
+  {n:'GHL Hotel Grand',lat:11.0134,lng:-74.8368,cat:'hotel',d:"Colombian chain that punches above its price point - clean rooms, pool, and good food.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
+  {n:'WeWork Barranquilla',lat:11.0059,lng:-74.8120,cat:'info',d:"Premium coworking space - high-quality infrastructure, fast internet, and meeting rooms.",u:'https://barranquilla.guide/best-coworking-spaces-barranquilla/'},
+  {n:'The Bronx Gym',lat:11.0033,lng:-74.8117,cat:'info',d:"Top gym in Barranquilla - excellent facilities in Alto Prado, flexible membership options.",u:'https://barranquilla.guide/best-gyms-in-barranquilla/'},
+  {n:'Viva Shopping Mall',lat:11.0084,lng:-74.8217,cat:'sight',d:"Modern mall with Royal Films cinema - great food court and shopping in the northern zone.",u:'https://barranquilla.guide/barranquilla-malls/'},
+  {n:'Parque Alegra',lat:10.9440,lng:-74.7835,cat:'sight',d:"The largest mall in southern Barranquilla - opened 2022 with Cine Colombia Megasala.",u:'https://barranquilla.guide/barranquilla-malls/'},
+  {n:'El Prado Walking Tour',lat:10.9889,lng:-74.8055,cat:'sight',d:"Explore El Prado on foot - art deco architecture, neighborhood history, and local stories.",u:'https://barranquilla.guide/barranquilla-walking-tour-stories-of-el-prado-2026-review/'},
+    {n:'Carnival Parade Route',lat:11.0040,lng:-74.7871,cat:'sight',d:"The route of the world-famous Barranquilla Carnival parade through downtown.",u:'https://barranquilla.guide/barranquilla-carnival-the-complete-insiders-guide-to-colombias-greatest-festival/'},
+    {n:'Bocas de Cenizas',lat:11.1028,lng:-74.8554,cat:'beach',d:"Where the Magdalena River meets the Caribbean Sea - a remarkable natural phenomenon.",u:'https://barranquilla.guide/bocas-de-cenizas-tour-barranquilla-where-the-river-meets-the-sea-2026/'},
+    {n:'Mallorquin Eco Park',lat:11.0500,lng:-74.8400,cat:'beach',d:"Mangroves, birds, and the Mallorquin lagoon - accessible by boat from La Boquilla.",u:'https://barranquilla.guide/mallorquin-eco-park-tour-barranquilla-mangroves-wildlife-2026/'},
+    {n:'Puerto Mocho Beach',lat:11.0626,lng:-74.8441,cat:'beach',d:"A seaside escape reached by electric train through coastal mangroves.",u:'https://barranquilla.guide/puerto-mocho-beach-barranquillas-seaside-escape-by-electric-train-2026/'},
+    {n:'San Basilio de Palenque',lat:10.1034,lng:-75.1991,cat:'beach',d:"A UNESCO-listed Afro-Colombian village - one of the most culturally unique communities in Latin America.",u:'https://barranquilla.guide/take-a-day-trip-to-san-basilio-de-palenque/'},
+    {n:'La Ruta del Girasol',lat:10.7800,lng:-74.9200,cat:'beach',d:"Sunflower fields within day trip distance from Barranquilla - a striking contrast to the city.",u:'https://barranquilla.guide/la-ruta-del-girasol-the-sunflower-fields/'},
+    {n:'Airport BAQ',lat:10.8896,lng:-74.7808,cat:'info',d:"Barranquilla international airport - 30-40 mins from the city by taxi or Uber.",u:'https://barranquilla.guide/barranquilla-airport-guide-baq-arrivals-transport-hotels-2026/'},
+    {n:'Coworking Zone',lat:10.9900,lng:-74.8030,cat:'info',d:"Main area for coworking in Barranquilla - fast WiFi and flexible memberships.",u:'https://barranquilla.guide/best-coworking-spaces-in-barranquilla-2026/'},
+    {n:'Clinica General del Norte',lat:10.9953,lng:-74.8029,cat:'info',d:"One of the top private hospitals in Barranquilla - recommended for expats.",u:'https://barranquilla.guide/healthcare-in-barranquilla-hospitals-clinics-health-insurance-2026/'},
+    {n:'Clinica Reina Catalina',lat:11.0014,lng:-74.8160,cat:'info',d:"Top-tier private clinic with high-standard care in the city center area.",u:'https://barranquilla.guide/healthcare-in-barranquilla-hospitals-clinics-health-insurance-2026/'}
+  ];
+
+  var markers=[];
+  places.forEach(function(d){
+    var m=L.marker([d.lat,d.lng],{icon:icon(d.cat)});
+    m.bindPopup(popup(d),{maxWidth:260,minWidth:230});
+    m.cat=d.cat;
+    m.addTo(map);
+    markers.push(m);
+  });
+
+  document.querySelectorAll('.mf-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('.mf-btn').forEach(function(b){b.classList.remove('on')});
+      btn.classList.add('on');
+      var cat=btn.dataset.cat;
+      markers.forEach(function(m){
+        if(cat==='all'||m.cat===cat){if(!map.hasLayer(m))map.addLayer(m)}
+        else{if(map.hasLayer(m))map.removeLayer(m)}
+      });
+    });
+  });
+
+  })();
+</script><footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
+        <div class="footer-tagline">
+          The insider guide to Colombia&#039;s most underestimated city - for people who want to understand it, not just visit it.
+        </div>
+        <div class="footer-social">
+          <a href="https://instagram.com/barranquillaguide" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://facebook.com/groups/visitbarranquilla" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <div class="footer-nav-col">
+          <div class="footer-nav-title">Neighborhoods</div>
+          <ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
+        </div>
+        <div class="footer-nav-col">
+          <div class="footer-nav-title">Live</div>
+          <ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+        </div>
+        <div class="footer-nav-col">
+          <div class="footer-nav-title">Guides</div>
+          <ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2026 Barranquilla.guide. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="/privacy-policy/">Privacy</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
+        <a href="/advertise/">Advertise</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barranquilla.guide/sitemap.xml
