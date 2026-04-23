@@ -319,6 +319,20 @@
     </div>
   </div>
 </footer>
+<style id="chatbase-position-fix">
+#chatbase-bubble-button{bottom:84px!important;right:20px!important}
+#chatbase-message-bubbles{bottom:150px!important;right:20px!important}
+#chatbase-bubble-window{bottom:150px!important;right:20px!important}
+@media (max-width:768px){
+  #chatbase-bubble-button{bottom:96px!important;right:14px!important}
+  #chatbase-message-bubbles{bottom:160px!important;right:14px!important;max-width:calc(100vw - 28px)!important}
+  #chatbase-bubble-window{bottom:160px!important;right:14px!important}
+}
+</style>
+<!-- Chatbase AI assistant -->
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="wv8hNpU46aEhF0eXDOVF4";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
 <script src="/js/main.js" defer></script>
 </body>
 </html>
