@@ -288,59 +288,59 @@
       });
     });
 
-    // Active-section tracking via IntersectionObserver
-    if ('IntersectionObserver' in window) {
-      var linkByIdMap = {};
-      tocLinks.forEach(function (link) { linkByIdMap[link.getAttribute('data-target')] = link; });
+    // Active-section tracking: find the heading closest above the reading line
+    var linkByIdMap = {};
+    tocLinks.forEach(function (link) { linkByIdMap[link.getAttribute('data-target')] = link; });
+    var currentActive = null;
 
-      var currentActive = null;
-      var visible = {};
-
-      function updateActive() {
-        // Pick the topmost visible heading
-        var best = null;
-        var bestTop = Infinity;
-        for (var id in visible) {
-          if (!visible[id]) continue;
-          var top = visible[id].getBoundingClientRect().top;
-          if (top < bestTop) { bestTop = top; best = id; }
-        }
-        if (!best) return;
-        if (currentActive === best) return;
-        if (currentActive && linkByIdMap[currentActive]) {
-          linkByIdMap[currentActive].classList.remove('is-active');
-        }
-        if (linkByIdMap[best]) {
-          linkByIdMap[best].classList.add('is-active');
-          // Keep the active link visible in the sidebar
-          if (!isMobile) {
-            var linkRect = linkByIdMap[best].getBoundingClientRect();
-            var asideRect = aside.getBoundingClientRect();
-            if (linkRect.top < asideRect.top || linkRect.bottom > asideRect.bottom) {
-              linkByIdMap[best].scrollIntoView({ block: 'nearest' });
-            }
-          }
-        }
-        currentActive = best;
+    function setActive(id) {
+      if (currentActive === id) return;
+      if (currentActive && linkByIdMap[currentActive]) {
+        linkByIdMap[currentActive].classList.remove('is-active');
       }
-
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          var id = entry.target.id;
-          if (entry.isIntersecting) {
-            visible[id] = entry.target;
-          } else {
-            delete visible[id];
+      if (id && linkByIdMap[id]) {
+        linkByIdMap[id].classList.add('is-active');
+        if (!isMobile) {
+          var linkRect = linkByIdMap[id].getBoundingClientRect();
+          var asideRect = aside.getBoundingClientRect();
+          if (linkRect.top < asideRect.top || linkRect.bottom > asideRect.bottom) {
+            linkByIdMap[id].scrollIntoView({ block: 'nearest' });
           }
-        });
-        updateActive();
-      }, {
-        rootMargin: '-96px 0px -65% 0px',
-        threshold: 0
-      });
-
-      headings.forEach(function (h) { observer.observe(h); });
+        }
+      }
+      currentActive = id;
     }
+
+    function updateActive() {
+      // Reading line sits ~140px below the top of the viewport (just below the nav)
+      var line = 140;
+      var chosen = headings[0];
+      for (var n = 0; n < headings.length; n++) {
+        var top = headings[n].getBoundingClientRect().top;
+        if (top - line <= 0) {
+          chosen = headings[n];
+        } else {
+          break;
+        }
+      }
+      // If the page is scrolled to the very bottom, activate the last heading
+      if ((window.innerHeight + window.scrollY) >= (document.body.scrollHeight - 4)) {
+        chosen = headings[headings.length - 1];
+      }
+      if (chosen) setActive(chosen.id);
+    }
+
+    var scrollTicking = false;
+    window.addEventListener('scroll', function () {
+      if (scrollTicking) return;
+      scrollTicking = true;
+      window.requestAnimationFrame(function () {
+        updateActive();
+        scrollTicking = false;
+      });
+    }, { passive: true });
+    window.addEventListener('resize', updateActive);
+    updateActive();
   }
 
   if (document.readyState === 'loading') {
