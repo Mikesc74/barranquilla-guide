@@ -26,9 +26,9 @@
 
   <title>City Map - Barranquilla Guide</title>
 
-  <link rel="icon" href="/img/favicon-32.jpg" sizes="32x32" />
-  <link rel="icon" href="/img/favicon-192.jpg" sizes="192x192" />
-  <link rel="apple-touch-icon" href="/img/favicon-180.jpg" />
+  <link rel="icon" href="/img/favicon-32.png" sizes="32x32" />
+  <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -102,6 +102,14 @@ html,body{margin:0;padding:0}
 .p-desc{color:rgba(255,255,255,0.82);font-size:0.78rem;line-height:1.5;margin:0 0 10px}
 .p-link{display:inline-flex;align-items:center;gap:4px;color:#C9963A;font-size:0.78rem;font-weight:600;text-decoration:none}
 .p-link:hover{color:#e0b060;text-decoration:none}
+.p-dirs{display:flex;gap:6px;margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.08)}
+.p-dir{flex:1;text-align:center;padding:6px 8px;border-radius:6px;background:rgba(255,255,255,0.06);color:#fff;font-size:0.72rem;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.1);transition:all 0.15s}
+.p-dir:hover{background:rgba(201,150,58,0.2);border-color:#C9963A;text-decoration:none;color:#fff}
+.mf-btn.locate-btn{margin-left:auto;background:rgba(74,144,217,0.15);border-color:rgba(74,144,217,0.4);color:#89b5e6}
+.mf-btn.locate-btn:hover{background:rgba(74,144,217,0.3);border-color:#4A90D9;color:#fff}
+.mf-btn.locate-btn.busy{opacity:0.6;cursor:wait}
+.user-loc-pulse{width:18px;height:18px;border-radius:50%;background:#4A90D9;border:3px solid #fff;box-shadow:0 0 0 rgba(74,144,217,0.6);animation:uloc-pulse 2s infinite}
+@keyframes uloc-pulse{0%{box-shadow:0 0 0 0 rgba(74,144,217,0.6)}70%{box-shadow:0 0 0 18px rgba(74,144,217,0)}100%{box-shadow:0 0 0 0 rgba(74,144,217,0)}}
 .leaflet-control-zoom{border:1px solid rgba(255,255,255,0.15)!important}
 .leaflet-control-zoom a{background:#0d1220!important;color:#fff!important;border-bottom:1px solid rgba(255,255,255,0.1)!important}
 .leaflet-control-zoom a:hover{background:#1a2035!important}
@@ -123,6 +131,7 @@ html,body{margin:0;padding:0}
     <button class="mf-btn" data-cat="sight">🎯 Attractions</button>
     <button class="mf-btn" data-cat="beach">🏖 Beaches & Trips</button>
     <button class="mf-btn" data-cat="info">ℹ Practical</button>
+    <button class="mf-btn locate-btn" id="locate-btn" type="button" title="Show my location">📍 Find me</button>
   </div>
   <div id="baq-map"></div>
 </div>
@@ -154,10 +163,17 @@ html,body{margin:0;padding:0}
   }
   function popup(d){
     var c=C[d.cat]||'#C9963A';
+    var ll=d.lat+','+d.lng;
+    var gmaps='https://www.google.com/maps/dir/?api=1&destination='+ll;
+    var waze='https://waze.com/ul?ll='+ll+'&navigate=yes';
     return '<div class="p-in"><div class="p-cat" style="color:'+c+'">'+(L2[d.cat]||d.cat)+'</div>'
       +'<div class="p-name">'+d.n+'</div>'
       +(d.d?'<div class="p-desc">'+d.d+'</div>':'')
-      +(d.u?'<a href="'+d.u+'" class="p-link" target="_blank">Read the guide &rarr;</a>':'')
+      +(d.u?'<a href="'+d.u+'" class="p-link" target="_blank" rel="noopener">Read the guide &rarr;</a>':'')
+      +'<div class="p-dirs">'
+      +'<a href="'+gmaps+'" class="p-dir" target="_blank" rel="noopener">Google Maps</a>'
+      +'<a href="'+waze+'" class="p-dir" target="_blank" rel="noopener">Waze</a>'
+      +'</div>'
       +'</div>';
   }
 
@@ -177,7 +193,7 @@ html,body{margin:0;padding:0}
     {n:'Best Bars Guide',lat:10.9955,lng:-74.7985,cat:'bar',d:"Top picks for bars in Barranquilla - from craft cocktail lounges to neighborhood joints.",u:'https://barranquilla.guide/best-bars-craft-drinks-barranquilla/'},
     {n:'Nightlife Guide 2026',lat:10.9970,lng:-74.7995,cat:'bar',d:"Where to go out in Barranquilla - complete 2026 guide to bars, clubs, and the rumba scene.",u:'https://barranquilla.guide/barranquilla-nightlife-2026-best-bars-clubs-where-to-go-out/'},
     {n:'Salsa and Dance Schools',lat:10.9940,lng:-74.7995,cat:'bar',d:"Where to learn salsa, cumbia, and champeta in Barranquilla.",u:'https://barranquilla.guide/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/'},
-    {n:'El Prado Hotel',lat:10.9992,lng:-74.8003,cat:'hotel',d:"The most iconic hotel in Barranquilla - a 1930s art deco landmark with a great pool and prime location.",u:'https://barranquilla.guide/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla/'},
+    {n:'El Prado Hotel',lat:10.9987706,lng:-74.8001521,cat:'hotel',d:"The most iconic hotel in Barranquilla - a 1930s art deco landmark with a great pool and prime location.",u:'https://barranquilla.guide/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla/'},
     {n:'Marriott Barranquilla',lat:11.0172,lng:-74.8406,cat:'hotel',d:"The most prestigious international hotel in the city - in the financial district, excellent facilities.",u:'https://barranquilla.guide/discovering-the-allure-of-marriott-hotel-barranquilla/'},
     {n:'Best Hotels Guide',lat:10.9860,lng:-74.8115,cat:'hotel',d:"Where to stay in Barranquilla for every budget - boutique, business, and value options.",u:'https://barranquilla.guide/best-hotels-in-barranquilla-2026-where-to-stay-every-budget/'},
     {n:'Gran Malecon del Rio',lat:11.0256,lng:-74.7993,cat:'sight',d:"An impressive riverside promenade - one of the great public spaces in Colombia.",u:'https://barranquilla.guide/gran-malecon-carnaval-museum-barranquilla-city-tour-is-it-worth-it/'},
@@ -203,7 +219,7 @@ html,body{margin:0;padding:0}
   {n:'Trucupey Latin Disco',lat:10.9903,lng:-74.7888,cat:'bar',d:"Barranquilla's top Latin club - the place to dance salsa, merengue, and champeta.",u:'https://barranquilla.guide/barranquilla-nightlife-bars-clubs/'},
   {n:'Dann Carlton Hotel',lat:11.0131,lng:-74.8269,cat:'hotel',d:"Rooftop pool, city views, multiple restaurants - one of Barranquilla's premier business hotels.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
   {n:'Estelar Alto Prado',lat:11.0048,lng:-74.8032,cat:'hotel',d:"Reliable quality, great pool, consistent reviews - a solid choice in the northern zone.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
-  {n:'Hampton by Hilton',lat:11.0053,lng:-74.8200,cat:'hotel',d:"Fast WiFi, included breakfast, and convenient location - ideal for business travellers.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
+  {n:'Hampton by Hilton',lat:11.0036,lng:-74.8119,cat:'hotel',d:"Fast WiFi, included breakfast, and convenient location - ideal for business travellers.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
   {n:'GHL Hotel Grand',lat:11.0134,lng:-74.8368,cat:'hotel',d:"Colombian chain that punches above its price point - clean rooms, pool, and good food.",u:'https://barranquilla.guide/best-hotels-in-barranquilla/'},
   {n:'WeWork Barranquilla',lat:11.0059,lng:-74.8120,cat:'info',d:"Premium coworking space - high-quality infrastructure, fast internet, and meeting rooms.",u:'https://barranquilla.guide/best-coworking-spaces-barranquilla/'},
   {n:'The Bronx Gym',lat:11.0033,lng:-74.8117,cat:'info',d:"Top gym in Barranquilla - excellent facilities in Alto Prado, flexible membership options.",u:'https://barranquilla.guide/best-gyms-in-barranquilla/'},
@@ -231,9 +247,9 @@ html,body{margin:0;padding:0}
     markers.push(m);
   });
 
-  document.querySelectorAll('.mf-btn').forEach(function(btn){
+  document.querySelectorAll('.mf-btn[data-cat]').forEach(function(btn){
     btn.addEventListener('click',function(){
-      document.querySelectorAll('.mf-btn').forEach(function(b){b.classList.remove('on')});
+      document.querySelectorAll('.mf-btn[data-cat]').forEach(function(b){b.classList.remove('on')});
       btn.classList.add('on');
       var cat=btn.dataset.cat;
       markers.forEach(function(m){
@@ -242,6 +258,30 @@ html,body{margin:0;padding:0}
       });
     });
   });
+
+  // User location ("Find me")
+  var userMarker=null, userCircle=null;
+  var locateBtn=document.getElementById('locate-btn');
+  if(locateBtn && 'geolocation' in navigator){
+    locateBtn.addEventListener('click',function(){
+      locateBtn.classList.add('busy');
+      map.locate({setView:true,maxZoom:15,enableHighAccuracy:true,timeout:15000});
+    });
+    map.on('locationfound',function(e){
+      locateBtn.classList.remove('busy');
+      var userIcon=L.divIcon({html:'<div class="user-loc-pulse"></div>',className:'',iconSize:[18,18],iconAnchor:[9,9]});
+      if(userMarker){map.removeLayer(userMarker)}
+      if(userCircle){map.removeLayer(userCircle)}
+      userMarker=L.marker(e.latlng,{icon:userIcon,interactive:false,keyboard:false}).addTo(map);
+      userCircle=L.circle(e.latlng,{radius:e.accuracy,color:'#4A90D9',fillColor:'#4A90D9',fillOpacity:0.08,weight:1,interactive:false}).addTo(map);
+    });
+    map.on('locationerror',function(e){
+      locateBtn.classList.remove('busy');
+      alert('Could not get your location: '+(e.message||'permission denied or GPS unavailable'));
+    });
+  } else if(locateBtn){
+    locateBtn.style.display='none';
+  }
 
   })();
 </script><footer class="site-footer" role="contentinfo">
