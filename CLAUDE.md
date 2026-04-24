@@ -534,6 +534,28 @@ shape — don't copy patterns blindly between the two.** See that repo's own
 
 Newest first. Add an entry every time you push.
 
+- **2026-04-24** — Added `/colombian-citizenship-exam-study-guide/` — a long-form (approximately 45 min read, about 135 KB HTML) companion to the existing `/how-to-apply-for-colombian-citizenship-through-naturalization/` post. Part 1 covers the practical application (who qualifies, where to file at Cancillería, fees, timeline, exam format, day-of tips). Part 2 is a 15-chapter narrative history of Colombia — geography, pre-Columbian cultures, conquest, independence, Gran Colombia, 19th-century civil wars, Thousand Days' War, banana massacre, La Violencia, FARC/cartels, the 1991 Constitution, peace process, present-day. Each chapter closes with a "Key Facts for the Exam" block. Part 3 is reference material: 32-department table, date timeline, 30+ practice questions with answers, and an FAQ. Uses the existing `beautiful-flowers-in-barrio-abajo-1585x900.jpg` hero. Chatbase bootstrap included, standard nav/footer. No CSS/JS edits (no cache-buster bump needed). Scoped `<style>` in `<head>` styles `.key-facts` and tables inside `.article-body` only. Added URL to `sitemap.xml` with priority 0.8. Author byline: Mike Chartrand. Published date 2026-04-24.
+- **2026-04-24** — Fixed 19 mis-located pins on `/city-map/`. Verified each
+  against OpenStreetMap/Nominatim (reverse-geocoding every final value
+  back to confirm the neighbourhood label). Biggest miss: **El Prado
+  Hotel** was at 10.9890, -74.8072 (reverse-geocodes to `Las Delicias`),
+  moved to 10.9992, -74.8003 (real Cra 54 & Cl 70 location, inside El
+  Prado barrio). **Neighborhood pins** all moved to the actual barrios
+  they name: El Prado (was Las Delicias), Villa Country, Buenavista,
+  Riomar (all were in Altos del Limón or similar). **Named venues**:
+  La Troja VIP (was ~1km north, now at Cra 44 & Cl 72), Mallorquin Eco
+  Park, Airport BAQ terminal. **Editorial/category pins** that reference
+  El Prado or act as El Prado zone markers — Best Restaurants Guide,
+  Fine Dining (El Prado), Family Restaurants, Best Desserts, El Prado
+  Nightlife Strip, Best Bars Guide, Nightlife Guide 2026, Salsa and
+  Dance Schools, El Prado Walking Tour — were all sitting in Las
+  Delicias / Boston / Barrio Colombia; relocated into El Prado proper
+  (lat 10.993–10.997, lng -74.798 to -74.802). Coworking Zone generic
+  pin moved into Alto Prado (where WeWork and Bronx Gym cluster).
+  Confirmed that Marriott Barranquilla at 11.0172, -74.8406 is actually
+  correct — OSM has it mapped as "Marriott, Calle 1A, Ciudad Mallorquín,
+  Puerto Colombia" (the hotel is in Puerto Colombia municipality, not
+  Barranquilla proper). No CSS/JS changes — no cache-buster bump needed.
 - **2026-04-23** — Removed the broken on-site search UI (the WordPress
   `?s=` endpoint was gone after the port, so the magnifying-glass icon and
   full-screen `search-overlay` sheet led to dead URLs). Replaced the
