@@ -6,16 +6,18 @@
   var nav = document.getElementById('site-nav');
   var isHero = document.querySelector('.hero');
 
-  if (nav && isHero) {
-    function updateNav() {
-      if (window.scrollY > 60) {
-        nav.classList.remove('site-nav--transparent');
-        nav.classList.add('site-nav--solid');
-      } else {
-        nav.classList.add('site-nav--transparent');
-        nav.classList.remove('site-nav--solid');
-      }
+  function updateNav() {
+    if (!nav || !isHero) return;
+    if (window.scrollY > 60) {
+      nav.classList.remove('site-nav--transparent');
+      nav.classList.add('site-nav--solid');
+    } else {
+      nav.classList.add('site-nav--transparent');
+      nav.classList.remove('site-nav--solid');
     }
+  }
+
+  if (nav && isHero) {
     window.addEventListener('scroll', updateNav, { passive: true });
     updateNav();
   } else if (nav) {
@@ -116,16 +118,21 @@
       submitBtn.textContent = 'Subscribing…';
       submitBtn.disabled = true;
 
-      // AJAX to WordPress
+      // POST to Formspree (endpoint: xgopjoao). Hidden field
+      // subject=newsletter-subscribe lets us filter newsletter
+      // submissions in the Formspree inbox.
       var data = new FormData();
-      data.append('action', 'bg_subscribe');
       data.append('email', email);
-      data.append('nonce', bgData.nonce);
+      data.append('subject', 'newsletter-subscribe');
 
-      fetch(bgData.ajaxUrl, { method: 'POST', body: data })
-        .then(function (r) { return r.json(); })
+      fetch('https://formspree.io/f/xgopjoao', {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      })
+        .then(function (r) { return r.json().then(function (body) { return { ok: r.ok, body: body }; }); })
         .then(function (res) {
-          if (res.success) {
+          if (res.ok) {
             submitBtn.textContent = 'Subscribed ✓';
             submitBtn.style.background = '#2a7a4b';
             if (emailInput) emailInput.value = '';
@@ -137,7 +144,11 @@
             submitBtn.textContent = 'Subscribe';
             submitBtn.disabled = false;
             if (newsletterStatus) {
-              newsletterStatus.textContent = res.data && res.data.message ? res.data.message : 'Something went wrong. Please try again.';
+              var msg = 'Something went wrong. Please try again.';
+              if (res.body && Array.isArray(res.body.errors) && res.body.errors.length) {
+                msg = res.body.errors.map(function (e) { return e.message; }).join(' ');
+              }
+              newsletterStatus.textContent = msg;
               newsletterStatus.style.color = 'var(--coral)';
             }
           }
@@ -145,6 +156,10 @@
         .catch(function () {
           submitBtn.textContent = 'Subscribe';
           submitBtn.disabled = false;
+          if (newsletterStatus) {
+            newsletterStatus.textContent = 'Network error. Please try again.';
+            newsletterStatus.style.color = 'var(--coral)';
+          }
         });
     });
   }
@@ -328,21 +343,8 @@
 
 })();
 
-
-/* ── Contact form → Brevo (List #9) ─────────────────────────────── */
-(function () {
-  var contactForm = document.querySelector('form[action*="formspree"]');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function () {
-      var emailEl = contactForm.querySelector('[name="email"]');
-      var nameEl  = contactForm.querySelector('[name="name"]');
-      if (!emailEl || !emailEl.value) { return; }
-      var d = new FormData();
-      d.append('action', 'bg_contact_brevo');
-      d.append('email', emailEl.value);
-      d.append('name',  nameEl ? nameEl.value : '');
-      d.append('nonce', bgData.nonce);
-      fetch(bgData.ajaxUrl, { method: 'POST', body: d }).catch(function () {});
-    });
-  }
-}());
+/* The legacy WordPress AJAX dual-write to Brevo was removed on
+   2026-04-24. Contact + newsletter forms now go straight to
+   Formspree. If we re-add an email-marketing integration, wire it
+   server-side (Cloudflare Worker) instead of leaking it into the
+   client. */
