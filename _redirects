@@ -3,3 +3,15 @@
 # publisher) that are checked into the repo for durable state but must not
 # be publicly accessible.
 /tools/* /404.html 404
+
+# Legacy WordPress-style paginated archive URLs. The static port renders the
+# entire archive on the section index page (with native lazy-loaded images),
+# so /page/N/ links from old indexes or external sites get a 301 to the
+# canonical archive instead of falling through to the homepage.
+/section/guides/page/*    /section/guides/    301
+/section/explore/page/*   /section/explore/   301
+/section/live/page/*      /section/live/      301
+/section/eat-drink/page/* /section/eat-drink/ 301
+/section/stay/page/*      /section/stay/      301
+/section/magazine/page/*  /section/magazine/  301
+/category/now/page/*      /category/now/      301
