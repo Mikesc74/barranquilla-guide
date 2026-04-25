@@ -4,6 +4,11 @@
 # be publicly accessible.
 /tools/* /404.html 404
 
+# Old standalone "How to Apply for Colombian Citizenship" guide was merged into
+# the Colombian Citizenship Exam study guide on 2026-04-24. Anyone arriving from
+# Google or an old internal link gets a 301 to the consolidated page.
+/how-to-apply-for-colombian-citizenship-through-naturalization/  /colombian-citizenship-exam-study-guide/  301
+
 # Legacy WordPress-style paginated archive URLs. The static port renders the
 # entire archive on the section index page (with native lazy-loaded images),
 # so /page/N/ links from old indexes or external sites get a 301 to the
