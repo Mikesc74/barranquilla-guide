@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -101,7 +104,7 @@
 </div>
 <!-- Article Body -->
 <div class="article-body">
-<figure class="wp-block-image size-large"><img alt="View out to the Caribbean from the Barranquilla coast" class="wp-image-3419" data-sizes="(max-width: 1225px) 100vw, 1225px" decoding="async" height="689" src="/img/view-out-to-sea-from-buenavista.jpg" srcset="/img/view-out-to-sea-from-buenavista.jpg 1225w, /img/view-out-to-sea-from-buenavista-300x169.jpg 300w, /img/view-out-to-sea-from-buenavista-1024x576.jpg 1024w, /img/view-out-to-sea-from-buenavista-768x432.jpg 768w" width="1225"/></figure>
+<figure class="wp-block-image size-large"><img alt="View out to the Caribbean from the Barranquilla coast" class="wp-image-3419" data-sizes="(max-width: 1225px) 100vw, 1225px" decoding="async" height="689" src="/img/view-out-to-sea-from-buenavista.jpg" srcset="/img/view-out-to-sea-from-buenavista.jpg 1225w, /img/view-out-to-sea-from-buenavista-300x169.jpg 300w, /img/view-out-to-sea-from-buenavista-1024x576.jpg 1024w, /img/view-out-to-sea-from-buenavista-768x432.jpg 768w" width="1225"/ loading="lazy"></figure>
 <figure class="wp-block-image size-large"><img alt="Caribbean sunset from the Barranquilla coast near Puerto Mocho" class="wp-image-3517" data-sizes="auto, (max-width: 1225px) 100vw, 1225px" decoding="async" height="919" loading="lazy" src="/img/caribbean-sunset-from-alto-riomar.jpg" srcset="/img/caribbean-sunset-from-alto-riomar.jpg 1225w, /img/caribbean-sunset-from-alto-riomar-300x225.jpg 300w, /img/caribbean-sunset-from-alto-riomar-1024x768.jpg 1024w, /img/caribbean-sunset-from-alto-riomar-768x576.jpg 768w, /img/caribbean-sunset-from-alto-riomar-900x675.jpg 900w, /img/caribbean-sunset-from-alto-riomar-400x300.jpg 400w" width="1225"/></figure>
 <p>Barranquilla finally has its own beach destination – and you can get there by electric train. Puerto Mocho, located at the northern tip of the city where the Magdalena River meets the Caribbean Sea, opened to the public on November 30, 2024 after a major renovation. The result is a clean, organized public beach with modern facilities, a scenic trolley ride, and a laid-back coastal atmosphere that feels worlds away from the city center.</p>
 <p>Whether you’re looking for a quick half-day escape, a family outing, or just want to feel sand between your toes without leaving Barranquilla, Puerto Mocho delivers. Here’s everything you need to know before you go.</p>
@@ -122,13 +125,13 @@
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/puerto-mocho-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/puerto-mocho-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
 </figure>
 <h2 class="wp-block-heading" id="the-train-ride-getting-to-puerto-mocho">The Train Ride: Getting to Puerto Mocho</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="The Train Ride: Getting to Puerto Mocho" height="800" loading="lazy" src="/img/puerto-mocho-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="The Train Ride: Getting to Puerto Mocho" height="800" loading="lazy" src="/img/puerto-mocho-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <p>The star of the experience is the <strong>Tren Turístico de Las Flores</strong> – a 100% electric tourist train powered by Tesla batteries. Two wooden, open-air tram cars named <em>Tajamar</em> and <em>Mar y Río</em> (chosen by public vote) carry up to 70 passengers each along 2.67 kilometers of track on the western levee, from the Las Flores station to the beach.</p>
@@ -136,7 +139,7 @@
 <h2 class="wp-block-heading" id="what-youll-find-at-puerto-mocho">What You’ll Find at Puerto Mocho</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="What You’ll Find at Puerto Mocho" height="800" loading="lazy" src="/img/puerto-mocho-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="What You’ll Find at Puerto Mocho" height="800" loading="lazy" src="/img/puerto-mocho-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
 </figure>
 <p>When you step off the train, you’re greeted by a landscaped garden before the beach opens up ahead. The renovated Puerto Mocho stretches over one kilometer of coastline and is divided into three zones:</p>
@@ -147,7 +150,7 @@
 <h2 class="wp-block-heading" id="practical-info-for-visitors">Practical Info for Visitors</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Practical Info for Visitors" height="800" loading="lazy" src="/img/puerto-mocho-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Practical Info for Visitors" height="800" loading="lazy" src="/img/puerto-mocho-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p><strong>Location:</strong> Las Flores neighborhood, Riomar locality. Access via Calle 106.</p>
@@ -164,7 +167,7 @@
 <h2 class="wp-block-heading" id="tips-for-your-visit">Tips for Your Visit</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Tips for Your Visit" height="800" loading="lazy" src="/img/puerto-mocho-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Tips for Your Visit" height="800" loading="lazy" src="/img/puerto-mocho-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
 </figure>
 <p><strong>Go early on weekends.</strong> Puerto Mocho drew over 5,000 visitors on its opening day, and weekends remain busy. Arriving when gates open gives you first pick of canopies and calmer conditions.</p>
@@ -174,7 +177,7 @@
 <h2 class="wp-block-heading" id="why-it-matters">Why It Matters</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Why It Matters" height="800" loading="lazy" src="/img/puerto-mocho-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Why It Matters" height="800" loading="lazy" src="/img/puerto-mocho-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
 </figure>
 <p>For decades, Barranquilleros had to drive to Puerto Colombia, Salgar, or Santa Marta to reach a proper beach. Puerto Mocho changes that. It’s the city’s first and only urban public beach, and the electric train connection makes it accessible to everyone – not just those with cars. The project represents a broader shift in Barranquilla’s identity, from a purely commercial and industrial port city to one that embraces its Caribbean coastline.</p>

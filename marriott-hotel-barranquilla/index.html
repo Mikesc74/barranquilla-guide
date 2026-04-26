@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Discovering the Allure of Marriott Hotel Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -105,10 +108,10 @@
 <h2 class="wp-block-heading">Seamless Elegance and Comfort</h2>
 <p>From the moment you step into the grand lobby, the <a href="https://www.marriott.com/es/hotels/baqmc-barranquilla-marriott-hotel/overview/" rel="noreferrer noopener" target="_blank">Marriott Hotel</a> Barranquilla envelops you in an atmosphere of sophistication. Opulent furnishings, contemporary designs, and a seamless blend of local culture and global standards create an ambiance that feels both luxurious and welcoming.</p>
 <p>The guest rooms and suites further exemplify the Marriott’s commitment to comfort and style. Each space is meticulously designed to offer a haven of relaxation, featuring plush bedding, modern amenities, and breathtaking city views. Whether visiting for work or leisure, guests find themselves cocooned in a world of comfort that leaves a lasting impression.</p>
-<figure class="wp-block-image size-large is-resized"><img alt="Marriott Hotel Barranquilla, Amira restaurant" class="wp-image-1279" decoding="async" height="683" src="/img/marriott-amira-1024x683.webp" style="width:1068px;height:683px" width="1068"/><figcaption class="wp-element-caption">Amira Restaurant</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img alt="Marriott Hotel Barranquilla, Amira restaurant" class="wp-image-1279" decoding="async" height="683" src="/img/marriott-amira-1024x683.webp" style="width:1068px;height:683px" width="1068"/ loading="lazy"><figcaption class="wp-element-caption">Amira Restaurant</figcaption></figure>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="Seamless Elegance and Comfort" height="800" loading="lazy" src="/img/marriott-hotel-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Seamless Elegance and Comfort" height="800" loading="lazy" src="/img/marriott-hotel-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Gustavo Galeano Maz / Pexels</figcaption>
 </figure>
 <h2 class="wp-block-heading">Culinary Excellence</h2>
@@ -123,7 +126,7 @@
 <h2 class="wp-block-heading">Conclusion</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Conclusion" height="800" loading="lazy" src="/img/marriott-hotel-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Conclusion" height="800" loading="lazy" src="/img/marriott-hotel-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Fotografías de El Puerto  de Santa María / Pexels</figcaption>
 </figure>
 <p>In the heart of Barranquilla, the Marriott Hotel stands as an epitome of contemporary luxury and warm Colombian hospitality. Its dedication to seamless elegance, culinary excellence, top-notch event facilities, and holistic well-being showcases its commitment to providing an exceptional guest experience. Whether you’re exploring the city for business or pleasure, the Marriott Hotel Barranquilla promises an unforgettable stay that encapsulates the spirit of this vibrant Colombian metropolis. The Marriott is considered one of the best hotels in Barranquilla. If you’re looking for additional options, read our article on the <a href="/best-hotels-in-barranquilla/">top 5 hotels</a> in the city. </p>

@@ -29,7 +29,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -108,13 +111,13 @@
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="Cost of Living: a real 2026 breakdown" height="800" loading="lazy" src="/img/moving-to-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Cost of Living: a real 2026 breakdown" height="800" loading="lazy" src="/img/moving-to-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <h2 class="wp-block-heading" style="font-family:Georgia,serif;font-size:32px;margin-top:48px;margin-bottom:8px;">Paperwork &amp; Money</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Paperwork &amp; Money" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Paperwork &amp; Money" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Wal Couyi / Pexels</figcaption>
 </figure>
 <div class="mtb-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:48px;">
@@ -138,7 +141,7 @@
 <h2 class="wp-block-heading" style="font-family:Georgia,serif;font-size:32px;margin-top:48px;margin-bottom:8px;">Housing &amp; Neighborhoods</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Housing &amp; Neighborhoods" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Housing &amp; Neighborhoods" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Tony Rojas / Pexels</figcaption>
 </figure>
 <div class="mtb-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:48px;">
@@ -158,7 +161,7 @@
 <h2 class="wp-block-heading" style="font-family:Georgia,serif;font-size:32px;margin-top:48px;margin-bottom:8px;">Daily Life Setup</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Daily Life Setup" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Daily Life Setup" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Diego Lopez / Pexels</figcaption>
 </figure>
 <div class="mtb-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:48px;">
@@ -190,7 +193,7 @@
 <h2 class="wp-block-heading" style="font-family:Georgia,serif;font-size:32px;margin-top:48px;margin-bottom:8px;">Work &amp; Community</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Work &amp; Community" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Work &amp; Community" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jose David Cortes / Pexels</figcaption>
 </figure>
 <div class="mtb-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:48px;">
@@ -210,7 +213,7 @@
 <h2 class="wp-block-heading" style="font-family:Georgia,serif;font-size:32px;margin-top:48px;margin-bottom:8px;">Getting a feel for the city</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Getting a feel for the city" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Getting a feel for the city" height="800" loading="lazy" src="/img/moving-to-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <div class="mtb-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-bottom:48px;">
@@ -236,7 +239,7 @@
 <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 12px;color:#fff;">Visit first.</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Visit first." height="800" loading="lazy" src="/img/moving-to-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Visit first." height="800" loading="lazy" src="/img/moving-to-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <p style="max-width:560px;margin:0 auto 24px;color:rgba(255,255,255,0.85);line-height:1.55;">The honest advice every expat gives: come for two weeks before you commit. See the neighborhoods, try the heat in March, eat the food, and feel whether the energy matches your life.</p>

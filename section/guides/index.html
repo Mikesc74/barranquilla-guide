@@ -32,7 +32,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" />
+  <!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
   <link rel="stylesheet" href="/css/site.css?v=20260424a" />
 
   <!-- Google tag (gtag.js) -->
@@ -107,7 +110,7 @@
       </article>
             <article class="article-card" id="post-4106">
         <a href="/tax-residency-colombia-2026-guide/" class="article-card-image">
-                                  <img src="https://picsum.photos/seed/4106/600/400" alt="Tax Residency in Colombia: The 183-Day Rule &#038; What to Know (2026)" loading="lazy"  width="600" height="400" />
+                                  <img decoding="async" src="https://picsum.photos/seed/4106/600/400" alt="Tax Residency in Colombia: The 183-Day Rule &#038; What to Know (2026)" loading="lazy"  width="600" height="400" />
                   </a>
         <span class="label">How-to Guides</span>
         <h2 class="article-card-title"><a href="/tax-residency-colombia-2026-guide/">Tax Residency in Colombia: The 183-Day Rule &#038; What to Know (2026)</a></h2>

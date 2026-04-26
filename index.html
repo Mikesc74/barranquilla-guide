@@ -32,7 +32,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" />
+  <!-- PERF: hero preload (homepage) -->
+  <link rel="preload" as="image" href="/img/carnival1.webp" fetchpriority="high">
+  <!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
   <link rel="stylesheet" href="/css/site.css?v=20260424a" />
 
   <!-- Schema.org structured data -->
@@ -187,7 +192,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/el-golf/" aria-label="El Golf">
           <div class="nbhd-card-image">
-                          <img src="/img/barranquilla-el-golf-aerial-fernando-orozco-480x600.jpg" alt="El Golf" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/barranquilla-el-golf-aerial-fernando-orozco-480x600.jpg" alt="El Golf" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">El Golf</div>
@@ -199,7 +204,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/buenavista/" aria-label="Buenavista">
           <div class="nbhd-card-image">
-                          <img src="/img/mall-plaza-next-to-buenavista-480x600.jpg" alt="Buenavista" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/mall-plaza-next-to-buenavista-480x600.jpg" alt="Buenavista" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Buenavista</div>
@@ -211,7 +216,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/villa-santos/" aria-label="Villa Santos">
           <div class="nbhd-card-image">
-                          <img src="/img/2020-06-07-CO-villa-santos-480x600.jpg" alt="Villa Santos" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/2020-06-07-CO-villa-santos-480x600.jpg" alt="Villa Santos" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Villa Santos</div>
@@ -223,7 +228,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/altos-de-riomar/" aria-label="Altos de Riomar">
           <div class="nbhd-card-image">
-                          <img src="/img/caribbean-sunset-from-alto-riomar-480x600.jpg" alt="Altos de Riomar" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/caribbean-sunset-from-alto-riomar-480x600.jpg" alt="Altos de Riomar" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Altos de Riomar</div>
@@ -235,7 +240,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/ciudad-jardin/" aria-label="Ciudad Jardín">
           <div class="nbhd-card-image">
-                          <img src="/img/flowers-galore-480x600.jpg" alt="Ciudad Jardín" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/flowers-galore-480x600.jpg" alt="Ciudad Jardín" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Ciudad Jardín</div>
@@ -247,7 +252,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/el-prado/" aria-label="El Prado">
           <div class="nbhd-card-image">
-                          <img src="/img/prado-480x575.avif" alt="El Prado" loading="lazy"  width="480" height="575" />
+                          <img decoding="async" src="/img/prado-480x575.avif" alt="El Prado" loading="lazy"  width="480" height="575" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">El Prado</div>
@@ -259,7 +264,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/alto-prado/" aria-label="Alto Prado">
           <div class="nbhd-card-image">
-                          <img src="/img/alto-prado-10-480x600.jpg" alt="Alto Prado" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/alto-prado-10-480x600.jpg" alt="Alto Prado" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Alto Prado</div>
@@ -271,7 +276,7 @@
             <div class="nbhd-card">
         <a href="/neighborhoods/villa-country/" aria-label="Villa Country">
           <div class="nbhd-card-image">
-                          <img src="/img/villa-country-area-480x600.jpg" alt="Villa Country" loading="lazy"  width="480" height="600" />
+                          <img decoding="async" src="/img/villa-country-area-480x600.jpg" alt="Villa Country" loading="lazy"  width="480" height="600" />
                         <div class="nbhd-card-overlay"></div>
             <div class="nbhd-card-tag">
               <div class="nbhd-card-name">Villa Country</div>
@@ -351,7 +356,7 @@
     <div class="guides-grid">
             <article class="guide-card">
         <a href="/tax-residency-colombia-2026-guide/" class="guide-card-image" aria-hidden="true" tabindex="-1">
-                      <img src="https://picsum.photos/seed/guide0/800/480" alt="Tax Residency in Colombia: The 183-Day Rule &#038; What to Know (2026)" loading="lazy"  width="800" height="480" />
+                      <img decoding="async" src="https://picsum.photos/seed/guide0/800/480" alt="Tax Residency in Colombia: The 183-Day Rule &#038; What to Know (2026)" loading="lazy"  width="800" height="480" />
                                 <div class="guide-card-badge">Essential</div>
                   </a>
         <div class="guide-card-body">
@@ -405,7 +410,7 @@
   <div class="container">
     <div class="editorial-inner">
       <div class="editorial-image">
-        <img src="/img/barranquilla-city-panoramic-view-900x450.jpg" alt="Barranquilla vs Medellín vs Bogotá: Which City Is Right for You?" loading="lazy"  width="900" height="450" />
+        <img decoding="async" src="/img/barranquilla-city-panoramic-view-900x450.jpg" alt="Barranquilla vs Medellín vs Bogotá: Which City Is Right for You?" loading="lazy"  width="900" height="450" />
       </div>
       <div class="editorial-content">
         <div class="editorial-label">
@@ -417,7 +422,7 @@
                 <p class="editorial-excerpt">A clear-eyed comparison of Colombia&#039;s three main expat destinations - climate, cost, culture, and professional opportunities - to help you choose.</p>
         <div class="editorial-meta">
           <div class="editorial-author-img">
-            <img src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&#038;d=mm&#038;r=g" alt="Mike Chartrand" loading="lazy"  width="80" height="80" />
+            <img decoding="async" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&#038;d=mm&#038;r=g" alt="Mike Chartrand" loading="lazy"  width="80" height="80" />
           </div>
           <div>
             <div class="editorial-author-name">Mike Chartrand</div>

@@ -33,7 +33,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" />
+  <!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
   <link rel="stylesheet" href="/css/site.css?v=20260424a" />
 
   <!-- Google tag (gtag.js) -->
@@ -120,7 +123,7 @@
 
 
 
-<figure class="wp-block-image alignwide size-large"><img srcset="/img/random-residential-area.jpg 1225w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-1024x576.jpg 1024w, /img/random-residential-area-768x432.jpg 768w" src="/img/random-residential-area.jpg" decoding="async" width="1225" height="689" alt="A leafy residential street in Ciudad Jardín" class="wp-image-3480" data-sizes="(max-width: 1225px) 100vw, 1225px" /></figure>
+<figure class="wp-block-image alignwide size-large"><img srcset="/img/random-residential-area.jpg 1225w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-1024x576.jpg 1024w, /img/random-residential-area-768x432.jpg 768w" src="/img/random-residential-area.jpg" decoding="async" width="1225" height="689" alt="A leafy residential street in Ciudad Jardín" class="wp-image-3480" data-sizes="(max-width: 1225px) 100vw, 1225px" / loading="lazy"></figure>
 
 
 
@@ -136,7 +139,7 @@
 
 
 
-<figure class="wp-block-image alignwide size-large"><img srcset="/img/random-residential-area-1024x576.jpg 1024w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-768x432.jpg 768w, /img/random-residential-area.jpg 1225w" src="/img/random-residential-area-1024x576.jpg" decoding="async" width="1024" height="576" alt="" class="wp-image-3480" data-sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image alignwide size-large"><img srcset="/img/random-residential-area-1024x576.jpg 1024w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-768x432.jpg 768w, /img/random-residential-area.jpg 1225w" src="/img/random-residential-area-1024x576.jpg" decoding="async" width="1024" height="576" alt="" class="wp-image-3480" data-sizes="(max-width: 1024px) 100vw, 1024px" / loading="lazy"></figure>
 
 
 

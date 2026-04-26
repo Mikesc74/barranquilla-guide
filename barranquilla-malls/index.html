@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Exploring Barranquilla’s Vibrant Malls</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -111,7 +114,7 @@
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-malls-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-malls-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <ol>
@@ -131,7 +134,7 @@
 <p>Gym: <a href="/best-gyms-in-barranquilla/">Spinning Center</a></p>
 <p>Theater: <a href="/best-movie-theaters-to-watch-films-in-english/">Cine Colombia</a></p>
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img alt="Buenavista Malla, Barranquilla" class="wp-image-1329" data-id="1329" decoding="async" src="/img/buenavista.webp"/><figcaption class="wp-element-caption">Buenavista 1 and 2</figcaption></figure>
+<figure class="wp-block-image size-large"><img alt="Buenavista Malla, Barranquilla" class="wp-image-1329" data-id="1329" decoding="async" src="/img/buenavista.webp"/ loading="lazy"><figcaption class="wp-element-caption">Buenavista 1 and 2</figcaption></figure>
 </figure>
 <h2 class="wp-block-heading" id="mallplaza-buenavista-3"><strong>Mallplaza</strong> (Buenavista 3)</h2>
 <p><a href="https://www.mallplaza.com/co/buenavista">Mallplaza </a>is another shopping gem that beckons visitors with its expansive retail spaces and a diverse range of stores. This mall boasts a mix of local and international brands, ensuring that shoppers can find everything they need under one roof. Moreover, Mallplaza is a <a href="/barranquilla-with-kids-family-guide-2026/">family-friendly</a> destination, complete with an entertainment zone for kids and a variety of dining options for all tastes. Mallplaza is located next to Buenavista 1 and 2 and across the street from Plaza del Parque.</p>
@@ -160,7 +163,7 @@
 <h2 class="wp-block-heading" id="conclusion">Conclusion</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Conclusion" height="800" loading="lazy" src="/img/barranquilla-malls-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Conclusion" height="800" loading="lazy" src="/img/barranquilla-malls-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Diego Agudelo / Pexels</figcaption>
 </figure>
 <p>Malls in Barranquilla offer a diverse and dynamic shopping experience for residents and visitors. Whether you’re looking for the latest fashion trends, high-end luxury items, family-friendly entertainment, or a unique shopping niche like golf, these malls have something for everyone. So, the next time you find yourself in Barranquilla, be sure to explore these fantastic retail destinations and immerse yourself in the city’s vibrant shopping culture.</p>

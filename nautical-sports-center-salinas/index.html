@@ -31,7 +31,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -89,7 +92,7 @@
 <h1>Nautical Sports Center: A new option for water sports tourism</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -108,7 +111,7 @@
 <p>“The climate, consistent strong winds, and wave size make Salinas del Rey the world’s second-best kitesurfing spot. Thanks to these factors, we’ve successfully hosted the GKA Kitesurfing World <a href="https://www.gkakiteworldtour.com/events/gka-freestyle-kite-world-cup-colombia-2023/" rel="noreferrer noopener" target="_blank">Championship </a>two years in a row,” emphasized the governor.</p>
 <p>Noguera further elaborated, “The project encompasses five distinct zones: a primary area designated for kite schools, a section for restaurants, another for a permanent crafts exhibition from Juan de Acosta, and two more designated for relaxation and contemplation. Undoubtedly, it’s a splendid initiative that will continue to drive sports tourism within the department.”</p>
 <p>Infrastructure Secretary Nury Logreira clarified that the ongoing work involves the installation of hydro-sanitary and electrical connections. Simultaneously, progress is being made in constructing foundation slabs and masonry walls. “Additionally, a crane has already been deployed to hoist the wooden structural components of the main module,” she added.</p>
-<figure class="wp-block-image size-full"><img alt="Rendering of the new Centro de Deportes Náuticos Salinas" class="wp-image-1206" data-sizes="(max-width: 750px) 100vw, 750px" decoding="async" height="430" src="/img/nauticos4.webp" srcset="/img/nauticos4.webp 750w, /img/nauticos4-300x172.webp 300w, /img/nauticos4-150x86.webp 150w, /img/nauticos4-696x399.webp 696w" width="750"/></figure>
+<figure class="wp-block-image size-full"><img alt="Rendering of the new Centro de Deportes Náuticos Salinas" class="wp-image-1206" data-sizes="(max-width: 750px) 100vw, 750px" decoding="async" height="430" src="/img/nauticos4.webp" srcset="/img/nauticos4.webp 750w, /img/nauticos4-300x172.webp 300w, /img/nauticos4-150x86.webp 150w, /img/nauticos4-696x399.webp 696w" width="750"/ loading="lazy"></figure>
 <h2 class="wp-block-heading">When is the nautical sports center expected to open?</h2>
 <p>Luis Restrepo, the Director of Indeportes, noted substantial advancements achieved over the past two months. “The contractor is committed to completing the project within this second semester. By December, as the winds return, we can prepare for the upcoming kitesurfing season, which consistently draws new tourists.”</p>
 <p>The Nautical Sports Center’s construction spans an area exceeding 2 thousand square meters, with an investment of 25 billion pesos. The facility encompasses a central structure containing classrooms, an infirmary, restrooms, changing rooms, storage areas, administrative offices, tourist information points, a terrace, a kitchen, technical spaces, and lockers. Additionally, provisions include a first aid zone, parking facilities, sections dedicated to gastronomy and crafts, and areas meant for contemplation.</p>
@@ -129,7 +132,7 @@
 <span class="label">Keep reading</span>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="Tranquil beach scene in Palomino, Colombia with boats and palm trees under a cloudy sky." height="800" loading="lazy" src="/img/nautical-sports-center-salinas-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Tranquil beach scene in Palomino, Colombia with boats and palm trees under a cloudy sky." height="800" loading="lazy" src="/img/nautical-sports-center-salinas-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maurice Hofra / Pexels</figcaption>
 </figure>
 <h2 class="section-title">Related articles</h2>

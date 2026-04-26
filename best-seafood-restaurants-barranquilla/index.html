@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Where to Eat the Best Seafood in Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -112,7 +115,7 @@
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="What’s in this guide" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Carlos Hernandez / Pexels</figcaption>
 </figure>
 <ol>
@@ -129,7 +132,7 @@
 <h2 class="bg-article__section-title" id="a-little-history-and-geography">A little history &amp; geography</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="A little history &amp; geography" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="A little history &amp; geography" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luisa Fernanda Hernandez Perez / Pexels</figcaption>
 </figure>
 <p>The coast here is older than Barranquilla itself. Long before the city was a city, the Mokaná and the fishing settlements along the Ciénaga de Mallorquín were working the same waters. When Puerto Colombia’s pier opened in 1888 – for a time the second-longest sea pier in the world – Barranquilla became Colombia’s front door, and the food coming through reflected it: Lebanese, Italian, Jewish, Chinese, and Afro-Caribbean influences layered onto an Indigenous base. The result is a regional cuisine that looks outward. Coconut rice and fried plantain sit next to whole snapper; ceviche runs Peruvian-style or <em>costeño</em> style with lime and raw onion; and the lisa – a humble mullet that spawns in the Ciénaga Grande – becomes <em>arroz de lisa</em>, a dish so specific to this coast that it shows up almost nowhere else.</p>
@@ -137,14 +140,14 @@
 <h2 class="bg-article__section-title" id="where-the-seafood-comes-from">Where the seafood comes from</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Where the seafood comes from" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Where the seafood comes from" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p><strong>The Ciénaga de Mallorquín</strong>, just north of the city, is a 4,000-hectare coastal lagoon where fishermen still work from canoes. It’s the source of most of Barranquilla’s lisa, mojarra, róbalo, and the chipi chipi clams that give one beachfront village its nickname. <strong>Bocas de Ceniza</strong> – the artificial mouth where the Magdalena meets the sea – produces bocachico and river shrimp; you can ride the old freight train out along the jetty and watch the fishermen work. <strong>The Tubará and Salgar coast</strong>, west of Puerto Colombia, delivers snapper, sierra, and langostinos from small artisanal fleets that dock at Pradomar and Salgar every afternoon. And <strong>the Plaza del Pescado</strong> at the Gran Central de Abastos – Barranquilla’s wholesale fish market – is where most of the city’s restaurants, fondas, and home cooks actually do their shopping, usually before 8am.</p>
 <h2 class="bg-article__section-title" id="key-dishes-explained">Key dishes, explained</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Key dishes, explained" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Key dishes, explained" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Costa Rica  Drone Tours / Pexels</figcaption>
 </figure>
 <p><strong>Arroz de lisa</strong> – the city’s signature dish. Smoked and salted lisa (mullet) cooked into rice with coconut milk and a quiet smokiness. Eaten wrapped in bijao leaf. If you try one thing in Barranquilla, this is it.</p>
@@ -162,7 +165,7 @@
 <h2 class="bg-article__section-title" id="in-the-city-barranquilla-proper">In the city – Barranquilla proper</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="In the city – Barranquilla proper" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="In the city – Barranquilla proper" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Andrius La Rotta / Pexels</figcaption>
 </figure>
 <div class="place-card">
@@ -217,7 +220,7 @@
 <h2 class="bg-article__section-title" id="las-flores-and-the-river-mouth">Las Flores &amp; the river mouth</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Las Flores &amp; the river mouth" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Las Flores &amp; the river mouth" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: NEHEMIAS GOMEZ FOTOGRAFIA / Pexels</figcaption>
 </figure>
 <p>Las Flores is the fishing village that Barranquilla grew around but never quite absorbed. It sits where the Magdalena empties into the sea, a short drive north of downtown, and the main street is essentially a line of open-air fish restaurants with the boats pulled up behind them. Sunday lunch here is a Barranquilla ritual. Everything is fresher, cheaper, and louder than in the city, and nothing feels polished – which is the point.</p>
@@ -245,7 +248,7 @@
 <h2 class="bg-article__section-title" id="puerto-colombia-and-the-pier">Puerto Colombia &amp; the pier</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Puerto Colombia &amp; the pier" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Puerto Colombia &amp; the pier" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p>Twenty minutes west of Barranquilla, Puerto Colombia is where the city goes for the weekend. The 1888 pier – once Colombia’s main Atlantic port – is the landmark, but the food is the point: small boats land snapper and sierra every afternoon, and a string of beach restaurants along Playa Pradomar and Playa Puerto Velero cook it directly.</p>
@@ -273,7 +276,7 @@
 <h2 class="bg-article__section-title" id="the-weekend-coast-salgar-sabanilla-ca-o-dulce">The weekend coast – Salgar, Sabanilla, Caño Dulce</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="The weekend coast – Salgar, Sabanilla, Caño Dulce" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="The weekend coast – Salgar, Sabanilla, Caño Dulce" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: erik debarre / Pexels</figcaption>
 </figure>
 <div class="place-card">
@@ -293,7 +296,7 @@
 <h2 class="bg-article__section-title" id="markets-where-the-cooks-shop">Markets – where the cooks shop</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Markets – where the cooks shop" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Markets – where the cooks shop" height="800" loading="lazy" src="/img/best-seafood-restaurants-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Sebastian A. Montanchez Saldarriaga / Pexels</figcaption>
 </figure>
 <div class="place-card">

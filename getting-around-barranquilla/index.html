@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Getting Around Barranquilla: Transport Guide (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -115,7 +118,7 @@
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="What’s in this guide" height="800" loading="lazy" src="/img/getting-around-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/getting-around-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <ol>
@@ -135,7 +138,7 @@
 <h2 id="what-to-use-when">At a glance: what to use when</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="At a glance: what to use when" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="At a glance: what to use when" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
 </figure>
 <p><strong>Short hops within a neighborhood</strong>: walk, or 5–10 minute Uber.<br/>
@@ -147,7 +150,7 @@
 <h2 id="rideshare">Rideshare: Uber, DiDi, InDriver</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Rideshare: Uber, DiDi, InDriver" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Rideshare: Uber, DiDi, InDriver" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p>Rideshare is how most tourists, professionals, and long-term foreign residents move around the city. It’s cheaper than taxis, more transparent, and far safer than hailing cabs on the street.</p>
@@ -171,7 +174,7 @@
 <h2 id="transmetro">Transmetro (BRT)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Transmetro (BRT)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Transmetro (BRT)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p>Barranquilla’s bus rapid transit system, operating since 2010. Modeled on Bogotá’s TransMilenio but smaller: two main trunk lines plus a network of feeder routes.</p>
@@ -182,7 +185,7 @@
 <h2 id="city-buses">City buses (colectivos)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="City buses (colectivos)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="City buses (colectivos)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Alejandro Botero / Pexels</figcaption>
 </figure>
 <p>The dense network of private city buses is the real public-transit backbone – serving neighborhoods Transmetro doesn’t reach and running more frequently than you’d expect. Fares as of 2026 are <strong>COP 3,300 ordinary / COP 3,400 Sundays</strong> (unified tariff across all operators, set by the Área Metropolitana). Pay cash when boarding.</p>
@@ -191,7 +194,7 @@
 <h2 id="taxis">Taxis</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Taxis" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Taxis" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Elizabeth Figueroa Leaño / Pexels</figcaption>
 </figure>
 <p>Registered yellow taxis are everywhere. They’re <strong>cheaper than rideshares on most routes</strong> but less transparent. Rules of thumb:</p>
@@ -206,7 +209,7 @@
 <h2 id="walking">Walking</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Walking" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Walking" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Claudia Sampaio / Pexels</figcaption>
 </figure>
 <p>Barranquilla is walkable in pockets, not whole. <strong>El Prado, Alto Prado, and Villa Country</strong> are genuinely pedestrian-friendly – you can spend a whole weekend on foot if you stay in these neighborhoods. Sidewalks are uneven but consistent. The <a href="https://www.lagranmalecon.com/" rel="noopener" target="_blank">Gran Malecón</a> is the city’s best long walk – 5+ km along the river with cafés, sculpture, and sunset views.</p>
@@ -215,7 +218,7 @@
 <h2 id="cycling">Cycling</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Cycling" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Cycling" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel angel Morales García / Pexels</figcaption>
 </figure>
 <p>Cycling culture is growing. The <strong>Gran Malecón</strong> has a dedicated bike lane. Sunday’s <strong>Ciclovía</strong> closes major avenues to cars for several hours, popular with families. For commuting, the heat and the aggressive driving make daily cycling a committed choice; for recreation it works well.</p>
@@ -223,7 +226,7 @@
 <h2 id="driving">Driving yourself</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Driving yourself" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Driving yourself" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: JohnEGo! / Pexels</figcaption>
 </figure>
 <p>We generally don’t recommend renting a car inside the city. Traffic is dense, parking is scarce in the north, motorcycle behavior is unpredictable, and rideshares are cheap enough to make the hassle not worth it.</p>
@@ -239,7 +242,7 @@
 <h2 id="intercity">Intercity and regional</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Intercity and regional" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Intercity and regional" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Roberto Castano / Pexels</figcaption>
 </figure>
 <h3>By road</h3>
@@ -259,7 +262,7 @@
 <h2 id="tips">Practical tips</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Practical tips" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Practical tips" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
 </figure>
 <p><strong>Download apps before you arrive.</strong> Uber, DiDi, InDriver, Moovit, and Google Maps all work well in Barranquilla. Maps of Transmetro lines are embedded in Moovit.</p>

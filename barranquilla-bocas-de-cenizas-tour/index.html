@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>Bocas de Cenizas Tour: Where the River Meets the Sea (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -105,7 +108,7 @@
 <div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <h3 style="margin:0 0 12px 0;font-size:20px;color:#1a3a5c;">Bocas de Cenizas: Magdalena River &amp; Caribbean Boat Tour</h3>
-<figure class="wp-block-image alignwide size-large"><img alt="View from the Magdalena River boat tour" class="wp-image-3664" data-sizes="(max-width: 669px) 100vw, 669px" decoding="async" height="446" src="/img/bocas-de-cenizas-tour-2.jpg" srcset="/img/bocas-de-cenizas-tour-2.jpg 669w, /img/bocas-de-cenizas-tour-2-300x200.jpg 300w, /img/bocas-de-cenizas-tour-2-600x400.jpg 600w" width="669"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<figure class="wp-block-image alignwide size-large"><img alt="View from the Magdalena River boat tour" class="wp-image-3664" data-sizes="(max-width: 669px) 100vw, 669px" decoding="async" height="446" src="/img/bocas-de-cenizas-tour-2.jpg" srcset="/img/bocas-de-cenizas-tour-2.jpg 669w, /img/bocas-de-cenizas-tour-2-300x200.jpg 300w, /img/bocas-de-cenizas-tour-2-600x400.jpg 600w" width="669"/ loading="lazy"><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
 <span>⏱ 5 hours</span>
 <span> From $55 USD</span>
@@ -118,7 +121,7 @@
 <h2 class="wp-block-heading">What Is Bocas de Cenizas?</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="What Is Bocas de Cenizas?" height="800" loading="lazy" src="/img/barranquilla-bocas-de-cenizas-tour-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="What Is Bocas de Cenizas?" height="800" loading="lazy" src="/img/barranquilla-bocas-de-cenizas-tour-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
 </figure>
 <figure class="wp-block-image size-large"><img alt="Where the Magdalena River meets the Caribbean at Bocas de Cenizas" class="wp-image-2821" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2806-1024x538.jpg" srcset="/img/tour-2806-1024x538.jpg 1024w, /img/tour-2806-300x158.jpg 300w, /img/tour-2806-768x403.jpg 768w, /img/tour-2806.jpg 1200w" width="1024"/></figure>
@@ -147,7 +150,7 @@
 <h2 class="wp-block-heading">Book the Bocas de Cenizas Tour</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="Book the Bocas de Cenizas Tour" height="800" loading="lazy" src="/img/barranquilla-bocas-de-cenizas-tour-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Book the Bocas de Cenizas Tour" height="800" loading="lazy" src="/img/barranquilla-bocas-de-cenizas-tour-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Woody Willis / Pexels</figcaption>
 </figure>
 <p><a href="https://www.viator.com/tours/Barranquilla/Boat-Tour-on-the-Magdalena-River/d50228-59388P113?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book on Viator – free cancellation</a></p>

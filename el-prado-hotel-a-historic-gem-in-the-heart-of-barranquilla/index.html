@@ -30,7 +30,10 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- PERF: async fonts -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
 <link href="/css/site.css?v=20260424a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=GT-TNSNLWV"></script>
@@ -88,7 +91,7 @@
 <h1>El Prado Hotel: A Historic Gem in the Heart of Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -101,7 +104,7 @@
 </div>
 <!-- Article Body -->
 <div class="article-body">
-<figure class="wp-block-image size-full"><img alt="El Prado Hotel facade in Barranquilla" class="wp-image-482" data-sizes="(max-width: 840px) 100vw, 840px" decoding="async" height="460" src="/img/front.jpg" srcset="/img/front.jpg 840w, /img/front-300x164.jpg 300w, /img/front-768x421.jpg 768w, /img/front-696x381.jpg 696w" width="840"/><figcaption class="wp-element-caption">The iconic entrance</figcaption></figure>
+<figure class="wp-block-image size-full"><img alt="El Prado Hotel facade in Barranquilla" class="wp-image-482" data-sizes="(max-width: 840px) 100vw, 840px" decoding="async" height="460" src="/img/front.jpg" srcset="/img/front.jpg 840w, /img/front-300x164.jpg 300w, /img/front-768x421.jpg 768w, /img/front-696x381.jpg 696w" width="840"/ loading="lazy"><figcaption class="wp-element-caption">The iconic entrance</figcaption></figure>
 <p>Nestled in the vibrant city of Barranquilla, El Prado Hotel stands as a historic landmark that has witnessed the transformation and growth of the city over the years. With its elegant architecture, timeless charm, and rich history, El Prado Hotel is not just a place to stay but a testament to the cultural heritage and development of Barranquilla. Let’s delve into the captivating history of this iconic hotel and its significance in the region.</p>
 <div class="ez-toc-v2_0_82_2 counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction" id="ez-toc-container">
 <div class="ez-toc-title-container">
@@ -111,7 +114,7 @@
 <h2 class="wp-block-heading">Origins and Early Years </h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
 <figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img alt="Origins and Early Years" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="Origins and Early Years" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
 </figure>
 <p>El Prado Hotel was inaugurated in 1930 during a period of economic prosperity in Barranquilla known as the “golden age.” Its construction marked a milestone for the city, as it was the first modern luxury hotel in the Caribbean region of Colombia. The architectural design of the hotel combines Art Deco and Neoclassical styles, showcasing the influence of international trends of the time.</p>
@@ -121,7 +124,7 @@
 <h2 class="wp-block-heading">A Witness to Historical Moments</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img alt="A Witness to Historical Moments" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
+<img decoding="async" alt="A Witness to Historical Moments" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
 <figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Nigel Medina / Pexels</figcaption>
 </figure>
 <p><a href="https://www.instagram.com/hotelelpradobarranquilla/" rel="noreferrer noopener" target="_blank">El Prado Hotel</a> has been a silent witness to significant moments in Barranquilla’s history. During the mid-20th century, Barranquilla played a pivotal role in Colombia’s cultural renaissance, and El Prado Hotel was at the epicenter of this movement. It served as a meeting place for intellectuals, artists, and musicians who shaped the cultural landscape of the city. Notable figures such as Gabriel García Márquez, Nobel laureate and literary icon, frequented the hotel, leaving an indelible mark on its history.</p>
