@@ -589,8 +589,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://barranquilla.guide/whats-happening-in-barranquilla-week-of-may-4-2026/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://barranquilla.guide/whats-happening-in-barranquilla-week-of-april-27-2026/</loc>
-    <lastmod>2026-04-27</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -621,6 +627,12 @@
   <url>
     <loc>https://barranquilla.guide/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/</loc>
     <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://barranquilla.guide/start-small-business-barranquilla-2026-guide/</loc>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
