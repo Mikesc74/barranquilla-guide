@@ -341,6 +341,80 @@
     buildArticleToc();
   }
 
+  /* ── Archive lazy-load: reveal posts in batches as user scrolls ── */
+  function initArchiveLazyLoad() {
+    var grid = document.querySelector('.archive-grid .posts-grid');
+    if (!grid) return;
+
+    // Only direct article-card children of the grid
+    var allCards = grid.children;
+    var cards = [];
+    for (var i = 0; i < allCards.length; i++) {
+      if (allCards[i].classList && allCards[i].classList.contains('article-card')) {
+        cards.push(allCards[i]);
+      }
+    }
+
+    var INITIAL = 6;
+    var BATCH = 6;
+    if (cards.length <= INITIAL) return; // not enough to lazy-load
+
+    // Hide cards beyond the initial batch
+    for (var j = INITIAL; j < cards.length; j++) {
+      cards[j].classList.add('is-hidden-lazy');
+    }
+    var visibleCount = INITIAL;
+
+    // Hide the empty static pagination div — replaced by infinite scroll
+    var paginationEl = document.querySelector('.archive-grid .pagination');
+    if (paginationEl) paginationEl.style.display = 'none';
+
+    // Sentinel placed right after the grid; observed to trigger reveals
+    var sentinel = document.createElement('div');
+    sentinel.className = 'archive-lazy-sentinel';
+    sentinel.setAttribute('aria-hidden', 'true');
+    sentinel.style.height = '1px';
+    grid.parentNode.insertBefore(sentinel, grid.nextSibling);
+
+    var observer;
+
+    function reveal() {
+      var end = Math.min(visibleCount + BATCH, cards.length);
+      for (var k = visibleCount; k < end; k++) {
+        cards[k].classList.remove('is-hidden-lazy');
+      }
+      visibleCount = end;
+      if (visibleCount >= cards.length) {
+        if (observer) observer.disconnect();
+        if (sentinel && sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+      }
+    }
+
+    if ('IntersectionObserver' in window) {
+      observer = new IntersectionObserver(function (entries) {
+        for (var i2 = 0; i2 < entries.length; i2++) {
+          if (entries[i2].isIntersecting) {
+            reveal();
+            break;
+          }
+        }
+      }, { rootMargin: '600px 0px' });
+      observer.observe(sentinel);
+    } else {
+      // No IO support — just show everything
+      for (var m = visibleCount; m < cards.length; m++) {
+        cards[m].classList.remove('is-hidden-lazy');
+      }
+      if (sentinel.parentNode) sentinel.parentNode.removeChild(sentinel);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initArchiveLazyLoad);
+  } else {
+    initArchiveLazyLoad();
+  }
+
 })();
 
 /* The legacy WordPress AJAX dual-write to Brevo was removed on

@@ -799,6 +799,10 @@ p:last-child { margin-bottom: 0; }
 @media (max-width: 900px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .posts-grid { grid-template-columns: 1fr; } }
 
+/* Archive lazy-load: cards beyond the initial batch are hidden until
+   the user scrolls near the bottom (see initArchiveLazyLoad in main.js). */
+.posts-grid > .article-card.is-hidden-lazy { display: none; }
+
 /* ─── 404 ────────────────────────────────────────────────────────── */
 .error-404 {
   min-height: 70vh; display: flex; align-items: center; justify-content: center;

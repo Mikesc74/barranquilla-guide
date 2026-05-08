@@ -589,8 +589,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://barranquilla.guide/whats-happening-in-barranquilla-week-of-april-27-2026/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://barranquilla.guide/whats-happening-in-barranquilla-week-of-april-20-2026/</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
