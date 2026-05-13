@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-perf-fix-fonts.py — async-load Google Fonts CSS to kill mobile blank-window flash.
+perf-fix-fonts.py, async-load Google Fonts CSS to kill mobile blank-window flash.
 
 Idempotent. Re-runnable. Replaces every render-blocking
 <link rel="stylesheet" href="https://fonts.googleapis.com/...">
@@ -32,7 +32,7 @@ SENTINEL = "<!-- PERF: async fonts -->"
 
 
 def replacement(match: re.Match) -> str:
-    # Normalize HTML-encoded ampersands — they're valid in href, but cleaner once.
+    # Normalize HTML-encoded ampersands, they're valid in href, but cleaner once.
     href = match.group(1)
     return (
         f'{SENTINEL}\n'

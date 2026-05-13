@@ -59,7 +59,7 @@ def remove_balanced_div(html: str, start_marker: str) -> tuple[str, bool]:
         o = open_tag.search(html, pos)
         c = close_tag.search(html, pos)
         if c is None:
-            return html, False  # malformed — leave it alone
+            return html, False  # malformed, leave it alone
         if o is not None and o.start() < c.start():
             depth += 1
             pos = o.end()

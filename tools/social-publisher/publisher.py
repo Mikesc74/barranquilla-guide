@@ -107,7 +107,7 @@ CANONICAL_RE = re.compile(r'<link\s+rel=["\']canonical["\']\s+href=["\']([^"\']+
 
 
 def parse_article(index_html: Path):
-    """Return dict with slug, url, title, description, image, published, modified — or None."""
+    """Return dict with slug, url, title, description, image, published, modified, or None."""
     try:
         html = index_html.read_text(encoding="utf-8", errors="ignore")
     except Exception as e:
@@ -172,7 +172,7 @@ def pick_article(articles: list, history: dict):
             recent_slugs.add(post.get("slug"))
         recent_categories.append(post.get("category"))
 
-    # Most recently posted categories (last 4) — avoid if possible.
+    # Most recently posted categories (last 4), avoid if possible.
     recent_cats_set = set(recent_categories[-4:])
     eligible = [a for a in articles if a["slug"] not in recent_slugs]
     if not eligible:
@@ -206,7 +206,7 @@ Rules:
 - Facebook: 1–2 short sentences, friendly and curious, include the URL at the end, no hashtags.
 - Instagram: 1–3 short sentences, evocative, include a soft CTA like "Link in bio" (do NOT paste the URL), end with a line of 8–12 relevant hashtags separated by spaces. Mix broad (#Barranquilla #Colombia #VisitColombia) with specific ones based on the topic.
 - NO emojis anywhere in either caption.
-- Evergreen phrasing only — prefer "typically runs in October" over "October 2026". Do not mention the current year unless the article title already does.
+- Evergreen phrasing only, prefer "typically runs in October" over "October 2026". Do not mention the current year unless the article title already does.
 - Use American English.
 - Do NOT invent facts beyond the description.
 

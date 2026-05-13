@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-perf-fix-images.py — add decoding="async" to every <img> that lacks it.
+perf-fix-images.py, add decoding="async" to every <img> that lacks it.
 
 Idempotent. Safe. decoding="async" is a paint-thread optimization with
-no side-effects on layout or load priority — the browser decodes the
+no side-effects on layout or load priority, the browser decodes the
 image off the main thread when ready.
 
 Skips .bak files. Run from repo root.

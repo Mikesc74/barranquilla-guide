@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-perf-fix-lazy.py — add loading="lazy" to clearly-below-fold <img> tags.
+perf-fix-lazy.py, add loading="lazy" to clearly-below-fold <img> tags.
 
 Idempotent. Conservative. Only targets two very-safe patterns:
   1. Gravatar author avatars (class="avatar")

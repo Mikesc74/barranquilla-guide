@@ -725,7 +725,7 @@ p:last-child { margin-bottom: 0; }
 .article-toc-list .toc-level-3 a:hover,
 .article-toc-list .toc-level-3 a.is-active { color: var(--navy); }
 
-/* Hide any legacy inline TOC blocks — the sidebar replaces them */
+/* Hide any legacy inline TOC blocks, the sidebar replaces them */
 .article-body > .toc,
 .article-body #ez-toc-container,
 .article-body .ez-toc-v2_0_82_2,

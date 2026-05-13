@@ -17,7 +17,7 @@ Daily Cloudflare-Pages-friendly replacement for the old WordPress → FB/IG auto
 | `FB_PAGE_ID` | Numeric Page ID for the Barranquilla.Guide FB Page |
 | `FB_PAGE_TOKEN` | Long-lived Page access token with `pages_manage_posts`, `pages_read_engagement` |
 | `IG_USER_ID` | Instagram Business account ID linked to the FB Page |
-| `IG_TOKEN` | Optional — defaults to `FB_PAGE_TOKEN` if the same long-lived token covers IG publishing |
+| `IG_TOKEN` | Optional, defaults to `FB_PAGE_TOKEN` if the same long-lived token covers IG publishing |
 
 ## Running locally
 ```bash

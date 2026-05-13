@@ -1,4 +1,4 @@
-/* ─── Barranquilla Guide — main.js ─────────────────────────────── */
+/* ─── Barranquilla Guide, main.js ─────────────────────────────── */
 (function () {
   'use strict';
 
@@ -194,7 +194,7 @@
       inlineToc[i].style.display = 'none';
     }
 
-    // Collect candidate headings — prefer H2, include H3 as sub-items
+    // Collect candidate headings, prefer H2, include H3 as sub-items
     var allHeadings = body.querySelectorAll('h2, h3');
     var headings = [];
     var usedIds = {};
@@ -365,7 +365,7 @@
     }
     var visibleCount = INITIAL;
 
-    // Hide the empty static pagination div — replaced by infinite scroll
+    // Hide the empty static pagination div, replaced by infinite scroll
     var paginationEl = document.querySelector('.archive-grid .pagination');
     if (paginationEl) paginationEl.style.display = 'none';
 
@@ -401,7 +401,7 @@
       }, { rootMargin: '600px 0px' });
       observer.observe(sentinel);
     } else {
-      // No IO support — just show everything
+      // No IO support, just show everything
       for (var m = visibleCount; m < cards.length; m++) {
         cards[m].classList.remove('is-hidden-lazy');
       }
