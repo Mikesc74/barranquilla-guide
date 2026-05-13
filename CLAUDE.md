@@ -489,9 +489,15 @@ https://developers.facebook.com/tools/debug/ and click "Scrape Again".
   no action needed unless one of the referenced slugs stops existing.
 - **No on-site search.** Intentionally removed, the WordPress `?s=` query
   was gone after the static port, and rather than bolt Pagefind on top, the
-  search UI was stripped on 2026-04-23 and replaced with a hero-level CTA
-  that opens the Chatbase assistant. The chatbot covers discovery for this
-  site's Q&A-shaped content.
+  search UI was stripped on 2026-04-23. Discovery on this site is now
+  handled by Charo (the Barranquilla persona of Catalina), not Chatbase.
+- **Chatbase removed on 2026-05-13.** Bot id `wv8hNpU46aEhF0eXDOVF4` and the
+  hero "Ask the guide" CTA were stripped network-wide so we could embed the
+  Charo chat widget cleanly. Stripper lives at `scripts/remove-chatbot.py`
+  (idempotent). CSP entries swapped from `https://www.chatbase.co` to
+  `https://catalina.barranquilla.guide` in `_headers` script-src + connect-src.
+  The Charo widget snippet itself is added by the broader network deploy
+  (catalina worker + DNS for catalina.barranquilla.guide).
 - **`scripts/build_sitemap.py` is referenced in the README but doesn't
   exist.** Only `fix-og-images.py` and `remove-search.py` are checked in.
 - **No cookie-consent banner.** GA4 fires on every page load. Add a gate
