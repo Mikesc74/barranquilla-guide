@@ -1,0 +1,47 @@
+#!/bin/bash
+# barranquilla-guide pre-push hook, refuse to push if any HTML file
+# modified in the pending push has unbalanced section/div/main/article/
+# nav/header/footer tags.
+#
+# Only checks files actually changed in this push (vs origin/HEAD), so
+# pre-existing imbalances on unmodified pages won't false-fire.
+#
+# History: the 2026-05-13 "Strip Chatbase chatbot" commit deleted the
+# hero reading-paths nav, the scroll indicator, the closing </section>,
+# and the entire neighborhoods strip from the homepage because the
+# regex stripper was too greedy. Site rendered as a layout-broken stub
+# on desktop and mobile. This hook catches that.
+#
+# To bypass (emergency only): git push --no-verify
+#
+# Install: ln -sf ../../scripts/git-hooks/pre-push .git/hooks/pre-push
+#          chmod +x scripts/git-hooks/pre-push scripts/check-tag-balance.py
+
+cd "$(git rev-parse --show-toplevel)" || exit 1
+
+# Read remote refs from stdin (git push hook protocol) and collect changed
+# HTML files. Fall back to comparing against the upstream tracking branch.
+changed=""
+while read -r local_ref local_sha remote_ref remote_sha; do
+    if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
+        # new branch being pushed, diff against the merge base with HEAD's parent
+        files=$(git diff --name-only "$(git rev-list --max-parents=0 HEAD | tail -1)" "$local_sha" -- '*.html' 2>/dev/null)
+    else
+        files=$(git diff --name-only "$remote_sha" "$local_sha" -- '*.html' 2>/dev/null)
+    fi
+    changed=$(printf '%s\n%s' "$changed" "$files")
+done
+
+# Fallback if hook protocol gave us nothing useful
+if [ -z "$(echo "$changed" | tr -d '[:space:]')" ]; then
+    changed=$(git diff --name-only '@{u}..HEAD' -- '*.html' 2>/dev/null)
+fi
+
+# Skip cleanly if no HTML touched
+if [ -z "$(echo "$changed" | tr -d '[:space:]')" ]; then
+    echo "[pre-push] no HTML changes, skipping tag-balance check"
+    exit 0
+fi
+
+# Run the checker on changed files only
+echo "$changed" | sort -u | python3 scripts/check-tag-balance.py
