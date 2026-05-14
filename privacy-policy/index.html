@@ -64,7 +64,7 @@
       <li class="menu-item"><a href="/city-map/">City Map</a></li>
     </ul>
     <div class="nav-right">
-      <a href="/#newsletter-form" class="nav-cta">Subscribe</a>
+      <a href="/#newsletter" class="nav-cta">Subscribe</a>
     </div>
     <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -80,7 +80,7 @@
   <a href="/category/now/" class="mobile-nav-link">Latest News</a>
   <a href="/city-map/" class="mobile-nav-link">City Map</a>
   <div class="mobile-nav-ctas">
-    <a href="/#newsletter-form" class="btn btn--coral">Subscribe to the newsletter</a>
+    <a href="/#newsletter" class="btn btn--coral">Subscribe to the newsletter</a>
     <a href="/section/explore/" class="btn btn--outline-white">Just visiting</a>
   </div>
 </div>
@@ -98,6 +98,23 @@
     <div class="article-body">
         <p>Barranquilla Guide (&#8220;we&#8221;, &#8220;us&#8221;) operates barranquilla.guide. This page explains how we handle data.</p><h3 class="wp-block-heading">Cookies &#038; Analytics</h3><p>We use Google Analytics to understand how visitors use this site. This uses cookies. No personally identifiable information is collected. You can opt out via your browser settings or a tool like uBlock Origin.</p><h3 class="wp-block-heading">Affiliate Links</h3><p>Some links on this site are affiliate links, primarily to Booking.com, Viator, and GetYourGuide. If you click and make a purchase, we may earn a small commission at no extra cost to you. This is how we fund the site. We only recommend things we&#8217;d genuinely use.</p><h3 class="wp-block-heading">Advertising</h3><p>We display ads via Google AdSense. Google may use cookies to serve relevant ads based on your browsing. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google&#8217;s privacy policy</a> for details.</p><h3 class="wp-block-heading">Contact</h3><p>Questions about privacy? use our <a href="/contact/">contact form</a>.</p>    </div>
 </article><footer class="site-footer" role="contentinfo">
+<!-- newsletter-footer-bar:v1 -->
+<div class="footer-newsletter-bar">
+  <div class="container footer-newsletter-inner">
+    <p class="footer-newsletter-copy">Get the Barranquilla weekly: new posts and what's on, one short email each Saturday.</p>
+    <form class="footer-newsletter newsletter-form"
+          data-city="barranquilla" data-source="footer"
+          action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
+      <input type="email" name="email"
+             placeholder="you@example.com" required aria-label="Email address" />
+      <input type="hidden" name="city" value="barranquilla" />
+      <input type="hidden" name="source" value="footer" />
+      <button type="submit">Subscribe</button>
+      <span class="footer-newsletter-status" role="status" aria-live="polite"></span>
+    </form>
+  </div>
+</div>
+
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">

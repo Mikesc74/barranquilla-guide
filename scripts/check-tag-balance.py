@@ -38,7 +38,9 @@ for f in files:
         continue  # file was deleted, fine
     for tag in TAGS:
         opens  = len(re.findall(rf"<{tag}\b",  s))
-        closes = len(re.findall(rf"</{tag}>", s))
+        # Count `</tag>` and `<\/tag>` (the latter shows up inside JS strings
+        # where the slash is escaped, e.g. Leaflet divIcon HTML payloads).
+        closes = len(re.findall(rf"<\\?/{tag}>", s))
         if opens != closes:
             errs.append(f"  {f}: <{tag}> opens={opens} closes={closes} (diff {opens - closes})")
 

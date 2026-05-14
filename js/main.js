@@ -95,74 +95,58 @@
     });
   }
 
-  /* ── Newsletter form ─────────────────────────────────────────── */
-  var newsletterForm   = document.getElementById('newsletter-form');
-  var newsletterStatus = document.getElementById('newsletter-status');
-
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function (e) {
+  /* ── Newsletter forms (canonical, multi-instance) ─────────────────
+   * Every page can carry 1+ <form class="newsletter-form" data-city="..."
+   * data-source="...">. We POST JSON to the guides-newsletter Worker
+   * and show inline status.
+   */
+  document.querySelectorAll('form.newsletter-form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var emailInput = newsletterForm.querySelector('input[type="email"]');
-      var submitBtn  = newsletterForm.querySelector('.email-capture-submit');
-      var email      = emailInput ? emailInput.value.trim() : '';
+      var city   = form.getAttribute('data-city')   || 'barranquilla';
+      var source = form.getAttribute('data-source') || 'unknown';
+      var input  = form.querySelector('input[type="email"]');
+      var btn    = form.querySelector('button[type="submit"]');
+      var status = form.querySelector('[role="status"], .newsletter-status, .email-capture-note');
+      var email  = (input && input.value || '').trim();
 
-      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        if (newsletterStatus) {
-          newsletterStatus.textContent = 'Please enter a valid email address.';
-          newsletterStatus.style.color = 'var(--coral)';
-        }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        if (status) { status.textContent = 'Please enter a valid email address.'; status.style.color = 'var(--coral)'; }
         return;
       }
 
-      // Show loading state
-      submitBtn.textContent = 'Subscribing…';
-      submitBtn.disabled = true;
+      var origBtn = btn ? btn.textContent : '';
+      if (btn) { btn.textContent = 'Subscribing…'; btn.disabled = true; }
 
-      // POST to Formspree (endpoint: xgopjoao). Hidden field
-      // subject=newsletter-subscribe lets us filter newsletter
-      // submissions in the Formspree inbox.
-      var data = new FormData();
-      data.append('email', email);
-      data.append('subject', 'newsletter-subscribe');
-
-      fetch('https://formspree.io/f/xgopjoao', {
+      fetch('https://newsletter.colguides.com/subscribe', {
         method: 'POST',
-        body: data,
-        headers: { 'Accept': 'application/json' }
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ email: email, city: city, source: source })
       })
-        .then(function (r) { return r.json().then(function (body) { return { ok: r.ok, body: body }; }); })
+        .then(function (r) { return r.json().then(function (b) { return { ok: r.ok && b.ok !== false, body: b }; }); })
         .then(function (res) {
           if (res.ok) {
-            submitBtn.textContent = 'Subscribed ✓';
-            submitBtn.style.background = '#2a7a4b';
-            if (emailInput) emailInput.value = '';
-            if (newsletterStatus) {
-              newsletterStatus.textContent = 'You\'re in. Welcome to the guide.';
-              newsletterStatus.style.color = '#2a7a4b';
-            }
+            var msg = res.body && res.body.state === 'already_confirmed'
+              ? "You're already subscribed. Thanks!"
+              : 'Check your inbox to confirm your email.';
+            if (btn)   { btn.textContent = 'Subscribed ✓'; btn.style.background = '#2a7a4b'; }
+            if (input) input.value = '';
+            if (status){ status.textContent = msg; status.style.color = '#2a7a4b'; }
           } else {
-            submitBtn.textContent = 'Subscribe';
-            submitBtn.disabled = false;
-            if (newsletterStatus) {
-              var msg = 'Something went wrong. Please try again.';
-              if (res.body && Array.isArray(res.body.errors) && res.body.errors.length) {
-                msg = res.body.errors.map(function (e) { return e.message; }).join(' ');
-              }
-              newsletterStatus.textContent = msg;
-              newsletterStatus.style.color = 'var(--coral)';
-            }
+            if (btn) { btn.textContent = origBtn || 'Subscribe'; btn.disabled = false; }
+            var err = (res.body && res.body.error) || '';
+            var human = err === 'invalid_email' ? 'Please enter a valid email address.'
+                      : err === 'invalid_city'  ? 'Form configuration error. Please tell us.'
+                      :                            'Something went wrong. Please try again.';
+            if (status) { status.textContent = human; status.style.color = 'var(--coral)'; }
           }
         })
         .catch(function () {
-          submitBtn.textContent = 'Subscribe';
-          submitBtn.disabled = false;
-          if (newsletterStatus) {
-            newsletterStatus.textContent = 'Network error. Please try again.';
-            newsletterStatus.style.color = 'var(--coral)';
-          }
+          if (btn) { btn.textContent = origBtn || 'Subscribe'; btn.disabled = false; }
+          if (status) { status.textContent = 'Network error. Please try again.'; status.style.color = 'var(--coral)'; }
         });
     });
-  }
+  });
 
   /* ── Lazy load: trigger nav update on DOMContentLoaded ──────── */
   document.addEventListener('DOMContentLoaded', function () {

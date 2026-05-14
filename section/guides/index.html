@@ -63,7 +63,7 @@
       <li class="menu-item"><a href="/city-map/">City Map</a></li>
     </ul>
     <div class="nav-right">
-      <a href="/#newsletter-form" class="nav-cta">Subscribe</a>
+      <a href="/#newsletter" class="nav-cta">Subscribe</a>
     </div>
     <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -79,7 +79,7 @@
   <a href="/category/now/" class="mobile-nav-link">Latest News</a>
   <a href="/city-map/" class="mobile-nav-link">City Map</a>
   <div class="mobile-nav-ctas">
-    <a href="/#newsletter-form" class="btn btn--coral">Subscribe to the newsletter</a>
+    <a href="/#newsletter" class="btn btn--coral">Subscribe to the newsletter</a>
     <a href="/section/explore/" class="btn btn--outline-white">Just visiting</a>
   </div>
 </div>
@@ -414,6 +414,23 @@
           </div><!-- .posts-grid -->
   </div><!-- .container -->
 </div><!-- .archive-grid --><footer class="site-footer" role="contentinfo">
+<!-- newsletter-footer-bar:v1 -->
+<div class="footer-newsletter-bar">
+  <div class="container footer-newsletter-inner">
+    <p class="footer-newsletter-copy">Get the Barranquilla weekly: new posts and what's on, one short email each Saturday.</p>
+    <form class="footer-newsletter newsletter-form"
+          data-city="barranquilla" data-source="footer"
+          action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
+      <input type="email" name="email"
+             placeholder="you@example.com" required aria-label="Email address" />
+      <input type="hidden" name="city" value="barranquilla" />
+      <input type="hidden" name="source" value="footer" />
+      <button type="submit">Subscribe</button>
+      <span class="footer-newsletter-status" role="status" aria-live="polite"></span>
+    </form>
+  </div>
+</div>
+
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
