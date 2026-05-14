@@ -235,24 +235,32 @@
 </article>
 </div>
 </div>
-</section><footer class="site-footer" role="contentinfo">
-<!-- newsletter-footer-bar:v1 -->
-<div class="footer-newsletter-bar">
-  <div class="container footer-newsletter-inner">
-    <p class="footer-newsletter-copy">Get the Barranquilla weekly: new posts and what's on, one short email each Saturday.</p>
-    <form class="footer-newsletter newsletter-form"
-          data-city="barranquilla" data-source="footer"
-          action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-      <input type="email" name="email"
-             placeholder="you@example.com" required aria-label="Email address" />
-      <input type="hidden" name="city" value="barranquilla" />
-      <input type="hidden" name="source" value="footer" />
-      <button type="submit">Subscribe</button>
-      <span class="footer-newsletter-status" role="status" aria-live="polite"></span>
-    </form>
+</section><!-- newsletter-prefoot:v1 -->
+<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
+  <div class="container">
+    <div class="email-capture-inner">
+      <div>
+        <span class="label">Newsletter</span>
+        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+      </div>
+      <div class="email-capture-form">
+        <form class="newsletter-form"
+              data-city="barranquilla" data-source="prefooter"
+              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
+          <div class="email-capture-row">
+            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
+            <button type="submit" class="email-capture-submit">Subscribe</button>
+          </div>
+          <input type="hidden" name="city" value="barranquilla" />
+          <input type="hidden" name="source" value="prefooter" />
+          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
+        </form>
+      </div>
+    </div>
   </div>
-</div>
-
+</section>
+<footer class="site-footer" role="contentinfo">
 <div class="container">
 <div class="footer-top">
 <div class="footer-brand">
