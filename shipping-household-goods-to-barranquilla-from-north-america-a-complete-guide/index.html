@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-4454 post type-post status-publish format-standard has-post-thumbnail hentry category-life" id="post-4454">
 <!-- Hero Image -->
@@ -264,16 +275,8 @@
 </div>
 <section id="why-barranquilla">
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2>1. Why Barranquilla, and Why It Matters for Your Shipment</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="1. Why Barranquilla, and Why It Matters for Your Shipment" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla sits at the mouth of the Magdalena River on Colombia’s Caribbean coast and is one of the country’s four major maritime ports, alongside Cartagena, Santa Marta, and Buenaventura. For anyone relocating to the Atlántico region, or to nearby cities like Santa Marta, Sincelejo, or Valledupar, shipping directly to Barranquilla usually beats routing through Cartagena. You avoid a second inland customs handoff plus the trucking fees that come with it.</p>
 <p>A few logistics realities shape every decision you’ll make:</p>
 <ul>
@@ -290,10 +293,6 @@
 <section id="methods">
 <h2>2. Shipping Methods Compared</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="2. Shipping Methods Compared" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Diego  Alzate / Pexels</figcaption>
-</figure>
 <p>Your choice among these methods depends on volume, budget, and urgency. Most relocations use a combination, for example, sea freight for the bulk of household goods, air freight for anything you’ll need in the first month, and a courier for documents and small valuables.</p>
 <table>
 <thead>
@@ -448,10 +447,6 @@
 <section id="household">
 <h2>3. Household Goods and the <em>Menaje de Casa</em> Exemption</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="3. Household Goods and theMenaje de CasaExemption" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Karelia Blum / Pexels</figcaption>
-</figure>
 <p>This is the single most important concept in the entire guide, and the one most new arrivals misunderstand. Colombian law allows qualifying residents to import their used household goods and personal effects under a special customs regime called <strong><em>menaje de casa</em></strong>, which can substantially reduce or eliminate import duties on those goods.</p>
 <figure class="small">
 <svg aria-label="Illustration of moving boxes stacked with household items" role="img" viewbox="0 0 480 240" xmlns="http://www.w3.org/2000/svg">
@@ -547,10 +542,6 @@
 <section id="personal">
 <h2>4. Personal Items and Small Shipments</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="4. Personal Items and Small Shipments" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Daniel Cely / Pexels</figcaption>
-</figure>
 <p>Not every move requires a shipping container. Many people relocating to Barranquilla ship a few boxes ahead and arrive with checked luggage.</p>
 <h3>Unaccompanied Baggage</h3>
 <p>If you’re flying into Colombia and shipping a handful of boxes separately, most airlines offer “unaccompanied baggage” service, essentially air freight that rides along with commercial passenger flights. Rates are typically $5–$12 per kg with minimums of 50–100 kg. You’ll still need to clear it through customs at BAQ or BOG; the airline doesn’t do this for you.</p>
@@ -576,10 +567,6 @@
 <section id="vehicles">
 <h2>5. Vehicles and Motorcycles</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="5. Vehicles and Motorcycles" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Leonardo Joya Arana / Pexels</figcaption>
-</figure>
 <p>If one section of this guide will save you money, it’s probably this one.</p>
 <div class="callout danger">
 <p><strong>Colombia severely restricts used vehicle imports.</strong> As a general rule, importing a used car into Colombia for personal use by an ordinary resident is <em>not permitted</em>. This is not a paperwork obstacle, it’s a fundamental policy designed to protect the domestic auto industry. Most people relocating to Barranquilla sell their car in North America and buy a comparable vehicle in Colombia.</p>
@@ -654,10 +641,6 @@
 <section id="pets">
 <h2>6. Pets: Dogs, Cats, and Birds</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="6. Pets: Dogs, Cats, and Birds" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <p>Colombia welcomes companion animals, and bringing your pet to Barranquilla is very doable, but the paperwork is time-sensitive and a single missing endorsement can mean quarantine at your expense or denial of entry. Start six to eight weeks before departure.</p>
 <figure class="small">
 <svg aria-label="Illustration of a dog inside a pet travel carrier next to a cat carrier" role="img" viewbox="0 0 480 240" xmlns="http://www.w3.org/2000/svg">
@@ -768,10 +751,6 @@
 <section id="costs">
 <h2>7. Costs and Getting Quotes</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="7. Costs and Getting Quotes" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jairo  Vargas / Pexels</figcaption>
-</figure>
 <p>Shipping costs change constantly with fuel prices, exchange rates, and port congestion. These ranges reflect typical early-2026 market conditions; always get three current quotes before committing.</p>
 <table>
 <thead>
@@ -831,10 +810,6 @@
 <section id="timelines">
 <h2>8. Timelines: What to Do and When</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="8. Timelines: What to Do and When" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: thiago japyassu / Pexels</figcaption>
-</figure>
 <h3>8–12 weeks out</h3>
 <ul>
 <li>Decide scope: what ships, what you sell, what you travel with.</li>
@@ -873,10 +848,6 @@
 <section id="documents">
 <h2>9. Documents Checklist</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="9. Documents Checklist" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: thiago japyassu / Pexels</figcaption>
-</figure>
 <h3>Core Identity &amp; Status Documents</h3>
 <ul>
 <li>Passport (and copies of photo page and entry stamp)</li>
@@ -911,10 +882,6 @@
 <section id="customs">
 <h2>10. Customs Clearance at Puerto de Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="10. Customs Clearance at Puerto de Barranquilla" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: juan rojas / Pexels</figcaption>
-</figure>
 <p>Once your container arrives at the port, the clock starts. Colombian customs allows a limited free-storage period (typically a few days) after which demurrage and storage fees accrue quickly. A good broker will have most paperwork pre-filed so clearance begins immediately on arrival.</p>
 <figure class="small">
 <svg aria-label="Illustration of customs inspection with clipboard and checkmarks over shipping container" role="img" viewbox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
@@ -996,10 +963,6 @@
 <section id="prohibited">
 <h2>11. Prohibited and Restricted Items</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="11. Prohibited and Restricted Items" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luisa Fernanda Hernandez Perez / Pexels</figcaption>
-</figure>
 <h3>Absolutely Prohibited</h3>
 <ul>
 <li>Narcotics and precursor chemicals</li>
@@ -1030,10 +993,6 @@
 <section id="mover">
 <h2>12. Choosing a Mover or Freight Forwarder</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="12. Choosing a Mover or Freight Forwarder" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>The mover you choose matters more than the shipping method. A cheap mover with a weak Colombian partner can cost you thousands in port fees, missed menaje deadlines, and damage claims. A good mover with a Barranquilla agent pays for itself.</p>
 <h3>Questions to Ask Every Quote</h3>
 <ol>
@@ -1160,10 +1119,6 @@
 <section id="insurance">
 <h2>13. Insurance</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="13. Insurance" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-14.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Costa Rica  Drone Tours / Pexels</figcaption>
-</figure>
 <p>Household-goods shipping insurance is not optional, at least not for anyone who’d feel the loss. Sea freight involves ports, cranes, trucks, humidity, and occasionally theft; air freight is gentler but still has handling damage. Couriers include basic liability, but it’s usually a flat per-kg figure that doesn’t cover real value.</p>
 <h3>Two Coverage Models</h3>
 <ul>
@@ -1184,10 +1139,6 @@
 <section id="pitfalls">
 <h2>14. Common Pitfalls (Real Mistakes, Real Money)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="14. Common Pitfalls (Real Mistakes, Real Money)" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Andrius La Rotta / Pexels</figcaption>
-</figure>
 <ol>
 <li><strong>Shipping before the visa is issued.</strong> Your goods arrive, you don’t qualify for menaje, and the container sits at the port racking up storage while you scramble. Ship <em>after</em> you have the visa or a firm timeline, not before.</li>
 <li><strong>Over-declaring “new” items.</strong> Anything in retail packaging with tags is taxable. Remove tags and packaging for items that are genuinely personal use, don’t lie, but don’t gift-wrap DIAN’s case against you either.</li>
@@ -1204,10 +1155,6 @@
 <section id="faq">
 <h2>15. Frequently Asked Questions</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="15. Frequently Asked Questions" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-16.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: NEHEMIAS GOMEZ FOTOGRAFIA / Pexels</figcaption>
-</figure>
 <details>
 <summary>How long does the whole process take, door to door?</summary>
 <p>From packing day in North America to unpacked in Barranquilla, budget 8–14 weeks for sea freight and 3–5 weeks for air freight. This includes packing, transit, customs, and final delivery. Courier shipments are 1–2 weeks.</p>
@@ -1260,10 +1207,6 @@
 <section id="checklist">
 <h2>16. A Short Checklist You Can Screenshot</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="16. A Short Checklist You Can Screenshot" height="800" loading="lazy" src="/img/shipping-household-goods-to-barranquilla-from-north-america-a-complete-guide-section-17.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ol>
 <li>Confirm visa status and timeline</li>
 <li>Get three written, itemized quotes</li>
@@ -1369,6 +1312,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

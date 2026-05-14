@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2861 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides" id="post-2861">
 <!-- Hero Image -->
@@ -117,10 +128,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#The_basics">The basics</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#The_five_events_that_matter">The five events that matter</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#1_Batalla_de_Flores_%E2%80%93_Saturday_February_14_2026">1. Batalla de Flores, Saturday, February 14, 2026</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#2_Gran_Parada_de_Tradicion_%E2%80%93_Sunday_February_15">2. Gran Parada de Tradición, Sunday, February 15</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#3_Gran_Parada_de_Comparsas_%E2%80%93_Monday_February_16">3. Gran Parada de Comparsas, Monday, February 16</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#4_Festival_de_Orquestas_%E2%80%93_Monday_evening">4. Festival de Orquestas, Monday evening</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#5_Entierro_de_Joselito_%E2%80%93_Tuesday_February_17">5. Entierro de Joselito, Tuesday, February 17</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#The_pre-Carnaval_month">The pre-Carnaval month</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#Where_to_watch_the_parades">Where to watch the parades</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Palcos_ticketed_grandstands">Palcos (ticketed grandstands)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Palco_de_particulares_private_bleachers">Palco de particulares (private bleachers)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-13" href="#Street_level">Street level</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Rooftop_or_balcony">Rooftop or balcony</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#What_to_wear_and_bring">What to wear and bring</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-16" href="#Hotels_and_transportation_during_Carnaval">Hotels and transportation during Carnaval</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-17" href="#Food_water_safety">Food, water, safety</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-18" href="#Tips_from_locals">Tips from locals</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-19" href="#Further_reading_on_this_site">Further reading on this site</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-carnival-complete-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: larry penaloza / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#the-basics">The basics</a></li>
 <li><a href="#the-five-main-events">The five events that matter</a></li>
@@ -149,10 +156,6 @@
 <p><strong>Official calendar and tickets</strong>: <a href="https://carnavaldebarranquilla.org/" rel="noopener" target="_blank">Carnaval de Barranquilla (official)</a>. Ticketed events sell through <a href="https://web.tuboleta.com/" rel="noopener" target="_blank">Tu Boleta</a>.</p>
 <h2 id="the-five-main-events">The five events that matter</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The five events that matter" height="800" loading="lazy" src="/img/barranquilla-carnival-complete-guide-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Woody Willis / Pexels</figcaption>
-</figure>
 <h3>1. Batalla de Flores, Saturday, February 14, 2026</h3>
 <p>The marquee parade. Dates from 1903, when it was founded to celebrate the end of Colombia’s Thousand Days’ War. Floats, elaborate costumes, comparsas (dance troupes), the Queen and her court on a mobile throne. Runs the length of Vía 40, starting around 11 AM, lasting 5–6 hours. <strong>This is the one to see if you only see one.</strong></p>
 <h3>2. Gran Parada de Tradición, Sunday, February 15</h3>
@@ -174,10 +177,6 @@
 </ul>
 <h2 id="where-to-watch">Where to watch the parades</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where to watch the parades" height="800" loading="lazy" src="/img/barranquilla-carnival-complete-guide-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Daniel  Guti / Pexels</figcaption>
-</figure>
 <p>There are four ways to see the main parades on Vía 40:</p>
 <h3>Palcos (ticketed grandstands)</h3>
 <p>Official bleachers with shade and assigned seats. Multiple tiers; the premium ones include food, drink, and private bathrooms. Prices for the Batalla de Flores palco can run COP 350,000 to over COP 1,000,000 per person depending on zone and amenities. Tickets via <a href="https://web.tuboleta.com/" rel="noopener" target="_blank">Tu Boleta</a> and the <a href="https://carnavaldebarranquilla.org/" rel="noopener" target="_blank">official site</a>. Buy 2+ months in advance for the good zones.</p>
@@ -203,6 +202,10 @@
 <p>For the nightly parties (verbenas) and concerts, smart casual is normal and air-conditioned venues will be cold relative to the street.</p>
 <h2 id="hotels-carnaval">Hotels and transportation during Carnaval</h2>
 <p>Every decent hotel in the city <strong>sells out 3–6 months in advance</strong>, with rates 2–3× normal and 3–5 night minimum stays. Book early, don’t wait. See our <a href="/best-hotels-in-barranquilla/">hotels guide</a>; prioritize anything in El Prado, Alto Prado, Villa Country, or within 15 minutes’ walk of Vía 40.</p>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-carnival-complete-guide-place-alto-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/barranquilla-carnival-complete-guide-place-villa-country.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
@@ -356,6 +359,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

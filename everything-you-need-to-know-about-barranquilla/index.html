@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-3784 post type-post status-publish format-standard has-post-thumbnail hentry category-life" id="post-3784">
 <!-- Hero Image -->
@@ -115,10 +126,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#The_Honest_Pros">The Honest Pros</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-3" href="#Cost_of_Living_That_Actually_Makes_Sense">Cost of Living That Actually Makes Sense</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#Genuinely_Friendly_People">Genuinely Friendly People</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#Carnival_%E2%80%93_The_Real_One">Carnival, The Real One</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Strategic_Location">Strategic Location</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Growing_Infrastructure">Growing Infrastructure</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#A_Real_City_Not_a_Tourist_Bubble">A Real City, Not a Tourist Bubble</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#The_Honest_Cons">The Honest Cons</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#The_Heat_Is_No_Joke">The Heat Is No Joke</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Not_Conventionally_Beautiful">Not Conventionally Beautiful</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Limited_Walkability">Limited Walkability</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-13" href="#Limited_Nightlife_and_Cultural_Scene_Compared_to_Bigger_Cities">Limited Nightlife and Cultural Scene (Compared to Bigger Cities)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Spanish_Is_Essential">Spanish Is Essential</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-15" href="#The_%E2%80%9CVivo%E2%80%9D_Culture_Caribbean_Laissez-Faire">The “Vivo” Culture &amp; Caribbean Laissez-Faire</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#A_Very_Different_Concept_of_Time">A Very Different Concept of Time</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#Blunt_Language_No_Filter">Blunt Language &amp; No Filter</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-18" href="#Security_An_Honest_Assessment">Security: An Honest Assessment</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-19" href="#Political_Landscape">Political Landscape</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Prominent_Landmarks_Places">Prominent Landmarks &amp; Places</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-21" href="#Museo_del_Caribe">Museo del Caribe</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-22" href="#Malecon_del_Rio_Puerta_de_Oro">Malecón del Río (Puerta de Oro)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-23" href="#El_Prado">El Prado</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-24" href="#Estadio_Metropolitano_Roberto_Melendez">Estadio Metropolitano Roberto Meléndez</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-25" href="#Catedral_Metropolitana_Maria_Reina">Catedral Metropolitana María Reina</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-26" href="#Iglesia_de_San_Nicolas_de_Tolentino">Iglesia de San Nicolás de Tolentino</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-27" href="#Bocas_de_Ceniza">Bocas de Ceniza</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-28" href="#Barrio_Abajo">Barrio Abajo</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-29" href="#A_City_of_Firsts_Barranquillas_History">A City of Firsts: Barranquilla’s History</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-30" href="#Famous_Barranquilleros">Famous Barranquilleros</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-31" href="#Fun_Tips_Local_Knowledge">Fun Tips &amp; Local Knowledge</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-32" href="#Weather_Climate">Weather &amp; Climate</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-33" href="#Getting_Around">Getting Around</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-34" href="#Healthcare">Healthcare</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-35" href="#Working_Business">Working &amp; Business</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-36" href="#Who_Should_and_Shouldnt_Move_Here">Who Should (and Shouldn’t) Move Here</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-37" href="#Barranquilla_is_great_for_you_if">Barranquilla is great for you if:</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-38" href="#Barranquilla_is_probably_not_for_you_if">Barranquilla is probably not for you if:</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-39" href="#The_Bottom_Line">The Bottom Line</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/everything-you-need-to-know-about-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#the-honest-pros">The Honest Pros</a></li>
 <li><a href="#the-honest-cons">The Honest Cons</a></li>
@@ -256,10 +263,6 @@
 <p><strong>Futbol (soccer) is religion.</strong> Junior de Barranquilla is the city’s football club and the emotional center of local identity. When Junior plays, the city watches; when they win, the city celebrates. When they lose… don’t bring it up. If you want to connect with locals fast, learn about Junior.</p>
 <h2 class="wp-block-heading" id="weather-and-climate">Weather &amp; Climate</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Weather &amp; Climate" height="800" loading="lazy" src="/img/everything-you-need-to-know-about-barranquilla-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: pierre matile / Pexels</figcaption>
-</figure>
 <p>Barranquilla has a tropical savanna climate with two main seasons:</p>
 <p><strong>Dry season (December-April):</strong> The most pleasant months. Lower humidity, steady trade winds (alisios), and virtually no rain. January and February are the best months weather-wise, still hot (30-33°C) but with a breeze that makes it bearable. This is also Carnival season.</p>
 <p><strong>Wet season (May-November):</strong> Higher humidity, afternoon downpours (usually short but intense), and temperatures that feel hotter. October and November are the wettest months. Flooding can occur in lower-lying areas during heavy rains. The good news: rain usually comes in bursts and the rest of the day is clear.</p>
@@ -290,10 +293,6 @@
 <p>You need cool weather or distinct seasons. You want a walkable, aesthetically polished city. You don’t speak Spanish and don’t plan to learn. You want a large English-speaking expat community. You prioritize nightlife variety and international dining above all else. You’re looking for a touristy, easy-to-navigate experience, Barranquilla requires more adaptation than Colombia’s more popular destinations.</p>
 <h2 class="wp-block-heading" id="the-bottom-line">The Bottom Line</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The Bottom Line" height="800" loading="lazy" src="/img/everything-you-need-to-know-about-barranquilla-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla is not for everyone, and that’s exactly what people who love it appreciate about it. It’s a raw, warm, loud, generous city that rewards people who engage with it on its own terms. The cost of living is excellent, the culture is rich, the people are extraordinary, and the quality of life can be genuinely high if you find the right neighborhood and build a social network.</p>
 <p>It’s not the prettiest city in Colombia. It’s not the coolest. It’s not the most convenient. But it might be the most real, and for a growing number of foreigners and returning Colombians, that authenticity is worth more than a postcard-perfect skyline.</p>
 <p>Come for Carnival. Stay for the people. Sweat through everything in between.</p>
@@ -370,6 +369,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

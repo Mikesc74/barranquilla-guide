@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2729 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore section-guides" id="post-2729">
 <!-- Hero Image -->
@@ -122,10 +133,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Puerto_Colombia_%E2%80%93_20_Minutes">Puerto Colombia, 20 Minutes</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Cartagena_%E2%80%93_2_Hours_by_Road">Cartagena, 2 Hours by Road</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Santa_Marta_Tayrona_National_Park_%E2%80%93_25_Hours">Santa Marta &amp; Tayrona National Park, 2.5 Hours</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Cienaga_Grande_de_Santa_Marta_%E2%80%93_15_Hours">Ciénaga Grande de Santa Marta, 1.5 Hours</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-6" href="#Practical_Tips_for_Day_Trips_from_Barranquilla">Practical Tips for Day Trips from Barranquilla</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-7" href="#More_from_Barranquilla">More from Barranquilla</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#puerto-colombia-20-minutes">Puerto Colombia, 20 Minutes</a></li>
 <li><a href="#cartagena-2-hours-by-road">Cartagena, 2 Hours by Road</a></li>
@@ -163,6 +170,10 @@
 <img alt="walled city of Cartagena" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-walled-city-of-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <p><strong>Getting there:</strong> Buses run regularly from Barranquilla’s Terminal de Transporte (around $8–12, 2 hours). Marshrutka-style minibuses are faster but less comfortable. Flying takes 45 minutes and is worth considering if you’re combining it with an overnight stay.</p>
 <p><strong>Staying overnight:</strong> If you want to do Cartagena properly, stay the night. The old city hotels are excellent, book early as the best ones fill up quickly.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DCartagena%252C%2BColombia" rel="noopener sponsored" target="_blank">→ Browse Cartagena hotels on Booking.com</a></p>
@@ -184,21 +195,21 @@
 </figure>
 <p>One of Colombia’s great hidden treasures: a vast coastal lagoon system that’s a UNESCO Biosphere Reserve and one of the most important wetlands in South America. Flamingos, herons, migratory shorebirds, and the extraordinary floating village of Nueva Venecia, where several hundred people live entirely on water in stilt houses, with no roads, no cars, and no land.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Ciénaga Grande de Santa Marta" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-cienaga-grande-de-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Nueva Venecia" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-nueva-venecia.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Ciénaga Grande de Santa Marta" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-cienaga-grande-de-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
 <p>This is internationally significant ecotourism that almost no international visitors know about. A guided boat tour is essential, navigation is complex and you need a local guide who knows where the birds are.</p>
 <p><a href="https://www.viator.com/Barranquilla/d50228-ttd?mcid=42383&amp;pid=P00296226&amp;medium=link" rel="noopener sponsored" target="_blank">→ Browse Ciénaga Grande tours on Viator</a></p>
 <h2 class="wp-block-heading" id="practical-tips-for-day-trips-from-barranquilla">Practical Tips for Day Trips from Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical Tips for Day Trips from Barranquilla" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><strong>Start early:</strong> Barranquilla gets very hot by midday. For beach destinations especially, aim to leave by 8am.</li>
 <li><strong>Bus vs car:</strong> Buses are cheap and frequent for Cartagena and Santa Marta. For Puerto Colombia and Ciénaga Grande, a taxi or Uber is more practical.</li>
@@ -207,10 +218,6 @@
 </ul>
 <h2 class="wp-block-heading" id="more-from-barranquilla">More from Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="More from Barranquilla" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Juan Felipe Ramírez / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><a href="/best-tours-experiences-barranquilla/">Best Tours &amp; Experiences in Barranquilla</a></li>
 <li><a href="/getting-around-barranquilla/">Getting Around Barranquilla</a></li>
@@ -347,6 +354,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

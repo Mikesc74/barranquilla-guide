@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-1087 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore" id="post-1087">
 <!-- Hero Image -->
@@ -114,10 +125,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Xtreme_Park_Barranquilla">Xtreme Park Barranquilla</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Bowling_and_Batting">Bowling and Batting</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Yoga_on_the_Beach">Yoga on the Beach</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Bowling_and_Billiards_at_Spinning_Center_Club_%E2%80%93_Buenavista_2">Bowling and Billiards at Spinning Center Club, Buenavista 2</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-6" href="#Sip_Paint">Sip &amp; Paint</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-7" href="#Escape_Room_Barranquilla">Escape Room Barranquilla</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-8" href="#Catch_a_Baseball_Game">Catch a Baseball Game</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#Paintball">Paintball</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#Bourbon_St_Rock_Bar">Bourbon St Rock Bar</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Karaoke">Karaoke!</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#Caribe_Aventura_Water_Park">Caribe Aventura Water Park</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Go_on_a_walking_tour">Go on a walking tour</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#La_Ruta_del_Girasol_The_Sunflower_Fields">La Ruta del Girasol: The Sunflower Fields</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#Go_to_a_Food_Drink_or_Music_Festival">Go to a Food, Drink, or Music Festival</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Carnaval_de_Verano_Rio_y_Mar">Carnaval de Verano: Río y Mar</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#Sabor_Barranquilla_Festival_A_Gastronomic_Fiesta">Sabor Barranquilla Festival: A Gastronomic Fiesta</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Timeless_Music_Festival_Get_Funky">Timeless Music Festival: Get Funky</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-19" href="#Expodrinks_Festival_Toasting_to_Diversity">Expodrinks Festival: Toasting to Diversity</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-20" href="#Barranquijazz_Festival_A_Melodious_Journey">Barranquijazz Festival: A Melodious Journey</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-21" href="#In_conclusion%E2%80%A6">In conclusion…</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-22" href="#Further_reading">Further reading</a></li></ul></nav></div>
 <h2>What's in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Group activities in Barranquilla" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#h-museo-del-caribe">Museo del Caribe</a></li>
 <li><a href="#h-gran-malecon">Gran Malecón del Río</a></li>
@@ -155,17 +162,9 @@
 <p>Combine with the <a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Carnaval Museum</a> for a fuller half-day. Best time is late afternoon into sunset, before then the heat is a fight.</p>
 <h2 class="wp-block-heading" id="h-zoo">Zoológico de Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Zoológico de Barranquilla" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>The Zoológico de Barranquilla is small by international standards but takes its conservation and rescue work seriously, and the layout is compact enough to do in two hours without wearing the kids out. Worth it if your group includes children. Tickets at the gate, around COP 30.000 adults as of writing. Bring water and sunscreen.</p>
 <h2 class="wp-block-heading" id="h-puerto-colombia">Day trip to Puerto Colombia or Bocas de Ceniza</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Day trip from Barranquilla" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jorge Pantaleon / Pexels</figcaption>
-</figure>
 <p><a href="/puerto-mocho/">Puerto Mocho</a> beach in Puerto Colombia (about 20 minutes north of Barranquilla) is the closest swimmable beach to the city. Casa Surff offers Sunday morning yoga with <a href="https://www.instagram.com/su.sana.yoga/?hl=en" rel="noreferrer noopener" target="_blank">Susana Alzate</a> if your group is into that. Lunch at one of the fish shacks on the boardwalk runs around COP 35.000 to 60.000 per person.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Puerto Mocho beach" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-mocho-beach.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -190,10 +189,6 @@
 </div>
 <h2 class="wp-block-heading" id="h-carnaval">Carnaval (if you are in town Feb-Mar)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla Carnaval" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Carnaval de Barranquilla is the city's defining event and the second-largest Carnival in the Americas after Rio. It runs over the four days before Ash Wednesday (usually late February or early March). The main events are the Saturday Batalla de Flores parade, Sunday Gran Parada, and Monday's Festival de Orquestas at the Estadio Romelio Martínez. A mid-year edition, Carnaval de Verano, runs over a weekend in late June.</p>
 <p>For a group, the recommended setup is paid seating on Vía 40 for the Batalla de Flores (palco tickets in advance via TuBoleta), then street-side champeta and rum the rest of the weekend. Full details in our <a href="/barranquilla-carnival-complete-guide/">Carnaval guide</a>. Book accommodation 4 to 6 months ahead.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
@@ -205,10 +200,6 @@
 <p>If your group's visit overlaps with the football season (broadly February to June, then August to December), a Junior FC home match at Estadio Metropolitano is the best look at local culture you can get for under COP 100.000 a head. See our <a href="/popular-sports-in-barranquilla/">popular sports</a> guide for ticket and logistics detail. Wear red and white if you want to blend in.</p>
 <h2 class="wp-block-heading" id="h-salsa-cumbia-night">A salsa or cumbia night out</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Live music night" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>The defining group plan in Barranquilla is a Friday or Saturday night of live music, dancing, and rum. La Troja is the classic salsa bar (open-air, busy from 9pm). <a href="https://www.instagram.com/bourbonstbaq/" rel="noreferrer noopener" target="_blank">Bourbon St</a> Rock Bar in Villa Country covers the rock side with live bands most weekends. <a href="https://www.instagram.com/fabiorestobar/" rel="noreferrer noopener" target="_blank">Fabio Restobar</a> has private karaoke rooms (cavas) if your group prefers singing in privacy. For dance lessons before the night out, see our <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">salsa, cumbia, and champeta guide</a>.</p>
 <p>Plan to start late (10pm at the earliest), end late (3am or later), and Uber both ways.</p>
 <h2 class="wp-block-heading" id="h-villa-country-dinner">Dinner in Villa Country</h2>
@@ -219,17 +210,9 @@
 <p>Villa Country is the upmarket dining cluster, with Italian, Peruvian, Japanese, and Colombian-Caribbean restaurants in walking distance of each other. The Carrera 53 and Calle 84 area is where most groups land. Expect COP 80.000 to 150.000 per person for a sit-down dinner with wine. Reserve on weekends, the better spots fill up.</p>
 <h2 class="wp-block-heading" id="h-charter-fishing">Charter fishing from Puerto Colombia</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Charter fishing boat" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maroš Markovič / Pexels</figcaption>
-</figure>
 <p>For a group of up to six, a half-day charter from Puerto Colombia is one of the better group plans, you split a boat and crew between you and the per-person cost is reasonable. Expect to pay roughly COP 800.000 to 1.500.000 for the boat (verify), divided among the group. Sea conditions can be choppy, December to April winds are strongest. Book through a local operator on the Puerto Colombia waterfront and confirm the day before.</p>
 <h2 class="wp-block-heading" id="h-active-options">Active group options: paintball, escape rooms, bowling</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Escape room and indoor activities" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Fer Izaguirre / Pexels</figcaption>
-</figure>
 <p>If you want a structured indoor group plan, the standard options are:</p>
 <ul class="wp-block-list">
 <li><a href="https://www.instagram.com/escaperoombarranquilla/?hl=en" rel="noreferrer noopener" target="_blank">Escape Room Barranquilla</a>, 60-minute rooms, around COP 40.000 to 60.000 per person, book online a day or two ahead.</li>
@@ -256,10 +239,6 @@
 <figure class="wp-block-image size-medium"><img alt="Ruta del Girasol" class="wp-image-526" data-sizes="auto, (max-width: 300px) 100vw, 300px" decoding="async" height="300" loading="lazy" src="/img/ruta1-300x300.jpg" srcset="/img/ruta1-300x300.jpg 300w, /img/ruta1-1024x1024.jpg 1024w, /img/ruta1-150x150.jpg 150w, /img/ruta1-768x768.jpg 768w, /img/ruta1-696x696.jpg 696w, /img/ruta1-1068x1068.jpg 1068w, /img/ruta1.jpg 1081w" width="300"/></figure>
 <h2 class="wp-block-heading" id="h-go-to-a-food-drink-or-music-festival">Festivals worth timing a trip around</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Music festival in Barranquilla" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Beyond Carnaval, a few annual events are worth aligning a group trip with. Dates shift each year, confirm before booking.</p>
 <ul class="wp-block-list">
 <li><strong>Carnaval de Verano: Río y Mar</strong>, a weekend in late June. Friday programming on the Gran Malecón, Saturday Summer Music Festival at Plaza de La Paz.</li>
@@ -270,10 +249,6 @@
 </ul>
 <h2 class="wp-block-heading" id="h-in-conclusion">Putting it together</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Group in Barranquilla" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-16.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
-</figure>
 <p>For a weekend with a group, a reasonable mix is: one cultural anchor (Museo del Caribe or the Carnaval Museum on the Gran Malecón), one outdoor stop (sunset along the Gran Malecón, or a Puerto Colombia day trip), one big group dinner in Villa Country, and one nightlife stop (salsa at La Troja, rock at Bourbon St, or karaoke at Fabio Restobar). If your trip overlaps with Carnaval or Junior football, those become the anchors instead. See our broader <a href="/things-to-do-around-barranquilla/">things to do</a> page for more.</p>
 <h2 class="wp-block-heading" id="further-reading">Further reading</h2>
 <p>More Barranquilla things-to-do and nightlife:</p>
@@ -404,6 +379,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

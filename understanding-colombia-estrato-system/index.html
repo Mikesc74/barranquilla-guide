@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-1156 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-live section-magazine" id="post-1156">
 <!-- Hero Image -->
@@ -131,25 +142,13 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="what-is-estrato">What the estrato system actually is</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What the estrato system actually is" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maria Paula Medina / Pexels</figcaption>
-</figure>
 <p>The <strong>estrato socioeconómico</strong> is a classification applied to <strong>residential dwellings</strong>, not to people. Every home in urban Colombia is assigned an estrato from <strong>1 to 6</strong>, based on the physical characteristics of the building and its surroundings. Its primary legal function is <strong>cross-subsidization of public utilities</strong>: lower-estrato homes pay subsidized rates; higher-estrato homes pay surcharges that fund those subsidies.</p>
 <p>The system was formalized in <strong>Ley 142 de 1994</strong> (the Domiciliary Public Services Law) and refined by CONPES and DANE methodologies. Classification is carried out by each municipality using a national methodology and published through municipal planning offices. DANE coordinates national standards.</p>
 <p>Crucial point to understand up front: <strong>the estrato describes the house, not the household</strong>. A retired schoolteacher living in a flat she bought forty years ago can live in estrato 5, while a young professional renting in the same block might live in estrato 6, a block over in estrato 4. It’s the dwelling that’s classified, not the occupant.</p>
 <h2 id="six-strata">The six strata, what they mean</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The six strata, what they mean" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Estrato 1, Bajo-bajo</strong>: lowest income. Typical housing: self-built, limited services, often on urban periphery.</li>
 <li><strong>Estrato 2, Bajo</strong>: low income. Basic formal housing, full services, older neighborhoods.</li>
@@ -161,10 +160,6 @@
 <p>In 2024, roughly 75% of Colombian households lived in estratos 1–3; ~20% in estrato 4; and ~5% in estratos 5–6 combined. The system is a crude instrument, imperfect at the edges, but captures the broad socioeconomic shape of Colombian cities.</p>
 <h2 id="utility-subsidies">How estrato affects utility bills</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How estrato affects utility bills" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>This is the practical meat of the system. Under Ley 142, utility tariffs are structured so that higher-estrato users subsidize lower-estrato users on a <strong>base consumption</strong> (the <em>consumo básico</em>). Consumption above the subsistence threshold is billed at market rate regardless of estrato.</p>
 <p>Typical subsidy/surcharge schedule (values shift periodically; indicative 2026 figures):</p>
 <ul>
@@ -179,10 +174,6 @@
 <p>Impact on a Barranquilla expat’s bills: an apartment in estrato 6 Villa Santos easily runs <strong>COP 600k–900k/month</strong> in combined utilities if you use A/C heavily, while the same consumption pattern in estrato 4 El Prado might be <strong>COP 350k–550k</strong>. See the utilities section of our <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">cost of living guide</a>.</p>
 <h2 id="what-else">What else estrato affects</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What else estrato affects" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Public-transport subsidies</strong> for low-estrato households in some cities (Transmetro in Barranquilla does not currently apply estrato discounts).</li>
 <li><strong>Access to certain government programs</strong>, Familias en Acción, housing subsidies (VIS/VIP), cash transfers, targeted at estratos 1–3.</li>
@@ -194,10 +185,6 @@
 </ul>
 <h2 id="barranquilla-map">Estrato by Barranquilla neighborhood</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Estrato by Barranquilla neighborhood" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Danilo Lopes / Pexels</figcaption>
-</figure>
 <p>Neighborhood-by-neighborhood estrato can be granular, even the block matters. Broad strokes for the northern expat-relevant areas:</p>
 <ul>
 <li><strong>Altos del Limón</strong>: estrato 6. Newest high-end gated developments.</li>
@@ -220,10 +207,6 @@
 <p>For a fuller read on who lives where and what each neighborhood <em>feels</em> like, see our <a href="/exploring-the-enchanting-neighborhoods-of-barranquilla/">neighborhoods guide</a>.</p>
 <h2 id="check-estrato">How to check the estrato of a specific address</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How to check the estrato of a specific address" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Nguyễn Du / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Look at a utility bill</strong>. Air-e (electricity), Triple A (water), or Gases del Caribe bills print the estrato near the property address. This is the fastest check.</li>
 <li><strong>Ask the landlord or portero</strong>. Everyone who rents or sells a property knows the estrato.</li>
@@ -232,10 +215,6 @@
 </ul>
 <h2 id="misconceptions">Common misconceptions</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Common misconceptions" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>“Estrato measures income.”</strong> Not directly. It measures housing characteristics in a neighborhood. People with high incomes sometimes live in estrato 4 for historical or family reasons; retirees in older estrato 6 flats can be cash-poor.</li>
 <li><strong>“Higher estrato is always better.”</strong> Higher estrato means higher utility bills and higher property tax. For some expats, estrato 4 neighborhoods like parts of El Prado offer the best combination of cost and livability.</li>
@@ -245,10 +224,6 @@
 </ul>
 <h2 id="expat-lens">What this all means for a foreigner moving to Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What this all means for a foreigner moving to Barranquilla" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jorge Pantaleon / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Read the estrato when you see a listing</strong>. It tells you the utility-cost tier and gives a quick signal of the neighborhood character. Ask if it’s not listed.</li>
 <li><strong>Budget utilities accordingly</strong>. Same apartment size, estrato 6 costs substantially more per month in utilities than estrato 4.</li>
@@ -258,10 +233,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/understanding-colombia-estrato-system-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p><strong>Can I change the estrato of my home?</strong> Only via formal reclassification by the municipal planning office, and only if the neighborhood’s physical character has changed materially. Individual homeowners can’t just request a change.</p>
 <p><strong>What estrato is my Airbnb?</strong> Hosts usually know; the bills will show it. For a short stay it doesn’t matter much, host absorbs utilities.</p>
 <p><strong>Does my rent include utilities?</strong> In most Barranquilla long-term leases, <strong>no</strong>, utilities are paid separately by the tenant. This makes the estrato highly relevant. See our <a href="/housing-renting-barranquilla/">housing guide</a>.</p>
@@ -394,6 +365,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

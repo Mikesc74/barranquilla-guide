@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2690 post type-post status-publish format-standard has-post-thumbnail hentry category-eat section-eat-drink section-guides" id="post-2690">
 <!-- Hero Image -->
@@ -117,10 +128,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#What_makes_costeno_food_distinct">What makes costeño food distinct</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Dishes_you_should_actually_try">Dishes you should actually try</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#Arepa_de_huevo">Arepa de huevo</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#Mojarra_frita_con_arroz_con_coco_y_patacones">Mojarra frita con arroz con coco y patacones</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Sancocho_de_pescado_sancocho_trifasico">Sancocho de pescado / sancocho trifásico</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Cazuela_de_mariscos">Cazuela de mariscos</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Butifarra_soledena">Butifarra soledeña</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-9" href="#Bollo">Bollo</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Carimanola">Carimañola</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Arroz_con_pollo">Arroz con pollo</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Posta_cartagenera">Posta cartagenera</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-13" href="#Kibbeh_and_Middle_Eastern_plates">Kibbeh and Middle Eastern plates</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Ceviche_costeno">Ceviche costeño</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-15" href="#Cayeye">Cayeye</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Sweets_cocadas_bolas_de_tamarindo_dulce_de_leche_corozo">Sweets: cocadas, bolas de tamarindo, dulce de leche corozo</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-17" href="#Drinks_worth_ordering">Drinks worth ordering</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Limonada_de_coco">Limonada de coco</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-19" href="#Agua_de_panela_con_limon">Agua de panela con limón</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-20" href="#Fresh_juices">Fresh juices</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-21" href="#Tinto">Tinto</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-22" href="#Aguardiente">Aguardiente</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-23" href="#Ron_Caldas_Dictador_Medellin">Ron Caldas, Dictador, Medellín</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-24" href="#Beer">Beer</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-25" href="#Where_to_eat_for_each_type_of_meal">Where to eat for each type of meal</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-26" href="#Breakfast_the_costeno_kind">Breakfast (the costeño kind)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-27" href="#The_midday_lunch">The midday lunch</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-28" href="#Afternoon_snack_onces">Afternoon snack (onces)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-29" href="#Dinner">Dinner</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-30" href="#Markets_worth_visiting">Markets worth visiting</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-31" href="#Mercado_de_Barranquilla_Gran_Central">Mercado de Barranquilla (Gran Central)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-32" href="#Mercado_Publico_de_la_45">Mercado Público de la 45</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-33" href="#Mercado_de_Sabores">Mercado de Sabores</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-34" href="#How_to_eat_like_a_local">How to eat like a local</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-35" href="#Dietary_notes">Dietary notes</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-36" href="#Further_reading_on_this_site">Further reading on this site</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Israyosoy S. / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#what-makes-costeno">What makes costeño food distinct</a></li>
 <li><a href="#dishes">Dishes you should actually try</a></li>
@@ -134,10 +141,6 @@
 </div>
 <h2 id="what-makes-costeno">What makes costeño food distinct</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What makes costeño food distinct" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: larry penaloza / Pexels</figcaption>
-</figure>
 <p>Colombian food is regional and Barranquilla sits in the <strong>Caribbean region</strong>, which it shares with Cartagena, Santa Marta, and the smaller towns of the Atlántico, Magdalena, Bolívar, and La Guajira departments. The cooking draws on three major influences: <strong>indigenous</strong> (corn, yuca, plantain, tropical fish), <strong>African</strong> (coconut, okra, frying techniques, rhythm-of-the-kitchen), and <strong>Spanish-European</strong> (rice, pork, wheat pastries, stews). A smaller but distinctive <strong>Middle Eastern</strong> influence, Barranquilla had a large Lebanese and Palestinian immigration wave in the early 20th century, gave the city its kibbe, its shawarma, and a particular affection for spice mixes rare elsewhere in Colombia.</p>
 <p>What you’ll notice eating here, versus inland Colombia:</p>
 <ul>
@@ -149,10 +152,6 @@
 </ul>
 <h2 id="dishes">Dishes you should actually try</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Dishes you should actually try" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Diego Agudelo / Pexels</figcaption>
-</figure>
 <h3>Arepa de huevo</h3>
 <p>A fried corn-dough pocket with a whole egg cracked into it mid-fry. The signature street-food breakfast of the Caribbean coast. Eat with suero and ají costeño. Best on Carrera 43 with Calle 72 in the mornings, or at <strong>Narcobollo</strong>.</p>
 <h3>Mojarra frita con arroz con coco y patacones</h3>
@@ -181,10 +180,6 @@
 <p>Coconut-and-panela candies, tamarind sugar balls, palm-fruit jam. Buy at <strong>Mercado de Sabores</strong> or any street vendor along the Malecón.</p>
 <h2 id="drinks">Drinks worth ordering</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Drinks worth ordering" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maria Paula Medina / Pexels</figcaption>
-</figure>
 <h3>Limonada de coco</h3>
 <p>A whipped lime-and-coconut-cream smoothie. The refreshing default of the hot afternoon. Every restaurant has it; some do it with cream, some with coconut milk, both are correct.</p>
 <h3>Agua de panela con limón</h3>
@@ -201,10 +196,6 @@
 <p>The Caribbean default is <strong>Águila</strong> (Barranquilla’s hometown lager, light and cold); <strong>Club Colombia Dorada</strong> is the slightly more upmarket choice. Craft beer is a small scene centered on <strong>Maltería</strong> and a handful of bars.</p>
 <h2 id="where-to-eat">Where to eat for each type of meal</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where to eat for each type of meal" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <h3>Breakfast (the costeño kind)</h3>
 <p>Arepas de huevo and eggs from a street vendor on Carrera 43 with Calle 72, a bollo with butter from a panadería, or a full sit-down breakfast at <strong>Narcobollo</strong>. Pair with fresh juice and tinto.</p>
 <h3>The midday lunch</h3>
@@ -215,10 +206,6 @@
 <p>In costeño culture, dinner is traditionally smaller than lunch. Contemporary restaurant dinners (reservations, tasting menus, wine) skew north and west of Alto Prado. Most Barranquilleros eat a lighter evening meal at home.</p>
 <h2 id="markets">Markets worth visiting</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Markets worth visiting" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <h3>Mercado de Barranquilla (Gran Central)</h3>
 <p>The old wholesale market near the river. Chaotic, loud, cheap, and the best place to see Colombian ingredients in bulk. Go in the morning with a local; keep your phone in your pocket.</p>
 <h3>Mercado Público de la 45</h3>
@@ -227,10 +214,6 @@
 <p>Curated food hall on Calle 72, Carrera 53. Good first stop for anyone who wants to taste widely without committing to a single restaurant.</p>
 <h2 id="eating-like-a-local">How to eat like a local</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How to eat like a local" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p><strong>Say yes to suero, ají, and limón.</strong> They’re on every table, and they transform the plates. Suero on arepa, ají on fried fish, limón on everything.</p>
 <p><strong>Don’t expect bread with your meal.</strong> Bread is a breakfast thing. Lunch and dinner come with rice, plantain, and maybe yuca.</p>
 <p><strong>Split a fish.</strong> A whole fried mojarra at a beach shack easily feeds two with rice and patacones.</p>
@@ -240,10 +223,6 @@
 <p><strong>Don’t chase Cartagena’s food in Barranquilla.</strong> They’re neighbors and they share a cuisine, but the scenes have different strengths. Barranquilla has better everyday neighborhood restaurants; Cartagena has better tourist-facing fine dining.</p>
 <h2 id="dietary">Dietary notes</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Dietary notes" height="800" loading="lazy" src="/img/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Danilo Lopes / Pexels</figcaption>
-</figure>
 <p><strong>Vegetarians</strong>: harder than in most Colombian cities, but doable. Arepa de queso, patacones with guacamole, ceviche de mango, rice with coconut, yuca frita, and a growing set of modern restaurants with veg menus (Madre Monte, Crepes &amp; Waffles).</p>
 <p><strong>Vegans</strong>: tighter but feasible. Ask for plates “<em>sin queso, sin suero, sin crema</em>” and stick to the rice-and-beans-and-plantain end of the menu. A handful of dedicated vegan places exist near Uninorte.</p>
 <p><strong>Gluten-free</strong>: mostly easy. Most Colombian food is corn- and yuca-based. Ask about breading on fried foods.</p>
@@ -376,6 +355,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

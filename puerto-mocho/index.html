@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-539 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore section-magazine" id="post-539">
 <!-- Hero Image -->
@@ -133,10 +144,6 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/puerto-mocho-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 class="wp-block-heading" id="the-train-ride-getting-to-puerto-mocho">The Train Ride: Getting to Puerto Mocho</h2>
 <!-- PEXELS_SECTION_IMAGE -->
 <figure class="venue-photo" style="margin: 24px 0;">
@@ -160,10 +167,6 @@
 <p>There’s also a beach volleyball court and plenty of space for kids to run around.</p>
 <h2 class="wp-block-heading" id="practical-info-for-visitors">Practical Info for Visitors</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical Info for Visitors" height="800" loading="lazy" src="/img/puerto-mocho-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p><strong>Location:</strong> Las Flores neighborhood, Riomar locality. Access via Calle 106.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Riomar locality" decoding="async" height="800" loading="lazy" src="/img/puerto-mocho-place-riomar-locality.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -185,10 +188,6 @@
 <p><strong>Other ways to get there:</strong> Besides the train, you can also walk or cycle along the dedicated pedestrian path and bike lane that run parallel to the tracks. The path also accommodates skateboards, roller skates, and electric scooters.</p>
 <h2 class="wp-block-heading" id="tips-for-your-visit">Tips for Your Visit</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Tips for Your Visit" height="800" loading="lazy" src="/img/puerto-mocho-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
-</figure>
 <p><strong>Go early on weekends.</strong> Puerto Mocho drew over 5,000 visitors on its opening day, and weekends remain busy. Arriving when gates open gives you first pick of canopies and calmer conditions.</p>
 <p><strong>Bring sunscreen and cash.</strong> While the kiosks and some vendors may accept digital payments, cash is still king for most food and drink purchases at the beach. And there’s not much shade once you move past the canopy area.</p>
 <p><strong>Don’t skip the train.</strong> Even if you have a car, the trolley ride along the levee is genuinely enjoyable and part of the experience. Kids especially love it.</p>
@@ -199,10 +198,6 @@
 
 <h2 class="wp-block-heading" id="why-it-matters">Why It Matters</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Why It Matters" height="800" loading="lazy" src="/img/puerto-mocho-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
-</figure>
 <p>For decades, Barranquilleros had to drive to Puerto Colombia, Salgar, or Santa Marta to reach a proper beach. Puerto Mocho changes that. It’s the city’s first and only urban public beach, and the electric train connection makes it accessible to everyone, not just those with cars. The project represents a broader shift in Barranquilla’s identity, from a purely commercial and industrial port city to one that embraces its Caribbean coastline.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/puerto-mocho-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -333,6 +328,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

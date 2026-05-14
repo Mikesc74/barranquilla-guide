@@ -38,7 +38,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260424a" />
+  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -65,6 +65,7 @@
       <li class="menu-item"><a href="/city-map/">City Map</a></li>
     </ul>
     <div class="nav-right">
+      <button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
       <a href="/#newsletter" class="nav-cta">Subscribe</a>
     </div>
     <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
@@ -74,6 +75,7 @@
 </nav>
 <div class="mobile-nav" id="mobile-nav" aria-hidden="true" role="dialog" aria-label="Mobile Navigation">
   <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&times;</button>
+  <button class="mobile-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg> Search</button>
   <a href="/section/explore/" class="mobile-nav-link">Things to Do</a>
   <a href="/section/live/" class="mobile-nav-link">Live</a>
   <a href="/section/eat-drink/" class="mobile-nav-link">Eat &amp; Drink</a>
@@ -83,6 +85,16 @@
   <div class="mobile-nav-ctas">
     <a href="/#newsletter" class="btn btn--coral">Subscribe to the newsletter</a>
     <a href="/section/explore/" class="btn btn--outline-white">Just visiting</a>
+  </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
   </div>
 </div>
 <article id="post-4091" class="single-article post-4091 post type-post status-publish format-standard has-post-thumbnail hentry category-now">
@@ -120,10 +132,6 @@
     <p>La Arenosa just wrapped its 213th birthday party and we&#8217;re rolling straight into Burger Master week, so if you&#8217;ve been looking for an excuse to eat your way across El Prado and the Norte, this is it. Here&#8217;s what else is worth knowing.</p>
 
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" src="/img/whats-happening-in-barranquilla-week-of-april-20-2026-pexels-generic.jpg" alt="Barranquilla, Colombia" width="1200" height="800" loading="lazy" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" />
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" target="_blank" style="color:#888;border-bottom:1px solid #ccc;">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" target="_blank" style="color:#888;border-bottom:1px solid #ccc;">Pexels</a></figcaption>
-</figure>
 
 
 
@@ -231,6 +239,6 @@
     </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script src="/js/main.js?v=20260424a" defer></script>
+<script src="/js/main.js?v=20260514a" defer></script>
 </body>
 </html>

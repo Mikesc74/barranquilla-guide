@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2766 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides section-stay" id="post-2766">
 <!-- Hero Image -->
@@ -125,10 +136,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Airport_basics">Airport basics</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Airlines_and_routes">Airlines and routes</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#What_to_expect_on_arrival">What to expect on arrival</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Getting_from_BAQ_to_the_city">Getting from BAQ to the city</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Uber_DiDi_or_InDriver_recommended">Uber, DiDi, or InDriver (recommended)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Taxi">Taxi</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Public_bus">Public bus</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-9" href="#Car_rental">Car rental</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Private_transfer">Private transfer</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Departures_what_to_know">Departures: what to know</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#If_you_have_a_long_layover">If you have a long layover</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Hotels_near_BAQ">Hotels near BAQ</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#FAQ">FAQ</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#Further_reading_on_this_site">Further reading on this site</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-airport-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#airport-basics">Airport basics</a></li>
 <li><a href="#airlines-routes">Airlines and routes</a></li>
@@ -143,10 +150,6 @@
 </div>
 <h2 id="airport-basics">Airport basics</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Airport basics" height="800" loading="lazy" src="/img/barranquilla-airport-guide-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p><strong>Name</strong>: Ernesto Cortissoz International Airport.<br/>
 <strong>IATA / ICAO code</strong>: BAQ / SKBQ.<br/>
 <strong>Location</strong>: Soledad, 7 km southeast of central Barranquilla. Despite the name, it’s technically in a neighboring municipality.<br/>
@@ -159,10 +162,6 @@
 <p>BAQ handles around 2.5–3 million passengers per year and underwent a significant modernization completed in 2021 that added jet bridges, expanded gates, and a proper international-standard commercial area. It’s a clean, functional, medium-sized airport, closer in feel to Medellín’s old Olaya Herrera than to Bogotá’s El Dorado.</p>
 <h2 id="airlines-routes">Airlines and routes</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Airlines and routes" height="800" loading="lazy" src="/img/barranquilla-airport-guide-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Kevin Garcia / Pexels</figcaption>
-</figure>
 <p>As of April 2026, BAQ is served by 10 airlines connecting to about 20 airports in Colombia, the Caribbean, Central America, and the US. Current carriers:</p>
 <ul>
 <li><strong>Avianca</strong> (focus city), the densest schedule, domestic and international</li>
@@ -177,6 +176,14 @@
 <li><strong>Z Air</strong>, seasonal/charter</li>
 </ul>
 <p><strong>Typical direct routes</strong> from BAQ: Bogotá, Medellín, Cali, Cartagena, San Andrés, Santa Marta, Miami (AA), Fort Lauderdale (Spirit), Panama City (Copa/Wingo). For Europe or other US cities, you’ll connect through Bogotá (El Dorado, BOG), Panama City (PTY), or Miami (MIA).</p>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Fort Lauderdale" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-fort-lauderdale.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Panama City" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-panama-city.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
@@ -271,10 +278,6 @@
 <p>For any trip over 24 hours, we still recommend staying in El Prado, Alto Prado, or Riomar and paying the extra Uber on the flight-out morning, the quality-of-stay difference is large.</p>
 <h2 id="faqs">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/barranquilla-airport-guide-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Roberto Castano / Pexels</figcaption>
-</figure>
 <p><strong>Is BAQ different from CTG (Cartagena)?</strong> Yes. Barranquilla (BAQ) and Cartagena (CTG) are separate airports 2 hours apart by road. Some travelers fly into CTG for vacations and day-trip Barranquilla, or vice versa. For Barranquilla Carnaval, flying direct to BAQ saves a lot of time.</p>
 <p><strong>Can I use USD at the airport?</strong> Only at currency exchanges. Everything else, taxis, shops, restaurants, even rideshares, is in pesos. Withdraw from an ATM.</p>
 <p><strong>Is BAQ safe?</strong> Yes. Standard airport precautions apply (keep bags in sight, ignore unsolicited “porter” offers), but no particular risks beyond those.</p>
@@ -405,6 +408,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

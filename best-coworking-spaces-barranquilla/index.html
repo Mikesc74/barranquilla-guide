@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2768 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2768">
 <!-- Hero Image -->
@@ -112,10 +123,6 @@
 
 <h2 class="wp-block-heading">What to Expect: Coworking in Barranquilla</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What to Expect: Coworking in Barranquilla" height="800" loading="lazy" src="/img/best-coworking-spaces-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Sevilla / Pexels</figcaption>
-</figure>
 <figure class="wp-block-image size-large"><img alt="Shared desks at a Barranquilla coworking space" class="alignnone size-large wp-image-3453" data-sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/coworking-1024x768.jpg" srcset="/img/coworking-1024x768.jpg 1024w, /img/coworking-300x225.jpg 300w, /img/coworking-768x576.jpg 768w, /img/coworking-1536x1152.jpg 1536w, /img/coworking-900x675.jpg 900w, /img/coworking-400x300.jpg 400w, /img/coworking.jpg 1585w" width="1024"/ loading="lazy"></figure>
 <p>Day passes: <strong>$25,000–50,000 COP ($6–12 USD)</strong><br/>
 Monthly memberships: <strong>$300,000–700,000 COP ($70–165 USD)</strong><br/>
@@ -131,10 +138,6 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 
 <h2 class="wp-block-heading">Best Coworking Spaces</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Best Coworking Spaces" height="800" loading="lazy" src="/img/best-coworking-spaces-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel angel Morales García / Pexels</figcaption>
-</figure>
 <h3 class="wp-block-heading">WeWork Barranquilla, Best for Professionals</h3>
 <p>WeWork operates in Barranquilla and brings its usual high-quality infrastructure, fast and reliable internet, good meeting rooms, professional atmosphere, and the WeWork global network access. Best for business professionals and teams who need a polished environment. Monthly memberships are the most expensive in the market but come with the most amenities.</p>
 <p> Zona Norte / business district<br/>
@@ -153,10 +156,6 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 <p>For mobile data backup, a Claro or Movistar SIM with a data plan is affordable and coverage in El Prado and Zona Norte is strong. See our <a href="/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026/">SIM card guide</a> for specifics.</p>
 <h2 class="wp-block-heading">Before You Commit to Long-Term</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Before You Commit to Long-Term" height="800" loading="lazy" src="/img/best-coworking-spaces-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: JohnEGo! / Pexels</figcaption>
-</figure>
 <p>If you’re researching Barranquilla as a base before committing, a hotel for your first week is the right move, it lets you try different neighbourhoods and coworking spaces before signing a lease or monthly membership.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DBarranquilla%252C%2BColombia" rel="noopener sponsored" target="_blank">→ Browse hotels for your exploratory trip</a></p>
 <p>A <a href="https://www.viator.com/Barranquilla/d50228-ttd?mcid=42383&amp;pid=P00296226&amp;medium=link" rel="noopener sponsored" target="_blank">city orientation tour</a> on arrival also helps, you’ll understand the neighbourhood geography much faster with a guide.</p>
@@ -277,6 +276,6 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

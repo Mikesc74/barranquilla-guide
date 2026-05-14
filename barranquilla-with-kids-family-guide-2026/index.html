@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2843 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides" id="post-2843">
 <!-- Hero Image -->
@@ -123,10 +134,6 @@
 <div class="toc">
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-with-kids-family-guide-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#where-families-actually-live">Where families actually live</a></li>
 <li><a href="#schools">Schools</a></li>
@@ -166,10 +173,6 @@
 
 <h2 class="wp-block-heading" id="schools">Schools</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Schools" height="800" loading="lazy" src="/img/barranquilla-with-kids-family-guide-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
-</figure>
 <p>This is the single biggest factor in where expat families land. The heavyweights are <strong><a href="https://www.kcparrish.edu.co/" rel="noopener" target="_blank">Colegio Karl C. Parrish</a></strong> (bilingual, IB program, US-style calendar, the default choice for American and Canadian families), <strong><a href="https://www.ds-barranquilla.org/" rel="noopener" target="_blank">Colegio Alemán</a></strong> (German curriculum, trilingual, strong STEM), <strong><a href="https://lbjschool.edu.co/" rel="noopener" target="_blank">Lyndon B. Johnson</a></strong> (US curriculum, smaller and more affordable than Parrish), and <strong><a href="https://marymountbq.edu.co/" rel="noopener" target="_blank">Marymount</a></strong> (Catholic, bilingual, traditionally the choice of Barranquilla’s business families). Tuition at the top schools runs roughly 18–35 million COP per year depending on grade. We cover the full landscape, plus universities, in our <a href="/barranquilla-with-kids-family-guide-2026/">schools and universities guide</a>.</p>
 <p>Two things nobody tells you: (1) most schools have <em>long</em> waiting lists, especially for kindergarten and grade 1, start the application process 12 months out; (2) the school calendar follows the Colombian academic year (late January to late November), not the northern hemisphere. If you’re arriving from the US or Canada mid-year, expect your kids to either enter behind or wait six months.</p>
 <h2 class="wp-block-heading" id="pediatric-care">Pediatric care</h2>
@@ -205,10 +208,6 @@
 
 <h2 class="wp-block-heading" id="weekend-activities">Weekend activities</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Weekend activities" height="800" loading="lazy" src="/img/barranquilla-with-kids-family-guide-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>The reliable rotation most local families cycle through: <strong>Museo del Caribe</strong> (well-designed, air-conditioned, great for rainy afternoons, kids under 5 free), the <strong>Acuario Mundo Marino</strong> in Puerto Colombia, the <strong>Bioparque Ukumarí</strong> day trip, and the beaches at <strong>Pradomar</strong>, <strong>Salgar</strong>, or (for a bigger day out) <strong>Santa Marta</strong>, 90 minutes east. If your kids are into soccer, <strong>Junior</strong> home matches at Estadio Metropolitano are a genuine cultural experience, sit in the family tribune (tribuna occidental) for the mellowest atmosphere.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/barranquilla-with-kids-family-guide-2026-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -363,6 +362,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

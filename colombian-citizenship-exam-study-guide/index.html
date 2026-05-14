@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <style>
 .article-body .key-facts {
   background: #F4F4F2;
@@ -84,7 +84,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -103,6 +104,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article section-guides section-live">
 <div class="article-hero">
@@ -125,10 +136,6 @@
 <p class="guide-intro"><em><strong>Part One</strong> is the procedural side: who can apply, where, what you pay, how long it takes. <strong>Part Two</strong>, most of the page, is the country's narrative history, the story you are supposed to know on exam day. Read it as a book. <strong>Part Three</strong> is reference material: the 32-department table, a date timeline, practice questions, FAQ.</em></p>
 <h2 id="who-this-is-for">Who this guide is for</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Who this guide is for" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p>Three kinds of people will get the most out of this page:</p>
 <ul>
 <li><strong>The five-year resident.</strong> The foreigner who has lived legally in Colombia for five or more years on M or R visas and who is ready to start the naturalization file.</li>
@@ -140,10 +147,6 @@
 <p>Everything below is in English. The exam itself is given in Spanish, and when you study, you should be studying Spanish terms, names, and dates. English is a scaffold. The official material is Spanish.</p>
 <h2 id="who-can-apply">Who can apply for Colombian citizenship</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Who can apply for Colombian citizenship" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Juan Coronel / Pexels</figcaption>
-</figure>
 <p>Colombian nationality by adoption (the legal term for naturalization) is governed by <strong>Ley 2332 de 2023</strong>, which entered into force on 25 September 2023 and replaced Ley 43 de 1993. Both laws implement Articles 96 through 98 of the 1991 Constitution.</p>
 <p>Files paid before 25 September 2023 finish under the old Ley 43 framework; everything new is under Ley 2332. The core requirement is a continuous period of legal residency in Colombia on a Visa de Residente (R), counted from the date the visa is issued:</p>
 <div class="toc-tablewrap">
@@ -172,10 +175,6 @@
 <p>Colombia has permitted <strong>dual citizenship</strong> since the 1991 Constitution. You do not have to renounce your original nationality to become Colombian. Whether your country of origin lets you keep its passport is a separate question.</p>
 <h2 id="where-to-apply">Where and how to apply</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where and how to apply" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Naturalization is administered by the <strong>Ministerio de Relaciones Exteriores</strong> (the Ministry of Foreign Affairs, usually just called the <strong>Cancilleria</strong>), specifically its <em>Grupo Interno de Trabajo de Nacionalidad</em>. Final approval is signed by the President through a <em>resolucion</em>.</p>
 <p>The application is filed in person. You book an appointment at one of the Cancilleria's <em>sedes</em>:</p>
 <ul>
@@ -208,10 +207,6 @@
 <p>That document, together with your original passport, entitles you to apply at the Registraduria for your Colombian <strong>cedula de ciudadania</strong>, the final proof that the process is complete.</p>
 <h2 id="exam">What the exam actually tests</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What the exam actually tests" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel Delima / Pexels</figcaption>
-</figure>
 <p>Most applicants take an oral interview-style exam administered by a Cancilleria functionary, under Ley 2332 de 2023.</p>
 <h3 id="exam-waivers">Who is exempt</h3>
 <p>Two kinds of exemption apply:</p>
@@ -233,10 +228,6 @@
 <p>If you fail, you can retake after a waiting period of 30 to 90 days at the functionary's discretion. A sensible preparation plan: four weeks of serious study for candidates with B1 or higher Spanish, starting with geography, then history, then the Constitution, then the symbols.</p>
 <h2 id="day-of">The day of the exam</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The day of the exam" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Robin Ramos / Pexels</figcaption>
-</figure>
 <p>What to bring, in this order:</p>
 <ul>
 <li>Original passport (current, not expired).</li>
@@ -252,10 +243,6 @@
 <p>You will not get a certificate on the day. The officer signs a form that goes into your naturalization file, and the process continues as described above. If you fail, ask the officer at the end of the interview which topics to study before your retake; many will give specifics.</p>
 <h2 id="after-approval">After approval: cedula, passport, and the rest</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="After approval: cedula, passport, and the rest" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Mister Edits / Pexels</figcaption>
-</figure>
 <p>Once the President signs your <em>resolucion de naturalizacion</em> and you have sworn the oath at the Cancilleria, you receive your <em>Carta de Naturaleza</em>. That document plus your original passport entitles you to three things, in order:</p>
 <ul>
 <li><strong>Cedula de ciudadania.</strong> Take the Carta de Naturaleza, your foreign passport, and your <em>cedula de extranjeria</em> to the <strong>Registraduria Nacional del Estado Civil</strong>. They will issue a Colombian <em>cedula de ciudadania</em>, the national ID card. The CE you held as a resident is now retired. The new cedula carries a fresh number, distinct from the CE.</li>
@@ -270,10 +257,6 @@
 </ul>
 <h2 id="dual-citizenship">Dual-citizenship practicalities</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Dual-citizenship practicalities" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li>Colombia does not require you to renounce your previous nationality. Most naturalized Colombians carry both passports.</li>
 <li>Most countries (United States, Canada, United Kingdom, Australia, New Zealand, most of the European Union, Israel, most of Latin America) permit dual citizenship without issue. A handful (Japan, South Korea, Singapore, India, several Gulf states) restrict it; check your country's rules <em>before</em> swearing the oath.</li>
@@ -288,10 +271,6 @@
 </ul>
 <h2 id="travel-benefits">What the Colombian passport gets you</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What the Colombian passport gets you" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Visa-free or visa-on-arrival</strong> access to roughly 130 countries as of 2026, including the entire Schengen Area, the United Kingdom, Turkey, Russia, South Korea, Israel, the United Arab Emirates, most of Latin America and the Caribbean, and parts of Southeast Asia.</li>
 <li><strong>ETIAS</strong> (the European Union's pre-travel authorization for visa-exempt travelers) will apply to Colombian nationals once it is fully active. It is an online form, not a visa.</li>
@@ -534,10 +513,6 @@
 </div>
 <h2 id="ch5-independence">Chapter Five: The Cry of Independence</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Chapter Five: The Cry of Independence" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-18.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jhonatam Altamar / Pexels</figcaption>
-</figure>
 <p>In May 1808, Napoleon Bonaparte forced the King of Spain, Ferdinand VII, to abdicate in favor of Napoleon's brother Joseph. In Spanish cities from Madrid to Cadiz, local juntas rose up to reject the French usurpation and govern in the name of the captive king.</p>
 <p>That news reached the American colonies. If Spain itself was governing through local juntas, why could the American colonies not do the same? Caracas declared its own junta on April 19, 1810. Buenos Aires followed on May 25. Bogota's turn came on July 20.</p>
 <h3 id="flower-vase">The Flower Vase of Llorente</h3>
@@ -1194,10 +1169,6 @@
 </div>
 <h2 id="timeline">Ten Dates Worth Memorizing</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Ten Dates Worth Memorizing" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-30.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <p>You will not be quizzed on every date in Colombian history. The exam pulls from a small set of national holidays and constitutional milestones, plus a couple of 20th-century turning points. These are the ten worth committing to memory; everything else lives in Part Two if you need to brush up on context.</p>
 <ol>
 <li><strong>1499</strong> - Alonso de Ojeda reaches La Guajira; the first Europeans on Colombian soil.</li>
@@ -1262,10 +1233,6 @@
 </ol>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/colombian-citizenship-exam-study-guide-section-32.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p><strong>Is the exam written or oral?</strong> Oral. An in-person interview in Spanish at the Cancilleria offices.</p>
 <p><strong>Do I need to know the whole anthem?</strong> You should be able to sing the chorus and the first verse. Examiners rarely ask for the whole anthem.</p>
 <p><strong>Can I take it in English?</strong> No. The exam is in Spanish. If your Spanish is weak, study Spanish first.</p>
@@ -1358,6 +1325,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-3862 post type-post status-publish format-standard has-post-thumbnail hentry category-eat section-eat-drink" id="post-3862">
 <!-- Hero Image -->
@@ -125,10 +136,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#A_little_history">A little history</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#The_flavor_alphabet">The flavor alphabet</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Street_treats_traditions">Street treats &amp; traditions</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Where_to_find_the_street_sweets">Where to find the street sweets</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-6" href="#The_institutions">The institutions</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Heladeria_Americana">Heladería Americana</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Don_Jacobo_Postres_y_Ponques">Don Jacobo Postres y Ponqués</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-9" href="#Margarita_Saieh_de_Jassir">Margarita Saieh de Jassir</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Pan_Santana">Pan Santana</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Panaderia_La_Baguette">Panadería La Baguette</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Dona_Linda">Doña Linda</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-13" href="#Reposteria_Nancy_Cabrera">Repostería Nancy Cabrera</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Piononos_Pasteleria">Piononos Pastelería</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#The_modern_patisseries">The modern patisseries</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Tart_by_Michelle_Cure">Tart by Michelle Cure</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#Nachos_Desserts">Nacho’s Desserts</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Le_Panier">Le Panier</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-19" href="#Le_Colate_Sede_84">Le Colate Sede 84</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Ice_cream_gelato_paletas">Ice cream, gelato &amp; paletas</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-21" href="#La_Gelateria">La Gelateria</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-22" href="#Dolce_Gelo">Dolce Gelo</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-23" href="#Ciocolatto_Pop_Bar">Ciocolatto Pop Bar</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-24" href="#Further_reading">Further reading</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/best-desserts-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: pedro furtado / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#a-little-history">A little history</a></li>
 <li><a href="#the-flavor-alphabet">The flavor alphabet</a></li>
@@ -144,10 +151,6 @@
 <p>The calendar matters too. <strong>Semana Santa</strong> is the biggest sweet week of the year, Lent pulled meat off the table, so the coast developed an entire parallel cuisine of fruit-and-panela <em>dulces</em>. <strong>Parque Tomás Suri Salcedo</strong> in the historic center has been the unofficial Festival del Dulce for more than forty years. <strong>Christmas</strong> brings natilla and buñuelos, both more homemade than sold. And <strong>Carnaval</strong> adds its own sweet layer, Dolce Gelo even builds a flavor lineup around it.</p>
 <h2 class="bg-article__section-title" id="the-flavor-alphabet">The flavor alphabet</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The flavor alphabet" height="800" loading="lazy" src="/img/best-desserts-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Roberto Castano / Pexels</figcaption>
-</figure>
 <p>A few ingredients show up in almost every costeño sweet worth eating. <strong>Coconut</strong>, the backbone. <strong>Panela</strong>, unrefined cane sugar, the caramel voice. <strong>Arequipe</strong>, Colombia’s dulce de leche. <strong>Yuca</strong> and <strong>corn</strong>, the starch for enyucado and natilla. And a rotating cast of tropical fruits: <strong>corozo</strong> (a tart reddish-purple palm fruit), <strong>níspero</strong> (sapodilla), <strong>zapote</strong> (earthy, orange, unmistakable), <strong>mamey</strong>, <strong>guanábana</strong> (soursop), <strong>tamarindo</strong>, <strong>guayaba</strong>, <strong>maracuyá</strong>. If a heladería doesn’t carry at least three of these, it isn’t really from here.</p>
 <h2 class="bg-article__section-title" id="street-treats-and-traditions">Street treats &amp; traditions</h2>
 <p><strong>Raspao.</strong> Shaved ice doused in bright fruit syrup, sometimes topped with condensed milk. The tradition dates to 1925, when the Lequerica brothers opened Hielo Imperial, the city’s first ice plant. Vendors with hand planers would shave the block into a paper cup. <em>Raspao de kola</em>, that deep-red cola syrup, is the local signature; tamarindo, corozo, and maracuyá are the other classics. There’s a sculpture of a caiman holding a raspao on the Malecón. That’s how embedded it is.</p>
@@ -420,6 +423,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

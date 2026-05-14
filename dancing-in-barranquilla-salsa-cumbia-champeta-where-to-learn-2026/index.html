@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2687 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore section-guides section-magazine" id="post-2687">
 <!-- Hero Image -->
@@ -114,10 +125,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#The_Music_Youll_Hear">The Music You’ll Hear</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-3" href="#Vallenato">Vallenato</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#Cumbia">Cumbia</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#Salsa">Salsa</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Champeta">Champeta</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Mapale_Porro_and_Other_Coastal_Rhythms">Mapalé, Porro, and Other Coastal Rhythms</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-8" href="#Where_to_Take_Dance_Classes">Where to Take Dance Classes</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-9" href="#Academies_and_Studios_El_Prado_Villa_Country_Zone">Academies and Studios (El Prado / Villa Country Zone)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Cultural_Centers_Folkloric_Focus">Cultural Centers (Folkloric Focus)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Private_Instructors">Private Instructors</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Hotels_and_Expat_Venues">Hotels and Expat Venues</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Social_Dancing_Venues">Social Dancing Venues</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Live_Music_Bars_with_Dance_Floors">Live Music Bars with Dance Floors</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-15" href="#Carnival_Season_Events">Carnival Season Events</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Milongas_and_Tango_Spaces">Milongas and Tango Spaces</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-17" href="#Practical_Tips_for_Dancing_as_a_Foreigner">Practical Tips for Dancing as a Foreigner</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-18" href="#A_Realistic_Learning_Timeline">A Realistic Learning Timeline</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-19" href="#Further_reading">Further reading</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: larry penaloza / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#the-music-you-ll-hear">The Music You’ll Hear</a></li>
 <li><a href="#where-to-take-dance-classes">Where to Take Dance Classes</a></li>
@@ -128,10 +135,6 @@
 </div>
 <h2 class="wp-block-heading" id="the-music-you-ll-hear">The Music You’ll Hear</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The Music You’ll Hear" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jimmy  Casas ospina / Pexels</figcaption>
-</figure>
 <h3 class="wp-block-heading">Vallenato</h3>
 <p>Vallenato is Colombia’s national folk music and Barranquilla’s cultural heartbeat. Built on accordion, caja drum, and guacharaca (a ridged percussion instrument), it was born in the Caribbean coast region and declared a UNESCO Intangible Cultural Heritage in 2015. The dance is close-hold and relatively easy to begin, two-step rhythm, subtle hip movement, led by the partner. You’ll hear vallenato everywhere from corner stores to high-end restaurants. The Festival de la Leyenda Vallenata in Valledupar (a few hours away) draws the top artists each year.</p>
 <h3 class="wp-block-heading">Cumbia</h3>
@@ -144,10 +147,6 @@
 <p>Mapalé is a fast, acrobatic dance performed at Carnival, incredible to watch, difficult to learn quickly. Porro is a brass-heavy rhythm from Córdoba and the Sinú region. You’ll encounter both during Carnival and cultural events. Worth knowing they exist; not urgent to learn unless you’re planning to stay long-term.</p>
 <h2 class="wp-block-heading" id="where-to-take-dance-classes">Where to Take Dance Classes</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where to Take Dance Classes" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <p>Barranquilla has a solid ecosystem of dance academies, from studios catering to expats to neighborhood schools teaching traditional folkloric forms.</p>
 <h3 class="wp-block-heading">Academies and Studios (El Prado / Villa Country Zone)</h3>
 <p>The northern residential zone (El Prado, Villa Country, Altos del Prado) has the highest concentration of formal dance studios. These typically offer salsa, cumbia, and vallenato in group classes (1.5–2 hours, $40,000–$80,000 COP per class) or private instruction ($80,000–$150,000 COP/hour). Group classes are better for social dancing (and a great way to meet people, see <a href="/fun-things-to-do-in-barranquilla-as-a-group/">fun things to do in Barranquilla as a group</a>); private lessons are faster for building technical foundations. Look for studios on Instagram, most promote via reels and stories rather than websites.</p>
@@ -184,10 +183,6 @@
 <p>Barranquilla has a small but active tango community with regular milongas (social tango evenings). If you already dance tango, you’ll find these through the local Facebook tango group or by asking at dance studios. Not Caribbean, but worth knowing the scene exists.</p>
 <h2 class="wp-block-heading" id="practical-tips-for-dancing-as-a-foreigner">Practical Tips for Dancing as a Foreigner</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical Tips for Dancing as a Foreigner" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Janeth Charris / Pexels</figcaption>
-</figure>
 <p><strong>Ask to dance directly:</strong> In Colombian social dancing culture, you ask someone directly, a gesture toward the floor is enough. “¿Bailamos?” (Shall we dance?) works perfectly. Rejection is uncommon and not awkward here.</p>
 <p><strong>Know the lead/follow dynamic:</strong> Salsa and cumbia are traditionally led by men, followed by women. This is not rigidly enforced at all venues, but it’s the default. If you’re learning as a woman, learning to follow first will make social dancing easier immediately.</p>
 <p><strong>Dress appropriately:</strong> Dance studios are casual, comfortable clothing and shoes that allow you to pivot. Clubs require going-out dress code even if you plan to dance all night. Bring something to change into if needed.</p>
@@ -319,6 +314,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

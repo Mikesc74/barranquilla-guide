@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2852 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides" id="post-2852">
 <!-- Hero Image -->
@@ -123,10 +134,6 @@
 <div class="toc">
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#why-barranquilla-not-cartagena">Why Barranquilla, not Cartagena</a></li>
 <li><a href="#legal-vs-symbolic-weddings">Legal vs. symbolic weddings</a></li>
@@ -149,10 +156,6 @@
 
 <h2 class="wp-block-heading" id="legal-vs-symbolic-weddings">Legal vs. symbolic weddings</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Legal vs. symbolic weddings" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel Matus / Pexels</figcaption>
-</figure>
 <p>Most foreign couples do a <strong>symbolic ceremony</strong> in Barranquilla and keep the legal paperwork at home. This is simpler, cheaper, and opens up any venue, beach, rooftop, private estate, rather than restricting you to a notary’s office. Colombia recognizes civil marriages performed by a <em>notaría</em>, but the process requires apostilled birth certificates, translated by a sworn translator, plus residency proof, and typically takes 4–6 weeks. For most destination couples, the time investment isn’t worth it. Get legally married at home first (or after), then hold the real celebration here.</p>
 <p>If you do want a legal Colombian wedding, for example, if one partner is Colombian, you’ll need: apostilled birth certificates (both parties), apostilled certificate of non-marriage (single status), valid passports, Colombian <em>cédula</em> for the local partner, two witnesses with ID, and the ceremony booked at a <em>notaría</em>. Expect 4–6 weeks from paperwork submission to the actual ceremony date. Any reputable wedding planner in the city can walk you through it.</p>
 <h2 class="wp-block-heading" id="venues-worth-knowing-about">Venues worth knowing about</h2>
@@ -191,10 +194,6 @@
 
 <h2 class="wp-block-heading" id="what-a-barranquilla-wedding-actually-costs">What a Barranquilla wedding actually costs</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What a Barranquilla wedding actually costs" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maroš Markovič / Pexels</figcaption>
-</figure>
 <p>Here’s a realistic 2026 budget for a 100-guest symbolic ceremony + full reception, with decent but not celebrity-level vendors. Prices in USD for simplicity (convert from COP at ~4,000 per USD).</p>
 <ul class="wp-block-list">
 <li><strong>Venue (country club or finca)</strong>: $2,500–5,000</li>
@@ -211,18 +210,10 @@
 <p><strong>Total: roughly $15,000–33,000 USD</strong> for a fully-catered 100-guest wedding. For comparison, the equivalent wedding in Cartagena runs $28,000–60,000, and in most US cities it’s $45,000–90,000. You’re getting a destination wedding at a local-city price.</p>
 <h2 class="wp-block-heading" id="planners-who-handle-foreign-couples">Planners who handle foreign couples</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Planners who handle foreign couples" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Fer Izaguirre / Pexels</figcaption>
-</figure>
 <p>Don’t try to DIY this from abroad. The time zones are forgiving (Barranquilla is COT, same as US Eastern in summer) but the language and vendor logistics will eat you alive without someone local coordinating. The Barranquilla planners who most often work with foreign or bilingual couples are <strong>Paola Murgas Eventos</strong>, <strong>Bodas del Caribe</strong>, and <strong>Caribe Wedding Planner</strong>. Get at least two quotes. A good planner charges 8–12% of total budget, and will save you far more than that by negotiating with vendors in Spanish and handling the day-of choreography.</p>
 <p>Questions to ask any planner before signing: Are you bilingual, or who on your team will be our point of contact? Do you have photos of weddings at the venue we want? Are vendor contracts in our name or yours? (They should be in yours if you’re a foreign couple, it avoids tax issues.) What’s your contingency plan for rain, power cuts, or a vendor no-show? The answer to that last question tells you whether they’ve actually run weddings or whether they just have a nice Instagram.</p>
 <h2 class="wp-block-heading" id="guest-logistics">Guest logistics</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Guest logistics" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <p>Flights into BAQ (Ernesto Cortissoz International) are the weak link. There are a handful of direct international routes, notably Avianca’s Miami, Panama, and Fort Lauderdale connections, and Spirit’s Fort Lauderdale route, but most foreign guests will connect through Bogotá, Medellín, or Panama City. Give guests a save-the-date at least 8 months out and your invitation with flight suggestions 5 months out. Many will fly into Cartagena (CTG) instead, it has more direct international routes, and take the 2-hour bus or private transfer. Book group transport for the wedding day and have it stop at 2–3 hotels in Villa Santos and Alto Prado where most guests will stay.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-place-alto-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -243,11 +234,11 @@
 <p>Recommend these hotels for out-of-town guests: <a href="https://www.hotelelpradobarranquilla.com/" rel="noopener" target="_blank"><strong>Hotel El Prado</strong></a> (historic charm, walkable to Malecón), <a href="https://www.hilton.com/en/hotels/baqacgi-hilton-garden-inn-barranquilla/" rel="noopener" target="_blank"><strong>Hilton Garden Inn Barranquilla</strong></a> (modern, reliable, near Buenavista mall), and <a href="https://www.hotelesestelar.com/" rel="noopener" target="_blank"><strong>Estelar Alto Prado</strong></a> (mid-range, business-district convenience). Room blocks can usually lock in 10–15% off.</p>
 <h2 class="wp-block-heading" id="food-drink-and-the-hora-loca">Food, drink, and the hora loca</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Food, drink, and the hora loca" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <p>The food at a Barranquilla wedding is where local culture shines. Standard catering includes <em>bandeja paisa</em> elements, fresh Caribbean fish, <em>arepas</em>, patacones, and often a late-night <em>sancocho</em> station around 1 a.m. when guests start flagging. Open bar is universal and includes aguardiente, rum (Ron Viejo de Caldas or Medellín), beer, and wine. Don’t bother with <a href="/best-bars-craft-drinks-barranquilla/">craft cocktails</a>, guests want cold rum and Coke and will thank you.</p>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="sancocho" decoding="async" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-food-sancocho.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="rum and Coke" decoding="async" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-food-rum-and-coke.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
@@ -279,17 +270,9 @@
 <p>The <em>hora loca</em> deserves its own paragraph. Around 11 p.m. or midnight, the lights drop, a brass band (or a hired troupe of masked performers with drums, confetti, glow sticks, feathered hats, and aguardiente shots) invades the dance floor. It lasts about 45 minutes and completely reconfigures the energy of the party. Most foreign guests will describe it as the best part of the wedding. Budget for it. This is non-negotiable if you want a Barranquilla wedding.</p>
 <h2 class="wp-block-heading" id="best-time-of-year">Best time of year</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Best time of year" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla has two seasons: dry (December–April) and wet (May–November, with September–October as the peak). For a wedding you want dry season, which conveniently also aligns with Carnival (February/March), though we’d actively avoid the Carnival weekend itself because hotels triple in price and guests will be distracted. The best wedding windows are <strong>late November through January</strong> (cooler evenings, reliable sun, tourist energy) and <strong>mid-March through April</strong> (after Carnival, before the rains). May to early September is humid and unpredictable; October is the single worst month.</p>
 <h2 class="wp-block-heading" id="the-honest-caveat">The honest caveat</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The honest caveat" height="800" loading="lazy" src="/img/barranquilla-wedding-guide-2026-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
-</figure>
 <p>Barranquilla is not a glossy wedding destination in the Pinterest sense. It doesn’t have the cobblestones of Cartagena or the beaches of Tulum. If your vision is “colonial walls at sunset,” you’re in the wrong city. But if you want a wedding where the food is better, the music is real, the dancing is serious, the budget stretches twice as far, and your guests will remember it as a genuine cultural experience rather than a curated photo shoot, this is it. Plan 10–14 months ahead, hire a bilingual planner, pick a dry-season date, and put half your savings into the <em>hora loca</em>.</p>
 <p><em>Related:</em> <a href="/best-hotels-in-barranquilla/">Best Hotels in Barranquilla</a> · <a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">Barranquilla Food Guide</a> · <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">Dancing in Barranquilla</a></p>
 <h2 id="further-reading">Further reading</h2>
@@ -417,6 +400,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

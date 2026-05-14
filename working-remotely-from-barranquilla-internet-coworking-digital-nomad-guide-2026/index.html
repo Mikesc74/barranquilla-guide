@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2689 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2689">
 <!-- Hero Image -->
@@ -137,16 +148,8 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="why-barranquilla">Why Barranquilla for remote work</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Why Barranquilla for remote work" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: NEHEMIAS GOMEZ FOTOGRAFIA / Pexels</figcaption>
-</figure>
 <p>Practical reasons Barranquilla works well for remote workers serving US or European employers:</p>
 <ul>
 <li><strong>Time zone</strong>: Colombia Time (<strong>COT, UTC−5</strong>), same as US Eastern Time from November to March and an hour ahead of it from March to November (Colombia does not observe daylight saving). For anyone working with US East Coast or European clients, scheduling is straightforward.</li>
@@ -157,10 +160,6 @@
 </ul>
 <h2 id="internet">Home internet, fiber providers and real speeds</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Home internet, fiber providers and real speeds" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla’s home-internet market is dominated by fiber (FTTH). The major providers:</p>
 <ul>
 <li><strong>Claro Hogar</strong>, largest network, most reliable on the Coast. Fiber plans from 200 Mbps to 1 Gbps; symmetric on higher tiers. 2026 retail pricing: 500/500 Mbps ~ COP 100–130k/month, 1 Gbps ~ COP 150–180k. Bundled with TV and landline for ~COP 40k more.</li>
@@ -174,10 +173,6 @@
 <p><strong>Installation</strong>: 3–10 business days from signup for new connections. Requires a CE or cédula. If you’re on a tourist stay, use the apartment’s existing line (most furnished Airbnbs include it) or mobile hotspot.</p>
 <h2 id="backup-connectivity">Backup connectivity, and why you want it</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Backup connectivity, and why you want it" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: erik debarre / Pexels</figcaption>
-</figure>
 <p>Fiber in Barranquilla is reliable, but the city has two real failure modes:</p>
 <ul>
 <li><strong>Power cuts</strong>. Air-e, the regional electricity distributor, has had a rough reliability record over the past few years. Scheduled outages are announced; unscheduled ones happen, particularly during the rainy season (October–November). A typical outage lasts 30 minutes to 2 hours.</li>
@@ -192,10 +187,6 @@
 </ul>
 <h2 id="power">Power, voltage, and the AC question</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Power, voltage, and the AC question" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Sebastian A. Montanchez Saldarriaga / Pexels</figcaption>
-</figure>
 <p>Colombia runs on <strong>110V / 60Hz</strong>, same as the US. US plugs fit directly. European and UK travelers need a cheap adapter.</p>
 <p>Barranquilla is <strong>hot and humid</strong> year-round, the daily high is 31–33°C (88–91°F) nearly every day, with 70–85% humidity. You can live without air conditioning, but working from a warm apartment in the afternoon is genuinely unpleasant and productivity-eroding. Budget:</p>
 <ul>
@@ -206,10 +197,6 @@
 <p>Apartments marketed to expats in the northern neighborhoods usually come with at least one A/C in the main bedroom; verify in the listing.</p>
 <h2 id="time-zone">Time zone advantages</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Time zone advantages" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Leandro Bezerra / Pexels</figcaption>
-</figure>
 <p>Colombia is COT (UTC−5) <strong>all year</strong>. Practical implications:</p>
 <ul>
 <li><strong>Same as US Eastern Time</strong> from <strong>early November to mid-March</strong> (when the US is on EST).</li>
@@ -221,10 +208,6 @@
 <p>If you work with US teams: easy. If you work with European teams: earlier starts. If you work with Asian teams: grim, but this is true anywhere in the Americas.</p>
 <h2 id="coworking">Coworking spaces in Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Coworking spaces in Barranquilla" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: george charry / Pexels</figcaption>
-</figure>
 <p>Barranquilla’s coworking scene is smaller than Medellín’s but has grown substantially since 2022. The main options:</p>
 <ul>
 <li><strong>Atom House</strong>, Villa Country. One of the city’s oldest coworkings; good Wi-Fi, hot desks, meeting rooms, decent coffee. Community skews Colombian founders and freelancers.</li>
@@ -238,10 +221,6 @@
 <p>See our dedicated <a href="/best-coworking-spaces-barranquilla/">coworking spaces guide</a> for current reviews and amenities detail.</p>
 <h2 id="cafes">Cafés that actually work for laptop hours</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Cafés that actually work for laptop hours" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Latin coffee culture doesn’t always love the 4-hour laptop sit, but Barranquilla has a handful of reliably laptop-friendly spots:</p>
 <ul>
 <li><strong>Juan Valdez Café</strong>, the chain. Wi-Fi, outlets, respectable cold brew, AC. Villa Country, Alto Prado, Buenavista mall locations are the best for work.</li>
@@ -253,10 +232,6 @@
 <p>For 2–3 hour sessions with a video call in your headphones: any of the above. For a full workday: coworking is better; you’ll stop getting glared at for ordering one cortado and opening Figma.</p>
 <h2 id="digital-nomad-visa">The Digital Nomad visa, do you need it?</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The Digital Nomad visa, do you need it?" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Woody Willis / Pexels</figcaption>
-</figure>
 <p>Colombia’s <strong>M, Nómada Digital</strong> visa is a proper migrant-category visa for remote workers and freelancers with foreign income. If you’re staying <strong>more than 6 months</strong> in any 12-month period, you effectively need it, because the tourist-permit annual cap is 180 days and the 183-day threshold triggers tax residency.</p>
 <ul>
 <li><strong>Income floor</strong>: 3× the Colombian minimum wage, ~USD 1,068/month in 2026.</li>
@@ -268,10 +243,6 @@
 <p>Full requirements, documentation, and common mistakes: our <a href="/visas-colombia-barranquilla/">Colombia visa guide</a>.</p>
 <h2 id="taxes">Tax residency, the 183-day rule</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Tax residency, the 183-day rule" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Clive Kim / Pexels</figcaption>
-</figure>
 <p>Physical presence in Colombia for more than <strong>183 days in any rolling 365-day period</strong> makes you a Colombian <strong>tax resident</strong>, liable to tax on worldwide income. Key 2026 points for remote workers:</p>
 <ul>
 <li>Colombia does <strong>not</strong> have a double-taxation treaty with the <strong>United States</strong>. US citizens can end up filing both jurisdictions, mitigated by the IRS Foreign Earned Income Exclusion (~USD 126,500 indexed) and foreign tax credits.</li>
@@ -283,10 +254,6 @@
 <p>If you’ll spend close to or over the 183-day threshold, engage a Colombian <em>contador público</em> before year-end. Not tax advice, get a professional. See the tax section of our <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">banking guide</a>.</p>
 <h2 id="setup-checklist">Setup checklist for a month or more</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Setup checklist for a month or more" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Juan Coronel / Pexels</figcaption>
-</figure>
 <ol>
 <li>Pick a neighborhood with solid fiber presence and workspace nearby, Alto Prado, Villa Country, Villa Santos, or Riomar. Our <a href="/exploring-the-enchanting-neighborhoods-of-barranquilla/">neighborhoods guide</a>.</li>
 <li>Confirm the apartment has A/C in the workspace room.</li>
@@ -300,10 +267,6 @@
 </ol>
 <h2 id="community">Finding community</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Finding community" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla’s nomad scene is smaller than Medellín’s, that’s both the charm and the challenge. Where to find it:</p>
 <ul>
 <li><strong>Facebook: “Expats in Barranquilla”</strong> and “Barranquilla, Americans &amp; Canadians” are the two main groups; someone posts a meetup most weeks.</li>
@@ -315,10 +278,6 @@
 <p>More on building a social circle: our <a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">expat networking guide</a>.</p>
 <h2 id="vs-other-cities">Barranquilla vs Medellín vs Bogotá for remote work</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla vs Medellín vs Bogotá for remote work" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel Delima / Pexels</figcaption>
-</figure>
 <p>Short version: pick the city before you pick the apartment. Full comparison in our <a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/">three-city comparison</a>. Quick frame for remote work specifically:</p>
 <ul>
 <li><strong>Medellín</strong>: deepest nomad community, best weather (1,500 m altitude, 20°C year-round), more coworking options, priciest. Can feel like an expat bubble if you want that, or oppressive if you don’t.</li>
@@ -327,10 +286,6 @@
 </ul>
 <h2 id="common-issues">Common issues and how to handle them</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Common issues and how to handle them" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-14.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Robin Ramos / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Power cut during a call</strong>: UPS keeps the call alive; your hotspot SIM takes over if the outage lasts. Keep a backup laptop charged.</li>
 <li><strong>Fiber outage</strong>: switch to the hotspot; call the ISP (Claro #611, Tigo #210) to log a ticket. Typical repair &lt;24 h.</li>
@@ -340,10 +295,6 @@
 </ul>
 <h2 id="tools">Tools worth installing day one</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Tools worth installing day one" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Mister Edits / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Wise / Revolut</strong>: cheapest FX for getting paid into COP or receiving USD.</li>
 <li><strong>Nequi</strong>: Colombian P2P payments and QR code merchants.</li>
@@ -356,10 +307,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026-section-16.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p><strong>Is the internet good enough for video calls all day?</strong> Yes, on fiber. Two simultaneous 1080p calls plus screen-sharing on a 500/500 Mbps line is fine. Wi-Fi router quality is the usual bottleneck.</p>
 <p><strong>Can I work on a tourist permit (PIP/PTP)?</strong> Technically the PIP doesn’t authorize work; in practice, quiet remote work for a foreign employer is tolerated. For long stays, use the Nómada Digital visa.</p>
 <p><strong>How’s 5G coverage?</strong> Growing. Claro and Tigo both have 5G in most of the city’s northern neighborhoods as of 2026; coverage gaps exist in older parts of Centro. 5G speeds of 300–600 Mbps are realistic outdoors.</p>
@@ -497,6 +444,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

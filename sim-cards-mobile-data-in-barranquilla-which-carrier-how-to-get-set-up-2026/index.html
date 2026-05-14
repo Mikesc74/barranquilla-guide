@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2720 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2720">
 <!-- Hero Image -->
@@ -137,16 +148,8 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="carriers">The carrier landscape in 2026</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The carrier landscape in 2026" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: erik debarre / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Claro</strong> (part of América Móvil), largest in Colombia, best coverage on the Caribbean Coast. Priciest on like-for-like plans. 4G and 5G widely available in Barranquilla’s northern neighborhoods. If you want one carrier without thinking, Claro.</li>
 <li><strong>Tigo</strong> (Millicom, merged with UNE), strong urban coverage, aggressive promos, very competitive in Barranquilla. 4G/5G. Often 20–30% cheaper than Claro on comparable data.</li>
@@ -156,10 +159,6 @@
 <p>MVNOs (ETB Móvil, Virgin Mobile, Flash Mobile) ride on the big four’s networks; prices similar to the network owner but customer support is variable. For most expats the main-four choice covers everything.</p>
 <h2 id="which-carrier">Which carrier to pick in Barranquilla</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Which carrier to pick in Barranquilla" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Sebastian A. Montanchez Saldarriaga / Pexels</figcaption>
-</figure>
 <p>Short answer:</p>
 <ul>
 <li><strong>Claro</strong>, default. Pay a bit more, get the best coverage. First-time arrivals, people who travel outside the city regularly (to Santa Marta, Palomino, Cartagena, rural Atlántico).</li>
@@ -170,19 +169,11 @@
 <p>A practical hack: keep <strong>two SIMs</strong>. Primary Claro + backup Tigo (or the other way around). If one is down, the other almost always works. Dual-SIM Androids and modern iPhones with eSIM make this trivial, and if you work remotely, having a backup mobile internet line is close to essential. See our <a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">remote work guide</a>.</p>
 <h2 id="prepaid-postpaid">Prepaid vs postpaid, what to pick</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Prepaid vs postpaid, what to pick" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Leandro Bezerra / Pexels</figcaption>
-</figure>
 <p><strong>Prepaid (<em>prepago</em>)</strong>: pay upfront for a package, no contract. Works on day one with just a passport (see registration rules below). Flexible, cancel by not topping up. Slightly worse per-peso value than postpaid, but far easier to set up. Almost all travelers and most digital nomads use prepaid.</p>
 <p><strong>Postpaid (<em>pospago</em>)</strong>: monthly billing, contract commitment (often 12 months), credit check. Requires a <strong>Cédula de Extranjería (CE)</strong>, Colombian visa ID issued after visa approval. Slightly better data per peso; often bundled with a phone or Netflix/Spotify. Worth switching to only if you’re staying long-term.</p>
 <p>For most expats: start prepaid, switch to postpaid once you have your CE and know you’ll stay.</p>
 <h2 id="registration">Mandatory SIM registration</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Mandatory SIM registration" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: george charry / Pexels</figcaption>
-</figure>
 <p>Since 2023, Colombia requires <strong>every</strong> mobile SIM to be registered to an ID, a cédula, Cédula de Extranjería, or foreign passport. The rule was introduced to combat fraud and extortion.</p>
 <p>What this means in practice:</p>
 <ul>
@@ -192,10 +183,6 @@
 </ul>
 <h2 id="where-to-buy">Where to buy a SIM</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where to buy a SIM" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Airport (BAQ)</strong>: Claro, Tigo, and Movistar kiosks in the Arrivals area. Convenient, slightly pricier on plans, staff usually English-capable.</li>
 <li><strong>Shopping malls</strong>: Buenavista, Viva Barranquilla, Portal del Prado, Único Outlet have full carrier stores. Widest plan selection.</li>
@@ -205,10 +192,6 @@
 </ul>
 <h2 id="esim">eSIM, when and how</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="eSIM, when and how" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Woody Willis / Pexels</figcaption>
-</figure>
 <p>All four major carriers support eSIM on most iPhones (XS and newer) and modern Samsung/Google/other Android flagships. Setup is instant: scan a QR code in the app or at the kiosk, SIM activates in seconds. No physical SIM to swap.</p>
 <p>Options for arriving travelers:</p>
 <ul>
@@ -218,10 +201,6 @@
 <p>Popular strategy: buy an international eSIM (Airalo, etc.) for your flight and first day; switch to a local carrier SIM once you’re settled. Keeps you online end-to-end without kiosk pressure at the airport.</p>
 <h2 id="prices">What plans actually cost (2026)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What plans actually cost (2026)" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Clive Kim / Pexels</figcaption>
-</figure>
 <p>All four carriers offer broadly similar tiered prepaid packages. Expect these ranges per month:</p>
 <ul>
 <li><strong>Entry (1–3 GB + minutes + WhatsApp unlimited)</strong>: COP 12–20k (USD 3–5). Suits light users, travelers with Wi-Fi at home.</li>
@@ -233,10 +212,6 @@
 <p><strong>Postpaid</strong>: COP 60–130k/month for substantially more data (often 100 GB + unlimited social + long-distance minutes). Usually committed for 12 months.</p>
 <h2 id="topups">Topping up (recargas)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Topping up (recargas)" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Juan Coronel / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Carrier app</strong>: easiest. Mi Claro, Mi Tigo, Mi Movistar, Mi WOM, link a card and top up in two taps.</li>
 <li><strong>Nequi or Daviplata</strong>: native recarga options in the app; use your balance to top up any Colombian line.</li>
@@ -246,10 +221,6 @@
 </ul>
 <h2 id="coverage-speed">Coverage, speed, and 5G</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Coverage, speed, and 5G" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>All four carriers have 4G LTE blanketing Barranquilla’s urban area. 5G SA and NSA are live in most of the northern neighborhoods on Claro and Tigo (the earliest deployers) with Movistar and WOM catching up. Real-world speeds in Alto Prado, Villa Country, and Riomar in 2026:</p>
 <ul>
 <li><strong>4G LTE</strong>: 30–120 Mbps down, 10–40 Mbps up.</li>
@@ -258,10 +229,6 @@
 <p>Expect real performance to depend more on building materials than carrier, older El Prado houses with thick walls attenuate signal; modern glass-clad towers in Villa Santos are fine.</p>
 <h2 id="plan-features">Understanding plan features</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Understanding plan features" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel Delima / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Minutos “todo destino”</strong>: minutes to any number nationally.</li>
 <li><strong>Minutos “al mismo operador”</strong>: on-network only; use on lines with the same carrier. Cheaper tier.</li>
@@ -272,10 +239,6 @@
 </ul>
 <h2 id="roaming-your-home-sim">Using your home SIM in Colombia</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Using your home SIM in Colombia" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Robin Ramos / Pexels</figcaption>
-</figure>
 <p>Most US, UK, and EU plans roam in Colombia but at widely varying cost. Notable:</p>
 <ul>
 <li><strong>Google Fi</strong> (US): works seamlessly at no extra cost up to 50 GB.</li>
@@ -287,24 +250,12 @@
 <p>For stays under a week, a home SIM plus eSIM from Airalo is often the easiest. For longer stays, a Colombian SIM is dramatically cheaper and more useful.</p>
 <h2 id="phone-unlock">Phone unlocking</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Phone unlocking" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Mister Edits / Pexels</figcaption>
-</figure>
 <p>To use a Colombian SIM your phone must be <strong>unlocked</strong>. Check with your home carrier before you travel, US carrier-locked phones especially can refuse foreign SIMs. For Apple iPhones bought unlocked or on T-Mobile/Verizon (post-contract), no issue. Android Samsung and Google Pixels sold unlocked work anywhere.</p>
 <h2 id="number-portability">Keeping your number if you switch carriers</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Keeping your number if you switch carriers" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-14.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p>Colombia supports free number portability. Switch to a new carrier keeping the same number: request portability in the new carrier’s store (or app), consent via SMS, and the switch happens within 24–48 hours. Useful when moving from a pricey first-choice carrier to a cheaper option.</p>
 <h2 id="common-issues">Common issues and fixes</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Common issues and fixes" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>APN not configured</strong>: new SIM online but no data. Fix by entering the carrier’s APN in settings (Claro: <code>internet.comcel.com.co</code>; Tigo: <code>web.tigo.com.co</code>; Movistar: <code>internet.movistar.com.co</code>; WOM: <code>internet.wom.co</code>). Most phones auto-configure.</li>
 <li><strong>Activation delays</strong>: if the SIM doesn’t activate in 30 minutes, the kiosk’s ID-registration queue is backed up. Wait an hour, restart the phone.</li>
@@ -314,10 +265,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026-section-16.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jhonatam Altamar / Pexels</figcaption>
-</figure>
 <p><strong>Do I need a Colombian address to get a prepaid SIM?</strong> No, just your passport. For postpaid, yes, lease or utility bill.</p>
 <p><strong>Can I open an account with a tourist stamp (PIP)?</strong> Prepaid yes, postpaid no. For postpaid you need a CE.</p>
 <p><strong>Will my US/UK phone work on 5G here?</strong> If it’s an unlocked recent model (iPhone 12+ or Samsung S21+), yes. Sub-6 GHz 5G bands used in Colombia (n78 mostly) are standard globally.</p>
@@ -451,6 +398,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

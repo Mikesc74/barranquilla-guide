@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2721 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2721">
 <!-- Hero Image -->
@@ -135,16 +146,8 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="chains-overview">The big chains at a glance</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The big chains at a glance" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Éxito</strong>, largest chain in Colombia. Full-service hypermarket: groceries, household, electronics, clothing. In 2023 Grupo Calleja (El Salvador) acquired a controlling stake from France’s Casino Group, but operations and branding are unchanged. Best for one-stop shopping.</li>
 <li><strong>Carulla</strong>, Éxito’s upscale brand (same group). Narrower footprint, higher-end selection, more imports, better deli and wine. Default for expats willing to pay ~15–25% more for quality.</li>
@@ -159,33 +162,69 @@
 <p>(Note: Justo &amp; Bueno, a hard-discount chain that was once a D1 rival, <strong>went bankrupt in 2022</strong> and is closed. You may see old references on other sites; ignore them.)</p>
 <h2 id="where-located">Which Barranquilla neighborhoods have which stores</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Which Barranquilla neighborhoods have which stores" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Cristian Sarchy / Pexels</figcaption>
-</figure>
 <p>Northern/expat-relevant locations:</p>
 <ul>
 <li><strong>Buenavista (Mall)</strong>: Éxito hypermarket anchor. Large, modern, full selection.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Buenavista (Mall)" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-buenavista-mall.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Viva Barranquilla (Mall)</strong>: Jumbo anchor.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Viva Barranquilla (Mall)" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-viva-barranquilla-mall.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Alto Prado / Villa Country</strong>: Carulla (Calle 84 and Calle 82 area), SAO Olímpica stores.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-villa-country.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-alto-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Riomar</strong>: Carulla Riomar, PriceSmart Riomar, SAO Olímpica.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Riomar" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-riomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Villa Country</strong>: Éxito Villa Country, several D1 and Ara stores.</li>
 <li><strong>El Prado</strong>: multiple Olímpica stores, D1s scattered.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Avenida Murillo / Via 40</strong>: Makro, larger Éxito formats.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Avenida Murillo / Via 40" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-avenida-murillo-via-40.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Portal del Prado (Mall)</strong>: Éxito anchor.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Portal del Prado (Mall)" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-portal-del-prado-mall.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Único Outlet</strong>: Olímpica anchor.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Único Outlet" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-unico-outlet.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 </ul>
 <p>D1 and Ara have dozens of small-format stores across every expat-relevant neighborhood. You’re rarely more than 10 minutes from one.</p>
 <h2 id="what-to-buy-where">What to buy where</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What to buy where" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Ikarus Gael / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Fresh produce</strong>: Olímpica and Éxito have competitive supermarket-grade produce. For the best quality and price, go to <strong>Mercado Público de Barranquilla</strong> (the old municipal market near Centro) or neighborhood produce shops (<em>fruterías</em>). Prices 30–50% lower at traditional markets.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Mercado Público de Barranquilla" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-mercado-publico-de-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Meat</strong>: Carulla and Éxito for quality; PriceSmart for bulk / USDA-graded imports; a trusted local <em>carnicería</em> for the best fresh cuts.</li>
 <li><strong>Fish and seafood</strong>: PriceSmart freezer, Carulla, or for best prices and freshness, <strong>Mercado de Pescados de Las Flores</strong> in the morning (before 10 am).</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Mercado de Pescados de Las Flores" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-mercado-de-pescados-de-las-flores.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Imported pantry (US/European brands)</strong>: PriceSmart first, Carulla second, Jumbo third. Ethnic aisles (Asian, Middle Eastern) are thin across Barranquilla, stock up when you find something you like.</li>
 <li><strong>Cheese, deli, cured meats</strong>: Carulla’s deli counter leads; Jumbo competes; Éxito is acceptable. A few specialty shops in Alto Prado carry decent European imports.</li>
 <li><strong>Bread</strong>: supermarket in-house bakeries are fine for daily; specialty bakeries like <strong>Pan Pa’ Ya!</strong> (national chain, strong Barranquilla presence) for better quality.</li>
@@ -196,24 +235,40 @@
 </ul>
 <h2 id="traditional-markets">Traditional markets and specialty stores</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Traditional markets and specialty stores" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jimmy  Casas ospina / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Mercado Público de Barranquilla</strong>, the old central market. Produce, herbs, Caribbean specialties, spices, fish. Early morning for the best selection.</li>
 <li><strong>Mercado de Las Flores</strong>, neighborhood market focused on seafood.</li>
 <li><strong>Granabastos</strong>, Atlántico’s central wholesale food terminal, where restaurants source produce. Open to individuals but scaled for bulk.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Granabastos" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-granabastos.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Fruterías</strong> (corner fruit shops) in every neighborhood. Tropical fruit in season at unbeatable prices, mango, papaya, guanábana, lulo, maracuyá, granadilla.</li>
 <li><strong>Panaderías</strong> (neighborhood bakeries) for fresh pan de yuca, pandebono, buñuelo, arepas, and cheap coffee. An essential part of daily life.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="arepas" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-food-arepas.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="buñuelo" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-food-bunuelo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="pandebono" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-food-pandebono.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="pan de yuca" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-food-pan-de-yuca.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Plazas campesinas</strong>, weekly farmer-style markets at several parks. Check <em>@mipueblomepertenece</em> or local Facebook groups for current schedules.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Plazas campesinas" decoding="async" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-place-plazas-campesinas.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 </ul>
 <h2 id="delivery">Grocery delivery apps</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Grocery delivery apps" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Rappi</strong>, the dominant all-purpose delivery app. Order from almost any supermarket, restaurant, pharmacy, or liquor store. Service fee + courier tip; 20–45 minutes typical delivery. Rappi Prime subscription (COP ~15k/month) waives several fees, worth it if you order weekly.</li>
 <li><strong>Merqueo</strong>, grocery-dedicated app; often cheaper per-item than Rappi since they run their own warehouses. Scheduled delivery windows rather than on-demand.</li>
@@ -224,18 +279,10 @@
 <p>Delivery fees typically COP 3–10k per order plus a small service fee. Tip the courier COP 3–5k in cash or through the app, service in Colombia rests on courier tips.</p>
 <h2 id="payment">Payment methods</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Payment methods" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Janeth Charris / Pexels</figcaption>
-</figure>
 <p>All supermarkets accept cash, Visa/Mastercard debit, credit cards, and Nequi/Daviplata QR. AMEX is accepted at most big chains but double-check. Hard-discount chains (D1, Ara) sometimes cash-only or card-only at specific stores, check before loading the basket. See the <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">banking and money guide</a>.</p>
 <p>Carulla, Éxito, Olímpica all have loyalty programs, register once, get point credits and member-only discounts. Carulla’s “Tarjeta Carulla” and Éxito’s “Puntos Colombia” are worth the 2-minute signup.</p>
 <h2 id="weekly-grocery-cost">What a week of groceries actually costs (2026)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What a week of groceries actually costs (2026)" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Carlos Mendoza / Pexels</figcaption>
-</figure>
 <p>Single person, comfortable middle-class eating, cooking at home most days:</p>
 <ul>
 <li><strong>Budget shopper (D1 + fruterías)</strong>: COP 150–220k/week (USD 38–55).</li>
@@ -263,10 +310,6 @@
 <p>Full household budget context: our <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">cost of living guide</a>.</p>
 <h2 id="store-hours">Hours and rhythms</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Hours and rhythms" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul>
 <li>Most supermarkets: <strong>7 am, 10 pm</strong>, seven days.</li>
 <li>Some large Éxito and Olímpica formats: 24 hours or until midnight.</li>
@@ -276,18 +319,10 @@
 </ul>
 <h2 id="dia-sin-iva">“Día sin IVA” and sale events</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="“Día sin IVA” and sale events" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Juan Felipe Ramírez / Pexels</figcaption>
-</figure>
 <p>Colombia runs occasional <strong>Día sin IVA</strong> days, government-declared VAT-free shopping days, typically 2–3 per year. Eligible categories (tech, clothing, appliances, school supplies, sporting goods) are sold without the 19% VAT, real savings on big-ticket items. Announced ~4 weeks in advance via news. Crowds are significant; shop online or arrive at open.</p>
 <p>Supermarket-specific sale events: <strong>Aniversario Éxito</strong>, <strong>Aniversario Olímpica</strong>, Black Friday (late November), Navidad (December), and back-to-school (late January).</p>
 <h2 id="imports-and-gaps">What you won’t easily find</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What you won’t easily find" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Lucia Barreiros  Silva / Pexels</figcaption>
-</figure>
 <p>Expat expectations around imported groceries:</p>
 <ul>
 <li><strong>Easy to find</strong>: pasta, olive oil, most European cheeses (at Carulla), wine, cereal, canned goods, US snack brands (at PriceSmart).</li>
@@ -297,10 +332,6 @@
 <p>Workarounds: Amazon Colombia, AmazonGlobal ship-to-Colombia (slow and pricey), or build a “kitchen care package” from home on every trip. See our <a href="/order-from-amazon-to-colombia/">Amazon in Colombia guide</a>.</p>
 <h2 id="speciality">Specialty stores worth knowing</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Specialty stores worth knowing" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: RITRATTO VISUAL / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Juan Valdez Café retail</strong>, Colombian coffee beans and ground, also packaged in duty-free sizes.</li>
 <li><strong>La Vaquita / Tierra del Queso</strong>, cheese specialists.</li>
@@ -310,10 +341,6 @@
 </ul>
 <h2 id="plastic-bags">Bags, sustainability, and small stuff</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Bags, sustainability, and small stuff" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Wallace Silva / Pexels</figcaption>
-</figure>
 <ul>
 <li>Plastic bags cost <strong>COP 100–200 each</strong> at checkout (a national “impuesto a las bolsas” applies). Bring reusable bags, every Barranquillero keeps a few in the car or scooter trunk.</li>
 <li>Recycling is limited. Most supermarkets have bins for plastic, glass, and paper but the downstream system is inconsistent.</li>
@@ -322,10 +349,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026-section-14.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Franco Garcia / Pexels</figcaption>
-</figure>
 <p><strong>Can I use my US/EU credit card?</strong> Yes at all major supermarkets. AMEX less universal than Visa/Mastercard.</p>
 <p><strong>Is tap water safe?</strong> Mostly, but most expats drink bottled or filtered. See our <a href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">arrival checklist</a>.</p>
 <p><strong>Do delivery apps work without a Colombian phone number?</strong> Rappi and Merqueo both allow foreign numbers at signup with SMS verification. A Colombian number is smoother.</p>
@@ -460,6 +483,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

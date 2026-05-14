@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2800 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore" id="post-2800">
 <!-- Hero Image -->
@@ -125,10 +136,6 @@
 <p><strong>Bottom line:</strong> If you’re doing one guided tour in Barranquilla, this is the one. <a href="https://www.viator.com/tours/Barranquilla/Malecon-Caribbean-Museum-Downtown-Barranquilla-City-Tour-5H/d50228-59388P110?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">Book here on Viator →</a> (~$74 USD, free cancellation)</p>
 <h2 class="wp-block-heading">What’s Included</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s Included" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: larry penaloza / Pexels</figcaption>
-</figure>
 <figure class="wp-block-image size-large"><img alt="Gran Malecón del Río alongside the Magdalena in Barranquilla" class="wp-image-3323" data-sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="576" src="/img/magdalena-malecon-1024x576.jpg" srcset="/img/magdalena-malecon-1024x576.jpg 1024w, /img/magdalena-malecon-300x169.jpg 300w, /img/magdalena-malecon-768x432.jpg 768w, /img/magdalena-malecon-1536x864.jpg 1536w, /img/magdalena-malecon.jpg 1585w" width="1024"/ loading="lazy"></figure>
 <ul class="wp-block-list">
 <li><strong>Gran Malecón del Río</strong>, Barranquilla’s spectacular riverfront promenade along the Magdalena River. One of the finest urban public spaces in Colombia, and most visitors don’t know it exists.</li>
@@ -166,6 +173,10 @@
 <figure class="wp-block-image alignwide size-large"><img alt="Downtown Barranquilla city tour" class="wp-image-3687" data-sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/gran-malecon-tour-2.jpg" srcset="/img/gran-malecon-tour-2.jpg 669w, /img/gran-malecon-tour-2-300x200.jpg 300w, /img/gran-malecon-tour-2-600x400.jpg 600w" width="669"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
 <p>The Gran Malecón del Río is the most impressive urban infrastructure project Barranquilla has completed in decades, a multi-kilometre promenade along the Magdalena River with sculptures, viewpoints, cultural spaces, and the best views of the river that built Colombia. The Magdalena was the country’s main artery for trade and migration for centuries; standing on its banks in Barranquilla with a guide explaining the history is genuinely moving.</p>
 <p>Most tourists fly into Barranquilla and head straight to Cartagena. The Gran Malecón is why that’s a mistake.</p>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <h2 class="wp-block-heading">The Carnaval Museum, Essential Even Outside Carnival Season</h2>
 <figure class="wp-block-image size-large"><img alt="Exhibit inside the Museo del Carnaval de Barranquilla" class="wp-image-2815" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2800-1024x538.jpg" srcset="/img/tour-2800-1024x538.jpg 1024w, /img/tour-2800-300x158.jpg 300w, /img/tour-2800-768x403.jpg 768w, /img/tour-2800.jpg 1200w" width="1024"/></figure>
 <p>The Museo del Carnaval is the best way to understand what Barranquilla Carnival actually is, beyond the surface-level “big party” description. The museum covers the African, Indigenous, and European roots of the celebration, the specific dance traditions (cumbia, mapalé, congo), the meaning of the costumes, and the social role Carnival plays in costeño identity. If you’re visiting during Carnival, this is the essential pre-game. If you’re visiting at any other time, it makes you want to come back.</p>
@@ -174,10 +185,6 @@
 <p>With 39 reviews at 4.6 stars, the feedback is consistently positive. Reviewers highlight the guide’s knowledge and bilingual fluency, the Gran Malecón as a revelation (“I had no idea this existed”), and the efficient use of the 6 hours. The main critique from some reviews: the downtown walking section can be hot in peak sun, bring water and wear comfortable shoes.</p>
 <h2 class="wp-block-heading">Practical Details</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical Details" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: AnthonyC @AnayTonyporelmundo / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><strong>Duration:</strong> 6 hours</li>
 <li><strong>Price:</strong> From ~$74 USD per person (COP 310,515), price varies by group size</li>
@@ -192,10 +199,6 @@
 <p>Booking through Viator gives you free cancellation, secure payment, and buyer protection if the tour doesn’t run as described. Book in advance during Carnival season, guides fill up weeks ahead.</p>
 <h2 class="wp-block-heading"><a href="/where-to-stay-in-barranquilla/">Where to Stay</a> Nearby</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Where to StayNearby" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Mario Alducin / Pexels</figcaption>
-</figure>
 <p>Most tour pickups are from the El Prado area, which is also where the best hotels are. <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a> and <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fdann-carlton-barranquilla.html" rel="noopener sponsored" target="_blank">Dann Carlton</a> both offer convenient pickup locations.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="El Prado area" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-el-prado-area.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -335,6 +338,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

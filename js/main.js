@@ -406,3 +406,119 @@
    Formspree. If we re-add an email-marketing integration, wire it
    server-side (Cloudflare Worker) instead of leaking it into the
    client. */
+
+/* ── Search ── added by add-search.py ────────────────────────────────────────*/
+(function () {
+  'use strict';
+
+  var overlay  = document.getElementById('search-overlay');
+  var input    = document.getElementById('search-input');
+  var results  = document.getElementById('search-results');
+  var closeBtn = document.getElementById('search-close');
+  var openBtns = document.querySelectorAll('.js-search-open');
+
+  if (!overlay || !input) return;
+
+  var idx   = null;
+  var timer = null;
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function scoreField(text, terms) {
+    if (!text) return 0;
+    var t = text.toLowerCase(), s = 0;
+    for (var i = 0; i < terms.length; i++) {
+      if (t.indexOf(terms[i]) !== -1) s++;
+    }
+    return s;
+  }
+
+  function open() {
+    overlay.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+    input.focus();
+    if (!idx) loadIndex();
+  }
+
+  function close() {
+    overlay.classList.remove('is-open');
+    document.body.style.overflow = '';
+    input.value = '';
+    results.innerHTML = '<p class="search-hint">Type to search…</p>';
+  }
+
+  function loadIndex() {
+    fetch('/search-index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        idx = data;
+        if (input.value.trim()) runSearch(input.value);
+      })
+      .catch(function () {
+        results.innerHTML = '<p class="search-no-results">Search unavailable.</p>';
+      });
+  }
+
+  function runSearch(query) {
+    if (!idx) return;
+    var q = query.toLowerCase().trim();
+    if (!q) {
+      results.innerHTML = '<p class="search-hint">Type to search…</p>';
+      return;
+    }
+    var terms = q.split(/\s+/).filter(Boolean);
+
+    var hits = idx
+      .map(function (p) {
+        var s = scoreField(p.title, terms)       * 10
+              + scoreField(p.description, terms) * 5
+              + scoreField(p.body, terms)         * 1;
+        return { p: p, s: s };
+      })
+      .filter(function (r) { return r.s > 0; })
+      .sort(function (a, b) { return b.s - a.s; })
+      .slice(0, 8);
+
+    if (!hits.length) {
+      results.innerHTML =
+        '<p class="search-no-results">No results for "' + esc(query) + '".</p>';
+      return;
+    }
+
+    results.innerHTML = hits.map(function (r) {
+      var p = r.p;
+      return (
+        '<a href="' + esc(p.url) + '" class="search-result">' +
+        (p.section ? '<div class="search-result-label">' + esc(p.section) + '</div>' : '') +
+        '<div class="search-result-title">' + esc(p.title) + '</div>' +
+        (p.description ? '<div class="search-result-desc">' + esc(p.description) + '</div>' : '') +
+        '</a>'
+      );
+    }).join('');
+  }
+
+  openBtns.forEach(function (btn) { btn.addEventListener('click', open); });
+  if (closeBtn) closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('is-open')) close();
+  });
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    var val = input.value;
+    timer = setTimeout(function () { runSearch(val); }, 180);
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      var first = results.querySelector('.search-result');
+      if (first) first.click();
+    }
+  });
+}());
+/* ── End Search ───────────────────────────────────────────────────────────────*/

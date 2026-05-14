@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2692 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2692">
 <!-- Hero Image -->
@@ -133,16 +144,8 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="before-you-land">Before you land</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Before you land" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p>Do these <strong>before</strong> you board. They take 20 minutes and save hours on the other end.</p>
 <ul>
 <li><strong>Check-Mig form</strong>, Colombia’s mandatory pre-arrival registration, completed within 72 hours before your flight. Free, 3 minutes: <a href="https://apps.migracioncolombia.gov.co/pre-registro/" rel="noopener" target="_blank">apps.migracioncolombia.gov.co/pre-registro</a>. Without it, the airline will hold you at the gate.</li>
@@ -156,10 +159,6 @@
 </ul>
 <h2 id="day-1">Day 1, Land, settle, eat, sleep</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Day 1, Land, settle, eat, sleep" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jhonatam Altamar / Pexels</figcaption>
-</figure>
 <p><strong>At BAQ</strong>: immigration is 15–30 minutes on most days. Ask the officer politely for <strong>90 días</strong> on your PIP stamp, otherwise they may give 30 or 60. Clear baggage, walk past the currency-exchange counter (ATM is better), and head to Arrivals.</p>
 <ul>
 <li><strong>Money</strong>: withdraw COP 600,000–1,000,000 from a Davivienda or Scotiabank ATM in the Arrivals area. <strong>Choose “pesos”</strong> on the DCC prompt, never the home-currency option. See our <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">banking guide</a> for why.</li>
@@ -170,10 +169,6 @@
 </ul>
 <h2 id="day-2">Day 2, Orient, hydrate, ease in</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Day 2, Orient, hydrate, ease in" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Walk your block</strong>. Find the nearest tienda (corner shop), panadería (bakery), fruit seller, and pharmacy. Introduce yourself to the portero if you’re in a building with one, they’re the single most helpful person on any block.</li>
 <li><strong>Buy water</strong>. Tap water in Barranquilla is technically potable (see our <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">cost-of-living</a> section on utilities), but most expats drink bottled. A 6L jug from the tienda is COP 5–8k. If you’ll be here a while, ask your building if it has a filtered-water tap (<em>agua pura</em>), many do.</li>
@@ -184,10 +179,6 @@
 </ul>
 <h2 id="day-3">Day 3, First real exploration</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Day 3, First real exploration" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Morning walk: the Malecón</strong>. The <strong>Gran Malecón del Río</strong> runs along the Magdalena in the early morning before the sun bites. Good for orientation and photos. See our <a href="/things-to-do-around-barranquilla/">things to do guide</a>.</li>
 <li><strong>Lunch in El Prado</strong>. The Centro Histórico of expat Barranquilla. Republican-era architecture, wide shaded avenues, and some of the city’s best restaurants.</li>
@@ -196,10 +187,6 @@
 </ul>
 <h2 id="day-4-5">Days 4–5, Infrastructure</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Days 4–5, Infrastructure" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <p>This is where most expats stall if they don’t plan it. If you’re here for more than a month:</p>
 <ul>
 <li><strong>Laundry arrangement</strong>. Most apartments don’t have dryers. Either (a) rooftop line-dry, (b) a <em>lavandería</em> around the corner, typical cost COP 6–10k per kilo, washed and folded returned in a day, or (c) your building’s service.</li>
@@ -210,10 +197,6 @@
 </ul>
 <h2 id="day-5-7">Days 5–7, Social and language</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Days 5–7, Social and language" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Spanish</strong>: even 20 minutes a day makes the difference between “survival” and “friends.” If you want formal instruction, Universidad del Norte runs small-group and private classes; <a href="https://www.uninorte.edu.co/" rel="noopener" target="_blank">uninorte.edu.co</a>. Our <a href="/study-spanish-in-barranquilla/">Spanish study guide</a> covers tutors and language exchanges.</li>
 <li><strong>Meet people</strong>: expats + Colombians both. Join <strong>Expats in Barranquilla</strong> on Facebook and show up to at least one meetup in week one. Dance classes (salsa or champeta) are a fast, enjoyable way into the social scene, see our <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">dancing guide</a>.</li>
@@ -221,10 +204,6 @@
 </ul>
 <h2 id="things-that-can-wait">Things that can wait</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Things that can wait" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Cristian Sarchy / Pexels</figcaption>
-</figure>
 <p>Don’t rush these in week one, they’re easier once you’re oriented:</p>
 <ul>
 <li><strong>Opening a Colombian bank account</strong>. Requires CE, so irrelevant until you have a visa approved.</li>
@@ -234,18 +213,10 @@
 </ul>
 <h2 id="mindset">One mindset note</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="One mindset note" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Ikarus Gael / Pexels</figcaption>
-</figure>
 <p>Barranquilla is not a tourist-groomed city. It’s a working Caribbean port with a deep culture, real traffic, real heat, and a sense of humor. People are warm but direct; the rhythm is unhurried but not lazy. Expect to spend your first week thinking “this is chaotic” and your second thinking “this works.” Don’t fight the rhythm, sync to it.</p>
 <p>Everyone makes the same mistakes on arrival: overscheduling day one, underestimating the humidity, assuming <em>ahorita</em> means “right now” (it means “in a while”), and eating too much fried food too fast. Mistakes are fine. Don’t skip Narcobollo because you’re nervous about fried fish.</p>
 <h2 id="quick-reference">Quick reference, numbers and addresses</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Quick reference, numbers and addresses" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jimmy  Casas ospina / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Emergency (all services)</strong>: 123</li>
 <li><strong>Medical emergency</strong>: 125</li>
@@ -257,10 +228,6 @@
 </ul>
 <h2 id="red-flags">Common first-week mistakes to avoid</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Common first-week mistakes to avoid" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Yulieth Andrea / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Choosing DCC at the ATM</strong>. Always pick pesos/COP.</li>
 <li><strong>Getting into a taxi without agreeing the price</strong>. Use Uber/DiDi/InDriver for transparent fares.</li>
@@ -272,10 +239,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Janeth Charris / Pexels</figcaption>
-</figure>
 <p><strong>How long does jet lag last?</strong> For east-coast US travelers, essentially none. From Europe, 2–3 days.</p>
 <p><strong>Can I drink the tap water?</strong> Most locals drink it; most expats don’t, at least not in week one. Ease in.</p>
 <p><strong>Is tipping expected?</strong> At restaurants, a 10% “propina voluntaria” is added automatically. Leave it.</p>
@@ -416,6 +379,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

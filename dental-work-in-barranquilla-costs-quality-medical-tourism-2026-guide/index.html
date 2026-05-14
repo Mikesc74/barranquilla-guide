@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2859 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2859">
 <!-- Hero Image -->
@@ -114,10 +125,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Why_Barranquilla_for_dental_work">Why Barranquilla for dental work</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#What_dental_work_costs_in_Barranquilla_in_2026">What dental work costs in Barranquilla in 2026</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#Preventive_and_general_dentistry">Preventive and general dentistry</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#Restorative_dentistry">Restorative dentistry</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Implants">Implants</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Cosmetic_and_orthodontics">Cosmetic and orthodontics</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Oral_surgery">Oral surgery</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#How_to_choose_a_dentist">How to choose a dentist</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Check_RETHUS">Check RETHUS</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Match_the_specialty_to_the_procedure">Match the specialty to the procedure</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Ask_about_the_lab_and_the_materials">Ask about the lab and the materials</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-13" href="#Consultation_before_committing">Consultation before committing</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#How_to_structure_a_dental_trip">How to structure a dental trip</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-15" href="#Single-visit_work_5%E2%80%9310_days">Single-visit work (5–10 days)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Implants_%E2%80%93_two_trips">Implants, two trips</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#All-on-4_full-arch">All-on-4 / full-arch</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Recovery_logistics">Recovery logistics</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-19" href="#Payment_insurance_and_records">Payment, insurance, and records</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Red_flags_to_watch_for">Red flags to watch for</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-21" href="#Warranty_and_follow-up">Warranty and follow-up</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-22" href="#FAQ">FAQ</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-23" href="#Is_dental_work_in_Colombia_actually_safe">Is dental work in Colombia actually safe?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-24" href="#Do_I_need_to_speak_Spanish">Do I need to speak Spanish?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-25" href="#Can_I_combine_dental_work_with_other_medical_tourism">Can I combine dental work with other medical tourism?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-26" href="#What_if_something_goes_wrong_after_Ive_gone_home">What if something goes wrong after I’ve gone home?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-27" href="#Are_%E2%80%9Cdental_tourism_packages%E2%80%9D_worth_it">Are “dental tourism packages” worth it?</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-28" href="#Further_reading">Further reading</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#why-barranquilla-for-dental-work">Why Barranquilla for dental work</a></li>
 <li><a href="#what-dental-work-costs-in-barranquilla-in-2026">What dental work costs in Barranquilla in 2026</a></li>
@@ -196,10 +203,6 @@
 <p>A proper treatment plan requires a clinical exam, a panoramic X-ray, and often a CBCT (3D cone-beam CT) scan for implant or complex cases. Any clinic quoting you a full-mouth reconstruction over WhatsApp without seeing you is not the clinic you want. Expect to spend your first visit on diagnostics and leave with a written plan, staged cost breakdown, and materials list before any treatment begins.</p>
 <h2 class="wp-block-heading" id="how-to-structure-a-dental-trip">How to structure a dental trip</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How to structure a dental trip" height="800" loading="lazy" src="/img/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Lucia Barreiros  Silva / Pexels</figcaption>
-</figure>
 <h3 class="wp-block-heading">Single-visit work (5–10 days)</h3>
 <p>Cleanings, fillings, root canals with crowns, veneers, extractions, whitening, aligner starts, and crown replacements can usually be completed in a single trip of 5–10 days. Plan consultation and diagnostics on day 1–2, begin treatment on day 2–3, return for final seating or follow-ups across the remaining days, and have a buffer day at the end in case a crown needs a shade or fit adjustment.</p>
 <h3 class="wp-block-heading">Implants, two trips</h3>
@@ -210,10 +213,6 @@
 <p>After oral surgery or implants, you’ll want soft-food-friendly accommodation with a blender or kitchenette. Don’t book full-day excursions for 2–3 days post-op. Drinking alcohol, flying, and hot-tubbing are all discouraged for at least 72 hours after oral surgery. Keep follow-ups scheduled rather than ad-hoc, if something feels off, you want to see the surgeon who did the work, not try to find a new clinic on short notice.</p>
 <h2 class="wp-block-heading" id="payment-insurance-and-records">Payment, insurance, and records</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Payment, insurance, and records" height="800" loading="lazy" src="/img/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: RITRATTO VISUAL / Pexels</figcaption>
-</figure>
 <p>Most dental clinics accept credit cards (Visa, Mastercard, Amex occasionally) with a 3–5% surcharge, bank transfer in pesos, or cash. Large treatment plans are usually structured as a deposit (often 30–50%) at start of treatment and the balance at completion of each stage. Get everything in writing before paying anything. Reputable clinics will itemize each procedure, material, and lab fee.</p>
 <p>U.S. and Canadian dental insurance generally does not cover elective treatment abroad. Some plans reimburse “out-of-network international care” for emergencies only, and a few PPO plans will partially reimburse routine care abroad if you file claims with itemized receipts, check with your insurer before the trip. Get a detailed itemized invoice with procedure codes (CDT codes if the clinic can provide them), the dentist’s name and license number, and the clinic’s tax ID. Better clinics can issue these on request.</p>
 <p>Ask for all X-rays, CBCT scans, photos, and treatment notes on a USB drive or shared folder before you leave. You’ll want these for any follow-up care back home and for warranty claims later.</p>
@@ -230,17 +229,9 @@
 </ul>
 <h2 class="wp-block-heading" id="warranty-and-follow-up">Warranty and follow-up</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Warranty and follow-up" height="800" loading="lazy" src="/img/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Wallace Silva / Pexels</figcaption>
-</figure>
 <p>Most reputable Colombian dental clinics offer a 1–5 year warranty on crowns, bridges, and implants, provided you return for follow-up cleanings and check-ups at stated intervals. The warranty usually covers the material and workmanship, not fracture due to bruxism or trauma. Get the warranty terms in writing, including what’s covered, how long, and what voids it. Night-guard use is usually required to maintain warranty on anterior work and veneers.</p>
 <h2 class="wp-block-heading" id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Franco Garcia / Pexels</figcaption>
-</figure>
 <h3 class="wp-block-heading">Is dental work in Colombia actually safe?</h3>
 <p>Work done by RETHUS-registered specialists at established clinics using brand-name materials is as safe as equivalent care in the U.S. or Europe. Sterilization standards at mid-to-upper-tier clinics follow the same autoclave, instrument tracking, and single-use disposables protocols you’d see at home. Risks concentrate at the low end of the market where corners get cut.</p>
 <h3 class="wp-block-heading">Do I need to speak Spanish?</h3>
@@ -377,6 +368,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

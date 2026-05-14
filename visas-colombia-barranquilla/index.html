@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2750 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live" id="post-2750">
 <!-- Hero Image -->
@@ -144,16 +155,8 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Barranquilla, Colombia" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo by <a href="https://www.pexels.com/@lasfotosdepipe" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Felipe Jiménez</a> on <a href="https://www.pexels.com/photo/aerial-shot-of-city-buildings-near-body-of-water-12097112/" rel="nofollow noopener" style="color:#888;border-bottom:1px solid #ccc;" target="_blank">Pexels</a></figcaption>
-</figure>
 <h2 id="two-systems">Colombia has two separate systems, learn them first</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Colombia has two separate systems, learn them first" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <p>Everything below makes more sense once you understand that Colombia runs two parallel systems, and they are <em>not</em> the same thing:</p>
 <ol>
 <li><strong>Tourist permits</strong>, issued by <strong>Migración Colombia</strong> at the airport (or at a land border). These are <em>permits</em>, not visas. The main ones are the <strong>PIP</strong> (entry stamp given on arrival) and the <strong>PTP</strong> (in-country extension of a PIP).</li>
@@ -163,10 +166,6 @@
 <p>There’s also a third artifact, the <strong>Cédula de Extranjería (CE)</strong>, the foreign-resident ID card issued by Migración Colombia after your visa is approved. The CE is an ID card, not a visa; we’ll cover it below.</p>
 <h2 id="visa-free-entry">Visa-free tourist entry (the PIP)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Visa-free tourist entry (the PIP)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Citizens of roughly 100 countries, including the <strong>United States, Canada, the UK, all EU/Schengen countries, Australia, New Zealand, Japan, South Korea, Israel, and most of Latin America</strong>, can enter Colombia as tourists <strong>without applying for anything in advance</strong>. Full up-to-date list: Cancillería, countries that don’t need a visa.</p>
 <p>At the airport you’ll receive the <strong>PIP (Permiso de Ingreso y Permanencia)</strong>, an entry permit, logged digitally and stamped in your passport. Usual grant: <strong>90 days</strong>. The officer can grant less (30 or 60) at their discretion if they think your plans don’t require 90; always ask politely for 90 if you want it.</p>
 <p>Important rules about the PIP:</p>
@@ -178,25 +177,21 @@
 <p><strong>Entry requirements at the airport</strong>: passport valid at least until your departure date (no 6-month rule in Colombia, but airlines may enforce their own), proof of onward travel (airlines check this), and an address in Colombia. You’ll also complete the <strong>Check-Mig</strong> online form within 72 hours before your flight: <a href="https://apps.migracioncolombia.gov.co/pre-registro/" rel="noopener" target="_blank">apps.migracioncolombia.gov.co/pre-registro</a>.</p>
 <h2 id="extending-the-pip">Extending your tourist stay (the PTP)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Extending your tourist stay (the PTP)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel Matus / Pexels</figcaption>
-</figure>
 <p>If you want more time, you apply for a <strong>PTP (Permiso Temporal de Permanencia)</strong> through Migración Colombia, <strong>inside</strong> Colombia, before your PIP expires. This is the <em>extension</em>, and it is still a <em>permit</em>, not a visa.</p>
 <ul>
 <li>Maximum extension: up to <strong>90 additional days</strong>.</li>
 <li>Combined with the PIP, it still can’t exceed the <strong>180-day annual cap</strong>.</li>
 <li>Where to apply: online at <a href="https://apps.migracioncolombia.gov.co/" rel="noopener" target="_blank">apps.migracioncolombia.gov.co</a> (look for <em>Prórroga de Permanencia</em>). Pay the fee (around COP 120–130,000 in 2026), upload your passport and PIP, and wait for email approval.</li>
 <li>You can also do the procedure in person at the Migración office. In Barranquilla: Calle 54 #41-133, Barrio El Prado. Phone: +57 601 605 5454. Expect 1–2 hours and to bring printed copies of everything.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Barrio El Prado" decoding="async" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-place-barrio-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li>Apply <strong>before</strong> the PIP expires. Applying the day before or after is risky; give yourself a week.</li>
 </ul>
 <p>After 180 days in a calendar year, your only options are to leave the country, switch to a visa, or wait for January 1. A so-called “visa run” (leaving and coming back) does <strong>not</strong> reset the counter, the 180-day clock is cumulative, not per-entry.</p>
 <h2 id="visa-categories-overview">The three visa categories, V, M, and R</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The three visa categories, V, M, and R" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Maroš Markovič / Pexels</figcaption>
-</figure>
 <p>Colombian visas are grouped into three tiers, each a step closer to permanent residency and eventually <a href="/colombian-citizenship-exam-study-guide/">citizenship</a>:</p>
 <ul>
 <li><strong>V, Visitante (Visitor)</strong>: short-term, up to <strong>2 years</strong>. For a specific purpose (work on a defined project, study, medical treatment, volunteering, religious mission, event, independent contracting, digital nomadism, etc.). Time on a V visa <strong>does not</strong> count toward residency.</li>
@@ -206,10 +201,6 @@
 <p>Each category has several sub-types identified by a number or name. Below are the ones foreigners in Barranquilla most commonly apply for.</p>
 <h2 id="m-nomada-digital">M, Nómada Digital (Digital Nomad Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Nómada Digital (Digital Nomad Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Fer Izaguirre / Pexels</figcaption>
-</figure>
 <p>Introduced in October 2022, the <strong>Nómada Digital</strong> visa is a full Migrant-category visa for remote workers and digital entrepreneurs whose income comes from <strong>outside Colombia</strong>. It is <em>not</em> a PIP extension, and it is <em>not</em> a visitor visa, it’s a proper M-class visa that can be renewed and, over time, leads to residency eligibility.</p>
 <p><strong>Eligibility</strong>:</p>
 <ul>
@@ -234,10 +225,6 @@
 <p><strong>Timeline</strong>: most applications are decided in <strong>5–30 business days</strong>. Status updates arrive by email through the Cancillería portal.</p>
 <h2 id="m-pensionado">M, Pensionado (Pensioner / Retiree Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Pensionado (Pensioner / Retiree Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <p>For retirees receiving a pension from any recognized source, public or private, foreign or Colombian.</p>
 <ul>
 <li><strong>Income requirement</strong>: at least <strong>3× the Colombian SMMLV</strong> per month in verifiable pension income (~COP 4.27 M / USD 1,068 in 2026).</li>
@@ -248,10 +235,6 @@
 </ul>
 <h2 id="m-rentista">M, Rentista (Independent Income Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Rentista (Independent Income Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <p>For people with regular independent income from investments or holdings, dividends, rental income, annuities, that isn’t a pension and isn’t a salary.</p>
 <ul>
 <li><strong>Income requirement</strong>: at least <strong>10× the SMMLV</strong> per month (~COP 16.2 M / USD 4,050 in 2026) for at least the last 6 months, and sustainable.</li>
@@ -260,10 +243,6 @@
 </ul>
 <h2 id="m-inversionista">M, Inversionista (Investor Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Inversionista (Investor Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>For foreigners who invest in Colombian real estate or register foreign capital in a Colombian company. Investment thresholds are expressed in SMMLV:</p>
 <ul>
 <li><strong>Real estate investment</strong>: at least <strong>350× SMMLV</strong> (~COP 568 M / USD 142,000 in 2026).</li>
@@ -274,10 +253,6 @@
 <p>Barranquilla’s El Prado, Alto Prado, Villa Santos, Altos del Limón, and Villa Campestre neighborhoods have plenty of properties comfortably above the real-estate threshold. See our <a href="/exploring-the-enchanting-neighborhoods-of-barranquilla/">neighborhoods guide</a>.</p>
 <h2 id="m-conyuge">M, Cónyuge / Compañero Permanente de Nacional Colombiano (Partner of a Colombian)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Cónyuge / Compañero Permanente de Nacional Colombiano (Partner of a Colombian)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Morales Torres / Pexels</figcaption>
-</figure>
 <p>If you’re married to a Colombian or in a registered domestic partnership (<em>unión marital de hecho</em>) with one, you qualify for this M visa.</p>
 <ul>
 <li>Marriage or partnership must be legally registered in Colombia, if you married abroad, register the marriage through a Colombian consulate or notary. Domestic partnerships can be formalized at a Colombian notary (<em>escritura pública de unión marital de hecho</em>).</li>
@@ -287,17 +262,9 @@
 </ul>
 <h2 id="m-padre">M, Padre o Madre de Nacional Colombiano (Parent of a Colombian)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Padre o Madre de Nacional Colombiano (Parent of a Colombian)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
-</figure>
 <p>For parents of Colombian nationals, commonly, foreigners whose child was born in Colombia. The child’s Colombian registration (<em>registro civil de nacimiento</em>) is the anchor document. Duration and rules mirror the spouse visa.</p>
 <h2 id="v-trabajador">V, Trabajador (Short-Term Work Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="V, Trabajador (Short-Term Work Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>For foreigners taking a specific, time-limited work assignment with a Colombian employer. Issued on the basis of a work contract from a Colombian company.</p>
 <ul>
 <li><strong>Duration</strong>: up to 3 years. Does <strong>not</strong> count toward R.</li>
@@ -305,24 +272,12 @@
 </ul>
 <h2 id="m-trabajador">M, Trabajador (Long-Term Work Visa)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="M, Trabajador (Long-Term Work Visa)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>For longer employment relationships with a Colombian employer, similar requirements to V, Trabajador but issued in the M category, so it counts toward residency.</p>
 <h2 id="v-estudiante">V, Estudiante / M, Estudiante (Student Visas)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="V, Estudiante / M, Estudiante (Student Visas)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-14.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Alejandro Botero / Pexels</figcaption>
-</figure>
 <p>V, Estudiante covers short, specific programs. M, Estudiante covers full-time enrollment in a Colombian degree program at a recognized institution (<em>institución de educación superior</em>). For Barranquilla-based study, Universidad del Norte, Universidad del Atlántico, and Universidad Simón Bolívar issue the acceptance letters that anchor these applications.</p>
 <h2 id="r-visa">R, Visa de Residente</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="R, Visa de Residente" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Elizabeth Figueroa Leaño / Pexels</figcaption>
-</figure>
 <p>The R visa is <strong>5-year renewable permanent residency</strong>. It’s the milestone visa, no more renewals every few years, and it’s the gateway to citizenship.</p>
 <p><strong>How to qualify</strong>:</p>
 <ul>
@@ -335,10 +290,6 @@
 <p><strong>Rights</strong>: unrestricted work, full access to healthcare, banking, property ownership. You still need to renew the physical ID card (Cédula de Extranjería) every 5 years.</p>
 <h2 id="cedula-extranjeria">The Cédula de Extranjería (Foreign ID Card)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The Cédula de Extranjería (Foreign ID Card)" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-16.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Claudia Sampaio / Pexels</figcaption>
-</figure>
 <p>After <strong>any</strong> visa is granted (V, M, or R), you have <strong>15 calendar days</strong> to register with Migración Colombia and get your <strong>Cédula de Extranjería (CE)</strong>. Miss the deadline and you face a fine even though the visa itself is still valid.</p>
 <ul>
 <li>Register online at <a href="https://apps.migracioncolombia.gov.co/" rel="noopener" target="_blank">apps.migracioncolombia.gov.co</a>, pay the fee (~COP 230,000 in 2026), upload documents, and book an appointment at the Migración office.</li>
@@ -349,10 +300,6 @@
 <p>The CE is what you’ll use for almost every everyday task a Colombian uses their cédula for: opening a bank account, signing a lease, registering for health insurance (EPS), getting a phone line, paying taxes. Without a CE, many things are harder or impossible even if your visa is valid.</p>
 <h2 id="application-process">How a visa application actually works</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How a visa application actually works" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-17.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel angel Morales García / Pexels</figcaption>
-</figure>
 <ol>
 <li><strong>Pick the right category</strong>. The Cancillería portal starts by asking why you’re applying, pick correctly, because each subtype has its own documents.</li>
 <li><strong>Assemble documents</strong>, most in PDF, under 2 MB each. Translations into Spanish by an official translator are required for many documents issued abroad; apostilles (or consular legalization) are required for foreign public documents like birth certificates, pension letters, or marriage certificates.</li>
@@ -365,26 +312,14 @@
 <p>You <strong>can</strong> apply from inside Colombia as long as you currently have legal status (a valid PIP or existing visa). You <strong>can’t</strong> apply while overstayed.</p>
 <h2 id="taxes-after-moving">Tax residency, the 183-day rule</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Tax residency, the 183-day rule" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-18.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: JohnEGo! / Pexels</figcaption>
-</figure>
 <p>Spending more than <strong>183 days</strong> in Colombia in any rolling 365-day period makes you a <strong>tax resident</strong>. As a tax resident, Colombia taxes your <strong>worldwide income</strong>. Colombia has double-tax treaties with Spain, the UK, Canada, and several other countries, but <strong>not</strong> with the United States as of 2026, American citizens can end up filing in both jurisdictions (though the US Foreign Earned Income Exclusion and foreign tax credits usually prevent double taxation).</p>
 <p>If you’re on the Digital Nomad visa or spending long stretches on PIP/PTP, track your days carefully and consult a Colombian accountant (contador público). We don’t provide tax advice on this site, get a professional.</p>
 <h2 id="naturalization">Path to Colombian citizenship</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Path to Colombian citizenship" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-19.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Roberto Castano / Pexels</figcaption>
-</figure>
 <p>After <strong>5 years</strong> of legal residency (time on R counts; time on M typically counts; time on V and tourist permits usually does not), you can apply for naturalization. The timeline drops to <strong>2 years</strong> for nationals of Latin American countries (by birth) and Spain, and to <strong>1 year</strong> if you’re married to a Colombian.</p>
 <p>Requirements include a language/culture test (in Spanish), a clean criminal record in Colombia and your home country, proof of continuous residency, and financial self-sufficiency. Colombia accepts dual citizenship, so you do <strong>not</strong> need to give up your current nationality.</p>
 <h2 id="common-mistakes">Common mistakes to avoid</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Common mistakes to avoid" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-20.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Calling the PIP a “visa”</strong>. It’s a permit; it does not give you work rights or a path to residency.</li>
 <li><strong>Assuming the Nómada Digital is a “tourist extension.”</strong> It’s a full M visa. Applying for it is an in-depth process, not a quick renewal.</li>
@@ -397,10 +332,6 @@
 </ul>
 <h2 id="official-links">Official links and offices</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Official links and offices" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-21.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: AnthonyC @AnayTonyporelmundo / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Cancillería, visa applications and information</strong>: <a href="https://www.cancilleria.gov.co/tramites_servicios/visa" rel="noopener" target="_blank">cancilleria.gov.co</a>, apply online, check status, pay fees</li>
 <li><strong>Migración Colombia, permits and ID cards</strong>: <a href="https://www.migracioncolombia.gov.co/" rel="noopener" target="_blank">migracioncolombia.gov.co</a>, PIP/PTP extensions, Cédula de Extranjería, online services at <a href="https://apps.migracioncolombia.gov.co/" rel="noopener" target="_blank">apps.migracioncolombia.gov.co</a></li>
@@ -410,18 +341,10 @@
 </ul>
 <h2 id="should-i-use-a-lawyer">Should I hire an immigration lawyer?</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Should I hire an immigration lawyer?" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-22.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Mario Alducin / Pexels</figcaption>
-</figure>
 <p>Most straightforward cases, Digital Nomad, Pensionado, Cónyuge, can be done solo. The Cancillería portal is in Spanish and English, documents are listed clearly, and the <em>requerido</em> back-and-forth is manageable if your Spanish is okay or you have a translator friend.</p>
 <p>Consider a lawyer when: you have a visa denial on your record, you’re on the borderline of an income requirement, you have complicated documentation from multiple countries, your investment or company-structure case needs Banco de la República paperwork, or your Spanish is limited. Budget USD 500–1,500 for a straightforward case, more for investor or complex family cases.</p>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/visas-colombia-barranquilla-section-23.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Charle Torres / Pexels</figcaption>
-</figure>
 <p><strong>Is the tourist permit a visa?</strong> No. The PIP is an entry <em>permit</em> issued by Migración Colombia, not a visa. Visas are issued only by the Cancillería and belong to one of the V, M, or R categories.</p>
 <p><strong>Is the Digital Nomad visa an extension of my tourist permit?</strong> No. The Nómada Digital is a full <strong>M-category visa</strong> (medium-term Migrant). Tourist-permit extension is done via the PTP at Migración Colombia and is a separate, simpler process that tops up your stay to the 180-day annual cap.</p>
 <p><strong>Can I apply for a visa from inside Colombia?</strong> Yes, as long as you currently have legal status (unexpired PIP or existing visa). You submit online and can receive the visa electronically without leaving the country.</p>
@@ -559,6 +482,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

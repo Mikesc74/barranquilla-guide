@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2691 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-guides section-live section-magazine" id="post-2691">
 <!-- Hero Image -->
@@ -118,10 +129,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#At_a_glance">At a glance</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Climate_and_altitude">Climate and altitude</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Cost_of_living">Cost of living</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Transport_and_infrastructure">Transport and infrastructure</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-6" href="#Internet_and_remote-work_readiness">Internet and remote-work readiness</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-7" href="#Safety">Safety</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-8" href="#Expat_and_digital-nomad_community">Expat and digital-nomad community</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#Work_and_economy">Work and economy</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#Food_and_music_culture">Food and music culture</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Healthcare">Healthcare</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#Visa_and_immigration_logistics">Visa and immigration logistics</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Dating_and_social_life">Dating and social life</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#Who_picks_which">Who picks which</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#How_to_decide_if_youre_undecided">How to decide if you’re undecided</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-16" href="#Cross-city_things_worth_knowing">Cross-city things worth knowing</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-17" href="#FAQ">FAQ</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-18" href="#Further_reading_on_this_site">Further reading on this site</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#snapshot">At a glance</a></li>
 <li><a href="#climate">Climate and altitude</a></li>
@@ -144,10 +151,6 @@
 </div>
 <h2 id="snapshot">At a glance</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="At a glance" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>A dense single-table comparison is coming below, but the 10-second version:</p>
 <ul>
 <li><strong>Bogotá</strong>, 2,640 m elevation; cool (avg 14°C); 8 M people; national capital; biggest economy; grayest weather; biggest traffic headaches; most formal.</li>
@@ -167,6 +170,14 @@
 <p><strong>Barranquilla, lean / comfortable / upper-middle</strong></p>
 <ul>
 <li>Rent (1-bed in El Prado / Alto Prado): <strong>COP 1.5–2.5M / 2.5–4M / 4–6M</strong></li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-place-alto-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li>Groceries: <strong>COP 800k–1.5M</strong></li>
 <li>Utilities (heavy A/C): <strong>COP 350k–700k</strong></li>
 <li>Monthly total: <strong>~USD 900 / 1,500 / 2,400</strong></li>
@@ -196,10 +207,6 @@
 <p><strong>Airport connectivity</strong>: Bogotá El Dorado (BOG) is Colombia’s main international hub and one of Latin America’s largest. Medellín José María Córdova (MDE) has extensive international service including direct flights to the US and Europe. Barranquilla Ernesto Cortissoz (BAQ) has direct flights to Miami, Fort Lauderdale, Panama City, plus domestic Colombia, anywhere else requires a connection. See our <a href="/barranquilla-airport-guide/">airport guide</a>.</p>
 <h2 id="internet-fiber">Internet and remote-work readiness</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Internet and remote-work readiness" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Danilo Lopes / Pexels</figcaption>
-</figure>
 <p>All three cities have gigabit fiber widely available from Claro, Tigo, ETB (Bogotá strongest), and Movistar. In any of them you can work remotely without connectivity concerns, subject to local power reliability:</p>
 <ul>
 <li><strong>Bogotá</strong>: power is reliable. Fiber ubiquitous. Best of three for pure uptime.</li>
@@ -216,10 +223,6 @@
 <p>All three require the same basic practices: don’t flash your phone on the street at night, use rideshare after dark, know where you are. See our Barranquilla-specific <a href="/is-barranquilla-safe-honest-answer-2026/">safety guide</a>.</p>
 <h2 id="expat-density">Expat and digital-nomad community</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Expat and digital-nomad community" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Nguyễn Du / Pexels</figcaption>
-</figure>
 <ul>
 <li><strong>Medellín</strong>: by far the largest. El Poblado and Laureles are visibly expat-heavy; English can carry you through El Poblado without issue. Pro: instant community, built-out coworking, nightlife tuned to nomads. Con: some neighborhoods feel like a nomad bubble; tension with locals over rents and behavior has increased.</li>
 <li><strong>Bogotá</strong>: large but professionally diverse, diplomats, corporate transfers, startup operators, academics. Less concentrated than Medellín’s nomad scene.</li>
@@ -235,8 +238,44 @@
 <h2 id="food-culture">Food and music culture</h2>
 <ul>
 <li><strong>Bogotá</strong>: the most internationally diverse food scene, every cuisine, every price point. Cold-climate Andean specialties (ajiaco, changua, piqueteaderos). Craft cocktails and third-wave coffee are at their strongest here.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="changua" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-changua.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="ajiaco" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-ajiaco.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Medellín</strong>: paisa food tradition (bandeja paisa, arepa paisa), and a rapidly internationalizing restaurant scene in El Poblado and Provenza. Decent café culture.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="arepa paisa" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-arepa-paisa.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="bandeja paisa" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-bandeja-paisa.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 <li><strong>Barranquilla</strong>: Caribbean and costeño, arepa de huevo, mojarra frita, sancocho de pescado, bollo, butifarra. Fewer international restaurants but deeper regional specialty. Food is closer to the Caribbean tradition (Dominican/Cuban/Puerto Rican) than to interior Colombian. See our <a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">food guide</a>.</li>
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="butifarra" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-butifarra.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="bollo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-bollo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="sancocho de pescado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-sancocho-de-pescado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="mojarra frita" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-mojarra-frita.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
+<figure class="venue-photo" style="margin: 24px 0;">
+<img alt="arepa de huevo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-food-arepa-de-huevo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+</figure>
+
 </ul>
 <p><strong>Music</strong>: this one is decisive for some.</p>
 <ul>
@@ -246,18 +285,10 @@
 </ul>
 <h2 id="healthcare">Healthcare</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Healthcare" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>All three cities have excellent private hospitals. Bogotá has the largest number of top-tier hospitals and most specialists. Medellín has América Economía’s highest-ranked Colombian hospital (Fundación Valle del Lili is actually in Cali, but Hospital Pablo Tobón Uribe in Medellín is also top-20 in LatAm). Barranquilla’s Portoazul, La Misericordia, and Iberoamérica are regional top-tier; for ultra-specialized care (advanced transplants, niche oncology), patients sometimes go to Bogotá or Medellín.</p>
 <p>Cost, insurance structure, and enrollment process are identical nationwide (EPS + medicina prepagada). See our <a href="/healthcare-barranquilla/">healthcare guide</a> for full detail.</p>
 <h2 id="visa-city-neutral">Visa and immigration logistics</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Visa and immigration logistics" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jorge Pantaleon / Pexels</figcaption>
-</figure>
 <p>Your visa category and application process are <strong>identical</strong> in all three cities, the Cancillería is centralized and applications are online. Migración Colombia has offices in each city for the Cédula de Extranjería. See our <a href="/visas-colombia-barranquilla/">visa guide</a>.</p>
 <p>Practical wrinkle: Bogotá and Medellín have larger, faster Migración offices. Barranquilla’s office is smaller but typically less queue-heavy. Appointment availability is generally better on the Coast.</p>
 <h2 id="dating">Dating and social life</h2>
@@ -292,10 +323,6 @@
 </ul>
 <h2 id="how-to-decide">How to decide if you’re undecided</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="How to decide if you’re undecided" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-15.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Spend two weeks in each if you can. The dominant factor for 80% of people is <strong>climate</strong>: whether you want to wear a light jacket in the evening (Bogotá), a t-shirt year-round with no sweat (Medellín), or accept real humidity for Caribbean warmth (Barranquilla). You’ll know within a week which one your body prefers.</p>
 <p>The second-order factor is <strong>social fit</strong>. Medellín’s nomad density suits some, suffocates others. Barranquilla’s lack of it suits some, isolates others. Bogotá’s capital-city professional culture suits some, bores others.</p>
 <p>Rent is third. A city you dislike cheaply is a bad deal.</p>
@@ -309,10 +336,6 @@
 </ul>
 <h2 id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you-section-17.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Catalina  Herrera / Pexels</figcaption>
-</figure>
 <p><strong>Which city has the best English?</strong> Bogotá and Medellín’s tourist neighborhoods. Barranquilla requires more Spanish for daily life.</p>
 <p><strong>Which is safest for solo women travelers?</strong> All three are usable with standard urban precautions; Medellín’s tourist-targeting trend means extra care on dating apps specifically. Neighborhood choice matters more than city choice.</p>
 <p><strong>Which has the most women / best dating?</strong> Impossible to answer objectively. Medellín has the most active app scene; all three have rich in-person social paths for anyone who engages locally.</p>
@@ -448,6 +471,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-4107 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-live" id="post-4107">
 <!-- Hero Image -->
@@ -114,10 +125,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Should_you_even_have_a_car">Should you even have a car?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Driving_on_a_foreign_license">Driving on a foreign license</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Getting_a_Colombian_drivers_license">Getting a Colombian driver’s license</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#Step_1_%E2%80%93_Register_in_the_RUNT">Step 1, Register in the RUNT</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#Step_2_%E2%80%93_Medical_exam_at_a_CRC">Step 2, Medical exam at a CRC</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Step_3_%E2%80%93_Driving_course_and_exam_at_a_CEA">Step 3, Driving course and exam at a CEA</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Step_4_%E2%80%93_Pay_the_licensing_fee_and_collect_your_license">Step 4, Pay the licensing fee and collect your license</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-9" href="#Total_cost_and_timeline">Total cost and timeline</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#Pico_y_placa_in_Barranquilla">Pico y placa in Barranquilla</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Required_documents_in_the_vehicle">Required documents in the vehicle</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#The_rules_of_the_road_%E2%80%93_whats_enforced">The rules of the road, what’s enforced</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Renting_a_car">Renting a car</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-14" href="#Car_rental_agencies_at_BAQ_airport">Car rental agencies at BAQ airport</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-15" href="#What_you_need_to_rent">What you need to rent</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#Insurance_%E2%80%93_what_to_know_before_you_decline_the_CDW">Insurance, what to know before you decline the CDW</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#City_pickup_locations">City pickup locations</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Long-term_rentals">Long-term rentals</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-19" href="#Renting_a_motorcycle">Renting a motorcycle</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Parking">Parking</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-21" href="#Traffic_tickets_and_fines">Traffic tickets and fines</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-22" href="#Accidents">Accidents</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-23" href="#Buying_a_car_if_you_decide_to">Buying a car (if you decide to)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-24" href="#FAQ">FAQ</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-25" href="#Can_I_drive_in_Colombia_with_just_my_US_license">Can I drive in Colombia with just my U.S. license?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-26" href="#Do_I_need_an_IDP">Do I need an IDP?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-27" href="#What_if_I_get_pulled_over">What if I get pulled over?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-28" href="#Is_it_safe_to_drive_at_night">Is it safe to drive at night?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-29" href="#Can_I_rent_a_car_without_a_credit_card">Can I rent a car without a credit card?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-30" href="#What_about_motorcycles">What about motorcycles?</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-31" href="#Whats_the_scam_at_traffic_checkpoints">What’s the scam at traffic checkpoints?</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-32" href="#Further_reading">Further reading</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#should-you-even-have-a-car">Should you even have a car?</a></li>
 <li><a href="#driving-on-a-foreign-license">Driving on a foreign license</a></li>
@@ -136,10 +143,6 @@
 </div>
 <h2 class="wp-block-heading" id="should-you-even-have-a-car">Should you even have a car?</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Should you even have a car?" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: estanley mozart / Pexels</figcaption>
-</figure>
 <p>Start with the honest question. For most visitors and many short-term residents, the answer is no. <a href="https://www.uber.com/co/es/" rel="noopener" target="_blank">Uber</a>, <a href="https://web.didiglobal.com/co/" rel="noopener" target="_blank">Didi</a>, and <a href="https://indriver.com/en/city/barranquilla/" rel="noopener" target="_blank">InDriver</a> work well in Barranquilla, traffic is bad in rush hour regardless of what you’re driving, parking at shopping centers is covered but parking on the street is often informal and comes with a “cuidacarros” fee, and gas is substantially more expensive than in the U.S. (COP 16,000–18,000 per gallon-equivalent in 2026, roughly USD 4/gal).</p>
 <p>Cases where owning makes sense:</p>
 <ul>
@@ -171,18 +174,10 @@
 <p>For everyone else, rent when you need to, ride-share the rest of the time. <a href="https://www.transmetro.gov.co/" rel="noopener" target="_blank">Transmetro</a> (the BRT bus system) covers the main corridors if you want to avoid cars entirely.</p>
 <h2 class="wp-block-heading" id="driving-on-a-foreign-license">Driving on a foreign license</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Driving on a foreign license" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Mendez / Pexels</figcaption>
-</figure>
 <p>A foreigner visiting Colombia can legally drive on a valid license from their home country for the duration of their lawful stay <em>as a tourist</em>. A U.S., Canadian, or EU license plus your passport is sufficient at a traffic stop. An International Driving Permit (IDP) is not required but is very useful, it translates the license into Spanish and is recognized under the Vienna Convention. Get one at <a href="https://www.aaa.com/vacation/idpf.html" rel="noopener" target="_blank">AAA</a> (U.S.), <a href="https://www.caa.ca/travel/international-driving-permit/" rel="noopener" target="_blank">CAA</a> (Canada), or your national motoring club before you travel; they cost USD 20–30 and take 5 minutes.</p>
 <p>Once you become a Colombian <em>resident</em> (you hold a visa and Cédula de Extranjería), the rules change. You have a grace period, generally around 90 days after your CE is issued, to continue driving on your foreign license. After that, you are expected to hold a Colombian license. In practice, enforcement varies, but at a traffic stop or after an accident, driving on a foreign license long after residency was granted can create liability and insurance issues.</p>
 <h2 class="wp-block-heading" id="getting-a-colombian-drivers-license">Getting a Colombian driver’s license</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Getting a Colombian driver’s license" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Fotografías de El Puerto  de Santa María / Pexels</figcaption>
-</figure>
 <p>Whether you’ve never had a license or you’re converting a foreign one, the process in Colombia is the same four-step sequence. Colombia has no true reciprocity program for most nationalities, your foreign license lets you drive legally as a visitor, but does not convert directly. You go through the standard Colombian licensing process regardless of prior experience.</p>
 <h3 class="wp-block-heading">Step 1, Register in the RUNT</h3>
 <p>The <strong>RUNT</strong> (Registro Único Nacional de Tránsito) is Colombia’s national driver and vehicle database. You must be registered in it before you can obtain a Colombian license or register a vehicle. Registration requires your <strong>Cédula de Extranjería</strong> (you need legal residency status first, a tourist visa doesn’t qualify).</p>
@@ -219,10 +214,6 @@
 <p>Fines for violating pico y placa run roughly 15 SMDLV (salarios mínimos diarios legales vigentes), about COP 810,000 in 2026, plus potential vehicle impound. It’s enforced via photo cameras on major corridors as well as traffic police, and tickets arrive in the mail or through the <a href="https://www.simit.org.co/" rel="noopener" target="_blank">SIMIT system</a>.</p>
 <h2 class="wp-block-heading" id="required-documents-in-the-vehicle">Required documents in the vehicle</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Required documents in the vehicle" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Tony Rojas / Pexels</figcaption>
-</figure>
 <p>Colombian law requires the following paperwork be in the car at all times (originals, not copies for most):</p>
 <ul>
 <li><strong>Driver’s license</strong> (Colombian or foreign, valid)</li>
@@ -237,10 +228,6 @@
 <p>Many drivers also carry <strong>todo riesgo</strong> comprehensive insurance from providers like <a href="https://www.sura.com.co/seguros/vehiculos/soat" rel="noopener" target="_blank">Sura</a>, <a href="https://www.mapfre.com.co/soat/" rel="noopener" target="_blank">Mapfre</a>, <a href="https://www.segurosbolivar.com/" rel="noopener" target="_blank">Seguros Bolívar</a>, Allianz, and <a href="https://www.laprevisora.gov.co/" rel="noopener" target="_blank">La Previsora</a> (state-owned, often the cheapest for SOAT) covering theft, collision, natural disasters, and broader third-party liability. For a mid-range sedan, expect COP 2,500,000–5,000,000/year. Not legally required, very much recommended.</p>
 <h2 class="wp-block-heading" id="the-rules-of-the-road-whats-enforced">The rules of the road, what’s enforced</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="The rules of the road, what’s enforced" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Diego Lopez / Pexels</figcaption>
-</figure>
 <p>Colombian traffic law is comprehensive; enforcement is selective. The things that <em>are</em> actively enforced and that foreigners need to respect:</p>
 <ul>
 <li><strong>DUI (alcoholemia):</strong> Any measurable alcohol is a violation; thresholds escalate fines dramatically. First-offense with moderate levels: license suspension 1 year, fine ~COP 18 million, community service. Enforcement via puestos de control is frequent on weekend nights, especially on Vía 40, Calle 84, Carrera 51B nightlife corridors, and on roads back from Pradomar/Salgar on Sundays.</li>
@@ -266,10 +253,6 @@
 <p>Things that are technically illegal but less actively enforced on arterials: lane discipline, signaling lane changes, following distance, respecting pedestrian crossings. That doesn’t mean you should drive how the locals drive, it means you should drive <em>defensively</em> and assume the worst at intersections and when motos are nearby.</p>
 <h2 class="wp-block-heading" id="renting-a-car">Renting a car</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Renting a car" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Jose David Cortes / Pexels</figcaption>
-</figure>
 <p>Barranquilla has a solid rental market, every major international brand operates at BAQ airport, and several have city locations too. It works broadly the same as renting elsewhere in Latin America, but there are a few Colombia-specific things worth knowing before you walk up to the counter.</p>
 <h3 class="wp-block-heading">Car rental agencies at BAQ airport</h3>
 <p>The main brands with desks in the arrivals hall at Ernesto Cortissoz Airport are: <a href="https://www.hertz.com" rel="noopener" target="_blank"><strong>Hertz</strong></a>, <a href="https://www.avis.com" rel="noopener" target="_blank"><strong>Avis</strong></a>, <a href="https://www.budget.com" rel="noopener" target="_blank"><strong>Budget</strong></a>, <a href="https://www.enterprise.com" rel="noopener" target="_blank"><strong>Enterprise</strong></a>, <a href="https://www.localiza.com/colombia/es-co" rel="noopener" target="_blank"><strong>Localiza</strong></a>, <a href="https://www.europcar.com" rel="noopener" target="_blank"><strong>Europcar</strong></a>, <a href="https://www.dollar.com" rel="noopener" target="_blank"><strong>Dollar</strong></a>, and <a href="https://www.alamo.com" rel="noopener" target="_blank"><strong>Alamo</strong></a>. For a live comparison of available cars and prices across all of them, <a href="https://www.rentalcars.com/en/airport/co/baq/" rel="noopener" target="_blank">rentalcars.com/BAQ</a> is the most useful aggregator for this airport, it surfaces options 20–30% below walk-up counter rates for the same cars.</p>
@@ -313,18 +296,10 @@
 <p>For experienced riders staying longer-term, a moto is a genuinely practical and cost-effective way to move around the city. For everyone else, the traffic patterns here are demanding enough that a car is the safer choice.</p>
 <h2 class="wp-block-heading" id="parking">Parking</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Parking" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <p>Shopping centers (Viva Barranquilla, Buenavista, Unicentro, Portal del Prado, Centro Comercial del Rio) have covered parking, typically COP 3,000–5,000 for the first hour and COP 1,500–3,000 per additional hour. Some validate with a purchase. High-end condo buildings include tenant parking.</p>
 <p>On-street parking is informal in most of Barranquilla. You’ll be approached by a “cuidacarros”, a freelance parking attendant who will watch your car for COP 2,000–5,000. This is not strictly regulated, but paying is customary, the cheapest form of car security you’ll get, and refusing to pay gets you dirty looks and sometimes worse. In high-theft corridors, parking a nice car on the street after dark without a watchman is asking for trouble. Garaged parking (parqueaderos) is common in commercial areas and runs COP 3,000–8,000/hour.</p>
 <h2 class="wp-block-heading" id="traffic-tickets-and-fines">Traffic tickets and fines</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Traffic tickets and fines" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <p>Fines are calculated in SMDLV (daily minimum wage units). The 2026 SMDLV is roughly COP 47,450 (1/30 of the monthly SMMLV of COP 1,423,500). Common fine levels:</p>
 <ul>
 <li>Running a red light: 16 SMDLV (~COP 866,000)</li>
@@ -338,10 +313,6 @@
 <p>Early-payment discounts: paying within 11 days of notification typically cuts the fine by 50%; paying within 20 days cuts it 25%. Pay via the tránsito website or at any bank with a valid reference.</p>
 <h2 class="wp-block-heading" id="accidents">Accidents</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Accidents" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Julia Volk / Pexels</figcaption>
-</figure>
 <p>If you’re in an accident with injuries, even minor:</p>
 <ul>
 <li>Don’t move the vehicles unless blocking traffic creates further risk</li>
@@ -354,18 +325,10 @@
 <p>For non-emergency tránsito situations, the Secretaría de Movilidad de Barranquilla can be reached at their main line via <a href="https://www.barranquilla.gov.co/movilidad" rel="noopener" target="_blank">barranquilla.gov.co/movilidad</a>. For property-only minor collisions, some drivers prefer to settle on the spot. Do this only if you’re fully comfortable, the damage is minimal, and you can photograph everything. When in doubt, call tránsito.</p>
 <h2 class="wp-block-heading" id="buying-a-car-if-you-decide-to">Buying a car (if you decide to)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Buying a car (if you decide to)" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-12.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <p>Used cars are the sensible path for most foreigners, new cars are expensive in Colombia (high import duties), and depreciation is less aggressive than in the U.S., so used holds value. The main search platforms are <a href="https://www.olx.com.co/carros-camionetas-y-4x4_c141" rel="noopener" target="_blank">OLX Colombia</a> and <a href="https://carros.mercadolibre.com.co/" rel="noopener" target="_blank">Mercado Libre Autos</a>, both show private and dealer listings with prices and photos, and both let you filter by city (Barranquilla) and price range. Mid-size used sedans (Chevrolet Onix, Mazda 2, Renault Stepway, Kia Picanto) run COP 45–85M. Mid-range SUVs (Mazda CX-3, CX-30, Kia Seltos, Renault Duster) COP 75–140M. Inspection at a reputable mechanic before purchase is essential. Verify the car’s history in <a href="https://www.runt.gov.co/" rel="noopener" target="_blank">RUNT</a> for outstanding fines, pledges, or accident reports, you can query any plate or chassis number free.</p>
 <p>Registering the transfer (traspaso) happens at a tránsito agency and requires both buyer’s and seller’s presence (or notarized power of attorney), payment of traspaso tax, all documents paz y salvo, and vehicle inspection. Allow a full morning and budget COP 400,000–900,000 in tax and fees.</p>
 <h2 class="wp-block-heading" id="faq">FAQ</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="FAQ" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-section-13.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Josué Rodríguez / Pexels</figcaption>
-</figure>
 <h3 class="wp-block-heading">Can I drive in Colombia with just my U.S. license?</h3>
 <p>Yes, as a tourist. Once you become a resident (have a Cédula de Extranjería), you have a grace period and should convert to a Colombian license within roughly 90 days.</p>
 <h3 class="wp-block-heading">Do I need an IDP?</h3>
@@ -506,6 +469,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

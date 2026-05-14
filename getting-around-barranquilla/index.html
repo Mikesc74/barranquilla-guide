@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-2751 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides" id="post-2751">
 <!-- Hero Image -->
@@ -118,10 +129,6 @@
 <nav><ul class="ez-toc-list ez-toc-list-level-1"><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Whats_in_this_guide">What’s in this guide</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#At_a_glance_what_to_use_when">At a glance: what to use when</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Rideshare_Uber_DiDi_InDriver">Rideshare: Uber, DiDi, InDriver</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-4" href="#Uber">Uber</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-5" href="#DiDi">DiDi</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6" href="#InDriver">InDriver</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Cabify_and_Beat">Cabify and Beat</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Typical_rideshare_fares">Typical rideshare fares</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-9" href="#Transmetro_BRT">Transmetro (BRT)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-10" href="#City_buses_colectivos">City buses (colectivos)</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-11" href="#Taxis">Taxis</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-12" href="#Walking">Walking</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Cycling">Cycling</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#Driving_yourself">Driving yourself</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#Intercity_and_regional">Intercity and regional</a><ul class="ez-toc-list-level-3"><li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-16" href="#By_road">By road</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-17" href="#Private_transfer">Private transfer</a></li><li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#By_air">By air</a></li></ul></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-19" href="#Practical_tips">Practical tips</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Further_reading_on_this_site">Further reading on this site</a></li></ul></nav></div>
 <h2>What’s in this guide</h2>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/getting-around-barranquilla-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Felipe Jiménez / Pexels</figcaption>
-</figure>
 <ol>
 <li><a href="#what-to-use-when">At a glance: what to use when</a></li>
 <li><a href="#rideshare">Rideshare: Uber, DiDi, InDriver</a></li>
@@ -138,10 +145,6 @@
 </div>
 <h2 id="what-to-use-when">At a glance: what to use when</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="At a glance: what to use when" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-2.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Luis Quintero / Pexels</figcaption>
-</figure>
 <p><strong>Short hops within a neighborhood</strong>: walk, or 5–10 minute Uber.<br/>
 <strong>Cross-city (north to Centro, or east to west)</strong>: Uber, InDriver, or DiDi. 20–40 minutes, COP 15–35k.<br/>
 <strong>Trunk routes along the Murillo/Olaya Herrera corridor</strong>: Transmetro BRT.<br/>
@@ -150,10 +153,6 @@
 <strong>Carnaval week</strong>: walking is often fastest; street closures ripple everywhere.</p>
 <h2 id="rideshare">Rideshare: Uber, DiDi, InDriver</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Rideshare: Uber, DiDi, InDriver" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Rideshare is how most tourists, professionals, and long-term foreign residents move around the city. It’s cheaper than taxis, more transparent, and far safer than hailing cabs on the street.</p>
 <h3>Uber</h3>
 <p>Biggest footprint and most reliable. In Colombia, Uber’s legal status has historically been contested, you’ll see the in-app message that you’re being dispatched a “<em>taxi</em>” rather than a private car in some cases, which is fine. Most Barranquilla Ubers are private drivers in their own cars using the standard UberX experience. Works with US, European, and Colombian credit cards; cash optional.</p>
@@ -174,10 +173,6 @@
 <p>Surge pricing kicks in during rush hours (7–9 AM, 5–8 PM), heavy rain, and Carnaval. Expect 1.5–2× on worst nights.</p>
 <h2 id="transmetro">Transmetro (BRT)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Transmetro (BRT)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-4.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p>Barranquilla’s bus rapid transit system, operating since 2010. Modeled on Bogotá’s TransMilenio but smaller: two main trunk lines plus a network of feeder routes.</p>
 <p><strong>Main lines</strong> run along the Calle Murillo corridor (east–west across the middle of the city) and the Olaya Herrera corridor (from the Centro north toward Alto Prado and Riomar). For visitors, the Transmetro is practical mainly if you’re moving along these exact corridors; for other trips, a rideshare is faster and not much more expensive.</p>
 <p><strong>Fare</strong>: as of January 2026, COP 3,700 weekday / COP 3,800 Sundays and holidays. Payment by rechargeable <strong>Transmetro card</strong> (card itself: COP 4,000) or by <strong>contactless Visa</strong> at the turnstile. Cards are sold at any station; top up with cash or card.</p>
@@ -185,19 +180,11 @@
 <p><strong>Practical notes</strong>: buses can be crowded and hot at peak. Stations are fenced platforms like Bogotá’s; board through the turnstile. Keep your phone out of sight on crowded buses; pickpocketing is the one real risk. Official info: <a href="https://transmetro.gov.co/" rel="noopener" target="_blank">transmetro.gov.co</a>. Routes and real-time tracking: <a href="https://moovitapp.com/index/en/public_transit-lines-Barranquilla" rel="noopener" target="_blank">Moovit Barranquilla</a>.</p>
 <h2 id="city-buses">City buses (colectivos)</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="City buses (colectivos)" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Alejandro Botero / Pexels</figcaption>
-</figure>
 <p>The dense network of private city buses is the real public-transit backbone, serving neighborhoods Transmetro doesn’t reach and running more frequently than you’d expect. Fares as of 2026 are <strong>COP 3,300 ordinary / COP 3,400 Sundays</strong> (unified tariff across all operators, set by the Área Metropolitana). Pay cash when boarding.</p>
 <p>Buses don’t use formal stops; flag one down anywhere along a route, get off by shouting “<em>pare</em>” or “<em>la esquina por favor</em>.” Routes are loosely posted on the windshield. For a visitor, figuring out the right bus takes effort, use <a href="https://moovitapp.com/index/en/public_transit-lines-Barranquilla" rel="noopener" target="_blank">Moovit</a> to plan trips.</p>
 <p>Best use case for visitors: a dedicated ride-the-bus excursion as a way to see the city. Not a default daily commute option unless you live and work on the same bus line.</p>
 <h2 id="taxis">Taxis</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Taxis" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Elizabeth Figueroa Leaño / Pexels</figcaption>
-</figure>
 <p>Registered yellow taxis are everywhere. They’re <strong>cheaper than rideshares on most routes</strong> but less transparent. Rules of thumb:</p>
 <ul>
 <li>Most don’t use meters; <strong>agree the fare before getting in</strong>.</li>
@@ -209,27 +196,15 @@
 <p>Rideshare is usually worth the small premium for the built-in safety tracking, fixed price, and card payment. Use taxis when rideshare surge is bad or when you’re in an area with thin driver coverage.</p>
 <h2 id="walking">Walking</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Walking" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Claudia Sampaio / Pexels</figcaption>
-</figure>
 <p>Barranquilla is walkable in pockets, not whole. <strong>El Prado, Alto Prado, and Villa Country</strong> are genuinely pedestrian-friendly, you can spend a whole weekend on foot if you stay in these neighborhoods. Sidewalks are uneven but consistent. The <a href="https://www.lagranmalecon.com/" rel="noopener" target="_blank">Gran Malecón</a> is the city’s best long walk, 5+ km along the river with cafés, sculpture, and sunset views.</p>
 <p>Everywhere else is more complicated. Sidewalks disappear, long blocks offer no shade, and distances that look short on a map feel brutal in 34°C humidity. Don’t plan to walk from Alto Prado to the Centro; it’s physically possible but unpleasant.</p>
 <p>Walk in the early morning (before 10 AM) or after sunset (after 6 PM) in the dry season. Carry water.</p>
 <h2 id="cycling">Cycling</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Cycling" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Miguel angel Morales García / Pexels</figcaption>
-</figure>
 <p>Cycling culture is growing. The <strong>Gran Malecón</strong> has a dedicated bike lane. Sunday’s <strong>Ciclovía</strong> closes major avenues to cars for several hours, popular with families. For commuting, the heat and the aggressive driving make daily cycling a committed choice; for recreation it works well.</p>
 <p>Rentals: a few shops along the Malecón rent bikes by the hour (~COP 15k/hr). Some hotels in Alto Prado rent too.</p>
 <h2 id="driving">Driving yourself</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Driving yourself" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-9.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: JohnEGo! / Pexels</figcaption>
-</figure>
 <p>We generally don’t recommend renting a car inside the city. Traffic is dense, parking is scarce in the north, motorcycle behavior is unpredictable, and rideshares are cheap enough to make the hassle not worth it.</p>
 <p>A rental makes sense if you’re <strong>exploring the coast</strong>: day trips to Puerto Colombia, Salgar, Tubará, Juan de Acosta, the Parque Nacional Isla Salamanca, or a longer run to Santa Marta, Minca, Palomino, or Cartagena. Drive on the <strong>Vía al Mar</strong> (Ruta 90A) north-east toward Santa Marta (~2 hours) or south-west to Cartagena (~2.5 hours including tolls).</p>
 <p>Practical notes:</p>
@@ -242,10 +217,6 @@
 <p>Rental counters: Hertz, Avis, National, Budget, Localiza at BAQ and in-city.</p>
 <h2 id="intercity">Intercity and regional</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Intercity and regional" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-10.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Roberto Castano / Pexels</figcaption>
-</figure>
 <h3>By road</h3>
 <p>Buses depart from the <strong>Terminal de Transportes</strong> (Calle 54 #8-103, south of the Centro) for destinations across Colombia. Reliable operators: <strong>Berlinas del Fonce</strong>, <strong>Expreso Brasilia</strong>, <strong>Rápido Ochoa</strong>, <strong>Copetran</strong>. Typical routes and times:</p>
 <ul>
@@ -262,10 +233,6 @@
 <p>From BAQ, you can fly to most major Colombian cities. Fastest routing for distant destinations; overkill for Cartagena or Santa Marta. See our <a href="/barranquilla-airport-guide/">airport guide</a>.</p>
 <h2 id="tips">Practical tips</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical tips" height="800" loading="lazy" src="/img/getting-around-barranquilla-section-11.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: K / Pexels</figcaption>
-</figure>
 <p><strong>Download apps before you arrive.</strong> Uber, DiDi, InDriver, Moovit, and Google Maps all work well in Barranquilla. Maps of Transmetro lines are embedded in Moovit.</p>
 <p><strong>Keep some pesos on you.</strong> Buses, some taxis, and many small businesses don’t take cards.</p>
 <p><strong>Traffic windows</strong>: worst morning rush 7:15–9 AM; worst evening 5:30–8 PM. Avoid Calle 84 between the Villa Country mall and Carrera 46 in rush unless you have no choice.</p>
@@ -396,6 +363,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>

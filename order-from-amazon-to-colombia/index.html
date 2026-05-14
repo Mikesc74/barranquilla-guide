@@ -34,7 +34,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260424a" rel="stylesheet"/>
+<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -60,7 +60,8 @@
 <li class="menu-item"><a href="/city-map/">City Map</a></li>
 </ul>
 <div class="nav-right">
-<a class="nav-cta" href="/#newsletter">Subscribe</a>
+<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
+      <a class="nav-cta" href="/#newsletter">Subscribe</a>
 </div>
 <button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
 <span></span><span></span><span></span>
@@ -79,6 +80,16 @@
 <a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
 <a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
 </div>
+</div>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
+  <div class="search-overlay-inner">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
+  </div>
 </div>
 <article class="single-article post-909 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-live" id="post-909">
 <!-- Hero Image -->
@@ -128,19 +139,11 @@
 </ol>
 </div>
 <!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="article-inline-photo pexels-generic" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What’s in this guide" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-pexels-generic.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Kevin Garcia / Pexels</figcaption>
-</figure>
 <h2 class="wp-block-heading" id="amazon-global-the-direct-route">Amazon Global, The Direct Route</h2>
 <figure class="wp-block-image size-large"><img alt="Orange vendor on Via 40 in Barranquilla" class="wp-image-3812" data-sizes="(max-width: 702px) 100vw, 702px" decoding="async" height="527" src="/img/orange-vendor-on-the-via-40-edited.jpg" srcset="/img/orange-vendor-on-the-via-40-edited.jpg 702w, /img/orange-vendor-on-the-via-40-edited-300x225.jpg 300w, /img/orange-vendor-on-the-via-40-edited-400x300.jpg 400w" width="702"/ loading="lazy"></figure>
 <p>Many products on Amazon.com are marked as eligible for international shipping under <strong><a href="https://www.amazon.com/b?ie=UTF8&amp;node=14770868011" rel="noopener" target="_blank">Amazon Global</a></strong>. When you select a Colombian delivery address, the product page will show whether it ships internationally and give you an estimated cost and delivery window (typically 2–4 weeks). Free shipping thresholds don’t apply internationally, expect to pay $15–$40 USD in shipping depending on weight and speed.</p>
 <h2 class="wp-block-heading" id="colombian-customs-the-key-numbers">Colombian Customs: The Key Numbers</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Colombian Customs: The Key Numbers" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-section-3.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Julia Volk / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><strong>Under $200 USD declared value:</strong> No import duties. The package clears customs and arrives at your door. This is the sweet spot for most individual purchases.</li>
 <li><strong>$200–$2,000 USD:</strong> Subject to import duties, typically 10–20% depending on the product category, plus 19% IVA (VAT) on top. The courier handles customs clearance and will contact you for payment before delivery.</li>
@@ -153,10 +156,6 @@
 <p>Popular options used by Barranquilla expats include <strong>Envíos USA</strong>, <strong>Miami Box</strong>, and similar services based in Miami (the main logistics hub for Colombian imports). Costs vary by weight; budget approximately $8–$15 USD per kilogram for air freight. These services also handle customs paperwork, which is helpful if you’re not fluent in the process.</p>
 <h2 class="wp-block-heading" id="what-ships-well">What Ships Well</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What Ships Well" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-section-5.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: HERNAN PERNETT / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><strong>Electronics</strong> (phones, tablets, accessories), very commonly ordered, but keep declared value under $200 where possible</li>
 <li><strong>Books and media</strong>, low customs risk, good value</li>
@@ -166,10 +165,6 @@
 </ul>
 <h2 class="wp-block-heading" id="what-to-avoid-shipping">What to Avoid Shipping</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="What to Avoid Shipping" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-section-6.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Josué Rodríguez / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li><strong>Food products</strong>, subject to INVIMA clearance, often seized</li>
 <li><strong>Plants, seeds, or agricultural products</strong>, restricted or prohibited under Colombian law</li>
@@ -178,10 +173,6 @@
 </ul>
 <h2 class="wp-block-heading" id="practical-tips">Practical Tips</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Practical Tips" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-section-7.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: Nigel Medina / Pexels</figcaption>
-</figure>
 <ul class="wp-block-list">
 <li>Use your building’s address with apartment number, couriers deliver to the door in most Barranquilla buildings</li>
 <li>Include your Colombian phone number so the courier can contact you for delivery</li>
@@ -191,10 +182,6 @@
 </ul>
 <h2 class="wp-block-heading" id="is-it-worth-it">Is It Worth It?</h2>
 <!-- PEXELS_SECTION_IMAGE -->
-<figure class="article-inline-photo pexels-section" style="margin: 2.5rem 0;">
-<img decoding="async" alt="Is It Worth It?" height="800" loading="lazy" src="/img/order-from-amazon-to-colombia-section-8.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,0.10);" width="1200"/>
-<figcaption style="font-size:0.78rem;color:#888;margin-top:0.5rem;text-align:center;">Photo: pierre matile / Pexels</figcaption>
-</figure>
 <p>For many products, yes, especially given what’s unavailable or overpriced locally. Electronics, specific brands, and specialty items can be significantly cheaper even after shipping than buying locally at Alkosto, Ktronix, or similar stores. For clothing basics or anything Amazon Basics-level, you’ll probably find it’s not worth the wait and complexity compared to shopping at Barranquilla’s own malls. Use Amazon for what you can’t get locally, not as your primary shopping channel.</p>
 </div><!-- .article-body -->
 <!-- Ad slot: end of article -->
@@ -312,6 +299,6 @@
 </div>
       <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
-<script defer="" src="/js/main.js?v=20260424a"></script>
+<script defer="" src="/js/main.js?v=20260514a"></script>
 </body>
 </html>
