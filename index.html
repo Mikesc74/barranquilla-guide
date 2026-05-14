@@ -281,6 +281,43 @@
 </section>
 
 <!-- ═══════════════════════════════════════════════════════════════
+     EMAIL CAPTURE (moved up under Neighborhoods)
+     ═══════════════════════════════════════════════════════════════ -->
+<section class="email-capture" id="newsletter" aria-labelledby="newsletter-heading">
+  <div class="container">
+    <div class="email-capture-inner">
+      <div>
+        <span class="label">Newsletter</span>
+        <h2 class="email-capture-title" id="newsletter-heading">Get the guide in your inbox</h2>
+        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+      </div>
+      <div class="email-capture-form">
+        <form class="newsletter-form"
+              data-city="barranquilla" data-source="homepage"
+              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
+          <div class="email-capture-row">
+            <input
+              type="email"
+              class="email-capture-input"
+              name="email"
+              placeholder="Your email address"
+              required
+              aria-label="Email address"
+            />
+            <button type="submit" class="email-capture-submit">Subscribe</button>
+          </div>
+          <input type="hidden" name="city" value="barranquilla" />
+          <input type="hidden" name="source" value="homepage" />
+          <div class="email-capture-note" role="status" aria-live="polite">
+            Weekly. Unsubscribe any time.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
      ZONE 3: FEATURED GUIDES
      ═══════════════════════════════════════════════════════════════ -->
 <section class="categories-grid" aria-label="Site sections">
@@ -548,44 +585,6 @@
           </div><!-- .magazine-grid -->
   </div><!-- .container -->
 </section>
-
-<!-- ═══════════════════════════════════════════════════════════════
-     ZONE 7: EMAIL CAPTURE
-     ═══════════════════════════════════════════════════════════════ -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
-              data-city="barranquilla" data-source="homepage"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-          <div class="email-capture-row">
-            <input
-              type="email"
-              class="email-capture-input"
-              name="email"
-              placeholder="Your email address"
-              required
-              aria-label="Email address"
-            />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="homepage" />
-          <div class="email-capture-note" role="status" aria-live="polite">
-            Weekly. Unsubscribe any time.
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <!-- Community Section -->
 <section class="community-section" style="background:#0a0e1a;padding:80px 20px;text-align:center;">
