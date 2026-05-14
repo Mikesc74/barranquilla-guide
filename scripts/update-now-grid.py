@@ -56,8 +56,8 @@ def extract_title_excerpt(html_path: Path) -> tuple[str, str]:
     text = html_path.read_text(encoding="utf-8")
     t = re.search(r"<title>(.*?)</title>", text, re.IGNORECASE | re.DOTALL)
     title = (t.group(1).strip() if t else "")
-    # Strip " | Site Name" / " · suffix" / " – suffix" — but NOT a regular
-    # hyphen, because real titles use hyphens (e.g. "Week of May 4 - 2026").
+    # Strip " | Site Name" / " · suffix" / " – suffix" suffixes, but not a
+    # regular hyphen (real titles use hyphens, e.g. "Week of May 4 - 2026").
     title = re.split(r"\s+[\|·–—]\s+", title)[0].strip()
 
     d = re.search(
