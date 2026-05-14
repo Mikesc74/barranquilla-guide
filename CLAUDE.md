@@ -83,7 +83,7 @@ files, or applied in `_headers`.
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" />
   <link rel="stylesheet" href="/css/site.css?v=YYYYMMDDx" />
 
-  <!-- GA4 gtag.js, measurement id GT-TNSNLWV -->
+  <!-- GA4 gtag.js, measurement id G-FKFW8ZQJPN -->
 </head>
 <body>
 <nav class="site-nav site-nav--solid" id="site-nav">...</nav>
@@ -196,7 +196,7 @@ works even on first paint before the embed has loaded.
 
 - **Google Fonts**: `Playfair Display` + `Inter` via `fonts.googleapis.com`
   (preconnected).
-- **GA4** measurement id `GT-TNSNLWV` via `gtag.js` in `<head>`. No cookie
+- **GA4** measurement id `G-FKFW8ZQJPN` via `gtag.js` in `<head>`. No cookie
   consent gate currently; if you add one, mirror medellin.guide's
   `consent.js` pattern.
 - **Chatbase** bot id `wv8hNpU46aEhF0eXDOVF4` (see above).
