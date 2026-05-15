@@ -20,3 +20,11 @@
 /section/stay/page/*      /section/stay/      301
 /section/magazine/page/*  /section/magazine/  301
 /category/now/page/*      /category/now/      301
+
+# 2026-05-15 slug renames to remove marketing-speak from URLs.
+# Old URLs were "exploring the enchanting neighborhoods of barranquilla" and
+# "el prado hotel, a historic gem in the heart of barranquilla". The page
+# content itself stays at the new slug; 301 here keeps any inbound link
+# (Google, social share, internal cross-link) working.
+/exploring-the-enchanting-neighborhoods-of-barranquilla/  /barranquilla-neighborhoods/  301
+/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla/  /el-prado-hotel/  301
