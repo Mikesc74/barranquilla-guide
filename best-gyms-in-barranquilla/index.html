@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/spinningcenter.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -100,7 +102,7 @@
 <h1>Best Gyms in Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -130,41 +132,40 @@
 <img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/best-gyms-in-barranquilla-place-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<figure class="wp-block-image size-full"><img alt="Spinning Center gym" class="wp-image-1312" sizes="(max-width: 630px) 100vw, 630px" decoding="async" fetchpriority="high" height="360" src="/img/spinningcenter.jpg" srcset="/img/spinningcenter.jpg 630w, /img/spinningcenter-300x171.jpg 300w, /img/spinningcenter-150x86.jpg 150w" width="630" loading="eager"/><figcaption class="wp-element-caption">Spinning Center</figcaption></figure>
-<h2 class="wp-block-heading" id="what-a-typical-gym-looks-like">What a typical Colombian gym looks like</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
+<figure><img alt="Spinning Center gym" sizes="(max-width: 630px) 100vw, 630px" decoding="async" fetchpriority="high" height="360" src="/img/spinningcenter.jpg" srcset="/img/spinningcenter.jpg 630w, /img/spinningcenter-300x171.jpg 300w, /img/spinningcenter-150x86.jpg 150w" width="630" loading="eager"/><figcaption>Spinning Center</figcaption></figure>
+<h2 id="what-a-typical-gym-looks-like">What a typical Colombian gym looks like</h2>
 <p>A few things to know if you are coming from North America or Europe. Most Colombian gyms are inside or next to malls, with strong AC (Barranquilla is hot and humid year-round, this matters). Free weights tend to be more limited than in a comparable US gym; cable machines, plate-loaded equipment, and cardio are well covered. Memberships are almost always sold as monthly, quarterly, semestral, or annual plans; a 12-month plan is significantly cheaper per month than a rolling one. Day passes exist at most chains for around COP 25.000 to 40.000.</p>
 <p>You will be asked for your cédula or passport at sign-up. Spanish is the working language; some trainers at the larger chains speak basic English but do not assume it.</p>
-<h2 class="wp-block-heading" id="bodytech">Bodytech (the default upmarket chain)</h2>
+<h2 id="bodytech">Bodytech (the default upmarket chain)</h2>
 <p><a href="https://bodytech.com.co/" rel="noreferrer noopener" target="_blank">Bodytech</a> is the dominant mid-to-upmarket Colombian chain and has several locations in Barranquilla, typically inside or next to the major malls (Buenavista, Viva, Altos del Prado, others). Equipment is well-maintained, classes are included in most plans, and the gyms feel clean and orderly.</p>
-<figure class="wp-block-image size-full"><img alt="Bodytech gym interior" class="wp-image-1315" data-sizes="auto, (max-width: 767px) 100vw, 767px" decoding="async" height="431" loading="lazy" src="/img/bodytech.webp" srcset="/img/bodytech.webp 767w, /img/bodytech-300x169.webp 300w, /img/bodytech-150x84.webp 150w, /img/bodytech-696x391.webp 696w" width="767"/><figcaption class="wp-element-caption">Bodytech</figcaption></figure>
+<figure><img alt="Bodytech gym interior" sizes="auto, (max-width: 767px) 100vw, 767px" decoding="async" height="431" loading="lazy" src="/img/bodytech.webp" srcset="/img/bodytech.webp 767w, /img/bodytech-300x169.webp 300w, /img/bodytech-150x84.webp 150w, /img/bodytech-696x391.webp 696w" width="767"/><figcaption>Bodytech</figcaption></figure>
 <p>Pricing as of writing: a standard monthly membership runs roughly COP 130.000 to 180.000 per month depending on the plan length and location, with annual prepay around COP 1.300.000 to 1.500.000. Personal training adds COP 300.000 to 400.000 per month for a typical block of sessions. Verify the current price list at the front desk, Bodytech runs promotions a few times a year.</p>
-<h2 class="wp-block-heading" id="smart-fit">Smart Fit (the cheap international chain)</h2>
+<h2 id="smart-fit">Smart Fit (the cheap international chain)</h2>
 <p><a href="https://www.smartfit.com.co/gimnasios" rel="noreferrer noopener" target="_blank">Smart Fit</a> is the Brazilian-origin budget chain that has spread across Latin America. It has around eight locations in Barranquilla. The model is no-frills: machine-heavy, fewer classes included, big open floors, decent AC.</p>
-<figure class="wp-block-image size-full"><img alt="Smart Fit gym entrance in Barranquilla" class="wp-image-1314" data-sizes="auto, (max-width: 800px) 100vw, 800px" decoding="async" height="533" loading="lazy" src="/img/smartfit.webp" srcset="/img/smartfit.webp 800w, /img/smartfit-300x200.webp 300w, /img/smartfit-768x512.webp 768w, /img/smartfit-150x100.webp 150w, /img/smartfit-696x464.webp 696w" width="800"/><figcaption class="wp-element-caption">Smart Fit</figcaption></figure>
+<figure><img alt="Smart Fit gym entrance in Barranquilla" sizes="auto, (max-width: 800px) 100vw, 800px" decoding="async" height="533" loading="lazy" src="/img/smartfit.webp" srcset="/img/smartfit.webp 800w, /img/smartfit-300x200.webp 300w, /img/smartfit-768x512.webp 768w, /img/smartfit-150x100.webp 150w, /img/smartfit-696x464.webp 696w" width="800"/><figcaption>Smart Fit</figcaption></figure>
 <p>Pricing as of writing: the basic monthly is roughly COP 80.000 to 100.000 per month, with the Black tier (multi-location access, guest passes) higher. Personal training is not the focus, but available. This is the right choice if you train mainly on machines and care about price.</p>
-<h2 class="wp-block-heading" id="spinning-center">Spinning Center</h2>
+<h2 id="spinning-center">Spinning Center</h2>
 <p><a href="https://rewards.trainingym.com/t/m/V7Jkpz/29DED96A-24E3-4AF5-AC0C-DCE74850431C" rel="noreferrer noopener" target="_blank">Spinning Center</a> on the fourth floor of Buenavista 2 is a full gym with spin classes as its identity, not just a spin studio. Equipment is solid, class schedules are full, and the same complex has a sports club next door with bowling and billiards, useful if you want to make a night of it. A 10-month plan was around COP 600.000 at writing.</p>
-<h2 class="wp-block-heading" id="independent-and-boutique">Independent and boutique options</h2>
+<h2 id="independent-and-boutique">Independent and boutique options</h2>
 <p>Outside the chains, a few independent gyms come up in expat conversations. The <a href="https://www.instagram.com/bronxgym1/?hl=en" rel="noreferrer noopener" target="_blank">Bronx Gym</a> has two locations: Sede Gold on Carrera 51B at Calle 80 in Alto Prado, and Sede Silver at Brazuca Mall on Calle 135 in Villa Campestre. As of writing, Bronx Silver was COP 70.000/day, COP 110.000/month, COP 1.056.000/year.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Villa Campestre" decoding="async" height="800" loading="lazy" src="/img/best-gyms-in-barranquilla-place-villa-campestre.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<figure class="wp-block-image size-full is-resized"><img alt="Action Black gym exterior" class="wp-image-2280" data-sizes="auto, (max-width: 200px) 100vw, 200px" decoding="async" height="200" loading="lazy" src="/img/action-black.jpg" srcset="/img/action-black.jpg 200w, /img/action-black-150x150.jpg 150w" style="width:247px;height:auto" width="200"/></figure>
+<figure><img alt="Action Black gym exterior" sizes="auto, (max-width: 200px) 100vw, 200px" decoding="async" height="200" loading="lazy" src="/img/action-black.jpg" srcset="/img/action-black.jpg 200w, /img/action-black-150x150.jpg 150w" style="width:247px;height:auto" width="200"/></figure>
 <p><a href="https://www.actionblack.co/">Action Black</a> opened in Barranquilla in 2024 with a high-end training-system positioning. They have one location at Altos del Prado Mall, with a second at Viva Barranquilla planned. Annual fee was around COP 2.400.000 at writing, the most expensive option in the city.</p>
 <p>Hard Body, in the El Prado / Villa Country area, comes up in conversations as a long-established local gym but we have not verified current opening hours and pricing; if you live in El Prado, walk in and check.</p>
-<h2 class="wp-block-heading" id="how-to-pick">How to pick</h2>
-<ul class="wp-block-list">
+<h2 id="how-to-pick">How to pick</h2>
+<ul>
 <li>Live near a mall? Use the Bodytech or Smart Fit closest to you. Commute kills consistency.</li>
 <li>On a budget? Smart Fit.</li>
 <li>Want classes and a full feature set? Bodytech.</li>
 <li>Take a free trial. Most chains offer one; ask at the desk.</li>
 </ul>
 <p>For complementary content, see our <a href="/popular-sports-in-barranquilla/">popular sports</a> guide.</p>
-<h2 class="wp-block-heading" id="further-reading">Further reading</h2>
+<h2 id="further-reading">Further reading</h2>
 <p>Related fitness and wellness coverage:</p>
-<ul class="wp-block-list">
+<ul>
 <li><a href="/popular-sports-in-barranquilla/">popular sports in Barranquilla</a>, sports leagues, clubs, and venues</li>
 <li><a href="/fun-things-to-do-in-barranquilla-as-a-group/">group activities</a>, active plans with friends</li>
 <li><a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">expat networking</a>, groups and community picks</li>
@@ -186,7 +187,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/pets-mascotas-barranquilla-2026/">
-<img alt="Pets in Barranquilla: The Complete Mascotas Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/pets_dog-600x400.jpg" srcset="/img/pets_dog-600x400.jpg 600w, /img/pets_dog-300x200.jpg 300w, /img/pets_dog-1024x683.jpg 1024w, /img/pets_dog-768x512.jpg 768w, /img/pets_dog.jpg 1200w" width="600"/> </a>
+<img alt="Pets in Barranquilla: The Complete Mascotas Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/pets_dog-600x400.jpg" srcset="/img/pets_dog-600x400.jpg 600w, /img/pets_dog-300x200.jpg 300w, /img/pets_dog-1024x683.jpg 1024w, /img/pets_dog-768x512.jpg 768w, /img/pets_dog.jpg 1200w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/pets-mascotas-barranquilla-2026/">Pets in Barranquilla: The Complete Mascotas Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -197,7 +198,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-coworking-spaces-barranquilla/">
-<img alt="Best Coworking Spaces in Barranquilla 2026" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/coworking-barranquilla-1-600x400.jpg" width="600"/> </a>
+<img alt="Best Coworking Spaces in Barranquilla 2026" decoding="async" height="400" loading="lazy" src="/img/coworking-barranquilla-1-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/best-coworking-spaces-barranquilla/">Best Coworking Spaces in Barranquilla 2026</a></h3>
 <div class="article-card-meta">
@@ -208,7 +209,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/study-spanish-in-barranquilla/">
-<img alt="Study Spanish in Barranquilla: A Practical 2026 Guide" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/typical-bus-interior-600x400.jpg" width="600"/> </a>
+<img alt="Study Spanish in Barranquilla: A Practical 2026 Guide" decoding="async" height="400" loading="lazy" src="/img/typical-bus-interior-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/study-spanish-in-barranquilla/">Study Spanish in Barranquilla: A Practical 2026 Guide</a></h3>
 <div class="article-card-meta">
@@ -230,7 +231,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

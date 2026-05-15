@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/healthcare-barranquilla.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/healthcare-barranquilla.jpg" srcset="/img/healthcare-barranquilla.jpg 1200w, /img/healthcare-barranquilla-300x158.jpg 300w, /img/healthcare-barranquilla-1024x538.jpg 1024w, /img/healthcare-barranquilla-768x403.jpg 768w" width="1200"/> </div>
+<img alt="Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/healthcare-barranquilla.jpg" srcset="/img/healthcare-barranquilla.jpg 1200w, /img/healthcare-barranquilla-300x158.jpg 300w, /img/healthcare-barranquilla-1024x538.jpg 1024w, /img/healthcare-barranquilla-768x403.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -145,14 +147,11 @@
 <li><a href="#further-reading">Further reading on this site</a></li>
 </ol>
 </div>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <h2 id="system-overview">How the Colombian healthcare system works</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Colombia has <strong>universal healthcare</strong> through a two-pillar model: the <strong>contributory</strong> regime for people who work or can afford monthly contributions, and the <strong>subsidized</strong> regime for low-income Colombians. The law mandating this is <strong>Ley 100 de 1993</strong>. Both regimes are managed through intermediaries called <strong>EPS (Entidades Promotoras de Salud)</strong>, private health-insurance companies that administer the system on behalf of the government. You pick an EPS; it contracts with hospitals and clinics (called <strong>IPS</strong>) that actually deliver care.</p>
 <p>On top of this base layer, most Colombians who can afford it buy <strong>medicina prepagada</strong>, a prepaid private plan that gives them faster access, shorter queues, a choice of top specialists, and private rooms. Many expats do the same. Below the public system, pure private out-of-pocket care is also very affordable by US/European standards, a private specialist visit runs COP 150–300,000 (USD 38–75).</p>
 <p>If you’re a permanent resident with a CE, you are <strong>required</strong> by law to be enrolled in an EPS. It’s not optional. If you’re on a tourist permit (PIP/PTP), you can’t join an EPS and should carry travel health insurance instead.</p>
 <h2 id="main-hospitals">The main hospitals in Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla’s top-tier hospitals are clustered in Alto Prado, Villa Country, and Riomar. All of the following are accredited, run by large national networks, and comfortable with English-speaking patients at the doctor level (reception staff Spanish-first):</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Riomar" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-riomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -177,7 +176,6 @@
 </ul>
 <p>For <strong>public-system care</strong>, the main reference hospital is <strong>Hospital Universitario CARI</strong> (Centro de Atención y Rehabilitación Integral), large teaching hospital with emergency services; quality is decent for the public tier but expect queues. Most expats on an EPS will be routed to a private IPS that contracts with the EPS, not to CARI.</p>
 <h2 id="choosing-an-eps">How to choose an EPS (and which ones to consider in Barranquilla)</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Not all EPS operate in every city, and network quality varies by region. For Barranquilla (Atlántico department), the practical shortlist in 2026:</p>
 <ul>
 <li><strong>EPS Sanitas</strong> (Grupo Keralty), consistently the best-rated nationally for service, with the Colsanitas private hospital/clinic network in Barranquilla. Many expats default to Sanitas.</li>
@@ -189,12 +187,10 @@
 </ul>
 <p>How to decide: ask where you want to be seen (e.g., Portoazul or Iberoamérica) and pick an EPS whose network includes that hospital. Check <a href="https://www.adres.gov.co/" rel="noopener" target="_blank">ADRES</a> or the Superintendencia Nacional de Salud rankings for current performance data.</p>
 <h2 id="how-much-eps-costs">What EPS actually costs in 2026</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>If you work for a Colombian employer, 12.5% of your salary is the health contribution, <strong>4% paid by you, 8.5% by the employer</strong>. The amount you see deducted is the 4%.</p>
 <p>If you’re <strong>independent</strong> (freelancer, digital nomad, pensioner, rentista), you pay the <strong>full 12.5%</strong> yourself, calculated on an <em>income base</em> (IBC) of at least <strong>1× SMMLV</strong> (the 2026 minimum wage, COP 1,423,500) and typically <strong>40% of your declared monthly income</strong>. Floor contribution in 2026: roughly <strong>COP 178,000/month</strong> (USD ~45). Realistic contributions for middle-class expats declaring on USD 3–5k monthly: <strong>COP 400–750,000/month</strong> (USD 100–190).</p>
 <p>You register your contributions through <strong>PILA</strong> (Planilla Integrada de Liquidación de Aportes), either via your bank or through an operator like Mi Planilla or Simple (<a href="https://www.miplanilla.com/" rel="noopener" target="_blank">miplanilla.com</a>). Most expats set up a monthly auto-debit once they’re enrolled.</p>
 <h2 id="enrolling">How to enroll in an EPS</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>You need your <strong>Cédula de Extranjería (CE)</strong>, the foreign-resident ID card issued by Migración Colombia after visa approval (see our <a href="/visas-colombia-barranquilla/">visa guide</a>). Without a CE, you can’t enroll. With it:</p>
 <ol>
 <li>Pick an EPS.</li>
@@ -205,7 +201,6 @@
 </ol>
 <p>Beneficiaries, spouse, minor children, parents if economically dependent, are added without extra cost to the contribution (so long as your income base covers them). Bring marriage and birth certificates (apostilled and translated).</p>
 <h2 id="prepaid-plans">Medicina prepagada, the private top-up most expats want</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>An EPS alone is basic. It gets you covered, but you’ll wait. <strong>Medicina prepagada</strong> sits on top of your EPS and gives you direct access to private hospitals and specialists, often the same day. The main providers in Barranquilla:</p>
 <ul>
 <li><strong>Medisanitas / Colsanitas Medicina Prepagada</strong>, default pick, pairs naturally with EPS Sanitas.</li>
@@ -216,10 +211,8 @@
 <p><strong>Monthly premiums</strong> depend on age, coverage tier, and beneficiaries. 2026 ballpark for a healthy 35-year-old: <strong>COP 280–500,000/month</strong> (USD 70–125). For a family of four: <strong>COP 900,000–1.8M/month</strong> (USD 225–450). Ages 60+ rise quickly; expect USD 300–800/month for seniors on a full plan.</p>
 <p>Don’t confuse medicina prepagada with <strong>pólizas de salud</strong>, reimbursement-model health insurance from carriers like Axa Colpatria or Allianz. These are more US-style (pay the provider, file a claim). Less common among expats but available.</p>
 <h2 id="travel-insurance">What tourists and short-term visitors should do</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>If you’re on a PIP/PTP tourist permit, you cannot join an EPS. Carry <strong>travel health insurance</strong>, Colombia technically requires “health insurance covering your full stay” at entry, though it’s rarely checked. Policies from SafetyWing, World Nomads, Allianz Travel, or Colombian issuers like Assist Card and Sura run USD 40–120/month and cover emergencies, accidents, and medical evacuation. Our <a href="/colombia-travel-insurance-guide/">Colombia travel insurance guide</a> goes into which plans actually pay out without hassle.</p>
 <h2 id="out-of-pocket">Out-of-pocket costs without insurance</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Colombia is cheap enough by US/European standards that many short-term visitors simply pay cash. Typical 2026 private-rate prices in Barranquilla:</p>
 <ul>
 <li><strong>GP consultation</strong>: COP 100–200,000 (USD 25–50).</li>
@@ -232,7 +225,6 @@
 <li><strong>Appendectomy (laparoscopic, private)</strong>: COP 8–15 million (USD 2,000–3,750).</li>
 </ul>
 <h2 id="pharmacies">Pharmacies</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Chains are reliable and open late. Main ones:</p>
 <ul>
 <li><strong>Cruz Verde</strong>, biggest chain, stores across the city.</li>
@@ -242,7 +234,6 @@
 </ul>
 <p>Many medications sold by prescription in the US, including antibiotics, certain blood-pressure meds, and even (informally) benzodiazepines, are <strong>sold over the counter</strong> here. This isn’t always a good thing; don’t self-prescribe. Controlled substances (opioids, some psychiatric meds) still need a physician’s prescription. Generic equivalents are plentiful and save 40–70% vs. brand names.</p>
 <h2 id="mental-health">Mental health</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla has qualified psychologists and psychiatrists, though fewer English-speaking practitioners than Bogotá or Medellín. Pricing per session:</p>
 <ul>
 <li><strong>Psychologist (private)</strong>: COP 150–300,000 (USD 38–75).</li>
@@ -250,13 +241,10 @@
 </ul>
 <p>Online options, Psicólogo en Bogotá networks, Psonríe, Terapify, and US-based BetterHelp or Talkspace, work well from Barranquilla and let you keep an English-speaking therapist. Expat Facebook groups can help you find bilingual in-person providers (ask in “Expats in Barranquilla”).</p>
 <h2 id="dental">Dental care</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Dental work in Barranquilla is cheap enough that many expats fly down specifically for it. A cleaning is COP 80–150,000 (USD 20–38), a filling COP 150–300,000, and a crown COP 800k–1.5M. See our <a href="/dental-work-in-barranquilla-costs-quality-medical-tourism-2026-guide/">dental work guide</a> for specifics and recommended clinics.</p>
 <h2 id="medical-tourism">Medical tourism, plastic surgery and major procedures</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla, along with Cali and Medellín, is a significant destination for medical tourism. Plastic surgery in particular, rhinoplasty, liposuction, breast augmentation, BBL, is 50–70% cheaper than in the US at comparable quality. Details, reputable surgeons, and what to look out for: our <a href="/plastic-surgery-in-barranquilla-costs-surgeons-medical-tourism-guide-2026/">plastic-surgery guide</a>.</p>
 <h2 id="emergencies">In an emergency</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Dial <strong>123</strong> for any emergency (police, fire, ambulance). For medical emergencies specifically, you can also dial <strong>125</strong>.</p>
 <p>Ambulance services include CRUE Atlántico (public) and private networks tied to the large hospitals (Portoazul, La Misericordia, Iberoamérica all dispatch their own). If you have medicina prepagada, call your plan’s 24-hour line, they dispatch an ambulance and route you to a network hospital.</p>
 <p>The nearest ER for most northern-neighborhood residents is Portoazul, Iberoamérica, or La Misericordia, all reachable by Uber in 10–15 minutes from Alto Prado, Villa Country, Riomar, or Villa Santos.</p>
@@ -265,7 +253,6 @@
 </figure>
 
 <h2 id="vaccinations">Vaccinations and preventive care</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Routine adult vaccinations (tetanus/diphtheria, MMR, influenza annually) are available at IPS clinics and many pharmacies. Specifically for Colombia:</p>
 <ul>
 <li><strong>Yellow fever</strong>, required for entry to some Colombian national parks and for onward travel to certain countries. One-dose, lifetime immunity. Available at <strong>Vacunar</strong> clinics and some hospital outpatient clinics for COP 60–80,000.</li>
@@ -275,21 +262,17 @@
 <li><strong>Covid</strong>, boosters available through IPS networks and large pharmacy chains.</li>
 </ul>
 <h2 id="doctors-appointments">How appointments actually work</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>On an EPS alone, primary care is routed through a <strong>general practitioner (médico general)</strong>. You need a referral (<em>remisión</em>) to see a specialist. Appointments are booked via the EPS app or call center; in-person walk-ins work at the IPS door for urgencies.</p>
 <p>With medicina prepagada, you book <strong>directly with the specialist</strong> through the provider’s app, no referral needed. Sanitas, Colmédica, and Sura all have competent apps.</p>
 <p>For <strong>pure private care (no insurance)</strong>, call the hospital or clinic directly, or use <a href="https://www.doctoralia.co/" rel="noopener" target="_blank">Doctoralia</a> to find specialists, read reviews, and book.</p>
 <h2 id="reimbursement">How reimbursements and copays work</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>On EPS: a small <strong>cuota moderadora</strong> (moderating fee) per visit, a few thousand pesos, based on income tier. For some procedures a separate <strong>copago</strong> applies. Big-ticket items, hospitalizations, surgeries, are typically 100% covered inside the EPS network.</p>
 <p>On medicina prepagada: the out-of-network bills go to the EPS first; prepaid tops up. In-network private care is usually zero out-of-pocket beyond the monthly premium.</p>
 <p>On travel insurance or pólizas de salud: pay the provider, save the receipts and <em>historia clínica</em>, file the claim through the insurer’s portal. Reimbursement lands in 2–6 weeks depending on the insurer.</p>
 <h2 id="for-english-speakers">Navigating as an English speaker</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>At the top hospitals (Portoazul, Iberoamérica, La Misericordia), most specialists can conduct a consultation in functional English, especially younger doctors. Reception and administrative staff: plan on Spanish. Bring a Spanish-speaking friend or a translator if your Spanish is basic and the visit is complex.</p>
 <p>For translations of medical records (e.g., to file a US insurance claim), use a <em>traductor oficial</em> registered with the Ministry of Foreign Affairs. Rates are COP 40–80,000 per page.</p>
 <h2 id="faq">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Is Colombian healthcare actually good?</strong> At the private end, yes, top hospitals are JCI-accredited, staffed by doctors often trained in the US, Europe, or Colombia’s own excellent medical schools. Public-tier care is serviceable but slower.</p>
 <p><strong>Can I use my US/European insurance here?</strong> Most US plans don’t cover non-emergency care abroad. International plans (Cigna Global, GeoBlue, Bupa) can be excellent. Always check whether your plan has a Colombian network or requires you to pay and claim.</p>
 <p><strong>Do I need to be fluent in Spanish to handle healthcare?</strong> Helpful but not strictly required for private care. Write down your symptoms in Spanish in advance; bring translations of any chronic conditions and medication lists.</p>
@@ -322,7 +305,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/getting-around-barranquilla/">
-<img alt="Getting Around Barranquilla: Transport Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/bus-interior-600x400.jpg" width="600"/> </a>
+<img alt="Getting Around Barranquilla: Transport Guide (2026)" decoding="async" height="400" loading="lazy" src="/img/bus-interior-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/getting-around-barranquilla/">Getting Around Barranquilla: Transport Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -333,7 +316,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/visas-colombia-barranquilla/">
-<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
+<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/visas-colombia-barranquilla/">Colombia Visa Guide 2026: Every Option for Living in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -344,7 +327,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-wedding-guide-2026/">
-<img alt="Getting Married in Barranquilla: The Complete Wedding Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/wedding-600x400.jpg" srcset="/img/wedding-600x400.jpg 600w, /img/wedding-300x200.jpg 300w, /img/wedding-1024x683.jpg 1024w, /img/wedding-768x512.jpg 768w, /img/wedding.jpg 1200w" width="600"/> </a>
+<img alt="Getting Married in Barranquilla: The Complete Wedding Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/wedding-600x400.jpg" srcset="/img/wedding-600x400.jpg 600w, /img/wedding-300x200.jpg 300w, /img/wedding-1024x683.jpg 1024w, /img/wedding-768x512.jpg 768w, /img/wedding.jpg 1200w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-wedding-guide-2026/">Getting Married in Barranquilla: The Complete Wedding Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -366,7 +349,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/food-tour-barranquilla-1.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Barranquilla Food Tour: Downtown Street Food Experience (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 670px) 100vw, 670px" src="/img/food-tour-barranquilla-1.jpg" srcset="/img/food-tour-barranquilla-1.jpg 670w, /img/food-tour-barranquilla-1-300x200.jpg 300w, /img/food-tour-barranquilla-1-600x400.jpg 600w" width="670"/> </div>
+<img alt="Barranquilla Food Tour: Downtown Street Food Experience (2026)" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 670px) 100vw, 670px" src="/img/food-tour-barranquilla-1.jpg" srcset="/img/food-tour-barranquilla-1.jpg 670w, /img/food-tour-barranquilla-1-300x200.jpg 300w, /img/food-tour-barranquilla-1-600x400.jpg 600w" width="670"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Barranquilla Food Tour: Downtown Street Food Experience (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -119,7 +121,7 @@
 <p>Barranquilla’s food is one of its best-kept secrets. The Caribbean coast has a distinct cuisine that’s entirely its own, heavier on seafood, plantain, and African-influenced flavours than anything you’ll find in Bogotá or Medellín. A guided food tour through downtown is the fastest and most rewarding way into it.</p>
 <div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
-<h3 style="margin:0 0 12px 0;font-size:20px;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</h3>
+<p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
 <span>⏱ 4 hours</span>
 <span> From $35 USD</span>
@@ -137,10 +139,9 @@
         </a>
 <p style="margin:10px 0 0;font-size:0.75rem;opacity:0.7;">* Affiliate link - helps support this site at no cost to you</p>
 </div>
-<h2 class="wp-block-heading">What You’ll Eat</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
+<h2>What You’ll Eat</h2>
 <p>The tour covers the essential hits of costeño street food and local dining:</p>
-<ul class="wp-block-list">
+<ul>
 <li><strong>Arepas de huevo</strong>, The dish that defines Barranquilla breakfast. A fried corn cake stuffed with egg, eaten with hot sauce. Non-negotiable.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Arepas de huevo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-arepas-de-huevo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -176,17 +177,17 @@
 
 <li>Market stops and hidden local spots the guide has been eating at for years</li>
 </ul>
-<h2 class="wp-block-heading">Why a Guided Food Tour Is Worth It</h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Local cuisine sampling during Barranquilla food tour" class="wp-image-3675" data-sizes="(max-width: 669px) 100vw, 669px" decoding="async" height="446" src="/img/food-tour-barranquilla-2.jpg" srcset="/img/food-tour-barranquilla-2.jpg 669w, /img/food-tour-barranquilla-2-300x200.jpg 300w, /img/food-tour-barranquilla-2-600x400.jpg 600w" width="669"/ loading="lazy"><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<h2>Why a Guided Food Tour Is Worth It</h2>
+<figure><img alt="Local cuisine sampling during Barranquilla food tour" sizes="(max-width: 669px) 100vw, 669px" decoding="async" height="446" src="/img/food-tour-barranquilla-2.jpg" srcset="/img/food-tour-barranquilla-2.jpg 669w, /img/food-tour-barranquilla-2-300x200.jpg 300w, /img/food-tour-barranquilla-2-600x400.jpg 600w" width="669" loading="lazy"><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p>You can find good food in Barranquilla independently, but the best spots are small, unassuming, and invisible to anyone who doesn’t already know where they are. The guide has the relationships, speaks the language, and knows which stall has the best arepas on which day. You’ll eat better with a guide in three hours than you would in three days on your own.</p>
 <p>The tour also covers the market and street culture of downtown, the vendors, the rhythms, the chaos of El Centro during the day. It’s as much a cultural tour as a food tour.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="El Centro" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-place-el-centro.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Practical Details</h2>
-<figure class="wp-block-image size-large"><img alt="Street-food stall on a Barranquilla downtown food tour" class="wp-image-2816" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2801-1024x538.jpg" srcset="/img/tour-2801-1024x538.jpg 1024w, /img/tour-2801-300x158.jpg 300w, /img/tour-2801-768x403.jpg 768w, /img/tour-2801.jpg 1200w" width="1024"/></figure>
-<ul class="wp-block-list">
+<h2>Practical Details</h2>
+<figure><img alt="Street-food stall on a Barranquilla downtown food tour" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2801-1024x538.jpg" srcset="/img/tour-2801-1024x538.jpg 1024w, /img/tour-2801-300x158.jpg 300w, /img/tour-2801-768x403.jpg 768w, /img/tour-2801.jpg 1200w" width="1024"/></figure>
+<ul>
 <li><strong>Price:</strong> From ~$60 USD</li>
 <li><strong>Duration:</strong> Typically 3–4 hours</li>
 <li><strong>Meeting point:</strong> Downtown Barranquilla</li>
@@ -194,23 +195,22 @@
 <li><strong>Best time:</strong> Morning, most street food spots operate from 7am–2pm and close after lunch</li>
 <li><strong>Dietary restrictions:</strong> Let the operator know in advance, most stops can accommodate</li>
 </ul>
-<h2 class="wp-block-heading">How to Book</h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Visiting local markets on the Barranquilla food tour" class="wp-image-3676" data-sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-3.jpg" srcset="/img/food-tour-barranquilla-3.jpg 670w, /img/food-tour-barranquilla-3-300x200.jpg 300w, /img/food-tour-barranquilla-3-600x400.jpg 600w" width="670"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<h2>How to Book</h2>
+<figure><img alt="Visiting local markets on the Barranquilla food tour" sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-3.jpg" srcset="/img/food-tour-barranquilla-3.jpg 670w, /img/food-tour-barranquilla-3-300x200.jpg 300w, /img/food-tour-barranquilla-3-600x400.jpg 600w" width="670"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p><a href="https://www.viator.com/tours/Barranquilla/Food-Tour-in-Barranquilla-Downtown/d50228-59388P111?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book the Barranquilla Downtown Food Tour on Viator</a></p>
-<h2 class="wp-block-heading">More Ways to Eat in Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2>More Ways to Eat in Barranquilla</h2>
 <p>For sit-down dining after the tour, see our full guide: <a href="/best-restaurants-barranquilla/">Best Restaurants in Barranquilla →</a></p>
 <p>Staying close to the best food? <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a> sits in the neighbourhood with the best restaurant concentration in the city.</p>
-<h2 class="wp-block-heading">Other Barranquilla Tours</h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Street food vendors in downtown Barranquilla" class="wp-image-3677" data-sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-4.jpg" srcset="/img/food-tour-barranquilla-4.jpg 670w, /img/food-tour-barranquilla-4-300x200.jpg 300w, /img/food-tour-barranquilla-4-600x400.jpg 600w" width="670"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
-<ul class="wp-block-list">
+<h2>Other Barranquilla Tours</h2>
+<figure><img alt="Street food vendors in downtown Barranquilla" sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-4.jpg" srcset="/img/food-tour-barranquilla-4.jpg 670w, /img/food-tour-barranquilla-4-300x200.jpg 300w, /img/food-tour-barranquilla-4-600x400.jpg 600w" width="670"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
+<ul>
 <li><a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Gran Malecón &amp; Carnaval Museum City Tour</a> (4.6 ⭐, 39 reviews)</li>
 <li><a href="/barranquilla-private-bike-tour/">Private Bike Tour</a> (5.0 ⭐, 23 reviews)</li>
 <li><a href="/best-tours-experiences-barranquilla/">All Barranquilla tours →</a></li>
 </ul>
 <div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
-<h3 style="margin:0 0 12px 0;font-size:20px;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</h3>
+<p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
 <span>⏱ 4 hours</span>
 <span> From $35 USD</span>
@@ -233,7 +233,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/la-ruta-del-girasol-the-sunflower-fields/">
-<img alt="La Ruta del Girasol: The Sunflower Fields" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/girasoles1.jpg" srcset="/img/girasoles1.jpg 1600w, /img/girasoles1-300x200.jpg 300w, /img/girasoles1-1024x681.jpg 1024w, /img/girasoles1-768x511.jpg 768w, /img/girasoles1-1536x1021.jpg 1536w, /img/girasoles1-696x463.jpg 696w, /img/girasoles1-1068x710.jpg 1068w" width="600"/> </a>
+<img alt="La Ruta del Girasol: The Sunflower Fields" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/girasoles1.jpg" srcset="/img/girasoles1.jpg 1600w, /img/girasoles1-300x200.jpg 300w, /img/girasoles1-1024x681.jpg 1024w, /img/girasoles1-768x511.jpg 768w, /img/girasoles1-1536x1021.jpg 1536w, /img/girasoles1-696x463.jpg 696w, /img/girasoles1-1068x710.jpg 1068w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/la-ruta-del-girasol-the-sunflower-fields/">La Ruta del Girasol: The Sunflower Fields</a></h3>
 <div class="article-card-meta">
@@ -244,7 +244,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-private-bike-tour/">
-<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
+<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-private-bike-tour/">Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -255,7 +255,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/things-to-do-around-barranquilla/">
-<img alt="Things to Do in Barranquilla: The Complete 2026 Guide" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-3-600x400.jpg" srcset="/img/bike-tour-barranquilla-3-600x400.jpg 600w, /img/bike-tour-barranquilla-3-300x200.jpg 300w, /img/bike-tour-barranquilla-3.jpg 669w" width="600"/> </a>
+<img alt="Things to Do in Barranquilla: The Complete 2026 Guide" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-3-600x400.jpg" srcset="/img/bike-tour-barranquilla-3-600x400.jpg 600w, /img/bike-tour-barranquilla-3-300x200.jpg 300w, /img/bike-tour-barranquilla-3.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/things-to-do-around-barranquilla/">Things to Do in Barranquilla: The Complete 2026 Guide</a></h3>
 <div class="article-card-meta">
@@ -277,7 +277,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

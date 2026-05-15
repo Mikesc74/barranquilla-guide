@@ -1,0 +1,21 @@
+# macOS Finder cruft
+.DS_Store
+**/.DS_Store
+
+# Editor / OS noise
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Local-only secrets
+.env
+.env.local
+tools/social-publisher/.env
+tools/social-publisher/config.json
+
+# Python build artefacts
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/fine-dining-barranquilla.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="The Best Fine Dining Restaurants in Barranquilla" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/fine-dining-barranquilla.jpg" srcset="/img/fine-dining-barranquilla.jpg 1200w, /img/fine-dining-barranquilla-300x158.jpg 300w, /img/fine-dining-barranquilla-1024x538.jpg 1024w, /img/fine-dining-barranquilla-768x403.jpg 768w" width="1200"/> </div>
+<img alt="The Best Fine Dining Restaurants in Barranquilla" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/fine-dining-barranquilla.jpg" srcset="/img/fine-dining-barranquilla.jpg 1200w, /img/fine-dining-barranquilla-300x158.jpg 300w, /img/fine-dining-barranquilla-1024x538.jpg 1024w, /img/fine-dining-barranquilla-768x403.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>The Best Fine Dining Restaurants in Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -120,18 +122,14 @@
 <p class="article-intro">Barranquilla has quietly grown into one of Colombia’s most exciting dining cities. Far from the tourist circuits of Cartagena, the city’s fine dining scene rewards those who seek it out, with creative chefs drawing on Caribbean ingredients, impeccable service, and an atmosphere that feels genuinely celebratory. Whether you’re marking a milestone, entertaining a client, or simply feel like eating exceptionally well, these are the tables worth booking.</p>
 <div class="place-card"><div class="place-card__header">
 <h2 class="place-card__name" id="manuel-restaurante">1. Manuel Restaurante</h2><div class="place-card__tags"><span class="tag">Tasting Menu</span><span class="tag">Caribbean Fusion</span><span class="tag">$$$$</span></div></div><p class="place-card__location"> El Prado  ·  Cra. 55 #74-125</p><p>Widely regarded as Barranquilla’s finest restaurant and ranked among the top 100 in Latin America, Manuel is a culinary gem in the elegant El Prado neighbourhood. Chef Manuel Mendoza’s tasting menu is an evolving showcase of Caribbean ingredients reimagined through a global lens, yellowfin tuna with mashed yucca and paipa cheese, or fresh fish over charcoal with chivato pepper butter. The menu changes regularly, ensuring return visits always deliver something new. Intimate setting, unhurried service, a meal designed to be savoured.</p><p class="place-card__tip"><strong>Don’t miss:</strong> The yellowfin tuna with yucca and paipa cheese, a dish that perfectly captures the spirit of Caribbean Colombia.</p></div>
-<div class="place-card"><div class="place-card__header"><!-- PEXELS_GENERIC_PLACEHOLDER -->
+<div class="place-card"><div class="place-card__header">
 <h2 class="place-card__name" id="miura-steakhouse">2. Miura Steakhouse</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags"><span class="tag">Steakhouse</span><span class="tag">Premium Cuts</span><span class="tag">$$$$</span></div></div><p class="place-card__location"> Norte Centro Histórico  ·  Cra. 61 #68-98</p><p>Miura has become the gold standard for steak in Barranquilla. Premium cuts sourced from Argentina, Europe, and North America, including porterhouse and New York strip, are handled with serious craft. The Beef Carpaccio is a standout starter, and the truffle fries are widely considered the city’s best. The atmosphere is refined without being stuffy, and cocktails are executed with the same precision as the plates. A weekday lunch menu (Mon-Fri, 12-3pm) makes it surprisingly accessible.</p><p class="place-card__tip"><strong>Don’t miss:</strong> The Miura Salad to start, and truffle fries alongside a perfectly seared porterhouse.</p></div>
 <div class="place-card"><div class="place-card__header"><h2 class="place-card__name" id="el-celler">3. El Celler</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags"><span class="tag">Spanish</span><span class="tag">Tapas</span><span class="tag">$$$</span></div></div><p class="place-card__location"> Norte Centro Histórico  ·  Cra. 55 #75-67</p><p>A charming Spanish restaurant that brings the soul of a Catalan bodega to the Caribbean coast. El Celler’s menu centres on classic tapas done with real care, the duck carpaccio melts on the tongue, the cochinillo (suckling pig) arrives with gloriously crispy skin, and the house sangria is the best in town. The reception is warm and the elegance understated. It’s a place where every small plate feels considered, and the evening tends to stretch pleasantly long.</p><p class="place-card__tip"><strong>Don’t miss:</strong> The mini burger and duck carpaccio as starters, followed by the cochinillo, one of the best versions in the city.</p></div>
 <div class="place-card"><div class="place-card__header"><h2 class="place-card__name" id="storia-damore">4. Storia D’Amore</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags"><span class="tag">Italian</span><span class="tag">Romantic</span><span class="tag">$$$$</span></div></div><p class="place-card__location"> Norte Centro Histórico  ·  Cra. 52 #80-43</p><p>Barranquilla’s most-reviewed restaurant and consistently rated among the city’s best, Storia D’Amore delivers serious Italian cooking in an elegant, romantic setting. Artisanal pasta, wood-fired pizzas, and creamy risottos made with evident care, the lasagna alla bolognese and risotto ai funghi porcini are particular standouts. The wine list is well-chosen, the service warm and attentive, and the atmosphere makes it a natural choice for celebrations or a long, indulgent dinner.</p><p class="place-card__tip"><strong>Don’t miss:</strong> The risotto ai funghi porcini and housemade pasta, reserve in advance, especially on weekends.</p></div>
 <div class="place-card"><div class="place-card__header"><h2 class="place-card__name" id="kinto-elemento">5. Kinto Elemento</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags"><span class="tag">Nikkei</span><span class="tag">Japanese-Peruvian Fusion</span><span class="tag">$$$$</span></div></div><p class="place-card__location"> Norte</p><p>One of the most exciting restaurants to open in Barranquilla in recent years, Kinto Elemento blends Japanese and Peruvian culinary traditions into a Nikkei experience that feels genuinely distinctive. Helmed by chefs Franco Donado and Hajime Kasuga, the kitchen produces creative, beautifully presented dishes. The sushi and ceviches are exceptional, and the atmosphere is lively without sacrificing refinement. Consistently the highest-rated restaurant in the city on TripAdvisor.</p><p class="place-card__tip"><strong>Don’t miss:</strong> The Nikkei ceviche and signature sushi rolls, ask your server for the chef’s current recommendations.</p></div>
 <div class="article-note"><strong>Practical tip:</strong> Barranquilla’s top restaurants fill quickly on weekends. Reserve at least 3-4 days in advance for Manuel or Storia D’Amore, and consider booking a Thursday, the city comes alive mid-week without the full weekend rush.</div>
 <div class="related-posts-section" style="margin-top:2rem;padding:1.5rem;background:#f8f9fa;border-radius:8px;border-left:4px solid #1a5276;">
@@ -169,7 +167,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/best-restaurants-barranquilla/">
-<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-restaurants-barranquilla/">Best Restaurants in Barranquilla 2026: Where to Eat Right Now</a></h3>
 <div class="article-card-meta">
@@ -180,7 +178,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-seafood-restaurants-barranquilla/">
-<img alt="Where to Eat the Best Seafood in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/seafood-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Where to Eat the Best Seafood in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/seafood-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-seafood-restaurants-barranquilla/">Where to Eat the Best Seafood in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -191,7 +189,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-family-restaurants-barranquilla/">
-<img alt="Best Restaurants for a Family Outing in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/family-restaurant-barranquilla-600x400.jpg" srcset="/img/family-restaurant-barranquilla-600x400.jpg 600w, /img/family-restaurant-barranquilla-300x200.jpg 300w, /img/family-restaurant-barranquilla-1024x683.jpg 1024w, /img/family-restaurant-barranquilla-768x512.jpg 768w, /img/family-restaurant-barranquilla.jpg 1200w" width="600"/> </a>
+<img alt="Best Restaurants for a Family Outing in Barranquilla" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/family-restaurant-barranquilla-600x400.jpg" srcset="/img/family-restaurant-barranquilla-600x400.jpg 600w, /img/family-restaurant-barranquilla-300x200.jpg 300w, /img/family-restaurant-barranquilla-1024x683.jpg 1024w, /img/family-restaurant-barranquilla-768x512.jpg 768w, /img/family-restaurant-barranquilla.jpg 1200w" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-family-restaurants-barranquilla/">Best Restaurants for a Family Outing in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -213,7 +211,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

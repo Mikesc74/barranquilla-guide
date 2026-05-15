@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/airport-barranquilla.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/airport-barranquilla.jpg" srcset="/img/airport-barranquilla.jpg 1200w, /img/airport-barranquilla-300x158.jpg 300w, /img/airport-barranquilla-1024x538.jpg 1024w, /img/airport-barranquilla-768x403.jpg 768w" width="1200"/> </div>
+<img alt="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/airport-barranquilla.jpg" srcset="/img/airport-barranquilla.jpg 1200w, /img/airport-barranquilla-300x158.jpg 300w, /img/airport-barranquilla-1024x538.jpg 1024w, /img/airport-barranquilla-768x403.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -130,7 +132,6 @@
 
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#airport-basics">Airport basics</a></li>
 <li><a href="#airlines-routes">Airlines and routes</a></li>
@@ -144,7 +145,6 @@
 </ol>
 </div>
 <h2 id="airport-basics">Airport basics</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Name</strong>: Ernesto Cortissoz International Airport.<br/>
 <strong>IATA / ICAO code</strong>: BAQ / SKBQ.<br/>
 <strong>Location</strong>: Soledad, 7 km southeast of central Barranquilla. Despite the name, it’s technically in a neighboring municipality.<br/>
@@ -156,7 +156,6 @@
 
 <p>BAQ handles around 2.5–3 million passengers per year and underwent a significant modernization completed in 2021 that added jet bridges, expanded gates, and a proper international-standard commercial area. It’s a clean, functional, medium-sized airport, closer in feel to Medellín’s old Olaya Herrera than to Bogotá’s El Dorado.</p>
 <h2 id="airlines-routes">Airlines and routes</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>As of April 2026, BAQ is served by 10 airlines connecting to about 20 airports in Colombia, the Caribbean, Central America, and the US. Current carriers:</p>
 <ul>
 <li><strong>Avianca</strong> (focus city), the densest schedule, domestic and international</li>
@@ -272,7 +271,6 @@
 </ul>
 <p>For any trip over 24 hours, we still recommend staying in El Prado, Alto Prado, or Riomar and paying the extra Uber on the flight-out morning, the quality-of-stay difference is large.</p>
 <h2 id="faqs">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Is BAQ different from CTG (Cartagena)?</strong> Yes. Barranquilla (BAQ) and Cartagena (CTG) are separate airports 2 hours apart by road. Some travelers fly into CTG for vacations and day-trip Barranquilla, or vice versa. For Barranquilla Carnaval, flying direct to BAQ saves a lot of time.</p>
 <p><strong>Can I use USD at the airport?</strong> Only at currency exchanges. Everything else, taxis, shops, restaurants, even rideshares, is in pesos. Withdraw from an ATM.</p>
 <p><strong>Is BAQ safe?</strong> Yes. Standard airport precautions apply (keep bags in sight, ignore unsolicited “porter” offers), but no particular risks beyond those.</p>
@@ -302,7 +300,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/san-basilio-de-palenque/">
-<img alt="Take a day trip to San Basilio de Palenque" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.png" srcset="/img/image-13.png 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" width="579"/> </a>
+<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" width="579"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
 <div class="article-card-meta">
@@ -313,7 +311,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-caribbean-night-break-tour/">
-<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/caribbean-night-break-1-600x400.jpg" srcset="/img/caribbean-night-break-1-600x400.jpg 600w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1.jpg 669w" width="600"/> </a>
+<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/caribbean-night-break-1-600x400.jpg" srcset="/img/caribbean-night-break-1-600x400.jpg 600w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-caribbean-night-break-tour/">Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)</a></h3>
 <div class="article-card-meta">
@@ -324,7 +322,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">
-<img alt="Your First Week in Barranquilla: The Essential Checklist (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/inside-a-city-bus-600x400.jpg" width="600"/> </a>
+<img alt="Your First Week in Barranquilla: The Essential Checklist (2026)" decoding="async" height="400" loading="lazy" src="/img/inside-a-city-bus-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">Your First Week in Barranquilla: The Essential Checklist (2026)</a></h3>
 <div class="article-card-meta">
@@ -346,7 +344,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

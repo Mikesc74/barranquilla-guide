@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/cinema1.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Best Movie Theaters to watch films in English" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/cinema1.jpg" srcset="/img/cinema1.jpg 1200w, /img/cinema1-300x158.jpg 300w, /img/cinema1-1024x538.jpg 1024w, /img/cinema1-768x403.jpg 768w, /img/cinema1-150x79.jpg 150w, /img/cinema1-696x365.jpg 696w, /img/cinema1-1068x561.jpg 1068w" width="1200"/> </div>
+<img alt="Best Movie Theaters to watch films in English" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/cinema1.jpg" srcset="/img/cinema1.jpg 1200w, /img/cinema1-300x158.jpg 300w, /img/cinema1-1024x538.jpg 1024w, /img/cinema1-768x403.jpg 768w, /img/cinema1-150x79.jpg 150w, /img/cinema1-696x365.jpg 696w, /img/cinema1-1068x561.jpg 1068w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Best Movie Theaters to watch films in English</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -117,35 +119,33 @@
 <!-- Article Body -->
 <div class="article-body">
 <p>If you want to watch a film in English in Barranquilla, the good news is most international releases play in their original audio with Spanish subtitles, so you do not have to settle for a dubbed Hollywood movie. The catch is figuring out which showings are which from the listing. This guide explains the convention and lists the main cinemas in the city.</p>
-<h2 class="wp-block-heading" id="how-to-read-the-listing">How to read the listing</h2>
+<h2 id="how-to-read-the-listing">How to read the listing</h2>
 <p>Spanish-language listings use a few shorthand terms. Learn these and you can pick the right showtime on any of the cinema websites:</p>
-<ul class="wp-block-list">
+<ul>
 <li><strong>VOSE</strong> or <strong>subtitulada</strong> or <strong>SUB</strong>: original audio (usually English for Hollywood films) with Spanish subtitles. This is what you want.</li>
 <li><strong>Doblada</strong> or <strong>DOB</strong>: dubbed in Spanish. Skip unless your group is mostly Spanish speakers.</li>
 <li><strong>3D</strong>, <strong>4DX</strong>, <strong>VIP</strong>: format upgrades on top of the audio. Check the audio tag too.</li>
 </ul>
 <p>For animated films and kids' movies, the default is usually dubbed because that is what local families want. Live-action and prestige releases default to subtitled. Always check the specific showtime, not just the film, before buying.</p>
-<h2 class="wp-block-heading" id="cinepolis-vip-mallplaza"><a href="https://cinepolis.com.co/" rel="noopener" target="_blank">Cinépolis VIP</a>, Mallplaza Buenavista</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
+<h2 id="cinepolis-vip-mallplaza"><a href="https://cinepolis.com.co/" rel="noopener" target="_blank">Cinépolis VIP</a>, Mallplaza Buenavista</h2>
 <p>The <a href="https://cinepolis.com.co/cartelera/barranquilla-colombia/cinepolis-vip-mallplaza-buenavista">Cinépolis VIP at Mallplaza Buenavista</a> is the upmarket cinema option in the city: reclining leather seats, in-seat food and drink service (including beer and cocktails), and a smaller-than-standard auditorium. New Hollywood releases typically run subtitled in the prime evening slots. Verify locations with Cinépolis directly, they may also operate non-VIP screens in the same complex.</p>
 <p>Worth the surcharge for a date night or a long film. Expect to pay roughly COP 35.000 to 50.000 per ticket, more than double a standard cinema.</p>
-<h2 class="wp-block-heading" id="cine-colombia"><a href="https://www.cinecolombia.com/" rel="noopener" target="_blank">Cine Colombia</a>, multiple locations</h2>
+<h2 id="cine-colombia"><a href="https://www.cinecolombia.com/" rel="noopener" target="_blank">Cine Colombia</a>, multiple locations</h2>
 <p>Cine Colombia is the dominant Colombian cinema chain. In Barranquilla they run cinemas at Buenavista and at Multiplex Parque Alegra (in the south of the city). The Buenavista location has a 4D Dinamix screen for the films that support it.</p>
-<figure class="wp-block-image size-full"><img alt="Cine Colombia multiplex at Buenavista" class="wp-image-1289" data-sizes="auto, (max-width: 800px) 100vw, 800px" decoding="async" height="580" loading="lazy" src="/img/cinebuenavista.webp" srcset="/img/cinebuenavista.webp 800w, /img/cinebuenavista-300x218.webp 300w, /img/cinebuenavista-768x557.webp 768w, /img/cinebuenavista-150x109.webp 150w, /img/cinebuenavista-696x505.webp 696w" width="800"/><figcaption class="wp-element-caption">Cine Colombia, Buenavista</figcaption></figure>
+<figure><img alt="Cine Colombia multiplex at Buenavista" sizes="auto, (max-width: 800px) 100vw, 800px" decoding="async" height="580" loading="lazy" src="/img/cinebuenavista.webp" srcset="/img/cinebuenavista.webp 800w, /img/cinebuenavista-300x218.webp 300w, /img/cinebuenavista-768x557.webp 768w, /img/cinebuenavista-150x109.webp 150w, /img/cinebuenavista-696x505.webp 696w" width="800"/><figcaption>Cine Colombia, Buenavista</figcaption></figure>
 <p>Standard tickets run around COP 14.000 to 22.000. Weekday matinees (typically before 5pm, often Tuesdays or Wednesdays as the "miércoles de descuento") are cheaper, sometimes under COP 10.000. The cheap matinee is the best value movie outing in Barranquilla.</p>
-<h2 class="wp-block-heading" id="royal-films"><a href="https://cinemasroyalfilms.com/" rel="noopener" target="_blank">Royal Films</a>, Viva Barranquilla</h2>
+<h2 id="royal-films"><a href="https://cinemasroyalfilms.com/" rel="noopener" target="_blank">Royal Films</a>, Viva Barranquilla</h2>
 <p><a href="https://www.royal-films.com/informacion/barranquilla/teatro/50/multicine-viva-barranquilla/cartelera">Royal Films at Viva</a> has the 4DX auditorium, the format with moving seats, wind, scent, and other practical effects synced to the film. It is a novelty more than a quality choice; the regular screens are fine for everyday viewing.</p>
-<figure class="wp-block-image size-large"><img alt="Royal Films Viva Barranquilla" class="wp-image-1290" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="484" loading="lazy" src="/img/royalfilmsviva-1024x484.webp" srcset="/img/royalfilmsviva-1024x484.webp 1024w, /img/royalfilmsviva-300x142.webp 300w, /img/royalfilmsviva-768x363.webp 768w, /img/royalfilmsviva-150x71.webp 150w, /img/royalfilmsviva-696x329.webp 696w, /img/royalfilmsviva-1068x505.webp 1068w, /img/royalfilmsviva.webp 1480w" width="1024"/><figcaption class="wp-element-caption">Royal Films, Viva Barranquilla</figcaption></figure>
-<h2 class="wp-block-heading" id="cine-colombia-parque-alegra">Cine Colombia, Multiplex Parque Alegra</h2>
+<figure><img alt="Royal Films Viva Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="484" loading="lazy" src="/img/royalfilmsviva-1024x484.webp" srcset="/img/royalfilmsviva-1024x484.webp 1024w, /img/royalfilmsviva-300x142.webp 300w, /img/royalfilmsviva-768x363.webp 768w, /img/royalfilmsviva-150x71.webp 150w, /img/royalfilmsviva-696x329.webp 696w, /img/royalfilmsviva-1068x505.webp 1068w, /img/royalfilmsviva.webp 1480w" width="1024"/><figcaption>Royal Films, Viva Barranquilla</figcaption></figure>
+<h2 id="cine-colombia-parque-alegra">Cine Colombia, Multiplex Parque Alegra</h2>
 <p>The newer Cine Colombia in the south of the city. It has a Megasala (large-format screen) and a 3D auditorium. Useful if you live in southern Barranquilla; the Buenavista cinemas are a long drive from there. Subtitled showings of new releases tend to land on weekends rather than every day.</p>
-<figure class="wp-block-image size-large"><img alt="Cine Colombia at Parque Alegra mall" class="wp-image-1291" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/parquealegra-1024x576.webp" srcset="/img/parquealegra-1024x576.webp 1024w, /img/parquealegra-300x169.webp 300w, /img/parquealegra-768x432.webp 768w, /img/parquealegra-1536x864.webp 1536w, /img/parquealegra-2048x1152.webp 2048w, /img/parquealegra-150x84.webp 150w, /img/parquealegra-696x391.webp 696w, /img/parquealegra-1068x601.webp 1068w, /img/parquealegra-1920x1080.webp 1920w" width="1024"/><figcaption class="wp-element-caption">Parque Alegra mall</figcaption></figure>
-<h2 class="wp-block-heading" id="bottom-line">Bottom line</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<figure><img alt="Cine Colombia at Parque Alegra mall" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/parquealegra-1024x576.webp" srcset="/img/parquealegra-1024x576.webp 1024w, /img/parquealegra-300x169.webp 300w, /img/parquealegra-768x432.webp 768w, /img/parquealegra-1536x864.webp 1536w, /img/parquealegra-2048x1152.webp 2048w, /img/parquealegra-150x84.webp 150w, /img/parquealegra-696x391.webp 696w, /img/parquealegra-1068x601.webp 1068w, /img/parquealegra-1920x1080.webp 1920w" width="1024"/><figcaption>Parque Alegra mall</figcaption></figure>
+<h2 id="bottom-line">Bottom line</h2>
 <p>For a casual midweek movie, the standard Cine Colombia at Buenavista is the easiest pick. For a date night, upgrade to Cinépolis VIP at Mallplaza. For a one-off experience, Royal Films 4DX at Viva is worth doing once. In all cases, double-check the showtime tag (SUB or VOSE for original audio, doblada for dubbed) on the cinema's website before buying.</p>
 <p>For other activity ideas, see our <a href="/things-to-do-around-barranquilla/">things to do</a> page or our <a href="/fun-things-to-do-in-barranquilla-as-a-group/">group activities</a> guide.</p>
-<h2 class="wp-block-heading" id="further-reading">Further reading</h2>
+<h2 id="further-reading">Further reading</h2>
 <p>More leisure and family options:</p>
-<ul class="wp-block-list">
+<ul>
 <li><a href="/barranquilla-malls/">Barranquilla malls</a>, most cinemas live inside these</li>
 <li><a href="/things-to-do-around-barranquilla/">things to do around Barranquilla</a>, broader leisure ideas</li>
 <li><a href="/fun-things-to-do-in-barranquilla-as-a-group/">group activities</a>, plans for a night out with friends</li>
@@ -167,7 +167,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-carnival-complete-guide/">
-<img alt="Barranquilla Carnival: The Insider’s Guide to the Greatest Festival" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/carnival-barranquilla-dancer-face-600x400.jpg" width="600"/> </a>
+<img alt="Barranquilla Carnival: The Insider’s Guide to the Greatest Festival" decoding="async" height="400" loading="lazy" src="/img/carnival-barranquilla-dancer-face-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-carnival-complete-guide/">Barranquilla Carnival: The Insider’s Guide to the Greatest Festival</a></h3>
 <div class="article-card-meta">
@@ -178,7 +178,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/popular-sports-in-barranquilla/">
-<img alt="Popular Sports for Enthusiasts in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="379" loading="lazy" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.jpg 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="600"/> </a>
+<img alt="Popular Sports for Enthusiasts in Barranquilla" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="379" loading="lazy" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/popular-sports-in-barranquilla/">Popular Sports for Enthusiasts in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -189,7 +189,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/san-basilio-de-palenque/">
-<img alt="Take a day trip to San Basilio de Palenque" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.png" srcset="/img/image-13.png 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" width="579"/> </a>
+<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" width="579"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
 <div class="article-card-meta">
@@ -211,7 +211,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

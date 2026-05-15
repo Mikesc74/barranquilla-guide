@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/policia.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Is Barranquilla Safe? An Honest Answer (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="400" loading="eager" sizes="(max-width: 660px) 100vw, 660px" src="/img/policia.jpg" srcset="/img/policia.jpg 660w, /img/policia-300x182.jpg 300w" width="660"/> </div>
+<img alt="Is Barranquilla Safe? An Honest Answer (2026)" decoding="async" fetchpriority="high" height="400" loading="eager" sizes="(max-width: 660px) 100vw, 660px" src="/img/policia.jpg" srcset="/img/policia.jpg 660w, /img/policia-300x182.jpg 300w" width="660"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Is Barranquilla Safe? An Honest Answer (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -134,9 +136,7 @@
 <li><a href="#further-reading">Further reading on this site</a></li>
 </ol>
 </div>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <h2 id="tldr">The short version</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Most visitors to Barranquilla have a completely uneventful trip. The city doesn’t see much violent crime against tourists; <strong>petty theft and street muggings are the real risks</strong>, concentrated in specific neighborhoods and times of day, and almost entirely avoidable with common-sense habits. The northern residential corridor (Alto Prado, Villa Country, El Prado, Riomar) is where almost all visitors stay, and it’s routinely calm. The historic center is fine by day and quieter than most Colombian city centers; by night, it thins out and isolation becomes a risk. Outer southern and western neighborhoods are not for visitors without local guides.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Riomar" decoding="async" height="800" loading="lazy" src="/img/is-barranquilla-safe-honest-answer-2026-place-riomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -156,7 +156,6 @@
 
 <p>The U.S. State Department maintains Colombia at <a href="https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Colombia.html" rel="noopener" target="_blank">Level 3 (Reconsider Travel)</a> at the national level, but Barranquilla is explicitly among the cities it considers normal for travel. The UK <a href="https://www.gov.uk/foreign-travel-advice/colombia" rel="noopener" target="_blank">Foreign Office</a> gives similar guidance.</p>
 <h2 id="real-risks">The real risks, in order</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <h3>1. Pickpocketing and phone theft</h3>
 <p>The most common crime against tourists. Risk concentrates in crowds, the Centro, markets, Carnaval parades, bus stops, Transmetro stations, and on distracted phone users on the street. Motorcycle-borne phone theft (“<em>el raponazo</em>“) is the iconic version: a passenger reaches off a bike, grabs the phone, and the bike disappears.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
@@ -180,7 +179,6 @@
 <p>Barranquilla is a hot, humid, mosquito-heavy city. <em>Dengue</em> circulates year-round; <em>chikungunya</em> and <em>Zika</em> periodically. Food-and-water illness is uncommon in the restaurants we recommend but can happen.</p>
 <p><strong>Habits that kill this risk</strong>: mosquito repellent with DEET or picaridin, especially at dawn and dusk. Don’t drink tap water (bottled is universal and cheap). Seek medical care promptly for persistent fever or unusual rashes.</p>
 <h2 id="by-neighborhood">Safety by neighborhood</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <h3>Generally safe</h3>
 <p><strong>Alto Prado, Villa Country, Villa Santos, Altos del Limón, Villa Campestre, Riomar, El Golf, Buenavista</strong>, the northern corridor. Walk freely during the day; after dark, stick to well-lit main streets and rideshare for longer trips. Realistic risk: petty theft in crowded spots.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
@@ -268,19 +266,16 @@
 <h3>Night considerations city-wide</h3>
 <p>Local residents rate Barranquilla’s night safety lower than its day safety. Uber everywhere past 10 PM, don’t carry more cash than you need, and don’t wander between neighborhoods on foot. Inside clubs and restaurants the vibe is safe; the risk is getting there and coming home.</p>
 <h2 id="scams">Common scams to recognize</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Change-back short scam</strong>: vendor or taxi driver claims the bill you gave them was smaller than it was. Count bills out loud when paying. Pay with exact change when possible.</p>
 <p><strong>“Friendly local” at the bar</strong>: someone strikes up a long conversation, insists on buying drinks, steers you to a specific club or ATM. Trust your instincts; if the attention feels off, it probably is.</p>
 <p><strong>Fake police</strong>: rare but reported. Real Colombian police don’t demand documents on the street from tourists or request fines in cash. Ask for ID; ask to go to the nearest <em>estación de policía</em>. If you’re being genuinely stopped by police, stay calm and polite.</p>
 <p><strong>Airport or bus-station “helpers”</strong>: someone offers to help with luggage, then demands money. Politely decline; porters are rarely necessary in Barranquilla.</p>
 <p><strong>Rental apartment scams</strong>: “owner abroad” asks for a wire transfer before you see the apartment. Never pay before inspecting and signing. See our <a href="/housing-renting-barranquilla/">housing guide</a>.</p>
 <h2 id="women-solo">Solo travel and women travelers</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla is generally safe for solo travelers, including women, with standard precautions. Catcalling (<em>piropos</em>) is common in public spaces; usually harmless, occasionally persistent. Wearing sunglasses and headphones and not engaging is the norm.</p>
 <p>For nights out, the pub-crawl operators (see our <a href="/barranquilla-nightlife-bars-clubs/">nightlife guide</a>) offer easy group contexts; most well-reviewed hostels have an active social scene.</p>
 <p>Solo female travelers routinely report positive experiences in the northern corridor. The factors that push risk higher are the same anywhere: walking alone at night, over-drinking in unfamiliar venues, accepting rides from strangers, sharing itineraries publicly on social media.</p>
 <h2 id="emergency">In case something happens</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Emergency (Colombia)</strong>: 123, equivalent to 911. Operators typically speak Spanish; some cities have English-speaking lines but don’t count on it.</p>
 <p><strong>Tourist Police (Policía de Turismo)</strong>: Carrera 54 # 71–87 in El Prado; (+57 605) 351-3211. They handle tourist-specific incidents and usually have an English speaker.</p>
 <p><strong>Hospitals (upper-tier, for visitors)</strong>: <a href="https://www.cardiovascular.com.co/" rel="noopener" target="_blank">Clínica del Caribe</a> in El Prado and <a href="https://www.portoazul.com.co/" rel="noopener" target="_blank">Clínica Porto Azul</a> in Villa Santos are the city’s reference international-standard hospitals. Both have private emergency rooms and accept international travel insurance.</p>
@@ -294,7 +289,6 @@
 <p><strong>If your phone is stolen</strong>: file a police report at any <em>estación</em>; it’s mostly for insurance purposes. Use <em>Find My iPhone</em> or <em>Find My Device</em> to remote-wipe. Remote-block your SIM by calling your carrier.</p>
 <p><strong>If your passport is stolen</strong>: police report, then contact your embassy. Most can issue an emergency travel document within 1–2 business days. Keep a photo of your passport on your phone and a scan in a cloud drive.</p>
 <h2 id="best-practices">Best practices, consolidated</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ol>
 <li>Rideshare instead of hailing taxis, especially after dark.</li>
 <li>Phone out of view on the street; use it seated or indoors.</li>
@@ -308,7 +302,6 @@
 <li>Trust your instincts. If a situation or a person feels off, leave.</li>
 </ol>
 <h2 id="what-you-dont-need">What you don’t need to worry about</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Kidnapping</strong>: an issue in parts of Colombia decades ago; no longer a meaningful urban tourist risk.</p>
 <p><strong>Guerrilla activity</strong>: not relevant in Barranquilla or its metro area.</p>
 <p><strong>Terrorism</strong>: Barranquilla has not experienced targeted attacks on tourists.</p>
@@ -336,7 +329,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-airport-guide/">
-<img alt="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/airport-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)" decoding="async" height="400" loading="lazy" src="/img/airport-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-airport-guide/">BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)</a></h3>
 <div class="article-card-meta">
@@ -359,7 +352,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-wedding-guide-2026/">
-<img alt="Getting Married in Barranquilla: The Complete Wedding Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/wedding-600x400.jpg" srcset="/img/wedding-600x400.jpg 600w, /img/wedding-300x200.jpg 300w, /img/wedding-1024x683.jpg 1024w, /img/wedding-768x512.jpg 768w, /img/wedding.jpg 1200w" width="600"/> </a>
+<img alt="Getting Married in Barranquilla: The Complete Wedding Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/wedding-600x400.jpg" srcset="/img/wedding-600x400.jpg 600w, /img/wedding-300x200.jpg 300w, /img/wedding-1024x683.jpg 1024w, /img/wedding-768x512.jpg 768w, /img/wedding.jpg 1200w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-wedding-guide-2026/">Getting Married in Barranquilla: The Complete Wedding Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -381,7 +374,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

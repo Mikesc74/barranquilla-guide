@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/caribbean-sunset-from-alto-riomar-1225x900.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/caribbean-sunset-from-alto-riomar-1225x900.jpg" width="1225"/> </div>
+<img alt="Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/caribbean-sunset-from-alto-riomar-1225x900.jpg" width="1225"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -127,7 +129,6 @@
 
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#puerto-colombia-20-minutes">Puerto Colombia, 20 Minutes</a></li>
 <li><a href="#cartagena-2-hours-by-road">Cartagena, 2 Hours by Road</a></li>
@@ -137,8 +138,8 @@
 <li><a href="#more-from-barranquilla">More from Barranquilla</a></li>
 </ol>
 </div>
-<h2 class="wp-block-heading" id="puerto-colombia-20-minutes">Puerto Colombia, 20 Minutes</h2>
-<figure class="wp-block-image size-large"><img alt="Puerto Colombia pier, a 20-minute day trip from Barranquilla" class="wp-image-2737" data-sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="538" src="/img/day-trips-barranquilla-1024x538.jpg" srcset="/img/day-trips-barranquilla-1024x538.jpg 1024w, /img/day-trips-barranquilla-300x158.jpg 300w, /img/day-trips-barranquilla-768x403.jpg 768w, /img/day-trips-barranquilla.jpg 1200w" width="1024"/ loading="lazy"></figure>
+<h2 id="puerto-colombia-20-minutes">Puerto Colombia, 20 Minutes</h2>
+<figure><img alt="Puerto Colombia pier, a 20-minute day trip from Barranquilla" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="538" src="/img/day-trips-barranquilla-1024x538.jpg" srcset="/img/day-trips-barranquilla-1024x538.jpg 1024w, /img/day-trips-barranquilla-300x158.jpg 300w, /img/day-trips-barranquilla-768x403.jpg 768w, /img/day-trips-barranquilla.jpg 1200w" width="1024" loading="lazy"></figure>
 <p>The closest and most popular escape from Barranquilla. Puerto Colombia was once Colombia’s main port, its pier was the longest in the Americas when it was built in 1893. Today it’s a sleepy beach town with good ceviche, cold beer, and a laid-back atmosphere that’s a complete contrast to the city.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-puerto-colombia.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -154,8 +155,8 @@
         </a>
 <p style="margin:10px 0 0;font-size:0.75rem;opacity:0.7;">* Affiliate link - helps support this site at no cost to you</p>
 </div>
-<h2 class="wp-block-heading" id="cartagena-2-hours-by-road">Cartagena, 2 Hours by Road</h2>
-<p><img "="" alt="Women from &lt;a href=" class="alignnone size-full wp-image-471" data-sizes="auto, (max-width: 555px) 100vw, 555px" decoding="async" height="319" loading="lazy" san-basilio-de-palenque="" src="/img/Palenquera-Women.png" srcset="/img/Palenquera-Women.png 555w, /img/Palenquera-Women-300x172.png 300w" width="555"/>San Basilio de Palenque selling their goods on the streets of Cartagena.” width=”555″ height=”319″ /&gt;</p>
+<h2 id="cartagena-2-hours-by-road">Cartagena, 2 Hours by Road</h2>
+<p><img "="" alt="Women from &lt;a href=" class="alignnone" sizes="auto, (max-width: 555px) 100vw, 555px" decoding="async" height="319" loading="lazy" san-basilio-de-palenque="" src="/img/Palenquera-Women.png" srcset="/img/Palenquera-Women.png 555w, /img/Palenquera-Women-300x172.png 300w" width="555"/>San Basilio de Palenque selling their goods on the streets of Cartagena.” width=”555″ height=”319″ /&gt;</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="San Basilio de Palenque" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-san-basilio-de-palenque.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
@@ -177,8 +178,8 @@
 <p><strong>Staying overnight:</strong> If you want to do Cartagena properly, stay the night. The old city hotels are excellent, book early as the best ones fill up quickly.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DCartagena%252C%2BColombia" rel="noopener sponsored" target="_blank">→ Browse Cartagena hotels on Booking.com</a></p>
 <p><a href="https://www.viator.com/Cartagena/d661-ttd?mcid=42383&amp;pid=P00296226&amp;medium=link" rel="noopener sponsored" target="_blank">→ Browse Cartagena tours on Viator</a></p>
-<h2 class="wp-block-heading" id="santa-marta-and-tayrona-national-park-2-5-hours">Santa Marta &amp; Tayrona National Park, 2.5 Hours</h2>
-<p><img alt="Tayrona National Park beach near Santa Marta" class="alignnone size-large wp-image-1515" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="781" loading="lazy" src="/img/tayrona1-1024x781.webp" srcset="/img/tayrona1-1024x781.webp 1024w, /img/tayrona1-300x229.webp 300w, /img/tayrona1-768x586.webp 768w, /img/tayrona1-1536x1171.webp 1536w, /img/tayrona1-150x114.webp 150w, /img/tayrona1-696x531.webp 696w, /img/tayrona1-1068x814.webp 1068w, /img/tayrona1.webp 1616w" width="1024"/></p>
+<h2 id="santa-marta-and-tayrona-national-park-2-5-hours">Santa Marta &amp; Tayrona National Park, 2.5 Hours</h2>
+<p><img alt="Tayrona National Park beach near Santa Marta" class="alignnone" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="781" loading="lazy" src="/img/tayrona1-1024x781.webp" srcset="/img/tayrona1-1024x781.webp 1024w, /img/tayrona1-300x229.webp 300w, /img/tayrona1-768x586.webp 768w, /img/tayrona1-1536x1171.webp 1536w, /img/tayrona1-150x114.webp 150w, /img/tayrona1-696x531.webp 696w, /img/tayrona1-1068x814.webp 1068w, /img/tayrona1.webp 1616w" width="1024"/></p>
 <p>In the other direction from Cartagena, Santa Marta is Colombia’s oldest surviving city, and the gateway to Tayrona National Park, one of South America’s most spectacular stretches of coastline. The park has pristine jungle-backed beaches, hiking trails through tropical forest, and the kind of scenery that appears in travel magazine spreads.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Tayrona National Park" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-tayrona-national-park.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -187,8 +188,7 @@
 <p>Santa Marta itself has improved dramatically in recent years, the historic centre is worth an afternoon, and the beach at El Rodadero is good for a quick swim.</p>
 <p><strong>Getting there:</strong> 2.5 hours by road. Bus from Terminal de Transporte costs around $10–15. Better done as an overnight, Tayrona alone warrants a full day.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DSanta%2BMarta%252C%2BColombia" rel="noopener sponsored" target="_blank">→ Browse Santa Marta hotels on Booking.com</a></p>
-<h2 class="wp-block-heading" id="ci-naga-grande-de-santa-marta-1-5-hours">Ciénaga Grande de Santa Marta, 1.5 Hours</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="ci-naga-grande-de-santa-marta-1-5-hours">Ciénaga Grande de Santa Marta, 1.5 Hours</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/day-trips-from-barranquilla-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
@@ -211,17 +211,15 @@
 
 <p>This is internationally significant ecotourism that almost no international visitors know about. A guided boat tour is essential, navigation is complex and you need a local guide who knows where the birds are.</p>
 <p><a href="https://www.viator.com/Barranquilla/d50228-ttd?mcid=42383&amp;pid=P00296226&amp;medium=link" rel="noopener sponsored" target="_blank">→ Browse Ciénaga Grande tours on Viator</a></p>
-<h2 class="wp-block-heading" id="practical-tips-for-day-trips-from-barranquilla">Practical Tips for Day Trips from Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
-<ul class="wp-block-list">
+<h2 id="practical-tips-for-day-trips-from-barranquilla">Practical Tips for Day Trips from Barranquilla</h2>
+<ul>
 <li><strong>Start early:</strong> Barranquilla gets very hot by midday. For beach destinations especially, aim to leave by 8am.</li>
 <li><strong>Bus vs car:</strong> Buses are cheap and frequent for Cartagena and Santa Marta. For Puerto Colombia and Ciénaga Grande, a taxi or Uber is more practical.</li>
 <li><strong>Guided vs independent:</strong> For Ciénaga Grande, a guide is genuinely necessary. For everywhere else, you can go independently, but a guide adds context and local knowledge that transforms the experience.</li>
 <li><strong>What to bring:</strong> Sunscreen (seriously), cash (smaller towns are not card-friendly), and water. The Caribbean heat is intense.</li>
 </ul>
-<h2 class="wp-block-heading" id="more-from-barranquilla">More from Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
-<ul class="wp-block-list">
+<h2 id="more-from-barranquilla">More from Barranquilla</h2>
+<ul>
 <li><a href="/best-tours-experiences-barranquilla/">Best Tours &amp; Experiences in Barranquilla</a></li>
 <li><a href="/getting-around-barranquilla/">Getting Around Barranquilla</a></li>
 <li><a href="/colombia-travel-insurance-guide/">Travel Insurance for Colombia</a></li>
@@ -256,7 +254,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/popular-sports-in-barranquilla/">
-<img alt="Popular Sports for Enthusiasts in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="379" loading="lazy" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.jpg 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="600"/> </a>
+<img alt="Popular Sports for Enthusiasts in Barranquilla" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="379" loading="lazy" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/popular-sports-in-barranquilla/">Popular Sports for Enthusiasts in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -267,7 +265,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-movie-theaters-to-watch-films-in-english/">
-<img alt="Best Movie Theaters to watch films in English" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="315" loading="lazy" src="/img/cinema1.jpg" srcset="/img/cinema1.jpg 1200w, /img/cinema1-300x158.jpg 300w, /img/cinema1-1024x538.jpg 1024w, /img/cinema1-768x403.jpg 768w, /img/cinema1-150x79.jpg 150w, /img/cinema1-696x365.jpg 696w, /img/cinema1-1068x561.jpg 1068w" width="600"/> </a>
+<img alt="Best Movie Theaters to watch films in English" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="315" loading="lazy" src="/img/cinema1.jpg" srcset="/img/cinema1.jpg 1200w, /img/cinema1-300x158.jpg 300w, /img/cinema1-1024x538.jpg 1024w, /img/cinema1-768x403.jpg 768w, /img/cinema1-150x79.jpg 150w, /img/cinema1-696x365.jpg 696w, /img/cinema1-1068x561.jpg 1068w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/best-movie-theaters-to-watch-films-in-english/">Best Movie Theaters to watch films in English</a></h3>
 <div class="article-card-meta">
@@ -278,7 +276,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-private-bike-tour/">
-<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
+<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-private-bike-tour/">Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -300,7 +298,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

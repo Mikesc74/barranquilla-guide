@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/carnival-barranquilla-dancer-face-1024x350.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Dancing in Barranquilla: Salsa, Cumbia, Champeta (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" height="128" loading="eager" src="/img/graffiti-in-centro-2.jpg" width="250"/> </div>
+<img alt="Dancing in Barranquilla: Salsa, Cumbia, Champeta (2026)" decoding="async" height="128" loading="eager" src="/img/graffiti-in-centro-2.jpg" width="250"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Dancing in Barranquilla: Salsa, Cumbia, Champeta (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -119,7 +121,6 @@
 <p>Barranquilla is Colombia’s Caribbean capital, and the Caribbean pulses through every street. Music here isn’t something you observe, it’s something you join. Whether you want to learn salsa, understand champeta, or find a dance class that won’t make you feel ridiculous as a complete beginner, this guide is your starting point.</p>
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#the-music-you-ll-hear">The Music You’ll Hear</a></li>
 <li><a href="#where-to-take-dance-classes">Where to Take Dance Classes</a></li>
@@ -128,22 +129,20 @@
 <li><a href="#a-realistic-learning-timeline">A Realistic Learning Timeline</a></li>
 </ol>
 </div>
-<h2 class="wp-block-heading" id="the-music-you-ll-hear">The Music You’ll Hear</h2>
-<!-- PEXELS_SECTION_IMAGE -->
-<h3 class="wp-block-heading">Vallenato</h3>
+<h2 id="the-music-you-ll-hear">The Music You’ll Hear</h2>
+<h3>Vallenato</h3>
 <p>Vallenato is Colombia’s national folk music and Barranquilla’s cultural heartbeat. Built on accordion, caja drum, and guacharaca (a ridged percussion instrument), it was born in the Caribbean coast region and declared a UNESCO Intangible Cultural Heritage in 2015. The dance is close-hold and relatively easy to begin, two-step rhythm, subtle hip movement, led by the partner. You’ll hear vallenato everywhere from corner stores to high-end restaurants. The Festival de la Leyenda Vallenata in Valledupar (a few hours away) draws the top artists each year.</p>
-<h3 class="wp-block-heading">Cumbia</h3>
+<h3>Cumbia</h3>
 <p>Cumbia predates Colombia as a country and blends Indigenous, African, and Spanish influences into a rhythm that’s both earthy and euphoric. Traditional cumbia is danced in a circle (ronda) with a specific footwork pattern, the woman holds her skirt out wide while the man circles her, candle in hand, in traditional form. Modern cumbia at clubs is more freestyle. It’s taught in many academies and is foundational to understanding Colombian music more broadly.</p>
-<h3 class="wp-block-heading">Salsa</h3>
+<h3>Salsa</h3>
 <p>Barranquilla is not Cali, don’t expect Cali-style footwork or the same intense salsa culture. But salsa is everywhere, played in most <a href="/barranquilla-nightlife-bars-clubs/">bars and clubs</a>, and danced by most Barranquilleros at some level of competence. The style here is more Caribbean-inflected, looser, more improvisational, less footwork-focused than Cali. For foreigners, this is often more accessible. Classes are widely available (see below).</p>
-<h3 class="wp-block-heading">Champeta</h3>
+<h3>Champeta</h3>
 <p>Champeta is Barranquilla’s most distinctively urban rhythm, Afro-Caribbean in origin, long stigmatized by the city’s upper classes (a history worth understanding), and now proudly reclaimed as a symbol of costeño identity. The music has a deep bass, syncopated rhythm, and the dancing is sensual, grounded, and requires hip mobility more than footwork complexity. Champeta is danced in popular barrios and increasingly at mainstream events. It’s harder to find formal classes for it, the best way to learn is to go where it’s played and watch before joining.</p>
-<h3 class="wp-block-heading">Mapalé, Porro, and Other Coastal Rhythms</h3>
+<h3>Mapalé, Porro, and Other Coastal Rhythms</h3>
 <p>Mapalé is a fast, acrobatic dance performed at Carnival, incredible to watch, difficult to learn quickly. Porro is a brass-heavy rhythm from Córdoba and the Sinú region. You’ll encounter both during Carnival and cultural events. Worth knowing they exist; not urgent to learn unless you’re planning to stay long-term.</p>
-<h2 class="wp-block-heading" id="where-to-take-dance-classes">Where to Take Dance Classes</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="where-to-take-dance-classes">Where to Take Dance Classes</h2>
 <p>Barranquilla has a solid ecosystem of dance academies, from studios catering to expats to neighborhood schools teaching traditional folkloric forms.</p>
-<h3 class="wp-block-heading">Academies and Studios (El Prado / Villa Country Zone)</h3>
+<h3>Academies and Studios (El Prado / Villa Country Zone)</h3>
 <p>The northern residential zone (El Prado, Villa Country, Altos del Prado) has the highest concentration of formal dance studios. These typically offer salsa, cumbia, and vallenato in group classes (1.5–2 hours, $40,000–$80,000 COP per class) or private instruction ($80,000–$150,000 COP/hour). Group classes are better for social dancing (and a great way to meet people, see <a href="/fun-things-to-do-in-barranquilla-as-a-group/">fun things to do in Barranquilla as a group</a>); private lessons are faster for building technical foundations. Look for studios on Instagram, most promote via reels and stories rather than websites.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Altos del Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-altos-del-prado-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -157,32 +156,31 @@
 <img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-el-prado-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h3 class="wp-block-heading">Cultural Centers (Folkloric Focus)</h3>
+<h3>Cultural Centers (Folkloric Focus)</h3>
 <p>For traditional cumbia, mapalé, and folkloric forms, look to cultural centers and casas de cultura in neighborhoods like Barrio Abajo, the historic cradle of Carnival in Barranquilla. These are more affordable (often subsidized, $10,000–$30,000 COP) and offer an authentic context for the dances. Your Spanish needs to be functional for this; these are not set up for tourists.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-barrio-abajo-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h3 class="wp-block-heading">Private Instructors</h3>
+<h3>Private Instructors</h3>
 <p>Many skilled dancers offer private lessons independently, often found through local expat Facebook groups or by asking at a dance venue. Rates are negotiable but typically $60,000–$120,000 COP/hour. The advantage: flexibility, personalized attention, and the instructor can often take you to social dancing venues afterward to practice in context.</p>
-<h3 class="wp-block-heading">Hotels and Expat Venues</h3>
+<h3>Hotels and Expat Venues</h3>
 <p>Some hotels in El Prado and the financial district offer introductory salsa/cumbia classes for guests, often free or low-cost. These are a good zero-pressure starting point before committing to an academy.</p>
-<h2 class="wp-block-heading" id="social-dancing-venues">Social Dancing Venues</h2>
-<figure class="wp-block-image size-large"><img alt="Carnaval de Barranquilla dancer in full costume" class="wp-image-2955" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" fetchpriority="high" height="350" src="/img/carnival-barranquilla-dancer-face-1024x350.jpg" srcset="/img/carnival-barranquilla-dancer-face-1024x350.jpg 1024w, /img/carnival-barranquilla-dancer-face-300x103.jpg 300w, /img/carnival-barranquilla-dancer-face-768x263.jpg 768w, /img/carnival-barranquilla-dancer-face-1536x525.jpg 1536w, /img/carnival-barranquilla-dancer-face.jpg 2048w" width="1024" loading="eager"></figure>
+<h2 id="social-dancing-venues">Social Dancing Venues</h2>
+<figure><img alt="Carnaval de Barranquilla dancer in full costume" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" fetchpriority="high" height="350" src="/img/carnival-barranquilla-dancer-face-1024x350.jpg" srcset="/img/carnival-barranquilla-dancer-face-1024x350.jpg 1024w, /img/carnival-barranquilla-dancer-face-300x103.jpg 300w, /img/carnival-barranquilla-dancer-face-768x263.jpg 768w, /img/carnival-barranquilla-dancer-face-1536x525.jpg 1536w, /img/carnival-barranquilla-dancer-face.jpg 2048w" width="1024" loading="eager"></figure>
 <p>Learning in a studio is one thing; dancing in context is another. Once you have basic steps, these are the best places to practice:</p>
-<h3 class="wp-block-heading">Live Music Bars with Dance Floors</h3>
+<h3>Live Music Bars with Dance Floors</h3>
 <p>Barranquilla has numerous bars that feature live vallenato or salsa bands with a small dance floor. These are less intimidating than clubs, the lights are up more, the crowd is mixed-age, and nobody is watching you closely. Locals are generally happy to dance with a foreigner who makes an effort. Arriving around 9–10 PM (earlier than a club) works well here.</p>
-<h3 class="wp-block-heading">Carnival Season Events</h3>
+<h3>Carnival Season Events</h3>
 <p>If you’re in Barranquilla in February, Carnival is the single best environment to experience all these rhythms simultaneously, mapalé in the parade, champeta in the street parties, vallenato at private gatherings, cumbia at the official events. The social pressure to dance is high; the judgment is zero. Nobody cares if you’re off-rhythm during Carnival.</p>
-<h3 class="wp-block-heading">Milongas and Tango Spaces</h3>
+<h3>Milongas and Tango Spaces</h3>
 <p>Barranquilla has a small but active tango community with regular milongas (social tango evenings). If you already dance tango, you’ll find these through the local Facebook tango group or by asking at dance studios. Not Caribbean, but worth knowing the scene exists.</p>
-<h2 class="wp-block-heading" id="practical-tips-for-dancing-as-a-foreigner">Practical Tips for Dancing as a Foreigner</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="practical-tips-for-dancing-as-a-foreigner">Practical Tips for Dancing as a Foreigner</h2>
 <p><strong>Ask to dance directly:</strong> In Colombian social dancing culture, you ask someone directly, a gesture toward the floor is enough. “¿Bailamos?” (Shall we dance?) works perfectly. Rejection is uncommon and not awkward here.</p>
 <p><strong>Know the lead/follow dynamic:</strong> Salsa and cumbia are traditionally led by men, followed by women. This is not rigidly enforced at all venues, but it’s the default. If you’re learning as a woman, learning to follow first will make social dancing easier immediately.</p>
 <p><strong>Dress appropriately:</strong> Dance studios are casual, comfortable clothing and shoes that allow you to pivot. Clubs require going-out dress code even if you plan to dance all night. Bring something to change into if needed.</p>
 <p><strong>Don’t overthink it:</strong> Barranquilleros are forgiving, enthusiastic dance partners. A foreigner making a genuine effort to learn local rhythms is seen as flattering. Getting the steps slightly wrong while smiling will go over better than standing on the side perfectly critiquing others.</p>
-<h2 class="wp-block-heading" id="a-realistic-learning-timeline">A Realistic Learning Timeline</h2>
+<h2 id="a-realistic-learning-timeline">A Realistic Learning Timeline</h2>
 <p>With 2–3 classes per week plus social dancing: you can hold your own in basic salsa within 3–4 weeks. Vallenato basic steps can be picked up in a single weekend. Champeta takes longer because it’s about feel more than steps. Mapalé as performed at Carnival is a multi-month commitment, the athleticism required is significant. Set realistic expectations and focus on enjoying the process rather than mastery.</p>
 <h2 id="further-reading">Further reading</h2>
 <p>Related music, nightlife, and cultural guides:</p>
@@ -208,7 +206,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/nautical-sports-center-salinas/">
-<img alt="Nautical Sports Center: A new option for water sports tourism" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-barranquilla-waterfront-1-600x400.jpg" width="600"/> </a>
+<img alt="Nautical Sports Center: A new option for water sports tourism" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-barranquilla-waterfront-1-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/nautical-sports-center-salinas/">Nautical Sports Center: A new option for water sports tourism</a></h3>
 <div class="article-card-meta">
@@ -219,7 +217,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-tours-experiences-barranquilla/">
-<img alt="Best Tours &amp; Experiences in Barranquilla 2026" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/tours-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Tours &amp; Experiences in Barranquilla 2026" decoding="async" height="400" loading="lazy" src="/img/tours-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/best-tours-experiences-barranquilla/">Best Tours &amp; Experiences in Barranquilla 2026</a></h3>
 <div class="article-card-meta">
@@ -230,7 +228,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/housing-renting-barranquilla/">
-<img alt="Renting in Barranquilla: The Complete Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/walking-tour-prado-4-600x400.jpg" srcset="/img/walking-tour-prado-4-600x400.jpg 600w, /img/walking-tour-prado-4-300x200.jpg 300w, /img/walking-tour-prado-4.jpg 668w" width="600"/> </a>
+<img alt="Renting in Barranquilla: The Complete Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/walking-tour-prado-4-600x400.jpg" srcset="/img/walking-tour-prado-4-600x400.jpg 600w, /img/walking-tour-prado-4-300x200.jpg 300w, /img/walking-tour-prado-4.jpg 668w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/housing-renting-barranquilla/">Renting in Barranquilla: The Complete Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -252,7 +250,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

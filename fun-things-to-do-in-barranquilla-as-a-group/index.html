@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/walking-tour-prado-4.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Fun things to do in Barranquilla as a group" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 668px) 100vw, 668px" src="/img/walking-tour-prado-4.jpg" srcset="/img/walking-tour-prado-4.jpg 668w, /img/walking-tour-prado-4-300x200.jpg 300w, /img/walking-tour-prado-4-600x400.jpg 600w" width="668"/> </div>
+<img alt="Fun things to do in Barranquilla as a group" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 668px) 100vw, 668px" src="/img/walking-tour-prado-4.jpg" srcset="/img/walking-tour-prado-4.jpg 668w, /img/walking-tour-prado-4-300x200.jpg 300w, /img/walking-tour-prado-4-600x400.jpg 600w" width="668"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Fun things to do in Barranquilla as a group</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -119,7 +121,6 @@
 <p>Travelling to Barranquilla with friends, family, or coworkers? This guide covers the activities that actually work for groups, with rough costs, how to book, and how much time to set aside. Some of these are local-only (Carnaval, a Junior FC match); others are standard tourist-style activities (paintball, escape rooms, walking tours). Pick a couple, mix indoor and outdoor, and you have a weekend.</p>
 <div class="toc">
 <h2>What's in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#h-museo-del-caribe">Museo del Caribe</a></li>
 <li><a href="#h-gran-malecon">Gran Malecón del Río</a></li>
@@ -133,14 +134,13 @@
 <li><a href="#h-active-options">Active options: paintball, escape rooms, bowling</a></li>
 </ol>
 </div>
-<h2 class="wp-block-heading" id="h-museo-del-caribe">Museo del Caribe</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-museo-del-caribe">Museo del Caribe</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Plaza de la Paz" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-plaza-de-la-paz.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 <p>The Museo del Caribe at Plaza de la Paz is the best introduction to the Costa Atlántica's history, music, and indigenous and Afro-Colombian heritage. Five floors, well laid out, mostly Spanish-language exhibits with some English signage. It is the activity that works for a mixed group of all ages because everyone finds something.</p>
 <p>How to book: walk in. Entry as of writing is around COP 18.000 adults, less for kids and students. Allow two hours, three if you read every panel. Closed Mondays, check current hours before going.</p>
-<h2 class="wp-block-heading" id="h-gran-malecon">Gran Malecón del Río</h2>
+<h2 id="h-gran-malecon">Gran Malecón del Río</h2>
 <p>The Gran Malecón is a 5km riverfront boardwalk along the Magdalena, with food kiosks, public art, a Ferris wheel, and the Museo del Carnaval at one end. It is free, open all day, and runs lit and patrolled into the evening. A walk plus a stop for arepas de huevo and a juice is the easiest two-hour group plan in the city.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="arepas de huevo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-food-arepas-de-huevo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -155,11 +155,9 @@
 </figure>
 
 <p>Combine with the <a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Carnaval Museum</a> for a fuller half-day. Best time is late afternoon into sunset, before then the heat is a fight.</p>
-<h2 class="wp-block-heading" id="h-zoo">Zoológico de Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-zoo">Zoológico de Barranquilla</h2>
 <p>The Zoológico de Barranquilla is small by international standards but takes its conservation and rescue work seriously, and the layout is compact enough to do in two hours without wearing the kids out. Worth it if your group includes children. Tickets at the gate, around COP 30.000 adults as of writing. Bring water and sunscreen.</p>
-<h2 class="wp-block-heading" id="h-puerto-colombia">Day trip to Puerto Colombia or Bocas de Ceniza</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-puerto-colombia">Day trip to Puerto Colombia or Bocas de Ceniza</h2>
 <p><a href="/puerto-mocho/">Puerto Mocho</a> beach in Puerto Colombia (about 20 minutes north of Barranquilla) is the closest swimmable beach to the city. Casa Surff offers Sunday morning yoga with <a href="https://www.instagram.com/su.sana.yoga/?hl=en" rel="noreferrer noopener" target="_blank">Susana Alzate</a> if your group is into that. Lunch at one of the fish shacks on the boardwalk runs around COP 35.000 to 60.000 per person.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Puerto Mocho beach" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-mocho-beach.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -182,34 +180,29 @@
         </a>
 <p style="margin:10px 0 0;font-size:0.75rem;opacity:0.7;">* Affiliate link - helps support this site at no cost to you</p>
 </div>
-<h2 class="wp-block-heading" id="h-carnaval">Carnaval (if you are in town Feb-Mar)</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-carnaval">Carnaval (if you are in town Feb-Mar)</h2>
 <p>Carnaval de Barranquilla is the city's defining event and the second-largest Carnival in the Americas after Rio. It runs over the four days before Ash Wednesday (usually late February or early March). The main events are the Saturday Batalla de Flores parade, Sunday Gran Parada, and Monday's Festival de Orquestas at the Estadio Romelio Martínez. A mid-year edition, Carnaval de Verano, runs over a weekend in late June.</p>
 <p>For a group, the recommended setup is paid seating on Vía 40 for the Batalla de Flores (palco tickets in advance via TuBoleta), then street-side champeta and rum the rest of the weekend. Full details in our <a href="/barranquilla-carnival-complete-guide/">Carnaval guide</a>. Book accommodation 4 to 6 months ahead.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-via-40.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading" id="h-junior-match">Junior FC match (in season)</h2>
-<figure class="wp-block-image size-medium"><img alt="Junior FC matchday" class="wp-image-1181" decoding="async" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-7.jpg" loading="lazy"/></figure>
+<h2 id="h-junior-match">Junior FC match (in season)</h2>
+<figure><img alt="Junior FC matchday" decoding="async" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-7.jpg" width="1200" height="800" loading="lazy"/></figure>
 <p>If your group's visit overlaps with the football season (broadly February to June, then August to December), a Junior FC home match at Estadio Metropolitano is the best look at local culture you can get for under COP 100.000 a head. See our <a href="/popular-sports-in-barranquilla/">popular sports</a> guide for ticket and logistics detail. Wear red and white if you want to blend in.</p>
-<h2 class="wp-block-heading" id="h-salsa-cumbia-night">A salsa or cumbia night out</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-salsa-cumbia-night">A salsa or cumbia night out</h2>
 <p>The defining group plan in Barranquilla is a Friday or Saturday night of live music, dancing, and rum. La Troja is the classic salsa bar (open-air, busy from 9pm). <a href="https://www.instagram.com/bourbonstbaq/" rel="noreferrer noopener" target="_blank">Bourbon St</a> Rock Bar in Villa Country covers the rock side with live bands most weekends. <a href="https://www.instagram.com/fabiorestobar/" rel="noreferrer noopener" target="_blank">Fabio Restobar</a> has private karaoke rooms (cavas) if your group prefers singing in privacy. For dance lessons before the night out, see our <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">salsa, cumbia, and champeta guide</a>.</p>
 <p>Plan to start late (10pm at the earliest), end late (3am or later), and Uber both ways.</p>
-<h2 class="wp-block-heading" id="h-villa-country-dinner">Dinner in Villa Country</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-villa-country-dinner">Dinner in Villa Country</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-villa-country.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 <p>Villa Country is the upmarket dining cluster, with Italian, Peruvian, Japanese, and Colombian-Caribbean restaurants in walking distance of each other. The Carrera 53 and Calle 84 area is where most groups land. Expect COP 80.000 to 150.000 per person for a sit-down dinner with wine. Reserve on weekends, the better spots fill up.</p>
-<h2 class="wp-block-heading" id="h-charter-fishing">Charter fishing from Puerto Colombia</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-charter-fishing">Charter fishing from Puerto Colombia</h2>
 <p>For a group of up to six, a half-day charter from Puerto Colombia is one of the better group plans, you split a boat and crew between you and the per-person cost is reasonable. Expect to pay roughly COP 800.000 to 1.500.000 for the boat (verify), divided among the group. Sea conditions can be choppy, December to April winds are strongest. Book through a local operator on the Puerto Colombia waterfront and confirm the day before.</p>
-<h2 class="wp-block-heading" id="h-active-options">Active group options: paintball, escape rooms, bowling</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-active-options">Active group options: paintball, escape rooms, bowling</h2>
 <p>If you want a structured indoor group plan, the standard options are:</p>
-<ul class="wp-block-list">
+<ul>
 <li><a href="https://www.instagram.com/escaperoombarranquilla/?hl=en" rel="noreferrer noopener" target="_blank">Escape Room Barranquilla</a>, 60-minute rooms, around COP 40.000 to 60.000 per person, book online a day or two ahead.</li>
 <li><a href="https://www.instagram.com/paintballhouse/?hl=en" rel="noreferrer noopener" target="_blank">Paintball House</a> in Alameda del Río, around COP 50.000 per person for a session including gear.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
@@ -228,26 +221,24 @@
 <img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading" id="h-la-ruta-del-girasol-the-sunflower-fields"><a href="/la-ruta-del-girasol-the-sunflower-fields/">La Ruta del Girasol</a> (sunflower fields)</h2>
+<h2 id="h-la-ruta-del-girasol-the-sunflower-fields"><a href="/la-ruta-del-girasol-the-sunflower-fields/">La Ruta del Girasol</a> (sunflower fields)</h2>
 <p>A seasonal sunflower farm in Baranoa, about 40 minutes from Barranquilla. Open 8am to 6pm. Entry was COP 10.000 per person at writing, free for kids under 10. Local food and crafts on site, plus a small animal area with pony rides. Best for families with young kids or a relaxed half-day; verify operating dates before driving out, the fields are seasonal.</p>
 <p>Google Maps location: <a href="https://goo.gl/maps/LkbaXvCJym3676eq6" rel="noreferrer noopener" target="_blank">https://goo.gl/maps/LkbaXvCJym3676eq6</a></p>
-<figure class="wp-block-image size-medium"><img alt="Ruta del Girasol" class="wp-image-526" data-sizes="auto, (max-width: 300px) 100vw, 300px" decoding="async" height="300" loading="lazy" src="/img/ruta1-300x300.jpg" srcset="/img/ruta1-300x300.jpg 300w, /img/ruta1-1024x1024.jpg 1024w, /img/ruta1-150x150.jpg 150w, /img/ruta1-768x768.jpg 768w, /img/ruta1-696x696.jpg 696w, /img/ruta1-1068x1068.jpg 1068w, /img/ruta1.jpg 1081w" width="300"/></figure>
-<h2 class="wp-block-heading" id="h-go-to-a-food-drink-or-music-festival">Festivals worth timing a trip around</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<figure><img alt="Ruta del Girasol" sizes="auto, (max-width: 300px) 100vw, 300px" decoding="async" height="300" loading="lazy" src="/img/ruta1-300x300.jpg" srcset="/img/ruta1-300x300.jpg 300w, /img/ruta1-1024x1024.jpg 1024w, /img/ruta1-150x150.jpg 150w, /img/ruta1-768x768.jpg 768w, /img/ruta1-696x696.jpg 696w, /img/ruta1-1068x1068.jpg 1068w, /img/ruta1.jpg 1081w" width="300"/></figure>
+<h2 id="h-go-to-a-food-drink-or-music-festival">Festivals worth timing a trip around</h2>
 <p>Beyond Carnaval, a few annual events are worth aligning a group trip with. Dates shift each year, confirm before booking.</p>
-<ul class="wp-block-list">
+<ul>
 <li><strong>Carnaval de Verano: Río y Mar</strong>, a weekend in late June. Friday programming on the Gran Malecón, Saturday Summer Music Festival at Plaza de La Paz.</li>
 <li><strong><a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">Sabor Barranquilla</a></strong>, four days in late August. Food festival, local chefs and producers.</li>
 <li><strong><a href="/best-tours-experiences-barranquilla/">Barranquijazz</a></strong>, five days in September. Latin and international jazz artists.</li>
 <li><strong><a href="/barranquilla-nightlife-bars-clubs/">Expodrinks</a></strong>, four days in early October at Puerta de Oro. Beverage producers, plus tasting and brewing sessions.</li>
 <li><strong>Timeless Music Festival</strong>, one day in late summer on the Gran Malecón. Alternative and indie acts.</li>
 </ul>
-<h2 class="wp-block-heading" id="h-in-conclusion">Putting it together</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="h-in-conclusion">Putting it together</h2>
 <p>For a weekend with a group, a reasonable mix is: one cultural anchor (Museo del Caribe or the Carnaval Museum on the Gran Malecón), one outdoor stop (sunset along the Gran Malecón, or a Puerto Colombia day trip), one big group dinner in Villa Country, and one nightlife stop (salsa at La Troja, rock at Bourbon St, or karaoke at Fabio Restobar). If your trip overlaps with Carnaval or Junior football, those become the anchors instead. See our broader <a href="/things-to-do-around-barranquilla/">things to do</a> page for more.</p>
-<h2 class="wp-block-heading" id="further-reading">Further reading</h2>
+<h2 id="further-reading">Further reading</h2>
 <p>More Barranquilla things-to-do and nightlife:</p>
-<ul class="wp-block-list">
+<ul>
 <li><a href="/things-to-do-around-barranquilla/">things to do around Barranquilla</a>, broader activity ideas</li>
 <li><a href="/day-trips-from-barranquilla/">day trips from Barranquilla</a>, for groups with a free day</li>
 <li><a href="/barranquilla-nightlife-bars-clubs/">nightlife, bars, and clubs</a>, the party itinerary</li>
@@ -273,7 +264,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-mallorquin-ecopark-tour/">
-<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.jpg 669w" width="600"/> </a>
+<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-mallorquin-ecopark-tour/">Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)</a></h3>
 <div class="article-card-meta">
@@ -284,7 +275,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-hotels-in-barranquilla/">
-<img alt="Best Hotels in Barranquilla 2026: Where to Stay (Every Budget)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/crown-plaza-hotel-near-buenevista-in-2019-600x400.jpg" width="600"/> </a>
+<img alt="Best Hotels in Barranquilla 2026: Where to Stay (Every Budget)" decoding="async" height="400" loading="lazy" src="/img/crown-plaza-hotel-near-buenevista-in-2019-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/best-hotels-in-barranquilla/">Best Hotels in Barranquilla 2026: Where to Stay (Every Budget)</a></h3>
 <div class="article-card-meta">
@@ -295,7 +286,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/puerto-mocho/">
-<img alt="Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="397" loading="lazy" src="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.png" srcset="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.png 637w, /img/Puerto-Mocho-2023-07-09-at-9.25.15-AM-300x199.png 300w" width="600"/> </a>
+<img alt="Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="397" loading="lazy" src="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.png" srcset="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.png 637w, /img/Puerto-Mocho-2023-07-09-at-9.25.15-AM-300x199.png 300w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/puerto-mocho/">Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)</a></h3>
 <div class="article-card-meta">
@@ -317,7 +308,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

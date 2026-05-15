@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/barranquilla-city-panoramic-view.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Barranquilla vs Medellín vs Bogotá: Which City Is Right for You?" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="450" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/barranquilla-city-panoramic-view.jpg" srcset="/img/barranquilla-city-panoramic-view.jpg 1200w, /img/barranquilla-city-panoramic-view-300x113.jpg 300w, /img/barranquilla-city-panoramic-view-1024x384.jpg 1024w, /img/barranquilla-city-panoramic-view-768x288.jpg 768w" width="1200"/> </div>
+<img alt="Barranquilla vs Medellín vs Bogotá: Which City Is Right for You?" decoding="async" fetchpriority="high" height="450" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/barranquilla-city-panoramic-view.jpg" srcset="/img/barranquilla-city-panoramic-view.jpg 1200w, /img/barranquilla-city-panoramic-view-300x113.jpg 300w, /img/barranquilla-city-panoramic-view-1024x384.jpg 1024w, /img/barranquilla-city-panoramic-view-768x288.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Barranquilla vs Medellín vs Bogotá: Which City Is Right for You?</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -123,7 +125,6 @@
 <p class="guide-intro"><em>Last updated: April 2026. Colombia’s three largest cities are, in everything that matters to a new arrival, three different countries. Bogotá is a high-altitude capital with cold evenings and a corporate pulse. Medellín is a mild-weather valley city that has become Latin America’s nomad capital. Barranquilla is a hot Caribbean port with the strongest living culture of the three. This guide compares them honestly across climate, cost, safety, infrastructure, social life, and who each one fits, written by someone who lives in one of the three.</em></p>
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#snapshot">At a glance</a></li>
 <li><a href="#climate">Climate and altitude</a></li>
@@ -145,7 +146,6 @@
 </ol>
 </div>
 <h2 id="snapshot">At a glance</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>A dense single-table comparison is coming below, but the 10-second version:</p>
 <ul>
 <li><strong>Bogotá</strong>, 2,640 m elevation; cool (avg 14°C); 8 M people; national capital; biggest economy; grayest weather; biggest traffic headaches; most formal.</li>
@@ -201,7 +201,6 @@
 </ul>
 <p><strong>Airport connectivity</strong>: Bogotá El Dorado (BOG) is Colombia’s main international hub and one of Latin America’s largest. Medellín José María Córdova (MDE) has extensive international service including direct flights to the US and Europe. Barranquilla Ernesto Cortissoz (BAQ) has direct flights to Miami, Fort Lauderdale, Panama City, plus domestic Colombia, anywhere else requires a connection. See our <a href="/barranquilla-airport-guide/">airport guide</a>.</p>
 <h2 id="internet-fiber">Internet and remote-work readiness</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>All three cities have gigabit fiber widely available from Claro, Tigo, ETB (Bogotá strongest), and Movistar. In any of them you can work remotely without connectivity concerns, subject to local power reliability:</p>
 <ul>
 <li><strong>Bogotá</strong>: power is reliable. Fiber ubiquitous. Best of three for pure uptime.</li>
@@ -217,7 +216,6 @@
 </ul>
 <p>All three require the same basic practices: don’t flash your phone on the street at night, use rideshare after dark, know where you are. See our Barranquilla-specific <a href="/is-barranquilla-safe-honest-answer-2026/">safety guide</a>.</p>
 <h2 id="expat-density">Expat and digital-nomad community</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Medellín</strong>: by far the largest. El Poblado and Laureles are visibly expat-heavy; English can carry you through El Poblado without issue. Pro: instant community, built-out coworking, nightlife tuned to nomads. Con: some neighborhoods feel like a nomad bubble; tension with locals over rents and behavior has increased.</li>
 <li><strong>Bogotá</strong>: large but professionally diverse, diplomats, corporate transfers, startup operators, academics. Less concentrated than Medellín’s nomad scene.</li>
@@ -279,11 +277,9 @@
 <li><strong>Barranquilla</strong>: vallenato, cumbia, champeta, salsa. The Caribbean rhythm <em>is</em> the culture. <strong>Carnaval</strong>, the second-largest in Latin America after Rio, is Barranquilla’s signature, our <a href="/barranquilla-carnival-complete-guide/">Carnaval guide</a>.</li>
 </ul>
 <h2 id="healthcare">Healthcare</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>All three cities have excellent private hospitals. Bogotá has the largest number of top-tier hospitals and most specialists. Medellín has América Economía’s highest-ranked Colombian hospital (Fundación Valle del Lili is actually in Cali, but Hospital Pablo Tobón Uribe in Medellín is also top-20 in LatAm). Barranquilla’s Portoazul, La Misericordia, and Iberoamérica are regional top-tier; for ultra-specialized care (advanced transplants, niche oncology), patients sometimes go to Bogotá or Medellín.</p>
 <p>Cost, insurance structure, and enrollment process are identical nationwide (EPS + medicina prepagada). See our <a href="/healthcare-barranquilla/">healthcare guide</a> for full detail.</p>
 <h2 id="visa-city-neutral">Visa and immigration logistics</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Your visa category and application process are <strong>identical</strong> in all three cities, the Cancillería is centralized and applications are online. Migración Colombia has offices in each city for the Cédula de Extranjería. See our <a href="/visas-colombia-barranquilla/">visa guide</a>.</p>
 <p>Practical wrinkle: Bogotá and Medellín have larger, faster Migración offices. Barranquilla’s office is smaller but typically less queue-heavy. Appointment availability is generally better on the Coast.</p>
 <h2 id="dating">Dating and social life</h2>
@@ -317,7 +313,6 @@
 <li>Are willing to use Spanish daily and become a local.</li>
 </ul>
 <h2 id="how-to-decide">How to decide if you’re undecided</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Spend two weeks in each if you can. The dominant factor for 80% of people is <strong>climate</strong>: whether you want to wear a light jacket in the evening (Bogotá), a t-shirt year-round with no sweat (Medellín), or accept real humidity for Caribbean warmth (Barranquilla). You’ll know within a week which one your body prefers.</p>
 <p>The second-order factor is <strong>social fit</strong>. Medellín’s nomad density suits some, suffocates others. Barranquilla’s lack of it suits some, isolates others. Bogotá’s capital-city professional culture suits some, bores others.</p>
 <p>Rent is third. A city you dislike cheaply is a bad deal.</p>
@@ -330,7 +325,6 @@
 <li>Real-estate investment for the M, Inversionista visa can be in any Colombian city; Barranquilla offers the best per-peso entry threshold.</li>
 </ul>
 <h2 id="faq">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Which city has the best English?</strong> Bogotá and Medellín’s tourist neighborhoods. Barranquilla requires more Spanish for daily life.</p>
 <p><strong>Which is safest for solo women travelers?</strong> All three are usable with standard urban precautions; Medellín’s tourist-targeting trend means extra care on dating apps specifically. Neighborhood choice matters more than city choice.</p>
 <p><strong>Which has the most women / best dating?</strong> Impossible to answer objectively. Medellín has the most active app scene; all three have rich in-person social paths for anyone who engages locally.</p>
@@ -365,7 +359,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/best-restaurants-barranquilla/">
-<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-restaurants-barranquilla/">Best Restaurants in Barranquilla 2026: Where to Eat Right Now</a></h3>
 <div class="article-card-meta">
@@ -376,7 +370,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-guide/">
-<img alt="Barranquilla Guide: The Practical Overview (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
+<img alt="Barranquilla Guide: The Practical Overview (2026)" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-guide/">Barranquilla Guide: The Practical Overview (2026)</a></h3>
 <div class="article-card-meta">
@@ -387,7 +381,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/visas-colombia-barranquilla/">
-<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
+<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/visas-colombia-barranquilla/">Colombia Visa Guide 2026: Every Option for Living in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -409,7 +403,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

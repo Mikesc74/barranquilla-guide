@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/banking-finance.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Banking in Barranquilla: The Complete Expat Guide (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/banking-finance.jpg" srcset="/img/banking-finance.jpg 1200w, /img/banking-finance-300x158.jpg 300w, /img/banking-finance-1024x538.jpg 1024w, /img/banking-finance-768x403.jpg 768w" width="1200"/> </div>
+<img alt="Banking in Barranquilla: The Complete Expat Guide (2026)" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/banking-finance.jpg" srcset="/img/banking-finance.jpg 1200w, /img/banking-finance-300x158.jpg 300w, /img/banking-finance-1024x538.jpg 1024w, /img/banking-finance-768x403.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Banking in Barranquilla: The Complete Expat Guide (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -123,7 +125,6 @@
 <p class="guide-intro"><em>Last updated: April 2026. Colombia’s banking system is modern, digital, and, once you have a Cédula de Extranjería, surprisingly easy to use. Day to day, Barranquilla runs on a mix of cash, debit cards, and the near-universal instant-payment app <strong>Nequi</strong>. This guide covers ATMs and withdrawal strategy, digital payment apps, opening a Colombian account (what’s required, what actually works), international transfers, exchange-rate timing, and what you owe in tax once the 183-day clock ticks.</em></p>
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#cash-and-card-reality">The day-to-day reality: cash, cards, and Nequi</a></li>
 <li><a href="#currency-basics">Currency basics and the exchange rate</a></li>
@@ -142,7 +143,6 @@
 </ol>
 </div>
 <h2 id="cash-and-card-reality">The day-to-day reality: cash, cards, and Nequi</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla in 2026 is largely cashless at the modern end and cash-only at the other. What you’ll see:</p>
 <ul>
 <li><strong>Restaurants, cafés, supermarkets, pharmacies, Uber, DiDi, most retail</strong>: accept card (Visa/Mastercard/AMEX). Tip: AMEX is accepted less widely than V/MC, don’t rely on it as your only card.</li>
@@ -155,7 +155,6 @@
 <p><strong>Exchange rate (April 2026)</strong>: roughly <strong>COP 4,000 = USD 1</strong>, with year-to-date movement in the 3,900–4,150 band. The peso has been relatively stable against the dollar for the past 18 months. Always check a live rate at <a href="https://www.xe.com/currencyconverter/convert/?From=USD&amp;To=COP" rel="noopener" target="_blank">xe.com</a> or Google before a big conversion.</p>
 <p>Conversion shortcut: divide COP by 4,000 for USD, by 4,400 for EUR, by 5,200 for GBP. Good enough for day-to-day math.</p>
 <h2 id="atms">ATMs, which to use, which to avoid</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>The ATM network is dense in Barranquilla. Every bank has machines at its branches, and supermarkets (Éxito, Olímpica, Jumbo) have multi-bank ATM lobbies.</p>
 <p><strong>Foreign cards</strong> (US, EU, UK debit/credit) work at most ATMs. Typical behavior:</p>
 <ul>
@@ -171,7 +170,6 @@
 </ul>
 <p><strong>Security at ATMs</strong>: use machines inside bank branches or supermarkets during the day. Avoid isolated street-side ATMs at night. Shield your PIN. Be alert for shoulder-surfers and the “helpful stranger” scam. See our <a href="/is-barranquilla-safe-honest-answer-2026/">safety guide</a>.</p>
 <h2 id="nequi-daviplata">Nequi, Daviplata, and the instant-payment system</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Colombia’s app-based instant payment is built on <strong>Transfiya</strong> (BancoIhalf network interbank rails) and parallel closed-loop apps. The big two:</p>
 <ul>
 <li><strong>Nequi</strong> (operated by Bancolombia): by far the most widely used. Send money by cell number. Free for small transfers. You can download the app and open an account with just your cédula/CE.</li>
@@ -180,7 +178,6 @@
 <p>Both are free to open, don’t require a full bank account, and let you pay at QR codes, transfer between users, and withdraw cash at ATMs or partner corner stores. Almost every Barranquillero has at least one; as a foreigner with a CE, getting a Nequi account within an hour of landing is realistic and extremely useful.</p>
 <p>Also worth knowing: <strong>Bre-B</strong>, Colombia’s new central-bank-operated real-time payment rail, similar to Brazil’s Pix, launched September 2025 and now works across most banks. You get a “llave” (key, your phone number, email, or a custom alias) and any bank can send to any other bank instantly and for free. If you open a Bancolombia, Davivienda, BBVA, or Scotiabank account, your Bre-B key is set up in the app.</p>
 <h2 id="opening-an-account">Opening a Colombian bank account</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>To open a proper Colombian bank account, you need a <strong>Cédula de Extranjería (CE)</strong>, the foreign-resident ID issued by Migración Colombia after your visa is approved. See our <a href="/visas-colombia-barranquilla/">visa guide</a> for how to get one. Without a CE, most banks will refuse; a handful will open limited accounts on a passport + PEP form, but expect friction and smaller product set.</p>
 <p><strong>Typical requirements</strong> at a Colombian bank for account opening:</p>
 <ul>
@@ -203,7 +200,6 @@
 </ul>
 <p><strong>Digital-first options</strong>: Nu Colombia (Nubank) is live and extremely easy to open, digital account and credit card with just a cédula/CE, no branch visit. Lulo Bank, RappiPay, Tyba, and a few other fintechs offer similar “neobank” experiences. Great for day-to-day; pair with a traditional bank for wires and big-ticket transactions.</p>
 <h2 id="account-types">What account types exist</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Cuenta de ahorros (savings account)</strong>, the default. Comes with a debit card (Visa or Mastercard debit). Low monthly fee (~COP 10–15,000), waivable with minimum balance. This is what 90% of people have.</li>
 <li><strong>Cuenta corriente (checking account)</strong>, for businesses and self-employed; supports checks (rarely used) and has higher limits. Monthly fee higher.</li>
@@ -219,7 +215,6 @@
 </ul>
 <p><strong>Fraud and chargebacks</strong>: Colombian banks are generally responsive to disputes, but their consumer-protection regime is less generous than the US Reg E. Enable push-notification alerts for every transaction and set low default international-travel limits in the app.</p>
 <h2 id="international-transfers">Sending and receiving money internationally</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Best options in 2026 for USD → COP and back:</p>
 <ul>
 <li><strong>Wise (formerly TransferWise)</strong>, still the cheapest for USD/EUR/GBP to COP. Mid-market rate + ~0.4–0.8% fee. Transfer lands in a Colombian bank account in 1–2 business days. <a href="https://wise.com/" rel="noopener" target="_blank">wise.com</a></li>
@@ -234,7 +229,6 @@
 <p>Don’t try to time FX. The USD/COP rate has moved in a 3,800–4,200 band for the last ~18 months; guessing the inside of that range is gambling. If you’re converting a large amount (a down payment, say) and want to smooth risk, split the conversion over 3–6 weeks.</p>
 <p>Forward contracts and FX options are available at big Colombian banks but only if you open a <em>cuenta de compensación</em> or trade through a broker. Not worth the setup unless your amounts are over USD 100k.</p>
 <h2 id="pcash-culture">Cash culture and practical tips</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Break big bills</strong>. Small vendors can’t change a 50,000 or 100,000. Use bigger bills at supermarkets and restaurants; ask for change in smaller denominations.</li>
 <li><strong>Tipping</strong>: restaurants automatically add <strong>10% “propina voluntaria”</strong>, legally voluntary, so you can decline. Don’t decline unless the service was bad. Cash tips in USD or home-country coins are useless; leave pesos.</li>
@@ -243,7 +237,6 @@
 <li><strong>Keep a separate emergency stash</strong>: USD 200 in clean bills hidden at your apartment. ATMs sometimes go down on long weekends.</li>
 </ul>
 <h2 id="taxes">Tax obligations, the 183-day rule</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>If you spend more than <strong>183 days</strong> in Colombia in any rolling 365-day period, you become a <strong>Colombian tax resident</strong>. Tax residents are taxed on <strong>worldwide income</strong>, not just Colombian-source.</p>
 <p>Key points for 2026:</p>
 <ul>
@@ -263,7 +256,6 @@
 <li><strong>Expired CE</strong>: your bank account will be frozen if your CE expires. Renew <em>before</em> expiry.</li>
 </ul>
 <h2 id="faq">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Can I open an account on a tourist visa?</strong> With a PIP only, most banks will decline. Nu Colombia and a handful of fintechs have opened accounts on passports, policy varies month to month; check current rules. The easier play: apply for a visa, get the CE, then open the account.</p>
 <p><strong>Is my US/European debit card enough for a short trip?</strong> Yes. ATMs plus card-accepting merchants cover 95% of expenses. Carry a backup card.</p>
 <p><strong>Do I need cash for taxis?</strong> Increasingly less, Uber, DiDi, and InDriver process card/app payments automatically. Street-hail taxis are usually cash only.</p>
@@ -296,7 +288,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/visas-colombia-barranquilla/">
-<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
+<img alt="Colombia Visa Guide 2026: Every Option for Living in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/plaza-bolivar-in-centro-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/visas-colombia-barranquilla/">Colombia Visa Guide 2026: Every Option for Living in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -307,7 +299,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-guide/">
-<img alt="Barranquilla Guide: The Practical Overview (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
+<img alt="Barranquilla Guide: The Practical Overview (2026)" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-guide/">Barranquilla Guide: The Practical Overview (2026)</a></h3>
 <div class="article-card-meta">
@@ -318,7 +310,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/colombia-travel-insurance-guide/">
-<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/quilla-skyline-from-the-magdalena-600x400.jpg" width="600"/> </a>
+<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" decoding="async" height="400" loading="lazy" src="/img/quilla-skyline-from-the-magdalena-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/colombia-travel-insurance-guide/">Travel Insurance for Barranquilla: What You Actually Need (2026)</a></h3>
 <div class="article-card-meta">
@@ -340,7 +332,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/hotel-el-prado-barranquilla-1280x900.webp" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Hotel El Prado Barranquilla, a practical guide to the 1930 historic hotel" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/hotel-el-prado-barranquilla-1280x900.jpg" width="1280"/> </div>
+<img alt="Hotel El Prado Barranquilla, a practical guide to the 1930 historic hotel" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/hotel-el-prado-barranquilla-1280x900.webp" width="1280"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Hotel El Prado Barranquilla, a practical guide to the 1930 historic hotel</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -116,42 +118,40 @@
 </div>
 <!-- Article Body -->
 <div class="article-body">
-<figure class="wp-block-image size-full"><img alt="El Prado Hotel facade in Barranquilla" class="wp-image-482" data-sizes="(max-width: 840px) 100vw, 840px" decoding="async" height="460" src="/img/front.jpg" srcset="/img/front.jpg 840w, /img/front-300x164.jpg 300w, /img/front-768x421.jpg 768w, /img/front-696x381.jpg 696w" width="840" loading="lazy"/><figcaption class="wp-element-caption">The iconic entrance</figcaption></figure>
+<figure><img alt="El Prado Hotel facade in Barranquilla" sizes="(max-width: 840px) 100vw, 840px" decoding="async" height="460" src="/img/front.jpg" srcset="/img/front.jpg 840w, /img/front-300x164.jpg 300w, /img/front-768x421.jpg 768w, /img/front-696x381.jpg 696w" width="840" loading="lazy"/><figcaption>The iconic entrance</figcaption></figure>
 <p>Hotel El Prado opened in 1930 and is the oldest still-operating hotel on Colombia's Caribbean coast. It sits in the El Prado neighborhood, roughly at Carrera 54 #70-10 (verify the exact address before you depend on it), inside the same walkable historic district that draws architecture fans and Carnaval visitors who want to stay close to the parade route. This guide covers what makes the hotel worth a visit, what the experience is actually like, and who it suits.</p>
-<h2 class="wp-block-heading" id="origins-and-early-years">Origins and early years</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
+<h2 id="origins-and-early-years">Origins and early years</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado neighborhood" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-place-el-prado-neighborhood.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado neighborhood" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-place-el-prado-neighborhood.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 <p>The hotel opened in 1930, during the boom years when Barranquilla was Colombia's busiest port and the country's gateway to the world. It was built in the Republican style typical of the period, with arched colonnades, courtyards, and patterned floor tile that mostly survives intact today. The same developer, the Parrish family, also laid out the surrounding El Prado neighborhood as a planned upper-class district, which is why the hotel and the streets around it share the same architectural vocabulary.</p>
-<figure class="wp-block-image size-full"><img alt="Historic photograph of El Prado Hotel in its early years" class="wp-image-481" data-sizes="auto, (max-width: 630px) 100vw, 630px" decoding="async" height="320" loading="lazy" src="/img/old.jpg" srcset="/img/old.jpg 630w, /img/old-300x152.jpg 300w" width="630"/><figcaption class="wp-element-caption">The original El Prado, circa 1930</figcaption></figure>
+<figure><img alt="Historic photograph of El Prado Hotel in its early years" sizes="auto, (max-width: 630px) 100vw, 630px" decoding="async" height="320" loading="lazy" src="/img/old.jpg" srcset="/img/old.jpg 630w, /img/old-300x152.jpg 300w" width="630"/><figcaption>The original El Prado, circa 1930</figcaption></figure>
 <p>In its first decades the hotel was the social anchor of the city's Caribbean port elite. It hosted political receptions, diplomats, and well-known figures of the period, including Gabriel García Márquez during his Barranquilla years (he was part of the journalism and literary scene the city had in the 1950s).</p>
-<figure class="wp-block-image size-large is-resized"><img alt="Grand Ballroom El Prado Hotel" class="wp-image-480" data-sizes="auto, (max-width: 696px) 100vw, 696px" decoding="async" height="522" loading="lazy" src="/img/211banquet-1024x768.jpg" srcset="/img/211banquet-1024x768.jpg 1024w, /img/211banquet-300x225.jpg 300w, /img/211banquet-768x576.jpg 768w, /img/211banquet-696x522.jpg 696w, /img/211banquet.jpg 1050w" style="width:696px;height:522px" width="696"/><figcaption class="wp-element-caption">The grand ballroom</figcaption></figure>
-<h2 class="wp-block-heading" id="heritage-status">Heritage status</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<figure><img alt="Grand Ballroom El Prado Hotel" sizes="auto, (max-width: 696px) 100vw, 696px" decoding="async" height="522" loading="lazy" src="/img/211banquet-1024x768.jpg" srcset="/img/211banquet-1024x768.jpg 1024w, /img/211banquet-300x225.jpg 300w, /img/211banquet-768x576.jpg 768w, /img/211banquet-696x522.jpg 696w, /img/211banquet.jpg 1050w" style="width:696px;height:522px" width="696"/><figcaption>The grand ballroom</figcaption></figure>
+<h2 id="heritage-status">Heritage status</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado neighborhood" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-place-el-prado-neighborhood.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado neighborhood" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-place-el-prado-neighborhood.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 <p>The hotel is widely reported to have been declared a National Monument by the Colombian government in 1989, as part of the broader designation of the El Prado historic district. We have seen this date in multiple local sources but have not independently verified the original resolution number, treat it as approximate rather than certified.</p>
 <p>What matters in practice is that the building's facade, original tile work, and main public spaces are protected. Renovations have to preserve the existing fabric. That is why the lobby, the columns, and the patterned floors feel close to original rather than rebuilt.</p>
-<h2 class="wp-block-heading" id="what-staying-here-is-like">What staying here is like</h2>
+<h2 id="what-staying-here-is-like">What staying here is like</h2>
 <p>Rooms come in two flavors. The original wing has high ceilings, period detail, and the kind of charm you cannot fake; bathrooms have been updated but the rooms themselves feel old in a good way. The newer wing is more standard modern hotel: comfortable, less character. If history is the reason you are booking, ask explicitly for a room in the historic section.</p>
-<figure class="wp-block-image size-large"><img alt="El Prado Hotel lobby" class="wp-image-484" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="683" loading="lazy" src="/img/211lobby-1024x683.jpg" srcset="/img/211lobby-1024x683.jpg 1024w, /img/211lobby-300x200.jpg 300w, /img/211lobby-768x512.jpg 768w, /img/211lobby-696x464.jpg 696w, /img/211lobby-1068x712.jpg 1068w, /img/211lobby.jpg 1200w" width="1024"/><figcaption class="wp-element-caption">The lobby, mostly unchanged in nearly a century</figcaption></figure>
+<figure><img alt="El Prado Hotel lobby" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="683" loading="lazy" src="/img/211lobby-1024x683.jpg" srcset="/img/211lobby-1024x683.jpg 1024w, /img/211lobby-300x200.jpg 300w, /img/211lobby-768x512.jpg 768w, /img/211lobby-696x464.jpg 696w, /img/211lobby-1068x712.jpg 1068w, /img/211lobby.jpg 1200w" width="1024"/><figcaption>The lobby, mostly unchanged in nearly a century</figcaption></figure>
 <p>The pool sits in an open courtyard at the center of the building. The Saturday and Sunday poolside brunch is the most popular meal here, with locals coming in just for that, no room required. Expect a buffet plus a la carte items and live music on some weekends; check the hotel's Instagram for current times.</p>
-<h2 class="wp-block-heading" id="who-it-suits">Who it suits</h2>
+<h2 id="who-it-suits">Who it suits</h2>
 <p>Stay here if you care about architecture and want a hotel that is part of the experience, not just a place to sleep. It also works well for Carnaval visitors who want to be inside the El Prado district, walking distance to the parade route along Vía 40 (via a short taxi or 20 minute walk) and to the bars and restaurants of Carrera 53.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Carrera 53" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-place-carrera-53.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Carrera 53" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-place-carrera-53.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-place-via-40.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-place-via-40.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<figure class="wp-block-image size-large"><img alt="Interior corridor of El Prado Hotel" class="wp-image-485" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="573" loading="lazy" src="/img/211sir-1024x573.jpeg" srcset="/img/211sir-1024x573.jpeg 1024w, /img/211sir-300x168.jpeg 300w, /img/211sir-768x430.jpeg 768w, /img/211sir-696x389.jpeg 696w, /img/211sir-1068x598.jpeg 1068w, /img/211sir.jpeg 1260w" width="1024"/><figcaption class="wp-element-caption">The newer wing</figcaption></figure>
+<figure><img alt="Interior corridor of El Prado Hotel" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="573" loading="lazy" src="/img/211sir-1024x573.jpeg" srcset="/img/211sir-1024x573.jpeg 1024w, /img/211sir-300x168.jpeg 300w, /img/211sir-768x430.jpeg 768w, /img/211sir-696x389.jpeg 696w, /img/211sir-1068x598.jpeg 1068w, /img/211sir.jpeg 1260w" width="1024"/><figcaption>The newer wing</figcaption></figure>
 <p>Skip it if you need a modern business hotel near the financial district (look at the Marriott or Hilton Garden Inn in Buenavista instead), or if you want resort-style amenities. El Prado is a historic-building hotel, not a Caribbean resort.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Buenavista" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla-place-buenavista.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Buenavista" decoding="async" height="800" loading="lazy" src="/img/el-prado-hotel-place-buenavista.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
 <p>For broader options, see our <a href="/best-hotels-in-barranquilla/">best hotels in Barranquilla</a> roundup, and the related <a href="/the-best-fine-dining-restaurants-in-barranquilla/">fine dining</a> guide for dinner suggestions in walking distance.</p>
@@ -171,7 +171,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/the-best-hotels-in-barranquilla/">
-<img alt="The Best Hotels in Barranquilla (2026 Guide)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="361" loading="lazy" src="/img/featured-image.png" srcset="/img/featured-image.png 822w, /img/featured-image-300x181.png 300w, /img/featured-image-768x462.png 768w, /img/featured-image-696x419.png 696w" width="600"/> </a>
+<img alt="The Best Hotels in Barranquilla (2026 Guide)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="361" loading="lazy" src="/img/featured-image.png" srcset="/img/featured-image.png 822w, /img/featured-image-300x181.png 300w, /img/featured-image-768x462.png 768w, /img/featured-image-696x419.png 696w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/the-best-hotels-in-barranquilla/">The Best Hotels in Barranquilla (2026 Guide)</a></h3>
 <div class="article-card-meta">
@@ -182,7 +182,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">
-<img alt="Expat Networking &amp; Social Life in Barranquilla (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/expats-2-600x400.jpg" width="600"/> </a>
+<img alt="Expat Networking &amp; Social Life in Barranquilla (2026)" decoding="async" height="400" loading="lazy" src="/img/expats-2-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">Expat Networking &amp; Social Life in Barranquilla (2026)</a></h3>
 <div class="article-card-meta">
@@ -193,7 +193,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-with-kids-family-guide-2026/">
-<img alt="Barranquilla with Kids: The Honest Family Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/kids_family-600x400.jpg" srcset="/img/kids_family-600x400.jpg 600w, /img/kids_family-300x200.jpg 300w, /img/kids_family-1024x683.jpg 1024w, /img/kids_family-768x512.jpg 768w, /img/kids_family.jpg 1200w" width="600"/> </a>
+<img alt="Barranquilla with Kids: The Honest Family Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/kids_family-600x400.jpg" srcset="/img/kids_family-600x400.jpg 600w, /img/kids_family-300x200.jpg 300w, /img/kids_family-1024x683.jpg 1024w, /img/kids_family-768x512.jpg 768w, /img/kids_family.jpg 1200w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-with-kids-family-guide-2026/">Barranquilla with Kids: The Honest Family Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -215,7 +215,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

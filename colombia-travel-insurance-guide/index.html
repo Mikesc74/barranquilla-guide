@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/quilla-skyline-from-the-magdalena-992x900.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/quilla-skyline-from-the-magdalena-992x900.jpg" width="992"/> </div>
+<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/quilla-skyline-from-the-magdalena-992x900.jpg" width="992"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Travel Insurance for Barranquilla: What You Actually Need (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -123,7 +125,6 @@
 
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#is-travel-insurance-required-for-colombia">Is travel insurance required for Colombia?</a></li>
 <li><a href="#what-coverage-you-actually-need">What coverage you actually need</a></li>
@@ -136,8 +137,7 @@
 <li><a href="#further-reading">Further reading</a></li>
 </ol>
 </div>
-<h2 class="wp-block-heading" id="is-travel-insurance-required-for-colombia">Is travel insurance required for Colombia?</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="is-travel-insurance-required-for-colombia">Is travel insurance required for Colombia?</h2>
 <p>For most visitors, no, there’s no law requiring proof of travel insurance at the border for tourist entry on a PIP. In practice, the Migración Colombia officer at Ernesto Cortissoz International Airport (BAQ) or any Colombian port of entry rarely asks about insurance for visitors on a 90-day tourist stamp.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Ernesto Cortissoz International Airport" decoding="async" height="800" loading="lazy" src="/img/colombia-travel-insurance-guide-place-ernesto-cortissoz-international-airport.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -151,58 +151,57 @@
 <li><strong>Some Resident Visa (R) holders:</strong> Once resident, you’re expected to affiliate to Colombia’s EPS system rather than carry travel insurance.</li>
 </ul>
 <p>Even when not required, not carrying insurance is a real financial risk. Colombian private hospitals will treat you, but foreigners without insurance are billed at the “particular” (private-pay) rate, which is several multiples of what EPS contracts pay. You’ll be asked for payment guarantees before non-emergency procedures.</p>
-<h2 class="wp-block-heading" id="what-coverage-you-actually-need">What coverage you actually need</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="what-coverage-you-actually-need">What coverage you actually need</h2>
 <p>For typical visits to Barranquilla, a solid policy covers five buckets:</p>
-<h3 class="wp-block-heading">Emergency medical and hospitalization</h3>
+<h3>Emergency medical and hospitalization</h3>
 <p>The single most important line. For Colombia, aim for at least USD 100,000 in emergency-medical coverage; USD 250,000–500,000 is widely available and worth the small premium difference. This covers hospitalization, surgery, emergency room, ambulance, prescription medications during treatment, and related diagnostics.</p>
-<h3 class="wp-block-heading">Emergency medical evacuation</h3>
+<h3>Emergency medical evacuation</h3>
 <p>The expensive one. Medical evacuation (either inter-hospital within Colombia or repatriation to your home country on a medically-equipped aircraft) can run USD 25,000–200,000. Look for at least USD 250,000 in evacuation coverage, ideally USD 500,000+.</p>
-<h3 class="wp-block-heading">Trip cancellation and interruption</h3>
+<h3>Trip cancellation and interruption</h3>
 <p>Reimburses non-refundable prepaid costs if you have to cancel before or cut the trip short for covered reasons (illness, death in family, carrier failure, etc.). Coverage up to 100–150% of trip cost is standard. Less critical for long flexible stays; more important for short tightly-scheduled trips.</p>
-<h3 class="wp-block-heading">Baggage and personal effects</h3>
+<h3>Baggage and personal effects</h3>
 <p>Low-dollar coverage (usually USD 1,000–3,000) for lost, delayed, or stolen bags. Worth having but high-value items (laptops, camera kit, jewelry) are usually sub-limited and may need a separate rider or your home renters/homeowners policy.</p>
-<h3 class="wp-block-heading">Personal liability and other riders</h3>
+<h3>Personal liability and other riders</h3>
 <p>Personal liability covers you if you injure someone or damage property abroad; usually USD 100,000–1,000,000. Adventure sports riders cover activities that the base policy excludes (diving over certain depths, motorcycle rental, etc.). Rental car excess and electronics riders are add-ons as needed.</p>
-<h2 class="wp-block-heading" id="providers-that-actually-work-in-colombia-2026">Providers that actually work in Colombia (2026)</h2>
+<h2 id="providers-that-actually-work-in-colombia-2026">Providers that actually work in Colombia (2026)</h2>
 <p>Not every travel insurer has smooth claims or good in-country assistance for Colombia. These are the providers most commonly used by Barranquilla expats and long-term visitors in 2026, with rough positioning.</p>
-<h3 class="wp-block-heading">SafetyWing (Nomad Insurance / Nomad Essential / Nomad Complete)</h3>
+<h3>SafetyWing (Nomad Insurance / Nomad Essential / Nomad Complete)</h3>
 <p>Popular with remote workers for monthly-subscription pricing and easy renewals. Coverage tops out at USD 250,000 for Nomad Essential. Strengths: inexpensive (roughly USD 45–75/month for adults under 40), no long commitment, covers incidental short trips home. Weaknesses: deductibles apply, some exclusions are strict, elective care is not covered. Good fit for digital nomads and long-stay visitors on tight budgets. See <a href="https://safetywing.com/nomad-insurance" rel="noopener" target="_blank">safetywing.com</a>.</p>
-<h3 class="wp-block-heading">World Nomads</h3>
+<h3>World Nomads</h3>
 <p>Designed around adventure travel. Good for activity-heavy trips (surfing, diving, hiking, motorcycling in the Sierra Nevada). Strengths: broad adventure-sports coverage built in, well-known claims process, clear policy language. Weaknesses: more expensive than SafetyWing, not great for long-stay (max trip length typically 180 days depending on country of residence), premiums rise sharply over 45. See <a href="https://www.worldnomads.com/" rel="noopener" target="_blank">worldnomads.com</a>.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Sierra Nevada" decoding="async" height="800" loading="lazy" src="/img/colombia-travel-insurance-guide-place-sierra-nevada.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h3 class="wp-block-heading">Heymondo</h3>
+<h3>Heymondo</h3>
 <p>EU-based, increasingly popular with travelers worldwide. Offers direct billing with a large hospital network, 24/7 telemedicine, and an app-based claims flow. Strengths: good value in the mid-tier, responsive customer service, direct billing reduces upfront out-of-pocket. Weaknesses: U.S. residents have limited purchase options, and medical-tourism complications are excluded (standard across all providers). See <a href="https://www.heymondo.com/" rel="noopener" target="_blank">heymondo.com</a>.</p>
-<h3 class="wp-block-heading">IMG (International Medical Group)</h3>
+<h3>IMG (International Medical Group)</h3>
 <p>Broad U.S. provider covering both short trips (Patriot Travel) and longer expat stays (Global Medical Insurance). Strengths: higher coverage limits available (USD 1M+), good U.S. customer service, long-trip variants. Weaknesses: more expensive, claims paperwork-heavy. Popular with U.S. retirees and long-term visitors. See <a href="https://www.imglobal.com/" rel="noopener" target="_blank">imglobal.com</a>.</p>
-<h3 class="wp-block-heading">Cigna Global</h3>
+<h3>Cigna Global</h3>
 <p>Full international medical insurance (not just travel), this is what you buy when you’re staying long-term and want private-plan coverage rather than trip insurance. Strengths: worldwide network, high limits, long-term guaranteed renewal, pre-existing condition coverage after underwriting. Weaknesses: substantially more expensive (typical plan USD 200–500+/month depending on age and coverage), not optimized for short trips. Good fit for long-term residents who haven’t yet affiliated to EPS or want supplementary private-rate coverage. See <a href="https://www.cignaglobal.com/" rel="noopener" target="_blank">cignaglobal.com</a>.</p>
-<h3 class="wp-block-heading">Allianz Travel</h3>
+<h3>Allianz Travel</h3>
 <p>Common U.S. provider, often bundled with credit-card travel benefits or sold through airlines. Strengths: strong brand, reliable claims processing, broad plan range. Weaknesses: tend to be pricier than nomad-focused competitors for equivalent coverage, less tailored to long stays. See <a href="https://www.allianztravelinsurance.com/" rel="noopener" target="_blank">allianztravelinsurance.com</a>.</p>
-<h3 class="wp-block-heading">Credit card travel insurance</h3>
+<h3>Credit card travel insurance</h3>
 <p>Many premium credit cards (Chase Sapphire Reserve, Amex Platinum, various Capital One and Canadian equivalents) include travel accident insurance, trip delay, and baggage delay coverage when you book travel on the card. They do <em>not</em> usually include meaningful emergency medical coverage. Check the card’s benefits guide, if you see a medical coverage limit, read the fine print. For Colombia, plan on credit-card coverage being useful for trip disruption but not sufficient for medical.</p>
-<h2 class="wp-block-heading" id="critical-exclusions-to-read-before-you-buy">Critical exclusions to read before you buy</h2>
-<h3 class="wp-block-heading">Pre-existing conditions</h3>
+<h2 id="critical-exclusions-to-read-before-you-buy">Critical exclusions to read before you buy</h2>
+<h3>Pre-existing conditions</h3>
 <p>All standard travel insurance excludes pre-existing conditions unless you purchase a specific waiver (usually must be purchased within 14–21 days of your initial trip deposit). If you have chronic conditions, buy early and read the pre-existing-condition definition carefully. Some policies define it as anything treated or stable within 60 days prior; others go back 180 days or more.</p>
-<h3 class="wp-block-heading">Elective cosmetic and dental, the medical tourism carveout</h3>
+<h3>Elective cosmetic and dental, the medical tourism carveout</h3>
 <p>This catches people off guard. Standard travel insurance does <em>not</em> cover elective plastic surgery, elective dental work, or complications arising from them. If you come to Barranquilla for cosmetic surgery and develop an infection, hematoma, or other complication, your travel insurance will deny the claim. Some specialty providers (Medjet, a handful of medical-tourism-specific plans) offer complication coverage as a separate product, usually at USD 200–500 for a 30-day window. If you’re planning any elective procedure abroad, budget for that separately.</p>
 <p>Emergency medical care unrelated to the elective procedure is still covered. If you have a car accident on the way to your dental appointment, that’s covered. If your appointment goes wrong, that’s not.</p>
-<h3 class="wp-block-heading">High-risk activities</h3>
+<h3>High-risk activities</h3>
 <p>Motorcycle riding (especially rental or without a helmet), scuba diving below stated depths, paragliding, extreme sports, and professional sports are usually excluded from base policies. Buy the adventure rider or a specialist policy like World Nomads Explorer if you’re planning these. Motorcycle accidents are a particularly common uncovered claim with Colombia visitors.</p>
-<h3 class="wp-block-heading">Alcohol and drugs</h3>
+<h3>Alcohol and drugs</h3>
 <p>Most policies exclude injuries sustained while intoxicated above a stated blood-alcohol limit (often 0.08% or the local legal limit) or while using recreational drugs. Read the specific wording, some providers are stricter than others.</p>
-<h3 class="wp-block-heading">Political unrest, travel advisories, terrorism</h3>
+<h3>Political unrest, travel advisories, terrorism</h3>
 <p>Coverage varies. Some policies exclude injuries sustained during civil unrest; others include “terrorism cover” as a specific rider. Colombia’s overall advisory level matters but major cities including Barranquilla are well within standard-coverage zones in 2026.</p>
-<h3 class="wp-block-heading">Trip-reason fine print</h3>
+<h3>Trip-reason fine print</h3>
 <p>“Cancel for any reason” (CFAR) riders cost more and allow you to cancel for reasons not on the standard covered-reasons list, but typically reimburse only 50–75% and must be purchased within a short window of your initial deposit. Standard “covered reasons” include illness, death in the family, carrier cessation, natural disasters at destination, jury duty, and a handful of others. Unless your reason is on the list, the standard policy won’t pay.</p>
-<h2 class="wp-block-heading" id="how-claims-actually-work-in-barranquilla">How claims actually work in Barranquilla</h2>
-<h3 class="wp-block-heading">In a real emergency</h3>
+<h2 id="how-claims-actually-work-in-barranquilla">How claims actually work in Barranquilla</h2>
+<h3>In a real emergency</h3>
 <p>Call your insurance’s 24/7 emergency line <em>before</em> treatment if at all possible. They will often coordinate direct billing with a network hospital (Portoazul and the major clinics are in most international networks), which means you don’t pay upfront and they pay the hospital directly. If it’s a true emergency, go to the hospital first and call the insurance as soon as you’re stable.</p>
 <p>For non-network hospitals or if direct billing isn’t arranged, you’ll pay upfront and submit a claim for reimbursement. Keep every receipt, every form, every itemized bill. Colombian hospitals issue a factura with a standard format; keep the original.</p>
-<h3 class="wp-block-heading">Paperwork the insurer will want</h3>
+<h3>Paperwork the insurer will want</h3>
 <ul>
 <li>Original itemized medical bills (factura) with procedure codes</li>
 <li>Medical records (historia clínica) from the hospital</li>
@@ -212,20 +211,20 @@
 <li>Police report if relevant (theft, accident), Colombian police file is the “denuncia” at a CAI police station or via the URNA online system</li>
 <li>Flight change or cancellation documentation for trip interruption claims</li>
 </ul>
-<h3 class="wp-block-heading">Timeline</h3>
+<h3>Timeline</h3>
 <p>Most insurers have a 30–90 day window to file a claim after the incident. Direct-billing claims are handled hospital-to-insurer. Reimbursement claims typically take 2–8 weeks to process once complete paperwork is submitted. If a claim is denied, most insurers have an appeal process; some countries have a regulatory insurance ombudsman as a second layer.</p>
-<h2 class="wp-block-heading" id="buying-the-right-policy-decision-flow">Buying the right policy, decision flow</h2>
-<h3 class="wp-block-heading">Short trip (&lt; 30 days)</h3>
+<h2 id="buying-the-right-policy-decision-flow">Buying the right policy, decision flow</h2>
+<h3>Short trip (&lt; 30 days)</h3>
 <p>A standard travel-insurance policy from Allianz, World Nomads, Heymondo, or an equivalent home-country provider. Target USD 100,000+ medical, USD 250,000+ evacuation, standard trip cancellation limits. Expect USD 50–150 for a typical 1–2 week trip.</p>
-<h3 class="wp-block-heading">Medium stay (1–6 months)</h3>
+<h3>Medium stay (1–6 months)</h3>
 <p>SafetyWing Nomad Essential or Nomad Complete, Heymondo long-stay, or IMG Patriot Travel Medical. Monthly or trip-length billing. USD 100–300/month depending on age and coverage level.</p>
-<h3 class="wp-block-heading">Long-term (6+ months) without EPS</h3>
+<h3>Long-term (6+ months) without EPS</h3>
 <p>Shift from travel insurance to international health insurance: Cigna Global, Allianz Care, or IMG Global. These behave more like health plans, with annual deductibles, network doctors, and long-term renewability. USD 200–600+/month depending on age, coverage, and deductible.</p>
-<h3 class="wp-block-heading">Long-term with EPS</h3>
+<h3>Long-term with EPS</h3>
 <p>Residents who have their cédula and are affiliated to an EPS (Sura, Sanitas, Salud Total, Nueva EPS, etc.) have the baseline covered domestically. Many add medicina prepagada (private supplementary, roughly COP 180,000–500,000/month) for faster access to specialists and private rooms. International coverage is then only needed for trips abroad, a short-trip policy works here. See the <a href="/healthcare-barranquilla/">healthcare guide</a> for detail on the EPS system.</p>
-<h3 class="wp-block-heading">Medical tourism visitors</h3>
+<h3>Medical tourism visitors</h3>
 <p>Buy a standard travel policy for the base coverage (unrelated emergencies, trip disruption, baggage), and purchase a separate medical-tourism complication rider. Most reputable surgery and dental clinics in Barranquilla can recommend a local complication-coverage product or will tell you who they’ve worked with.</p>
-<h2 class="wp-block-heading" id="what-to-do-at-purchase">What to do at purchase</h2>
+<h2 id="what-to-do-at-purchase">What to do at purchase</h2>
 <ul>
 <li>Buy before or at trip start; coverage typically doesn’t activate for already-incurred conditions or events in progress</li>
 <li>Read the schedule of benefits, not just the marketing page; specifically look at the medical limit, evacuation limit, deductible, and exclusions</li>
@@ -233,19 +232,18 @@
 <li>Write down the 24/7 claims line in your phone contacts before you need it</li>
 <li>Share your policy information with a trusted person at home who can help if you’re incapacitated</li>
 </ul>
-<h2 class="wp-block-heading" id="faq">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
-<h3 class="wp-block-heading">I already have health insurance at home. Do I need travel insurance?</h3>
+<h2 id="faq">FAQ</h2>
+<h3>I already have health insurance at home. Do I need travel insurance?</h3>
 <p>Usually yes. Most home-country health plans (private or public) offer limited or no coverage abroad. U.S. Medicare does not cover care outside the U.S. at all. Most U.S. commercial plans cover only emergencies abroad at in-network rates, often with high deductibles. Canadian provincial plans reimburse a tiny fraction of abroad costs. A travel-insurance policy fills the gap.</p>
-<h3 class="wp-block-heading">Can I buy insurance after I arrive in Colombia?</h3>
+<h3>Can I buy insurance after I arrive in Colombia?</h3>
 <p>Some providers (SafetyWing, some EU providers) allow purchase after departure; most U.S. and Canadian providers require purchase before departure or have reduced coverage for in-country purchases. Buy before you leave to be safe.</p>
-<h3 class="wp-block-heading">Is “free Visa travel insurance” from my credit card enough?</h3>
+<h3>Is “free Visa travel insurance” from my credit card enough?</h3>
 <p>For trip disruption only, sometimes yes. For medical, almost never. The complimentary medical benefits on most credit cards are capped at levels (USD 2,500–25,000) that don’t cover a serious hospitalization abroad. Check your card’s benefits guide specifically for “emergency medical” limits.</p>
-<h3 class="wp-block-heading">What’s the single most important number to remember?</h3>
+<h3>What’s the single most important number to remember?</h3>
 <p>Your insurer’s 24/7 emergency hotline. Save it before you need it. In a real emergency, heart attack, serious accident, uncontrolled bleeding, go to the nearest hospital first and call the insurance from the hospital. For any significant but non-life-threatening issue, calling first allows them to direct you to a network hospital with direct billing.</p>
-<h3 class="wp-block-heading">Does travel insurance cover COVID or the next epidemic?</h3>
+<h3>Does travel insurance cover COVID or the next epidemic?</h3>
 <p>As of 2026, most major providers include COVID-19 medical treatment in standard plans. Trip cancellation <em>due</em> to testing positive before the trip is covered under some plans with specific wording. Read the pandemic clauses before assuming.</p>
-<h2 class="wp-block-heading" id="further-reading">Further reading</h2>
+<h2 id="further-reading">Further reading</h2>
 <ul>
 <li><a href="/healthcare-barranquilla/">Healthcare in Barranquilla, EPS, hospitals, and costs</a></li>
 <li><a href="/visas-colombia-barranquilla/">Colombian visas for Barranquilla</a> (insurance requirements for each category)</li>
@@ -269,7 +267,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/healthcare-barranquilla/">
-<img alt="Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/healthcare-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)" decoding="async" height="400" loading="lazy" src="/img/healthcare-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/healthcare-barranquilla/">Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)</a></h3>
 <div class="article-card-meta">
@@ -280,7 +278,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">
-<img alt="Expat Networking &amp; Social Life in Barranquilla (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/expats-2-600x400.jpg" width="600"/> </a>
+<img alt="Expat Networking &amp; Social Life in Barranquilla (2026)" decoding="async" height="400" loading="lazy" src="/img/expats-2-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">Expat Networking &amp; Social Life in Barranquilla (2026)</a></h3>
 <div class="article-card-meta">
@@ -291,7 +289,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/driving-in-colombia-barranquilla-2026-guide/">
-<img alt="Driving in Barranquilla: Licenses, Pico y Placa, SOAT &amp; Rules (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/funny-little-delivery-truck-e1776021188550-600x400.jpg" width="600"/> </a>
+<img alt="Driving in Barranquilla: Licenses, Pico y Placa, SOAT &amp; Rules (2026)" decoding="async" height="400" loading="lazy" src="/img/funny-little-delivery-truck-e1776021188550-600x400.jpg" width="600"/> </a>
 <span class="label">Live</span>
 <h3 class="article-card-title"><a href="/driving-in-colombia-barranquilla-2026-guide/">Driving in Barranquilla: Licenses, Pico y Placa, SOAT &amp; Rules (2026)</a></h3>
 <div class="article-card-meta">
@@ -313,7 +311,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

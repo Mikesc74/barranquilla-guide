@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/family-restaurant-barranquilla.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Best Restaurants for a Family Outing in Barranquilla" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="800" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/family-restaurant-barranquilla.jpg" srcset="/img/family-restaurant-barranquilla.jpg 1200w, /img/family-restaurant-barranquilla-300x200.jpg 300w, /img/family-restaurant-barranquilla-1024x683.jpg 1024w, /img/family-restaurant-barranquilla-768x512.jpg 768w, /img/family-restaurant-barranquilla-600x400.jpg 600w" width="1200"/> </div>
+<img alt="Best Restaurants for a Family Outing in Barranquilla" decoding="async" fetchpriority="high" height="800" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/family-restaurant-barranquilla.jpg" srcset="/img/family-restaurant-barranquilla.jpg 1200w, /img/family-restaurant-barranquilla-300x200.jpg 300w, /img/family-restaurant-barranquilla-1024x683.jpg 1024w, /img/family-restaurant-barranquilla-768x512.jpg 768w, /img/family-restaurant-barranquilla-600x400.jpg 600w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Best Restaurants for a Family Outing in Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -141,7 +143,6 @@
 <div class="place-card">
 <div class="place-card__header">
 <h2 class="place-card__name">Varadero</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <div class="place-card__tags">
 <span class="tag">Colombian</span>
 <span class="tag">Caribbean Seafood</span>
@@ -176,7 +177,6 @@
 <div class="place-card">
 <div class="place-card__header">
 <h2 class="place-card__name">La Cueva</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags">
 <span class="tag">Colombian</span>
 <span class="tag">Legendary</span>
@@ -195,7 +195,6 @@
 <div class="place-card">
 <div class="place-card__header">
 <h2 class="place-card__name">Ileana</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags">
 <span class="tag">Colombian</span>
 <span class="tag">Large Groups</span>
@@ -214,7 +213,6 @@
 <div class="place-card">
 <div class="place-card__header">
 <h2 class="place-card__name">Pizzeria Vesuvio</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <div class="place-card__tags">
 <span class="tag">Pizza</span>
 <span class="tag">Kid-Friendly</span>
@@ -248,7 +246,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/best-bars-craft-drinks-barranquilla/">
-<img alt="Best Bars &amp; Craft Drinks in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/craft-bar-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Bars &amp; Craft Drinks in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/craft-bar-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-bars-craft-drinks-barranquilla/">Best Bars &amp; Craft Drinks in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -259,7 +257,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/best-restaurants-with-children-barranquilla/">
-<img alt="Best Places to Eat with Children in Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/family-food-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Places to Eat with Children in Barranquilla" decoding="async" height="400" loading="lazy" src="/img/family-food-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-restaurants-with-children-barranquilla/">Best Places to Eat with Children in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -270,7 +268,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">
-<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"/> </a>
+<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">What to Eat in Barranquilla: How to Eat Like a Local (2026)</a></h3>
 <div class="article-card-meta">
@@ -292,7 +290,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

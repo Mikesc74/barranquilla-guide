@@ -1,13 +1,5 @@
-/*
-Theme Name:  Barranquilla Guide
-Theme URI:   https://barranquilla.guide
-Description: Custom theme for Barranquilla.guide - the insider guide to Colombia's Caribbean capital.
-Version:     1.0.1
-Author:      Barranquilla Guide
-Author URI:  https://barranquilla.guide
-Text Domain: barranquilla-guide
-Tags:        editorial, magazine, travel, custom-menu, featured-images, translation-ready
-*/
+/* Barranquilla Guide site styles. Static CF Pages site. Cache-bust by bumping
+   the ?v=YYYYMMDDx query string in <link rel="stylesheet"> across HTML pages. */
 
 /* ─── DESIGN TOKENS ─────────────────────────────────────────────── */
 :root {
@@ -287,9 +279,6 @@ p:last-child { margin-bottom: 0; }
   color: rgba(255,255,255,0.8); line-height: 1.6;
   max-width: 540px; margin: 0 auto 36px;
 }
-.hero-ctas {
-  display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
-}
 .hero-scroll {
   position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%);
   z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 8px;
@@ -344,10 +333,6 @@ p:last-child { margin-bottom: 0; }
 .nbhd-card-name {
   font-family: var(--font-serif); font-size: 20px; font-weight: 700;
   color: var(--white); line-height: 1.2;
-}
-.nbhd-card-desc {
-  font-family: var(--font-sans); font-size: 13px;
-  color: var(--dark-gray); margin-top: 4px;
 }
 .nbhd-card-link {
   display: inline-flex; align-items: center; gap: 4px;
@@ -474,11 +459,6 @@ p:last-child { margin-bottom: 0; }
   font-family: var(--font-serif); font-size: clamp(28px, 4vw, 42px);
   font-weight: 700; color: var(--white); line-height: 1.2; margin-bottom: 28px;
 }
-.editorial-pullquote {
-  font-family: var(--font-serif); font-size: 20px; font-style: italic;
-  color: rgba(255,255,255,0.65); line-height: 1.6;
-  padding-left: 24px; border-left: 3px solid var(--coral); margin-bottom: 28px;
-}
 .editorial-excerpt {
   font-family: var(--font-sans); font-size: 16px; color: rgba(255,255,255,0.65);
   line-height: 1.7; margin-bottom: 32px;
@@ -563,76 +543,12 @@ p:last-child { margin-bottom: 0; }
 .email-capture-submit:hover { background: #d04630; }
 .email-capture-note { font-family: var(--font-sans); font-size: 12px; color: var(--mid-gray); }
 
-/* ─── INLINE NEWSLETTER (in-article) ─────────────────────────────── */
-.newsletter-inline {
-  margin: 40px 0; padding: 28px 32px;
-  background: #fff7f3;
-  border: 1px solid rgba(232, 83, 58, 0.18);
-  border-radius: 10px;
-}
-@media (max-width: 600px) { .newsletter-inline { padding: 22px 20px; } }
-.newsletter-inline-eyebrow {
-  margin: 0 0 4px; font-size: 0.75rem; letter-spacing: 0.08em;
-  text-transform: uppercase; color: var(--coral); font-weight: 700;
-}
-.newsletter-inline-title {
-  margin: 0 0 8px; font-family: var(--font-serif);
-  font-size: 1.4rem; line-height: 1.2; color: #222;
-}
-.newsletter-inline-copy {
-  margin: 0 0 16px; color: #555; font-size: 0.95rem; line-height: 1.5;
-}
-.newsletter-inline-form {
-  display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch;
-}
-.newsletter-inline-form input[type="email"] {
-  flex: 1 1 220px; min-width: 0; padding: 10px 12px;
-  border: 1px solid #ddd; border-radius: 6px;
-  font-size: 0.95rem; background: #fff; color: #222;
-}
-.newsletter-inline-form button[type="submit"] {
-  background: var(--coral); color: var(--white); border: 0;
-  padding: 10px 18px; border-radius: 6px;
-  font-weight: 600; cursor: pointer; font-size: 0.95rem;
-}
-.newsletter-inline-form button[type="submit"]:hover { background: #d04630; }
-.newsletter-inline-status {
-  flex: 1 1 100%; font-size: 0.82rem; color: #777; min-height: 1.2em;
-}
+/* Removed inline-newsletter and footer-newsletter rules (commit cf8f5ea
+   stripped the matching HTML; styles had no consumers). */
 
-/* ─── FOOTER NEWSLETTER BAR ─────────────────────────────────────── */
-.footer-newsletter-bar {
-  background: rgba(0,0,0,0.18);
-  padding: 22px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
-}
-.footer-newsletter-inner {
-  display: grid; grid-template-columns: 1fr minmax(280px, 420px);
-  gap: 28px; align-items: center;
-}
-@media (max-width: 720px) {
-  .footer-newsletter-inner { grid-template-columns: 1fr; gap: 14px; }
-}
-.footer-newsletter-copy {
-  margin: 0; color: rgba(255,255,255,0.82);
-  font-size: 0.95rem; line-height: 1.5;
-}
-.footer-newsletter { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
-.footer-newsletter input[type="email"] {
-  flex: 1 1 200px; min-width: 0; padding: 10px 12px; border: 0;
-  border-radius: 6px; font-size: 0.95rem;
-  background: rgba(255,255,255,0.96); color: #222;
-}
-.footer-newsletter button[type="submit"] {
-  background: var(--coral); color: var(--white); border: 0;
-  padding: 10px 18px; border-radius: 6px;
-  font-weight: 600; cursor: pointer; font-size: 0.95rem;
-}
-.footer-newsletter button[type="submit"]:hover { background: #d04630; }
-.footer-newsletter-status {
-  flex: 1 1 100%; font-size: 0.82rem;
-  color: rgba(255,255,255,0.65); min-height: 1.2em;
-}
+/* now-grid auto-fit: declared here instead of as an inline <style> hack on
+   the homepage so the cascade is predictable. */
+.now-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 
 /* ─── FOOTER ─────────────────────────────────────────────────────── */
 .site-footer { background: var(--navy); color: var(--white); padding: 64px 0 32px; }

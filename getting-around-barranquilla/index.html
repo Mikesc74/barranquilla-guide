@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/bus-interior-992x900.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Getting Around Barranquilla: Transport Guide (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/bus-interior-992x900.jpg" width="992"/> </div>
+<img alt="Getting Around Barranquilla: Transport Guide (2026)" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/bus-interior-992x900.jpg" width="992"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Getting Around Barranquilla: Transport Guide (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -123,7 +125,6 @@
 <p class="guide-intro"><em>Last updated: April 2026. Barranquilla is a sprawling, traffic-heavy, heat-punishing city. You need a plan to move around it. This guide covers every realistic option, the BRT, city buses, rideshares, taxis, walking, driving, and bikes, plus what each one actually costs, when to pick it, and the honest trade-offs.</em></p>
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#what-to-use-when">At a glance: what to use when</a></li>
 <li><a href="#rideshare">Rideshare: Uber, DiDi, InDriver</a></li>
@@ -139,7 +140,6 @@
 </ol>
 </div>
 <h2 id="what-to-use-when">At a glance: what to use when</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Short hops within a neighborhood</strong>: walk, or 5–10 minute Uber.<br/>
 <strong>Cross-city (north to Centro, or east to west)</strong>: Uber, InDriver, or DiDi. 20–40 minutes, COP 15–35k.<br/>
 <strong>Trunk routes along the Murillo/Olaya Herrera corridor</strong>: Transmetro BRT.<br/>
@@ -147,7 +147,6 @@
 <strong>Out to Puerto Colombia, Tubará, Juan de Acosta</strong>: Uber, private transfer, or rental car.<br/>
 <strong>Carnaval week</strong>: walking is often fastest; street closures ripple everywhere.</p>
 <h2 id="rideshare">Rideshare: Uber, DiDi, InDriver</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Rideshare is how most tourists, professionals, and long-term foreign residents move around the city. It’s cheaper than taxis, more transparent, and far safer than hailing cabs on the street.</p>
 <h3>Uber</h3>
 <p>Biggest footprint and most reliable. In Colombia, Uber’s legal status has historically been contested, you’ll see the in-app message that you’re being dispatched a “<em>taxi</em>” rather than a private car in some cases, which is fine. Most Barranquilla Ubers are private drivers in their own cars using the standard UberX experience. Works with US, European, and Colombian credit cards; cash optional.</p>
@@ -167,19 +166,16 @@
 </ul>
 <p>Surge pricing kicks in during rush hours (7–9 AM, 5–8 PM), heavy rain, and Carnaval. Expect 1.5–2× on worst nights.</p>
 <h2 id="transmetro">Transmetro (BRT)</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla’s bus rapid transit system, operating since 2010. Modeled on Bogotá’s TransMilenio but smaller: two main trunk lines plus a network of feeder routes.</p>
 <p><strong>Main lines</strong> run along the Calle Murillo corridor (east–west across the middle of the city) and the Olaya Herrera corridor (from the Centro north toward Alto Prado and Riomar). For visitors, the Transmetro is practical mainly if you’re moving along these exact corridors; for other trips, a rideshare is faster and not much more expensive.</p>
 <p><strong>Fare</strong>: as of January 2026, COP 3,700 weekday / COP 3,800 Sundays and holidays. Payment by rechargeable <strong>Transmetro card</strong> (card itself: COP 4,000) or by <strong>contactless Visa</strong> at the turnstile. Cards are sold at any station; top up with cash or card.</p>
 <p><strong>Hours</strong>: roughly 5 AM to 10 PM weekdays, slightly shorter on weekends.</p>
 <p><strong>Practical notes</strong>: buses can be crowded and hot at peak. Stations are fenced platforms like Bogotá’s; board through the turnstile. Keep your phone out of sight on crowded buses; pickpocketing is the one real risk. Official info: <a href="https://transmetro.gov.co/" rel="noopener" target="_blank">transmetro.gov.co</a>. Routes and real-time tracking: <a href="https://moovitapp.com/index/en/public_transit-lines-Barranquilla" rel="noopener" target="_blank">Moovit Barranquilla</a>.</p>
 <h2 id="city-buses">City buses (colectivos)</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>The dense network of private city buses is the real public-transit backbone, serving neighborhoods Transmetro doesn’t reach and running more frequently than you’d expect. Fares as of 2026 are <strong>COP 3,300 ordinary / COP 3,400 Sundays</strong> (unified tariff across all operators, set by the Área Metropolitana). Pay cash when boarding.</p>
 <p>Buses don’t use formal stops; flag one down anywhere along a route, get off by shouting “<em>pare</em>” or “<em>la esquina por favor</em>.” Routes are loosely posted on the windshield. For a visitor, figuring out the right bus takes effort, use <a href="https://moovitapp.com/index/en/public_transit-lines-Barranquilla" rel="noopener" target="_blank">Moovit</a> to plan trips.</p>
 <p>Best use case for visitors: a dedicated ride-the-bus excursion as a way to see the city. Not a default daily commute option unless you live and work on the same bus line.</p>
 <h2 id="taxis">Taxis</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Registered yellow taxis are everywhere. They’re <strong>cheaper than rideshares on most routes</strong> but less transparent. Rules of thumb:</p>
 <ul>
 <li>Most don’t use meters; <strong>agree the fare before getting in</strong>.</li>
@@ -190,16 +186,13 @@
 </ul>
 <p>Rideshare is usually worth the small premium for the built-in safety tracking, fixed price, and card payment. Use taxis when rideshare surge is bad or when you’re in an area with thin driver coverage.</p>
 <h2 id="walking">Walking</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Barranquilla is walkable in pockets, not whole. <strong>El Prado, Alto Prado, and Villa Country</strong> are genuinely pedestrian-friendly, you can spend a whole weekend on foot if you stay in these neighborhoods. Sidewalks are uneven but consistent. The <a href="https://www.lagranmalecon.com/" rel="noopener" target="_blank">Gran Malecón</a> is the city’s best long walk, 5+ km along the river with cafés, sculpture, and sunset views.</p>
 <p>Everywhere else is more complicated. Sidewalks disappear, long blocks offer no shade, and distances that look short on a map feel brutal in 34°C humidity. Don’t plan to walk from Alto Prado to the Centro; it’s physically possible but unpleasant.</p>
 <p>Walk in the early morning (before 10 AM) or after sunset (after 6 PM) in the dry season. Carry water.</p>
 <h2 id="cycling">Cycling</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Cycling culture is growing. The <strong>Gran Malecón</strong> has a dedicated bike lane. Sunday’s <strong>Ciclovía</strong> closes major avenues to cars for several hours, popular with families. For commuting, the heat and the aggressive driving make daily cycling a committed choice; for recreation it works well.</p>
 <p>Rentals: a few shops along the Malecón rent bikes by the hour (~COP 15k/hr). Some hotels in Alto Prado rent too.</p>
 <h2 id="driving">Driving yourself</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>We generally don’t recommend renting a car inside the city. Traffic is dense, parking is scarce in the north, motorcycle behavior is unpredictable, and rideshares are cheap enough to make the hassle not worth it.</p>
 <p>A rental makes sense if you’re <strong>exploring the coast</strong>: day trips to Puerto Colombia, Salgar, Tubará, Juan de Acosta, the Parque Nacional Isla Salamanca, or a longer run to Santa Marta, Minca, Palomino, or Cartagena. Drive on the <strong>Vía al Mar</strong> (Ruta 90A) north-east toward Santa Marta (~2 hours) or south-west to Cartagena (~2.5 hours including tolls).</p>
 <p>Practical notes:</p>
@@ -211,7 +204,6 @@
 </ul>
 <p>Rental counters: Hertz, Avis, National, Budget, Localiza at BAQ and in-city.</p>
 <h2 id="intercity">Intercity and regional</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <h3>By road</h3>
 <p>Buses depart from the <strong>Terminal de Transportes</strong> (Calle 54 #8-103, south of the Centro) for destinations across Colombia. Reliable operators: <strong>Berlinas del Fonce</strong>, <strong>Expreso Brasilia</strong>, <strong>Rápido Ochoa</strong>, <strong>Copetran</strong>. Typical routes and times:</p>
 <ul>
@@ -227,7 +219,6 @@
 <h3>By air</h3>
 <p>From BAQ, you can fly to most major Colombian cities. Fastest routing for distant destinations; overkill for Cartagena or Santa Marta. See our <a href="/barranquilla-airport-guide/">airport guide</a>.</p>
 <h2 id="tips">Practical tips</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Download apps before you arrive.</strong> Uber, DiDi, InDriver, Moovit, and Google Maps all work well in Barranquilla. Maps of Transmetro lines are embedded in Moovit.</p>
 <p><strong>Keep some pesos on you.</strong> Buses, some taxis, and many small businesses don’t take cards.</p>
 <p><strong>Traffic windows</strong>: worst morning rush 7:15–9 AM; worst evening 5:30–8 PM. Avoid Calle 84 between the Villa Country mall and Carrera 46 in rush unless you have no choice.</p>
@@ -257,7 +248,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/immigration-lawyers-in-barranquilla-visa-help-legal-services-2026/">
-<img alt="Immigration Lawyers in Barranquilla: How to Choose (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/immigration_lawyer-600x400.jpg" srcset="/img/immigration_lawyer-600x400.jpg 600w, /img/immigration_lawyer-300x200.jpg 300w, /img/immigration_lawyer-1024x683.jpg 1024w, /img/immigration_lawyer-768x512.jpg 768w, /img/immigration_lawyer.jpg 1200w" width="600"/> </a>
+<img alt="Immigration Lawyers in Barranquilla: How to Choose (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/immigration_lawyer-600x400.jpg" srcset="/img/immigration_lawyer-600x400.jpg 600w, /img/immigration_lawyer-300x200.jpg 300w, /img/immigration_lawyer-1024x683.jpg 1024w, /img/immigration_lawyer-768x512.jpg 768w, /img/immigration_lawyer.jpg 1200w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/immigration-lawyers-in-barranquilla-visa-help-legal-services-2026/">Immigration Lawyers in Barranquilla: How to Choose (2026)</a></h3>
 <div class="article-card-meta">
@@ -268,7 +259,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-guide/">
-<img alt="Barranquilla Guide: The Practical Overview (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
+<img alt="Barranquilla Guide: The Practical Overview (2026)" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-guide/">Barranquilla Guide: The Practical Overview (2026)</a></h3>
 <div class="article-card-meta">
@@ -279,7 +270,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">
-<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"/> </a>
+<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">What to Eat in Barranquilla: How to Eat Like a Local (2026)</a></h3>
 <div class="article-card-meta">
@@ -301,7 +292,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

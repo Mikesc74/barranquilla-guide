@@ -33,6 +33,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/parque-de-la-castellana.jpg" fetchpriority="high">
   <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
@@ -101,7 +103,7 @@
   <!-- Hero Image -->
     <div class="article-hero">
     <div class="article-hero-image">
-      <img width="550" height="412" src="/img/parque-de-la-castellana.jpg" class="attachment-bg-hero size-bg-hero wp-post-image" alt="La Castellana" loading="eager" decoding="async" fetchpriority="high" srcset="/img/parque-de-la-castellana.jpg 550w, /img/parque-de-la-castellana-300x225.jpg 300w, /img/parque-de-la-castellana-400x300.jpg 400w" sizes="(max-width: 550px) 100vw, 550px" />    </div>
+      <img width="550" height="412" src="/img/parque-de-la-castellana.jpg" alt="La Castellana" loading="eager" decoding="async" fetchpriority="high" srcset="/img/parque-de-la-castellana.jpg 550w, /img/parque-de-la-castellana-300x225.jpg 300w, /img/parque-de-la-castellana-400x300.jpg 400w" sizes="(max-width: 550px) 100vw, 550px" />    </div>
   </div>
   
   <!-- Article Header -->
@@ -112,7 +114,7 @@
     
     <div class="article-header-meta">
       <div class="article-author-img">
-        <img srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&#038;d=mm&#038;r=g 2x" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&#038;d=mm&#038;r=g" alt='Mike Chartrand' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/>      </div>
+        <img src="/img/team/mike.svg" alt='Mike Chartrand' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/>      </div>
       <div>
         <div class="article-author-name">Mike Chartrand</div>
         <div class="article-date">
@@ -132,9 +134,9 @@
 <img alt="La Castellana" decoding="async" height="800" loading="lazy" src="/img/la-castellana-place-la-castellana.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Character &#038; Architecture</h2>
+<h2>Character &#038; Architecture</h2>
 <p>La Castellana features a mix of mid-rise apartment buildings, townhouse complexes (conjuntos cerrados), and some standalone houses. The neighborhood was developed primarily in the 1980s-2000s, giving it a more modern and planned feel than older central neighborhoods. Streets are wider than average for Barranquilla, with better-than-typical sidewalks. Several blocks have mature trees that provide welcome shade. The overall aesthetic is clean and middle-class, not luxurious, but well-maintained and orderly.</p>
-<h2 class="wp-block-heading">Daily Life &#038; Amenities</h2>
+<h2>Daily Life &#038; Amenities</h2>
 <p>La Castellana benefits from its central-northern position in the city. The Buenavista shopping mall is a short drive or taxi ride away. Supermarkets (Olímpica, Carulla) are within the neighborhood. Restaurants, gyms, clinics, and banks line the main avenues nearby. The neighborhood has good connectivity to both the northern commercial zones (El Golf, Zona Norte) and the city center. Several schools are in or near the neighborhood, including private bilingual options.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Zona Norte" decoding="async" height="800" loading="lazy" src="/img/la-castellana-place-zona-norte.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -144,16 +146,16 @@
 <img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/la-castellana-place-el-golf.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Who Lives Here</h2>
+<h2>Who Lives Here</h2>
 <p>La Castellana attracts young professionals, established families, and some expats who want comfort without the premium of El Golf or Villa Santos. The demographic is solidly middle-to-upper-middle class. It&#8217;s a neighborhood where people actually live their daily lives, walking to the pharmacy, chatting with neighbors at the panadería, taking evening walks when the heat drops. Less polished than Buenavista but more affordable and equally livable.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/la-castellana-place-villa-santos.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Rent &#038; Cost</h2>
-<p><strong>1-bedroom apartment:</strong> $350–550 USD/month<br /><strong>2-bedroom apartment:</strong> $500–800 USD/month<br /><strong>Houses (3-bedroom):</strong> $700–1,200 USD/month<br /><strong>Utilities:</strong> $60–100 USD/month</p>
+<h2>Rent &#038; Cost</h2>
+<p><strong>1-bedroom apartment:</strong> $350–550 USD/month<br/><strong>2-bedroom apartment:</strong> $500–800 USD/month<br/><strong>Houses (3-bedroom):</strong> $700–1,200 USD/month<br/><strong>Utilities:</strong> $60–100 USD/month</p>
 <p>La Castellana represents strong value, you get estrato 4-5 amenities and safety at prices 20-30% below the premium northern neighborhoods.</p>
-<h2 class="wp-block-heading">Best For / Not Ideal For</h2>
+<h2>Best For / Not Ideal For</h2>
 <p><strong>Best for:</strong> Families looking for good schools nearby, professionals who work in both the north and center of the city, people who want a comfortable neighborhood without paying top-tier prices.</p>
 <p><strong>Not ideal for:</strong> Those seeking nightlife and restaurants right outside their door, anyone wanting new luxury high-rise construction, people who prefer the social scene around El Golf and Buenavista.</p>
       </div><!-- .article-body -->
@@ -175,7 +177,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

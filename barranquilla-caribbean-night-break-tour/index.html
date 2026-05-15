@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/caribbean-night-break-1.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 669px) 100vw, 669px" src="/img/caribbean-night-break-1.jpg" srcset="/img/caribbean-night-break-1.jpg 669w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1-600x400.jpg 600w" width="669"/> </div>
+<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" decoding="async" fetchpriority="high" height="446" loading="eager" sizes="(max-width: 669px) 100vw, 669px" src="/img/caribbean-night-break-1.jpg" srcset="/img/caribbean-night-break-1.jpg 669w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1-600x400.jpg 600w" width="669"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -123,7 +125,7 @@
 
 <div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
-<h3 style="margin:0 0 12px 0;font-size:20px;color:#1a3a5c;">Barranquilla Tours &amp; Experiences</h3>
+<p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Tours &amp; Experiences</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
 <span>⏱ Various</span>
 <span> From from $24 USD</span>
@@ -133,10 +135,9 @@
 <p style="margin:12px 0 0 0;font-size:12px;color:#777;">Instant confirmation · Free cancellation on most bookings · Secure payment</p>
 </div>
 <p><a href="https://www.viator.com/tours/Barranquilla/Caribbean-Night-Break/d50228-5623696P2?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book the Caribbean Night Break on Viator</a> (~$68 USD | 5.0 ⭐ | Free cancellation)</p>
-<h2 class="wp-block-heading">What the Tour Covers</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="wp-block-image size-large"><img alt="Illuminated Barranquilla skyline at night" class="wp-image-3524" data-sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/nightlife-4-1024x768.jpg" srcset="/img/nightlife-4-1024x768.jpg 1024w, /img/nightlife-4-300x225.jpg 300w, /img/nightlife-4-768x576.jpg 768w, /img/nightlife-4-1536x1152.jpg 1536w, /img/nightlife-4-900x675.jpg 900w, /img/nightlife-4-400x300.jpg 400w, /img/nightlife-4.jpg 1585w" width="1024"/ loading="lazy"></figure>
-<ul class="wp-block-list">
+<h2>What the Tour Covers</h2>
+<figure><img alt="Illuminated Barranquilla skyline at night" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/nightlife-4-1024x768.jpg" srcset="/img/nightlife-4-1024x768.jpg 1024w, /img/nightlife-4-300x225.jpg 300w, /img/nightlife-4-768x576.jpg 768w, /img/nightlife-4-1536x1152.jpg 1536w, /img/nightlife-4-900x675.jpg 900w, /img/nightlife-4-400x300.jpg 400w, /img/nightlife-4.jpg 1585w" width="1024" loading="lazy"></figure>
+<ul>
 <li><strong>Barranquilla by night</strong>, The Gran Malecón, the historic El Prado neighbourhood, and the city’s best illuminated landmarks look completely different after dark</li>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-caribbean-night-break-tour-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -150,13 +151,13 @@
 <li><strong>Local bars and nightlife stops</strong>, The guide takes you to spots the tourist circuit doesn’t know about</li>
 <li>Motorcycle tour element, a uniquely costeño way to experience the city</li>
 </ul>
-<h2 class="wp-block-heading">Who This Is For</h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Caribbean night break drinks Barranquilla" class="wp-image-3701" data-sizes="auto, (max-width: 668px) 100vw, 668px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-2.jpg" srcset="/img/caribbean-night-break-2.jpg 668w, /img/caribbean-night-break-2-300x200.jpg 300w, /img/caribbean-night-break-2-600x400.jpg 600w" width="668"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<h2>Who This Is For</h2>
+<figure><img alt="Caribbean night break drinks Barranquilla" sizes="auto, (max-width: 668px) 100vw, 668px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-2.jpg" srcset="/img/caribbean-night-break-2.jpg 668w, /img/caribbean-night-break-2-300x200.jpg 300w, /img/caribbean-night-break-2-600x400.jpg 600w" width="668"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p>This tour suits visitors who want more than the standard daytime city tour, people who want to experience Barranquilla the way it actually lives, which is very much after dark. It’s also a safe and guided way to explore the nightlife for visitors who want local knowledge rather than figuring it out alone.</p>
 <p>The 5.0 rating reflects how well it delivers on its promise: an authentic, local evening experience that most visitors would never find independently.</p>
-<h2 class="wp-block-heading">Practical Details</h2>
-<figure class="wp-block-image size-large"><img alt="Evening view of a Barranquilla cultural venue" class="wp-image-3522" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="768" loading="lazy" src="/img/night-at-the-museo-1024x768.jpg" srcset="/img/night-at-the-museo-1024x768.jpg 1024w, /img/night-at-the-museo-300x225.jpg 300w, /img/night-at-the-museo-768x576.jpg 768w, /img/night-at-the-museo-900x675.jpg 900w, /img/night-at-the-museo-400x300.jpg 400w, /img/night-at-the-museo.jpg 1225w" width="1024"/></figure>
-<ul class="wp-block-list">
+<h2>Practical Details</h2>
+<figure><img alt="Evening view of a Barranquilla cultural venue" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="768" loading="lazy" src="/img/night-at-the-museo-1024x768.jpg" srcset="/img/night-at-the-museo-1024x768.jpg 1024w, /img/night-at-the-museo-300x225.jpg 300w, /img/night-at-the-museo-768x576.jpg 768w, /img/night-at-the-museo-900x675.jpg 900w, /img/night-at-the-museo-400x300.jpg 400w, /img/night-at-the-museo.jpg 1225w" width="1024"/></figure>
+<ul>
 <li><strong>Duration:</strong> 4 to 5 hours</li>
 <li><strong>Price:</strong> From ~$68 USD (COP 284,007)</li>
 <li><strong>Departure:</strong> Evening, typically 7pm or 8pm start</li>
@@ -164,24 +165,23 @@
 <li><strong>What to wear:</strong> Smart casual, you’ll be going into bars. Not flip-flops.</li>
 <li><strong>Safety:</strong> Fully guided throughout. Helmets provided for motorcycle element.</li>
 </ul>
-<h2 class="wp-block-heading">Before the Tour: <a href="/where-to-stay-in-barranquilla/">Where to Stay</a></h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Dancing at Caribbean night break tour" class="wp-image-3702" data-sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-3.jpg" srcset="/img/caribbean-night-break-3.jpg 669w, /img/caribbean-night-break-3-300x200.jpg 300w, /img/caribbean-night-break-3-600x400.jpg 600w" width="669"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<h2>Before the Tour: <a href="/where-to-stay-in-barranquilla/">Where to Stay</a></h2>
+<figure><img alt="Dancing at Caribbean night break tour" sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-3.jpg" srcset="/img/caribbean-night-break-3.jpg 669w, /img/caribbean-night-break-3-300x200.jpg 300w, /img/caribbean-night-break-3-600x400.jpg 600w" width="669"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p>El Prado is the right base, both for this tour and for your broader stay. <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a> and <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fdann-carlton-barranquilla.html" rel="noopener sponsored" target="_blank">Dann Carlton</a> are both excellent options with convenient evening access to the nightlife zone.</p>
-<h2 class="wp-block-heading">Book the Caribbean Night Break</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2>Book the Caribbean Night Break</h2>
 <p><a href="https://www.viator.com/tours/Barranquilla/Caribbean-Night-Break/d50228-5623696P2?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book on Viator, free cancellation, secure payment</a></p>
-<h2 class="wp-block-heading">More Barranquilla Nightlife</h2>
-<figure class="wp-block-image alignwide size-large"><img alt="Bars on Caribbean night break Barranquilla" class="wp-image-3703" data-sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-4.jpg" srcset="/img/caribbean-night-break-4.jpg 669w, /img/caribbean-night-break-4-300x200.jpg 300w, /img/caribbean-night-break-4-600x400.jpg 600w" width="669"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<h2>More Barranquilla Nightlife</h2>
+<figure><img alt="Bars on Caribbean night break Barranquilla" sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-4.jpg" srcset="/img/caribbean-night-break-4.jpg 669w, /img/caribbean-night-break-4-300x200.jpg 300w, /img/caribbean-night-break-4-600x400.jpg 600w" width="669"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p>Want to plan your nights independently? See our full <a href="/barranquilla-nightlife-bars-clubs/">Barranquilla Nightlife Guide →</a> for the <a href="/best-bars-craft-drinks-barranquilla/">best bars</a>, clubs, and what to expect after dark.</p>
-<ul class="wp-block-list">
+<ul>
 <li><a href="/barranquilla-private-bike-tour/">Private Bike Tour</a>, Best daytime alternative (5.0 ⭐, 23 reviews)</li>
 <li><a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Gran Malecón City Tour</a>, Most reviewed (4.6 ⭐, 39 reviews)</li>
 <li><a href="/best-tours-experiences-barranquilla/">All Barranquilla tours →</a></li>
 </ul>
 <div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
-<h3 style="margin:0 0 12px 0;font-size:20px;color:#1a3a5c;">Barranquilla Tours &amp; Experiences</h3>
-<figure class="wp-block-image alignwide size-large"><img alt="Night scene Caribbean night break tour" class="wp-image-3704" data-sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-5.jpg" srcset="/img/caribbean-night-break-5.jpg 669w, /img/caribbean-night-break-5-300x200.jpg 300w, /img/caribbean-night-break-5-600x400.jpg 600w" width="669"/><figcaption class="wp-element-caption">Photo: Viator / Tour Operator</figcaption></figure>
+<p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Tours &amp; Experiences</p>
+<figure><img alt="Night scene Caribbean night break tour" sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/caribbean-night-break-5.jpg" srcset="/img/caribbean-night-break-5.jpg 669w, /img/caribbean-night-break-5-300x200.jpg 300w, /img/caribbean-night-break-5-600x400.jpg 600w" width="669"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
 <span>⏱ Various</span>
 <span> From from $24 USD</span>
@@ -204,7 +204,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">
-<img alt="Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-tour-1-600x400.jpg" srcset="/img/gran-malecon-tour-1-600x400.jpg 600w, /img/gran-malecon-tour-1-300x200.jpg 300w, /img/gran-malecon-tour-1.jpg 669w" width="600"/> </a>
+<img alt="Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-tour-1-600x400.jpg" srcset="/img/gran-malecon-tour-1-600x400.jpg 600w, /img/gran-malecon-tour-1-300x200.jpg 300w, /img/gran-malecon-tour-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?</a></h3>
 <div class="article-card-meta">
@@ -215,7 +215,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/the-best-hotels-in-barranquilla/">
-<img alt="The Best Hotels in Barranquilla (2026 Guide)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="361" loading="lazy" src="/img/featured-image.png" srcset="/img/featured-image.png 822w, /img/featured-image-300x181.png 300w, /img/featured-image-768x462.png 768w, /img/featured-image-696x419.png 696w" width="600"/> </a>
+<img alt="The Best Hotels in Barranquilla (2026 Guide)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="361" loading="lazy" src="/img/featured-image.png" srcset="/img/featured-image.png 822w, /img/featured-image-300x181.png 300w, /img/featured-image-768x462.png 768w, /img/featured-image-696x419.png 696w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/the-best-hotels-in-barranquilla/">The Best Hotels in Barranquilla (2026 Guide)</a></h3>
 <div class="article-card-meta">
@@ -226,7 +226,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/marriott-hotel-barranquilla/">
-<img alt="Discovering the Allure of Marriott Hotel Barranquilla" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/marriott-amira.webp" srcset="/img/marriott-amira.webp 1215w, /img/marriott-amira-300x200.webp 300w, /img/marriott-amira-1024x683.webp 1024w, /img/marriott-amira-768x512.webp 768w, /img/marriott-amira-150x100.webp 150w, /img/marriott-amira-696x464.webp 696w, /img/marriott-amira-1068x712.webp 1068w" width="600"/> </a>
+<img alt="Discovering the Allure of Marriott Hotel Barranquilla" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/marriott-amira.webp" srcset="/img/marriott-amira.webp 1215w, /img/marriott-amira-300x200.webp 300w, /img/marriott-amira-1024x683.webp 1024w, /img/marriott-amira-768x512.webp 768w, /img/marriott-amira-150x100.webp 150w, /img/marriott-amira-696x464.webp 696w, /img/marriott-amira-1068x712.webp 1068w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/marriott-hotel-barranquilla/">Discovering the Allure of Marriott Hotel Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -248,7 +248,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

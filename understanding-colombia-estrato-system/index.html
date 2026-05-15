@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/bus-3-992x900.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Understanding Colombia’s Estrato System" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/bus-3-992x900.jpg" width="992"/> </div>
+<img alt="Understanding Colombia’s Estrato System" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/bus-3-992x900.jpg" width="992"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Understanding Colombia’s Estrato System</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -136,14 +138,11 @@
 <li><a href="#further-reading">Further reading on this site</a></li>
 </ol>
 </div>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <h2 id="what-is-estrato">What the estrato system actually is</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>The <strong>estrato socioeconómico</strong> is a classification applied to <strong>residential dwellings</strong>, not to people. Every home in urban Colombia is assigned an estrato from <strong>1 to 6</strong>, based on the physical characteristics of the building and its surroundings. Its primary legal function is <strong>cross-subsidization of public utilities</strong>: lower-estrato homes pay subsidized rates; higher-estrato homes pay surcharges that fund those subsidies.</p>
 <p>The system was formalized in <strong>Ley 142 de 1994</strong> (the Domiciliary Public Services Law) and refined by CONPES and DANE methodologies. Classification is carried out by each municipality using a national methodology and published through municipal planning offices. DANE coordinates national standards.</p>
 <p>Crucial point to understand up front: <strong>the estrato describes the house, not the household</strong>. A retired schoolteacher living in a flat she bought forty years ago can live in estrato 5, while a young professional renting in the same block might live in estrato 6, a block over in estrato 4. It’s the dwelling that’s classified, not the occupant.</p>
 <h2 id="six-strata">The six strata, what they mean</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Estrato 1, Bajo-bajo</strong>: lowest income. Typical housing: self-built, limited services, often on urban periphery.</li>
 <li><strong>Estrato 2, Bajo</strong>: low income. Basic formal housing, full services, older neighborhoods.</li>
@@ -154,7 +153,6 @@
 </ul>
 <p>In 2024, roughly 75% of Colombian households lived in estratos 1–3; ~20% in estrato 4; and ~5% in estratos 5–6 combined. The system is a crude instrument, imperfect at the edges, but captures the broad socioeconomic shape of Colombian cities.</p>
 <h2 id="utility-subsidies">How estrato affects utility bills</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>This is the practical meat of the system. Under Ley 142, utility tariffs are structured so that higher-estrato users subsidize lower-estrato users on a <strong>base consumption</strong> (the <em>consumo básico</em>). Consumption above the subsistence threshold is billed at market rate regardless of estrato.</p>
 <p>Typical subsidy/surcharge schedule (values shift periodically; indicative 2026 figures):</p>
 <ul>
@@ -168,7 +166,6 @@
 <p>This applies to <strong>electricity</strong> (Air-e in Barranquilla), <strong>water and sewage</strong> (Triple A), <strong>natural gas</strong> (Gases del Caribe), and <strong>fixed-line phone / internet</strong> (though the last has partially drifted away from estrato-based pricing as competition grew).</p>
 <p>Impact on a Barranquilla expat’s bills: an apartment in estrato 6 Villa Santos easily runs <strong>COP 600k–900k/month</strong> in combined utilities if you use A/C heavily, while the same consumption pattern in estrato 4 El Prado might be <strong>COP 350k–550k</strong>. See the utilities section of our <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">cost of living guide</a>.</p>
 <h2 id="what-else">What else estrato affects</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Public-transport subsidies</strong> for low-estrato households in some cities (Transmetro in Barranquilla does not currently apply estrato discounts).</li>
 <li><strong>Access to certain government programs</strong>, Familias en Acción, housing subsidies (VIS/VIP), cash transfers, targeted at estratos 1–3.</li>
@@ -179,7 +176,6 @@
 <li><strong>Social signaling</strong>: Colombians absolutely do use estrato as shorthand for social class in conversation. The government has debated renaming or reforming the system for exactly this reason.</li>
 </ul>
 <h2 id="barranquilla-map">Estrato by Barranquilla neighborhood</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Neighborhood-by-neighborhood estrato can be granular, even the block matters. Broad strokes for the northern expat-relevant areas:</p>
 <ul>
 <li><strong>Altos del Limón</strong>: estrato 6. Newest high-end gated developments.</li>
@@ -201,7 +197,6 @@
 </ul>
 <p>For a fuller read on who lives where and what each neighborhood <em>feels</em> like, see our <a href="/barranquilla-neighborhoods/">neighborhoods guide</a>.</p>
 <h2 id="check-estrato">How to check the estrato of a specific address</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Look at a utility bill</strong>. Air-e (electricity), Triple A (water), or Gases del Caribe bills print the estrato near the property address. This is the fastest check.</li>
 <li><strong>Ask the landlord or portero</strong>. Everyone who rents or sells a property knows the estrato.</li>
@@ -209,7 +204,6 @@
 <li><strong>DANE</strong> provides national methodology reference: <a href="https://www.dane.gov.co/" rel="noopener" target="_blank">dane.gov.co</a>.</li>
 </ul>
 <h2 id="misconceptions">Common misconceptions</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>“Estrato measures income.”</strong> Not directly. It measures housing characteristics in a neighborhood. People with high incomes sometimes live in estrato 4 for historical or family reasons; retirees in older estrato 6 flats can be cash-poor.</li>
 <li><strong>“Higher estrato is always better.”</strong> Higher estrato means higher utility bills and higher property tax. For some expats, estrato 4 neighborhoods like parts of El Prado offer the best combination of cost and livability.</li>
@@ -218,7 +212,6 @@
 <li><strong>“The system is being abolished.”</strong> There have been proposals, DANE has explored an income-based alternative, but as of 2026, estratos remain the basis for utility cross-subsidy. Reforms inch forward.</li>
 </ul>
 <h2 id="expat-lens">What this all means for a foreigner moving to Barranquilla</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <ul>
 <li><strong>Read the estrato when you see a listing</strong>. It tells you the utility-cost tier and gives a quick signal of the neighborhood character. Ask if it’s not listed.</li>
 <li><strong>Budget utilities accordingly</strong>. Same apartment size, estrato 6 costs substantially more per month in utilities than estrato 4.</li>
@@ -227,7 +220,6 @@
 <li><strong>If you’re estrato 5 or 6 and will be in Colombia long enough to care about tax, check if a lower-estrato area suits you as well</strong>. Utility savings of COP 300k/month × 12 months is real money.</li>
 </ul>
 <h2 id="faq">FAQ</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Can I change the estrato of my home?</strong> Only via formal reclassification by the municipal planning office, and only if the neighborhood’s physical character has changed materially. Individual homeowners can’t just request a change.</p>
 <p><strong>What estrato is my Airbnb?</strong> Hosts usually know; the bills will show it. For a short stay it doesn’t matter much, host absorbs utilities.</p>
 <p><strong>Does my rent include utilities?</strong> In most Barranquilla long-term leases, <strong>no</strong>, utilities are paid separately by the tenant. This makes the estrato highly relevant. See our <a href="/housing-renting-barranquilla/">housing guide</a>.</p>
@@ -259,7 +251,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/salary-for-colombian-maid-or-domestic-worker/">
-<img alt="Salary for a Colombian Maid or Domestic Worker in 2026" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/breakfast-600x400.jpg" width="600"/> </a>
+<img alt="Salary for a Colombian Maid or Domestic Worker in 2026" decoding="async" height="400" loading="lazy" src="/img/breakfast-600x400.jpg" width="600"/> </a>
 <span class="label">Live</span>
 <h3 class="article-card-title"><a href="/salary-for-colombian-maid-or-domestic-worker/">Salary for a Colombian Maid or Domestic Worker in 2026</a></h3>
 <div class="article-card-meta">
@@ -270,7 +262,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/colombia-travel-insurance-guide/">
-<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/quilla-skyline-from-the-magdalena-600x400.jpg" width="600"/> </a>
+<img alt="Travel Insurance for Barranquilla: What You Actually Need (2026)" decoding="async" height="400" loading="lazy" src="/img/quilla-skyline-from-the-magdalena-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/colombia-travel-insurance-guide/">Travel Insurance for Barranquilla: What You Actually Need (2026)</a></h3>
 <div class="article-card-meta">
@@ -281,7 +273,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/order-from-amazon-to-colombia/">
-<img alt="Ordering from Amazon to Colombia in 2026" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/call-center-scaled.webp" srcset="/img/call-center-scaled.webp 2560w, /img/call-center-300x200.webp 300w, /img/call-center-1024x683.webp 1024w, /img/call-center-768x512.webp 768w, /img/call-center-1536x1024.webp 1536w, /img/call-center-2048x1366.webp 2048w, /img/call-center-150x100.webp 150w, /img/call-center-696x464.webp 696w, /img/call-center-1068x712.webp 1068w, /img/call-center-1920x1281.webp 1920w" width="600"/> </a>
+<img alt="Ordering from Amazon to Colombia in 2026" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/call-center-scaled.webp" srcset="/img/call-center-scaled.webp 2560w, /img/call-center-300x200.webp 300w, /img/call-center-1024x683.webp 1024w, /img/call-center-768x512.webp 768w, /img/call-center-1536x1024.webp 1536w, /img/call-center-2048x1366.webp 2048w, /img/call-center-150x100.webp 150w, /img/call-center-696x464.webp 696w, /img/call-center-1068x712.webp 1068w, /img/call-center-1920x1281.webp 1920w" width="600"/> </a>
 <span class="label">Live</span>
 <h3 class="article-card-title"><a href="/order-from-amazon-to-colombia/">Ordering from Amazon to Colombia in 2026</a></h3>
 <div class="article-card-meta">
@@ -303,7 +295,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

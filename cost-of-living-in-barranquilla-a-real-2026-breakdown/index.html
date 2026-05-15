@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/barranquilla-city-panoramic-cost-of-living.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Cost of Living in Barranquilla: A Real 2026 Breakdown" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="450" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/barranquilla-city-panoramic-cost-of-living.jpg" srcset="/img/barranquilla-city-panoramic-cost-of-living.jpg 1200w, /img/barranquilla-city-panoramic-cost-of-living-300x113.jpg 300w, /img/barranquilla-city-panoramic-cost-of-living-1024x384.jpg 1024w, /img/barranquilla-city-panoramic-cost-of-living-768x288.jpg 768w" width="1200"/> </div>
+<img alt="Cost of Living in Barranquilla: A Real 2026 Breakdown" decoding="async" fetchpriority="high" height="450" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/barranquilla-city-panoramic-cost-of-living.jpg" srcset="/img/barranquilla-city-panoramic-cost-of-living.jpg 1200w, /img/barranquilla-city-panoramic-cost-of-living-300x113.jpg 300w, /img/barranquilla-city-panoramic-cost-of-living-1024x384.jpg 1024w, /img/barranquilla-city-panoramic-cost-of-living-768x288.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Cost of Living in Barranquilla: A Real 2026 Breakdown</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -122,7 +124,6 @@
 <p class="guide-intro"><em>Last updated: April 2026. Barranquilla is considerably cheaper than any comparable coastal city in the US or Europe, and meaningfully cheaper than Cartagena. This guide walks through what a real month looks like, housing, utilities, food, transport, healthcare, and the discretionary spend, with realistic numbers rather than optimistic ones.</em></p>
 <div class="toc">
 <h2>What’s in this guide</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
 <ol>
 <li><a href="#summary">Summary: three realistic monthly budgets</a></li>
 <li><a href="#housing">Housing</a></li>
@@ -168,7 +169,6 @@
 
 <p>Exchange rate as of April 2026: <strong>~COP 4,000 = USD 1</strong>. Use <a href="https://www.xe.com/currencyconverter/convert/?From=USD&amp;To=COP" rel="noopener" target="_blank">XE</a> for current rates.</p>
 <h2 id="housing">Housing</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>See our <a href="/housing-renting-barranquilla/">housing guide</a> for the full picture. Summary numbers for unfurnished monthly rent:</p>
 <table style="border-collapse: collapse; width: 100%; max-width: 720px;">
 <thead>
@@ -218,7 +218,6 @@
 </ul>
 <p>Total utility bundle: <strong>COP 550k–1.2M/month</strong>. Lower estratos (3–4) pay meaningfully less, but most expats live in 5–6.</p>
 <h2 id="food">Food and groceries</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <h3>Groceries</h3>
 <p>Weekly grocery cost for two adults cooking most meals: <strong>COP 250–450k</strong> depending on whether you buy at local markets (cheaper) or upmarket chains (pricier). Key options:</p>
 <ul>
@@ -252,7 +251,6 @@
 </ul>
 <p>Most expats we know don’t own a car; the rideshare math wins unless you’re making weekly out-of-town trips.</p>
 <h2 id="healthcare">Healthcare</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p>Colombia’s healthcare system is two-tiered: a mandatory public system (EPS) and optional private “prepagada” insurance that layers on top. Quality at the top private hospitals (<a href="https://www.cardiovascular.com.co/" rel="noopener" target="_blank">Clínica del Caribe</a>, <a href="https://www.portoazul.com.co/" rel="noopener" target="_blank">Clínica Porto Azul</a>) is internationally comparable.</p>
 <ul>
 <li><strong>Mandatory EPS</strong> (if you work locally or are a resident): ~12.5% of salary, split between employer and employee. Covers most healthcare, with some co-pays.</li>
@@ -274,7 +272,6 @@
 <li><strong>International school</strong>: COP 25–70M/year tuition (yes, per year). Karl C. Parrish, Altamira International, Marymount are the three most common options.</li>
 </ul>
 <h2 id="saving-money">Where to save money</h2>
-<!-- PEXELS_SECTION_IMAGE -->
 <p><strong>Go south for rent.</strong> Moving from Villa Santos to Ciudad Jardín or Granadillo can save 30–40% on rent and 20–30% on utilities (lower stratum), without sacrificing much in safety or convenience.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Granadillo" decoding="async" height="800" loading="lazy" src="/img/cost-of-living-in-barranquilla-a-real-2026-breakdown-place-granadillo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -329,7 +326,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-private-bike-tour/">
-<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
+<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-private-bike-tour/">Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -340,7 +337,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-guide/">
-<img alt="Barranquilla Guide: The Practical Overview (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
+<img alt="Barranquilla Guide: The Practical Overview (2026)" decoding="async" height="400" loading="lazy" src="/img/graffiti-in-centro-1-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/barranquilla-guide/">Barranquilla Guide: The Practical Overview (2026)</a></h3>
 <div class="article-card-meta">
@@ -351,7 +348,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/things-to-do-around-barranquilla/">
-<img alt="Things to Do in Barranquilla: The Complete 2026 Guide" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-3-600x400.jpg" srcset="/img/bike-tour-barranquilla-3-600x400.jpg 600w, /img/bike-tour-barranquilla-3-300x200.jpg 300w, /img/bike-tour-barranquilla-3.jpg 669w" width="600"/> </a>
+<img alt="Things to Do in Barranquilla: The Complete 2026 Guide" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-3-600x400.jpg" srcset="/img/bike-tour-barranquilla-3-600x400.jpg 600w, /img/bike-tour-barranquilla-3-300x200.jpg 300w, /img/bike-tour-barranquilla-3.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/things-to-do-around-barranquilla/">Things to Do in Barranquilla: The Complete 2026 Guide</a></h3>
 <div class="article-card-meta">
@@ -373,7 +370,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

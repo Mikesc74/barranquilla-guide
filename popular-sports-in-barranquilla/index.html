@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/estadio-edgar-renteria-scaled.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Popular Sports for Enthusiasts in Barranquilla" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1425px) 100vw, 1425px" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.jpg 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="1425"/> </div>
+<img alt="Popular Sports for Enthusiasts in Barranquilla" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1425px) 100vw, 1425px" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="1425"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Popular Sports for Enthusiasts in Barranquilla</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -130,37 +132,29 @@
 <li><a href="#8-volleyball">8. Volleyball</a></li>
 </ol>
 </div>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
-<h2 class="wp-block-heading" id="1-football-soccer">1. Football: Junior FC</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="1-football-soccer">1. Football: Junior FC</h2>
 <p>Junior FC (officially Club Deportivo Popular Junior FC) is the local team and the dominant sports story in Barranquilla. They play in Colombia's top division, the Categoría Primera A, and have won the national league multiple times. Home matches are at Estadio Metropolitano Roberto Meléndez in the south of the city.</p>
-<figure class="wp-block-image size-large"><img alt="Estadio Metropolitano Roberto Meléndez, home of Junior FC" class="wp-image-2954" decoding="async" src="/img/estadio-metropolitana-1024x768.jpg" width="1024" height="768" loading="lazy"/></figure>
+<figure><img alt="Estadio Metropolitano Roberto Meléndez, home of Junior FC" decoding="async" src="/img/estadio-metropolitana-1024x768.jpg" width="1024" height="768" loading="lazy"/></figure>
 <p>Matchdays are the city's main shared event outside of Carnaval. The stadium is the same one that hosts Colombian national-team World Cup qualifiers, so when both Junior and the Selección play there it doubles as the country's home ground. Atmosphere on a Junior matchday is loud, partisan, and family-friendly in the general sections; the ultras' end (Frente Rojiblanco) is louder and rowdier, sit elsewhere if you have small kids or want a calm view.</p>
 <p>Tickets: buy in advance on TuBoleta or at OXXO points around the city, prices typically run COP 30.000 to 150.000 depending on section and match. Walk-up tickets exist for less important matches but big games sell out. Get to the stadium at least 45 minutes early; traffic in the south side is heavy on matchdays and parking near the ground is a hassle, an Uber drop-off is easier than driving in.</p>
-<h2 class="wp-block-heading" id="2-baseball-and-caimanes">2. Baseball: the Caimanes</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="2-baseball-and-caimanes">2. Baseball: the Caimanes</h2>
 <p>Baseball is the second sport in the city, which is unusual in Colombia but standard for the Caribbean coast. The local team, the <a href="https://www.instagram.com/caimanesdebarranquilla/" rel="noreferrer noopener" target="_blank">Caimanes de Barranquilla</a>, play in the Liga Profesional de Béisbol Colombiano. They have won several domestic titles and represented Colombia in the Caribbean Series. The season usually runs late October through January.</p>
 <p>Games are at Estadio Edgar Rentería, named for the Barranquilla-born MLB shortstop. The atmosphere is more relaxed than Junior matches, families and beer, easier to get a ticket on the day. Tickets are cheap by international standards, expect roughly COP 15.000 to 50.000 for general admission as of writing.</p>
-<h2 class="wp-block-heading" id="3-tennis-and-padel">3. Tennis and padel</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="3-tennis-and-padel">3. Tennis and padel</h2>
 <p>If you want to play, the public option is Parque Distrital de Raquetas, with tennis and racquetball courts. Book through the Alcaldía's <a href="https://appbaq.barranquilla.gov.co:8989/canchas/" rel="noreferrer noopener" target="_blank">reservation system</a>. Bosques del Norte also has courts. The <a href="https://chat.whatsapp.com/JpvXYzMB3e8BtmjAKvAZZ4">Barranquilla Tennis Lovers WhatsApp group</a> is the easiest way for an expat to find a hitting partner.</p>
 <p>Padel has grown fast in the last few years. <a href="https://www.instagram.com/casapadelcolombia/" rel="noreferrer noopener" target="_blank">Casa Padel</a> in Villa Campestre and <a href="https://www.instagram.com/granpadel.co/" rel="noreferrer noopener" target="_blank">Gran Padel</a> at Le Meridiem Golf are the two main clubs. Court rentals usually run COP 80.000 to 120.000 per hour split between four players.</p>
-<h2 class="wp-block-heading" id="4-golf">4. Golf</h2>
+<h2 id="4-golf">4. Golf</h2>
 <p><a href="http://www.lagosdecaujaral.com/golf/" rel="noreferrer noopener" target="_blank">Lagos de Caujaral</a> is the only serious 18-hole course in the metro area. It is a private club but accepts visiting foreigners at a fee that was COP 300.000 as of writing (verify; rates change). Lessons are mostly in Spanish; you can sometimes arrange an English-speaking instructor in advance, ask when you book.</p>
-<h2 class="wp-block-heading" id="5-water-sports">5. Water sports</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="5-water-sports">5. Water sports</h2>
 <p>Atlántico's coast has steady wind from December through April, which makes it solid kitesurfing country. The popular spots are <a href="/puerto-mocho/">Puerto Mocho</a>, Puerto Colombia, and Santa Veronica. Hire a certified instructor, the currents off this coast are not friendly to self-taught beginners. <a href="https://www.instagram.com/kiyakitesurfing/" rel="noreferrer noopener" target="_blank">Kiya Kitesurfing</a> is one of the local schools. Paddleboarding and small-boat sailing are easier entry points if kitesurfing feels too much.</p>
-<h2 class="wp-block-heading" id="6-martial-arts">6. Martial arts</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="6-martial-arts">6. Martial arts</h2>
 <p>Taekwondo and Muay Thai have the most active local communities. The <a href="http://www.atcbaq.com/" rel="noreferrer noopener" target="_blank">American Taekwondo Center</a> in Villa Campestre runs adult and kids classes. For Muay Thai, contact <a href="https://www.instagram.com/muaythaiatlantico/" rel="noreferrer noopener" target="_blank">Muay Thai Atlántico</a> or <a href="https://www.instagram.com/barrankillamuaythai/" rel="noreferrer noopener" target="_blank">BarranKilla Muay Thai</a> on Instagram for current schedules.</p>
-<h2 class="wp-block-heading" id="7-running-and-cycling">7. Running and cycling</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="7-running-and-cycling">7. Running and cycling</h2>
 <p>The <a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Gran Malecón</a> del Río is a 5km riverfront boardwalk that doubles as the city's running and cycling strip. Mornings (before 8am) and evenings (after 6pm) are the realistic windows, mid-day heat will end your run. The annual Barranquilla Marathon usually starts here in March.</p>
 <p>For cycling beyond the Malecón, the Vía al Mar to Puerto Colombia is a popular weekend ride. Group rides go out with <a href="https://www.instagram.com/bicipeople/?hl=en" rel="noreferrer noopener" target="_blank">BiciPeople</a> and <a href="https://www.instagram.com/bicilight_oficial/?hl=en" rel="noreferrer noopener" target="_blank">BiciLight</a>. For shopping, Ciclo Special on Carrera 51B and Bike House on Calle 84 are the main bike shops.</p>
-<h2 class="wp-block-heading" id="8-volleyball">8. Volleyball</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2 id="8-volleyball">8. Volleyball</h2>
 <p>Recreational leagues run through <a href="https://www.instagram.com/weekendvoleyvc" rel="noreferrer noopener" target="_blank">WeekendVoley</a> and <a href="https://www.instagram.com/mintonettebaq21/" rel="noreferrer noopener" target="_blank">Mintonette</a>. Beach volleyball is informal but easy to find on weekends at Playa Sabanilla and Playa Mendoza.</p>
-<h2 class="wp-block-heading" id="conclusion">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 <p>If you are picking one sport to pay attention to as a newcomer, make it Junior FC, that is the conversation everyone in the city is already having. Baseball is the warm second, and worth catching a game in season. The rest depends on what you do, padel and running clubs are good for meeting people, kitesurfing and golf are for committed hobbyists. Carnaval is the city's defining event but it is a festival, not a sport, and it deserves its own <a href="/barranquilla-carnival-complete-guide/">guide</a>.</p>
 <h2 id="further-reading">Further reading</h2>
 <p>Related active-life guides:</p>
@@ -186,7 +180,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">
-<img alt="Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-tour-1-600x400.jpg" srcset="/img/gran-malecon-tour-1-600x400.jpg 600w, /img/gran-malecon-tour-1-300x200.jpg 300w, /img/gran-malecon-tour-1.jpg 669w" width="600"/> </a>
+<img alt="Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/gran-malecon-tour-1-600x400.jpg" srcset="/img/gran-malecon-tour-1-600x400.jpg 600w, /img/gran-malecon-tour-1-300x200.jpg 300w, /img/gran-malecon-tour-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Gran Malecón &amp; Carnaval Museum City Tour: Is It Worth It?</a></h3>
 <div class="article-card-meta">
@@ -197,7 +191,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/day-trips-from-barranquilla/">
-<img alt="Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/caribbean-sunset-from-alto-riomar-600x400.jpg" width="600"/> </a>
+<img alt="Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities" decoding="async" height="400" loading="lazy" src="/img/caribbean-sunset-from-alto-riomar-600x400.jpg" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/day-trips-from-barranquilla/">Day Trips from Barranquilla: Beaches, Wetlands &amp; Colonial Cities</a></h3>
 <div class="article-card-meta">
@@ -208,7 +202,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-private-bike-tour/">
-<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
+<img alt="Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/bike-tour-barranquilla-1-600x400.jpg" srcset="/img/bike-tour-barranquilla-1-600x400.jpg 600w, /img/bike-tour-barranquilla-1-300x200.jpg 300w, /img/bike-tour-barranquilla-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-private-bike-tour/">Private Bike Tour of Barranquilla: Review &amp; Booking Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -230,7 +224,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

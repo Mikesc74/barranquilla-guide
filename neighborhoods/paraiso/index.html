@@ -33,6 +33,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/random-homes-992x900.jpg" fetchpriority="high">
   <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
@@ -101,7 +103,7 @@
   <!-- Hero Image -->
     <div class="article-hero">
     <div class="article-hero-image">
-      <img width="992" height="900" src="/img/random-homes-992x900.jpg" class="attachment-bg-hero size-bg-hero wp-post-image" alt="Paraíso" loading="eager" decoding="async" fetchpriority="high" />    </div>
+      <img width="992" height="900" src="/img/random-homes-992x900.jpg" alt="Paraíso" loading="eager" decoding="async" fetchpriority="high" />    </div>
   </div>
   
   <!-- Article Header -->
@@ -112,7 +114,7 @@
     
     <div class="article-header-meta">
       <div class="article-author-img">
-        <img srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&#038;d=mm&#038;r=g 2x" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&#038;d=mm&#038;r=g" alt='Mike Chartrand' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/>      </div>
+        <img src="/img/team/mike.svg" alt='Mike Chartrand' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/>      </div>
       <div>
         <div class="article-author-name">Mike Chartrand</div>
         <div class="article-date">
@@ -140,9 +142,9 @@
 <img alt="Paraíso" decoding="async" height="800" loading="lazy" src="/img/paraiso-place-paraiso.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Character &#038; Architecture</h2>
+<h2>Character &#038; Architecture</h2>
 <p>Paraíso is predominantly residential, with a mix of apartment buildings (mostly 6-12 stories) and some gated townhouse developments. Construction here spans several decades, from established 1990s buildings to newer developments. The neighborhood has a calm, suburban-in-the-city feel, quiet streets, minimal commercial traffic, and a slower pace than the busier corridors nearby. Green spaces are scattered throughout, and the general upkeep is good, reflecting the solid middle-class character of the area.</p>
-<h2 class="wp-block-heading">Daily Life &#038; Amenities</h2>
+<h2>Daily Life &#038; Amenities</h2>
 <p>Paraíso is well-positioned for daily convenience. The neighborhood borders the commercial strip along Carrera 53 and Calle 76-82, which means supermarkets, restaurants, pharmacies, and banks are accessible without long trips. Buenavista Mall and its surrounding commercial zone are nearby. For healthcare, Clínica General del Norte is within easy reach. The neighborhood has several parks and green areas where residents walk in the cooler evening hours. Schools in the vicinity include both public and private options.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Calle 76-82" decoding="async" height="800" loading="lazy" src="/img/paraiso-place-calle-76-82.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -152,12 +154,12 @@
 <img alt="Carrera 53" decoding="async" height="800" loading="lazy" src="/img/paraiso-place-carrera-53.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Who Lives Here</h2>
+<h2>Who Lives Here</h2>
 <p>Paraíso is home to Colombian families and young professionals, a steady, established community. It doesn&#8217;t have the expat concentration of El Golf or the trendy appeal of Buenavista, but that&#8217;s part of its charm. This is where middle-class Barranquilleros raise families, commute to office jobs, and live comfortably without pretension. A growing number of expats have discovered Paraíso as a quieter, more affordable alternative to the usual northern neighborhoods.</p>
-<h2 class="wp-block-heading">Rent &#038; Cost</h2>
-<p><strong>1-bedroom apartment:</strong> $300–500 USD/month<br /><strong>2-bedroom apartment:</strong> $450–750 USD/month<br /><strong>Houses:</strong> $600–1,000 USD/month<br /><strong>Utilities:</strong> $50–90 USD/month</p>
+<h2>Rent &#038; Cost</h2>
+<p><strong>1-bedroom apartment:</strong> $300–500 USD/month<br/><strong>2-bedroom apartment:</strong> $450–750 USD/month<br/><strong>Houses:</strong> $600–1,000 USD/month<br/><strong>Utilities:</strong> $50–90 USD/month</p>
 <p>Paraíso offers excellent value, similar quality of life to El Golf at 25-35% lower rents. For people who don&#8217;t need to be in the center of the action, it&#8217;s one of the smartest choices in the city.</p>
-<h2 class="wp-block-heading">Best For / Not Ideal For</h2>
+<h2>Best For / Not Ideal For</h2>
 <p><strong>Best for:</strong> Families prioritizing quiet and safety, remote workers who don&#8217;t need to be near coworking spaces, budget-conscious residents who still want a northern-zone address, people who prefer residential calm over nightlife proximity.</p>
 <p><strong>Not ideal for:</strong> Those who want walkable restaurants and bars, people who thrive on a busy urban scene, anyone who needs to be near the city center frequently.</p>
       </div><!-- .article-body -->
@@ -179,7 +181,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

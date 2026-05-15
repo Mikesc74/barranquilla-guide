@@ -32,6 +32,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/mall-plaza-next-to-buenavista-1585x900.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -97,7 +99,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Mallplaza Buenavista, Barranquilla" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1585px) 100vw, 1585px" src="/img/mall-plaza-next-to-buenavista-1585x900.jpg" srcset="/img/mall-plaza-next-to-buenavista-1585x900.jpg 1585w, /img/mall-plaza-next-to-buenavista-600x400.jpg 600w, /img/mall-plaza-next-to-buenavista-480x600.jpg 480w" width="1585"/> </div>
+<img alt="Mallplaza Buenavista, Barranquilla" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1585px) 100vw, 1585px" src="/img/mall-plaza-next-to-buenavista-1585x900.jpg" srcset="/img/mall-plaza-next-to-buenavista-1585x900.jpg 1585w, /img/mall-plaza-next-to-buenavista-600x400.jpg 600w, /img/mall-plaza-next-to-buenavista-480x600.jpg 480w" width="1585"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -105,7 +107,7 @@
 <h1>Barranquilla malls, what's where and what's worth your time</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f3f2afe7fa59c9fc1bb5d2e8f90de34c11a2cb4da08b60b851f38c9fe361eb18?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -120,10 +122,10 @@
 <div class="article-body">
 <p>Barranquilla's malls do double duty: they're where you shop, and they're where you escape the Caribbean heat. The bigger ones are air-conditioned, safe, and open late, which is why locals treat them as much like social spaces as retail spaces. Here's a working map of the main ones, who anchors them, and which ones are actually worth a trip.</p>
 
-<h2 class="wp-block-heading" id="the-big-ones">The big ones</h2>
+<h2 id="the-big-ones">The big ones</h2>
 <p>These are the malls with the deepest store mix, the cinemas, and the food courts that actually pull a crowd.</p>
 
-<h3 class="wp-block-heading" id="buenavista-1-and-2"><strong>Buenavista 1 and 2</strong></h3>
+<h3 id="buenavista-1-and-2"><strong>Buenavista 1 and 2</strong></h3>
 <p><a href="https://ccbuenavista.com/">Buenavista</a> is the default mall for most expats in the north of the city. It sits in the Buenavista corridor (Cra 53 with Cl 98) and is made up of three connected buildings: Buenavista 1, Buenavista 2, and Mallplaza Buenavista (which most people just call "Mallplaza"). Between the three, it's the biggest retail footprint in Barranquilla.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Buenavista corridor" decoding="async" height="800" loading="lazy" src="/img/barranquilla-malls-place-buenavista-corridor.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -135,39 +137,39 @@
 <strong>Cinema:</strong> <a href="/best-movie-theaters-to-watch-films-in-english/">Cine Colombia</a><br>
 <strong>Hours:</strong> roughly 10am to 9pm daily, later on weekends.</p>
 
-<figure class="wp-block-image size-large"><img alt="Buenavista Mall, Barranquilla" class="wp-image-1329" data-id="1329" decoding="async" src="/img/barranquilla-malls-section-8.jpg"/ loading="lazy"><figcaption class="wp-element-caption">Buenavista, north Barranquilla.</figcaption></figure>
+<figure><img alt="Buenavista Mall, Barranquilla" decoding="async" src="/img/barranquilla-malls-section-8.jpg" width="1200" height="800" loading="lazy"><figcaption>Buenavista, north Barranquilla.</figcaption></figure>
 
-<h3 class="wp-block-heading" id="mallplaza-buenavista-3"><strong>Mallplaza (Buenavista 3)</strong></h3>
+<h3 id="mallplaza-buenavista-3"><strong>Mallplaza (Buenavista 3)</strong></h3>
 <p><a href="https://www.mallplaza.com/co/buenavista">Mallplaza</a> is the newest of the three Buenavista buildings, operated by the Chilean Mall Plaza chain. It's right next door to Buenavista 1 and 2, so most people walk between them without realising they've crossed a boundary. Anchor stores are heavier on home goods and large-format retail: Homecenter (think Home Depot), Falabella, Nike, Under Armour, Victoria's Secret, Zara Home, Bath &amp; Body Works.</p>
 <p><strong>Supermarket:</strong> Carulla<br>
 <strong>Gym:</strong> <a href="/best-gyms-in-barranquilla/">Smartfit</a><br>
 <strong>Cinema:</strong> <a href="/best-movie-theaters-to-watch-films-in-english/">Cinépolis VIP</a> (reclining seats, table service, worth the upcharge)<br>
 <strong>Hours:</strong> 10am to 9pm daily.</p>
 
-<h3 class="wp-block-heading" id="viva"><strong>Viva Barranquilla</strong></h3>
+<h3 id="viva"><strong>Viva Barranquilla</strong></h3>
 <p><a href="https://www.ccviva.com/barranquilla">Viva</a> is owned by Grupo Éxito and sits further south, near Calle 30. It's a different shape from Buenavista: more open-air walkways, more mid-market and sport-oriented retail. H&amp;M, Adidas, Decathlon (rare in Colombia), and a solid Mercedes Campuzano are the draws. The Éxito here is one of the biggest in the city if you need a one-stop grocery run with anything else.</p>
 <p><strong>Supermarket:</strong> Éxito<br>
 <strong>Gym:</strong> <a href="/best-gyms-in-barranquilla/">Bodytech</a><br>
 <strong>Cinema:</strong> <a href="/best-movie-theaters-to-watch-films-in-english/">Royal Films</a><br>
 <strong>Hours:</strong> 10am to 9pm, later on weekends.</p>
 
-<h2 class="wp-block-heading" id="newer-and-southern">Newer and southern Barranquilla</h2>
+<h2 id="newer-and-southern">Newer and southern Barranquilla</h2>
 
-<h3 class="wp-block-heading" id="parque-alegra"><strong><a href="https://www.parquealegra.com/" rel="noopener" target="_blank">Parque Alegra</a></strong></h3>
+<h3 id="parque-alegra"><strong><a href="https://www.parquealegra.com/" rel="noopener" target="_blank">Parque Alegra</a></strong></h3>
 <p>Parque Alegra opened in 2022 on Calle 30 in the south of the city and is the largest mall south of Calle 80. If you live in the north, you probably won't end up here often, but it's the dominant option for the southern half of the city and it pulls a real crowd on weekends. Food options, a gym, a cinema, and a strong supermarket anchor make it self-contained.</p>
 <p><strong>Supermarket:</strong> SAO/Olímpica<br>
 <strong>Gym:</strong> Smartfit<br>
 <strong>Cinema:</strong> Cine Colombia<br>
 <strong>Hours:</strong> 10am to 9pm daily, later on weekends.</p>
 
-<figure class="wp-block-image size-large"><img alt="Cine Colombia entrance at Parque Alegra mall, Barranquilla" class="wp-image-1332" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/parquealegra2-1024x576.webp" srcset="/img/parquealegra2-1024x576.webp 1024w, /img/parquealegra2-300x169.webp 300w, /img/parquealegra2-768x432.webp 768w, /img/parquealegra2-1536x864.webp 1536w, /img/parquealegra2-2048x1152.webp 2048w, /img/parquealegra2-696x391.webp 696w, /img/parquealegra2-1068x601.webp 1068w, /img/parquealegra2-1920x1080.webp 1920w" width="1024"/><figcaption class="wp-element-caption">Parque Alegra, opened 2022.</figcaption></figure>
+<figure><img alt="Cine Colombia entrance at Parque Alegra mall, Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/parquealegra2-1024x576.webp" srcset="/img/parquealegra2-1024x576.webp 1024w, /img/parquealegra2-300x169.webp 300w, /img/parquealegra2-768x432.webp 768w, /img/parquealegra2-1536x864.webp 1536w, /img/parquealegra2-2048x1152.webp 2048w, /img/parquealegra2-696x391.webp 696w, /img/parquealegra2-1068x601.webp 1068w, /img/parquealegra2-1920x1080.webp 1920w" width="1024"/><figcaption>Parque Alegra, opened 2022.</figcaption></figure>
 
-<h3 class="wp-block-heading" id="le-meridiem-golf"><strong>Le Meridiem Golf</strong></h3>
+<h3 id="le-meridiem-golf"><strong>Le Meridiem Golf</strong></h3>
 <p>Le Meridiem Golf is one of the newest centers in the city and, as of writing, still partially under construction. It leans more toward restaurants than retail, with a handful of clothing stores mixed in. An Olímpica supermarket anchors the bottom floor and there's a padel court on top, which has been pulling steady weekend crowds. Worth a look if you're nearby; not worth a special trip yet.</p>
 
-<h2 class="wp-block-heading" id="boutique-and-neighborhood">Boutique and neighborhood centers</h2>
+<h2 id="boutique-and-neighborhood">Boutique and neighborhood centers</h2>
 
-<h3 class="wp-block-heading" id="villa-country"><strong>Villa Country</strong></h3>
+<h3 id="villa-country"><strong>Villa Country</strong></h3>
 <p>Villa Country is the small upscale center in the Villa Country neighborhood. It's more restaurants, services, and a handful of higher-end shops than a proper shopping mall. If you're in the area for lunch or dinner you'll end up here often, but it's not where you go for a serious shopping trip.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
 <img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/barranquilla-malls-place-villa-country-neighborhood.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
@@ -176,9 +178,9 @@
 <p><strong>Supermarket:</strong> Carulla<br>
 <strong>Hours:</strong> 10am to 9pm.</p>
 
-<figure class="wp-block-image size-large"><img alt="Villa Country Mall, Barranquilla" class="wp-image-1331" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="683" loading="lazy" src="/img/villacountry-1024x683.webp" srcset="/img/villacountry-1024x683.webp 1024w, /img/villacountry-300x200.webp 300w, /img/villacountry-768x512.webp 768w, /img/villacountry-150x100.webp 150w, /img/villacountry-696x464.webp 696w, /img/villacountry-1068x712.webp 1068w, /img/villacountry.webp 1200w" width="1024"/><figcaption class="wp-element-caption">Villa Country.</figcaption></figure>
+<figure><img alt="Villa Country Mall, Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="683" loading="lazy" src="/img/villacountry-1024x683.webp" srcset="/img/villacountry-1024x683.webp 1024w, /img/villacountry-300x200.webp 300w, /img/villacountry-768x512.webp 768w, /img/villacountry-150x100.webp 150w, /img/villacountry-696x464.webp 696w, /img/villacountry-1068x712.webp 1068w, /img/villacountry.webp 1200w" width="1024"/><figcaption>Villa Country.</figcaption></figure>
 
-<h2 class="wp-block-heading" id="what-to-know">What to know about Colombian malls in general</h2>
+<h2 id="what-to-know">What to know about Colombian malls in general</h2>
 <p><strong>Air conditioning is the point.</strong> When it's 33°C and 80% humidity outside, the mall is a public good. Locals walk laps in the AC, take coffee meetings in the food court, and let kids run around the play areas. Don't underdress: most malls are kept aggressively cold.</p>
 <p><strong>Hours are predictable.</strong> Most malls in Barranquilla run 10am to 9pm daily, with the bigger ones (Buenavista, Mallplaza, Parque Alegra) staying open until 10pm on Fridays and Saturdays. Supermarkets inside the malls often open earlier (around 8am) and close later. On Sunday and "festivos" (public holidays), supermarkets stay open but some smaller shops shorten their hours.</p>
 <p><strong>Safety is genuinely high.</strong> Modern Colombian malls have visible private security, bag checks at the door at some entrances, and cameras throughout. They're among the safest public spaces in the city. That's part of why they function as social hubs.</p>
@@ -200,7 +202,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/order-from-amazon-to-colombia/">
-<img alt="Ordering from Amazon to Colombia in 2026" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/call-center-scaled.webp" srcset="/img/call-center-scaled.webp 2560w, /img/call-center-300x200.webp 300w, /img/call-center-1024x683.webp 1024w, /img/call-center-768x512.webp 768w, /img/call-center-1536x1024.webp 1536w, /img/call-center-2048x1366.webp 2048w, /img/call-center-150x100.webp 150w, /img/call-center-696x464.webp 696w, /img/call-center-1068x712.webp 1068w, /img/call-center-1920x1281.webp 1920w" width="600"/> </a>
+<img alt="Ordering from Amazon to Colombia in 2026" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/call-center-scaled.webp" srcset="/img/call-center-scaled.webp 2560w, /img/call-center-300x200.webp 300w, /img/call-center-1024x683.webp 1024w, /img/call-center-768x512.webp 768w, /img/call-center-1536x1024.webp 1536w, /img/call-center-2048x1366.webp 2048w, /img/call-center-150x100.webp 150w, /img/call-center-696x464.webp 696w, /img/call-center-1068x712.webp 1068w, /img/call-center-1920x1281.webp 1920w" width="600"/> </a>
 <span class="label">Live</span>
 <h3 class="article-card-title"><a href="/order-from-amazon-to-colombia/">Ordering from Amazon to Colombia in 2026</a></h3>
 <div class="article-card-meta">
@@ -211,7 +213,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026/">
-<img alt="Grocery Shopping in Barranquilla: The Complete Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/supermarket-colombia-600x400.jpg" width="600"/> </a>
+<img alt="Grocery Shopping in Barranquilla: The Complete Guide (2026)" decoding="async" height="400" loading="lazy" src="/img/supermarket-colombia-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026/">Grocery Shopping in Barranquilla: The Complete Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -222,7 +224,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/pets-mascotas-barranquilla-2026/">
-<img alt="Pets in Barranquilla: The Complete Mascotas Guide (2026)" class="attachment-bg-article-card size-bg-article-card wp-post-image" data-sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/pets_dog-600x400.jpg" srcset="/img/pets_dog-600x400.jpg 600w, /img/pets_dog-300x200.jpg 300w, /img/pets_dog-1024x683.jpg 1024w, /img/pets_dog-768x512.jpg 768w, /img/pets_dog.jpg 1200w" width="600"/> </a>
+<img alt="Pets in Barranquilla: The Complete Mascotas Guide (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/pets_dog-600x400.jpg" srcset="/img/pets_dog-600x400.jpg 600w, /img/pets_dog-300x200.jpg 300w, /img/pets_dog-1024x683.jpg 1024w, /img/pets_dog-768x512.jpg 768w, /img/pets_dog.jpg 1200w" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/pets-mascotas-barranquilla-2026/">Pets in Barranquilla: The Complete Mascotas Guide (2026)</a></h3>
 <div class="article-card-meta">
@@ -244,7 +246,7 @@
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />

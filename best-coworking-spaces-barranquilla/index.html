@@ -30,6 +30,8 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <!-- PERF: hero preload -->
+  <link rel="preload" as="image" href="/img/coworking-barranquilla-1.jpg" fetchpriority="high">
 <!-- PERF: async fonts -->
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
@@ -95,7 +97,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Best Coworking Spaces in Barranquilla 2026" class="attachment-bg-hero size-bg-hero wp-post-image" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/coworking-barranquilla-1.jpg" srcset="/img/coworking-barranquilla-1.jpg 1200w, /img/coworking-barranquilla-1-300x158.jpg 300w, /img/coworking-barranquilla-1-1024x538.jpg 1024w, /img/coworking-barranquilla-1-768x403.jpg 768w" width="1200"/> </div>
+<img alt="Best Coworking Spaces in Barranquilla 2026" decoding="async" fetchpriority="high" height="630" loading="eager" sizes="(max-width: 1200px) 100vw, 1200px" src="/img/coworking-barranquilla-1.jpg" srcset="/img/coworking-barranquilla-1.jpg 1200w, /img/coworking-barranquilla-1-300x158.jpg 300w, /img/coworking-barranquilla-1-1024x538.jpg 1024w, /img/coworking-barranquilla-1-768x403.jpg 768w" width="1200"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -103,7 +105,7 @@
 <h1>Best Coworking Spaces in Barranquilla 2026</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=80&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/8c8e4833e449b4c990efa8754bfd60776bdadc68e6266ffc69ba2dec34d1fb71?s=160&amp;d=mm&amp;r=g 2x" width="80"/ loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -121,9 +123,8 @@
 <img alt="El Poblado" decoding="async" height="800" loading="lazy" src="/img/best-coworking-spaces-barranquilla-place-el-poblado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">What to Expect: Coworking in Barranquilla</h2>
-<!-- PEXELS_GENERIC_PLACEHOLDER -->
-<figure class="wp-block-image size-large"><img alt="Shared desks at a Barranquilla coworking space" class="alignnone size-large wp-image-3453" data-sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/coworking-1024x768.jpg" srcset="/img/coworking-1024x768.jpg 1024w, /img/coworking-300x225.jpg 300w, /img/coworking-768x576.jpg 768w, /img/coworking-1536x1152.jpg 1536w, /img/coworking-900x675.jpg 900w, /img/coworking-400x300.jpg 400w, /img/coworking.jpg 1585w" width="1024"/ loading="lazy"></figure>
+<h2>What to Expect: Coworking in Barranquilla</h2>
+<figure><img alt="Shared desks at a Barranquilla coworking space" class="alignnone" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/coworking-1024x768.jpg" srcset="/img/coworking-1024x768.jpg 1024w, /img/coworking-300x225.jpg 300w, /img/coworking-768x576.jpg 768w, /img/coworking-1536x1152.jpg 1536w, /img/coworking-900x675.jpg 900w, /img/coworking-400x300.jpg 400w, /img/coworking.jpg 1585w" width="1024" loading="lazy"></figure>
 <p>Day passes: <strong>$25,000–50,000 COP ($6–12 USD)</strong><br/>
 Monthly memberships: <strong>$300,000–700,000 COP ($70–165 USD)</strong><br/>
 Private offices: available at most spaces, typically $800,000–2,000,000 COP/month</p>
@@ -136,26 +137,24 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 <img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/best-coworking-spaces-barranquilla-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
 </figure>
 
-<h2 class="wp-block-heading">Best Coworking Spaces</h2>
-<!-- PEXELS_SECTION_IMAGE -->
-<h3 class="wp-block-heading">WeWork Barranquilla, Best for Professionals</h3>
+<h2>Best Coworking Spaces</h2>
+<h3>WeWork Barranquilla, Best for Professionals</h3>
 <p>WeWork operates in Barranquilla and brings its usual high-quality infrastructure, fast and reliable internet, good meeting rooms, professional atmosphere, and the WeWork global network access. Best for business professionals and teams who need a polished environment. Monthly memberships are the most expensive in the market but come with the most amenities.</p>
 <p> Zona Norte / business district<br/>
  Day pass from ~$25,000 COP | Monthly from ~$700,000 COP</p>
-<h3 class="wp-block-heading">Espacio Cowork, Best Value</h3>
+<h3>Espacio Cowork, Best Value</h3>
 <p>One of the most popular spaces with the local freelancer and startup community. Good infrastructure, a strong community feel, and significantly lower prices than WeWork. Flexible day passes make it good for short-stay visitors. Located in El Prado, walkable from the best hotels.</p>
 <p> El Prado<br/>
  Day pass from ~$20,000 COP | Monthly from ~$350,000 COP</p>
-<h3 class="wp-block-heading">Hub BQ, Best Community</h3>
+<h3>Hub BQ, Best Community</h3>
 <p>Barranquilla’s most active startup and entrepreneurship-focused coworking space. Strong events programme, regular networking, and a community that’s genuinely connected to the city’s tech and business ecosystem. Best if you’re building something and want local connections.</p>
-<h3 class="wp-block-heading">Hotel Business Centres, For Short Stays</h3>
+<h3>Hotel Business Centres, For Short Stays</h3>
 <p>If you’re in Barranquilla for a few days and need a professional workspace without signing up for a coworking membership, the business centres at the <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fdann-carlton-barranquilla.html" rel="noopener sponsored" target="_blank">Dann Carlton</a> and <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Festelar-alto-prado.html" rel="noopener sponsored" target="_blank">Estelar Alto Prado</a> are reliable options, usually free for guests, with reliable WiFi and printing facilities.</p>
-<h2 class="wp-block-heading">Internet &amp; <a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Remotely</a></h2>
-<figure class="wp-block-image size-large"><img alt="Meeting room at a Barranquilla coworking space" class="alignnone size-large wp-image-3452" data-sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/business-meetings-1024x576.jpg" srcset="/img/business-meetings-1024x576.jpg 1024w, /img/business-meetings-300x169.jpg 300w, /img/business-meetings-768x432.jpg 768w, /img/business-meetings-1536x864.jpg 1536w, /img/business-meetings.jpg 1585w" width="1024"/></figure>
+<h2>Internet &amp; <a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Remotely</a></h2>
+<figure><img alt="Meeting room at a Barranquilla coworking space" class="alignnone" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/business-meetings-1024x576.jpg" srcset="/img/business-meetings-1024x576.jpg 1024w, /img/business-meetings-300x169.jpg 300w, /img/business-meetings-768x432.jpg 768w, /img/business-meetings-1536x864.jpg 1536w, /img/business-meetings.jpg 1585w" width="1024"/></figure>
 <p>Barranquilla’s internet infrastructure is solid. Fibre optic is widely available. The main providers are Claro, Movistar, and ETB, all offer home/office fibre plans from $80,000–150,000 COP/month. If you’re <a href="/housing-renting-barranquilla/">renting an apartment</a>, confirm the provider and speed before signing.</p>
 <p>For mobile data backup, a Claro or Movistar SIM with a data plan is affordable and coverage in El Prado and Zona Norte is strong. See our <a href="/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026/">SIM card guide</a> for specifics.</p>
-<h2 class="wp-block-heading">Before You Commit to Long-Term</h2>
-<!-- PEXELS_SECTION_IMAGE -->
+<h2>Before You Commit to Long-Term</h2>
 <p>If you’re researching Barranquilla as a base before committing, a hotel for your first week is the right move, it lets you try different neighbourhoods and coworking spaces before signing a lease or monthly membership.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DBarranquilla%252C%2BColombia" rel="noopener sponsored" target="_blank">→ Browse hotels for your exploratory trip</a></p>
 <p>A <a href="https://www.viator.com/Barranquilla/d50228-ttd?mcid=42383&amp;pid=P00296226&amp;medium=link" rel="noopener sponsored" target="_blank">city orientation tour</a> on arrival also helps, you’ll understand the neighbourhood geography much faster with a guide.</p>
@@ -174,7 +173,7 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/best-restaurants-barranquilla/">
-<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
+<img alt="Best Restaurants in Barranquilla 2026: Where to Eat Right Now" decoding="async" height="400" loading="lazy" src="/img/restaurants-barranquilla-600x400.jpg" width="600"/> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/best-restaurants-barranquilla/">Best Restaurants in Barranquilla 2026: Where to Eat Right Now</a></h3>
 <div class="article-card-meta">
@@ -185,7 +184,7 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/study-spanish-in-barranquilla/">
-<img alt="Study Spanish in Barranquilla: A Practical 2026 Guide" class="attachment-bg-article-card size-bg-article-card wp-post-image" decoding="async" height="400" loading="lazy" src="/img/typical-bus-interior-600x400.jpg" width="600"/> </a>
+<img alt="Study Spanish in Barranquilla: A Practical 2026 Guide" decoding="async" height="400" loading="lazy" src="/img/typical-bus-interior-600x400.jpg" width="600"/> </a>
 <span class="label">How-to Guides</span>
 <h3 class="article-card-title"><a href="/study-spanish-in-barranquilla/">Study Spanish in Barranquilla: A Practical 2026 Guide</a></h3>
 <div class="article-card-meta">
@@ -219,7 +218,7 @@ Private offices: available at most spaces, typically $800,000–2,000,000 COP/mo
       </div>
       <div class="email-capture-form">
         <form class="newsletter-form"
-              data-city="barranquilla" data-source="prefooter"
+ data-city="barranquilla" data-source="prefooter"
               action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
           <div class="email-capture-row">
             <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
