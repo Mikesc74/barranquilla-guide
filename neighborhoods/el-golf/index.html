@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/barranquilla-el-golf-aerial-fernando-orozco-1500x900.webp" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -103,7 +98,7 @@
   <!-- Hero Image -->
     <div class="article-hero">
     <div class="article-hero-image">
-      <img width="1500" height="900" src="/img/barranquilla-el-golf-aerial-fernando-orozco-1500x900.webp" alt="El Golf" loading="eager" decoding="async" fetchpriority="high" srcset="/img/barranquilla-el-golf-aerial-fernando-orozco-1500x900.webp 1500w, /img/barranquilla-el-golf-aerial-fernando-orozco-800x480.jpg 800w" sizes="(max-width: 1500px) 100vw, 1500px" />    </div>
+      <img width="1500" height="900" src="/img/barranquilla-el-golf-aerial-fernando-orozco-1500x900.webp" alt="El Golf" loading="eager" decoding="async" fetchpriority="high" srcset="/img/barranquilla-el-golf-aerial-fernando-orozco-1500x900.webp 1500w, /img/barranquilla-el-golf-aerial-fernando-orozco-800x480.webp 800w" sizes="(max-width: 1500px) 100vw, 1500px" />    </div>
   </div>
   
   <!-- Article Header -->
@@ -132,7 +127,7 @@
     
 <p>El Golf takes its name from the Country Club de Barranquilla, whose manicured fairways border the neighborhood to the west. This is old-money Barranquilla dressed in new construction, a neighborhood where Colombian executives, senior expats on corporate packages, and established professional families live behind the gates of modern high-rise towers. It is quiet, private, and deliberately insulated from the noise and texture of the city beyond its boundaries.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/el-golf-place-el-golf.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/el-golf-place-el-golf.webp" class="article-photo" width="1200"/>
 </figure>
 <h2>Character and Architecture</h2>
 
@@ -180,7 +175,7 @@
 
 <p><strong>Not ideal for:</strong> Budget-conscious renters, this is one of the most expensive neighborhoods in the city. People who want to walk to restaurants and bars (Villa Country or El Prado are better). Anyone seeking character, history, or authentic street life. Digital nomads looking for community, El Golf’s transient corporate population doesn’t foster the organic social connections that El Prado or coworking-adjacent neighborhoods do.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/el-golf-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/el-golf-place-el-prado.webp" class="article-photo" width="1200"/>
 </figure>
 
       </div><!-- .article-body -->
@@ -257,7 +252,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

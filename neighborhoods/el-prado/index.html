@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/prado.avif" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -138,7 +133,7 @@
 
 
 
-<figure><img srcset="/img/torre-de-prado-hotel-768x1024.jpg 768w, /img/torre-de-prado-hotel-225x300.jpg 225w, /img/torre-de-prado-hotel.jpg 992w" src="/img/torre-de-prado-hotel-768x1024.jpg" decoding="async" width="768" height="1024" alt="" sizes="(max-width: 768px) 100vw, 768px" loading="lazy"></figure>
+<figure><img srcset="/img/torre-de-prado-hotel-768x1024.webp 768w, /img/torre-de-prado-hotel-225x300.jpg 225w, /img/torre-de-prado-hotel.webp 992w" src="/img/torre-de-prado-hotel-768x1024.webp" decoding="async" width="768" height="1024" alt="Torre del Prado building, El Prado" sizes="(max-width: 768px) 100vw, 768px" loading="lazy"></figure>
 <h2>The idea that built it</h2>
 
 
@@ -153,13 +148,13 @@
 
 <p>By the mid-1920s, lots in El Prado were the most expensive in Barranquilla. By the 1930s, the neighborhood had become the address for the city&#8217;s industrial class, its cotton and coffee elite, the bankers and importers who made Barranquilla, for a brief, glittering moment, Colombia&#8217;s most modern city.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/el-prado-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/el-prado-place-el-prado.webp" class="article-photo" width="1200"/>
 </figure>
 
 
 
 
-<figure><img srcset="/img/random-houses-in-el-prado-1024x768.jpg 1024w, /img/random-houses-in-el-prado-300x225.jpg 300w, /img/random-houses-in-el-prado-768x576.jpg 768w, /img/random-houses-in-el-prado-1536x1152.jpg 1536w, /img/random-houses-in-el-prado-900x675.jpg 900w, /img/random-houses-in-el-prado-400x300.jpg 400w, /img/random-houses-in-el-prado.jpg 1585w" src="/img/random-houses-in-el-prado-1024x768.jpg" decoding="async" width="1024" height="768" alt="" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
+<figure><img srcset="/img/random-houses-in-el-prado-1024x768.webp 1024w, /img/random-houses-in-el-prado-300x225.jpg 300w, /img/random-houses-in-el-prado-768x576.jpg 768w, /img/random-houses-in-el-prado-1536x1152.webp 1536w, /img/random-houses-in-el-prado-900x675.webp 900w, /img/random-houses-in-el-prado-400x300.jpg 400w, /img/random-houses-in-el-prado.webp 1585w" src="/img/random-houses-in-el-prado-1024x768.webp" decoding="async" width="1024" height="768" alt="Houses in El Prado" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
 
 
 
@@ -173,7 +168,7 @@
 
 <p>When it opened, the hotel had 80 rooms, the first swimming pool in Colombia open to the public, and an orchestra that played every night. The guest list read like a century of Latin American history: diplomats en route to Bogotá, visiting presidents, the writers who would later be lumped together as the <em>Grupo de Barranquilla</em>, and, in 1948, a 21-year-old Gabriel García Márquez who would sometimes walk from his boarding house in Barrio Abajo just to sit in the lobby and read the newspapers.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/el-prado-place-barrio-abajo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/el-prado-place-barrio-abajo.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -183,7 +178,7 @@
 
 
 
-<figure><img srcset="/img/random-houses-in-el-prado-9-1024x768.jpg 1024w, /img/random-houses-in-el-prado-9-300x225.jpg 300w, /img/random-houses-in-el-prado-9-768x576.jpg 768w, /img/random-houses-in-el-prado-9-900x675.jpg 900w, /img/random-houses-in-el-prado-9-400x300.jpg 400w, /img/random-houses-in-el-prado-9.jpg 1225w" src="/img/random-houses-in-el-prado-9-1024x768.jpg" decoding="async" width="1024" height="768" alt="" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
+<figure><img srcset="/img/random-houses-in-el-prado-9-1024x768.webp 1024w, /img/random-houses-in-el-prado-9-300x225.jpg 300w, /img/random-houses-in-el-prado-9-768x576.webp 768w, /img/random-houses-in-el-prado-9-900x675.webp 900w, /img/random-houses-in-el-prado-9-400x300.jpg 400w, /img/random-houses-in-el-prado-9.webp 1225w" src="/img/random-houses-in-el-prado-9-1024x768.webp" decoding="async" width="1024" height="768" alt="Houses in El Prado, art deco architecture" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
 
 
 
@@ -203,7 +198,7 @@
 
 
 
-<figure><img srcset="/img/random-houses-in-el-prado-7-1024x768.jpg 1024w, /img/random-houses-in-el-prado-7-300x225.jpg 300w, /img/random-houses-in-el-prado-7-768x576.jpg 768w, /img/random-houses-in-el-prado-7-1536x1152.jpg 1536w, /img/random-houses-in-el-prado-7-900x675.jpg 900w, /img/random-houses-in-el-prado-7-400x300.jpg 400w, /img/random-houses-in-el-prado-7.jpg 1585w" src="/img/random-houses-in-el-prado-7-1024x768.jpg" decoding="async" width="1024" height="768" alt="" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
+<figure><img srcset="/img/random-houses-in-el-prado-7-1024x768.webp 1024w, /img/random-houses-in-el-prado-7-300x225.jpg 300w, /img/random-houses-in-el-prado-7-768x576.jpg 768w, /img/random-houses-in-el-prado-7-1536x1152.webp 1536w, /img/random-houses-in-el-prado-7-900x675.jpg 900w, /img/random-houses-in-el-prado-7-400x300.jpg 400w, /img/random-houses-in-el-prado-7.webp 1585w" src="/img/random-houses-in-el-prado-7-1024x768.webp" decoding="async" width="1024" height="768" alt="Houses in El Prado, tree-lined street" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
 
 
 
@@ -362,7 +357,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

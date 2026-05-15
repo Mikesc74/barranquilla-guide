@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/food-tour-barranquilla-1.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -119,7 +116,7 @@
 <!-- Article Body -->
 <div class="article-body">
 <p>Barranquilla’s food is one of its best-kept secrets. The Caribbean coast has a distinct cuisine that’s entirely its own, heavier on seafood, plantain, and African-influenced flavours than anything you’ll find in Bogotá or Medellín. A guided food tour through downtown is the fastest and most rewarding way into it.</p>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
@@ -144,35 +141,35 @@
 <ul>
 <li><strong>Arepas de huevo</strong>, The dish that defines Barranquilla breakfast. A fried corn cake stuffed with egg, eaten with hot sauce. Non-negotiable.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Arepas de huevo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-arepas-de-huevo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Arepas de huevo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-arepas-de-huevo.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Ceviche costeño</strong>, Colombian-style ceviche: lime-heavy, fresh, and nothing like Peruvian. Made with whatever came off the boats that morning.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Ceviche costeño" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-ceviche-costeno.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Ceviche costeño" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-ceviche-costeno.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Patacones</strong>, Twice-fried plantain, eaten with everything. The Caribbean equivalent of a side of bread.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Patacones" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-patacones.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Patacones" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-patacones.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Sancocho de pescado</strong>, Fish stew, slow-cooked, deeply flavoured. The city’s soul food.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Sancocho de pescado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-sancocho-de-pescado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Sancocho de pescado" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-sancocho-de-pescado.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Fruit juices</strong>, Barranquilla’s tropical fruit selection is extraordinary. Guanábana, maracuyá, corozo, things you won’t find anywhere else.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Corozo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-corozo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Corozo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-corozo.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Maracuyá" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-maracuya.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Maracuyá" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-maracuya.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Guanábana" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-guanabana.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Guanábana" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-food-guanabana.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li>Market stops and hidden local spots the guide has been eating at for years</li>
@@ -182,11 +179,11 @@
 <p>You can find good food in Barranquilla independently, but the best spots are small, unassuming, and invisible to anyone who doesn’t already know where they are. The guide has the relationships, speaks the language, and knows which stall has the best arepas on which day. You’ll eat better with a guide in three hours than you would in three days on your own.</p>
 <p>The tour also covers the market and street culture of downtown, the vendors, the rhythms, the chaos of El Centro during the day. It’s as much a cultural tour as a food tour.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Centro" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-place-el-centro.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Centro" decoding="async" height="800" loading="lazy" src="/img/barranquilla-food-tour-downtown-place-el-centro.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Practical Details</h2>
-<figure><img alt="Street-food stall on a Barranquilla downtown food tour" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2801-1024x538.jpg" srcset="/img/tour-2801-1024x538.jpg 1024w, /img/tour-2801-300x158.jpg 300w, /img/tour-2801-768x403.jpg 768w, /img/tour-2801.jpg 1200w" width="1024"/></figure>
+<figure><img alt="Street-food stall on a Barranquilla downtown food tour" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="538" loading="lazy" src="/img/tour-2801-1024x538.jpg" srcset="/img/tour-2801-1024x538.jpg 1024w, /img/tour-2801-300x158.jpg 300w, /img/tour-2801-768x403.jpg 768w, /img/tour-2801.webp 1200w" width="1024"/></figure>
 <ul>
 <li><strong>Price:</strong> From ~$60 USD</li>
 <li><strong>Duration:</strong> Typically 3–4 hours</li>
@@ -196,7 +193,7 @@
 <li><strong>Dietary restrictions:</strong> Let the operator know in advance, most stops can accommodate</li>
 </ul>
 <h2>How to Book</h2>
-<figure><img alt="Visiting local markets on the Barranquilla food tour" sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-3.jpg" srcset="/img/food-tour-barranquilla-3.jpg 670w, /img/food-tour-barranquilla-3-300x200.jpg 300w, /img/food-tour-barranquilla-3-600x400.jpg 600w" width="670"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
+<figure><img alt="Visiting local markets on the Barranquilla food tour" sizes="auto, (max-width: 670px) 100vw, 670px" decoding="async" height="446" loading="lazy" src="/img/food-tour-barranquilla-3.webp" srcset="/img/food-tour-barranquilla-3.webp 670w, /img/food-tour-barranquilla-3-300x200.jpg 300w, /img/food-tour-barranquilla-3-600x400.jpg 600w" width="670"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
 <p><a href="https://www.viator.com/tours/Barranquilla/Food-Tour-in-Barranquilla-Downtown/d50228-59388P111?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book the Barranquilla Downtown Food Tour on Viator</a></p>
 <h2>More Ways to Eat in Barranquilla</h2>
 <p>For sit-down dining after the tour, see our full guide: <a href="/best-restaurants-barranquilla/">Best Restaurants in Barranquilla →</a></p>
@@ -208,7 +205,7 @@
 <li><a href="/barranquilla-private-bike-tour/">Private Bike Tour</a> (5.0 ⭐, 23 reviews)</li>
 <li><a href="/best-tours-experiences-barranquilla/">All Barranquilla tours →</a></li>
 </ul>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Barranquilla Food Tour: Downtown Street Food Experience (4 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
@@ -233,7 +230,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/la-ruta-del-girasol-the-sunflower-fields/">
-<img alt="La Ruta del Girasol: The Sunflower Fields" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/girasoles1.jpg" srcset="/img/girasoles1.jpg 1600w, /img/girasoles1-300x200.jpg 300w, /img/girasoles1-1024x681.jpg 1024w, /img/girasoles1-768x511.jpg 768w, /img/girasoles1-1536x1021.jpg 1536w, /img/girasoles1-696x463.jpg 696w, /img/girasoles1-1068x710.jpg 1068w" width="600"/> </a>
+<img alt="La Ruta del Girasol: The Sunflower Fields" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/girasoles1.jpg" srcset="/img/girasoles1.jpg 1600w, /img/girasoles1-300x200.jpg 300w, /img/girasoles1-1024x681.webp 1024w, /img/girasoles1-768x511.jpg 768w, /img/girasoles1-1536x1021.webp 1536w, /img/girasoles1-696x463.jpg 696w, /img/girasoles1-1068x710.webp 1068w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/la-ruta-del-girasol-the-sunflower-fields/">La Ruta del Girasol: The Sunflower Fields</a></h3>
 <div class="article-card-meta">
@@ -332,7 +329,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

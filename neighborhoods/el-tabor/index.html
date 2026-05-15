@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/el-tabor-barranquilla.webp" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -103,7 +98,7 @@
   <!-- Hero Image -->
     <div class="article-hero">
     <div class="article-hero-image">
-      <img width="939" height="715" src="/img/el-tabor-barranquilla.webp" alt="El Tabor" loading="eager" decoding="async" fetchpriority="high" srcset="/img/el-tabor-barranquilla.webp 939w, /img/el-tabor-barranquilla-300x228.png 300w, /img/el-tabor-barranquilla-768x585.webp 768w" sizes="(max-width: 939px) 100vw, 939px" />    </div>
+      <img width="939" height="715" src="/img/el-tabor-barranquilla.webp" alt="El Tabor" loading="eager" decoding="async" fetchpriority="high" srcset="/img/el-tabor-barranquilla.webp 939w, /img/el-tabor-barranquilla-300x228.webp 300w, /img/el-tabor-barranquilla-768x585.webp 768w" sizes="(max-width: 939px) 100vw, 939px" />    </div>
   </div>
   
   <!-- Article Header -->
@@ -131,7 +126,7 @@
   <div class="article-body">
     <p>El Tabor is a quiet, middle-class residential neighborhood in central Barranquilla that offers a surprisingly livable environment without the premium price tag of the northern zones. Sitting at estrato 3-4, it&#8217;s one of the city&#8217;s best-kept secrets for budget-conscious residents who still want safety, walkability, and genuine neighborhood character.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Tabor" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-el-tabor.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Tabor" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-el-tabor.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Character &#038; Architecture</h2>
@@ -139,11 +134,11 @@
 <h2>Daily Life &#038; Amenities</h2>
 <p>El Tabor has excellent day-to-day walkability for Barranquilla. There are corner shops (tiendas), bakeries, small restaurants, and a good mix of local services within walking distance. The neighborhood sits near major commercial corridors on Calle 72 and Carrera 46, giving easy access to banks, pharmacies, supermarkets (Olímpica, Éxito), and medical clinics. It&#8217;s also well-connected to Transmetro routes, making public transit actually viable here, a rarity in Barranquilla.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Carrera 46" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-carrera-46.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Carrera 46" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-carrera-46.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Calle 72" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-calle-72.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Calle 72" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-calle-72.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Who Lives Here</h2>
@@ -153,7 +148,7 @@
 <p><strong>1-bedroom apartment:</strong> $200–350 USD/month<br/><strong>2-bedroom apartment:</strong> $300–500 USD/month<br/><strong>Utilities:</strong> $40–80 USD/month (including AC)</p>
 <p>These prices are roughly 40-50% less than equivalent apartments in El Golf or Buenavista, making El Tabor attractive for anyone watching their budget closely.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Buenavista" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-buenavista.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Buenavista" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-buenavista.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Best For / Not Ideal For</h2>
@@ -214,7 +209,7 @@
           <div class="footer-nav-title">Neighborhoods</div>
           <ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-el-golf.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/el-tabor-place-el-golf.webp" class="article-photo" width="1200"/>
 </figure>
 <li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
         </div>
@@ -237,7 +232,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

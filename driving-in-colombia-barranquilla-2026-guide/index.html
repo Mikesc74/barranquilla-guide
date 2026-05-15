@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/funny-little-delivery-truck-992x900.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+  <link rel="preload" as="image" href="/img/funny-little-delivery-truck-992x900.webp" fetchpriority="high">
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -97,7 +94,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Driving in Barranquilla: Licenses, Pico y Placa, SOAT &amp; Rules (2026)" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/funny-little-delivery-truck-992x900.jpg" width="992"/> </div>
+<img alt="Driving in Barranquilla: Licenses, Pico y Placa, SOAT &amp; Rules (2026)" decoding="async" fetchpriority="high" height="900" loading="eager" src="/img/funny-little-delivery-truck-992x900.webp" width="992"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -143,25 +140,25 @@
 <ul>
 <li>You live in Villa Campestre or another outer neighborhood with limited ride-share coverage</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Campestre" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-villa-campestre.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Campestre" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-villa-campestre.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li>You have small children and hauling car seats every ride is miserable</li>
 <li>You regularly do day trips to Pradomar, Salgar, Puerto Colombia, or Santa Marta</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-santa-marta.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-santa-marta.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-puerto-colombia.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-puerto-colombia.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Salgar" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-salgar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Salgar" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-salgar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Pradomar" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-pradomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Pradomar" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-pradomar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li>You have a job with an unpredictable schedule in a place without good transport</li>
@@ -194,7 +191,7 @@
 <p><strong>Scam warning:</strong> agencies offering to get you a license in days, or promising to bypass the CEA, are a recurring fraud in Colombia. Fraudulent licenses appear legitimate but fail when the RUNT is checked at a traffic stop, the consequences are criminal charges plus automatic revocation.</p>
 <h2 id="pico-y-placa-in-barranquilla">Pico y placa in Barranquilla</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 <p>Pico y placa is Colombia’s rush-hour license-plate-rotation system. In Barranquilla, it applies to private vehicles on specific days based on the last digit of the plate. The schedule is adjusted periodically by the Secretaría de Movilidad; as of early 2026 the pattern is:</p>
 <ul>
@@ -212,7 +209,7 @@
 <li><strong>SOAT</strong> (Seguro Obligatorio de Accidentes de Tránsito), mandatory liability insurance covering third-party medical and death. Annual premium COP 300,000–850,000 depending on vehicle. Must be displayed (sticker on windshield) and paid current. Driving without SOAT is 30 SMDLV (~COP 1,620,000) plus immediate impound.</li>
 <li><strong>Revisión tecnomecánica</strong>, annual safety and emissions inspection, required for vehicles over 4 years old (5 years for vehicles &lt;2 years old at first registration). Costs COP 220,000–380,000. Also must be current; same sanction as missing SOAT. Find authorized inspection centers at <a href="https://www.runt.gov.co/directorio-actores" rel="noopener" target="_blank">runt.gov.co/directorio-actores</a> (select “Centro de Diagnóstico Automotor,” filter to Atlántico).</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Atlántico" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-atlantico.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Atlántico" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-atlantico.webp" class="article-photo" width="1200"/>
 </figure>
 
 </ul>
@@ -222,15 +219,15 @@
 <ul>
 <li><strong>DUI (alcoholemia):</strong> Any measurable alcohol is a violation; thresholds escalate fines dramatically. First-offense with moderate levels: license suspension 1 year, fine ~COP 18 million, community service. Enforcement via puestos de control is frequent on weekend nights, especially on Vía 40, Calle 84, Carrera 51B nightlife corridors, and on roads back from Pradomar/Salgar on Sundays.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Carrera 51B" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-carrera-51b.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Carrera 51B" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-carrera-51b.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Calle 84" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-calle-84.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Calle 84" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-calle-84.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-via-40.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-via-40.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Speeding on photo-enforced corridors:</strong> Fixed speed cameras on Via 40, Circunvalar, and at entry/exit points are active. Fines for over-limit run 15+ SMDLV.</li>
@@ -263,7 +260,7 @@
 <h3>City pickup locations</h3>
 <p>Most agencies also have locations in the city, typically in Zona Norte, near the major malls, or in the financial district. A city pickup avoids the airport surcharge (usually 5–12% on top of the base rate). Localiza and Hertz tend to have the broadest in-city coverage. Confirm the location when booking, search each agency’s site for “Barranquilla.”</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Zona Norte" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-zona-norte.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Zona Norte" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-zona-norte.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h3>Long-term rentals</h3>
@@ -271,7 +268,7 @@
 <h3>Renting a motorcycle</h3>
 <p>Motorcycle rentals in Barranquilla operate informally, there are no international brands with moto fleets here. The market is local shops and individual owners, mostly found through Facebook Marketplace (search “alquiler moto Barranquilla”) and WhatsApp referrals. Motorcycle dealers along Calle 30 and the Via 40 industrial corridor are the practical starting point if you’re searching in person.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Calle 30" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-calle-30.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Calle 30" decoding="async" height="800" loading="lazy" src="/img/driving-in-colombia-barranquilla-2026-guide-place-calle-30.webp" class="article-photo" width="1200"/>
 </figure>
 
 <p>What to expect:</p>
@@ -451,7 +448,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

@@ -31,16 +31,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/image-13.webp" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -104,7 +99,7 @@
   <!-- Hero Image -->
     <div class="article-hero">
     <div class="article-hero-image">
-      <img width="1198" height="827" src="/img/image-13.webp" alt="Take a day trip to San Basilio de Palenque" loading="eager" decoding="async" fetchpriority="high" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" sizes="(max-width: 1198px) 100vw, 1198px" />    </div>
+      <img width="1198" height="827" src="/img/image-13.webp" alt="Take a day trip to San Basilio de Palenque" loading="eager" decoding="async" fetchpriority="high" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" sizes="(max-width: 1198px) 100vw, 1198px" />    </div>
   </div>
   
   <!-- Article Header -->
@@ -136,7 +131,7 @@
 
 
 <div class="td-caption-align-left">
-<figure><img srcset="/img/image-1-683x1024.png 683w, /img/image-1-200x300.png 200w, /img/image-1-768x1152.png 768w, /img/image-1-696x1044.png 696w, /img/image-1.png 800w" src="/img/image-1-683x1024.png" decoding="async" width="683" height="1024" alt="San Basilio de Palenque village entrance" sizes="(max-width: 683px) 100vw, 683px" /><figcaption>El Maestro Rafael Maria Cassiani Cassiani Photo Credit: Cristian Rios (Barranquilla)</figcaption></figure>
+<figure><img srcset="/img/image-1-683x1024.webp 683w, /img/image-1-200x300.png 200w, /img/image-1-768x1152.webp 768w, /img/image-1-696x1044.webp 696w, /img/image-1.webp 800w" src="/img/image-1-683x1024.webp" decoding="async" width="683" height="1024" alt="San Basilio de Palenque village entrance" sizes="(max-width: 683px) 100vw, 683px" /><figcaption>El Maestro Rafael Maria Cassiani Cassiani Photo Credit: Cristian Rios (Barranquilla)</figcaption></figure>
 </div>
 
 
@@ -146,11 +141,11 @@
 
 <p>Situated deep in the foothills of the Montes de Maria mountains about two hours from Barranquilla in the municipality of Mahates, Bolivar, San Basilio de Palenque is steeped in rich history. It is the last of the original palenques (walled towns) formed by escaped African slaves during the terror reign of the sixteenth-century Spanish crown and indeed, it holds the distinction of being the first free slave town of the Americas.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Montes de Maria" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-montes-de-maria.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Montes de Maria" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-montes-de-maria.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -158,15 +153,15 @@
 
 <p>Before slavery was abolished in Colombia in 1851 more than a million Africans were stolen from their homelands, shipped to the Port of Cartagena, and sold off like cattle to buyers from as far north as Costa Rica and as far south as Peru. Such is the story of Benkos Biohó, a West African king who in 1596 was dragged by a Portuguese slave trader from his homeland off the coast of what is now Guinea-Bissau. He was taken to Cartagena and sold to a Spaniard named Alonso del Campo who sent him up the Magdalena on a slave barge bound for a life of hard labour. Thankfully, the barge began to sink (for reasons unknown) and he was able to escape captivity along with several others.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-magdalena-river.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-magdalena-river.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-cartagena.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Port of Cartagena" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-port-of-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Port of Cartagena" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-port-of-cartagena.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -186,7 +181,7 @@
 
 
 
-<figure><img srcset="/img/image-5.png 936w, /img/image-5-300x182.png 300w, /img/image-5-768x466.png 768w, /img/image-5-696x422.png 696w" src="/img/image-5.png" decoding="async" width="936" height="568" alt="Historic illustration of Benkos Biohó and Palenque maroons" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>An artist’s rendition of the original palenque (walled town) of San Basilio.</em></figcaption></figure>
+<figure><img srcset="/img/image-5.webp 936w, /img/image-5-300x182.png 300w, /img/image-5-768x466.webp 768w, /img/image-5-696x422.webp 696w" src="/img/image-5.webp" decoding="async" width="936" height="568" alt="Historic illustration of Benkos Biohó and Palenque maroons" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>An artist’s rendition of the original palenque (walled town) of San Basilio.</em></figcaption></figure>
 
 
 
@@ -198,7 +193,7 @@
 
 
 
-<figure><img srcset="/img/image-6-783x1024.png 783w, /img/image-6-230x300.png 230w, /img/image-6-768x1004.png 768w, /img/image-6-696x910.png 696w, /img/image-6.png 918w" src="/img/image-6-783x1024.png" decoding="async" width="783" height="1024" alt="Benkos Bioho, the original leader of the Palenqueros" loading="lazy" sizes="auto, (max-width: 783px) 100vw, 783px" /><figcaption><em>Benkos Biohó, the founding father of San Basilio de Palenque</em></figcaption></figure>
+<figure><img srcset="/img/image-6-783x1024.webp 783w, /img/image-6-230x300.png 230w, /img/image-6-768x1004.webp 768w, /img/image-6-696x910.webp 696w, /img/image-6.webp 918w" src="/img/image-6-783x1024.webp" decoding="async" width="783" height="1024" alt="Benkos Bioho, the original leader of the Palenqueros" loading="lazy" sizes="auto, (max-width: 783px) 100vw, 783px" /><figcaption><em>Benkos Biohó, the founding father of San Basilio de Palenque</em></figcaption></figure>
 
 
 
@@ -206,7 +201,7 @@
 
 
 <div>
-<figure><img srcset="/img/Palenquera-Women.png 555w, /img/Palenquera-Women-300x172.png 300w" src="/img/Palenquera-Women.png" decoding="async" width="555" height="319" alt="Women from San Basilio de Palenque selling their goods on the streets of Cartagena." style="width:693px;height:411px" loading="lazy" sizes="auto, (max-width: 555px) 100vw, 555px" /><figcaption><em>Palenquera women selling their treats in Cartagena</em></figcaption></figure>
+<figure><img srcset="/img/Palenquera-Women.webp 555w, /img/Palenquera-Women-300x172.png 300w" src="/img/Palenquera-Women.webp" decoding="async" width="555" height="319" alt="Women from San Basilio de Palenque selling their goods on the streets of Cartagena." style="width:693px;height:411px" loading="lazy" sizes="auto, (max-width: 555px) 100vw, 555px" /><figcaption><em>Palenquera women selling their treats in Cartagena</em></figcaption></figure>
 </div>
 
 
@@ -214,7 +209,7 @@
 
 
 
-<figure><img srcset="/img/image-8.png 936w, /img/image-8-300x199.png 300w, /img/image-8-768x509.png 768w, /img/image-8-696x461.png 696w" src="/img/image-8.png" decoding="async" width="936" height="620" alt="Street scene in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>A back street of San Basilio de Palenque</em></figcaption></figure>
+<figure><img srcset="/img/image-8.webp 936w, /img/image-8-300x199.png 300w, /img/image-8-768x509.webp 768w, /img/image-8-696x461.webp 696w" src="/img/image-8.webp" decoding="async" width="936" height="620" alt="Street scene in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>A back street of San Basilio de Palenque</em></figcaption></figure>
 
 
 
@@ -226,7 +221,7 @@
 
 
 
-<figure><img srcset="/img/image-9.png 936w, /img/image-9-300x188.png 300w, /img/image-9-768x481.png 768w, /img/image-9-696x436.png 696w" src="/img/image-9.png" decoding="async" width="936" height="586" alt="Festival de Tambores performers drumming in Palenque" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>A Palenque boy playing a tambor (drum)</em></figcaption></figure>
+<figure><img srcset="/img/image-9.webp 936w, /img/image-9-300x188.png 300w, /img/image-9-768x481.webp 768w, /img/image-9-696x436.webp 696w" src="/img/image-9.webp" decoding="async" width="936" height="586" alt="Festival de Tambores performers drumming in Palenque" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>A Palenque boy playing a tambor (drum)</em></figcaption></figure>
 
 
 
@@ -234,7 +229,7 @@
 
 
 
-<figure><img srcset="/img/image-10.png 936w, /img/image-10-300x201.png 300w, /img/image-10-768x514.png 768w, /img/image-10-696x465.png 696w" src="/img/image-10.png" decoding="async" width="936" height="626" alt="Kid Pambelé boxing champion, San Basilio's most famous son" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>Palenqueros singing and <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">dancing</a></em></figcaption></figure>
+<figure><img srcset="/img/image-10.webp 936w, /img/image-10-300x201.png 300w, /img/image-10-768x514.webp 768w, /img/image-10-696x465.webp 696w" src="/img/image-10.webp" decoding="async" width="936" height="626" alt="Kid Pambelé boxing champion, San Basilio's most famous son" loading="lazy" sizes="auto, (max-width: 936px) 100vw, 936px" /><figcaption><em>Palenqueros singing and <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">dancing</a></em></figcaption></figure>
 
 
 
@@ -242,7 +237,7 @@
 
 
 
-<figure><img srcset="/img/image-11-886x1024.png 886w, /img/image-11-260x300.png 260w, /img/image-11-768x888.png 768w, /img/image-11-696x805.png 696w, /img/image-11.png 936w" src="/img/image-11-886x1024.png" decoding="async" width="886" height="1024" alt="Palenquera women preparing traditional Afro-Caribbean cuisine" loading="lazy" sizes="auto, (max-width: 886px) 100vw, 886px" /><figcaption><em>Antonio ‘Kid Pambelé’ Cervantes</em></figcaption></figure>
+<figure><img srcset="/img/image-11-886x1024.webp 886w, /img/image-11-260x300.png 260w, /img/image-11-768x888.webp 768w, /img/image-11-696x805.webp 696w, /img/image-11.webp 936w" src="/img/image-11-886x1024.webp" decoding="async" width="886" height="1024" alt="Palenquera women preparing traditional Afro-Caribbean cuisine" loading="lazy" sizes="auto, (max-width: 886px) 100vw, 886px" /><figcaption><em>Antonio ‘Kid Pambelé’ Cervantes</em></figcaption></figure>
 
 
 
@@ -252,13 +247,13 @@
 
 <p>When I last went to Palenque, the townsfolk treated us to wonderful fried Red Snapper on a bed of sweet coconut rice with a rich mango sauce, all served on a natural leaf. It was as delicious as it looked; easily some of the best food I’ve had. After lunch, they offered us tasty Palenquero sweets, handmade by the local women, mixes of coconut and local fruits with panela (a delicious cane sugar), and served coffee in Totumo shells, the husk of the <a href="https://www.google.com.co/search?q=totumo+fruit"><strong>tutomo</strong></a> fruit.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="fried Red Snapper with coconut rice and mango sauce" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-food-fried-red-snapper-with-coconut-rice-and-mango-sauce.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="fried Red Snapper with coconut rice and mango sauce" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-food-fried-red-snapper-with-coconut-rice-and-mango-sauce.webp" class="article-photo" width="1200"/>
 </figure>
 
 
 
 
-<figure><img srcset="/img/image-12.png 1024w, /img/image-12-300x225.png 300w, /img/image-12-768x576.png 768w, /img/image-12-696x522.png 696w" src="/img/image-12.png" decoding="async" width="1024" height="768" alt="Everyday life in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption><em>A traditional Palenque lunch… delicious!</em></figcaption></figure>
+<figure><img srcset="/img/image-12.webp 1024w, /img/image-12-300x225.png 300w, /img/image-12-768x576.webp 768w, /img/image-12-696x522.webp 696w" src="/img/image-12.webp" decoding="async" width="1024" height="768" alt="Everyday life in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption><em>A traditional Palenque lunch… delicious!</em></figcaption></figure>
 
 
 
@@ -266,7 +261,7 @@
 
 
 
-<figure><img srcset="/img/image-13-1024x707.png 1024w, /img/image-13-300x207.png 300w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w, /img/image-13.webp 1198w" src="/img/image-13-1024x707.png" decoding="async" width="1024" height="707" alt="Traveller taking a photo in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption><em>Palenquera for “See you Later!”</em></figcaption></figure>
+<figure><img srcset="/img/image-13-1024x707.webp 1024w, /img/image-13-300x207.png 300w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w, /img/image-13.webp 1198w" src="/img/image-13-1024x707.webp" decoding="async" width="1024" height="707" alt="Traveller taking a photo in San Basilio de Palenque" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption><em>Palenquera for “See you Later!”</em></figcaption></figure>
 
 
 
@@ -276,7 +271,7 @@
 
 <p></p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="San Basilio de Palenque" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-san-basilio-de-palenque.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="San Basilio de Palenque" decoding="async" height="800" loading="lazy" src="/img/san-basilio-de-palenque-place-san-basilio-de-palenque.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2 id="further-reading">Further reading</h2>
@@ -411,7 +406,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/estadio-edgar-renteria-scaled.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -97,7 +94,7 @@
 <!-- Hero Image -->
 <div class="article-hero">
 <div class="article-hero-image">
-<img alt="Popular Sports for Enthusiasts in Barranquilla" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1425px) 100vw, 1425px" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.jpg 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.jpg 1068w, /img/estadio-edgar-renteria-1920x1213.jpg 1920w" width="1425"/> </div>
+<img alt="Popular Sports for Enthusiasts in Barranquilla" decoding="async" fetchpriority="high" height="900" loading="eager" sizes="(max-width: 1425px) 100vw, 1425px" src="/img/estadio-edgar-renteria-scaled.jpg" srcset="/img/estadio-edgar-renteria-scaled.jpg 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.webp 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.webp 1068w, /img/estadio-edgar-renteria-1920x1213.webp 1920w" width="1425"/> </div>
 </div>
 <!-- Article Header -->
 <header class="article-header">
@@ -134,7 +131,7 @@
 </div>
 <h2 id="1-football-soccer">1. Football: Junior FC</h2>
 <p>Junior FC (officially Club Deportivo Popular Junior FC) is the local team and the dominant sports story in Barranquilla. They play in Colombia's top division, the Categoría Primera A, and have won the national league multiple times. Home matches are at Estadio Metropolitano Roberto Meléndez in the south of the city.</p>
-<figure><img alt="Estadio Metropolitano Roberto Meléndez, home of Junior FC" decoding="async" src="/img/estadio-metropolitana-1024x768.jpg" width="1024" height="768" loading="lazy"/></figure>
+<figure><img alt="Estadio Metropolitano Roberto Meléndez, home of Junior FC" decoding="async" src="/img/estadio-metropolitana-1024x768.webp" width="1024" height="768" loading="lazy"/></figure>
 <p>Matchdays are the city's main shared event outside of Carnaval. The stadium is the same one that hosts Colombian national-team World Cup qualifiers, so when both Junior and the Selección play there it doubles as the country's home ground. Atmosphere on a Junior matchday is loud, partisan, and family-friendly in the general sections; the ultras' end (Frente Rojiblanco) is louder and rowdier, sit elsewhere if you have small kids or want a calm view.</p>
 <p>Tickets: buy in advance on TuBoleta or at OXXO points around the city, prices typically run COP 30.000 to 150.000 depending on section and match. Walk-up tickets exist for less important matches but big games sell out. Get to the stadium at least 45 minutes early; traffic in the south side is heavy on matchdays and parking near the ground is a hassle, an Uber drop-off is easier than driving in.</p>
 <h2 id="2-baseball-and-caimanes">2. Baseball: the Caimanes</h2>
@@ -279,7 +276,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

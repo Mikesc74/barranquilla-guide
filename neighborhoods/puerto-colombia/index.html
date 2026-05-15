@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/puertomocho1.jpeg" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -136,20 +131,20 @@
 
 <p><p style="font-size:20px;line-height:1.6;color:#4a5568;max-width:740px;margin-bottom:32px;font-family:Georgia,serif;font-style:italic;">Not quite Barranquilla, not quite a beach town, a separate municipality with a deep history, a famous pier, and a slower heartbeat than the city it helped build.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 </p>
 
 
 
-<figure><img srcset="/img/faro-puerto2-768x1024.jpg 768w, /img/faro-puerto2-225x300.jpg 225w, /img/faro-puerto2-1152x1536.jpg 1152w, /img/faro-puerto2-150x200.jpg 150w, /img/faro-puerto2-300x400.jpg 300w, /img/faro-puerto2-696x928.jpg 696w, /img/faro-puerto2-1068x1424.jpg 1068w, /img/faro-puerto2.jpg 1200w" src="/img/faro-puerto2-768x1024.jpg" decoding="async" width="768" height="1024" alt="" sizes="(max-width: 768px) 100vw, 768px" loading="lazy"></figure>
+<figure><img srcset="/img/faro-puerto2-768x1024.jpg 768w, /img/faro-puerto2-225x300.jpg 225w, /img/faro-puerto2-1152x1536.jpg 1152w, /img/faro-puerto2-150x200.jpg 150w, /img/faro-puerto2-300x400.jpg 300w, /img/faro-puerto2-696x928.jpg 696w, /img/faro-puerto2-1068x1424.webp 1068w, /img/faro-puerto2.jpg 1200w" src="/img/faro-puerto2-768x1024.jpg" decoding="async" width="768" height="1024" alt="Lighthouse, Puerto Colombia" sizes="(max-width: 768px) 100vw, 768px" loading="lazy"></figure>
 <h2 style="font-family:Georgia,serif;font-size:34px;margin-top:56px;margin-bottom:16px;">The port that made Barranquilla possible</h2>
 
 
 
 <p><strong>Puerto Colombia</strong> is technically its own municipality, not a Barranquilla neighborhood, but it sits so close (about 20 minutes west of the city by car) that most expats and relocators consider it part of the same conversation. And its story is inseparable from Barranquilla&#8217;s.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-puerto-colombia.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-puerto-colombia.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -157,7 +152,7 @@
 
 <p>In the late 19th century, the mouth of the Magdalena River silted badly and ocean-going ships could not reach Barranquilla&#8217;s docks. The solution, engineered between 1888 and 1893, was a <strong>1,294-meter pier</strong> built into the deep water at what is now Puerto Colombia. For decades it was <em>the longest pier in South America and one of the longest in the world</em>. Almost everyone and everything that arrived in Colombia by sea, immigrants, machinery, letters, books, passed through this dock first.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-magdalena-river.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-magdalena-river.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -165,13 +160,13 @@
 
 <p>The pier is partly gone now (a 2009 hurricane took out a long section) but what remains has been restored as a heritage monument and is one of the most photographed landmarks on the Atlantic coast.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Atlantic coast" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-atlantic-coast.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Atlantic coast" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-atlantic-coast.webp" class="article-photo" width="1200"/>
 </figure>
 
 
 
 
-<figure><img srcset="/img/faro-puerto.webp 800w, /img/faro-puerto-300x164.webp 300w, /img/faro-puerto-768x420.webp 768w, /img/faro-puerto-150x82.webp 150w, /img/faro-puerto-696x381.webp 696w" src="/img/faro-puerto.webp" decoding="async" width="800" height="438" alt="" sizes="(max-width: 800px) 100vw, 800px" loading="lazy"></figure>
+<figure><img srcset="/img/faro-puerto.webp 800w, /img/faro-puerto-300x164.webp 300w, /img/faro-puerto-768x420.webp 768w, /img/faro-puerto-150x82.webp 150w, /img/faro-puerto-696x381.webp 696w" src="/img/faro-puerto.webp" decoding="async" width="800" height="438" alt="Faro de Puerto Colombia" sizes="(max-width: 800px) 100vw, 800px" loading="lazy"></figure>
 
 
 
@@ -185,19 +180,19 @@
 
 <p>The coastline is a mix of public beaches and private fincas. Salgar, the main swimming beach, is cheap and crowded on weekends, full of Barranquilleros who&#8217;ve driven over for the afternoon. Playa Miramar and Playa Pradomar are quieter. A handful of beachfront restaurants serve grilled fish and <em>arroz con coco</em> directly from plastic tables on the sand.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="arroz con coco" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-food-arroz-con-coco.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="arroz con coco" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-food-arroz-con-coco.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Playa Pradomar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-playa-pradomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Playa Pradomar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-playa-pradomar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Playa Miramar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-playa-miramar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Playa Miramar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-playa-miramar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Salgar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-salgar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Salgar" decoding="async" height="800" loading="lazy" src="/img/puerto-colombia-place-salgar.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -207,7 +202,7 @@
 
 
 
-<figure><img srcset="/img/puertomocho3.webp 1024w, /img/puertomocho3-300x169.webp 300w, /img/puertomocho3-768x432.webp 768w, /img/puertomocho3-150x84.webp 150w, /img/puertomocho3-696x392.webp 696w" src="/img/puertomocho3.webp" decoding="async" width="1024" height="576" alt="" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
+<figure><img srcset="/img/puertomocho3.webp 1024w, /img/puertomocho3-300x169.webp 300w, /img/puertomocho3-768x432.webp 768w, /img/puertomocho3-150x84.webp 150w, /img/puertomocho3-696x392.webp 696w" src="/img/puertomocho3.webp" decoding="async" width="1024" height="576" alt="Puerto Mocho beach" sizes="(max-width: 1024px) 100vw, 1024px" loading="lazy"></figure>
 
 
 
@@ -346,7 +341,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

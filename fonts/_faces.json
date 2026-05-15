@@ -1,0 +1,128 @@
+[
+  {
+    "subset": "latin-ext",
+    "family": "Inter",
+    "weight": "300",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Inter",
+    "weight": "300",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Inter",
+    "weight": "400",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Inter",
+    "weight": "500",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Inter",
+    "weight": "500",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Inter",
+    "weight": "600",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Inter",
+    "weight": "600",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Playfair Display",
+    "weight": "400",
+    "style": "italic",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk7yRZrPJ-M.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Playfair Display",
+    "weight": "400",
+    "style": "italic",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Playfair Display",
+    "weight": "600",
+    "style": "italic",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk7yRZrPJ-M.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Playfair Display",
+    "weight": "600",
+    "style": "italic",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Playfair Display",
+    "weight": "400",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Playfair Display",
+    "weight": "400",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Playfair Display",
+    "weight": "600",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Playfair Display",
+    "weight": "600",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2"
+  },
+  {
+    "subset": "latin-ext",
+    "family": "Playfair Display",
+    "weight": "700",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTLYgEM86xRbPQ.woff2"
+  },
+  {
+    "subset": "latin",
+    "family": "Playfair Display",
+    "weight": "700",
+    "style": "normal",
+    "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2"
+  }
+]

@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/desserts-barranquilla.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -149,9 +146,9 @@
 <p>A few ingredients show up in almost every costeño sweet worth eating. <strong>Coconut</strong>, the backbone. <strong>Panela</strong>, unrefined cane sugar, the caramel voice. <strong>Arequipe</strong>, Colombia’s dulce de leche. <strong>Yuca</strong> and <strong>corn</strong>, the starch for enyucado and natilla. And a rotating cast of tropical fruits: <strong>corozo</strong> (a tart reddish-purple palm fruit), <strong>níspero</strong> (sapodilla), <strong>zapote</strong> (earthy, orange, unmistakable), <strong>mamey</strong>, <strong>guanábana</strong> (soursop), <strong>tamarindo</strong>, <strong>guayaba</strong>, <strong>maracuyá</strong>. If a heladería doesn’t carry at least three of these, it isn’t really from here.</p>
 <h2 class="bg-article__section-title" id="street-treats-and-traditions">Street treats &amp; traditions</h2>
 <p><strong>Raspao.</strong> Shaved ice doused in bright fruit syrup, sometimes topped with condensed milk. The tradition dates to 1925, when the Lequerica brothers opened Hielo Imperial, the city’s first ice plant. Vendors with hand planers would shave the block into a paper cup. <em>Raspao de kola</em>, that deep-red cola syrup, is the local signature; tamarindo, corozo, and maracuyá are the other classics. There’s a sculpture of a caiman holding a raspao on the Malecón. That’s how embedded it is.</p>
-<figure class="place-card__figure"><img alt="Raspao, Barranquilla shaved ice with fruit syrup" decoding="async" height="640" loading="lazy" src="/img/raspao.jpg" width="640"/><figcaption>Raspao: shaved ice and bright fruit syrup, a tradition since 1925.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Raspao, Barranquilla shaved ice with fruit syrup" decoding="async" height="640" loading="lazy" src="/img/raspao.webp" width="640"/><figcaption>Raspao: shaved ice and bright fruit syrup, a tradition since 1925.</figcaption></figure>
 <p><strong>Boli.</strong> Homemade fruit popsicles frozen in skinny plastic tube bags. You bite a corner and squeeze. Moms and abuelas freeze them from corozo, tamarindo, mango, guanábana, or níspero and send the kids out to sell them from coolers. A boli de corozo is the taste of a Barranquilla afternoon.</p>
-<figure class="place-card__figure"><img alt="Bolis, homemade fruit popsicles in plastic tubes" decoding="async" height="960" loading="lazy" src="/img/bolis.jpg" width="1280"/><figcaption>Bolis: bite the corner, squeeze, and the afternoon gets a little easier.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Bolis, homemade fruit popsicles in plastic tubes" decoding="async" height="960" loading="lazy" src="/img/bolis.webp" width="1280"/><figcaption>Bolis: bite the corner, squeeze, and the afternoon gets a little easier.</figcaption></figure>
 <p><strong>Cocadas.</strong> Coconut cooked down with panela until it’s a chewy, toasty brick, sometimes dressed with arequipe, piña, or guayaba. The iconic sellers are the <strong>palenqueras</strong>, Afro-Colombian women from San Basilio de Palenque who walk with wide <em>palanganas</em> balanced on their heads, dressed in ruffled bright dresses. They’re the living link between West African and Caribbean cooking, and they’re at Paseo Bolívar, outside the shopping centers, and at every Carnaval and Semana Santa crowd.</p>
 <figure class="place-card__figure"><img alt="Cocadas, coconut and panela sweets sold by palenqueras" decoding="async" height="1080" loading="lazy" src="/img/cocadas.webp" width="1920"/><figcaption>Cocadas: coconut and panela cooked down, sold by the palenqueras of Palenque.</figcaption></figure>
 <p><strong>Alegrías.</strong> Puffed rice or millet bound with panela into a ball or bar. Crunchy, sweet, nostalgic. Also palenquera-sold.</p>
@@ -182,7 +179,7 @@
 <p class="place-card__location">Cra. 46 #84-170, Riomar</p>
 <p>If Heladería Americana is the everyday treat, Don Jacobo is the occasion cake. Founded in 1986, family-run for almost forty years, and the birthplace of the <strong>Genovesa</strong>, a trademarked vanilla sponge covered in Italian meringue with chocolate shavings and cherries that has shown up at so many Barranquilla birthdays that the word is shorthand. When a local says “I’ll bring the Genovesa,” nobody asks what kind.</p>
 <p class="place-card__tip">Order whole cakes 48 hours ahead for weekends.</p>
-<figure class="place-card__figure"><img alt="Don Jacobo Postres y Ponqués, Barranquilla" decoding="async" height="530" loading="lazy" src="/img/don-jacobo.jpg" width="1032"/><figcaption>Don Jacobo: home of the Genovesa, the city’s default birthday cake since 1986.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Don Jacobo Postres y Ponqués, Barranquilla" decoding="async" height="530" loading="lazy" src="/img/don-jacobo.webp" width="1032"/><figcaption>Don Jacobo: home of the Genovesa, the city’s default birthday cake since 1986.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Margarita Saieh de Jassir</h3>
@@ -190,7 +187,7 @@
 <p class="place-card__location">Flagship on Av. Murillo; 20+ locations across Barranquilla, Soledad, Malambo, Cartagena</p>
 <p>Started in 1993 as home baking by Margarita Saieh, opened its first storefront in 1994, and is now a Lebanese-Colombian family empire with more than twenty shops and two hundred employees. If Don Jacobo is the birthday cake, Saieh is the Tuesday pudding, the red velvet, the pudín de vainilla, the chocolate goodies, the tres leches. It’s the default everyday dessert shop for huge stretches of the city.</p>
 <p class="place-card__tip">The pudines are the house specialty. Pick one.</p>
-<figure class="place-card__figure"><img alt="Margarita Saieh de Jassir pastelería" decoding="async" height="615" loading="lazy" src="/img/margarita-saieh-jassir.jpg" width="1080"/><figcaption>Margarita Saieh de Jassir: the everyday cake counter, across more than 20 locations.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Margarita Saieh de Jassir pastelería" decoding="async" height="615" loading="lazy" src="/img/margarita-saieh-jassir.webp" width="1080"/><figcaption>Margarita Saieh de Jassir: the everyday cake counter, across more than 20 locations.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Pan Santana</h3>
@@ -198,7 +195,7 @@
 <p class="place-card__location">Cra. 49B con Calle 79 esquina</p>
 <p>Founded in 1971 in San Jacinto, Bolívar, by Amira Viana de Villa and moved to Barranquilla the next year. Originally famous for its French bread, exported at one point to the Dominican Republic, Puerto Rico, Venezuela, and the U.S., it’s now as known for its sweets as its baguettes. Tres leches, strawberry-and-cream cakes, yuca cakes, condensed-milk Napoleons, message-cakes for birthdays. Sold to the Sánchez Argüelles family in 2016, which kept the original bakers on the line.</p>
 <p class="place-card__tip">The Napoleon hojaldrado, the old-school condensed-milk version, is the order.</p>
-<figure class="place-card__figure"><img alt="Pan Santana bakery, Barranquilla" decoding="async" height="1920" loading="lazy" src="/img/pan-santana.jpg" width="1440"/><figcaption>Pan Santana: bread since 1971, sweets that earned their own following.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Pan Santana bakery, Barranquilla" decoding="async" height="1920" loading="lazy" src="/img/pan-santana.webp" width="1440"/><figcaption>Pan Santana: bread since 1971, sweets that earned their own following.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Panadería La Baguette</h3>
@@ -222,7 +219,7 @@
 <p class="place-card__location">Cra. 56 #98-65; also CC Parque Washington (Calle 80 #53-18)</p>
 <p>Nancy Cabrera is a local name, a chef whose repostería doubles as a restaurant. The <strong>torta de trufa de chocolate</strong>, a three-quarter-pound ganache cake, is the order most regulars reach for. Red velvet, carrot cake, and a guava cheesecake round out the short list.</p>
 <p class="place-card__tip">The terrace is the best seat for a long coffee-and-cake afternoon.</p>
-<figure class="place-card__figure"><img alt="Repostería Nancy Cabrera, Barranquilla" decoding="async" height="577" loading="lazy" src="/img/reposteria-nancy-cabrera.png" width="586"/><figcaption>Repostería Nancy Cabrera: the torta de trufa de chocolate is the regulars’ order.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Repostería Nancy Cabrera, Barranquilla" decoding="async" height="577" loading="lazy" src="/img/reposteria-nancy-cabrera.webp" width="586"/><figcaption>Repostería Nancy Cabrera: the torta de trufa de chocolate is the regulars’ order.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Piononos Pastelería</h3>
@@ -240,7 +237,7 @@
 <p class="place-card__location">Cra. 51B #82-38</p>
 <p>Part café, part patisserie, part all-day eatery. Chef Michelle Cure blends European technique with Caribbean fruit, and the tarts and cakes are as precise as anything you’ll find on this coast. The dining room is warm and a little loud on weekends, which is when you’ll see most of north Barranquilla run through it.</p>
 <p class="place-card__tip">The fruit tart with seasonal tropical fruit is the signature order.</p>
-<figure class="place-card__figure"><img alt="Tart by Michelle Cure, Barranquilla" decoding="async" height="1200" loading="lazy" src="/img/tart-michelle-cure.jpg" width="1200"/><figcaption>Tart by Michelle Cure: European technique, Caribbean fruit.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Tart by Michelle Cure, Barranquilla" decoding="async" height="1200" loading="lazy" src="/img/tart-michelle-cure.webp" width="1200"/><figcaption>Tart by Michelle Cure: European technique, Caribbean fruit.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Nacho’s Desserts</h3>
@@ -248,7 +245,7 @@
 <p class="place-card__location">Calle 98 #52</p>
 <p>Chef Juan Ignacio “Nacho” Losada Fadul builds cakes that look like art installations and taste like they earn the staging. The specialty is weddings, quinceañeras, and custom showpieces, but the counter has plenty of slices, and the technique is visible in every one of them.</p>
 <p class="place-card__tip">Book custom orders at least a week out. Peak seasons longer.</p>
-<figure class="place-card__figure"><img alt="Custom cake by Nacho's Desserts Barranquilla" decoding="async" height="1440" loading="lazy" src="/img/nachos-desserts.jpg" width="1440"/><figcaption>Nacho’s Desserts: cakes by chef Juan Ignacio Losada Fadul.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Custom cake by Nacho's Desserts Barranquilla" decoding="async" height="1440" loading="lazy" src="/img/nachos-desserts.webp" width="1440"/><figcaption>Nacho’s Desserts: cakes by chef Juan Ignacio Losada Fadul.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Le Panier</h3>
@@ -256,7 +253,7 @@
 <p class="place-card__location">Cra. 53 #85-97, Riomar</p>
 <p>A French artisan bakery with the kind of laminated pastry you normally have to fly for. The hundred-percent-butter croissant is the benchmark, and the <em>croissant gelato</em>, two scoops tucked inside a croissant, is the indulgent dare. Brunch-all-day vibe; the north-side Sunday-morning spot.</p>
 <p class="place-card__tip">Get there before 11am on Sunday. Croissants sell out.</p>
-<figure class="place-card__figure"><img alt="Le Panier artisan bakery, Barranquilla" decoding="async" height="1200" loading="lazy" src="/img/le-panier.jpg" width="1200"/><figcaption>Le Panier: the hundred-percent-butter croissant is the benchmark.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Le Panier artisan bakery, Barranquilla" decoding="async" height="1200" loading="lazy" src="/img/le-panier.webp" width="1200"/><figcaption>Le Panier: the hundred-percent-butter croissant is the benchmark.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Le Colate Sede 84</h3>
@@ -264,7 +261,7 @@
 <p class="place-card__location">Calle 84 #43B-40</p>
 <p>The cacao specialists. Coffee and chocolate in every form, bars, bonbons, a much-loved <strong>mil hojas</strong>, and a signature Milo dessert that locals cross town for. The vibe is small-shop, not flashy, but the product is the point.</p>
 <p class="place-card__tip">The mil hojas is the one. Also take a box of bonbones home.</p>
-<figure class="place-card__figure"><img alt="Le Colate chocolates and mil hojas, Barranquilla" decoding="async" height="1920" loading="lazy" src="/img/le-colate.jpg" width="1440"/><figcaption>Le Colate Sede 84: chocolates, cacao, and the signature mil hojas.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Le Colate chocolates and mil hojas, Barranquilla" decoding="async" height="1920" loading="lazy" src="/img/le-colate.webp" width="1440"/><figcaption>Le Colate Sede 84: chocolates, cacao, and the signature mil hojas.</figcaption></figure>
 </div>
 <h2 class="bg-article__section-title" id="ice-cream-gelato-and-paletas">Ice cream, gelato &amp; paletas</h2>
 <div class="place-card">
@@ -273,7 +270,7 @@
 <p class="place-card__location">Cra. 51B #82-38 (plus Villa Campestre)</p>
 <p>Widely called the best gelato in Barranquilla and a contender for the best in Colombia. Italian technique, Caribbean palette, the <em>zapote</em>, the pistachio, whichever tropical fruit is in season, and a full stevia-sweetened line that somehow loses nothing. A perfect post-dinner walk-over from the Alto Prado restaurant strip.</p>
 <p class="place-card__tip">Ask which tropical fruit is in season today. That’s the one to order.</p>
-<figure class="place-card__figure"><img alt="La Gelateria, Barranquilla" decoding="async" height="1350" loading="lazy" src="/img/la-gelateria.jpg" width="1080"/><figcaption>La Gelateria: Italian technique, Caribbean palette.</figcaption></figure>
+<figure class="place-card__figure"><img alt="La Gelateria, Barranquilla" decoding="async" height="1350" loading="lazy" src="/img/la-gelateria.webp" width="1080"/><figcaption>La Gelateria: Italian technique, Caribbean palette.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Dolce Gelo</h3>
@@ -281,7 +278,7 @@
 <p class="place-card__location">Cra. 46 #90-60 (plus Cra. 43 #84-51)</p>
 <p>The younger, weirder cousin. Opened in 2019 by a Bogotá transplant who set up to make gelato out of recognizable ingredients, no essences, only real product, and then leaned into Colombian nostalgia flavors: Alpinito, Quipitos, Bon Yurt, Nucita, Ducales. The Carnaval-season lineup (buñuelo-dulce-de-leche, aguardiente, corozo-tequila) is the most-Barranquilla gelato in Barranquilla.</p>
 <p class="place-card__tip">Ask for the Carnaval specials if you’re here between January and March.</p>
-<figure class="place-card__figure"><img alt="Dolce Gelo gelato, Barranquilla" decoding="async" height="1440" loading="lazy" src="/img/dolce-gelo.jpg" width="1440"/><figcaption>Dolce Gelo: nostalgia-flavored gelato in Alto Prado.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Dolce Gelo gelato, Barranquilla" decoding="async" height="1440" loading="lazy" src="/img/dolce-gelo.webp" width="1440"/><figcaption>Dolce Gelo: nostalgia-flavored gelato in Alto Prado.</figcaption></figure>
 </div>
 <div class="place-card">
 <h3 class="place-card__name">Ciocolatto Pop Bar</h3>
@@ -289,7 +286,7 @@
 <p class="place-card__location">Cra. 51B #82-21</p>
 <p>A paleta bar, gelato-on-a-stick and fruit ice pops made with natural ingredients, a big stevia line, and a vegan line that’s actually good. The north-side health-conscious afternoon stop.</p>
 <p class="place-card__tip">The chocolate-dipped paleta with crushed pistachio is the classic.</p>
-<figure class="place-card__figure"><img alt="Ciocolatto Pop Bar paletas, Barranquilla" decoding="async" height="2560" loading="lazy" src="/img/ciocolatto-scaled.jpg" width="1707"/><figcaption>Ciocolatto Pop Bar: artisan paletas, stevia and vegan lines included.</figcaption></figure>
+<figure class="place-card__figure"><img alt="Ciocolatto Pop Bar paletas, Barranquilla" decoding="async" height="2560" loading="lazy" src="/img/ciocolatto-scaled.webp" width="1707"/><figcaption>Ciocolatto Pop Bar: artisan paletas, stevia and vegan lines included.</figcaption></figure>
 </div>
 <p class="article-note"><em>A note on this guide:</em> the best dessert day in Barranquilla is a loop, not a single address. Start with a palenquera’s cocada on Paseo Bolívar. Grab a raspao de kola in the afternoon. Stop for a Frozomalt at Americana before dinner. End with a scoop of zapote gelato at La Gelateria. That’s the city in one sweet line.</p>
 </div>
@@ -416,7 +413,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

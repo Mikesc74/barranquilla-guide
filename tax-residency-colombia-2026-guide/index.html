@@ -28,13 +28,10 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -131,7 +128,7 @@
 </ol>
 </div>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/tax-residency-colombia-2026-guide-place-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/tax-residency-colombia-2026-guide-place-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 <h2 id="the-183-day-rule">The 183-day rule</h2>
 <p>Under Article 10 of Colombia’s Estatuto Tributario, you are a Colombian tax resident in a given tax year if you spend more than 183 calendar days, continuous or not, in Colombian territory during any <em>rolling</em> 365-day period that ends in that tax year. Entry and exit days both count. There are a few other triggers (being a Colombian public servant abroad, certain diplomatic statuses, certain family-tie tests for Colombian citizens abroad) but the day-count rule is what catches almost every foreigner.</p>
@@ -358,7 +355,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/gran-malecon-tour-1.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -119,7 +116,7 @@
 <!-- Article Body -->
 <div class="article-body">
 <p>With 39 reviews and a 4.6-star rating, the Gran Malecón and Carnaval Museum city tour is Barranquilla’s most reviewed guided experience on Viator, and for good reason. It covers the city’s three most important sights in a single 6-hour tour, with a bilingual guide who brings the cultural context that most visitors miss when exploring independently.</p>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Gran Malecón, Carnaval Museum &amp; Downtown City Tour (6 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
@@ -132,33 +129,33 @@
 </div>
 <p><strong>Bottom line:</strong> If you’re doing one guided tour in Barranquilla, this is the one. <a href="https://www.viator.com/tours/Barranquilla/Malecon-Caribbean-Museum-Downtown-Barranquilla-City-Tour-5H/d50228-59388P110?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">Book here on Viator →</a> (~$74 USD, free cancellation)</p>
 <h2>What’s Included</h2>
-<figure><img alt="Gran Malecón del Río alongside the Magdalena in Barranquilla" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="576" src="/img/magdalena-malecon-1024x576.jpg" srcset="/img/magdalena-malecon-1024x576.jpg 1024w, /img/magdalena-malecon-300x169.jpg 300w, /img/magdalena-malecon-768x432.jpg 768w, /img/magdalena-malecon-1536x864.jpg 1536w, /img/magdalena-malecon.jpg 1585w" width="1024" loading="lazy"></figure>
+<figure><img alt="Gran Malecón del Río alongside the Magdalena in Barranquilla" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="576" src="/img/magdalena-malecon-1024x576.jpg" srcset="/img/magdalena-malecon-1024x576.jpg 1024w, /img/magdalena-malecon-300x169.jpg 300w, /img/magdalena-malecon-768x432.jpg 768w, /img/magdalena-malecon-1536x864.webp 1536w, /img/magdalena-malecon.webp 1585w" width="1024" loading="lazy"></figure>
 <ul>
 <li><strong>Gran Malecón del Río</strong>, Barranquilla’s spectacular riverfront promenade along the Magdalena River. One of the finest urban public spaces in Colombia, and most visitors don’t know it exists.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-magdalena-river.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-magdalena-river.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Gran Malecón del Río" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-gran-malecon-del-rio.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Gran Malecón del Río" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-gran-malecon-del-rio.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Museo del Carnaval</strong>, The official museum of <a href="/barranquilla-carnival-complete-guide/">Barranquilla Carnival</a>. Costumes, history, music, and the cultural roots of one of the world’s great street festivals. Essential context whether or not you’re visiting during Carnival season.</li>
 <li><strong>Downtown Barranquilla</strong>, The historic centre: the Catedral Metropolitana, the old Banco de la República building, the Pasaje Bolívar. Architecture and stories from Colombia’s wealthiest city of the early 20th century.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Pasaje Bolívar" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-pasaje-bolivar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Pasaje Bolívar" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-pasaje-bolivar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Banco de la República building" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-banco-de-la-republica-building.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Banco de la República building" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-banco-de-la-republica-building.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Catedral Metropolitana" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-catedral-metropolitana.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Catedral Metropolitana" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-catedral-metropolitana.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Downtown Barranquilla" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-downtown-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Downtown Barranquilla" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-downtown-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li>Bilingual guide (Spanish/English)</li>
@@ -170,7 +167,7 @@
 <p>The Gran Malecón del Río is the most impressive urban infrastructure project Barranquilla has completed in decades, a multi-kilometre promenade along the Magdalena River with sculptures, viewpoints, cultural spaces, and the best views of the river that built Colombia. The Magdalena was the country’s main artery for trade and migration for centuries; standing on its banks in Barranquilla with a guide explaining the history is genuinely moving.</p>
 <p>Most tourists fly into Barranquilla and head straight to Cartagena. The Gran Malecón is why that’s a mistake.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-cartagena.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-cartagena.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>The Carnaval Museum, Essential Even Outside Carnival Season</h2>
@@ -195,7 +192,7 @@
 <h2><a href="/where-to-stay-in-barranquilla/">Where to Stay</a> Nearby</h2>
 <p>Most tour pickups are from the El Prado area, which is also where the best hotels are. <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a> and <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fdann-carlton-barranquilla.html" rel="noopener sponsored" target="_blank">Dann Carlton</a> both offer convenient pickup locations.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado area" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-el-prado-area.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado area" decoding="async" height="800" loading="lazy" src="/img/gran-malecon-carnaval-museum-barranquilla-city-tour-place-el-prado-area.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Other Barranquilla Tours</h2>
@@ -206,7 +203,7 @@
 <li><a href="/barranquilla-walking-tour-el-prado/">Walking Tour: Stories of El Prado</a>, Architecture and history of the finest neighbourhood</li>
 <li><a href="/best-tours-experiences-barranquilla/">All Barranquilla tours →</a></li>
 </ul>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Gran Malecón, Carnaval Museum &amp; Downtown City Tour (6 hrs)</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
@@ -231,7 +228,7 @@
 <div class="magazine-grid" style="grid-template-columns: repeat(3, 1fr);">
 <article class="article-card">
 <a class="article-card-image" href="/san-basilio-de-palenque/">
-<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.png 1024w, /img/image-13-768x530.png 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.png 696w, /img/image-13-1068x737.png 1068w" width="579"/> </a>
+<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
 <div class="article-card-meta">
@@ -330,7 +327,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

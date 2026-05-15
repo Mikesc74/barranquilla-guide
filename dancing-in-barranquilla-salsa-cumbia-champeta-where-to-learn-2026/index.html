@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/carnival-barranquilla-dancer-face-1024x350.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -145,21 +142,21 @@
 <h3>Academies and Studios (El Prado / Villa Country Zone)</h3>
 <p>The northern residential zone (El Prado, Villa Country, Altos del Prado) has the highest concentration of formal dance studios. These typically offer salsa, cumbia, and vallenato in group classes (1.5–2 hours, $40,000–$80,000 COP per class) or private instruction ($80,000–$150,000 COP/hour). Group classes are better for social dancing (and a great way to meet people, see <a href="/fun-things-to-do-in-barranquilla-as-a-group/">fun things to do in Barranquilla as a group</a>); private lessons are faster for building technical foundations. Look for studios on Instagram, most promote via reels and stories rather than websites.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Altos del Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-altos-del-prado-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Altos del Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-altos-del-prado-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-villa-country-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-villa-country-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-el-prado-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-el-prado-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h3>Cultural Centers (Folkloric Focus)</h3>
 <p>For traditional cumbia, mapalé, and folkloric forms, look to cultural centers and casas de cultura in neighborhoods like Barrio Abajo, the historic cradle of Carnival in Barranquilla. These are more affordable (often subsidized, $10,000–$30,000 COP) and offer an authentic context for the dances. Your Spanish needs to be functional for this; these are not set up for tourists.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-barrio-abajo-barranquilla.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026-place-barrio-abajo-barranquilla.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h3>Private Instructors</h3>
@@ -167,7 +164,7 @@
 <h3>Hotels and Expat Venues</h3>
 <p>Some hotels in El Prado and the financial district offer introductory salsa/cumbia classes for guests, often free or low-cost. These are a good zero-pressure starting point before committing to an academy.</p>
 <h2 id="social-dancing-venues">Social Dancing Venues</h2>
-<figure><img alt="Carnaval de Barranquilla dancer in full costume" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" fetchpriority="high" height="350" src="/img/carnival-barranquilla-dancer-face-1024x350.jpg" srcset="/img/carnival-barranquilla-dancer-face-1024x350.jpg 1024w, /img/carnival-barranquilla-dancer-face-300x103.jpg 300w, /img/carnival-barranquilla-dancer-face-768x263.jpg 768w, /img/carnival-barranquilla-dancer-face-1536x525.jpg 1536w, /img/carnival-barranquilla-dancer-face.jpg 2048w" width="1024" loading="eager"></figure>
+<figure><img alt="Carnaval de Barranquilla dancer in full costume" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" fetchpriority="high" height="350" src="/img/carnival-barranquilla-dancer-face-1024x350.jpg" srcset="/img/carnival-barranquilla-dancer-face-1024x350.jpg 1024w, /img/carnival-barranquilla-dancer-face-300x103.jpg 300w, /img/carnival-barranquilla-dancer-face-768x263.jpg 768w, /img/carnival-barranquilla-dancer-face-1536x525.webp 1536w, /img/carnival-barranquilla-dancer-face.webp 2048w" width="1024" loading="eager"></figure>
 <p>Learning in a studio is one thing; dancing in context is another. Once you have basic steps, these are the best places to practice:</p>
 <h3>Live Music Bars with Dance Floors</h3>
 <p>Barranquilla has numerous bars that feature live vallenato or salsa bands with a small dance floor. These are less intimidating than clubs, the lights are up more, the crowd is mixed-age, and nobody is watching you closely. Locals are generally happy to dance with a foreigner who makes an effort. Arriving around 9–10 PM (earlier than a club) works well here.</p>
@@ -305,7 +302,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/bike-tour-barranquilla-1.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -119,7 +116,7 @@
 <!-- Article Body -->
 <div class="article-body">
 <p>The Private Bike Tour of Barranquilla has a perfect 5.0-star rating from 23 reviewers, making it the highest-rated tour in the city. At ~$42 USD for a 3–4 hour private cycling experience, it’s also exceptional value. If you want to cover more ground than a <a href="/barranquilla-walking-tour-el-prado/">walking tour</a> while getting off the main tourist circuit entirely, this is the best option in Barranquilla.</p>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Private Bike Tour of Barranquilla</p>
 <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:16px;font-size:14px;color:#444;">
@@ -132,18 +129,18 @@
 </div>
 <p><a href="https://www.viator.com/tours/Barranquilla/Meet-some-place-in-Barranquilla-in-bike/d50228-416644P1?pid=P00296226&amp;mcid=42383&amp;medium=link" rel="noopener sponsored" target="_blank">→ Book the Private Bike Tour on Viator</a> (~$42 USD | 5.0 ⭐ | Free cancellation)</p>
 <h2>Why This Tour Has a Perfect Rating</h2>
-<figure><img alt="Street vendors on a Barranquilla corner" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/vendors-selling-their-goods-on-a-street-corner-1024x768.jpg" srcset="/img/vendors-selling-their-goods-on-a-street-corner-1024x768.jpg 1024w, /img/vendors-selling-their-goods-on-a-street-corner-300x225.jpg 300w, /img/vendors-selling-their-goods-on-a-street-corner-768x576.jpg 768w, /img/vendors-selling-their-goods-on-a-street-corner-1536x1152.jpg 1536w, /img/vendors-selling-their-goods-on-a-street-corner-900x675.jpg 900w, /img/vendors-selling-their-goods-on-a-street-corner-400x300.jpg 400w, /img/vendors-selling-their-goods-on-a-street-corner.jpg 1585w" width="1024" loading="lazy"></figure>
+<figure><img alt="Street vendors on a Barranquilla corner" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="768" src="/img/vendors-selling-their-goods-on-a-street-corner-1024x768.webp" srcset="/img/vendors-selling-their-goods-on-a-street-corner-1024x768.webp 1024w, /img/vendors-selling-their-goods-on-a-street-corner-300x225.jpg 300w, /img/vendors-selling-their-goods-on-a-street-corner-768x576.webp 768w, /img/vendors-selling-their-goods-on-a-street-corner-1536x1152.webp 1536w, /img/vendors-selling-their-goods-on-a-street-corner-900x675.webp 900w, /img/vendors-selling-their-goods-on-a-street-corner-400x300.jpg 400w, /img/vendors-selling-their-goods-on-a-street-corner.webp 1585w" width="1024" loading="lazy"></figure>
 <p>The bike format solves the biggest problem with touring Barranquilla: the city is large, the heat is intense, and walking everything is punishing. Cycling lets you cover the El Prado historic district, the riverfront, Barrio Abajo, and the Malecón in a single tour at a pace that’s comfortable rather than exhausting. Reviewers consistently cite the guide’s local knowledge, the route variety, and the feeling of experiencing Barranquilla like a local rather than a tourist.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Gran Malecón del Río" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-gran-malecon-del-rio.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Gran Malecón del Río" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-gran-malecon-del-rio.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-barrio-abajo.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Barrio Abajo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-barrio-abajo.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado historic district" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-el-prado-historic-district.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado historic district" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-el-prado-historic-district.webp" class="article-photo" width="1200"/>
 </figure>
 
 <p>It’s private, just you and your group, so the pace and focus can adapt to what you’re most interested in.</p>
@@ -153,7 +150,7 @@
 <li><strong>Barrio Abajo</strong>, The birthplace of Carnival: murals, cultural centres, and the streets where cumbia was born</li>
 <li><strong>Gran Malecón del Río</strong>, The riverfront promenade along the Magdalena</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-magdalena-river.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Magdalena River" decoding="async" height="800" loading="lazy" src="/img/barranquilla-private-bike-tour-place-magdalena-river.webp" class="article-photo" width="1200"/>
 </figure>
 
 <li><strong>Downtown highlights</strong>, Key squares, markets, and architecture of the historic centre</li>
@@ -161,7 +158,7 @@
 </ul>
 <h2>Practical Details</h2>
 <figure><img alt="Exploring Barranquilla by bicycle" sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/bike-tour-barranquilla-2.jpg" srcset="/img/bike-tour-barranquilla-2.jpg 669w, /img/bike-tour-barranquilla-2-300x200.jpg 300w, /img/bike-tour-barranquilla-2-600x400.jpg 600w" width="669"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
-<figure><img alt="Pride Day celebration in Recreo, Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/recreo-pride-day-1024x576.jpg" srcset="/img/recreo-pride-day-1024x576.jpg 1024w, /img/recreo-pride-day-300x169.jpg 300w, /img/recreo-pride-day-768x432.jpg 768w, /img/recreo-pride-day.jpg 1225w" width="1024"/></figure>
+<figure><img alt="Pride Day celebration in Recreo, Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/recreo-pride-day-1024x576.webp" srcset="/img/recreo-pride-day-1024x576.webp 1024w, /img/recreo-pride-day-300x169.jpg 300w, /img/recreo-pride-day-768x432.jpg 768w, /img/recreo-pride-day.webp 1225w" width="1024"/></figure>
 <ul>
 <li><strong>Duration:</strong> 3 to 4 hours</li>
 <li><strong>Price:</strong> From ~$42 USD (COP 177,978)</li>
@@ -186,7 +183,7 @@
 </ul>
 <h2><a href="/where-to-stay-in-barranquilla/">Where to Stay</a></h2>
 <p>Most tours depart from or near El Prado, the best base for visitors. <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a> puts you walking distance from most tour meeting points.</p>
-<div class="tour-booking-cta" style="background:#f0f4f8;border:2px solid #1a3a5c;border-radius:8px;padding:24px 28px;margin:32px 0;font-family:Arial,sans-serif;">
+<div class="tour-booking-cta info-box">
 <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#e8a020;text-transform:uppercase;letter-spacing:1px;">Book This Tour</p>
 <p class="cta-title" style="margin:0 0 12px 0;font-size:20px;font-weight:700;color:#1a3a5c;">Private Bike Tour of Barranquilla</p>
 <figure><img alt="Cycling through Barranquilla neighborhoods" sizes="auto, (max-width: 669px) 100vw, 669px" decoding="async" height="446" loading="lazy" src="/img/bike-tour-barranquilla-4.jpg" srcset="/img/bike-tour-barranquilla-4.jpg 669w, /img/bike-tour-barranquilla-4-300x200.jpg 300w, /img/bike-tour-barranquilla-4-600x400.jpg 600w" width="669"/><figcaption>Photo: Viator / Tour Operator</figcaption></figure>
@@ -223,7 +220,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-mallorquin-ecopark-tour/">
-<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.jpg 669w" width="600"/> </a>
+<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.webp 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-mallorquin-ecopark-tour/">Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)</a></h3>
 <div class="article-card-meta">
@@ -311,7 +308,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/2020-06-07-CO-villa-santos-1585x900.jpg" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -132,7 +127,7 @@
     
 <p>Villa Santos is where Barranquilla’s professional class goes to raise children in peace. It’s not the most expensive neighborhood, not the most fashionable, and not the most convenient for nightlife, and that’s exactly the point. This is a residential enclave built around schools, security, and the kind of suburban quiet that’s increasingly rare in a city growing as fast as Barranquilla.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-villa-santos.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-villa-santos.webp" class="article-photo" width="1200"/>
 </figure>
 <h2>Origins and Development</h2>
 
@@ -140,7 +135,7 @@
 
 <p>Villa Santos developed primarily in the 1990s and 2000s as the northern expansion of the city pushed past the Country Club corridor. The neighborhood was planned from the start as a family-oriented residential zone, wide streets, generous lot sizes, gated communities (conjuntos cerrados) with shared green space, and proximity to the private schools that drive much of Barranquilla’s upper-middle-class geography. Unlike older neighborhoods that evolved organically, Villa Santos was engineered for a specific lifestyle: safe, spacious, and school-adjacent.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Country Club corridor" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-country-club-corridor.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Country Club corridor" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-country-club-corridor.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -168,11 +163,11 @@
 
 <p>Villa Santos is not a dining destination, for serious restaurants, you’ll drive 10 minutes to Villa Country or El Prado. But the neighborhood has solid everyday infrastructure: Olímpica and D1 supermarkets, panaderías, pharmacies, a few family-friendly restaurants along the main avenues, and ice cream shops that function as the social hub for parents on weekend afternoons. Buenavista Mall is a 5–10 minute drive for anything beyond the basics.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-el-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-el-prado.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-villa-country.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/villa-santos-place-villa-country.webp" class="article-photo" width="1200"/>
 </figure>
 
 
@@ -277,7 +272,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>

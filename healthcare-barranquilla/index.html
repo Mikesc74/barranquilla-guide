@@ -28,15 +28,12 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/healthcare-barranquilla.jpg" fetchpriority="high">
-<!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap"></noscript>
-<link href="/css/site.css?v=20260514a" rel="stylesheet"/>
+    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
+<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -154,15 +151,15 @@
 <h2 id="main-hospitals">The main hospitals in Barranquilla</h2>
 <p>Barranquilla’s top-tier hospitals are clustered in Alto Prado, Villa Country, and Riomar. All of the following are accredited, run by large national networks, and comfortable with English-speaking patients at the doctor level (reception staff Spanish-first):</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Riomar" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-riomar.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Riomar" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-riomar.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-villa-country.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-villa-country.webp" class="article-photo" width="1200"/>
 </figure>
 
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-alto-prado.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Alto Prado" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-alto-prado.webp" class="article-photo" width="1200"/>
 </figure>
 
 <ul>
@@ -249,7 +246,7 @@
 <p>Ambulance services include CRUE Atlántico (public) and private networks tied to the large hospitals (Portoazul, La Misericordia, Iberoamérica all dispatch their own). If you have medicina prepagada, call your plan’s 24-hour line, they dispatch an ambulance and route you to a network hospital.</p>
 <p>The nearest ER for most northern-neighborhood residents is Portoazul, Iberoamérica, or La Misericordia, all reachable by Uber in 10–15 minutes from Alto Prado, Villa Country, Riomar, or Villa Santos.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-villa-santos.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/healthcare-barranquilla-place-villa-santos.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2 id="vaccinations">Vaccinations and preventive care</h2>
@@ -404,7 +401,7 @@
 <a href="/advertise/">Advertise</a>
 </div>
 </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script defer="" src="/js/main.js?v=20260514a"></script>
 </body>

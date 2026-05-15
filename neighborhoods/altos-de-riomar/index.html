@@ -30,16 +30,11 @@
   <link rel="icon" href="/img/favicon-192.png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/img/favicon-180.png" />
   <link rel="manifest" href="/site.webmanifest" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- PERF: hero preload -->
   <link rel="preload" as="image" href="/img/caribbean-sunset-from-alto-riomar-1225x900.jpg" fetchpriority="high">
-  <!-- PERF: async fonts -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"></noscript>
-  <link rel="stylesheet" href="/css/site.css?v=20260514a" />
+  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
+  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin><link rel="stylesheet" href="/css/site.css?v=20260515a" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -135,7 +130,7 @@
 <h2>Daily Life &#038; Amenities</h2>
 <p>Living in Altos de Riomar means having most daily needs met within the development or very nearby. The area has its own commercial zones with restaurants, cafés, a supermarket, and convenience stores. Buenavista Mall is a short drive south. The Circunvalar highway provides fast access to the airport and the rest of the city. Puerto Colombia and its beaches are about 15 minutes by car. For healthcare, Clínica Portoazul (one of the city&#8217;s best private hospitals) is nearby in Zona Norte. The downside of the location: it&#8217;s car-dependent and relatively far from the city center.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/altos-de-riomar-place-puerto-colombia.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/altos-de-riomar-place-puerto-colombia.webp" class="article-photo" width="1200"/>
 </figure>
 
 <h2>Who Lives Here</h2>
@@ -201,7 +196,7 @@
           <div class="footer-nav-title">Neighborhoods</div>
           <ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/altos-de-riomar-place-el-golf.jpg" style="width:100%;height:auto;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.08);" width="1200"/>
+<img alt="El Golf" decoding="async" height="800" loading="lazy" src="/img/altos-de-riomar-place-el-golf.webp" class="article-photo" width="1200"/>
 </figure>
 <li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
         </div>
@@ -224,7 +219,7 @@
         <a href="/advertise/">Advertise</a>
       </div>
     </div>
-      <div class="footer-pymewebpro" style="margin-top:0.75rem;font-size:0.78rem;color:#888;text-align:center;">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
+      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
 </footer>
 <script src="/js/main.js?v=20260514a" defer></script>
 </body>
