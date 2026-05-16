@@ -401,6 +401,43 @@
 
 })();
 
+/* ── Language toggle EN/ES (mirrors medellin.guide) ────────────────
+   Reads ?lang= URL param, else localStorage.bgg_lang, else navigator.language.
+   Applies html.lang-en or html.lang-es; CSS handles visibility of .pb-en/.pb-es. */
+(function () {
+  var html = document.documentElement;
+  var qs; try { qs = new URLSearchParams(location.search); } catch (e) { qs = null; }
+  var picked = qs && qs.get('lang');
+  if (!picked) { try { picked = localStorage.getItem('bgg_lang'); } catch (e) {} }
+  if (!picked) {
+    var nav = (navigator.language || 'en').toLowerCase();
+    picked = nav.indexOf('es') === 0 ? 'es' : 'en';
+  }
+  if (picked !== 'es') picked = 'en';
+  apply(picked);
+  function apply(l) {
+    html.classList.remove('lang-en', 'lang-es');
+    html.classList.add('lang-' + l);
+    html.setAttribute('lang', l);
+    try { localStorage.setItem('bgg_lang', l); } catch (e) {}
+    document.querySelectorAll('title[data-lang]').forEach(function (t) {
+      if (t.getAttribute('data-lang') === l) document.title = t.textContent;
+    });
+  }
+  document.querySelectorAll('.pb-langtog a').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var l = a.getAttribute('data-l');
+      apply(l);
+      try {
+        var u = new URL(location.href);
+        u.searchParams.set('lang', l);
+        history.replaceState(null, '', u.toString());
+      } catch (err) {}
+    });
+  });
+})();
+
 /* The legacy WordPress AJAX dual-write to Brevo was removed on
    2026-04-24. Contact + newsletter forms now go straight to
    Formspree. If we re-add an email-marketing integration, wire it
