@@ -68,6 +68,14 @@ p:last-child { margin-bottom: 0; }
 .pb-wrap { max-width: var(--pb-max); margin: 0 auto; padding: 0 24px; }
 @media (min-width: 900px) { .pb-wrap { padding: 0 40px; } }
 
+/* ─── LANGUAGE TOGGLE (mirrors medellin.guide) ──────────────────── */
+html.lang-en .pb-es, html.lang-es .pb-en { display: none !important; }
+html.lang-en [data-lang="es"] { display: none; }
+html.lang-es [data-lang="en"] { display: none; }
+.pb-langtog { display: inline-flex; align-items: center; border: 1px solid var(--pb-bg); border-radius: 999px; padding: 2px; font-size: 11px; letter-spacing: .1em; font-weight: 600; text-transform: uppercase; }
+.pb-langtog a { padding: 4px 10px; border-radius: 999px; color: var(--pb-bg); transition: all .18s ease; text-decoration: none; }
+html.lang-en .pb-langtog a[data-l="en"], html.lang-es .pb-langtog a[data-l="es"] { background: var(--pb-gold); color: var(--pb-ink); }
+
 /* ─── UTILITY BAND ──────────────────────────────────────────────── */
 .pb-top { background: var(--pb-ink); color: var(--pb-bg); font-size: 13px; letter-spacing: .02em; padding: 9px 0; }
 .pb-top .pb-wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }

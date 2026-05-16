@@ -1,13 +1,14 @@
 {
   "name": "Barranquilla Guide",
   "short_name": "barranquilla.guide",
-  "description": "The insider guide to Colombia's Caribbean capital - for visitors, expats, and everyone seriously considering the move.",
+  "description": "The insider guide to Barranquilla, Colombia. For visitors, expats, and everyone seriously considering the move.",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#1B2A47",
-  "background_color": "#FFFFFF",
+  "theme_color": "#f6efe2",
+  "background_color": "#fbf8f1",
   "icons": [
     { "src": "/img/favicon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/img/favicon-270.png", "sizes": "270x270", "type": "image/png" }
+    { "src": "/img/favicon-270.png", "sizes": "270x270", "type": "image/png" },
+    { "src": "/img/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
