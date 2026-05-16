@@ -490,13 +490,13 @@ https://developers.facebook.com/tools/debug/ and click "Scrape Again".
 - **No on-site search.** Intentionally removed, the WordPress `?s=` query
   was gone after the static port, and rather than bolt Pagefind on top, the
   search UI was stripped on 2026-04-23. Discovery on this site is now
-  handled by Charo (the Barranquilla persona of Catalina), not Chatbase.
+  handled by Catalina, not Chatbase.
 - **Chatbase removed on 2026-05-13.** Bot id `wv8hNpU46aEhF0eXDOVF4` and the
   hero "Ask the guide" CTA were stripped network-wide so we could embed the
-  Charo chat widget cleanly. Stripper lives at `scripts/remove-chatbot.py`
+  Catalina chat widget cleanly. Stripper lives at `scripts/remove-chatbot.py`
   (idempotent). CSP entries swapped from `https://www.chatbase.co` to
   `https://catalina.barranquilla.guide` in `_headers` script-src + connect-src.
-  The Charo widget snippet itself is added by the broader network deploy
+  The Catalina widget snippet itself is added by the broader network deploy
   (catalina worker + DNS for catalina.barranquilla.guide).
 - **`scripts/build_sitemap.py` is referenced in the README but doesn't
   exist.** Only `fix-og-images.py` and `remove-search.py` are checked in.
@@ -538,7 +538,9 @@ shape, don't copy patterns blindly between the two.** See that repo's own
 
 ## Recent changes
 
-- **2026-05-15**, Charo widget (Catalina's Barranquilla persona) added network-wide. `_headers` CSP updated: added `https://catalina.barranquilla.guide` to `script-src` and `connect-src`. `<script src="https://catalina.barranquilla.guide/widget.js" defer></script>` injected before `</body>` across all 108 HTML files via sed fan-out. The widget is served by the catalina worker, which resolves Charo's persona from the request Host header. Chatbase was already removed (2026-05-13). The catalina worker's `wrangler.toml` now includes `catalina.barranquilla.guide` as a custom domain; run `wrangler deploy` from `~/code/catalina` to activate DNS and route. Same deploy also wires up `catalina.thecartagena.guide` for Coral.
+- **2026-05-16**, Persona rename: dropped the per-city "Charo" (Barranquilla) and "Coral" (Cartagena) personas. All guides now use a single "Catalina" name end-to-end. UI button text replaced across all 108 HTML files: `Chat with Charo` → `Chat with Catalina`, `Ask Charo` → `Ask Catalina`. CSS comment `CHARO FRAME` → `CATALINA FRAME` in `css/site.css`. Worker still resolves per-city behavior from the Host header, only the surface name changed.
+
+- **2026-05-15**, Catalina widget added network-wide. `_headers` CSP updated: added `https://catalina.barranquilla.guide` to `script-src` and `connect-src`. `<script src="https://catalina.barranquilla.guide/widget.js" defer></script>` injected before `</body>` across all 108 HTML files via sed fan-out. The widget is served by the catalina worker, which resolves the site context from the request Host header. Chatbase was already removed (2026-05-13). The catalina worker's `wrangler.toml` now includes `catalina.barranquilla.guide` as a custom domain; run `wrangler deploy` from `~/code/catalina` to activate DNS and route. Same deploy also wires up `catalina.thecartagena.guide`.
 
 - **2026-05-08 (later same day)**, Hero-image diversification across the three most recent weeklies. The Apr 20, Apr 27, and May 4 posts had all been using `/img/Adobe-Express-file.png` (the generic blue weekly hero), so the `/category/now/` archive looked repetitive, three identical thumbnails stacked. Per-post pick is now the lead-story tie (took two passes, first attempt picked Malecón/bus/airport which Mike rejected as not matching the lead stories): **(1)** `/whats-happening-in-barranquilla-week-of-april-20-2026/` → `/img/food-barranquilla-colombia.jpg` family (1024×538 hero, 600×400 archive thumb, srcset 1024/768/600/300). Lead item that week was Burger Master 2026 at 19 restaurants. **(2)** `/whats-happening-in-barranquilla-week-of-april-27-2026/` → `/img/nightlife-barranquilla-1.jpg` family (1024×538 hero, 600×400 archive thumb, srcset 1024/768/600/300). Lead item was J Balvin's Friday-night stadium show at Estadio Romelio Martínez plus Plaza Urban Fest the same week. **(3)** `/whats-happening-in-barranquilla-week-of-may-4-2026/` → `/img/barranquilla-city-panoramic-view.jpg` family (1024×384 hero, 600×400 archive thumb, srcset 1024/900/768/600/300). No specific lead-story tie (no rain or JetBlue imagery in the repo), this is a city-skyline "Barranquilla right now" generic hero. All three: `og:image`, `og:image:secure_url`, `og:image:type` (jpeg, not png), `og:image:width`/`height` updated to match the new file's natural dimensions; `og:image:alt` rewritten to be image-descriptive rather than just the title; `twitter:image` updated. Article-hero `<img>` width/height/src/srcset/alt updated to match. The `/category/now/` archive's `posts-grid` cards swapped to the per-post 600×400 thumbnails. Bumped `article:modified_time` on Apr 20 → `2026-05-08T16:30:00+00:00` and Apr 27 → `2026-05-08T16:00:00+00:00` so Facebook/Slack/iMessage re-scrape and pick up the new previews. **Important next step**: run the Facebook scrape-debugger on each URL to force a refresh, `https://developers.facebook.com/tools/debug/` → paste each post URL → "Scrape Again". Otherwise FB will keep showing the old Adobe-Express thumbnail for days. No CSS or JS edits, no `?v=...` cache-buster bump needed.
 

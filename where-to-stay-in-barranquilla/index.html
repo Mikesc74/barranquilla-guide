@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -28,12 +29,17 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-  <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/hotel-el-prado-barranquilla-1-1280x900.webp" fetchpriority="high">
-    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
-  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
-  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
-<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/hotel-el-prado-barranquilla-1-1280x900.webp" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260516b" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -42,54 +48,44 @@
     gtag('js', new Date());
     gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
   </script>
-  <script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
 </head>
 <body>
-<nav aria-label="Primary Navigation" class="site-nav site-nav--solid" id="site-nav" role="navigation">
-<div class="nav-inner">
-<a aria-label="Barranquilla Guide - Home" class="site-logo" href="/">
-      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
-</a>
-<ul class="menu" id="primary-menu">
-<li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
-<li class="menu-item"><a href="/section/live/">Live</a></li>
-<li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
-<li class="menu-item"><a href="/section/guides/">How-to Guides</a></li>
-<li class="menu-item"><a href="/#latest-news">Latest News</a></li>
-<li class="menu-item"><a href="/city-map/">City Map</a></li>
-</ul>
-<div class="nav-right">
-<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
-      <a class="nav-cta" href="/#newsletter">Subscribe</a>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l">The insider Barranquilla guide. Costeño-checked.</div>
+<div class="pb-l">
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
 </div>
-<button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
-<span></span><span></span><span></span>
-</button>
-</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/">barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/">Things to Do</a>
+<a href="/section/live/">Live</a>
+<a href="/section/eat-drink/">Eat &amp; Drink</a>
+<a href="/section/guides/">Guides</a>
+<a href="/city-map/">City Map</a>
 </nav>
-<div aria-hidden="true" aria-label="Mobile Navigation" class="mobile-nav" id="mobile-nav" role="dialog">
-<button aria-label="Close menu" class="mobile-nav-close" id="mobile-nav-close">×</button>
-<a class="mobile-nav-link" href="/section/explore/">Things to Do</a>
-<a class="mobile-nav-link" href="/section/live/">Live</a>
-<a class="mobile-nav-link" href="/section/eat-drink/">Eat &amp; Drink</a>
-<a class="mobile-nav-link" href="/section/guides/">How-to Guides</a>
-<a class="mobile-nav-link" href="/#latest-news">Latest News</a>
-<a class="mobile-nav-link" href="/city-map/">City Map</a>
-<div class="mobile-nav-ctas">
-<a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
-<a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Ask Catalina</a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
 </div>
-</div>
-<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
-  <div class="search-overlay-inner">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
-      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
-      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    </div>
-    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
-  </div>
-</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600">Chat with Catalina</a>
+<a data-pb-close="" href="/section/explore/">Things to Do</a>
+<a data-pb-close="" href="/section/live/">Live</a>
+<a data-pb-close="" href="/section/eat-drink/">Eat &amp; Drink</a>
+<a data-pb-close="" href="/section/guides/">Guides</a>
+<a data-pb-close="" href="/city-map/">City Map</a>
+<a data-pb-close="" href="/neighborhoods/">Neighborhoods</a>
+<a data-pb-close="" href="/#newsletter">Newsletter</a>
+</aside>
+
 <article class="single-article post-2727 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides section-stay" id="post-2727">
 <!-- Hero Image -->
 <div class="article-hero">
@@ -102,7 +98,7 @@
 <h1>Where to Stay in Barranquilla: Neighbourhoods &amp; Hotels (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" loading="lazy" src="/img/team/mike.svg" width="80"/> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -136,7 +132,7 @@
 </ol>
 </div>
 <h2 id="the-short-answer">The Short Answer</h2>
-<figure><img alt="Quiet residential street in a northern Barranquilla neighbourhood" sizes="(max-width: 1024px) 100vw, 1024px" decoding="async" height="576" src="/img/random-residential-area-1024x576.webp" srcset="/img/random-residential-area-1024x576.webp 1024w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-768x432.jpg 768w, /img/random-residential-area.webp 1225w" width="1024" loading="lazy"></figure>
+<figure><img alt="Quiet residential street in a northern Barranquilla neighbourhood" decoding="async" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="/img/random-residential-area-1024x576.webp" srcset="/img/random-residential-area-1024x576.webp 1024w, /img/random-residential-area-300x169.jpg 300w, /img/random-residential-area-768x432.jpg 768w, /img/random-residential-area.webp 1225w" width="1024"/></figure>
 <p>For most visitors: <strong>stay in El Prado</strong>. It’s safe, walkable, has the <a href="/best-restaurants-barranquilla/">best restaurants</a> and nightlife, and is where most of the best hotels are. Everything else in this guide is context for specific situations.</p>
 <h2 id="el-prado-best-all-round-for-visitors">El Prado, Best All-Round for Visitors</h2>
 <p>El Prado is Barranquilla’s original prestige neighbourhood, wide tree-lined streets, early 20th-century architecture, and the city’s best concentration of restaurants, bars, and cafés. It’s safe to walk at night (rare for Barranquilla), and most of the city’s best hotels are here.</p>
@@ -144,7 +140,7 @@
 <p>✅ <strong>Best for:</strong> First-time visitors, couples, anyone who wants to walk to dinner<br/> <strong>Top picks:</strong> <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fel-prado.html" rel="noopener sponsored" target="_blank">Hotel El Prado</a>, <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Fdann-carlton-barranquilla.html" rel="noopener sponsored" target="_blank">Dann Carlton</a>, <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fco%2Festelar-alto-prado.html" rel="noopener sponsored" target="_blank">Estelar Alto Prado</a></p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DEl%2BPrado%2BBarranquilla" rel="noopener sponsored" target="_blank">→ See all hotels in El Prado on Booking.com</a></p>
 <h2 id="zona-norte-best-for-beach-access-and-modern-living">Zona Norte, Best for Beach Access &amp; Modern Living</h2>
-<figure><img alt="View from Riomar looking toward the Caribbean coastline" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="768" loading="lazy" src="/img/riomar-looking-towars-the-sea-1024x768.webp" srcset="/img/riomar-looking-towars-the-sea-1024x768.webp 1024w, /img/riomar-looking-towars-the-sea-300x225.jpg 300w, /img/riomar-looking-towars-the-sea-768x576.jpg 768w, /img/riomar-looking-towars-the-sea-1536x1152.webp 1536w, /img/riomar-looking-towars-the-sea-900x675.jpg 900w, /img/riomar-looking-towars-the-sea-400x300.jpg 400w, /img/riomar-looking-towars-the-sea.webp 1585w" width="1024"/></figure>
+<figure><img alt="View from Riomar looking toward the Caribbean coastline" decoding="async" height="768" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="/img/riomar-looking-towars-the-sea-1024x768.webp" srcset="/img/riomar-looking-towars-the-sea-1024x768.webp 1024w, /img/riomar-looking-towars-the-sea-300x225.jpg 300w, /img/riomar-looking-towars-the-sea-768x576.jpg 768w, /img/riomar-looking-towars-the-sea-1536x1152.webp 1536w, /img/riomar-looking-towars-the-sea-900x675.jpg 900w, /img/riomar-looking-towars-the-sea-400x300.jpg 400w, /img/riomar-looking-towars-the-sea.webp 1585w" width="1024"/></figure>
 <p>Zona Norte is Barranquilla’s most modern district, newer towers, shopping centres (Buenavista mall is here), and a more affluent, international feel. It’s the closest part of the city to the beach at Puerto Colombia (about 20 minutes), making it a good base if beach time is part of your plan.</p>
 <p>Hotels here tend to be newer and more corporate in character. Good for business travellers and longer-stay visitors who want proximity to <a href="/supermarkets-grocery-shopping-in-barranquilla-the-complete-guide-2026/">supermarkets</a> and modern infrastructure.</p>
 <p>✅ <strong>Best for:</strong> Business travellers, longer stays, beach day-trippers<br/> <strong>Top picks:</strong> <a href="https://www.awin1.com/cread.php?awinmid=6776&amp;awinaffid=2847324&amp;ued=https%3A%2F%2Fwww.booking.com%2Fsearchresults.html%3Fss%3DZona%2BNorte%2BBarranquilla" rel="noopener sponsored" target="_blank">See Zona Norte hotels on Booking.com</a></p>
@@ -182,7 +178,7 @@
 <div class="magazine-grid related-grid-3">
 <article class="article-card">
 <a class="article-card-image" href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">
-<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"/> </a>
+<img alt="What to Eat in Barranquilla: How to Eat Like a Local (2026)" decoding="async" height="400" loading="lazy" src="/img/food-barranquilla-colombia-600x400.jpg" width="600"> </a>
 <span class="label">Eat &amp; Drink</span>
 <h3 class="article-card-title"><a href="/food-in-barranquilla-what-to-eat-where-to-go-how-to-eat-like-a-local-2026/">What to Eat in Barranquilla: How to Eat Like a Local (2026)</a></h3>
 <div class="article-card-meta">
@@ -216,75 +212,84 @@
 </div>
 </div>
 </section><!-- newsletter-prefoot:v1 -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
- data-city="barranquilla" data-source="prefooter"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
-          <div class="email-capture-row">
-            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="prefooter" />
-          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="site-footer" role="contentinfo">
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
 <div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
-<div class="footer-tagline">
-          The insider guide to Colombia's most underestimated city - for people who want to understand it, not just visit it.
-        </div>
-<div class="footer-social">
-<a aria-label="Instagram" href="https://instagram.com/barranquillaguide" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="1" stroke="none"></circle></svg>
-</a>
-<a aria-label="Facebook" href="https://facebook.com/groups/visitbarranquilla" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="currentColor" height="16" viewbox="0 0 24 24" width="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-</a>
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.colguides.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
 </div>
 </div>
-<nav aria-label="Footer Navigation" class="footer-nav">
-<div class="footer-nav-col">
-<div class="footer-nav-title">Neighborhoods</div>
-<ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">Live</div>
-<ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/">barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Colombia's most underestimated city. For people who want to understand it, not just visit it.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+<p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">How-to Guides</div>
-<ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+<div><h5>Sections</h5><ul>
+<li><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+<li><a href="/section/explore/">Things to Do</a></li>
+<li><a href="/section/live/">Live</a></li>
+<li><a href="/section/magazine/">Magazine</a></li>
+<li><a href="/section/guides/">How-to Guides</a></li>
+<li><a href="/city-map/">City Map</a></li>
+</ul></div>
+<div><h5>Live in Barranquilla</h5><ul>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li>
+<li><a href="/housing-renting-barranquilla/">Housing</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas</a></li>
+<li><a href="/healthcare-barranquilla/">Healthcare</a></li>
+<li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working remote</a></li>
+<li><a href="/neighborhoods/">All neighborhoods</a></li>
+</ul></div>
+<div><h5>Sister sites</h5><ul>
+<li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li>
+<li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/advertise/">Advertise</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+</ul></div>
 </div>
-</nav>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></span>
 </div>
-<div class="footer-bottom">
-<div class="footer-copy">© 2026 Barranquilla.guide. All rights reserved.</div>
-<div class="footer-legal">
-<a href="/privacy-policy/">Privacy</a>
-<a href="/about/">About</a>
-<a href="/contact/">Contact</a>
-<a href="/advertise/">Advertise</a>
-</div>
-</div>
-      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
-</footer>
+<div class="pb-pyme">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro</a> 🇨🇴</div>
+</div></footer>
+
 <script defer="" src="/js/main.js?v=20260514a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
 <script src="https://catalina.barranquilla.guide/widget.js" defer></script>
 </body>
 </html>

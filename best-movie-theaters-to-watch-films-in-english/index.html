@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -28,12 +29,17 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-  <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/cinema1.webp" fetchpriority="high">
-    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
-  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
-  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
-<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/cinema1.webp" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260516b" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -42,54 +48,44 @@
     gtag('js', new Date());
     gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
   </script>
-  <script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
 </head>
 <body>
-<nav aria-label="Primary Navigation" class="site-nav site-nav--solid" id="site-nav" role="navigation">
-<div class="nav-inner">
-<a aria-label="Barranquilla Guide - Home" class="site-logo" href="/">
-      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
-</a>
-<ul class="menu" id="primary-menu">
-<li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
-<li class="menu-item"><a href="/section/live/">Live</a></li>
-<li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
-<li class="menu-item"><a href="/section/guides/">How-to Guides</a></li>
-<li class="menu-item"><a href="/#latest-news">Latest News</a></li>
-<li class="menu-item"><a href="/city-map/">City Map</a></li>
-</ul>
-<div class="nav-right">
-<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
-      <a class="nav-cta" href="/#newsletter">Subscribe</a>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l">The insider Barranquilla guide. Costeño-checked.</div>
+<div class="pb-l">
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
 </div>
-<button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
-<span></span><span></span><span></span>
-</button>
-</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/">barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/">Things to Do</a>
+<a href="/section/live/">Live</a>
+<a href="/section/eat-drink/">Eat &amp; Drink</a>
+<a href="/section/guides/">Guides</a>
+<a href="/city-map/">City Map</a>
 </nav>
-<div aria-hidden="true" aria-label="Mobile Navigation" class="mobile-nav" id="mobile-nav" role="dialog">
-<button aria-label="Close menu" class="mobile-nav-close" id="mobile-nav-close">×</button>
-<a class="mobile-nav-link" href="/section/explore/">Things to Do</a>
-<a class="mobile-nav-link" href="/section/live/">Live</a>
-<a class="mobile-nav-link" href="/section/eat-drink/">Eat &amp; Drink</a>
-<a class="mobile-nav-link" href="/section/guides/">How-to Guides</a>
-<a class="mobile-nav-link" href="/#latest-news">Latest News</a>
-<a class="mobile-nav-link" href="/city-map/">City Map</a>
-<div class="mobile-nav-ctas">
-<a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
-<a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Ask Catalina</a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
 </div>
-</div>
-<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
-  <div class="search-overlay-inner">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
-      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
-      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    </div>
-    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
-  </div>
-</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600">Chat with Catalina</a>
+<a data-pb-close="" href="/section/explore/">Things to Do</a>
+<a data-pb-close="" href="/section/live/">Live</a>
+<a data-pb-close="" href="/section/eat-drink/">Eat &amp; Drink</a>
+<a data-pb-close="" href="/section/guides/">Guides</a>
+<a data-pb-close="" href="/city-map/">City Map</a>
+<a data-pb-close="" href="/neighborhoods/">Neighborhoods</a>
+<a data-pb-close="" href="/#newsletter">Newsletter</a>
+</aside>
+
 <article class="single-article post-1216 post type-post status-publish format-standard has-post-thumbnail hentry category-life category-things-to-do section-explore" id="post-1216">
 <!-- Hero Image -->
 <div class="article-hero">
@@ -102,7 +98,7 @@
 <h1>Best Movie Theaters to watch films in English</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" loading="lazy" src="/img/team/paulette.svg" width="80"/> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -129,14 +125,14 @@
 <p>Worth the surcharge for a date night or a long film. Expect to pay roughly COP 35.000 to 50.000 per ticket, more than double a standard cinema.</p>
 <h2 id="cine-colombia"><a href="https://www.cinecolombia.com/" rel="noopener" target="_blank">Cine Colombia</a>, multiple locations</h2>
 <p>Cine Colombia is the dominant Colombian cinema chain. In Barranquilla they run cinemas at Buenavista and at Multiplex Parque Alegra (in the south of the city). The Buenavista location has a 4D Dinamix screen for the films that support it.</p>
-<figure><img alt="Cine Colombia multiplex at Buenavista" sizes="auto, (max-width: 800px) 100vw, 800px" decoding="async" height="580" loading="lazy" src="/img/cinebuenavista.webp" srcset="/img/cinebuenavista.webp 800w, /img/cinebuenavista-300x218.webp 300w, /img/cinebuenavista-768x557.webp 768w, /img/cinebuenavista-150x109.webp 150w, /img/cinebuenavista-696x505.webp 696w" width="800"/><figcaption>Cine Colombia, Buenavista</figcaption></figure>
+<figure><img alt="Cine Colombia multiplex at Buenavista" decoding="async" height="580" loading="lazy" sizes="auto, (max-width: 800px) 100vw, 800px" src="/img/cinebuenavista.webp" srcset="/img/cinebuenavista.webp 800w, /img/cinebuenavista-300x218.webp 300w, /img/cinebuenavista-768x557.webp 768w, /img/cinebuenavista-150x109.webp 150w, /img/cinebuenavista-696x505.webp 696w" width="800"><figcaption>Cine Colombia, Buenavista</figcaption></figure>
 <p>Standard tickets run around COP 14.000 to 22.000. Weekday matinees (typically before 5pm, often Tuesdays or Wednesdays as the "miércoles de descuento") are cheaper, sometimes under COP 10.000. The cheap matinee is the best value movie outing in Barranquilla.</p>
 <h2 id="royal-films"><a href="https://cinemasroyalfilms.com/" rel="noopener" target="_blank">Royal Films</a>, Viva Barranquilla</h2>
 <p><a href="https://www.royal-films.com/informacion/barranquilla/teatro/50/multicine-viva-barranquilla/cartelera">Royal Films at Viva</a> has the 4DX auditorium, the format with moving seats, wind, scent, and other practical effects synced to the film. It is a novelty more than a quality choice; the regular screens are fine for everyday viewing.</p>
-<figure><img alt="Royal Films Viva Barranquilla" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="484" loading="lazy" src="/img/royalfilmsviva-1024x484.webp" srcset="/img/royalfilmsviva-1024x484.webp 1024w, /img/royalfilmsviva-300x142.webp 300w, /img/royalfilmsviva-768x363.webp 768w, /img/royalfilmsviva-150x71.webp 150w, /img/royalfilmsviva-696x329.webp 696w, /img/royalfilmsviva-1068x505.webp 1068w, /img/royalfilmsviva.webp 1480w" width="1024"/><figcaption>Royal Films, Viva Barranquilla</figcaption></figure>
+<figure><img alt="Royal Films Viva Barranquilla" decoding="async" height="484" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="/img/royalfilmsviva-1024x484.webp" srcset="/img/royalfilmsviva-1024x484.webp 1024w, /img/royalfilmsviva-300x142.webp 300w, /img/royalfilmsviva-768x363.webp 768w, /img/royalfilmsviva-150x71.webp 150w, /img/royalfilmsviva-696x329.webp 696w, /img/royalfilmsviva-1068x505.webp 1068w, /img/royalfilmsviva.webp 1480w" width="1024"/><figcaption>Royal Films, Viva Barranquilla</figcaption></figure>
 <h2 id="cine-colombia-parque-alegra">Cine Colombia, Multiplex Parque Alegra</h2>
 <p>The newer Cine Colombia in the south of the city. It has a Megasala (large-format screen) and a 3D auditorium. Useful if you live in southern Barranquilla; the Buenavista cinemas are a long drive from there. Subtitled showings of new releases tend to land on weekends rather than every day.</p>
-<figure><img alt="Cine Colombia at Parque Alegra mall" sizes="auto, (max-width: 1024px) 100vw, 1024px" decoding="async" height="576" loading="lazy" src="/img/parquealegra-1024x576.webp" srcset="/img/parquealegra-1024x576.webp 1024w, /img/parquealegra-300x169.webp 300w, /img/parquealegra-768x432.webp 768w, /img/parquealegra-1536x864.webp 1536w, /img/parquealegra-2048x1152.webp 2048w, /img/parquealegra-150x84.webp 150w, /img/parquealegra-696x391.webp 696w, /img/parquealegra-1068x601.webp 1068w, /img/parquealegra-1920x1080.webp 1920w" width="1024"/><figcaption>Parque Alegra mall</figcaption></figure>
+<figure><img alt="Cine Colombia at Parque Alegra mall" decoding="async" height="576" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="/img/parquealegra-1024x576.webp" srcset="/img/parquealegra-1024x576.webp 1024w, /img/parquealegra-300x169.webp 300w, /img/parquealegra-768x432.webp 768w, /img/parquealegra-1536x864.webp 1536w, /img/parquealegra-2048x1152.webp 2048w, /img/parquealegra-150x84.webp 150w, /img/parquealegra-696x391.webp 696w, /img/parquealegra-1068x601.webp 1068w, /img/parquealegra-1920x1080.webp 1920w" width="1024"/><figcaption>Parque Alegra mall</figcaption></figure>
 <h2 id="bottom-line">Bottom line</h2>
 <p>For a casual midweek movie, the standard Cine Colombia at Buenavista is the easiest pick. For a date night, upgrade to Cinépolis VIP at Mallplaza. For a one-off experience, Royal Films 4DX at Viva is worth doing once. In all cases, double-check the showtime tag (SUB or VOSE for original audio, doblada for dubbed) on the cinema's website before buying.</p>
 <p>For other activity ideas, see our <a href="/things-to-do-around-barranquilla/">things to do</a> page or our <a href="/fun-things-to-do-in-barranquilla-as-a-group/">group activities</a> guide.</p>
@@ -175,7 +171,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/popular-sports-in-barranquilla/">
-<img alt="Popular Sports for Enthusiasts in Barranquilla" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="379" loading="lazy" src="/img/estadio-edgar-renteria-1500.webp" srcset="/img/estadio-edgar-renteria-1500.webp 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.webp 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.webp 1068w, /img/estadio-edgar-renteria-1920x1213.webp 1920w" width="600"/> </a>
+<img alt="Popular Sports for Enthusiasts in Barranquilla" decoding="async" height="379" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/img/estadio-edgar-renteria-1500.webp" srcset="/img/estadio-edgar-renteria-1500.webp 2560w, /img/estadio-edgar-renteria-300x189.jpg 300w, /img/estadio-edgar-renteria-1024x647.jpg 1024w, /img/estadio-edgar-renteria-768x485.webp 768w, /img/estadio-edgar-renteria-1536x970.jpg 1536w, /img/estadio-edgar-renteria-2048x1294.webp 2048w, /img/estadio-edgar-renteria-150x95.jpg 150w, /img/estadio-edgar-renteria-696x440.jpg 696w, /img/estadio-edgar-renteria-1068x675.webp 1068w, /img/estadio-edgar-renteria-1920x1213.webp 1920w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/popular-sports-in-barranquilla/">Popular Sports for Enthusiasts in Barranquilla</a></h3>
 <div class="article-card-meta">
@@ -186,7 +182,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/san-basilio-de-palenque/">
-<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
+<img alt="Take a day trip to San Basilio de Palenque" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 579px) 100vw, 579px" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
 <div class="article-card-meta">
@@ -198,75 +194,84 @@
 </div>
 </div>
 </section><!-- newsletter-prefoot:v1 -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
- data-city="barranquilla" data-source="prefooter"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
-          <div class="email-capture-row">
-            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="prefooter" />
-          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="site-footer" role="contentinfo">
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
 <div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
-<div class="footer-tagline">
-          The insider guide to Colombia's most underestimated city - for people who want to understand it, not just visit it.
-        </div>
-<div class="footer-social">
-<a aria-label="Instagram" href="https://instagram.com/barranquillaguide" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="1" stroke="none"></circle></svg>
-</a>
-<a aria-label="Facebook" href="https://facebook.com/groups/visitbarranquilla" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="currentColor" height="16" viewbox="0 0 24 24" width="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-</a>
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.colguides.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
 </div>
 </div>
-<nav aria-label="Footer Navigation" class="footer-nav">
-<div class="footer-nav-col">
-<div class="footer-nav-title">Neighborhoods</div>
-<ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">Live</div>
-<ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/">barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Colombia's most underestimated city. For people who want to understand it, not just visit it.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+<p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">How-to Guides</div>
-<ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+<div><h5>Sections</h5><ul>
+<li><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+<li><a href="/section/explore/">Things to Do</a></li>
+<li><a href="/section/live/">Live</a></li>
+<li><a href="/section/magazine/">Magazine</a></li>
+<li><a href="/section/guides/">How-to Guides</a></li>
+<li><a href="/city-map/">City Map</a></li>
+</ul></div>
+<div><h5>Live in Barranquilla</h5><ul>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li>
+<li><a href="/housing-renting-barranquilla/">Housing</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas</a></li>
+<li><a href="/healthcare-barranquilla/">Healthcare</a></li>
+<li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working remote</a></li>
+<li><a href="/neighborhoods/">All neighborhoods</a></li>
+</ul></div>
+<div><h5>Sister sites</h5><ul>
+<li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li>
+<li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/advertise/">Advertise</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+</ul></div>
 </div>
-</nav>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></span>
 </div>
-<div class="footer-bottom">
-<div class="footer-copy">© 2026 Barranquilla.guide. All rights reserved.</div>
-<div class="footer-legal">
-<a href="/privacy-policy/">Privacy</a>
-<a href="/about/">About</a>
-<a href="/contact/">Contact</a>
-<a href="/advertise/">Advertise</a>
-</div>
-</div>
-      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
-</footer>
+<div class="pb-pyme">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro</a> 🇨🇴</div>
+</div></footer>
+
 <script defer="" src="/js/main.js?v=20260514a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
 <script src="https://catalina.barranquilla.guide/widget.js" defer></script>
 </body>
 </html>

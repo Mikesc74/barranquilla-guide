@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -28,12 +29,17 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-  <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/walking-tour-prado-4.jpg" fetchpriority="high">
-    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
-  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
-  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
-<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/walking-tour-prado-4.jpg" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260516b" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -42,54 +48,44 @@
     gtag('js', new Date());
     gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
   </script>
-  <script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
 </head>
 <body>
-<nav aria-label="Primary Navigation" class="site-nav site-nav--solid" id="site-nav" role="navigation">
-<div class="nav-inner">
-<a aria-label="Barranquilla Guide - Home" class="site-logo" href="/">
-      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
-</a>
-<ul class="menu" id="primary-menu">
-<li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
-<li class="menu-item"><a href="/section/live/">Live</a></li>
-<li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
-<li class="menu-item"><a href="/section/guides/">How-to Guides</a></li>
-<li class="menu-item"><a href="/#latest-news">Latest News</a></li>
-<li class="menu-item"><a href="/city-map/">City Map</a></li>
-</ul>
-<div class="nav-right">
-<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
-      <a class="nav-cta" href="/#newsletter">Subscribe</a>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l">The insider Barranquilla guide. Costeño-checked.</div>
+<div class="pb-l">
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
 </div>
-<button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
-<span></span><span></span><span></span>
-</button>
-</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/">barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/">Things to Do</a>
+<a href="/section/live/">Live</a>
+<a href="/section/eat-drink/">Eat &amp; Drink</a>
+<a href="/section/guides/">Guides</a>
+<a href="/city-map/">City Map</a>
 </nav>
-<div aria-hidden="true" aria-label="Mobile Navigation" class="mobile-nav" id="mobile-nav" role="dialog">
-<button aria-label="Close menu" class="mobile-nav-close" id="mobile-nav-close">×</button>
-<a class="mobile-nav-link" href="/section/explore/">Things to Do</a>
-<a class="mobile-nav-link" href="/section/live/">Live</a>
-<a class="mobile-nav-link" href="/section/eat-drink/">Eat &amp; Drink</a>
-<a class="mobile-nav-link" href="/section/guides/">How-to Guides</a>
-<a class="mobile-nav-link" href="/#latest-news">Latest News</a>
-<a class="mobile-nav-link" href="/city-map/">City Map</a>
-<div class="mobile-nav-ctas">
-<a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
-<a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Ask Catalina</a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
 </div>
-</div>
-<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
-  <div class="search-overlay-inner">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
-      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
-      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    </div>
-    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
-  </div>
-</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600">Chat with Catalina</a>
+<a data-pb-close="" href="/section/explore/">Things to Do</a>
+<a data-pb-close="" href="/section/live/">Live</a>
+<a data-pb-close="" href="/section/eat-drink/">Eat &amp; Drink</a>
+<a data-pb-close="" href="/section/guides/">Guides</a>
+<a data-pb-close="" href="/city-map/">City Map</a>
+<a data-pb-close="" href="/neighborhoods/">Neighborhoods</a>
+<a data-pb-close="" href="/#newsletter">Newsletter</a>
+</aside>
+
 <article class="single-article post-1087 post type-post status-publish format-standard has-post-thumbnail hentry category-things-to-do section-explore" id="post-1087">
 <!-- Hero Image -->
 <div class="article-hero">
@@ -102,7 +98,7 @@
 <h1>Fun things to do in Barranquilla as a group</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/paulette.svg" width="80" loading="lazy"> </div>
+<img alt="Paulette Romero" class="avatar avatar-80 photo" decoding="async" height="80" loading="lazy" src="/img/team/paulette.svg" width="80"/> </div>
 <div>
 <div class="article-author-name">Paulette Romero</div>
 <div class="article-date">
@@ -133,42 +129,36 @@
 </div>
 <h2 id="h-museo-del-caribe">Museo del Caribe</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Plaza de la Paz" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-plaza-de-la-paz.webp" class="article-photo" width="1200"/>
+<img alt="Plaza de la Paz" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-plaza-de-la-paz.webp" width="1200">
 </figure>
 <p>The Museo del Caribe at Plaza de la Paz is the best introduction to the Costa Atlántica's history, music, and indigenous and Afro-Colombian heritage. Five floors, well laid out, mostly Spanish-language exhibits with some English signage. It is the activity that works for a mixed group of all ages because everyone finds something.</p>
 <p>How to book: walk in. Entry as of writing is around COP 18.000 adults, less for kids and students. Allow two hours, three if you read every panel. Closed Mondays, check current hours before going.</p>
 <h2 id="h-gran-malecon">Gran Malecón del Río</h2>
 <p>The Gran Malecón is a 5km riverfront boardwalk along the Magdalena, with food kiosks, public art, a Ferris wheel, and the Museo del Carnaval at one end. It is free, open all day, and runs lit and patrolled into the evening. A walk plus a stop for arepas de huevo and a juice is the easiest two-hour group plan in the city.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="arepas de huevo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-food-arepas-de-huevo.webp" class="article-photo" width="1200"/>
+<img alt="arepas de huevo" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-food-arepas-de-huevo.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Magdalena" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-magdalena.webp" class="article-photo" width="1200"/>
+<img alt="Magdalena" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-magdalena.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Gran Malecón del Río" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-gran-malecon-del-rio.webp" class="article-photo" width="1200"/>
+<img alt="Gran Malecón del Río" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-gran-malecon-del-rio.webp" width="1200"/>
 </figure>
-
 <p>Combine with the <a href="/gran-malecon-carnaval-museum-barranquilla-city-tour/">Carnaval Museum</a> for a fuller half-day. Best time is late afternoon into sunset, before then the heat is a fight.</p>
 <h2 id="h-zoo">Zoológico de Barranquilla</h2>
 <p>The Zoológico de Barranquilla is small by international standards but takes its conservation and rescue work seriously, and the layout is compact enough to do in two hours without wearing the kids out. Worth it if your group includes children. Tickets at the gate, around COP 30.000 adults as of writing. Bring water and sunscreen.</p>
 <h2 id="h-puerto-colombia">Day trip to Puerto Colombia or Bocas de Ceniza</h2>
 <p><a href="/puerto-mocho/">Puerto Mocho</a> beach in Puerto Colombia (about 20 minutes north of Barranquilla) is the closest swimmable beach to the city. Casa Surff offers Sunday morning yoga with <a href="https://www.instagram.com/su.sana.yoga/?hl=en" rel="noreferrer noopener" target="_blank">Susana Alzate</a> if your group is into that. Lunch at one of the fish shacks on the boardwalk runs around COP 35.000 to 60.000 per person.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Mocho beach" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-mocho-beach.webp" class="article-photo" width="1200"/>
+<img alt="Puerto Mocho beach" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-mocho-beach.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-colombia.webp" class="article-photo" width="1200"/>
+<img alt="Puerto Colombia" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-puerto-colombia.webp" width="1200"/>
 </figure>
-
 <p>Bocas de Ceniza is the more unusual day trip: the point where the Magdalena River meets the Caribbean, reached by a converted railway-track ride out a thin jetty. Roughly a half day from Barranquilla. Tip your driver, bring water, and check the weather, it gets exposed.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Bocas de Ceniza" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-bocas-de-ceniza.webp" class="article-photo" width="1200"/>
+<img alt="Bocas de Ceniza" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-bocas-de-ceniza.webp" width="1200"/>
 </figure>
-
 <div class="bg-affiliate bg-affiliate--viator" style="margin:2.5em 0;padding:20px;background:linear-gradient(135deg,#2d3561,#c05c7e);border-radius:8px;color:#fff;text-align:center;">
 <p style="margin:0 0 6px;font-size:1.05rem;font-weight:600;">Book Tours &amp; Experiences in Barranquilla</p>
 <p style="margin:0 0 16px;font-size:0.88rem;opacity:0.9;">Carnival tours, city walks, day trips to the coast &amp; more - instant confirmation</p>
@@ -181,18 +171,17 @@
 <p>Carnaval de Barranquilla is the city's defining event and the second-largest Carnival in the Americas after Rio. It runs over the four days before Ash Wednesday (usually late February or early March). The main events are the Saturday Batalla de Flores parade, Sunday Gran Parada, and Monday's Festival de Orquestas at the Estadio Romelio Martínez. A mid-year edition, Carnaval de Verano, runs over a weekend in late June.</p>
 <p>For a group, the recommended setup is paid seating on Vía 40 for the Batalla de Flores (palco tickets in advance via TuBoleta), then street-side champeta and rum the rest of the weekend. Full details in our <a href="/barranquilla-carnival-complete-guide/">Carnaval guide</a>. Book accommodation 4 to 6 months ahead.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Vía 40" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-via-40.webp" class="article-photo" width="1200"/>
+<img alt="Vía 40" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-via-40.webp" width="1200"/>
 </figure>
-
 <h2 id="h-junior-match">Junior FC match (in season)</h2>
-<figure><img alt="Junior FC matchday" decoding="async" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-7.webp" width="1200" height="800" loading="lazy"/></figure>
+<figure><img alt="Junior FC matchday" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-section-7.webp" width="1200"/></figure>
 <p>If your group's visit overlaps with the football season (broadly February to June, then August to December), a Junior FC home match at Estadio Metropolitano is the best look at local culture you can get for under COP 100.000 a head. See our <a href="/popular-sports-in-barranquilla/">popular sports</a> guide for ticket and logistics detail. Wear red and white if you want to blend in.</p>
 <h2 id="h-salsa-cumbia-night">A salsa or cumbia night out</h2>
 <p>The defining group plan in Barranquilla is a Friday or Saturday night of live music, dancing, and rum. La Troja is the classic salsa bar (open-air, busy from 9pm). <a href="https://www.instagram.com/bourbonstbaq/" rel="noreferrer noopener" target="_blank">Bourbon St</a> Rock Bar in Villa Country covers the rock side with live bands most weekends. <a href="https://www.instagram.com/fabiorestobar/" rel="noreferrer noopener" target="_blank">Fabio Restobar</a> has private karaoke rooms (cavas) if your group prefers singing in privacy. For dance lessons before the night out, see our <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">salsa, cumbia, and champeta guide</a>.</p>
 <p>Plan to start late (10pm at the earliest), end late (3am or later), and Uber both ways.</p>
 <h2 id="h-villa-country-dinner">Dinner in Villa Country</h2>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-villa-country.webp" class="article-photo" width="1200"/>
+<img alt="Villa Country" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-villa-country.webp" width="1200"/>
 </figure>
 <p>Villa Country is the upmarket dining cluster, with Italian, Peruvian, Japanese, and Colombian-Caribbean restaurants in walking distance of each other. The Carrera 53 and Calle 84 area is where most groups land. Expect COP 80.000 to 150.000 per person for a sit-down dinner with wine. Reserve on weekends, the better spots fill up.</p>
 <h2 id="h-charter-fishing">Charter fishing from Puerto Colombia</h2>
@@ -203,9 +192,8 @@
 <li><a href="https://www.instagram.com/escaperoombarranquilla/?hl=en" rel="noreferrer noopener" target="_blank">Escape Room Barranquilla</a>, 60-minute rooms, around COP 40.000 to 60.000 per person, book online a day or two ahead.</li>
 <li><a href="https://www.instagram.com/paintballhouse/?hl=en" rel="noreferrer noopener" target="_blank">Paintball House</a> in Alameda del Río, around COP 50.000 per person for a session including gear.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Alameda del Río" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-alameda-del-rio.webp" class="article-photo" width="1200"/>
+<img alt="Alameda del Río" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-alameda-del-rio.webp" width="1200"/>
 </figure>
-
 <li>Bowling at Spinning Center Club on the fourth floor of Buenavista 2, around COP 120.000 per lane per hour (up to 6 people), open to the public.</li>
 <li><a href="https://www.instagram.com/mononabolera/" rel="noreferrer noopener" target="_blank">Bolos Moñona</a> on Carrera 51B, classic bowling alley.</li>
 <li><a href="https://www.instagram.com/battingzone/" rel="noreferrer noopener" target="_blank">Batting Zone</a> for baseball and softball cages.</li>
@@ -215,13 +203,12 @@
 </ul>
 <p>Walking-tour options include <a href="https://www.instagram.com/elcitylover/" rel="noreferrer noopener" target="_blank">El City Lover</a> (ghost tour, intermediate Spanish), our own <a href="/barranquilla-walking-tour-el-prado/">El Prado walking tour</a>, and <a href="https://www.instagram.com/discoveryexperiences_/" rel="noreferrer noopener" target="_blank">Discovery Experiences</a> by Ana Cotes (Barrio Abajo, available in English).</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="El Prado" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-el-prado.webp" class="article-photo" width="1200"/>
+<img alt="El Prado" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/fun-things-to-do-in-barranquilla-as-a-group-place-el-prado.webp" width="1200"/>
 </figure>
-
 <h2 id="h-la-ruta-del-girasol-the-sunflower-fields"><a href="/la-ruta-del-girasol-the-sunflower-fields/">La Ruta del Girasol</a> (sunflower fields)</h2>
 <p>A seasonal sunflower farm in Baranoa, about 40 minutes from Barranquilla. Open 8am to 6pm. Entry was COP 10.000 per person at writing, free for kids under 10. Local food and crafts on site, plus a small animal area with pony rides. Best for families with young kids or a relaxed half-day; verify operating dates before driving out, the fields are seasonal.</p>
 <p>Google Maps location: <a href="https://goo.gl/maps/LkbaXvCJym3676eq6" rel="noreferrer noopener" target="_blank">https://goo.gl/maps/LkbaXvCJym3676eq6</a></p>
-<figure><img alt="Ruta del Girasol" sizes="auto, (max-width: 300px) 100vw, 300px" decoding="async" height="300" loading="lazy" src="/img/ruta1-300x300.jpg" srcset="/img/ruta1-300x300.jpg 300w, /img/ruta1-1024x1024.webp 1024w, /img/ruta1-150x150.jpg 150w, /img/ruta1-768x768.jpg 768w, /img/ruta1-696x696.webp 696w, /img/ruta1-1068x1068.webp 1068w, /img/ruta1.jpg 1081w" width="300"/></figure>
+<figure><img alt="Ruta del Girasol" decoding="async" height="300" loading="lazy" sizes="auto, (max-width: 300px) 100vw, 300px" src="/img/ruta1-300x300.jpg" srcset="/img/ruta1-300x300.jpg 300w, /img/ruta1-1024x1024.webp 1024w, /img/ruta1-150x150.jpg 150w, /img/ruta1-768x768.jpg 768w, /img/ruta1-696x696.webp 696w, /img/ruta1-1068x1068.webp 1068w, /img/ruta1.jpg 1081w" width="300"/></figure>
 <h2 id="h-go-to-a-food-drink-or-music-festival">Festivals worth timing a trip around</h2>
 <p>Beyond Carnaval, a few annual events are worth aligning a group trip with. Dates shift each year, confirm before booking.</p>
 <ul>
@@ -261,7 +248,7 @@
 <div class="magazine-grid related-grid-3">
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-mallorquin-ecopark-tour/">
-<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.webp 669w" width="600"/> </a>
+<img alt="Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/img/mallorquin-ecopark-1-600x400.jpg" srcset="/img/mallorquin-ecopark-1-600x400.jpg 600w, /img/mallorquin-ecopark-1-300x200.jpg 300w, /img/mallorquin-ecopark-1.webp 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-mallorquin-ecopark-tour/">Mallorquin Eco Park Tour Barranquilla: Mangroves &amp; Wildlife (2026)</a></h3>
 <div class="article-card-meta">
@@ -283,7 +270,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/puerto-mocho/">
-<img alt="Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="397" loading="lazy" src="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.webp" srcset="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.webp 637w, /img/Puerto-Mocho-2023-07-09-at-9.25.15-AM-300x199.png 300w" width="600"/> </a>
+<img alt="Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)" decoding="async" height="397" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.webp" srcset="/img/Puerto-Mocho-2023-07-09-at-9.25.15-AM.webp 637w, /img/Puerto-Mocho-2023-07-09-at-9.25.15-AM-300x199.png 300w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/puerto-mocho/">Puerto Mocho Beach: Barranquilla’s Seaside Escape (2026)</a></h3>
 <div class="article-card-meta">
@@ -295,75 +282,84 @@
 </div>
 </div>
 </section><!-- newsletter-prefoot:v1 -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
- data-city="barranquilla" data-source="prefooter"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
-          <div class="email-capture-row">
-            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="prefooter" />
-          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="site-footer" role="contentinfo">
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
 <div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
-<div class="footer-tagline">
-          The insider guide to Colombia's most underestimated city - for people who want to understand it, not just visit it.
-        </div>
-<div class="footer-social">
-<a aria-label="Instagram" href="https://instagram.com/barranquillaguide" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="1" stroke="none"></circle></svg>
-</a>
-<a aria-label="Facebook" href="https://facebook.com/groups/visitbarranquilla" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="currentColor" height="16" viewbox="0 0 24 24" width="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-</a>
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.colguides.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
 </div>
 </div>
-<nav aria-label="Footer Navigation" class="footer-nav">
-<div class="footer-nav-col">
-<div class="footer-nav-title">Neighborhoods</div>
-<ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">Live</div>
-<ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/">barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Colombia's most underestimated city. For people who want to understand it, not just visit it.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+<p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">How-to Guides</div>
-<ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+<div><h5>Sections</h5><ul>
+<li><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+<li><a href="/section/explore/">Things to Do</a></li>
+<li><a href="/section/live/">Live</a></li>
+<li><a href="/section/magazine/">Magazine</a></li>
+<li><a href="/section/guides/">How-to Guides</a></li>
+<li><a href="/city-map/">City Map</a></li>
+</ul></div>
+<div><h5>Live in Barranquilla</h5><ul>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li>
+<li><a href="/housing-renting-barranquilla/">Housing</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas</a></li>
+<li><a href="/healthcare-barranquilla/">Healthcare</a></li>
+<li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working remote</a></li>
+<li><a href="/neighborhoods/">All neighborhoods</a></li>
+</ul></div>
+<div><h5>Sister sites</h5><ul>
+<li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li>
+<li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/advertise/">Advertise</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+</ul></div>
 </div>
-</nav>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></span>
 </div>
-<div class="footer-bottom">
-<div class="footer-copy">© 2026 Barranquilla.guide. All rights reserved.</div>
-<div class="footer-legal">
-<a href="/privacy-policy/">Privacy</a>
-<a href="/about/">About</a>
-<a href="/contact/">Contact</a>
-<a href="/advertise/">Advertise</a>
-</div>
-</div>
-      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
-</footer>
+<div class="pb-pyme">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro</a> 🇨🇴</div>
+</div></footer>
+
 <script defer="" src="/js/main.js?v=20260514a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
 <script src="https://catalina.barranquilla.guide/widget.js" defer></script>
 </body>
 </html>

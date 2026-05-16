@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -28,12 +29,17 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-  <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/airport-barranquilla.jpg" fetchpriority="high">
-    <!-- Self-hosted webfonts (declarations in /css/site.css) -->
-  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
-  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
-<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/airport-barranquilla.jpg" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260516b" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -42,54 +48,44 @@
     gtag('js', new Date());
     gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
   </script>
-  <script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
 </head>
 <body>
-<nav aria-label="Primary Navigation" class="site-nav site-nav--solid" id="site-nav" role="navigation">
-<div class="nav-inner">
-<a aria-label="Barranquilla Guide - Home" class="site-logo" href="/">
-      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
-</a>
-<ul class="menu" id="primary-menu">
-<li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
-<li class="menu-item"><a href="/section/live/">Live</a></li>
-<li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
-<li class="menu-item"><a href="/section/guides/">How-to Guides</a></li>
-<li class="menu-item"><a href="/#latest-news">Latest News</a></li>
-<li class="menu-item"><a href="/city-map/">City Map</a></li>
-</ul>
-<div class="nav-right">
-<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
-      <a class="nav-cta" href="/#newsletter">Subscribe</a>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l">The insider Barranquilla guide. Costeño-checked.</div>
+<div class="pb-l">
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
 </div>
-<button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
-<span></span><span></span><span></span>
-</button>
-</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/">barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/">Things to Do</a>
+<a href="/section/live/">Live</a>
+<a href="/section/eat-drink/">Eat &amp; Drink</a>
+<a href="/section/guides/">Guides</a>
+<a href="/city-map/">City Map</a>
 </nav>
-<div aria-hidden="true" aria-label="Mobile Navigation" class="mobile-nav" id="mobile-nav" role="dialog">
-<button aria-label="Close menu" class="mobile-nav-close" id="mobile-nav-close">×</button>
-<a class="mobile-nav-link" href="/section/explore/">Things to Do</a>
-<a class="mobile-nav-link" href="/section/live/">Live</a>
-<a class="mobile-nav-link" href="/section/eat-drink/">Eat &amp; Drink</a>
-<a class="mobile-nav-link" href="/section/guides/">How-to Guides</a>
-<a class="mobile-nav-link" href="/#latest-news">Latest News</a>
-<a class="mobile-nav-link" href="/city-map/">City Map</a>
-<div class="mobile-nav-ctas">
-<a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
-<a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Ask Catalina</a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
 </div>
-</div>
-<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
-  <div class="search-overlay-inner">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
-      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
-      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    </div>
-    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
-  </div>
-</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600">Chat with Catalina</a>
+<a data-pb-close="" href="/section/explore/">Things to Do</a>
+<a data-pb-close="" href="/section/live/">Live</a>
+<a data-pb-close="" href="/section/eat-drink/">Eat &amp; Drink</a>
+<a data-pb-close="" href="/section/guides/">Guides</a>
+<a data-pb-close="" href="/city-map/">City Map</a>
+<a data-pb-close="" href="/neighborhoods/">Neighborhoods</a>
+<a data-pb-close="" href="/#newsletter">Newsletter</a>
+</aside>
+
 <article class="single-article post-2766 post type-post status-publish format-standard has-post-thumbnail hentry category-life section-explore section-guides section-stay" id="post-2766">
 <!-- Hero Image -->
 <div class="article-hero">
@@ -102,7 +98,7 @@
 <h1>BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)</h1>
 <div class="article-header-meta">
 <div class="article-author-img">
-<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" src="/img/team/mike.svg" width="80" loading="lazy"> </div>
+<img alt="Mike Chartrand" class="avatar avatar-80 photo" decoding="async" height="80" loading="lazy" src="/img/team/mike.svg" width="80"/> </div>
 <div>
 <div class="article-author-name">Mike Chartrand</div>
 <div class="article-date">
@@ -120,13 +116,11 @@
 --></p>
 <p class="guide-intro"><em>Last updated: April 2026. Everything you need for Ernesto Cortissoz International Airport (BAQ): what to expect on arrival, how to get into the city, which airlines fly there, where to stay if you have an early flight, and what to do if you’re stuck on a long layover. First time in the city? See our <a href="/barranquilla-guide/">Barranquilla overview</a> for what to expect beyond the airport.</em></p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barranquilla" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-barranquilla.webp" class="article-photo" width="1200"/>
+<img alt="Barranquilla" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-barranquilla.webp" width="1200">
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Ernesto Cortissoz International Airport" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-ernesto-cortissoz-international-airport.webp" class="article-photo" width="1200"/>
+<img alt="Ernesto Cortissoz International Airport" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-ernesto-cortissoz-international-airport.webp" width="1200"/>
 </figure>
-
 <div class="toc">
 <h2>What’s in this guide</h2>
 <ol>
@@ -148,9 +142,8 @@
 <strong>Terminals</strong>: single unified terminal with domestic and international sections under one roof.<br/>
 <strong>Official site</strong>: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a>.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Soledad" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-soledad.webp" class="article-photo" width="1200"/>
+<img alt="Soledad" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-soledad.webp" width="1200"/>
 </figure>
-
 <p>BAQ handles around 2.5–3 million passengers per year and underwent a significant modernization completed in 2021 that added jet bridges, expanded gates, and a proper international-standard commercial area. It’s a clean, functional, medium-sized airport, closer in feel to Medellín’s old Olaya Herrera than to Bogotá’s El Dorado.</p>
 <h2 id="airlines-routes">Airlines and routes</h2>
 <p>As of April 2026, BAQ is served by 10 airlines connecting to about 20 airports in Colombia, the Caribbean, Central America, and the US. Current carriers:</p>
@@ -168,29 +161,23 @@
 </ul>
 <p><strong>Typical direct routes</strong> from BAQ: Bogotá, Medellín, Cali, Cartagena, San Andrés, Santa Marta, Miami (AA), Fort Lauderdale (Spirit), Panama City (Copa/Wingo). For Europe or other US cities, you’ll connect through Bogotá (El Dorado, BOG), Panama City (PTY), or Miami (MIA).</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Fort Lauderdale" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-fort-lauderdale.webp" class="article-photo" width="1200"/>
+<img alt="Fort Lauderdale" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-fort-lauderdale.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Panama City" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-panama-city.webp" class="article-photo" width="1200"/>
+<img alt="Panama City" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-panama-city.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Santa Marta" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-santa-marta.webp" class="article-photo" width="1200"/>
+<img alt="Santa Marta" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-santa-marta.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="San Andrés" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-san-andres.webp" class="article-photo" width="1200"/>
+<img alt="San Andrés" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-san-andres.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Cartagena" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-cartagena.webp" class="article-photo" width="1200"/>
+<img alt="Cartagena" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-cartagena.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Cali" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-cali.webp" class="article-photo" width="1200"/>
+<img alt="Cali" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-cali.webp" width="1200"/>
 </figure>
-
 <p>Live arrivals/departures and airline schedules: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a> or <a href="https://www.flightstats.com/v2/flight-tracker/arrivals/BAQ" rel="noopener" target="_blank">FlightStats BAQ</a>.</p>
 <h2 id="arrival">What to expect on arrival</h2>
 <p><strong>Immigration for international arrivals</strong> is usually 15–30 minutes. Queues worsen on Sunday evenings and during the weeks around Carnaval. Have your passport and return itinerary ready.</p>
@@ -207,23 +194,19 @@
 <li><strong>El Prado</strong>: COP 30–50,000 (USD 8–14), 20–35 min.</li>
 <li><strong>Alto Prado / Villa Country</strong>: COP 35–55,000 (USD 9–15), 25–40 min.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Country" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-villa-country.webp" class="article-photo" width="1200"/>
+<img alt="Villa Country" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-villa-country.webp" width="1200"/>
 </figure>
-
 <li><strong>Villa Santos / Buenavista</strong>: COP 45–70,000 (USD 11–18), 30–45 min.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Buenavista" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-buenavista.webp" class="article-photo" width="1200"/>
+<img alt="Buenavista" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-buenavista.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Villa Santos" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-villa-santos.webp" class="article-photo" width="1200"/>
+<img alt="Villa Santos" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-villa-santos.webp" width="1200"/>
 </figure>
-
 <li><strong>Puerto Colombia</strong>: COP 60–90,000 (USD 15–22), 40–55 min.</li>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Puerto Colombia" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-puerto-colombia.webp" class="article-photo" width="1200"/>
+<img alt="Puerto Colombia" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-puerto-colombia.webp" width="1200"/>
 </figure>
-
 </ul>
 <p><strong>Uber</strong> is the default and most foreigner-friendly. At BAQ you’ll select “Taxi” or “UberX” in the app, in most of Colombia, Uber’s “taxi” option dispatches a licensed taxi because of historical regulatory tension, which is fine and uses the same safety tracking as UberX. <strong>InDriver</strong> lets you propose a fare and typically beats Uber by 20–30%. <strong>DiDi</strong> works but some drivers are hit-or-miss on pricing.</p>
 <p><strong>Pickup point</strong>: most rideshares pick up in a designated zone just past the taxi queue at Arrivals. The app will tell you exactly where; if confused, the security staff at the exit can point.</p>
@@ -234,13 +217,11 @@
 <h3>Car rental</h3>
 <p>Major chains (Hertz, Avis, National, Localiza) have counters at Arrivals. Useful if you’re exploring the coast (Puerto Colombia, Tolú, Palomino, Cartagena); unnecessary if you’re staying in Barranquilla proper, where rideshare is cheaper and less stressful than parking. Colombian traffic, flooding during the rainy season, and unfamiliar signage make self-driving a real commitment.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Palomino" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-palomino.webp" class="article-photo" width="1200"/>
+<img alt="Palomino" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-palomino.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Tolú" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-tolu.webp" class="article-photo" width="1200"/>
+<img alt="Tolú" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-tolu.webp" width="1200"/>
 </figure>
-
 <h3>Private transfer</h3>
 <p>Most hotels offer a pre-booked airport pickup at COP 80–150,000. Worth it for early-morning arrivals, family groups, or if you want a driver holding a name card at the gate. Ask when booking.</p>
 <h2 id="departures">Departures: what to know</h2>
@@ -252,13 +233,11 @@
 <h2 id="layovers">If you have a long layover</h2>
 <p>BAQ doesn’t have airside hotels, so a long layover means leaving the airport. With <strong>3+ hours</strong> you can Uber into El Prado for a proper lunch at Pescayé or La Cueva and Uber back. With <strong>5–6 hours</strong>, add a walk through the Centro Histórico, a visit to the <a href="https://colombia.travel/en/barranquilla/caribbean-museum" rel="noopener" target="_blank">Museo del Caribe</a>, or a stop at the Malecón. Keep Wi-Fi on, monitor flight status, and build in traffic buffer on the way back.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Malecón" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-malecon.webp" class="article-photo" width="1200"/>
+<img alt="Malecón" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-malecon.webp" width="1200"/>
 </figure>
-
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Centro Histórico" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-centro-historico.webp" class="article-photo" width="1200"/>
+<img alt="Centro Histórico" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/barranquilla-airport-guide-place-centro-historico.webp" width="1200"/>
 </figure>
-
 <h2 id="airport-hotels">Hotels near BAQ</h2>
 <p>If you have a 5 AM flight or a late-night arrival, staying close to the airport avoids a predawn Uber. The closest decent options:</p>
 <ul>
@@ -297,7 +276,7 @@
 <div class="magazine-grid related-grid-3">
 <article class="article-card">
 <a class="article-card-image" href="/san-basilio-de-palenque/">
-<img alt="Take a day trip to San Basilio de Palenque" sizes="auto, (max-width: 579px) 100vw, 579px" decoding="async" height="400" loading="lazy" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
+<img alt="Take a day trip to San Basilio de Palenque" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 579px) 100vw, 579px" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
 <div class="article-card-meta">
@@ -308,7 +287,7 @@
 </article>
 <article class="article-card">
 <a class="article-card-image" href="/barranquilla-caribbean-night-break-tour/">
-<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" sizes="auto, (max-width: 600px) 100vw, 600px" decoding="async" height="400" loading="lazy" src="/img/caribbean-night-break-1-600x400.jpg" srcset="/img/caribbean-night-break-1-600x400.jpg 600w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1.jpg 669w" width="600"/> </a>
+<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/img/caribbean-night-break-1-600x400.jpg" srcset="/img/caribbean-night-break-1-600x400.jpg 600w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1.jpg 669w" width="600"/> </a>
 <span class="label">Things to Do</span>
 <h3 class="article-card-title"><a href="/barranquilla-caribbean-night-break-tour/">Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)</a></h3>
 <div class="article-card-meta">
@@ -331,75 +310,84 @@
 </div>
 </div>
 </section><!-- newsletter-prefoot:v1 -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
- data-city="barranquilla" data-source="prefooter"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
-          <div class="email-capture-row">
-            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="prefooter" />
-          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="site-footer" role="contentinfo">
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
 <div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
-<div class="footer-tagline">
-          The insider guide to Colombia's most underestimated city - for people who want to understand it, not just visit it.
-        </div>
-<div class="footer-social">
-<a aria-label="Instagram" href="https://instagram.com/barranquillaguide" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="1" stroke="none"></circle></svg>
-</a>
-<a aria-label="Facebook" href="https://facebook.com/groups/visitbarranquilla" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="currentColor" height="16" viewbox="0 0 24 24" width="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-</a>
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.colguides.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
 </div>
 </div>
-<nav aria-label="Footer Navigation" class="footer-nav">
-<div class="footer-nav-col">
-<div class="footer-nav-title">Neighborhoods</div>
-<ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">Live</div>
-<ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/">barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Colombia's most underestimated city. For people who want to understand it, not just visit it.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+<p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">How-to Guides</div>
-<ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+<div><h5>Sections</h5><ul>
+<li><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+<li><a href="/section/explore/">Things to Do</a></li>
+<li><a href="/section/live/">Live</a></li>
+<li><a href="/section/magazine/">Magazine</a></li>
+<li><a href="/section/guides/">How-to Guides</a></li>
+<li><a href="/city-map/">City Map</a></li>
+</ul></div>
+<div><h5>Live in Barranquilla</h5><ul>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li>
+<li><a href="/housing-renting-barranquilla/">Housing</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas</a></li>
+<li><a href="/healthcare-barranquilla/">Healthcare</a></li>
+<li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working remote</a></li>
+<li><a href="/neighborhoods/">All neighborhoods</a></li>
+</ul></div>
+<div><h5>Sister sites</h5><ul>
+<li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li>
+<li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/advertise/">Advertise</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+</ul></div>
 </div>
-</nav>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></span>
 </div>
-<div class="footer-bottom">
-<div class="footer-copy">© 2026 Barranquilla.guide. All rights reserved.</div>
-<div class="footer-legal">
-<a href="/privacy-policy/">Privacy</a>
-<a href="/about/">About</a>
-<a href="/contact/">Contact</a>
-<a href="/advertise/">Advertise</a>
-</div>
-</div>
-      <div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
-</footer>
+<div class="pb-pyme">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro</a> 🇨🇴</div>
+</div></footer>
+
 <script defer="" src="/js/main.js?v=20260514a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
 <script src="https://catalina.barranquilla.guide/widget.js" defer></script>
 </body>
 </html>

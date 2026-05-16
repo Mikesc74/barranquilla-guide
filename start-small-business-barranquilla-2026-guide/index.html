@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -28,12 +29,17 @@
 <link href="/img/favicon-192.png" rel="icon" sizes="192x192"/>
 <link href="/img/favicon-180.png" rel="apple-touch-icon"/>
 <link href="/site.webmanifest" rel="manifest"/>
-  <!-- PERF: hero preload -->
-  <link rel="preload" as="image" href="/img/business-meetings-1024x576.jpg" fetchpriority="high">
-  <!-- Self-hosted webfonts (declarations in /css/site.css) -->
-  <link rel="preload" as="font" href="/fonts/inter-400-latin.woff2" type="font/woff2" crossorigin>
-  <link rel="preload" as="font" href="/fonts/playfair-display-700-latin.woff2" type="font/woff2" crossorigin>
-<link href="/css/site.css?v=20260515a" rel="stylesheet"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/business-meetings-1024x576.jpg" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260516b" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
 <script>
@@ -42,7 +48,7 @@
     gtag('js', new Date());
     gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
   </script>
-  <script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
 <style>
 .article-body table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95em; }
 .article-body table th, .article-body table td { padding: 10px 14px; border-bottom: 1px solid var(--mid-gray); text-align: left; vertical-align: top; }
@@ -53,51 +59,41 @@
 </style>
 </head>
 <body>
-<nav aria-label="Primary Navigation" class="site-nav site-nav--solid" id="site-nav" role="navigation">
-<div class="nav-inner">
-<a aria-label="Barranquilla Guide - Home" class="site-logo" href="/">
-      barranquilla<span class="dot">.</span><span class="guide-text">guide</span>
-</a>
-<ul class="menu" id="primary-menu">
-<li class="menu-item"><a href="/section/explore/">Things to Do</a></li>
-<li class="menu-item"><a href="/section/live/">Live</a></li>
-<li class="menu-item"><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
-<li class="menu-item"><a href="/section/guides/">How-to Guides</a></li>
-<li class="menu-item"><a href="/#latest-news">Latest News</a></li>
-<li class="menu-item"><a href="/city-map/">City Map</a></li>
-</ul>
-<div class="nav-right">
-<button class="nav-search-btn js-search-open" aria-label="Search" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg></button>
-      <a class="nav-cta" href="/#newsletter">Subscribe</a>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l">The insider Barranquilla guide. Costeño-checked.</div>
+<div class="pb-l">
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
 </div>
-<button aria-expanded="false" aria-label="Open menu" class="nav-hamburger" id="nav-hamburger">
-<span></span><span></span><span></span>
-</button>
-</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/">barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/">Things to Do</a>
+<a href="/section/live/">Live</a>
+<a href="/section/eat-drink/">Eat &amp; Drink</a>
+<a href="/section/guides/">Guides</a>
+<a href="/city-map/">City Map</a>
 </nav>
-<div aria-hidden="true" aria-label="Mobile Navigation" class="mobile-nav" id="mobile-nav" role="dialog">
-<button aria-label="Close menu" class="mobile-nav-close" id="mobile-nav-close">×</button>
-<a class="mobile-nav-link" href="/section/explore/">Things to Do</a>
-<a class="mobile-nav-link" href="/section/live/">Live</a>
-<a class="mobile-nav-link" href="/section/eat-drink/">Eat &amp; Drink</a>
-<a class="mobile-nav-link" href="/section/guides/">How-to Guides</a>
-<a class="mobile-nav-link" href="/#latest-news">Latest News</a>
-<a class="mobile-nav-link" href="/city-map/">City Map</a>
-<div class="mobile-nav-ctas">
-<a class="btn btn--coral" href="/#newsletter">Subscribe to the newsletter</a>
-<a class="btn btn--outline-white" href="/section/explore/">Just visiting</a>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Ask Catalina</a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
 </div>
-</div>
-<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search barranquilla.guide">
-  <div class="search-overlay-inner">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
-      <input type="search" id="search-input" placeholder="Search barranquilla.guide&#8230;" autocomplete="off">
-      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
-    </div>
-    <div class="search-results" id="search-results"><p class="search-hint">Type to search&hellip;</p></div>
-  </div>
-</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600">Chat with Catalina</a>
+<a data-pb-close="" href="/section/explore/">Things to Do</a>
+<a data-pb-close="" href="/section/live/">Live</a>
+<a data-pb-close="" href="/section/eat-drink/">Eat &amp; Drink</a>
+<a data-pb-close="" href="/section/guides/">Guides</a>
+<a data-pb-close="" href="/city-map/">City Map</a>
+<a data-pb-close="" href="/neighborhoods/">Neighborhoods</a>
+<a data-pb-close="" href="/#newsletter">Newsletter</a>
+</aside>
+
 <article class="single-article" id="post-small-business-2026">
 <!-- Hero Image -->
 <div class="article-hero">
@@ -119,7 +115,6 @@
 <!-- Article Body -->
 <div class="article-body">
 <p class="guide-intro"><em>Last updated: May 2026. Colombia has spent the last decade making it dramatically easier to start a business, on paper. The actual experience for a foreigner with a laptop, a cédula in their pocket, and a small idea worth registering is genuinely workable, but it is more practical-paperwork-and-bank-visits than the glossy "Colombia: easy place to do business" pitch suggests. This guide walks through every step of forming and operating a small business in Barranquilla in 2026, from picking your legal structure, through registering at the Cámara de Comercio de Barranquilla, to your first payroll and a tax regime that does not bury you. The information about SAS structure, taxes, and registration applies anywhere in Colombia. Where things differ in Barranquilla, chamber hours, ICA rates, where to find a decent <em>contador</em>, it is called out.</em></p>
-
 <h2 id="who-this-is-for">Who this guide is for</h2>
 <p>Three audiences:</p>
 <ul>
@@ -128,26 +123,22 @@
 <li>Existing freelancers about to cross from informal to "proper company" territory</li>
 </ul>
 <p>What this guide is <strong>not</strong>: a substitute for a <em>contador</em> (accountant) or a lawyer. You will need both. What it does is get you to the point where you know what to ask them, what they should be doing for you, and what each step actually costs.</p>
-
 <h2 id="visa-cedula-foreign-owner">Before you set up: visa, cédula, and the foreign-owner question</h2>
 <p>Your first decision is whether you can legally operate a business in Colombia at all. Three rough categories:</p>
 <p><strong>You hold a Colombian cédula</strong>, citizenship cédula or a cédula de extranjería tied to a Migrant or Resident visa: you can register a business with no special steps beyond the normal flow.</p>
 <p><strong>You are on an active visa with cédula de extranjería</strong>: same as above. You can be a shareholder, a legal representative, sign payroll, and operate normally.</p>
 <p><strong>You are on a tourist permit (PIP) or have no visa</strong>: you can technically own shares in a Colombian company without a cédula, share ownership is a property right, not a labor one. But you cannot legally act as the legal representative, sign contracts on the company's behalf, or work for it. Practically, that means you need to either: (a) put a Colombian partner, spouse, friend, or hired <em>apoderado</em>, as legal representative, (b) qualify for an M-Inversionista visa (350 SMMLV minimum investment, around COP 567 million / USD 142,000 at 4,000:1), or (c) get a different M visa first (Nómada Digital, partner of a Colombian, etc.) plus a cédula, then form the company.</p>
 <p>For most readers of this site, the practical path is: get a cédula first via whichever visa fits your situation, <em>then</em> register the business. The full visa picture is in our <a href="/visas-colombia-barranquilla/">Colombia visa guide</a>.</p>
-
 <h2 id="legal-structure">Choosing your legal structure</h2>
 <p>For a one- or two-person business, you have three realistic options:</p>
 <p><strong>Persona Natural Comerciante (sole proprietor)</strong>: simplest. You are the business. You register with the Cámara de Comercio as a <em>persona natural comerciante</em>, get a RUT under your cédula, and that is it. Income from the business is your personal income. Cheap to set up, under COP 100,000 / USD 25 in chamber fees if your declared assets are modest. Downside: no liability separation. If the business is sued, your house is on the table.</p>
 <p><strong>SAS (Sociedad por Acciones Simplificada)</strong>: the modern Colombian small-business workhorse. Introduced by Law 1258 of 2008 specifically to make small companies easy. One shareholder is enough, you can be the only shareholder and the only legal representative. No minimum capital. You set the bylaws yourself. Liability is separated, the company has its own NIT, its own bank accounts, its own debts. Roughly nine in ten new small companies in Colombia register as SAS, for good reason.</p>
 <p><strong>LTDA, S.A.</strong>: older corporate forms. Skip them unless your accountant or lawyer specifically says you need one. SAS does everything they do with less paperwork and lower cost.</p>
 <p>The rest of this guide assumes you are forming an SAS, because that is what almost everyone reading this should do.</p>
-
 <h2 id="reserve-name">Step 1: Check that your business name is available</h2>
 <p>Go to <strong>consultanombre.rues.org.co</strong>, the unified RUES (Registro Único Empresarial y Social) name search. Type your proposed company name. If nothing identical comes back, you are probably clear.</p>
 <p>Be more thorough by also searching the same name in trademarks via the SIC's database at <strong>sic.gov.co</strong>. A clear chamber name does not mean you are not stepping on an existing trademark. For a pure local service business this is rarely an issue, but if you plan to use a distinctive brand, check.</p>
 <p>You do not formally "reserve" a name. You confirm availability, then register the company under that name. The name becomes yours when the company exists.</p>
-
 <h2 id="sas-bylaws">Step 2: Draft and register the SAS bylaws</h2>
 <p>The SAS bylaws (<em>estatutos</em>) define:</p>
 <ul>
@@ -167,7 +158,6 @@
 <li><strong>Hire a lawyer.</strong> Standard fee in Barranquilla for SAS formation: COP 800,000–2,500,000 / USD 200–625, depending on the lawyer. Worth it if you have multiple shareholders, special governance needs, or want bespoke bylaws.</li>
 </ol>
 <p>After registration you receive the <strong>Certificado de Existencia y Representación Legal</strong>, the company's birth certificate. Print a fresh copy each time you open a bank account or sign a major contract; banks usually want one issued in the last 30 days.</p>
-
 <h2 id="rut-nit">Step 3: Get your RUT and NIT</h2>
 <p>The RUT (Registro Único Tributario) is your tax registration with DIAN, Colombia's IRS equivalent. The NIT (Número de Identificación Tributaria) is the resulting tax ID. The VUE flow includes a RUT request, so for most people this happens automatically as part of step 2.</p>
 <p>If you are registering manually, do the RUT online at the DIAN portal (<strong>muisca.dian.gov.co</strong>). You will be assigned <em>responsabilidades</em>, codes for your tax obligations. Common ones for a small SAS:</p>
@@ -178,7 +168,6 @@
 <li><strong>52</strong>: Common monthly information report</li>
 </ul>
 <p>Print the RUT. You will show it constantly, landlords, banks, payment processors, clients.</p>
-
 <h2 id="bank-account">Step 4: Open a business bank account</h2>
 <p>You need a separate company account. Mixing personal and company funds is the fastest way to make your <em>contador</em>'s life unmanageable and trigger DIAN questions later.</p>
 <p>The big four for small businesses in Barranquilla are <strong>Bancolombia</strong>, <strong>BBVA</strong>, <strong>Davivienda</strong>, and <strong>Banco de Bogotá</strong>. All have decent online onboarding now, but you will usually still have to physically appear at a branch with:</p>
@@ -197,7 +186,6 @@
 <li><strong>Set up tokens or app-based 2FA.</strong> You will be moving company money; you want hardware or app-based authentication on every transfer.</li>
 </ul>
 <p>For the deeper banking picture, see our <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking in Barranquilla guide</a>.</p>
-
 <h2 id="ica-municipal">Step 5: Municipal registration, ICA and signage</h2>
 <p>The Cámara de Comercio sends your registration data to Barranquilla's Secretaría de Hacienda Distrital, but you should still verify your ICA registration is active. <strong>ICA</strong> (Impuesto de Industria y Comercio) is the local business tax, paid bimonthly or annually depending on regime, at rates ranging from 4 to 13.8 <em>por mil</em> (0.4% to 1.38%) of gross revenue, depending on your activity code (CIIU).</p>
 <p>Common CIIU codes used by small services in Barranquilla:</p>
@@ -216,7 +204,6 @@
 <li><strong>Sayco &amp; Acinpro</strong> dues if you play music in your premises (Colombia's PRO collective)</li>
 </ul>
 <p>For a one-person consulting or digital business operating from an apartment, none of those apply.</p>
-
 <h2 id="hire-or-not">Step 6: Hire, or do not</h2>
 <p>The economics of hiring in Colombia are heavy, and they are the reason most very-small businesses run for years on contractors (<em>prestación de servicios</em>) rather than employees.</p>
 <p>For a salaried employee at the minimum wage (2026 SMMLV approximately COP 1.42 million / USD 356 per month), the all-in cost to the employer is about 1.52× the salary, call it COP 2.16 million / USD 540 per month. The roughly 52% loaded on top is:</p>
@@ -232,7 +219,6 @@
 </ul>
 <p>A <em>contrato de prestación de servicios</em> (independent contractor) avoids all of that, but it has to be a real contractor relationship, with the contractor managing their own tools, hours, and clients. DIAN and the Ministerio de Trabajo can reclassify a sham contractor as an employee and require you to pay back-benefits. If your "contractor" works only for you, on your schedule, with your equipment, in your office, they are an employee. Pay them like one.</p>
 <p>For your first hire, most Barranquilla service businesses use a <em>contrato a término fijo</em> (fixed-term) for the first year, then convert to <em>término indefinido</em> (indefinite). Indefinite contracts can include a <em>período de prueba</em> (probation) of up to two months.</p>
-
 <h2 id="digital-presence">Step 7: Your digital presence</h2>
 <p>Most new small businesses in Colombia underestimate how much business comes from a clean Google search result with a real website rather than just an Instagram. A Spanish-only Instagram is fine for street food. For anything where the customer is comparing three options before contacting you, a clinic, a coworking space, a B2B service, an English-speaking lawyer, the website is what they trust.</p>
 <p>The practical baseline:</p>
@@ -246,10 +232,9 @@
 </ul>
 <p>If you are building this yourself, fine, WordPress, Squarespace, Webflow, or a static site on Cloudflare Pages all work, with tradeoffs in Spanish-language SEO and Colombian payment integrations.</p>
 <div class="pyme-callout">
-<p><strong>If you want it built by people who actually live and run businesses in Colombia:</strong> the team behind this site builds custom websites for Colombian small businesses through <a href="https://pymewebpro.com" target="_blank" rel="noopener">PymeWebPro.com</a>. Spanish copy that sounds Colombian (not Google-translated), integrations with PSE / Bancolombia / Wompi for online payments, IVA-aware checkout, and infrastructure that does not lock you into a proprietary CMS.</p>
-<p>Fixed-fee one-off builds or managed monthly arrangements. Transparent pricing, no contracts longer than 12 months, and we hand over the keys (domain, hosting, source) the day you ask. <a href="https://pymewebpro.com" target="_blank" rel="noopener">PymeWebPro.com</a>, or contact us via this site's <a href="/contact/">contact page</a>.</p>
+<p><strong>If you want it built by people who actually live and run businesses in Colombia:</strong> the team behind this site builds custom websites for Colombian small businesses through <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro.com</a>. Spanish copy that sounds Colombian (not Google-translated), integrations with PSE / Bancolombia / Wompi for online payments, IVA-aware checkout, and infrastructure that does not lock you into a proprietary CMS.</p>
+<p>Fixed-fee one-off builds or managed monthly arrangements. Transparent pricing, no contracts longer than 12 months, and we hand over the keys (domain, hosting, source) the day you ask. <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro.com</a>, or contact us via this site's <a href="/contact/">contact page</a>.</p>
 </div>
-
 <h2 id="tax-regime">Picking a tax regime: Régimen Simple vs Ordinario</h2>
 <p>Colombia introduced the <strong>Régimen Simple de Tributación</strong> in 2019 specifically to give small businesses a less-painful tax setup. It rolls income tax, ICA (in participating municipalities, Barranquilla participates), and a portion of the parafiscal load into a single bimonthly payment based on a flat percentage of gross revenue.</p>
 <p><strong>Régimen Simple eligibility, 2026</strong>:</p>
@@ -262,7 +247,6 @@
 <p>If you qualify, the rates run roughly 2%–8% of gross revenue depending on activity. For a software / IT / consulting business, the Simple rate is around 4.9% of gross revenue, and that single number replaces income tax, ICA, and a portion of parafiscales.</p>
 <p><strong>The math is usually favorable for service businesses</strong>, particularly ones with low costs and high margin. For a high-cost business (restaurants, retail with inventory), the <em>Régimen Ordinario</em> often comes out cheaper because you can deduct your real costs.</p>
 <p>You opt in or out of Simple once a year, by January 31 for that calendar year. Get a <em>contador</em> to run your numbers both ways before deciding.</p>
-
 <h2 id="monthly-costs">Realistic monthly costs for a one-person SAS</h2>
 <p>One founder, no employees, working from home in Barranquilla, 2026:</p>
 <table>
@@ -282,7 +266,6 @@
 </table>
 <p>Add an annual <strong>Renovación de Matrícula Mercantil</strong> (chamber renewal) of COP 200,000–1,000,000 in March, depending on declared assets.</p>
 <p>If you hire one minimum-wage employee, add roughly COP 2.46 million / USD 615 per month all-in.</p>
-
 <h2 id="contador">Finding an accountant (contador)</h2>
 <p>You will need one. DIAN and ICA filings are bimonthly or monthly, and the penalties for late filing compound fast. A bad <em>contador</em> will quietly bury you in fines you do not see until DIAN sends a notification 18 months later.</p>
 <p>What to look for:</p>
@@ -294,11 +277,9 @@
 <li><strong>Sends you the receipt of every filing</strong>, DIAN's confirmation pages, with timestamps. If they cannot show you proof of filing, find someone else</li>
 </ul>
 <p>Typical fees in Barranquilla for a one-person SAS with low volume: COP 250,000–500,000 / USD 60–125 per month. Higher with employees (payroll filings) or international operations.</p>
-
 <h2 id="electronic-invoicing">Electronic invoicing (factura electrónica)</h2>
 <p>Since 2022, electronic invoices are mandatory for almost all sales in Colombia. You must invoice through a DIAN-authorized provider, the common ones in Colombia are <strong>Siigo</strong>, <strong>Alegra</strong>, <strong>Facture</strong>, <strong>World Office</strong>, and <strong>Helisa</strong>. Costs run from COP 30,000 to 100,000 per month depending on volume and features. Your <em>contador</em> usually has a preferred platform.</p>
 <p>The DIAN <em>radian</em> system also handles <em>documento soporte</em> (for purchases from non-billing suppliers like very-small persona natural vendors) and <em>nómina electrónica</em> (electronic payroll) once you have employees.</p>
-
 <h2 id="foreign-investment">Foreign investment registration (Banco de la República)</h2>
 <p>If you are a foreign investor, funding the company with money from abroad rather than from a Colombian-source income, the inflow has to be registered with Banco de la República as <em>Inversión Extranjera Directa</em> (IED).</p>
 <p>The mechanics:</p>
@@ -309,7 +290,6 @@
 <li>When you eventually send dividends or capital out, that registered amount is the basis for what you can repatriate</li>
 </ul>
 <p>This is not optional. Failing to register foreign investment is a sanctionable offense and prevents you from later pulling the money out cleanly. If you are putting USD or EUR into your Colombian SAS, talk to your <em>contador</em> <em>before</em> the wire goes out.</p>
-
 <h2 id="lawyer-vs-diy">Hiring a lawyer for setup vs DIY</h2>
 <p>Genuinely DIY-friendly:</p>
 <ul>
@@ -327,25 +307,20 @@
 <li>Plans to apply for a Migrant-Inversionista visa using the company</li>
 </ul>
 <p>Lawyer rates in Barranquilla for company formation: COP 800,000–2,500,000 / USD 200–625 fixed fee. Worth it for any non-trivial setup.</p>
-
 <h2 id="where-to-register">Where to register in Barranquilla</h2>
-<p><strong>Cámara de Comercio de Barranquilla, Sede Principal</strong><br>Vía 40 No. 36-135, Barrio Las Flores<br>Mon–Fri 8am–5pm typically (verify before going)<br>Most procedures are also available online via VUE.</p>
+<p><strong>Cámara de Comercio de Barranquilla, Sede Principal</strong><br/>Vía 40 No. 36-135, Barrio Las Flores<br/>Mon–Fri 8am–5pm typically (verify before going)<br/>Most procedures are also available online via VUE.</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Barrio Las Flores" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-barrio-las-flores.webp" class="article-photo" width="1200"/>
+<img alt="Barrio Las Flores" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-barrio-las-flores.webp" width="1200"/>
 </figure>
-
-<p><strong>Sede La Castellana</strong><br>Carrera 53 No. 96-25, La Castellana</p>
+<p><strong>Sede La Castellana</strong><br/>Carrera 53 No. 96-25, La Castellana</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="La Castellana" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-la-castellana.webp" class="article-photo" width="1200"/>
+<img alt="La Castellana" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-la-castellana.webp" width="1200"/>
 </figure>
-
-<p><strong>Sede Soledad</strong><br>Carrera 22 No. 13-10, Soledad</p>
+<p><strong>Sede Soledad</strong><br/>Carrera 22 No. 13-10, Soledad</p>
 <figure class="venue-photo" style="margin: 24px 0;">
-<img alt="Soledad" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-soledad.webp" class="article-photo" width="1200"/>
+<img alt="Soledad" class="article-photo" decoding="async" height="800" loading="lazy" src="/img/start-small-business-barranquilla-2026-guide-place-soledad.webp" width="1200"/>
 </figure>
-
-<p><strong>DIAN, Dirección Seccional Barranquilla</strong><br>Calle 45 No. 50-50, Edificio La Aduana<br>Most RUT and tax filings are now online; physical visits only for biometric updates or specific cases.</p>
-
+<p><strong>DIAN, Dirección Seccional Barranquilla</strong><br/>Calle 45 No. 50-50, Edificio La Aduana<br/>Most RUT and tax filings are now online; physical visits only for biometric updates or specific cases.</p>
 <h2 id="common-mistakes">Common mistakes to avoid</h2>
 <ul>
 <li><strong>Mixing personal and company money.</strong> The SAS is a separate person legally. Treat it as one.</li>
@@ -355,17 +330,15 @@
 <li><strong>Forgetting electronic invoicing.</strong> Factura electrónica is mandatory; manual paper invoices are not legally valid for most sales.</li>
 <li><strong>No backup of company documents.</strong> Bylaws, certificates, RUT, contracts, keep them in a cloud folder you control. Banks and DIAN ask for them more often than you expect.</li>
 </ul>
-
 <h2 id="faq">Frequently asked questions</h2>
-<p><strong>How long does it take to register an SAS in Barranquilla?</strong><br>Online via VUE: 24–72 hours from submission to receiving your <em>certificado</em>. With a lawyer: 5–7 business days end to end. The slowest part is usually getting the digital signature certificate that VUE requires.</p>
-<p><strong>Can I register an SAS while on a tourist permit (PIP)?</strong><br>You can be a shareholder, but you cannot be the legal representative or actively manage the business without a visa and cédula. In practice, set up a Colombian partner as legal rep, or get a visa first.</p>
-<p><strong>Do I need an office?</strong><br>No. The registered address can be your home. A coworking-space mailbox at WeWork, Selina, or similar also works.</p>
-<p><strong>Should I register for IVA?</strong><br>You are required to register for IVA if you sell IVA-applicable goods or services and your annual gross is above 3,500 UVT (about COP 178 million). Below that you can be in <em>No Responsable de IVA</em>. Régimen Simple changes some of this, ask your <em>contador</em>.</p>
-<p><strong>Can I keep the SAS dormant?</strong><br>Yes, but you still owe annual chamber renewal and minimum DIAN filings. Cost to keep a dormant SAS alive: about COP 300,000–500,000 / USD 75–125 per year.</p>
-<p><strong>What is the difference between <em>razón social</em> and <em>nombre comercial</em>?</strong><br><em>Razón social</em> is your legal company name (e.g. "Mi Negocio SAS"). <em>Nombre comercial</em> is the brand name you trade under. They can be the same or different. If different, register the <em>nombre comercial</em> with the SIC for trademark protection.</p>
-<p><strong>How do I close an SAS?</strong><br>Three steps: shareholders approve dissolution; appoint a liquidator (the legal rep is fine); settle debts and file the <em>acta de liquidación final</em> with the chamber. The chamber issues a <em>certificado de cancelación</em>; DIAN gets a final RUT cancellation. Time: three to six months minimum.</p>
-<p><strong>What about Pico y Placa for delivery vehicles?</strong><br>Barranquilla applies vehicle-restriction rules to commercial vehicles in some zones. If your business depends on a delivery van, factor in that you may not have access on certain days. Details in our <a href="/driving-in-colombia-barranquilla-2026-guide/">driving guide</a>.</p>
-
+<p><strong>How long does it take to register an SAS in Barranquilla?</strong><br/>Online via VUE: 24–72 hours from submission to receiving your <em>certificado</em>. With a lawyer: 5–7 business days end to end. The slowest part is usually getting the digital signature certificate that VUE requires.</p>
+<p><strong>Can I register an SAS while on a tourist permit (PIP)?</strong><br/>You can be a shareholder, but you cannot be the legal representative or actively manage the business without a visa and cédula. In practice, set up a Colombian partner as legal rep, or get a visa first.</p>
+<p><strong>Do I need an office?</strong><br/>No. The registered address can be your home. A coworking-space mailbox at WeWork, Selina, or similar also works.</p>
+<p><strong>Should I register for IVA?</strong><br/>You are required to register for IVA if you sell IVA-applicable goods or services and your annual gross is above 3,500 UVT (about COP 178 million). Below that you can be in <em>No Responsable de IVA</em>. Régimen Simple changes some of this, ask your <em>contador</em>.</p>
+<p><strong>Can I keep the SAS dormant?</strong><br/>Yes, but you still owe annual chamber renewal and minimum DIAN filings. Cost to keep a dormant SAS alive: about COP 300,000–500,000 / USD 75–125 per year.</p>
+<p><strong>What is the difference between <em>razón social</em> and <em>nombre comercial</em>?</strong><br/><em>Razón social</em> is your legal company name (e.g. "Mi Negocio SAS"). <em>Nombre comercial</em> is the brand name you trade under. They can be the same or different. If different, register the <em>nombre comercial</em> with the SIC for trademark protection.</p>
+<p><strong>How do I close an SAS?</strong><br/>Three steps: shareholders approve dissolution; appoint a liquidator (the legal rep is fine); settle debts and file the <em>acta de liquidación final</em> with the chamber. The chamber issues a <em>certificado de cancelación</em>; DIAN gets a final RUT cancellation. Time: three to six months minimum.</p>
+<p><strong>What about Pico y Placa for delivery vehicles?</strong><br/>Barranquilla applies vehicle-restriction rules to commercial vehicles in some zones. If your business depends on a delivery van, factor in that you may not have access on certain days. Details in our <a href="/driving-in-colombia-barranquilla-2026-guide/">driving guide</a>.</p>
 <h2 id="further-reading">Further reading on this site</h2>
 <ul>
 <li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking in Barranquilla: The Complete Expat Guide (2026)</a></li>
@@ -375,80 +348,88 @@
 <li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Remotely in Barranquilla: The Digital Nomad Guide</a></li>
 <li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living in Barranquilla: A Real 2026 Breakdown</a></li>
 </ul>
-
 <p><em>This guide is general information, not legal or tax advice. Colombian regulations change, verify current SMMLV, UVT values, and ICA rates with DIAN, the Cámara de Comercio de Barranquilla, and a registered <em>contador</em> before acting on the numbers above. If you are launching, hire a contador before your first month closes; the cost is small compared to fixing a missed filing later.</em></p>
 </div>
 </article>
 <!-- newsletter-prefoot:v1 -->
-<section class="email-capture" id="newsletter" aria-labelledby="newsletter-prefoot-heading">
-  <div class="container">
-    <div class="email-capture-inner">
-      <div>
-        <span class="label">Newsletter</span>
-        <h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
-        <p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
-      </div>
-      <div class="email-capture-form">
-        <form class="newsletter-form"
- data-city="barranquilla" data-source="prefooter"
-              action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
-  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" />
-          <div class="email-capture-row">
-            <input type="email" class="email-capture-input" name="email" placeholder="Your email address" required aria-label="Email address" />
-            <button type="submit" class="email-capture-submit">Subscribe</button>
-          </div>
-          <input type="hidden" name="city" value="barranquilla" />
-          <input type="hidden" name="source" value="prefooter" />
-          <div class="email-capture-note" role="status" aria-live="polite">Weekly. Unsubscribe any time.</div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="site-footer" role="contentinfo">
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
 <div class="container">
-<div class="footer-top">
-<div class="footer-brand">
-<div class="footer-logo"><span class="city-name">barranquilla</span><span class="dot">.</span>guide</div>
-<div class="footer-tagline">
-          The insider guide to Colombia's most underestimated city - for people who want to understand it, not just visit it.
-        </div>
-<div class="footer-social">
-<a aria-label="Instagram" href="https://instagram.com/barranquillaguide" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="16"><rect height="20" rx="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="1" stroke="none"></circle></svg>
-</a>
-<a aria-label="Facebook" href="https://facebook.com/groups/visitbarranquilla" rel="noopener noreferrer" target="_blank">
-<svg aria-hidden="true" fill="currentColor" height="16" viewBox="0 0 24 24" width="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-</a>
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.colguides.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
 </div>
 </div>
-<nav aria-label="Footer Navigation" class="footer-nav">
-<div class="footer-nav-col">
-<div class="footer-nav-title">Neighborhoods</div>
-<ul><li><a href="/neighborhoods/el-prado/">El Prado</a></li><li><a href="/neighborhoods/villa-country/">Villa Country</a></li><li><a href="/neighborhoods/villa-santos/">Villa Santos</a></li><li><a href="/neighborhoods/buenavista/">Buenavista</a></li><li><a href="/neighborhoods/">All neighborhoods →</a></li></ul>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">Live</div>
-<ul><li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li><li><a href="/housing-renting-barranquilla/">Housing</a></li><li><a href="/visas-colombia-barranquilla/">Visas &amp; Immigration</a></li><li><a href="/healthcare-barranquilla/">Healthcare</a></li><li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working Here</a></li></ul>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/">barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Colombia's most underestimated city. For people who want to understand it, not just visit it.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Chat with Catalina</a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+<p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
 </div>
-<div class="footer-nav-col">
-<div class="footer-nav-title">How-to Guides</div>
-<ul><li><a href="/moving-to-barranquilla/">Moving Here</a></li><li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li><li><a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a></li><li><a href="/getting-around-barranquilla/">Getting Around</a></li><li><a href="/section/guides/">All guides →</a></li></ul>
+<div><h5>Sections</h5><ul>
+<li><a href="/section/eat-drink/">Eat &amp; Drink</a></li>
+<li><a href="/section/explore/">Things to Do</a></li>
+<li><a href="/section/live/">Live</a></li>
+<li><a href="/section/magazine/">Magazine</a></li>
+<li><a href="/section/guides/">How-to Guides</a></li>
+<li><a href="/city-map/">City Map</a></li>
+</ul></div>
+<div><h5>Live in Barranquilla</h5><ul>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living</a></li>
+<li><a href="/housing-renting-barranquilla/">Housing</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas</a></li>
+<li><a href="/healthcare-barranquilla/">Healthcare</a></li>
+<li><a href="/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/">Working remote</a></li>
+<li><a href="/neighborhoods/">All neighborhoods</a></li>
+</ul></div>
+<div><h5>Sister sites</h5><ul>
+<li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li>
+<li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/advertise/">Advertise</a></li>
+<li><a href="/privacy-policy/">Privacy</a></li>
+</ul></div>
 </div>
-</nav>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/">Privacy</a><a href="/about/">About</a><a href="/contact/">Contact</a></span>
 </div>
-<div class="footer-bottom">
-<div class="footer-copy">© 2026 Barranquilla.guide. All rights reserved.</div>
-<div class="footer-legal">
-<a href="/privacy-policy/">Privacy</a>
-<a href="/about/">About</a>
-<a href="/contact/">Contact</a>
-<a href="/advertise/">Advertise</a>
-</div>
-</div>
-<div class="footer-pymewebpro fig-meta">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" target="_blank" rel="noopener" style="color:#aaa;">PymeWebpro.com</a> 🇨🇴</div></div>
-</footer>
+<div class="pb-pyme">Construido con orgullo en Colombia por <a href="https://pymewebpro.com" rel="noopener" target="_blank">PymeWebPro</a> 🇨🇴</div>
+</div></footer>
+
 <script defer="" src="/js/main.js?v=20260514a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
 <script src="https://catalina.barranquilla.guide/widget.js" defer></script>
 </body>
 </html>
