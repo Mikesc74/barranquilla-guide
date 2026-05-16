@@ -18,7 +18,7 @@
 # Only set on / (homepage) so the hero hint isn't pushed on interior pages
 # where the hero image differs.
 /
-  Link: </css/site.css?v=20260516b>; rel=preload; as=style
+  Link: </css/site.css?v=20260516c>; rel=preload; as=style
   Link: </img/carnival1.webp>; rel=preload; as=image
 
 # Long-cache immutable static assets
