@@ -1,8 +1,19 @@
-# Block internal tooling from being served on the public site.
-# The /tools/ directory holds maintenance scripts (e.g. the daily social
-# publisher) that are checked into the repo for durable state but must not
-# be publicly accessible.
+# Block internal tooling and build artefacts from being served on the
+# public site. The /tools/ and /scripts/ directories hold maintenance
+# helpers (publisher, audit-fix scripts, font fetcher, transcoders, etc.)
+# checked into the repo for durable state but never meant to be exposed.
+# The .md files at repo root are internal docs; img-unref*.txt and the
+# fonts/google-fonts.css helper are one-shot working artefacts.
 /tools/* /404.html 404
+/scripts/* /404.html 404
+/AUDIT_REPORT.md /404.html 404
+/AUDIT_REPORT_V2.md /404.html 404
+/CLAUDE.md /404.html 404
+/README.md /404.html 404
+/img-unref.txt /404.html 404
+/img-unref-list.txt /404.html 404
+/fonts/google-fonts.css /404.html 404
+/fonts/_faces.json /404.html 404
 
 # Old standalone "How to Apply for Colombian Citizenship" guide was merged into
 # the Colombian Citizenship Exam study guide on 2026-04-24. Anyone arriving from
