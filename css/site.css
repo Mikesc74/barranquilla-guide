@@ -80,10 +80,11 @@ p:last-child { margin-bottom: 0; }
 .site-pb .pb-wrap { display: flex; justify-content: space-between; align-items: center; padding: 18px 24px; gap: 18px; }
 .pb-brand { font-family: 'Fraunces', serif; font-weight: 500; font-size: 24px; letter-spacing: -.015em; display: flex; align-items: center; color: var(--pb-ink); }
 .pb-brand .pb-dot { color: var(--pb-terra); }
-/* Circular letter mark beside the wordmark, mirrors medellin.guide's logo-m
-   pattern. Gold disc + ink Fraunces italic glyph. */
-.pb-brand .pb-mark { width: 34px; height: 34px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--pb-gold); color: var(--pb-ink); font-family: 'Fraunces', serif; font-style: italic; font-weight: 500; font-size: 19px; line-height: 1; margin-right: 10px; flex-shrink: 0; box-shadow: 0 2px 6px -2px rgba(31,26,20,0.25); }
-@media (max-width: 720px) { .pb-brand .pb-mark { width: 30px; height: 30px; font-size: 17px; margin-right: 8px; } }
+/* Circular medallion beside the wordmark, mirrors medellin.guide's logo-m
+   pattern. Hosts an <img> of the navy/gold "B" medallion. */
+.pb-brand .pb-mark { width: 34px; height: 34px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; overflow: hidden; background: transparent; margin-right: 10px; flex-shrink: 0; }
+.pb-brand .pb-mark img { width: 100%; height: 100%; object-fit: contain; display: block; }
+@media (max-width: 720px) { .pb-brand .pb-mark { width: 30px; height: 30px; margin-right: 8px; } }
 .pb-nav { display: none; gap: 28px; font-size: 14.5px; font-weight: 500; }
 .pb-nav a { position: relative; padding: 6px 0; color: var(--pb-ink); }
 .pb-nav a:hover { color: var(--pb-terra-deep); }
