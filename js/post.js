@@ -51,6 +51,7 @@
       ".pe-share .pe-em:hover{background:#555;color:#fff}" +
       ".pe-share .pe-cp:hover{background:#8a6d2f;color:#fff}" +
       ".pe-share .pe-cp.pe-ok{background:#2e7d32;color:#fff}" +
+      ".pe-share-foot{margin-top:2rem;padding-top:1.25rem;border-top:1px solid rgba(0,0,0,.12)}" +
       ".pe-count{opacity:.85;white-space:nowrap}" +
       ".pe-card-count{align-items:center;gap:.3em;font-size:.8em;opacity:.78;white-space:nowrap;vertical-align:middle}" +
       ".pe-card-count svg{width:1em;height:1em;fill:currentColor;opacity:.85;display:inline-block;vertical-align:-.12em}" +
@@ -87,9 +88,6 @@
       cp: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12a3.1 3.1 0 013.1-3.1h4V7h-4a5 5 0 100 10h4v-1.9h-4A3.1 3.1 0 013.9 12zM8 13h8v-2H8v2zm9-6h-4v1.9h4a3.1 3.1 0 010 6.2h-4V17h4a5 5 0 000-10z"/></svg>',
     };
 
-    var bar = document.createElement("div");
-    bar.className = "pe-share";
-    bar.setAttribute("aria-label", "Share this post");
     function link(key, label, href) {
       return (
         '<a class="pe-' + key + '" href="' + href + '" target="_blank" ' +
@@ -97,39 +95,47 @@
         '">' + ICON[key] + "</a>"
       );
     }
-    bar.innerHTML =
-      '<span class="pe-label">Share</span>' +
-      link("fb", "Share on Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + U) +
-      link("x", "Share on X", "https://twitter.com/intent/tweet?url=" + U + "&text=" + T) +
-      link("wa", "Share on WhatsApp", "https://api.whatsapp.com/send?text=" + T + "%20" + U) +
-      link("li", "Share on LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + U) +
-      link("em", "Share by email", "mailto:?subject=" + T + "&body=" + U) +
-      '<button class="pe-cp" type="button" title="Copy link" aria-label="Copy link">' + ICON.cp + "</button>";
-    header.insertAdjacentElement("afterend", bar);
+    function makeShareBar(extraClass) {
+      var bar = document.createElement("div");
+      bar.className = "pe-share" + (extraClass ? " " + extraClass : "");
+      bar.setAttribute("aria-label", "Share this post");
+      bar.innerHTML =
+        '<span class="pe-label">Share</span>' +
+        link("fb", "Share on Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + U) +
+        link("x", "Share on X", "https://twitter.com/intent/tweet?url=" + U + "&text=" + T) +
+        link("wa", "Share on WhatsApp", "https://api.whatsapp.com/send?text=" + T + "%20" + U) +
+        link("li", "Share on LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + U) +
+        link("em", "Share by email", "mailto:?subject=" + T + "&body=" + U) +
+        '<button class="pe-cp" type="button" title="Copy link" aria-label="Copy link">' + ICON.cp + "</button>";
+      var copyBtn = bar.querySelector(".pe-cp");
+      copyBtn.addEventListener("click", function () {
+        var done = function () {
+          copyBtn.classList.add("pe-ok");
+          copyBtn.setAttribute("title", "Link copied");
+          setTimeout(function () {
+            copyBtn.classList.remove("pe-ok");
+            copyBtn.setAttribute("title", "Copy link");
+          }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(done, function () {});
+        } else {
+          var t = document.createElement("textarea");
+          t.value = url;
+          t.style.position = "fixed";
+          t.style.opacity = "0";
+          document.body.appendChild(t);
+          t.select();
+          try { document.execCommand("copy"); done(); } catch (e) {}
+          document.body.removeChild(t);
+        }
+      });
+      return bar;
+    }
 
-    var copyBtn = bar.querySelector(".pe-cp");
-    copyBtn.addEventListener("click", function () {
-      var done = function () {
-        copyBtn.classList.add("pe-ok");
-        copyBtn.setAttribute("title", "Link copied");
-        setTimeout(function () {
-          copyBtn.classList.remove("pe-ok");
-          copyBtn.setAttribute("title", "Copy link");
-        }, 1600);
-      };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(done, function () {});
-      } else {
-        var t = document.createElement("textarea");
-        t.value = url;
-        t.style.position = "fixed";
-        t.style.opacity = "0";
-        document.body.appendChild(t);
-        t.select();
-        try { document.execCommand("copy"); done(); } catch (e) {}
-        document.body.removeChild(t);
-      }
-    });
+    // Top bar (under the title/meta) and a second bar at the foot of the article.
+    header.insertAdjacentElement("afterend", makeShareBar());
+    body.appendChild(makeShareBar("pe-share-foot"));
 
     if (!meta) return;
     var base = counterBase();
