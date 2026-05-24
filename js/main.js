@@ -429,6 +429,11 @@
     document.querySelectorAll('title[data-lang]').forEach(function (t) {
       if (t.getAttribute('data-lang') === l) document.title = t.textContent;
     });
+    // Swap placeholders (and other attributes can't use .pb-en/.pb-es spans)
+    document.querySelectorAll('[data-ph-en],[data-ph-es]').forEach(function (el) {
+      var ph = el.getAttribute('data-ph-' + l);
+      if (ph != null) el.setAttribute('placeholder', ph);
+    });
   }
   document.querySelectorAll('.pb-langtog a').forEach(function (a) {
     a.addEventListener('click', function (e) {
