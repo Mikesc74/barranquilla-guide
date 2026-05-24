@@ -1,4 +1,4 @@
-/* post.js — per-post enhancements for the .guide network.
+/* post.js: per-post enhancements for the .guide network.
  *
  * Three self-contained features:
  *   1. A social share bar on each post (Facebook, X, WhatsApp, LinkedIn,
@@ -133,8 +133,8 @@
       return bar;
     }
 
-    // Top bar (under the title/meta) and a second bar at the foot of the article.
-    header.insertAdjacentElement("afterend", makeShareBar());
+    // Top bar (top of the reading column, aligned with body text) and a foot bar.
+    body.insertBefore(makeShareBar(), body.firstChild);
     body.appendChild(makeShareBar("pe-share-foot"));
 
     if (!meta) return;
