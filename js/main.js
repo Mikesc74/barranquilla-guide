@@ -559,3 +559,6 @@
   });
 }());
 /* ── End Search ───────────────────────────────────────────────────────────────*/
+
+/* Local tips widget loader (2026-05-23) */
+(function(){try{if(window.__tidbitsLoaded)return;window.__tidbitsLoaded=1;var s=document.createElement("script");s.defer=true;s.src="/js/tidbits.js?v=20260523a";(document.head||document.documentElement).appendChild(s);}catch(e){}})();
