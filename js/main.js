@@ -239,7 +239,13 @@
       li.className = hd.tagName === 'H3' ? 'toc-level-3' : 'toc-level-2';
       var a = document.createElement('a');
       a.href = '#' + hd.id;
-      a.textContent = hd.textContent.replace(/\s+/g, ' ').trim();
+      // Bilingual headings carry .pb-en/.pb-es spans; preserve them so the
+      // TOC switches language with the body. Plain headings stay text-only.
+      if (hd.querySelector('.pb-en, .pb-es')) {
+        a.innerHTML = hd.innerHTML;
+      } else {
+        a.textContent = hd.textContent.replace(/\s+/g, ' ').trim();
+      }
       a.setAttribute('data-target', hd.id);
       li.appendChild(a);
       list.appendChild(li);
