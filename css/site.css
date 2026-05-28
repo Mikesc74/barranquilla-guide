@@ -1,5 +1,5 @@
-/* Barranquilla Guide site styles. Paisa-boutique theme (2026-05-16),
-   ported from medellin.guide. Shared across the homepage, all article
+/* Colombian City Guides · canonical site styles. Paisa-boutique theme (2026-05-16),
+   Shared across medellin.guide, barranquilla.guide, thecartagena.guide. Covers the homepage, all article
    pages, section archives, and utility pages.
 
    Cache-busted by bumping the ?v=YYYYMMDDx query string in <link
@@ -332,6 +332,7 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 /* ─── ARTICLE PAGES ─────────────────────────────────────────────── */
 .single-article { padding-top: 0; }
 .article-hero { padding-top: 0; }
+.article-hero img { width: 100%; height: auto; display: block; border-radius: 12px; box-shadow: 0 12px 28px rgba(0,0,0,0.10); }
 .article-hero-image { max-width: 1180px; margin: 32px auto 0; padding: 0 24px; }
 .article-hero-image img { width: 100%; height: auto; max-height: 520px; object-fit: cover; border-radius: 18px; box-shadow: 0 32px 64px -22px rgba(31,26,20,0.28); }
 @media (max-width: 720px) { .article-hero-image { margin-top: 20px; padding: 0 18px; } .article-hero-image img { max-height: 320px; border-radius: 14px; } }
@@ -343,7 +344,7 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 .article-author-img img { width: 100%; height: 100%; object-fit: cover; }
 .article-author-name { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; color: var(--pb-ink); }
 .article-date { font-family: 'Inter', sans-serif; font-size: 13px; color: var(--pb-ink-soft); }
-.article-body { max-width: 740px; margin: 0 auto; padding: 0 24px 80px; font-family: 'Inter', sans-serif; font-size: 18px; line-height: 1.75; color: var(--pb-ink); }
+.article-body { max-width: 740px; margin: 0 auto; padding: 0 24px 80px; font-family: 'Inter', sans-serif; font-size: 18px; line-height: 1.62; color: var(--pb-ink); }
 .article-body h2 { font-family: 'Fraunces', serif; font-size: 30px; font-weight: 500; color: var(--pb-ink); margin: 48px 0 18px; letter-spacing: -.015em; line-height: 1.15; }
 .article-body h3 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; color: var(--pb-ink); margin: 36px 0 12px; letter-spacing: -.01em; }
 .article-body p { margin-bottom: 22px; }
@@ -517,3 +518,62 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 .say-box p { margin: .4rem 0; color: var(--pb-ink); }
 .say-box .es { font-weight: 600; }
 .say-box .en { color: var(--pb-ink-soft); font-style: italic; }
+
+/* ─── CATALINA INLINE CTA (article body prompt) ─────────────────── */
+.cat-cta-inline { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin: 1.25rem 0; padding: .85rem 1rem; background: var(--pb-paper); border-left: 3px solid var(--pb-gold); border-radius: 6px; font-size: .95rem; line-height: 1.4; }
+.cat-cta-inline .cat-cta-text { flex: 1; min-width: 220px; color: var(--pb-ink); }
+.cat-cta-inline .cat-cta-btn { display: inline-flex; align-items: center; gap: .4rem; background: var(--pb-ink); color: var(--pb-bg); padding: .5rem .9rem; border-radius: 5px; text-decoration: none; font-weight: 600; font-size: .9rem; white-space: nowrap; transition: background .15s ease; border: none; cursor: pointer; }
+.cat-cta-inline .cat-cta-btn:hover { background: var(--pb-terra-deep); }
+
+/* ─── MEDELLIN-COMPAT: ARTICLE CONTENT CLASSES ──────────────────── */
+/* Classes used in medellin.guide article HTML (pre-migration). Phase 2
+   will update HTML to pb-* markup; these can be dropped then. */
+
+.breadcrumb { font-size: .875rem; color: var(--pb-ink-soft); margin-bottom: 2rem; }
+.breadcrumb a { color: var(--pb-gold); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.category-tag { display: inline-block; background: var(--pb-paper); color: var(--pb-gold-deep); padding: .4rem .8rem; border-radius: 4px; font-size: .75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1rem; border: 1px solid rgba(201,168,76,0.3); }
+
+.article-meta { display: flex; gap: 1.5rem; font-size: .875rem; color: var(--pb-ink-soft); margin-bottom: 1rem; flex-wrap: wrap; }
+
+.article-excerpt { font-size: 1.1rem; color: var(--pb-ink-soft); font-style: italic; margin-bottom: 2rem; border-left: 3px solid var(--pb-gold); padding-left: 1.5rem; }
+
+.neighborhood-card { background: var(--pb-paper); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; border-left: 4px solid var(--pb-gold); box-shadow: 0 2px 8px rgba(31,26,20,0.08); }
+.neighborhood-card h3 { margin-top: 0; color: var(--pb-ink); }
+
+.neighborhood-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; font-size: .95rem; }
+@media (max-width: 600px) { .neighborhood-highlights { grid-template-columns: 1fr; } }
+
+.highlight-item { padding: .75rem; background: var(--pb-bg); border-radius: 4px; color: var(--pb-ink-soft); }
+.highlight-item strong { color: var(--pb-ink); display: block; margin-bottom: .25rem; }
+
+.best-for { background: var(--pb-bg); padding: 1rem; border-radius: 4px; margin-top: 1rem; font-style: italic; color: var(--pb-ink-soft); }
+.best-for strong { color: var(--pb-ink); }
+
+.cta-section { background: var(--pb-paper); border-radius: 8px; padding: 2rem; margin: 3rem 0; text-align: center; box-shadow: 0 2px 8px rgba(31,26,20,0.08); border: 1px solid var(--pb-line); }
+.cta-section h3 { margin-top: 0; font-family: 'Fraunces', Georgia, serif; }
+.cta-section p { margin-bottom: 1.5rem; }
+
+.cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+@media (max-width: 480px) { .cta-buttons { flex-direction: column; } .cta-buttons a, .cta-buttons button { width: 100%; text-align: center; } }
+
+.btn-primary { display: inline-block; background: var(--pb-gold); color: var(--pb-ink); padding: .8rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: background .2s ease; border: none; cursor: pointer; font-family: inherit; }
+.btn-primary:hover { background: var(--pb-gold-deep); }
+
+.btn-secondary { display: inline-block; background: transparent; color: var(--pb-gold-deep); padding: .8rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; border: 2px solid var(--pb-gold); transition: all .2s ease; cursor: pointer; font-family: inherit; }
+.btn-secondary:hover { background: var(--pb-gold); color: var(--pb-ink); }
+
+.related-posts { margin-top: 4rem; padding-top: 2rem; border-top: 2px solid var(--pb-line); }
+.related-posts h3 { margin-top: 0; font-family: 'Fraunces', Georgia, serif; }
+
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+
+.related-card-category { font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--pb-ink-soft); margin-bottom: .5rem; letter-spacing: .1em; }
+
+.guide-toc { background: var(--pb-paper); border-left: 4px solid var(--pb-gold); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(31,26,20,0.06); }
+.guide-toc h2 { margin-top: 0; font-size: 1.2rem; font-family: 'Fraunces', Georgia, serif; color: var(--pb-ink); }
+.guide-toc ol { margin: .5rem 0 0 1.25rem; }
+.guide-toc li { margin-bottom: .3rem; }
+.guide-toc a { color: var(--pb-ink); text-decoration: none; }
+.guide-toc a:hover { color: var(--pb-gold); }
