@@ -426,6 +426,15 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 .article-card-meta { display: flex; align-items: center; gap: 8px; font-family: 'Inter', sans-serif; font-size: 12.5px; color: var(--pb-ink-soft); margin-top: auto; padding-top: 8px; }
 .meta-dot { width: 3px; height: 3px; background: var(--pb-ink-soft); border-radius: 50%; opacity: 0.55; }
 
+/* Related-articles / archive grid (used on post + section pages) */
+.magazine-section { padding: 64px 0; }
+.magazine-header { display: flex; flex-direction: column; gap: 6px; }
+.magazine-header .label { font-family: 'Inter', sans-serif; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--pb-terra-deep); }
+.magazine-header .section-title { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; line-height: 1.2; letter-spacing: -.01em; color: var(--pb-ink); margin: 0; }
+.magazine-grid { display: grid; grid-template-columns: 1fr; gap: 32px; }
+@media (min-width: 700px) { .magazine-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .magazine-grid { grid-template-columns: repeat(3, 1fr); } }
+
 /* Pagination */
 .nav-links { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 48px; }
 .nav-links .page-numbers { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; color: var(--pb-ink); padding: 8px 14px; border: 1.5px solid var(--pb-line); border-radius: 999px; transition: all 0.2s; }
