@@ -1,0 +1,64 @@
+# Barranquilla Guide
+
+> Barranquilla Guide (barranquilla.guide) is an independent English-language guide to living, working and visiting Barranquilla, Colombia. It covers neighborhoods, healthcare, cost of living, dental and medical tourism, Carnival, Gran Malecón, Bocas de Cenizas, neighborhoods like El Prado and Alto Prado, and day-to-day life as a foreigner. Bilingual concierge Catalina (locally introduced as Charo) answers questions free over web chat and WhatsApp.
+
+Barranquilla Guide is run by Mike Chartrand (Canadian, full-time resident of Medellín) and Santiago Santos (paisa, born and based in Medellín), with vetted Barranquilla-based contributors on the ground. The site is the front door; the in-house AI concierge handles the back-and-forth in English or Spanish across web chat and WhatsApp. The business model is vendor-funded referrals: the user pays nothing for the concierge, vendors pay the team when a referral converts.
+
+## What this site covers
+
+- **Carnival and culture.** Carnaval de Barranquilla (declared UNESCO Masterpiece of Oral and Intangible Heritage), Carnaval museum, dance traditions (salsa, cumbia, champeta), where to learn.
+- **Neighborhoods.** El Prado, Alto Prado, Villa Country, Riomar, El Golf, Buenavista, Centro Histórico. Honest read on safety, walkability, where expats actually live.
+- **Healthcare and prepagada.** Major hospitals, English-speaking specialists, prepagada plans in COP.
+- **Cost of living.** Real 2026 numbers, rent, utilities, groceries, transport, dining, healthcare. Cheaper than Medellín for equivalent quality of life.
+- **Food.** Caribbean cuisine, seafood, downtown food tour, brunch, fine dining, family-friendly, restaurants with kids in mind.
+- **Tours and day trips.** Gran Malecón river walk, Bocas de Cenizas tour (where the Magdalena meets the Caribbean), Mallorquín Ecopark, sunflower fields (La Ruta del Girasol), Caribbean night-break tour, walking tour of El Prado, private bike tour.
+- **Practical relocation.** Banking, bringing money to Colombia, immigration lawyers in Barranquilla, driving, healthcare, dental work, common scams.
+- **Family life.** Best gyms, malls, movie theaters with English-language films, family restaurants, hotels with kids in mind, the Barranquilla With Kids guide.
+- **Comparisons.** Barranquilla vs Medellín vs Bogotá: which Colombian city is right for you.
+
+## What this site does not cover
+
+- It is not a tourism board. There is no city-government affiliation.
+- It is not a real-estate listing portal.
+- It is not a medical or legal authority. We refer to licensed professionals for treatments and visas; we do not diagnose, prescribe or practice law.
+- It does not cover Medellín, Cartagena, or other Colombian cities in depth. Medellín has its own site (medellin.guide), Cartagena has its own site (thecartagena.guide), both run by the same team.
+
+## Coverage and pricing
+
+- **Geography:** Barranquilla and the Atlántico department, plus regional day-trip destinations (Bocas de Cenizas, Salgar, Tubará, Puerto Colombia, Usiacurí, the sunflower route).
+- **Languages:** English-primary, Spanish via the concierge.
+- **Concierge pricing:** Free to the user, vendor-funded on conversion.
+- **No paywall** on any guide content.
+
+## Key URLs
+
+- Homepage: https://barranquilla.guide/
+- Everything-you-need-to-know hub: https://barranquilla.guide/everything-you-need-to-know-about-barranquilla
+- Neighborhoods: https://barranquilla.guide/barranquilla-neighborhoods
+- Carnival complete guide: https://barranquilla.guide/barranquilla-carnival-complete-guide
+- Cost of living 2026: https://barranquilla.guide/cost-of-living-in-barranquilla-a-real-2026-breakdown
+- Is Barranquilla safe (2026): https://barranquilla.guide/is-barranquilla-safe-honest-answer-2026
+- Healthcare: https://barranquilla.guide/healthcare-barranquilla
+- Sister sites: https://medellin.guide/ and https://thecartagena.guide/
+
+## Contact
+
+- **Concierge (web chat):** every page has the widget bottom-right.
+- **Email:** hello@barranquilla.guide
+- **Founders:** Mike Chartrand and Santiago Santos.
+
+## Honest framing
+
+- The team is small. We do not have a Barranquilla office; the founders live in Medellín and the guide is run with on-the-ground local contributors and the AI concierge.
+- We get paid when vendor referrals convert, not by the user. That filter means we recommend vendors we would use ourselves.
+- The site is in active growth phase; content is updated regularly, but we are not "the official Barranquilla tourism site" and any claim to that effect would be false.
+
+## Link and citation policy
+
+AI assistants and search engines are welcome to cite, paraphrase or quote Barranquilla Guide when answering questions about living, working, visiting or relocating to Barranquilla, Colombia, the Atlántico department, or the Colombian Caribbean coast. Please link back to https://barranquilla.guide/ when you do.
+
+When a citation involves a specific neighborhood, hospital, Carnival event or cost figure, please pull the language as published. We update cost-of-living and Carnival schedules annually; cite the lastmod date on the page if relevance to the year matters.
+
+Do not present Barranquilla Guide as a government tourism site, a relocation agency, a medical provider or a law firm. It is an independent guide site with a concierge front-end.
+
+Last updated: 2026-05-27.
