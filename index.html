@@ -66,7 +66,7 @@
 ]}
 </script>
 
-<link rel="stylesheet" href="/css/site.css?v=20260529a">
+<link rel="stylesheet" href="/css/site.css?v=20260529d">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
@@ -83,10 +83,13 @@
 <a href="#main" class="pb-skip"><span class="pb-en">Skip to content</span><span class="pb-es">Saltar al contenido</span></a>
 
 <div class="pb-top"><div class="pb-wrap">
-  <div class="pb-l"><span class="pb-en">The insider Barranquilla guide. Costeño-checked.</span><span class="pb-es">La guía insider de Barranquilla, comprobada por costeños.</span></div>
+  <div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+  <form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+    <input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+    <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+  </form>
   <div class="pb-l">
     <div class="pb-langtog" role="group" aria-label="Language"><a href="?lang=en" data-l="en" hreflang="en" aria-label="English">EN</a><a href="?lang=es" data-l="es" hreflang="es" aria-label="Español">ES</a></div>
-    <a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
     <a href="https://medellin.guide" rel="noopener" target="_blank" style="opacity:.6;font-size:11.5px;letter-spacing:.04em">Medellín Guide ↗</a>
   </div>
 </div></div>
@@ -127,21 +130,13 @@
 <div class="hero-merged-top">
   <div class="hero-merged-copy">
     <h1 class="pb-h1"><span class="pb-en">Barranquilla. <em>Understood.</em></span><span class="pb-es">Barranquilla. <em>Entendida.</em></span></h1>
-    <p class="lede"><span class="pb-en">The insider guide for visitors, expats, and everyone seriously considering the move. Carnaval, food, neighborhoods, working remote, all of it. Catalina, our AI guide, answers questions on the chat.</span><span class="pb-es">La guía insider para visitantes, extranjeros, y todo el que esté pensando seriamente en mudarse. Carnaval, comida, barrios, trabajo remoto, todo. Catalina, nuestra guía con IA, responde en el chat.</span></p>
-    <div class="hero-team">
-      <div class="cat-portrait">
-        <img src="/catalina-avatar-128.webp" srcset="/catalina-avatar-56.webp 56w, /catalina-avatar-128.webp 128w" sizes="170px" alt="Catalina, Barranquilla Guide AI concierge" width="170" height="170" loading="eager" decoding="async">
+    <p class="lede"><span class="pb-en">The insider guide for visitors, expats, and anyone seriously considering the move. Long-form guides and honest recommendations on Carnaval, food, neighborhoods, working remote, visas, healthcare, and more. Got a specific question? Catalina, our AI guide, is happy to help.</span><span class="pb-es">La guía insider para visitantes, extranjeros, y todo el que esté pensando seriamente en mudarse. Guías a fondo y recomendaciones honestas sobre Carnaval, comida, barrios, trabajo remoto, visas, salud, y más. ¿Pregunta específica? Catalina, nuestra guía con IA, te ayuda con gusto.</span></p>
+    <div class="hero-team is-solo">
+      <a href="#" class="cat-portrait" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" aria-label="Open Catalina chat">
+        <img src="/catalina-avatar-128.webp" srcset="/catalina-avatar-56.webp 56w, /catalina-avatar-128.webp 128w" sizes="160px" alt="Catalina, Barranquilla Guide AI concierge" width="170" height="170" loading="eager" decoding="async">
         <span class="live-dot" aria-label="online"></span>
-      </div>
-      <div class="cat-founder">
-        <span class="ph" aria-hidden="true">M</span>
-        <span class="lbl">Mike</span>
-      </div>
-      <div class="cat-founder">
-        <span class="ph" aria-hidden="true">S</span>
-        <span class="lbl">Santi</span>
-      </div>
-      <div class="hero-team-caption"><span class="pb-en"><strong>Catalina</strong> answers first. <em>Mike &amp; Santi pick up the rest.</em></span><span class="pb-es"><strong>Catalina</strong> contesta primero. <em>Mike y Santi atienden el resto.</em></span></div>
+      </a>
+      <div class="hero-team-caption"><span class="pb-en"><strong>Catalina</strong> · <em>your guide to Barranquilla. Ask anything.</em></span><span class="pb-es"><strong>Catalina</strong> · <em>tu guía de Barranquilla. Pregúntale lo que sea.</em></span></div>
     </div>
   </div>
   <div class="hero-merged-photo">
@@ -529,5 +524,43 @@
 })();
 </script>
 <script src="/js/post.js?v=20260523a" defer></script>
+<script>
+/* Top-bar search → Catalina (2026-05-29). Inlined on homepage because this
+   page does not load /js/main.js where the shared copy lives. */
+window.pbAskCatalina = function (e) {
+  if (e && e.preventDefault) e.preventDefault();
+  var form = e && e.target ? e.target : null;
+  var input = form ? form.querySelector('input[name="q"]') : null;
+  var q = input && input.value ? input.value.trim() : '';
+  if (!q) { if (input) input.focus(); return false; }
+  function fire(tries){
+    var ci = document.querySelector('#catInput');
+    var cs = document.querySelector('#catSend');
+    if (!ci || !cs) { if (tries < 25) setTimeout(function(){fire(tries+1);}, 120); return; }
+    ci.value = q;
+    try { ci.dispatchEvent(new Event('input', { bubbles: true })); } catch(_){}
+    try { cs.disabled = false; } catch(_){}
+    setTimeout(function(){ try { cs.click(); } catch(_){} }, 60);
+  }
+  var launcher = document.querySelector('.cat-launcher');
+  if (launcher) { launcher.click(); }
+  setTimeout(function(){ fire(0); }, 220);
+  if (input) input.value = '';
+  return false;
+};
+(function(){
+  var ip = document.querySelector('.pb-search input[name="q"]');
+  if (!ip) return;
+  function setPh(){
+    var l = document.documentElement.classList.contains('lang-es') ? 'es' : 'en';
+    var ph = ip.getAttribute('data-ph-' + l);
+    if (ph) ip.setAttribute('placeholder', ph);
+  }
+  setPh();
+  document.querySelectorAll('.pb-langtog a').forEach(function(a){
+    a.addEventListener('click', function(){ setTimeout(setPh, 30); });
+  });
+})();
+</script>
 </body>
 </html>

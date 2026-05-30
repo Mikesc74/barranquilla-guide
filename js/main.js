@@ -573,3 +573,42 @@
 
 /* Local tips widget loader (2026-05-23) */
 (function(){try{if(window.__tidbitsLoaded)return;window.__tidbitsLoaded=1;var s=document.createElement("script");s.defer=true;s.src="/js/tidbits.js?v=20260523a";(document.head||document.documentElement).appendChild(s);}catch(e){}})();
+
+/* Top-bar search → Catalina (2026-05-29) */
+window.pbAskCatalina = function (e) {
+  if (e && e.preventDefault) e.preventDefault();
+  var form = e && e.target ? e.target : null;
+  var input = form ? form.querySelector('input[name="q"]') : null;
+  var q = input && input.value ? input.value.trim() : '';
+  if (!q) { if (input) input.focus(); return false; }
+  function fire(tries){
+    var ci = document.querySelector('#catInput');
+    var cs = document.querySelector('#catSend');
+    if (!ci || !cs) { if (tries < 25) setTimeout(function(){fire(tries+1);}, 120); return; }
+    ci.value = q;
+    try { ci.dispatchEvent(new Event('input', { bubbles: true })); } catch(_){}
+    try { cs.disabled = false; } catch(_){}
+    setTimeout(function(){ try { cs.click(); } catch(_){} }, 60);
+  }
+  var launcher = document.querySelector('.cat-launcher');
+  if (launcher) { launcher.click(); }
+  setTimeout(function(){ fire(0); }, 220);
+  if (input) input.value = '';
+  return false;
+};
+(function(){
+  function setPh(){
+    var ip = document.querySelector('.pb-search input[name="q"]');
+    if (!ip) return;
+    var l = document.documentElement.classList.contains('lang-es') ? 'es' : 'en';
+    var ph = ip.getAttribute('data-ph-' + l);
+    if (ph) ip.setAttribute('placeholder', ph);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setPh);
+  } else { setPh(); }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('.pb-langtog a');
+    if (a) setTimeout(setPh, 30);
+  });
+})();
