@@ -24,9 +24,7 @@
 # entire archive on the section index page (with native lazy-loaded images),
 # so /page/N/ links from old indexes or external sites get a 301 to the
 # canonical archive instead of falling through to the homepage.
-/section/guides/page/*    /section/guides/    301
 /section/explore/page/*   /section/explore/   301
-/section/live/page/*      /section/live/      301
 /section/eat-drink/page/* /section/eat-drink/ 301
 /section/stay/page/*      /section/stay/      301
 /section/magazine/page/*  /section/magazine/  301
@@ -39,3 +37,7 @@
 # (Google, social share, internal cross-link) working.
 /exploring-the-enchanting-neighborhoods-of-barranquilla/  /barranquilla-neighborhoods/  301
 /el-prado-hotel-a-historic-gem-in-the-heart-of-barranquilla/  /el-prado-hotel/  301
+
+# Retired sections (7-section IA rebuild 2026-06-04): Live folded into Day to Day, Guides spread across sections.
+/section/live/*    /section/daily-life/:splat  301
+/section/guides/*  /                           301
