@@ -41,3 +41,9 @@
 # Retired sections (7-section IA rebuild 2026-06-04): Live folded into Day to Day, Guides spread across sections.
 /section/live/*    /section/daily-life/:splat  301
 /section/guides/*  /                           301
+/section/stay/* /section/just-visiting/ 301
+/section/culture/* /section/daily-life/ 301
+/section/live/* /section/daily-life/ 301
+/section/guides/* /section/moving-here/ 301
+/section/magazine/* /section/explore/ 301
+/section/neighborhoods/* /section/daily-life/ 301

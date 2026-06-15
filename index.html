@@ -96,33 +96,32 @@
 
 <header class="site-pb"><div class="pb-wrap">
   <a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
-  <nav class="pb-nav" aria-label="Primary">
-    <a href="/section/explore/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a>
-    <a href="/section/eat-drink/"><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
-    <a href="/section/stay/"><span class="pb-en">Sleep</span><span class="pb-es">Dormir</span></a>
-        <a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
-    <a href="/section/culture/"><span class="pb-en">Culture</span><span class="pb-es">Cultura</span></a>
-    <a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
-    <a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
-  </nav>
+  <nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
   <div class="pb-headcta">
     <a href="#" class="pb-btn pb-gold" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
     <button class="pb-navtog" id="pbNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="pbDrawer"><span></span></button>
   </div>
 </div></header>
 <div class="pb-scrim" id="pbScrim"></div>
-<aside class="pb-drawer" id="pbDrawer" aria-hidden="true">
-  <a href="#" data-pb-close onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
-  <a href="/section/explore/" data-pb-close><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a>
-  <a href="/section/eat-drink/" data-pb-close><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
-  <a href="/section/stay/" data-pb-close><span class="pb-en">Sleep</span><span class="pb-es">Dormir</span></a>
-  <a href="/section/daily-life/" data-pb-close><span class="pb-en">Day to Day</span><span class="pb-es">Día a día</span></a>
-  <a href="/section/health/" data-pb-close><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
-  <a href="/section/culture/" data-pb-close><span class="pb-en">Culture</span><span class="pb-es">Cultura</span></a>
-  <a href="/category/now/" data-pb-close><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
-  <a href="/city-map/" data-pb-close><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
-  <a href="/neighborhoods/" data-pb-close><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
-  <a href="#newsletter" data-pb-close><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
 </aside>
 
 <main id="main">
@@ -188,43 +187,61 @@
 <section id="browse" class="pb-section services-bg"><div class="pb-wrap">
 <div class="sec-head">
   <div class="sec-eyebrow"><span class="pb-en">browse the guide</span><span class="pb-es">recorre la guía</span></div>
-  <h2 class="pb-h2"><span class="pb-en">Four ways <em>in.</em></span><span class="pb-es">Cuatro <em>puertas de entrada.</em></span></h2>
-  <p><span class="pb-en">The site is organised around four working sections. Start wherever fits your reason for being here.</span><span class="pb-es">El sitio está organizado en cuatro secciones operativas. Empieza por la que mejor encaje con tu motivo para estar aquí.</span></p>
+  <h2 class="pb-h2"><span class="pb-en">Six ways <em>in.</em></span><span class="pb-es">Seis <em>puertas de entrada.</em></span></h2>
+  <p><span class="pb-en">The guide is organised into six sections. Start wherever fits your reason for being here.</span><span class="pb-es">La guía está organizada en seis secciones. Empieza por la que mejor encaje con tu motivo para estar aquí.</span></p>
 </div>
 <div class="svc-grid">
-  <a href="/section/eat-drink/" class="svc">
-    <div class="svc-photo"><img src="/img/family-food-barranquilla.webp" alt="Costeño family meal" loading="lazy" width="1200" height="750"></div>
+  <a href="/section/explore/" class="svc">
+    <div class="svc-photo"><img src="/img/cumbia-dancers-carnival-barranquilla.webp" alt="Cumbia dancers, Carnaval de Barranquilla" loading="lazy" width="1400" height="875"></div>
     <div class="svc-body">
-      <span class="num"><span class="pb-en">01 · Eat &amp; Drink</span><span class="pb-es">01 · Comer y beber</span></span>
-      <h3><span class="pb-en">The food, by neighborhood.</span><span class="pb-es">La comida, por barrio.</span></h3>
-      <p><span class="pb-en">Costeño food culture, the best restaurants by zone, the bar scene, the traditions that explain why this city eats the way it does.</span><span class="pb-es">La cultura gastronómica costeña, los mejores restaurantes por zona, la movida de bares, las tradiciones que explican por qué esta ciudad come como come.</span></p>
+      <span class="num"><span class="pb-en">01 · Things to Do</span><span class="pb-es">01 · Qué hacer</span></span>
+      <h3><span class="pb-en">Carnaval, the river, day trips.</span><span class="pb-es">Carnaval, el río, paseos de un día.</span></h3>
+      <p><span class="pb-en">Carnaval done properly, the Gran Malecón, Bocas de Cenizas, the sunflower route, museums, and the things worth doing that no travel blog covers well.</span><span class="pb-es">El Carnaval bien vivido, el Gran Malecón, Bocas de Cenizas, la ruta del girasol, museos, y lo que vale la pena hacer y ningún blog cubre bien.</span></p>
       <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
     </div>
   </a>
-  <a href="/section/explore/" class="svc">
-    <div class="svc-photo"><img src="/img/cumbia-dancers-carnival-barranquilla.webp" alt="Cumbia dancers, Carnaval de Barranquilla" loading="lazy" width="1280" height="800"></div>
+  <a href="/section/just-visiting/" class="svc">
+    <div class="svc-photo"><img src="/img/barranquilla-bocas-de-cenizas-tour-place-gran-malecon.webp" alt="Gran Malecón del Río, Barranquilla" loading="lazy" width="1400" height="875"></div>
     <div class="svc-body">
-      <span class="num"><span class="pb-en">02 · Things to Do</span><span class="pb-es">02 · Qué hacer</span></span>
-      <h3><span class="pb-en">Day trips, Carnaval, the river.</span><span class="pb-es">Paseos de un día, Carnaval, el río.</span></h3>
-      <p><span class="pb-en">Day trips to the coast, Carnaval deep dives, arts, sport, and the things worth doing that no travel blog has bothered to write up properly.</span><span class="pb-es">Paseos de un día a la costa, inmersiones a fondo en el Carnaval, arte, deporte y las cosas que valen la pena hacer y que ningún blog de viajes se ha tomado el trabajo de cubrir bien.</span></p>
+      <span class="num"><span class="pb-en">02 · Just Visiting</span><span class="pb-es">02 · De visita</span></span>
+      <h3><span class="pb-en">First days, where to stay, getting around.</span><span class="pb-es">Primeros días, dónde quedarte, cómo moverte.</span></h3>
+      <p><span class="pb-en">Where to stay, how to get around, the airport, the first-week checklist, travel insurance, and weddings.</span><span class="pb-es">Dónde quedarte, cómo moverte, el aeropuerto, la lista de la primera semana, seguros de viaje, y bodas.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/moving-here/" class="svc">
+    <div class="svc-photo"><img src="/img/barranquilla-el-golf-aerial-fernando-orozco.webp" alt="El Golf, Barranquilla, aerial" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">03 · Moving Here</span><span class="pb-es">03 · Mudarse aquí</span></span>
+      <h3><span class="pb-en">Visas, housing, banking, the paperwork.</span><span class="pb-es">Visas, vivienda, banca, los trámites.</span></h3>
+      <p><span class="pb-en">Visas and immigration, renting and buying, opening a bank account, starting a business, taxes, and shipping your life down.</span><span class="pb-es">Visas e inmigración, arrendar y comprar, abrir cuenta bancaria, montar empresa, impuestos, y traer tus cosas.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/eat-drink/" class="svc">
+    <div class="svc-photo"><img src="/img/family-food-barranquilla.webp" alt="Costeño family meal, Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">04 · Food &amp; Drink</span><span class="pb-es">04 · Comer y beber</span></span>
+      <h3><span class="pb-en">Costeño food, bars, the night out.</span><span class="pb-es">Comida costeña, bares, la rumba.</span></h3>
+      <p><span class="pb-en">Where to eat like a local, the bars and clubs, seafood, desserts, street food, and the restaurants worth the trip.</span><span class="pb-es">Dónde comer como local, los bares y discotecas, mariscos, postres, comida callejera, y los restaurantes que valen el viaje.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/health/" class="svc">
+    <div class="svc-photo"><img src="/img/1200/best-hospitals-barranquilla-hero.webp" alt="Hospital in Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">05 · Medical</span><span class="pb-es">05 · Salud</span></span>
+      <h3><span class="pb-en">Hospitals, dentists, medical tourism.</span><span class="pb-es">Hospitales, odontología, turismo médico.</span></h3>
+      <p><span class="pb-en">Hospitals and clinics, health insurance, and the dental, cosmetic and surgery options people fly in for.</span><span class="pb-es">Hospitales y clínicas, seguros de salud, y la odontología, estética y cirugía por las que la gente viaja.</span></p>
       <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
     </div>
   </a>
   <a href="/section/daily-life/" class="svc">
-    <div class="svc-photo"><img src="/img/barranquilla-el-golf-aerial-fernando-orozco.webp" alt="El Golf, Barranquilla, aerial" loading="lazy" width="1400" height="875"></div>
-    <div class="svc-body">
-      <span class="num"><span class="pb-en">03 · Day to Day</span><span class="pb-es">03 · Día a día</span></span>
-      <h3><span class="pb-en">Cost of living, with real numbers.</span><span class="pb-es">Costo de vida, con cifras reales.</span></h3>
-      <p><span class="pb-en">Housing, visas, healthcare, working remote, schools, and everything else you need if you're staying longer than a week.</span><span class="pb-es">Vivienda, visas, salud, trabajo remoto, colegios, y todo lo demás que necesitas si te quedas más de una semana.</span></p>
-      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
-    </div>
-  </a>
-  <a href="/section/magazine/" class="svc">
     <div class="svc-photo"><img src="/img/negra-pulida-carnival-barranquilla.webp" alt="Negra pulida dancer, Carnaval de Barranquilla" loading="lazy" width="1400" height="875"></div>
     <div class="svc-body">
-      <span class="num"><span class="pb-en">04 · Magazine</span><span class="pb-es">04 · Revista</span></span>
-      <h3><span class="pb-en">Stories worth a longer read.</span><span class="pb-es">Historias que valen una lectura más larga.</span></h3>
-      <p><span class="pb-en">Interviews, analysis, and pieces that help you understand the city, not just get around it. For people who want more than a listicle.</span><span class="pb-es">Entrevistas, análisis y piezas que te ayudan a entender la ciudad, no solo a moverte en ella. Para quien quiere algo más que una lista.</span></p>
+      <span class="num"><span class="pb-en">06 · Life &amp; Culture</span><span class="pb-es">06 · Vida y cultura</span></span>
+      <h3><span class="pb-en">Cost of living, neighborhoods, culture.</span><span class="pb-es">Costo de vida, barrios, cultura.</span></h3>
+      <p><span class="pb-en">Cost of living with real numbers, the neighborhoods, safety, getting set up, cumbia and champeta, and the culture behind the city.</span><span class="pb-es">Costo de vida con cifras reales, los barrios, seguridad, cómo instalarte, cumbia y champeta, y la cultura detrás de la ciudad.</span></p>
       <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
     </div>
   </a>
@@ -361,7 +378,7 @@
     <div class="sec-eyebrow"><span class="pb-en">latest</span><span class="pb-es">lo último</span></div>
     <h2 class="pb-h2"><span class="pb-en">From the <em>magazine.</em></span><span class="pb-es">De la <em>revista.</em></span></h2>
   </div>
-  <a href="/section/magazine/" class="pb-btn"><span class="pb-en">All stories</span><span class="pb-es">Todas las historias</span></a>
+  <a href="/section/explore/" class="pb-btn"><span class="pb-en">All stories</span><span class="pb-es">Todas las historias</span></a>
 </div>
 <div class="mag-grid">
   <a href="/driving-in-colombia-barranquilla-2026-guide/" class="mag">
@@ -423,16 +440,15 @@
     <p style="margin-top:8px"><a href="https://instagram.com/barranquillaguide" rel="noopener" target="_blank">Instagram</a> · <a href="https://facebook.com/groups/visitbarranquilla" rel="noopener" target="_blank">Facebook</a></p>
   </div>
   <div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
-    <li><a href="/section/explore/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
-    <li><a href="/section/eat-drink/"><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
-    <li><a href="/section/stay/"><span class="pb-en">Sleep</span><span class="pb-es">Dormir</span></a></li>
-    <li><a href="/section/daily-life/"><span class="pb-en">Day to Day</span><span class="pb-es">Día a día</span></a></li>
-    <li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
-    <li><a href="/section/culture/"><span class="pb-en">Culture</span><span class="pb-es">Cultura</span></a></li>
-    <li><a href="/section/magazine/"><span class="pb-en">Magazine</span><span class="pb-es">Revista</span></a></li>
-    <li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
-    <li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
-  </ul></div>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
   <div><h5><span class="pb-en">Live in Barranquilla</span><span class="pb-es">Vivir en Barranquilla</span></h5><ul>
     <li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/"><span class="pb-en">Cost of Living</span><span class="pb-es">Costo de vida</span></a></li>
     <li><a href="/housing-renting-barranquilla/"><span class="pb-en">Housing</span><span class="pb-es">Vivienda</span></a></li>

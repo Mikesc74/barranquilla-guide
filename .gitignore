@@ -20,3 +20,8 @@ __pycache__/
 .venv/
 venv/
 .github-token
+
+# Source-image originals & prompt notes kept locally, NOT deployed.
+/*.png
+/*.PNG
+/_image-prompts-*.md
