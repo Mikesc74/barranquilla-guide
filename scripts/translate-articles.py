@@ -29,7 +29,7 @@ REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE_NAME = REPO_ROOT.name  # e.g. "barranquilla-guide"
 
 # Model. Sonnet is recommended for translation quality; switch to Haiku for cost.
-MODEL = "claude-sonnet-4-5"
+MODEL = "claude-haiku-4-5-20251001"
 
 # Translation system prompt. Voice / style rules from CLAUDE.md.
 SYSTEM_PROMPT = """You translate Colombian travel and expat-guide articles from English into natural, Colombian Spanish for a paisa or costeño reader.
@@ -46,17 +46,21 @@ Rules:
 
 
 def translate(client: Anthropic, html_fragment: str, what: str) -> str:
-    """Translate a single HTML fragment via Claude."""
-    resp = client.messages.create(
+    """Translate a single HTML fragment via Claude. Uses streaming because the
+    high max_tokens makes the SDK require it for potentially long requests."""
+    parts = []
+    with client.messages.stream(
         model=MODEL,
-        max_tokens=8192,
+        max_tokens=32000,
         system=SYSTEM_PROMPT,
         messages=[{
             "role": "user",
             "content": f"Translate this {what} into Colombian Spanish. Preserve every HTML attribute and structural element. Return only the translated HTML.\n\n{html_fragment}",
         }],
-    )
-    out = "".join(b.text for b in resp.content if hasattr(b, "text")).strip()
+    ) as stream:
+        for chunk in stream.text_stream:
+            parts.append(chunk)
+    out = "".join(parts).strip()
     # Strip accidental markdown fences if the model added them.
     if out.startswith("```"):
         out = re.sub(r"^```[a-zA-Z]*\n", "", out)
@@ -76,6 +80,26 @@ H1_RE = re.compile(r'(<header class="article-header">.*?<h1>)([^<]+)(</h1>)', re
 LABEL_RE = re.compile(r'(<span class="label">)([^<]+)(</span>)')
 
 
+def find_article_body(src):
+    """Locate <div class="article-body"> and its balanced closing </div>.
+    Returns (open_tag, body_inner, close_tag) or None. Does NOT require the
+    optional <!-- .article-body --> comment marker (most posts lack it)."""
+    open_tag = '<div class="article-body">'
+    start = src.find(open_tag)
+    if start < 0:
+        return None
+    i = start + len(open_tag)
+    depth = 1
+    for mm in re.finditer(r'<div\b|</div>', src[i:]):
+        if mm.group(0).startswith('<div'):
+            depth += 1
+        else:
+            depth -= 1
+            if depth == 0:
+                return open_tag, src[i:i + mm.start()], '</div>'
+    return None
+
+
 def process_file(client: Anthropic, path: pathlib.Path, dry_run: bool) -> str:
     src = path.read_text(encoding="utf-8")
 
@@ -84,11 +108,11 @@ def process_file(client: Anthropic, path: pathlib.Path, dry_run: bool) -> str:
         return "skip:already-translated"
 
     # Find the article body. If missing, this isn't an article page.
-    m = ARTICLE_BODY_RE.search(src)
-    if not m:
+    found = find_article_body(src)
+    if not found:
         return "skip:no-article-body"
 
-    open_tag, body, close_tag = m.group(1), m.group(2), m.group(3)
+    open_tag, body, close_tag = found
 
     # Skip extremely short bodies (probably stubs or index pages).
     if len(body.strip()) < 200:
