@@ -118,7 +118,7 @@
       var origBtn = btn ? btn.textContent : '';
       if (btn) { btn.textContent = 'Subscribing…'; btn.disabled = true; }
 
-      fetch('https://newsletter.colguides.com/subscribe', {
+      fetch('https://newsletter.norteconexion.com/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({ email: email, city: city, source: source })

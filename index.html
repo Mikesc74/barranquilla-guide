@@ -416,7 +416,7 @@
     <div class="nl-card">
       <h2 class="nl-title" id="pb-nl-heading"><span class="pb-en">Get Barranquilla in your inbox</span><span class="pb-es">Recibe Barranquilla en tu correo</span></h2>
       <p class="nl-desc"><span class="pb-en">One short Saturday email. New guides, what's on this week, and the things worth knowing. No noise.</span><span class="pb-es">Un correo corto cada sábado. Nuevas guías, qué hay esta semana, y lo que vale la pena saber. Sin ruido.</span></p>
-      <form class="newsletter-form" data-city="barranquilla" data-source="homepage" action="https://newsletter.colguides.com/subscribe" method="post" novalidate>
+      <form class="newsletter-form" data-city="barranquilla" data-source="homepage" action="https://newsletter.norteconexion.com/subscribe" method="post" novalidate>
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         <div class="nl-row">
           <input type="email" name="email" class="nl-input" placeholder="you@email.com" required aria-label="Email address" autocomplete="email" maxlength="200">
@@ -500,7 +500,7 @@
       if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){if(status){status.textContent='Please enter a valid email address.';status.className='nl-note err';}return;}
       var origBtn=btn?btn.textContent:'';
       if(btn){btn.textContent='Subscribing…';btn.disabled=true;}
-      fetch('https://newsletter.colguides.com/subscribe',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({email:email,city:city,source:source})})
+      fetch('https://newsletter.norteconexion.com/subscribe',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({email:email,city:city,source:source})})
         .then(function(r){return r.json().then(function(b){return{ok:r.ok&&b.ok!==false,body:b};});})
         .then(function(res){
           if(res.ok){
