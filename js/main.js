@@ -110,7 +110,7 @@
   // Do NOT set TURNSTILE_SECRET_KEY on the guides-newsletter worker until
   // the real sitekey below is deployed, or real subscribers get silently
   // dropped.
-  var TURNSTILE_SITE_KEY = 'REPLACE_WITH_REAL_SITEKEY';
+  var TURNSTILE_SITE_KEY = '0x4AAAAAAD4nS_cyaTqhNxcg';
   var turnstileWidgets = {};
 
   function loadTurnstileScript(cb) {
