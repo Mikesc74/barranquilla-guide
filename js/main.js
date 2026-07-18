@@ -100,6 +100,48 @@
    * data-source="...">. We POST JSON to the guides-newsletter Worker
    * and show inline status.
    */
+
+  // Turnstile bot protection (Automation Phase A, 2026-07-17). Widget is
+  // injected invisibly (no layout change) next to each form and its token is
+  // added to the POST body. PLACEHOLDER sitekey below, replace it once a
+  // real Turnstile widget is created in the Cloudflare dashboard (covering
+  // barranquilla.guide as an allowed hostname), otherwise this quietly
+  // no-ops (no script loads, no token, form still works exactly as before).
+  // Do NOT set TURNSTILE_SECRET_KEY on the guides-newsletter worker until
+  // the real sitekey below is deployed, or real subscribers get silently
+  // dropped.
+  var TURNSTILE_SITE_KEY = 'REPLACE_WITH_REAL_SITEKEY';
+  var turnstileWidgets = {};
+
+  function loadTurnstileScript(cb) {
+    if (window.turnstile) return cb();
+    var existing = document.getElementById('cf-turnstile-script');
+    if (existing) { existing.addEventListener('load', cb); return; }
+    var s = document.createElement('script');
+    s.id = 'cf-turnstile-script';
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+    s.async = true;
+    s.defer = true;
+    s.addEventListener('load', cb);
+    document.head.appendChild(s);
+  }
+
+  function renderTurnstile(form) {
+    if (TURNSTILE_SITE_KEY.indexOf('REPLACE_WITH') === 0) return;
+    if (turnstileWidgets[form] || !window.turnstile) return;
+    var holder = document.createElement('div');
+    holder.style.display = 'none';
+    form.appendChild(holder);
+    turnstileWidgets[form] = window.turnstile.render(holder, { sitekey: TURNSTILE_SITE_KEY, size: 'invisible' });
+  }
+
+  var allNewsletterForms = document.querySelectorAll('form.newsletter-form');
+  if (allNewsletterForms.length && TURNSTILE_SITE_KEY.indexOf('REPLACE_WITH') !== 0) {
+    loadTurnstileScript(function () {
+      allNewsletterForms.forEach(renderTurnstile);
+    });
+  }
+
   document.querySelectorAll('form.newsletter-form').forEach(function (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -109,6 +151,8 @@
       var btn    = form.querySelector('button[type="submit"]');
       var status = form.querySelector('[role="status"], .newsletter-status, .email-capture-note');
       var email  = (input && input.value || '').trim();
+      var widgetId = turnstileWidgets[form];
+      var turnstileToken = (widgetId != null && window.turnstile) ? window.turnstile.getResponse(widgetId) : '';
 
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         if (status) { status.textContent = 'Please enter a valid email address.'; status.style.color = 'var(--coral)'; }
@@ -121,7 +165,7 @@
       fetch('https://newsletter.norteconexion.com/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ email: email, city: city, source: source })
+        body: JSON.stringify({ email: email, city: city, source: source, turnstile_token: turnstileToken })
       })
         .then(function (r) { return r.json().then(function (b) { return { ok: r.ok && b.ok !== false, body: b }; }); })
         .then(function (res) {
