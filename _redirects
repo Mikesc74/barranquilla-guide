@@ -47,3 +47,13 @@
 /section/guides/* /section/moving-here/ 301
 /section/magazine/* /section/explore/ 301
 /section/neighborhoods/* /section/daily-life/ 301
+
+# Old standalone "The Best Hotels in Barranquilla" guide was merged into the
+# main hotels guide on 2026-07-18. Anyone arriving from Google or an old
+# internal link gets a 301 to the consolidated page.
+/the-best-hotels-in-barranquilla/  /best-hotels-in-barranquilla/  301
+
+# Old standalone "Best Family Restaurants in Barranquilla" guide was merged
+# into the family-dining-with-children guide on 2026-07-18. Anyone arriving
+# from Google or an old internal link gets a 301 to the consolidated page.
+/best-family-restaurants-barranquilla/  /best-restaurants-with-children-barranquilla/  301
