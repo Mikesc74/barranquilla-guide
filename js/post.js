@@ -254,3 +254,75 @@
     init();
   }
 })();
+
+/* ── Outbound referral click beacon (2026-07-21) ─────────────────────────────
+   Counts taps on business links (Google Maps, WhatsApp, Instagram, tel:) via
+   counter.<site>/out so partner referrals are provable numbers, not anecdotes.
+   Fire-and-forget: never blocks or delays navigation, no PII, bots filtered
+   server-side. Reporting: GET counter.<site>/outstats                       */
+(function () {
+  "use strict";
+  var COUNTER = "https://counter." + location.hostname.replace(/^www\./, "");
+
+  function slugify(s) {
+    return String(s)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 80);
+  }
+
+  // Classify an anchor as an outbound business contact link, or null.
+  function classify(a) {
+    var href = a.href || "";
+    var host = (a.hostname || "").toLowerCase();
+    if ((a.protocol || "") === "tel:") {
+      var digits = href.replace(/\D/g, "");
+      return digits ? { k: "tel", b: "tel-" + digits } : null;
+    }
+    if (/(^|\.)wa\.me$/.test(host) || /(^|\.)api\.whatsapp\.com$/.test(host)) {
+      var num = (a.pathname.match(/\d{7,}/) || [""])[0];
+      if (!num) num = (href.match(/phone=(\d{7,})/) || ["", ""])[1];
+      return num ? { k: "whatsapp", b: "wa-" + num } : null;
+    }
+    if (/(^|\.)instagram\.com$/.test(host)) {
+      var handle = a.pathname.split("/").filter(Boolean)[0] || "";
+      if (!handle || handle === "p" || handle === "reel" || handle === "explore") return null;
+      return { k: "instagram", b: "ig-" + slugify(handle) };
+    }
+    if (/(^|\.)google\.[a-z.]{2,10}$/.test(host) && /\/maps/.test(a.pathname)) {
+      var q = "";
+      try { q = new URL(href).searchParams.get("query") || ""; } catch (e) {}
+      if (!q) {
+        var m = a.pathname.match(/\/maps\/(?:search|place)\/([^/]+)/);
+        if (m) { try { q = decodeURIComponent(m[1].replace(/\+/g, " ")); } catch (e) { q = m[1]; } }
+      }
+      return q ? { k: "maps", b: slugify(q) } : null;
+    }
+    if (/(^|\.)maps\.app\.goo\.gl$/.test(host)) {
+      return { k: "maps", b: "maps-" + slugify(a.pathname) };
+    }
+    return null;
+  }
+
+  function send(c) {
+    var u = COUNTER + "/out?b=" + encodeURIComponent(c.b) + "&k=" + c.k;
+    try {
+      if (navigator.sendBeacon) { navigator.sendBeacon(u); return; }
+    } catch (e) {}
+    try { fetch(u, { method: "POST", keepalive: true, mode: "no-cors" }); } catch (e) {}
+  }
+
+  function handler(e) {
+    if (e.type === "auxclick" && e.button !== 1) return;
+    var t = e.target;
+    var a = t && t.closest ? t.closest("a[href]") : null;
+    if (!a) return;
+    var c = null;
+    try { c = classify(a); } catch (err) {}
+    if (c) send(c);
+  }
+
+  document.addEventListener("click", handler, true);
+  document.addEventListener("auxclick", handler, true);
+})();
