@@ -180,6 +180,230 @@
 </div>
 <p>Not sure which tier actually fits your situation? <a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">Tell Catalina what's going on</a>, in confidence, before naming any specifics, and we'll point you toward the right kind of help.</p>
 
+<div class="cg-gate" id="assets-abroad-guide-residency">
+  <style>
+    .cg-gate {
+      --ink: #1B2A47;
+      --bg: #F4F4F2;
+      --line: #1B2A471a;
+      --accent: #E8533A;
+      --gold: #C9963A;
+      margin: 2.2em 0;
+      padding: 1.6em 1.7em;
+      background: var(--bg);
+      border: 1.5px solid var(--gold);
+      border-radius: 14px;
+      color: var(--ink);
+    }
+    .cg-gate .cg-kicker {
+      font-family: 'Inter', system-ui, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: .5em;
+    }
+    .cg-gate h3 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 1.4em;
+      margin: 0 0 .4em;
+      color: var(--ink);
+    }
+    .cg-gate p {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .95em;
+      line-height: 1.6;
+      color: var(--ink);
+      opacity: .85;
+      margin: 0 0 1em;
+      max-width: 56ch;
+    }
+    .cg-gate .cg-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .cg-gate .cg-optin {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-top: .7em;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .85em;
+      line-height: 1.45;
+      color: var(--ink);
+      opacity: .8;
+      cursor: pointer;
+    }
+    .cg-gate .cg-optin input[type=checkbox] {
+      margin-top: .2em;
+      width: 15px;
+      height: 15px;
+      accent-color: var(--accent);
+      flex: none;
+      cursor: pointer;
+    }
+    .cg-gate input[type=email] {
+      flex: 1 1 200px;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .95em;
+      padding: .75em .8em;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+    }
+    .cg-gate input[type=email]:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+    .cg-gate button {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 700;
+      font-size: .9em;
+      border: none;
+      border-radius: 6px;
+      padding: .75em 1.2em;
+      background: var(--accent);
+      color: #fff;
+      cursor: pointer;
+    }
+    .cg-gate button:hover { opacity: .9; }
+    .cg-gate button:disabled { opacity: .5; cursor: default; }
+    .cg-gate .cg-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+    .cg-gate .cg-state {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .85em;
+      margin-top: .6em;
+      min-height: 1.2em;
+    }
+    .cg-gate .cg-state.err { color: #9c3a26; }
+    .cg-gate .cg-download {
+      display: none;
+      margin-top: .8em;
+      padding: .8em 1em;
+      background: rgba(201,168,76,.15);
+      border: 1px solid rgba(201,168,76,.4);
+      border-radius: 8px;
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .9em;
+    }
+    .cg-gate .cg-download.show { display: block; }
+    .cg-gate .cg-download a {
+      display: inline-block;
+      margin-top: .5em;
+      font-weight: 700;
+      color: var(--ink);
+      background: #fff;
+      padding: .55em .9em;
+      border-radius: 6px;
+      text-decoration: none;
+      border: 1px solid var(--line);
+    }
+    .cg-gate .cg-fine {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: .8em;
+      color: var(--ink);
+      opacity: .6;
+      margin-top: 1em;
+      padding-top: 1em;
+      border-top: 1px solid var(--line);
+      line-height: 1.5;
+    }
+  </style>
+
+  <div class="cg-kicker">Free Download</div>
+  <h3>A Second Residency as Plan B</h3>
+  <p>You've just read why a second residency is leverage, not an escape hatch. This companion guide goes deeper on Panama's actual visa menu, Friendly Nations, Qualified Investor, Pensionado, and more, and how to manage two countries' day counts at once without losing track. Free, about 10 minutes.</p>
+
+  <form class="cg-gate-form" novalidate>
+    <input type="text" name="website" class="cg-hp" tabindex="-1" autocomplete="off">
+    <div class="cg-row">
+      <input type="email" class="cg-email" placeholder="you@email.com" required autocomplete="email">
+      <button type="submit" class="cg-submit">Send me the guide</button>
+    </div>
+    <label class="cg-optin"><input type="checkbox" class="cg-nl-optin">Also send me the weekly Medell&iacute;n guide email (optional, unsubscribe any time)</label>
+  </form>
+  <div class="cg-state"></div>
+  <div class="cg-download">
+    <div>You're set. Your download is ready:</div>
+    <a href="#" class="cg-dl" target="_blank" rel="noopener">Download the PDF &rarr;</a>
+  </div>
+
+  <div class="cg-fine">About 20 minutes of reading.</div>
+</div>
+
+<script>
+(function(){
+  var CONFIG = {
+    CITY: "barranquilla",
+    SUBSCRIBE_URL: "https://newsletter.norteconexion.com/subscribe",
+    PDF_URL: "/downloads/second-residency-plan-b.pdf",
+    SOURCE: "assets-abroad-guide-expat-taxes"
+  };
+
+  var root = document.currentScript.previousElementSibling;
+  var form = root.querySelector('.cg-gate-form');
+  var btn = root.querySelector('.cg-submit');
+  var state = root.querySelector('.cg-state');
+  var box = root.querySelector('.cg-download');
+  var link = root.querySelector('.cg-dl');
+  var emailInput = root.querySelector('.cg-email');
+  var hp = root.querySelector('.cg-hp');
+  var optin = root.querySelector('.cg-nl-optin');
+
+  function setState(msg, cls) {
+    state.textContent = msg || '';
+    state.className = 'cg-state' + (cls ? ' ' + cls : '');
+  }
+
+  function reveal() {
+    link.href = CONFIG.PDF_URL;
+    box.classList.add('show');
+    setState('', '');
+    var a = document.createElement('a');
+    a.href = CONFIG.PDF_URL;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var email = emailInput.value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setState('That email doesn\u2019t look right, mind checking it?', 'err');
+      return;
+    }
+
+    if (!optin.checked) {
+      reveal();
+      return;
+    }
+
+    btn.disabled = true;
+    setState('Sending\u2026', '');
+
+    var payload = {
+      email: email,
+      city: CONFIG.CITY,
+      source: CONFIG.SOURCE,
+      website: hp.value
+    };
+
+    fetch(CONFIG.SUBSCRIBE_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(reveal).catch(reveal).finally(function(){
+      btn.disabled = false;
+    });
+  });
+})();
+</script>
+
+
 <h2 id="faq">FAQ</h2>
 <h3>Do I have to give up my Colombian visa to get Panamanian residency?</h3>
 <p>No. The two are independent legal statuses. Whether holding both makes sense for you, and how they interact with your specific tax situation, is a question for licensed counsel in both countries.</p>
