@@ -254,7 +254,12 @@ On Linux drop the empty `''` after `-i`.
 HTML is `max-age=600, must-revalidate`, so content-only edits propagate
 within 10 minutes without any cache-busting.
 
-Current version in use: **`20260424a`** (update this line when you bump).
+Current version in use: **`site.css?v=20260529a`, `main.js?v=20260524a`**
+(corrected 2026-07-25, the `20260424a` this line previously said was stale).
+**Known drift, not yet fixed:** 5 HTML files are still on `site.css?v=20260529d`
+instead of `a` (mismatched-asset bug, queued as a Phase 1 fix, run
+`grep -rl 'site.css?v=20260529d' .` to find them). Update this line whenever
+you bump either file.
 
 ---
 
@@ -497,11 +502,14 @@ https://developers.facebook.com/tools/debug/ and click "Scrape Again".
 
 ## Known gaps (as of 2026-04-23)
 
-- **7 images referenced but missing in `/img/`**: `buenavista.webp`,
-  `cinepolis2-1024x532.webp`, `language-exchange-2.png`,
-  `playground-1024x683.jpg`, `sipaint-300x300.webp`, `stadio-717x1024.jpg`,
-  and a screenshot with a non-ASCII filename. Re-upload if originals turn
-  up.
+- **1 image still missing (corrected 2026-07-25):** the 6 filenames this
+  line used to list (`buenavista.webp`, `cinepolis2-1024x532.webp`,
+  `language-exchange-2.png`, `playground-1024x683.jpg`, `sipaint-300x300.webp`,
+  `stadio-717x1024.jpg`) turned out to be stale, the actual `<img src>` tags
+  in the pages that used to reference them now point at real files that
+  exist on disk (`view-out-to-sea-from-buenavista.webp`, `cinebuenavista.webp`,
+  etc). Only the one screenshot with a non-ASCII filename is still genuinely
+  missing. Re-upload if the original turns up.
 - **Homepage has ~58 absolute `https://barranquilla.guide/<slug>/` URLs**
   inside a JS search-data object. They resolve correctly against prod DNS;
   no action needed unless one of the referenced slugs stops existing.
@@ -555,6 +563,8 @@ shape, don't copy patterns blindly between the two.** See that repo's own
 ---
 
 ## Recent changes
+
+- **2026-07-25 · Phase 1 performance/quality fixes from the site-wide UX/perf audit.** (1) **Cache-buster drift fixed:** 5 files (`index.html` + 4 `whats-happening-in-barranquilla-week-of-*` posts) were still on `site.css?v=20260529d` while 129 other files were on `20260529a`; all files now unified on `20260529a`, and the stale "Current version" doc line above is corrected. (2) **Duplicate `fetchpriority="high"`/`loading="eager"` removed from 2 pages:** `best-gyms-in-barranquilla/index.html` (a mid-body Spinning Center gym photo, EN+ES, was wrongly marked eager/high alongside the real hero) and the dancing guide (`dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/index.html`, same pattern on a mid-body Carnaval photo, EN+ES); both demoted to `loading="lazy"` with `fetchpriority` removed, so only the true above-the-fold hero competes for LCP priority now. (3) **Found and fixed a real preload/hero mismatch on the same dancing guide:** the `<link rel="preload">` in `<head>` was preloading the wrong image entirely (the mid-body Carnaval photo) instead of the actual hero image, meaning the browser was priority-fetching an image that isn't even above the fold while the real LCP hero waited. Preload href corrected to match the real hero. (4) **Corrected the stale "Known gaps" image list:** the 6 filenames that section listed as missing (`buenavista.webp`, `cinepolis2-1024x532.webp`, `language-exchange-2.png`, `playground-1024x683.jpg`, `sipaint-300x300.webp`, `stadio-717x1024.jpg`) turned out to already be fixed, the live pages reference different, real filenames that exist on disk. Only the 1 non-ASCII-filename screenshot is still genuinely missing. Verified via a 400-file sample of every `/img/` reference against what's actually on disk. **Deploy:** `cd ~/code/barranquilla-guide && git add -A && git commit -m "phase 1 perf fixes: cache-buster drift, duplicate fetchpriority, preload mismatch, stale known-gaps doc" && git push`.
 
 - **2026-07-24 · Fixed the Catalina widget's mic button being blocked by our own Permissions-Policy header.** `_headers`' `Permissions-Policy` had `microphone=(self)` already for geolocation but `microphone=()` (empty allowlist, always blocked, predates the widget's mic feature). Charo's mic button uses the browser's own Web Speech API for voice-to-text, and an empty allowlist blocks the permission request before the OS/browser prompt even appears, producing a "microphone access is blocked" error and a not-allowed cursor on every attempt. Changed to `microphone=(self)`. Same fix applied on medellin-guide and cartagena-guide, all three sites load the same Catalina widget. 0 em dashes. Deploy: `git add -A && git commit -m "..." && git push`.
 
