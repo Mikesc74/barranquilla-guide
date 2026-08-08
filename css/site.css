@@ -621,7 +621,7 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 
 .related-card-category { font-size: .75rem; font-weight: 700; text-transform: uppercase; color: var(--pb-ink-soft); margin-bottom: .5rem; letter-spacing: .1em; }
 
-.guide-toc { background: var(--pb-paper); border-left: 4px solid var(--pb-gold); padding: 1.25rem 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(31,26,20,0.06); }
+.guide-toc { max-width: 740px; margin: 2rem auto; padding: 1.25rem 1.5rem; background: var(--pb-paper); border-left: 4px solid var(--pb-gold); border-radius: 8px; box-shadow: 0 2px 8px rgba(31,26,20,0.06); }
 .guide-toc h2 { margin-top: 0; font-size: 1.2rem; font-family: 'Fraunces', Georgia, serif; color: var(--pb-ink); }
 .guide-toc ol { margin: .5rem 0 0 1.25rem; }
 .guide-toc li { margin-bottom: .3rem; }
