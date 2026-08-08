@@ -556,7 +556,7 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 .say-box .en { color: var(--pb-ink-soft); font-style: italic; }
 
 /* ─── CATALINA INLINE CTA (article body prompt) ─────────────────── */
-.cat-cta-inline { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin: 1.25rem 0; padding: .85rem 1rem; background: var(--pb-paper); border-left: 3px solid var(--pb-gold); border-radius: 6px; font-size: .95rem; line-height: 1.4; }
+.cat-cta-inline { max-width: 740px; margin: 1.25rem auto; padding: .85rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; background: var(--pb-paper); border-left: 3px solid var(--pb-gold); border-radius: 6px; font-size: .95rem; line-height: 1.4; }
 .cat-cta-inline .cat-cta-text { flex: 1; min-width: 220px; color: var(--pb-ink); }
 .cat-cta-inline .cat-cta-btn { display: inline-flex; align-items: center; gap: .4rem; background: var(--pb-ink); color: var(--pb-bg); padding: .5rem .9rem; border-radius: 5px; text-decoration: none; font-weight: 600; font-size: .9rem; white-space: nowrap; transition: background .15s ease; border: none; cursor: pointer; }
 .cat-cta-inline .cat-cta-btn:hover { background: var(--pb-terra-deep); }

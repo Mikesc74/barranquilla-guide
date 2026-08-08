@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="A step-by-step, nonpartisan guide for U.S. citizens in Barranquilla on how to vote absentee in the November 2026 midterms. Includes the U.S. Consular Agency in El Prado, the FPCA, getting your ballot, and the embassy diplomatic pouch in Bogotá." name="description"/>
+<meta data-lang="es" content="Una guía paso a paso e imparcial para ciudadanos estadounidenses en Barranquilla sobre cómo votar en ausencia en las elecciones de mitad de período de noviembre de 2026. Incluye la Agencia Consular de Estados Unidos en El Prado, la FPCA, obtener tu balota y la valija diplomática de la embajada en Bogotá." name="description"/>
+<link href="https://barranquilla.guide/voting-us-elections-from-colombia/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="How to Vote in U.S. Elections from Barranquilla, Colombia (2026) - Barranquilla Guide" property="og:title"/>
+<meta content="A step-by-step guide for U.S. citizens in Barranquilla on voting absentee in November 2026: FPCA, ballot, the U.S. Consular Agency in El Prado, and the Bogotá pouch." property="og:description"/>
+<meta content="https://barranquilla.guide/voting-us-elections-from-colombia/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/shared/voting.webp" property="og:image"/>
+<meta content="https://barranquilla.guide/img/shared/voting.webp" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="How U.S. citizens in Barranquilla, Colombia vote absentee in U.S. elections" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/shared/voting.webp" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2026-05-28T12:00:00+00:00" property="article:published_time"/>
+<meta content="2026-05-28T12:00:00+00:00" property="article:modified_time"/>
+<title data-lang="en">How to Vote in U.S. Elections from Barranquilla, Colombia (2026) - Barranquilla Guide</title>
+<title data-lang="es">Cómo votar en elecciones estadounidenses desde Barranquilla, Colombia (2026) - Barranquilla Guide</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260529a" rel="stylesheet">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Vote in U.S. Elections from Barranquilla, Colombia (2026)",
+  "description": "Step-by-step guide for U.S. citizens in Barranquilla on voting absentee in November 2026.",
+  "author": {"@type": "Person", "name": "Mike Chartrand", "url": "https://mikec.pro"},
+  "publisher": {"@type": "Organization", "name": "Barranquilla Guide", "url": "https://barranquilla.guide"},
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "url": "https://barranquilla.guide/voting-us-elections-from-colombia/",
+  "image": "https://barranquilla.guide/img/heroes/voting-us-elections-from-colombia.jpg"
+}
+</script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<article class="single-article" id="main">
+<div style="padding-top: var(--nav-height);"></div>
+<header class="article-header">
+<span class="label"><span class="pb-en">Day to Day</span><span class="pb-es">Día a Día</span></span>
+<h1><span class="pb-en">How to Vote in U.S. Elections from Barranquilla, Colombia</span><span class="pb-es">Cómo votar en las elecciones de EE.UU. desde Barranquilla, Colombia</span></h1>
+<div class="article-header-meta">
+<div>
+<div class="article-author-name">Mike Chartrand</div>
+<div class="article-date">Updated May 2026 · 11 min read</div>
+</div>
+</div>
+</header>
+
+<div class="article-body" data-lang="en">
+<div class="cat-cta-inline">
+<span class="cat-cta-text">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn">Chat with Catalina &rsaquo;</a>
+</div>
+
+<p class="guide-intro">If you are a U.S. citizen living in or visiting Barranquilla, you can still vote in the November 2026 midterms, and the whole process runs through one free, official website. Barranquilla is also the only city on the Caribbean coast with a U.S. Consular Agency, in El Prado, which gives you a real advantage for passport and notarial questions, though ballot returns still go through the embassy in Bogotá. This is a plain, nonpartisan walkthrough: who is eligible, the single form that starts everything, how to get your ballot, and the realistic ways to send it back from Barranquilla.</p>
+
+<div class="callout">
+<strong>This is general civic information, not legal advice, and it is nonpartisan.</strong> The details that bite (registration cut-offs, electronic-return rules, ballot-receipt deadlines) are set by your state. Confirm yours at <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a> before you rely on any date here.
+</div>
+
+<h2 id="start">Start here: one website does most of the work</h2>
+<p>U.S. citizens keep the right to vote in federal elections no matter where they live, including from Barranquilla. The whole process runs through one free, official, nonpartisan site: the <strong>Federal Voting Assistance Program</strong> at <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a>, run by the U.S. Department of Defense. It walks you through your specific state's rules, fills in the forms, and tells you how to send everything back. You do not pay anyone, and you do not need a U.S. address or a U.S. phone number to do it.</p>
+<p>Two things to fix in your mind up front. First, you vote based on the <strong>last place you lived in the United States</strong>, not where you live now. Second, the single most useful action you can take today is to send one form, the <strong>Federal Post Card Application (FPCA)</strong>. Everything else follows from it.</p>
+
+<h2 id="ballot">What is on the ballot in 2026</h2>
+<p>The next U.S. general election is the midterm on <strong>Tuesday, November 3, 2026</strong>. There is no presidential race this cycle, but the stakes are still real: all <strong>435 seats in the House of Representatives</strong>, about <strong>a third of the Senate</strong>, dozens of <strong>governorships</strong>, and a long list of state and local offices and ballot measures are up for election. Whether you get to vote on the state and local parts depends on your voter status, which the next section explains.</p>
+
+<h2 id="eligible">Are you eligible? (Almost certainly yes)</h2>
+<p>You can vote from abroad if you are a U.S. citizen, will be at least 18 by Election Day, and are not otherwise disqualified under your state's rules. Your right comes from a federal law, the <strong>Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA)</strong>. For civilians it covers two groups:</p>
+<ul>
+<li><strong>U.S. citizens living outside the United States</strong>, whether your stay in Barranquilla is permanent, open-ended, or you simply do not know how long you will be here.</li>
+<li><strong>U.S. citizens temporarily abroad</strong> who intend to return, for example on a long work assignment with one of the oil-and-gas, logistics, or NGO operations that base in BAQ.</li>
+</ul>
+<p>The useful difference: if you are <strong>temporarily abroad</strong>, you generally receive a <strong>full ballot</strong> and can vote in federal, state, and local races. If you are an <strong>indefinite or permanent overseas resident</strong>, some states give you a <strong>federal-only</strong> ballot (President and Congress). Either way, you can vote for the offices that matter most.</p>
+<div class="callout">
+<strong>Your voting address is your last U.S. address.</strong> The state and county where you last lived in the U.S. is where you are registered and where you send everything, even if you sold the house, even if you have no ties there. You are not voting in Colombia's elections or registering at the consulate; you are an absentee voter in your old U.S. precinct.
+</div>
+
+<h2 id="step1">Step 1: Send your Federal Post Card Application (FPCA)</h2>
+<p>The FPCA is the master form. It does two jobs at once: it <strong>registers you to vote</strong> (or updates your registration) and it <strong>requests your absentee ballot</strong>. Submitting one good FPCA puts you on the list to receive ballots for every federal election in that calendar year.</p>
+<ol>
+<li>Go to <a href="https://www.fvap.gov/citizen-voter" rel="noopener" target="_blank">FVAP.gov</a> and open the online assistant for overseas citizens. Enter your last U.S. address and it loads your state's exact form and rules.</li>
+<li>Choose how to <strong>receive your blank ballot</strong>: email, fax, or postal mail, wherever your state allows. Pick email if it is offered. It is faster and skips Colombian postal delays.</li>
+<li>Print it, <strong>sign it</strong>, and send it to your local election office. Most states accept the completed FPCA by email or fax; some still require the paper original by mail.</li>
+</ol>
+<div class="callout">
+<strong>Do it again every January.</strong> Your FPCA only covers the current calendar year. Experienced overseas voters re-send a fresh FPCA each January so they never miss a ballot. If you registered for a previous election, do not assume you are still on the list for 2026.
+</div>
+<p>On timing: send your FPCA as early as you can in 2026. A safe rule of thumb is to have it in by the <strong>end of September 2026</strong>. Earlier is always better, it leaves room to fix problems before ballots go out.</p>
+
+<h2 id="consular-agency">Important Barranquilla advantage: the U.S. Consular Agency in El Prado</h2>
+<p>Barranquilla is the only city on the Colombian Caribbean coast with a <strong>U.S. Consular Agency</strong>, located in El Prado (Carrera 51B #87-50, Edificio Centro Empresarial Las Américas, Oficina 1003, by appointment). It handles passport renewals, notarial services, citizenship registration, and emergency services for U.S. citizens in the northern Colombian region (including expats in Cartagena, Santa Marta, and Riohacha).</p>
+<p><strong>What it can do for voting:</strong> notarize voter affidavits, witness signatures on state forms that require it, and answer general questions about U.S. citizen services. It cannot accept your ballot for the diplomatic pouch, only the embassy in Bogotá does that.</p>
+<p><strong>What it cannot do:</strong> the consular agency does not have its own diplomatic pouch. Your physical ballot still needs to reach the embassy in Bogotá (or be returned electronically or by courier directly to your county). Don't drive to El Prado expecting to drop your ballot, you'll be redirected to Bogotá or to a courier.</p>
+<p><strong>Contact:</strong> the consular agent is reachable through the embassy switchboard +57 1 275 2000 or by email through the embassy's American Citizen Services. Appointments only. Verify the current address at <a href="https://co.usembassy.gov" rel="noopener" target="_blank">co.usembassy.gov</a> before going, the office has moved within El Prado before.</p>
+
+<h2 id="step2">Step 2: Receive your ballot</h2>
+<p>By federal law (the MOVE Act), states must send absentee ballots to overseas voters <strong>at least 45 days before a federal election</strong>. For November 3, 2026, that means your blank ballot should be sent by about <strong>September 19, 2026</strong>.</p>
+<p>If you chose <strong>electronic delivery</strong> on your FPCA, your blank ballot arrives by email or through your state's online portal around that date. If you chose <strong>postal delivery</strong>, add two to four weeks of international mail time on top. To El Prado or Villa Country addresses, postal mail from the U.S. is reasonably reliable; to Riomar or Alto Prado in apartment towers, the portería sometimes holds mail for several days, ask in advance.</p>
+
+<h2 id="step3">Step 3: Vote it and send it back</h2>
+<p>This is where Barranquilla actually shapes the math, because the voted ballot has to get back to your county on time. Four options, in rough order of speed from Barranquilla:</p>
+
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title">Your situation is different. Ask Catalina.</p>
+<p class="cat-cta-mid-body">She is the Barranquilla Guide concierge. She knows the visas, venues, and people. Tell her your scenario, she points you to the right answer.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn">Ask Catalina &rsaquo;</a>
+</aside>
+
+<ul>
+<li><strong>Return it electronically, if your state allows it.</strong> Many states let overseas voters send the voted ballot back by email, fax, or a secure portal. This is by far the fastest route from Barranquilla and avoids the mail entirely.</li>
+<li><strong>Use a courier (DHL, FedEx, UPS).</strong> Reliable and trackable. DHL has a service centre at Centro Empresarial Las Américas in El Prado (the same building as the consular agency, useful coincidence). FedEx operates through agents in the Calle 84 corridor and at Buenavista mall. UPS through the airport agent. You pay Colombian courier rates (USD 60 to USD 120 for a small envelope to the U.S. with 3 to 5 day delivery), not cheap, but reliable.</li>
+<li><strong>Use the U.S. Embassy in Bogotá's diplomatic pouch.</strong> Free, but slow, and requires getting your envelope to Bogotá. See below.</li>
+<li><strong>Use Colombian post (4-72 / Servientrega).</strong> Workable but the slowest and least predictable. Counters at Centro Comercial Buenavista and Único. Only sensible if you started weeks early.</li>
+</ul>
+<div class="callout">
+<strong>The deadline that counts is your state's ballot-return deadline.</strong> Many states must <em>receive</em> your voted ballot by the close of polls on Election Day (November 3, 2026). Some accept ballots <em>postmarked</em> by Election Day if they arrive within a few days. "Postmarked" means nothing if you return electronically or by courier, so check exactly what your state requires and work backward.
+</div>
+
+<h2 id="embassy">Returning your ballot through the U.S. Embassy in Bogotá</h2>
+<p>If your state requires a paper ballot back and you would rather not pay a courier, the U.S. Embassy in Bogotá will put your ballot into the <strong>diplomatic pouch</strong> to the United States for free.</p>
+<ul>
+<li><strong>Where.</strong> The embassy is at <strong>Carrera 45 No. 24B-27, Bogotá, D.C.</strong> Ballots are dropped at <strong>Gate 2</strong> during business hours, Monday to Friday.</li>
+<li><strong>Postage.</strong> The pouch carries your envelope to a U.S. sorting facility, but from there it travels as ordinary U.S. mail. So the envelope must carry <strong>U.S. domestic postage</strong> or be one of <strong>FVAP's postage-paid return envelopes</strong> (free to download and print from FVAP.gov). A Colombian stamp will not work for the U.S. leg.</li>
+<li><strong>Time.</strong> Allow up to about <strong>four weeks</strong> for a pouch item to reach its U.S. destination. The pouch is a plan you start in early October, not a last-minute fix.</li>
+<li><strong>Questions.</strong> Email <strong>VoteBogota@state.gov</strong> for help with registration, your FPCA, or current pouch drop-off hours.</li>
+</ul>
+<div class="callout">
+<strong>From Barranquilla:</strong> roughly a 1 hr 15 min direct flight from Ernesto Cortissoz (BAQ) to El Dorado (BOG) on Avianca, LATAM, or Wingo. Buses take 18 to 22 hours via Bucaramanga; not recommended. The morning flight gets you to BOG, dropoff at Gate 2, lunch, afternoon flight back, same day round-trip. Some BAQ-based U.S. citizens save trips by sending one envelope to a friend in Bogotá who consolidates and drops several ballots at once.
+</div>
+
+<h2 id="fwab">If your ballot never arrives: the Federal Write-In Absentee Ballot (FWAB)</h2>
+<p>There is a federal safety net. If you requested your ballot on time but it has not shown up, you can vote using the <strong>Federal Write-In Absentee Ballot (FWAB)</strong>, a backup ballot you fill in yourself. Generate it through <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a> and return it the same ways as a regular ballot.</p>
+<p>Use it as a backup, not a first choice: send your FPCA and try for the real ballot first. If your official ballot arrives later, fill it out and send that too. Election offices count the official ballot and discard the FWAB if both come in.</p>
+
+<h2 id="deadlines">The dates that matter for November 3, 2026</h2>
+<table>
+<thead>
+<tr><th>Step</th><th>Target date</th><th>Notes</th></tr>
+</thead>
+<tbody>
+<tr><td>Send your FPCA</td><td>As early as possible; aim for end of September 2026</td><td>Exact registration cut-off is set by your state</td></tr>
+<tr><td>States send blank ballots</td><td>By about September 19, 2026</td><td>45 days before the election (federal MOVE Act rule)</td></tr>
+<tr><td>Return your voted ballot</td><td>Varies; many require receipt by November 3, 2026</td><td>Some accept postmarked-by-Election-Day; verify yours</td></tr>
+<tr><td>Election Day</td><td>Tuesday, November 3, 2026</td><td>The U.S. midterm elections</td></tr>
+</tbody>
+</table>
+<p>Treat every "by Election Day" deadline as a <strong>receipt</strong> deadline unless your state explicitly says postmark, and from Barranquilla give yourself a generous head start. October and early November can bring late-season aguaceros that delay courier pickups by a day or two.</p>
+
+<h2 id="visitors">If you are just visiting Barranquilla (especially for Carnaval)</h2>
+<p>Short-term visitors are covered too. If you are a U.S. citizen visiting Colombia around the election and your ballot is back home, you have two options: <strong>vote before you leave</strong> (early or in-person absentee), or treat yourself as <strong>temporarily abroad</strong> and run the FPCA process above so your ballot reaches you here.</p>
+<p>Barranquilla's Carnaval (typically late February or early March) is past the November election, so a single Carnaval trip rarely affects your voting timeline. But if you're on a longer work assignment (oil-and-gas project, NGO term, university semester at Universidad del Norte), build the FPCA into your move-checklist the moment you book the flight.</p>
+
+<h2 id="mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Assuming you registered once and are done.</strong> The FPCA covers one calendar year. Re-send it in January 2026.</li>
+<li><strong>Choosing postal delivery when email was available.</strong> From the coast, electronic delivery of the blank ballot saves you weeks.</li>
+<li><strong>Trying to drop a ballot at the El Prado Consular Agency.</strong> It has no diplomatic pouch. Bogotá embassy only.</li>
+<li><strong>Starting in late October.</strong> The embassy pouch alone can take four weeks.</li>
+<li><strong>Putting a Colombian stamp on a pouch envelope.</strong> The U.S. leg needs U.S. postage or an FVAP postage-paid envelope.</li>
+<li><strong>Not checking whether your state allows electronic return.</strong> Many do, and it is the single biggest time-saver available to you.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+<dl class="faq">
+<dt>Can I just go to the U.S. Consular Agency in El Prado and drop my ballot?</dt>
+<dd>No. The consular agency has no diplomatic pouch. Use the embassy in Bogotá (in person or via friend), a courier, or your state's electronic return option.</dd>
+
+<dt>I am Cartagena-based but in Barranquilla for the weekend. Can I drop here?</dt>
+<dd>Same answer, no. The consular agency does not accept ballots from anywhere on the coast. Bogotá embassy only. The Marsol shuttle from Cartagena to Barranquilla is 1 hr 15 min if you also have El Prado consular business (a passport renewal, say), but it does not get your ballot any closer to the U.S.</dd>
+
+<dt>I have not lived in the U.S. for years and gave up my old address. Can I still vote?</dt>
+<dd>Yes. Your "voting address" is the last place you lived in the U.S., even if you have no ties there now. It decides your state and county; it does not have to be a current address.</dd>
+
+<dt>Is there a fee?</dt>
+<dd>No. FVAP, the FPCA, the FWAB, and the embassy pouch are all free. Couriers cost real money, but they're optional.</dd>
+
+<dt>Can I return my ballot by email?</dt>
+<dd>In many states, yes. Check your state on FVAP.gov. From Barranquilla, electronic return is the fastest path by a wide margin.</dd>
+
+<dt>What if my ballot does not arrive in time?</dt>
+<dd>Use the Federal Write-In Absentee Ballot (FWAB) from FVAP.gov as a backup. If your official ballot arrives later, fill it out and send it too; only one will be counted.</dd>
+
+<dt>Does voting from abroad affect my U.S. taxes or my state residency?</dt>
+<dd>Voting in federal elections from overseas does not, by itself, create state tax liability. State rules differ; ask a cross-border accountant.</dd>
+
+<dt>My elderly parent is a U.S. citizen here in Barranquilla and struggles with the forms. Can I help?</dt>
+<dd>Yes. You can sit with them and walk through the FVAP assistant; they sign their own form. The embassy's Voting Assistance Officer (VoteBogota@state.gov) can also help.</dd>
+</dl>
+
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="/visas-colombia-barranquilla/">Visas and Residency in Colombia</a></li>
+<li><a href="/tax-residency-colombia-2026-guide/">Tax Residency in Colombia: The 183-Day Rule</a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking in Barranquilla as a foreigner</a></li>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of living in Barranquilla</a></li>
+<li><a href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">Your first week in Barranquilla</a></li>
+</ul>
+<p><small>This guide is informational and reflects U.S. federal voting law as of May 2026 and the FVAP's public guidance. It is not legal advice. State rules change frequently; confirm yours at FVAP.gov before relying on any date here.</small></p>
+
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title">Still have questions?</p>
+<p class="cat-cta-bot-body">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn">Chat with Catalina &rsaquo;</a>
+</section>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<div class="cat-cta-inline">
+<span class="cat-cta-text">¿Una pregunta específica mientras lees? <strong>Pregúntale a Catalina</strong>, la concierge de la Barranquilla Guide.</span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn">Chatea con Catalina &rsaquo;</a>
+</div>
+
+<p class="guide-intro">Si eres ciudadano estadounidense viviendo en Barranquilla o de visita, aún puedes votar en las elecciones intermedias de noviembre de 2026, y todo el proceso funciona a través de un sitio web gratuito y oficial. Barranquilla es también la única ciudad de la costa caribeña colombiana con una Agencia Consular estadounidense, en El Prado, lo que te da una ventaja real para preguntas de pasaporte y notariales, aunque los votantes aún devuelven sus papeletas a través de la embajada en Bogotá. Esta es una guía clara e imparcial: quién es elegible, el formulario único que inicia todo, cómo obtener tu papeleta, y las formas realistas de devolverla desde Barranquilla.</p>
+
+<div class="callout">
+<strong>Esta es información cívica general, no asesoría legal, y es imparcial.</strong> Los detalles que importan (límites de registro, reglas de devolución electrónica, plazos de recepción de papeletas) los establece tu estado. Confirma los tuyos en <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a> antes de depender de cualquier fecha aquí.</div>
+
+<h2 id="start">Comienza aquí: un sitio web hace casi todo el trabajo</h2>
+<p>Los ciudadanos estadounidenses conservan el derecho a votar en elecciones federales sin importar dónde vivan, incluyendo desde Barranquilla. Todo el proceso funciona a través de un único sitio oficial, gratuito e imparcial: el <strong>Programa Federal de Asistencia Electoral</strong> en <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a>, administrado por el Departamento de Defensa estadounidense. Te guía a través de las reglas específicas de tu estado, llena los formularios, y te dice cómo devolver todo. No pagas a nadie, y no necesitas una dirección estadounidense ni un número telefónico estadounidense para hacerlo.</p>
+<p>Dos cosas para tener claras desde el principio. Primero, votas basándote en el <strong>último lugar donde viviste en Estados Unidos</strong>, no dónde vives ahora. Segundo, la acción más útil que puedes hacer hoy es enviar un formulario, la <strong>Solicitud de Tarjeta Postal Federal (FPCA)</strong>. Todo lo demás viene después.</p>
+
+<h2 id="ballot">Qué hay en la papeleta en 2026</h2>
+<p>La próxima elección general estadounidense es la de mitad de período el <strong>martes, 3 de noviembre de 2026</strong>. No hay carrera presidencial esta vez, pero los riesgos siguen siendo reales: todos los <strong>435 escaños de la Cámara de Representantes</strong>, aproximadamente <strong>un tercio del Senado</strong>, docenas de <strong>gobernaciones</strong>, y una larga lista de cargos estatales, locales y medidas en la papeleta están en juego. Si puedes votar en las partes estatales y locales depende de tu estatus de votante, que la siguiente sección explica.</p>
+
+<h2 id="eligible">¿Eres elegible? (Casi seguro que sí)</h2>
+<p>Puedes votar desde el extranjero si eres ciudadano estadounidense, tendrás al menos 18 años el día de las elecciones, y no estás descalificado bajo las reglas de tu estado. Tu derecho viene de una ley federal, la <strong>Ley de Voto Ausente Uniforme para Ciudadanos en el Extranjero y Miembros de las Fuerzas Armadas (UOCAVA)</strong>. Para civiles cubre dos grupos:</p>
+<ul>
+<li><strong>Ciudadanos estadounidenses viviendo fuera de Estados Unidos</strong>, ya sea que tu estadía en Barranquilla sea permanente, indefinida, o simplemente no sepas cuánto tiempo estarás aquí.</li>
+<li><strong>Ciudadanos estadounidenses temporalmente en el extranjero</strong> que tienen intención de regresar, por ejemplo en una asignación laboral larga con una de las operaciones de petróleo y gas, logística, u ONG que operan en BAQ.</li>
+</ul>
+<p>La diferencia útil: si estás <strong>temporalmente en el extranjero</strong>, generalmente recibes una <strong>papeleta completa</strong> y puedes votar en carreras federales, estatales y locales. Si eres un <strong>residente extranjero indefinido o permanente</strong>, algunos estados te dan una <strong>papeleta solo federal</strong> (Presidente y Congreso). De cualquier forma, puedes votar por los cargos que más importan.</p>
+<div class="callout">
+<strong>Tu dirección de votante es tu última dirección estadounidense.</strong> El estado y condado donde viviste por última vez en EE.UU. es donde estás registrado y donde envías todo, incluso si vendiste la casa, incluso si no tienes vínculos allá. No estás votando en las elecciones de Colombia ni registrándote en el consulado; eres un votante ausente en tu antiguo precinto estadounidense.</div>
+
+<h2 id="step1">Paso 1: Envía tu Solicitud de Tarjeta Postal Federal (FPCA)</h2>
+<p>El FPCA es el formulario maestro. Hace dos trabajos a la vez: <strong>te registra para votar</strong> (o actualiza tu registro) y <strong>solicita tu papeleta ausente</strong>. Enviar un FPCA bien hecho te pone en la lista para recibir papeletas en cada elección federal de ese año calendario.</p>
+<ol>
+<li>Ve a <a href="https://www.fvap.gov/citizen-voter" rel="noopener" target="_blank">FVAP.gov</a> y abre el asistente en línea para ciudadanos en el extranjero. Ingresa tu última dirección estadounidense y carga el formulario exacto de tu estado y sus reglas.</li>
+<li>Elige cómo <strong>recibir tu papeleta en blanco</strong>: correo electrónico, fax, o correo postal, donde tu estado lo permita. Elige correo electrónico si está disponible. Es más rápido y evita los retrasos del correo colombiano.</li>
+<li>Imprimelo, <strong>fírmalo</strong>, y envíalo a tu oficina electoral local. La mayoría de estados aceptan el FPCA completo por correo electrónico o fax; algunos aún requieren el original en papel por correo.</li>
+</ol>
+<div class="callout">
+<strong>Hazlo de nuevo cada enero.</strong> Tu FPCA solo cubre el año calendario actual. Los votantes experimentados en el extranjero reenvían un FPCA fresco cada enero para nunca perder una papeleta. Si te registraste para una elección anterior, no asumas que aún estás en la lista para 2026.</div>
+<p>En cuanto al tiempo: envía tu FPCA tan pronto como puedas en 2026. Una regla segura es tenerlo dentro por <strong>fin de septiembre de 2026</strong>. Antes es siempre mejor, deja margen para arreglar problemas antes de que las papeletas salgan.</p>
+
+<h2 id="consular-agency">Ventaja importante de Barranquilla: la Agencia Consular estadounidense en El Prado</h2>
+<p>Barranquilla es la única ciudad de la costa caribeña colombiana con una <strong>Agencia Consular estadounidense</strong>, ubicada en El Prado (Carrera 51B #87-50, Edificio Centro Empresarial Las Américas, Oficina 1003, solo con cita). Maneja renovaciones de pasaporte, servicios notariales, registro de ciudadanía, y servicios de emergencia para ciudadanos estadounidenses en la región caribeña de Colombia (incluyendo expatriados en Cartagena, Santa Marta, y Riohacha).</p>
+<p><strong>Qué puede hacer por la votación:</strong> notarizar afidávits de votante, presenciar firmas en formularios estatales que lo requieran, y responder preguntas generales sobre servicios para ciudadanos estadounidenses. No puede aceptar tu papeleta para la valija diplomática, solo la embajada en Bogotá lo hace.</p>
+<p><strong>Qué no puede hacer:</strong> la agencia consular no tiene su propia valija diplomática. Tu papeleta física aún necesita llegar a la embajada en Bogotá (o devolverse electrónicamente o por mensajería directamente a tu condado). No manejes a El Prado esperando entregar tu papeleta, te redireccionarán a Bogotá o a una mensajería.</p>
+<p><strong>Contacto:</strong> el agente consular es alcanzable a través de la centralita de la embajada +57 1 275 2000 o por correo electrónico a través de Servicios para Ciudadanos Estadounidenses de la embajada. Solo con cita. Verifica la dirección actual en <a href="https://co.usembassy.gov" rel="noopener" target="_blank">co.usembassy.gov</a> antes de ir, la oficina se ha mudado dentro de El Prado antes.</p>
+
+<h2 id="step2">Paso 2: Recibe tu papeleta</h2>
+<p>Por ley federal (Ley MOVE), los estados deben enviar papeletas ausentes a votantes en el extranjero <strong>al menos 45 días antes de una elección federal</strong>. Para el 3 de noviembre de 2026, eso significa que tu papeleta en blanco debe enviarse alrededor del <strong>19 de septiembre de 2026</strong>.</p>
+<p>Si elegiste <strong>entrega electrónica</strong> en tu FPCA, tu papeleta en blanco llega por correo electrónico o a través del portal en línea de tu estado alrededor de esa fecha. Si elegiste <strong>entrega postal</strong>, suma dos a cuatro semanas de tiempo de correo internacional. A direcciones en El Prado o Villa Country, el correo postal desde EE.UU. es razonablemente confiable; a Riomar o Alto Prado en torres de apartamentos, la portería a veces retiene correo varios días, pregunta con anticipación.</p>
+
+<h2 id="step3">Paso 3: Vótala y devuélvela</h2>
+<p>Aquí es donde Barranquilla realmente cambia los números, porque la papeleta votada tiene que llegar a tu condado a tiempo. Cuatro opciones, más o menos en orden de velocidad desde Barranquilla:</p>
+
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title">Tu situación es diferente. Pregúntale a Catalina.</p>
+<p class="cat-cta-mid-body">Ella es la concierge de la Barranquilla Guide. Conoce las visas, lugares, y gente. Cuéntale tu situación, ella te señala la respuesta correcta.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn">Pregúntale a Catalina &rsaquo;</a>
+</aside>
+
+<ul>
+<li><strong>Devuélvela electrónicamente, si tu estado lo permite.</strong> Muchos estados dejan que votantes en el extranjero devuelvan la papeleta votada por correo electrónico, fax, o portal seguro. Esta es por mucho la ruta más rápida desde Barranquilla y evita el correo completamente.</li>
+<li><strong>Usa una mensajería (DHL, FedEx, UPS).</strong> Confiable y rastreable. DHL tiene un centro de servicio en el Centro Empresarial Las Américas en El Prado (el mismo edificio de la agencia consular, coincidencia útil). FedEx opera a través de agentes en el corredor de Calle 84 y en el centro comercial Buenavista. UPS a través del agente del aeropuerto. Pagas tarifas de mensajería colombiana (USD 60 a USD 120 por un sobre pequeño a EE.UU. con entrega de 3 a 5 días), no es barato, pero confiable.</li>
+<li><strong>Usa la valija diplomática de la Embajada estadounidense en Bogotá.</strong> Gratis, pero lento, y requiere que tu sobre llegue a Bogotá. Ver abajo.</li>
+<li><strong>Usa correo colombiano (4-72 / Servientrega).</strong> Funciona pero es el más lento y menos predecible. Mostradores en Centro Comercial Buenavista y Único. Solo tiene sentido si comenzaste semanas antes.</li>
+</ul>
+<div class="callout">
+<strong>El plazo que importa es el de devolución de papeletas de tu estado.</strong> Muchos estados deben <em>recibir</em> tu papeleta votada al cierre de votación el día de las elecciones (3 de noviembre de 2026). Algunos aceptan papeletas <em>con matasellos</em> del día de las elecciones si llegan dentro de unos pocos días. "Con matasellos" no significa nada si devuelves electrónicamente o por mensajería, así que verifica exactamente qué requiere tu estado y trabaja hacia atrás.</div>
+
+<h2 id="embassy">Devolviendo tu papeleta a través de la Embajada estadounidense en Bogotá</h2>
+<p>Si tu estado requiere una papeleta de papel de vuelta y prefieres no pagar una mensajería, la Embajada estadounidense en Bogotá pondrá tu papeleta en la <strong>valija diplomática</strong> a Estados Unidos de forma gratuita.</p>
+<ul>
+<li><strong>Dónde.</strong> La embajada está en <strong>Carrera 45 No. 24B-27, Bogotá, D.C.</strong> Las papeletas se entregan en <strong>Puerta 2</strong> durante horas de atención, lunes a viernes.</li>
+<li><strong>Franqueo.</strong> La valija lleva tu sobre a una instalación de clasificación estadounidense, pero desde allí viaja como correo estadounidense ordinario. Así que el sobre debe llevar <strong>franqueo postal doméstico estadounidense</strong> o ser uno de los <strong>sobres de devolución con franqueo pagado del FVAP</strong> (gratis para descargar e imprimir de FVAP.gov). Un sello colombiano no funcionará para la sección estadounidense.</li>
+<li><strong>Tiempo.</strong> Permite hasta aproximadamente <strong>cuatro semanas</strong> para que un artículo de la valija llegue a su destino estadounidense. La valija es un plan que comienzas a principios de octubre, no una solución de último minuto.</li>
+<li><strong>Preguntas.</strong> Correo electrónico <strong>VoteBogota@state.gov</strong> para ayuda con registro, tu FPCA, u horarios actuales de entrega de valija.</li>
+</ul>
+<div class="callout">
+<strong>Desde Barranquilla:</strong> aproximadamente 1 hora 15 minutos de vuelo directo desde Ernesto Cortissoz (BAQ) a El Dorado (BOG) en Avianca, LATAM, o Wingo. Los buses toman 18 a 22 horas vía Bucaramanga; no recomendado. El vuelo de la mañana te lleva a BOG, entrega en Puerta 2, almuerzo, vuelo de la tarde de regreso, viaje redondo el mismo día. Algunos ciudadanos estadounidenses con base en BAQ ahorran viajes enviando un sobre a un amigo en Bogotá que consolida y entrega varias papeletas a la vez.</div>
+
+<h2 id="fwab">Si tu papeleta nunca llega: la Papeleta Federal de Voto Ausente Manuscrito (FWAB)</h2>
+<p>Hay una red de seguridad federal. Si solicitaste tu papeleta a tiempo pero no ha llegado, puedes votar usando la <strong>Papeleta Federal de Voto Ausente Manuscrito (FWAB)</strong>, una papeleta de respaldo que llenas tú mismo. Genérala a través de <a href="https://www.fvap.gov/" rel="noopener" target="_blank">FVAP.gov</a> y devuélvela de las mismas formas que una papeleta regular.</p>
+<p>Úsala como respaldo, no como primera opción: envía tu FPCA e intenta obtener la papeleta real primero. Si tu papeleta oficial llega después, llénala y envía esa también. Las oficinas electorales cuentan la papeleta oficial y descartan el FWAB si ambas llegan.</p>
+
+<h2 id="deadlines">Las fechas que importan para el 3 de noviembre de 2026</h2>
+<table>
+<thead>
+<tr><th>Paso</th><th>Fecha objetivo</th><th>Notas</th></tr>
+</thead>
+<tbody>
+<tr><td>Envía tu FPCA</td><td>Lo antes posible; apunta a fin de septiembre de 2026</td><td>El límite exacto de registro lo establece tu estado</td></tr>
+<tr><td>Los estados envían papeletas en blanco</td><td>Alrededor del 19 de septiembre de 2026</td><td>45 días antes de la elección (regla federal MOVE)</td></tr>
+<tr><td>Devuelve tu papeleta votada</td><td>Varía; muchos requieren recepción antes del 3 de noviembre de 2026</td><td>Algunos aceptan matasellos del día de las elecciones; verifica el tuyo</td></tr>
+<tr><td>Día de las elecciones</td><td>Martes, 3 de noviembre de 2026</td><td>Las elecciones intermedias estadounidenses</td></tr>
+</tbody>
+</table>
+<p>Trata cada plazo de "antes del día de las elecciones" como un plazo de <strong>recepción</strong> a menos que tu estado diga explícitamente matasellos, y desde Barranquilla date un comienzo generoso. Octubre y principios de noviembre pueden traer aguaceros de fin de estación que retrasen entregas de mensajería por un día o dos.</p>
+
+<h2 id="visitors">Si solo estás visitando Barranquilla (especialmente para Carnaval)</h2>
+<p>Los visitantes de corta duración también están cubiertos. Si eres ciudadano estadounidense visitando Colombia alrededor de la elección y tu papeleta está en casa, tienes dos opciones: <strong>vota antes de que te vayas</strong> (votación temprana o ausente en persona), o considérate <strong>temporalmente en el extranjero</strong> y corre el proceso FPCA anterior para que tu papeleta te llegue aquí.</p>
+<p>Carnaval de Barranquilla (típicamente finales de febrero o principios de marzo) es después de la elección de noviembre, así que un viaje único de Carnaval raramente afecta tu cronograma de votación. Pero si estás en una asignación laboral más larga (proyecto de petróleo y gas, término de ONG, semestre universitario en Universidad del Norte), integra el FPCA en tu lista de verificación de mudanza en el momento en que reservas el vuelo.</p>
+
+<h2 id="mistakes">Errores comunes</h2>
+<ul>
+<li><strong>Asumir que te registraste una vez y listo.</strong> El FPCA cubre un año calendario. Reenvía en enero de 2026.</li>
+<li><strong>Elegir entrega postal cuando correo electrónico estaba disponible.</strong> Desde la costa, la entrega electrónica de la papeleta en blanco te ahorra semanas.</li>
+<li><strong>Intentar entregar una papeleta en la Agencia Consular de El Prado.</strong> No tiene valija diplomática. Solo embajada en Bogotá.</li>
+<li><strong>Comenzar a finales de octubre.</strong> La valija de la embajada sola puede tomar cuatro semanas.</li>
+<li><strong>Poner un sello colombiano en un sobre de valija.</strong> La sección estadounidense necesita franqueo estadounidense o un sobre con franqueo pagado del FVAP.</li>
+<li><strong>No verificar si tu estado permite devolución electrónica.</strong> Muchos lo hacen, y es el ahorro de tiempo más grande disponible para ti.</li>
+</ul>
+
+<h2 id="faq">Preguntas frecuentes</h2>
+<dl class="faq">
+<dt>¿Puedo simplemente ir a la Agencia Consular estadounidense en El Prado y entregar mi papeleta?</dt>
+<dd>No. La agencia consular no tiene valija diplomática. Usa la embajada en Bogotá (en persona o a través de un amigo), una mensajería, u opción de devolución electrónica de tu estado.</dd>
+
+<dt>Soy de Cartagena pero estoy en Barranquilla el fin de semana. ¿Puedo entregar aquí?</dt>
+<dd>Misma respuesta, no. La agencia consular no acepta papeletas de ningún lugar de la costa. Solo embajada en Bogotá. El transporte Marsol desde Cartagena a Barranquilla es 1 hora 15 minutos si también tienes negocios de consulado en El Prado (una renovación de pasaporte, digamos), pero no acerca tu papeleta a Estados Unidos.</dd>
+
+<dt>No he vivido en Estados Unidos durante años y abandoné mi dirección anterior. ¿Aún puedo votar?</dt>
+<dd>Sí. Tu "dirección de votante" es el último lugar donde viviste en Estados Unidos, incluso si no tienes vínculos allá ahora. Decide tu estado y condado; no tiene que ser una dirección actual.</dd>
+
+<dt>¿Hay una tarifa?</dt>
+<dd>No. FVAP, el FPCA, el FWAB, y la valija de la embajada son todos gratis. Las mensajerías cuestan dinero real, pero son opcionales.</dd>
+
+<dt>¿Puedo devolver mi papeleta por correo electrónico?</dt>
+<dd>En muchos estados, sí. Verifica tu estado en FVAP.gov. Desde Barranquilla, la devolución electrónica es el camino más rápido por un amplio margen.</dd>
+
+<dt>¿Qué pasa si mi papeleta no llega a tiempo?</dt>
+<dd>Usa la Papeleta Federal de Voto Ausente Manuscrito (FWAB) de FVAP.gov como respaldo. Si tu papeleta oficial llega después, llénala y envíala también; solo una será contada.</dd>
+
+<dt>¿Votar desde el extranjero afecta mis impuestos estadounidenses o mi residencia estatal?</dt>
+<dd>Votar en elecciones federales desde el extranjero no crea, por sí solo, responsabilidad fiscal estatal. Las reglas estatales difieren; pregunta a un contador transfronterizo.</dd>
+
+<dt>Mi padre de edad avanzada es ciudadano estadounidense aquí en Barranquilla y tiene dificultades con los formularios. ¿Puedo ayudar?</dt>
+<dd>Sí. Puedes sentarte con él y caminar a través del asistente FVAP; él firma su propio formulario. El Oficial de Asistencia de Votación de la embajada (VoteBogota@state.gov) también puede ayudar.</dd>
+</dl>
+
+<h2 id="further-reading">Lecturas adicionales</h2>
+<ul>
+<li><a href="/visas-colombia-barranquilla/">Visas y residencia en Colombia</a></li>
+<li><a href="/tax-residency-colombia-2026-guide/">Residencia fiscal en Colombia: la regla de 183 días</a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banca en Barranquilla como extranjero</a></li>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Costo de vida en Barranquilla</a></li>
+<li><a href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">Tu primera semana en Barranquilla</a></li>
+</ul>
+<p><small>Esta guía es informativa y refleja la ley electoral federal estadounidense a partir de mayo de 2026 y la orientación pública del FVAP. No es asesoría legal. Las reglas estatales cambian frecuentemente; confirma las tuyas en FVAP.gov antes de depender de cualquier fecha aquí.</small></p>
+
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title">¿Aún tienes preguntas?</p>
+<p class="cat-cta-bot-body">Catalina es nuestra concierge. Pregúntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Ella responde en chat o WhatsApp, inglés o español, gratis.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn">Chatea con Catalina &rsaquo;</a>
+</section>
+</div><!-- .article-body es -->
+</article>
+
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="voting-us-elections-from-colombia" method="post" novalidate="">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="voting-us-elections-from-colombia"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+</body>
+</html>
