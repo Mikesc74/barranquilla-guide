@@ -434,7 +434,7 @@ footer.site-pb-foot .pb-brand { color: var(--pb-bg); margin-bottom: 12px; }
 .archive-grid { padding: 72px 0; background: var(--pb-bg); }
 .archive-grid .container { max-width: var(--pb-max); margin: 0 auto; padding: 0 24px; }
 @media (min-width: 900px) { .archive-grid .container { padding: 0 40px; } }
-.posts-grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+.posts-grid { display: grid; grid-template-columns: 1fr; gap: 28px; max-width: 1180px; margin: 0 auto; }
 @media (min-width: 700px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1100px) { .posts-grid { grid-template-columns: repeat(3, 1fr); } }
 .posts-grid > .article-card.is-hidden-lazy { display: none; }
