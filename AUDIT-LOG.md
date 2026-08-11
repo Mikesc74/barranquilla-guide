@@ -3,6 +3,16 @@
 Append-only log of `nightly-guide-audit` (Watchman) runs. Newest first.
 See `AUDIT-CHECKLIST.md` (in medellin-guide) for the 15 sections.
 
+## 2026-08-11 — Run 3 (findings confirmed, added to NEXT-TASKS)
+
+**Sections audited:** 4, 6, 8, 9, 10 (verification audit).
+
+**Confirmed critical findings:** GDPR compliance (498 pages GA4 without consent), a11y (392 form inputs without labels), performance (310MB image directory). See NEXT-TASKS.md for proposals.
+
+**Status:** Work staged in working tree, ready for user push.
+
+---
+
 ## 2026-08-10 — Run 2 (continued audit)
 
 **Sections covered:** 4 (internal linking — structure is different from medellin,
