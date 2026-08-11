@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="Everything at Barranquilla Airport (BAQ), arrivals process, transport to the city, taxis vs Uber, waiting times, and the best nearby hotels." name="description"/>
+<meta data-lang="es" content="Todo en el Aeropuerto de Barranquilla (BAQ), proceso de llegada, transporte a la ciudad, taxis vs Uber, tiempos de espera y los mejores hoteles cercanos." name="description"/>
+<link href="https://barranquilla.guide/barranquilla-airport-guide/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026) - Barranquilla Guide" property="og:title"/>
+<meta content="Everything at Barranquilla Airport (BAQ), arrivals process, transport to the city, taxis vs Uber, waiting times, and the best nearby hotels." property="og:description"/>
+<meta content="https://barranquilla.guide/barranquilla-airport-guide/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-airport-guide.jpg" property="og:image"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-airport-guide.jpg" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026) - Barranquilla Guide" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-airport-guide.jpg" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2026-04-09T00:22:49+00:00" property="article:published_time"/>
+<meta content="2026-04-23T06:08:43+00:00" property="article:modified_time"/>
+<title data-lang="en">BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026) - Barranquilla Guide</title>
+<title data-lang="es">Guía del Aeropuerto BAQ: Llegadas, Transporte y Hoteles (2026) - Guía de Barranquilla</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/airport-barranquilla.jpg" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<article class="single-article">
+<!-- Hero Image -->
+<div class="article-hero">
+<div class="article-hero-image">
+<img alt="BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)" decoding="async" fetchpriority="high" height="630" loading="eager" src="/img/heroes/barranquilla-airport-guide.jpg" width="1200"/> </div>
+</div>
+<!-- Article Header -->
+<header class="article-header">
+<span class="label"><span class="pb-en">Things to Do</span><span class="pb-es">Cosas que Hacer</span></span>
+<h1><span class="pb-en">BAQ Airport Guide: Arrivals, Transport &amp; Hotels (2026)</span><span class="pb-es">Guía del Aeropuerto de Barranquilla: Llegadas, Transporte y Hoteles (2026)</span></h1>
+<div class="article-header-meta">
+<div class="article-author-img">
+<img alt="Mike Chartrand" decoding="async" height="80" loading="lazy" src="/img/team/mike.jpg" width="80"/> </div>
+<div>
+<div class="article-author-name">Mike Chartrand</div>
+<div class="article-date">
+          April 9, 2026, Updated April 23, 2026 · 7 min read        </div>
+</div>
+</div>
+</header><!-- .article-header -->
+<!-- Ad slot: below headline, above content -->
+<div class="content-narrow">
+</div>
+<!-- Article Body -->
+<div class="article-body" data-lang="en">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Barranquilla Airport Guide (BAQ): Arrivals, Transport & Hotels (2026)
+     Intended slug: /barranquilla-airport-guide/
+--></p>
+<p class="guide-intro"><em>Last updated: April 2026. Everything you need for Ernesto Cortissoz International Airport (BAQ): what to expect on arrival, how to get into the city, which airlines fly there, where to stay if you have an early flight, and what to do if you’re stuck on a long layover. First time in the city? See our <a href="/barranquilla-guide/">Barranquilla overview</a> for what to expect beyond the airport.</em></p>
+
+<h2 id="airport-basics">Airport basics</h2>
+<p><strong>Name</strong>: Ernesto Cortissoz International Airport.<br/>
+<strong>IATA / ICAO code</strong>: BAQ / SKBQ.<br/>
+<strong>Location</strong>: Soledad, 7 km southeast of central Barranquilla. Despite the name, it’s technically in a neighboring municipality.<br/>
+<strong>Terminals</strong>: single unified terminal with domestic and international sections under one roof.<br/>
+<strong>Official site</strong>: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a>.</p>
+<p>BAQ handles around 2.5 to 3 million passengers per year and underwent a significant modernization completed in 2021 that added jet bridges, expanded gates, and a proper international-standard commercial area. It’s a clean, functional, medium-sized airport, closer in feel to Medellín’s old Olaya Herrera than to Bogotá’s El Dorado.</p>
+<h2 id="airlines-routes">Airlines and routes</h2>
+<p>As of April 2026, BAQ is served by 10 airlines connecting to about 20 airports in Colombia, the Caribbean, Central America, and the US. Current carriers:</p>
+<ul>
+<li><strong>Avianca</strong> (focus city), the densest schedule, domestic and international</li>
+<li><strong>LATAM Colombia</strong>, domestic and select international</li>
+<li><strong>Wingo</strong>, low-cost, domestic and to Panama</li>
+<li><strong>JetSMART</strong>, low-cost, domestic</li>
+<li><strong>SATENA</strong>, secondary cities, regional Colombia</li>
+<li><strong>Copa Airlines</strong>, connections via Panama City</li>
+<li><strong>American Airlines</strong>, Miami</li>
+<li><strong>Spirit Airlines</strong>, Fort Lauderdale</li>
+<li><strong>FlexFlight</strong>, seasonal regional</li>
+<li><strong>Z Air</strong>, seasonal/charter</li>
+</ul>
+<p><strong>Typical direct routes</strong> from BAQ: Bogotá, Medellín, Cali, Cartagena, San Andrés, Santa Marta, Miami (AA), Fort Lauderdale (Spirit), Panama City (Copa/Wingo). For Europe or other US cities, you’ll connect through Bogotá (El Dorado, BOG), Panama City (PTY), or Miami (MIA).</p>
+<p>Live arrivals/departures and airline schedules: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a> or <a href="https://www.flightstats.com/v2/flight-tracker/arrivals/BAQ" rel="noopener" target="_blank">FlightStats BAQ</a>.</p>
+<h2 id="arrival">What to expect on arrival</h2>
+<p><strong>Immigration for international arrivals</strong> is usually 15 to 30 minutes. Queues worsen on Sunday evenings and during the weeks around Carnaval. Have your passport and return itinerary ready.</p>
+<p><strong>Baggage claim</strong> is one level down from immigration; carousels are well-marked by flight number.</p>
+<p><strong>Customs</strong>: green/red channel. Most tourists walk through green. Random bag scans happen but are typically quick.</p>
+<p><strong>Arrivals hall</strong>: modest but functional. ATMs for pesos (Bancolombia and Davivienda), SIM-card kiosks (Claro, Tigo, Movistar, Claro has the most coverage in the region), a couple of car-rental counters, a small café, and a tourist-info desk that’s sometimes staffed.</p>
+<p><strong>Currency</strong>: withdraw pesos from an ATM rather than using the currency-exchange counters, the ATM rate is always better. Daily limit at most ATMs is COP 400 to 600,000; withdraw the maximum to minimize fees.</p>
+<p><strong>SIM cards</strong>: bring your passport. A Claro or Tigo prepaid plan with 15 to 20 GB of data runs COP 25 to 40k and activates in about 15 minutes. Tethering works fine.</p>
+<h2 id="to-the-city">Getting from BAQ to the city</h2>
+<p>The airport is 7 km (about 20 to 35 minutes) from El Prado, 10 km from Alto Prado, and 14 km from Riomar. Your options:</p>
+<h3>Uber, DiDi, or InDriver (recommended)</h3>
+<p>The safest and most reliable option. Set your destination in-app, wait for the driver to confirm, and verify the plate when you get in. Fares to the main northern neighborhoods:</p>
+<ul>
+<li><strong>El Prado</strong>: COP 30 to 50,000 (USD 8 to 14), 20 to 35 min.</li>
+<li><strong>Alto Prado / Villa Country</strong>: COP 35 to 55,000 (USD 9 to 15), 25 to 40 min.</li>
+<li><strong>Villa Santos / Buenavista</strong>: COP 45 to 70,000 (USD 11 to 18), 30 to 45 min.</li>
+<li><strong>Puerto Colombia</strong>: COP 60 to 90,000 (USD 15 to 22), 40 to 55 min.</li>
+</ul>
+<p><strong>Uber</strong> is the default and most foreigner-friendly. At BAQ you’ll select “Taxi” or “UberX” in the app, in most of Colombia, Uber’s “taxi” option dispatches a licensed taxi because of historical regulatory tension, which is fine and uses the same safety tracking as UberX. <strong>InDriver</strong> lets you propose a fare and typically beats Uber by 20 to 30%. <strong>DiDi</strong> works but some drivers are hit-or-miss on pricing.</p>
+<p><strong>Pickup point</strong>: most rideshares pick up in a designated zone just past the taxi queue at Arrivals. The app will tell you exactly where; if confused, the security staff at the exit can point.</p>
+<h3>Taxi</h3>
+<p>Official taxis queue outside Arrivals. Fares to the city are typically <strong>COP 35 to 80,000</strong> depending on destination, most honest drivers use the posted zone rates. <strong>Agree the fare before getting in</strong>; many BAQ taxis don’t use meters. Paying in cash is the norm; most don’t accept cards. Safer than hailing a cab in the city at night, but still a notch below rideshare for transparency.</p>
+<h3>Public bus</h3>
+<p>A city bus stops just outside the terminal and runs into Barranquilla roughly every 30 minutes. One-way fare is about COP 3,700 as of January 2026. Journey time is 45 to 75 minutes depending on traffic. Fine if you’re traveling light and on a budget; not practical with heavy luggage or after dark. Not recommended for first-time visitors.</p>
+<h3>Car rental</h3>
+<p>Major chains (Hertz, Avis, National, Localiza) have counters at Arrivals. Useful if you’re exploring the coast (Puerto Colombia, Tolú, Palomino, Cartagena); unnecessary if you’re staying in Barranquilla proper, where rideshare is cheaper and less stressful than parking. Colombian traffic, flooding during the rainy season, and unfamiliar signage make self-driving a real commitment.</p>
+<h3>Private transfer</h3>
+<p>Most hotels offer a pre-booked airport pickup at COP 80 to 150,000. Worth it for early-morning arrivals, family groups, or if you want a driver holding a name card at the gate. Ask when booking. If you'd rather book independently ahead of time, you can also <a href="https://www.viator.com/tours/Barranquilla/Private-airport-pick-up-barranquilla/d50228-127966P49?mcid=42383&amp;pid=P00296226&amp;medium=api&amp;api_version=2.0&amp;campaign=barranquillaguide" rel="noopener sponsored" target="_blank">reserve a private BAQ airport pickup on Viator</a>, a driver meets you at Arrivals with a name sign, fixed price, no haggling.</p>
+<figure class="viator-pick">
+<img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/23/58/43.jpg" alt="Private airport pick up barranquilla" width="720" height="480" loading="lazy" style="border-radius:8px;width:100%;height:auto;" />
+<figcaption style="font-size:0.8em;color:#666;margin-top:4px;">Photo via Viator</figcaption>
+</figure>
+<p>Heading straight to the coast instead of into the city? A <a href="https://www.viator.com/tours/Barranquilla/From-Ernesto-Cortissoz-International-Airport-to-Santa-Marta-or-Tayrona-Park/d50228-127977P12?mcid=42383&amp;pid=P00296226&amp;medium=api&amp;api_version=2.0&amp;campaign=barranquillaguide" rel="noopener sponsored" target="_blank">private shuttle from BAQ direct to Santa Marta or Tayrona National Park</a> skips Barranquilla entirely, useful if you're only using BAQ as the closer, often cheaper airport for a Tayrona trip.</p>
+<figure class="viator-pick">
+<img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/33/1e/39.jpg" alt="Private shuttle from Barranquilla Airport to Santa Marta city" width="720" height="480" loading="lazy" style="border-radius:8px;width:100%;height:auto;" />
+<figcaption style="font-size:0.8em;color:#666;margin-top:4px;">Photo via Viator</figcaption>
+</figure>
+<h2 id="departures">Departures: what to know</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situaci&oacute;n es &uacute;nica. Preg&uacute;ntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las gu&iacute;as, los lugares, los precios, las visas y a las personas. Cu&eacute;ntale tu situaci&oacute;n y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Preg&uacute;ntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Arrive <strong>2 hours before domestic flights</strong>, <strong>3 hours before international</strong>. Check-in counters open 2.5 hours before departure.</p>
+<p>Security is straightforward; no shoe removal, liquids rule as per international norms. International departures go through migration (faster than arrival, usually 10 to 15 minutes) and then to the international gates, which share most facilities with domestic.</p>
+<p>Airport tax for international departures is included in the ticket price; you don’t pay extra at the desk.</p>
+<p><strong>Airside amenities</strong>: a Juan Valdez, a small duty-free (liquor, cigarettes, perfume), a couple of fast-casual restaurants, a bookstore, and a few shops selling Colombian souvenirs. Food at BAQ is unremarkable; if you have time before a flight, eat in the city and arrive airside lighter.</p>
+<p><strong>Lounge</strong>: Avianca’s SalaVIP and a Priority Pass / DragonPass-accessible lounge are available past security. Priority Pass cards, most premium credit cards with lounge access, and one-time day passes (~USD 30) work.</p>
+<h2 id="layovers">If you have a long layover</h2>
+<p>BAQ doesn’t have airside hotels, so a long layover means leaving the airport. With <strong>3+ hours</strong> you can Uber into El Prado for a proper lunch at Pescayé or La Cueva and Uber back. With <strong>5 to 6 hours</strong>, add a walk through the Centro Histórico, a visit to the <a href="https://colombia.travel/en/barranquilla/caribbean-museum" rel="noopener" target="_blank">Museo del Caribe</a>, or a stop at the Malecón. Keep Wi-Fi on, monitor flight status, and build in traffic buffer on the way back.</p>
+<h2 id="airport-hotels">Hotels near BAQ</h2>
+<p>If you have a 5 AM flight or a late-night arrival, staying close to the airport avoids a predawn Uber. The closest decent options:</p>
+<ul>
+<li><strong>Hotel Puerta del Sol Prado</strong>, the reference airport-adjacent hotel. Shuttle included. ~10 minutes to BAQ.</li>
+<li><strong>Hotel Country International</strong>, old-school, inexpensive, 15 minutes to BAQ.</li>
+<li><strong>Hampton Inn by Hilton Barranquilla</strong>, technically in Buenavista but a reliable chain choice 20 minutes to BAQ. See our <a href="/best-hotels-in-barranquilla/">hotels guide</a>.</li>
+</ul>
+<p>For any trip over 24 hours, we still recommend staying in El Prado, Alto Prado, or Riomar and paying the extra Uber on the flight-out morning, the quality-of-stay difference is large.</p>
+<h2 id="faqs">FAQ</h2>
+<p><strong>Is BAQ different from CTG (Cartagena)?</strong> Yes. Barranquilla (BAQ) and Cartagena (CTG) are separate airports 2 hours apart by road. Some travelers fly into CTG for vacations and day-trip Barranquilla, or vice versa. For Barranquilla Carnaval, flying direct to BAQ saves a lot of time.</p>
+<p><strong>Can I use USD at the airport?</strong> Only at currency exchanges. Everything else, taxis, shops, restaurants, even rideshares, is in pesos. Withdraw from an ATM.</p>
+<p><strong>Is BAQ safe?</strong> Yes. Standard airport precautions apply (keep bags in sight, ignore unsolicited “porter” offers), but no particular risks beyond those.</p>
+<p><strong>Are there direct flights from Europe?</strong> Not currently. Connect via Bogotá (BOG), Madrid-Bogotá is the most common European routing.</p>
+<p><strong>Does BAQ have sleeping pods or airside hotels?</strong> No sleeping pods; no airside hotel. Plan an overnight at one of the landside hotels above if needed.</p>
+<p><strong>What’s the deal with the new cruise terminal?</strong> Barranquilla’s river-and-sea tourism is growing but the cruise terminal is at the port, not the airport. If your cruise uses BAQ as a point of arrival/departure, Uber links the two in about 25 minutes.</p>
+<h2 id="further-reading">Further reading on this site</h2>
+<p><a href="/best-hotels-in-barranquilla/">Hotels, where to actually stay</a><br/>
+<a href="/barranquilla-neighborhoods/">Neighborhoods, decide where before which</a><br/>
+<a href="/getting-around-barranquilla/">Getting around, buses, rideshare, and Transmetro</a><br/>
+<a href="/is-barranquilla-safe-honest-answer-2026/">Safety</a><br/>
+<a href="/barranquilla-carnival-complete-guide/">Carnaval, the week BAQ runs at capacity</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Airline schedules and fares change frequently. Rideshare fares vary by time of day and traffic. We re-verify this guide quarterly; last update April 2026.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">Still have questions?</span><span class="pb-es">&iquest;Todav&iacute;a tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</span><span class="pb-es">Catalina es nuestra concierge. Preg&uacute;ntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en ingl&eacute;s o espa&ntilde;ol, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">¿Pregunta específica mientras lees? <strong>Pregúntale a Catalina</strong>, la concierge de Barranquilla Guide.</span><span class="pb-es">¿Pregunta específica mientras lees? <strong>Pregúntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Habla con Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Barranquilla Airport Guide (BAQ): Arrivals, Transport & Hotels (2026)
+     Intended slug: /barranquilla-airport-guide/
+--></p>
+<p class="guide-intro"><em>Última actualización: abril de 2026. Todo lo que necesitas saber del Aeropuerto Internacional Ernesto Cortissoz (BAQ): qué esperar a la llegada, cómo llegar a la ciudad, qué aerolíneas vuelan desde allá, dónde quedarse si tienes un vuelo temprano y qué hacer si te toca una escala larga. ¿Primera vez en la ciudad? Mira nuestro <a href="/barranquilla-guide/">resumen de Barranquilla</a> para saber qué esperar fuera del aeropuerto.</em></p>
+
+<h2 id="airport-basics">Lo básico del aeropuerto</h2>
+<p><strong>Nombre</strong>: Aeropuerto Internacional Ernesto Cortissoz.<br/>
+<strong>Código IATA / ICAO</strong>: BAQ / SKBQ.<br/>
+<strong>Ubicación</strong>: Soledad, 7 km al sureste del centro de Barranquilla. A pesar del nombre, técnicamente queda en un municipio vecino.<br/>
+<strong>Terminales</strong>: una sola terminal unificada con secciones nacional e internacional bajo un mismo techo.<br/>
+<strong>Sitio oficial</strong>: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a>.</p>
+<p>BAQ maneja entre 2.5 a 3 millones de pasajeros al año y pasó por una modernización importante que se completó en 2021, que añadió puentes telescópicos, amplió las puertas de embarque y una zona comercial de estándar internacional de verdad. Es un aeropuerto limpio, funcional y de tamaño medio, más parecido al viejo Olaya Herrera de Medellín que al El Dorado de Bogotá.</p>
+<h2 id="airlines-routes">Aerolíneas y rutas</h2>
+<p>A partir de abril de 2026, BAQ cuenta con 10 aerolíneas que conectan a unos 20 aeropuertos en Colombia, el Caribe, Centroamérica y Estados Unidos. Aerolíneas actuales:</p>
+<ul>
+<li><strong>Avianca</strong> (ciudad focus), la programación más densa, nacional e internacional</li>
+<li><strong>LATAM Colombia</strong>, nacional y destinos internacionales selectos</li>
+<li><strong>Wingo</strong>, bajo costo, nacional y a Panamá</li>
+<li><strong>JetSMART</strong>, bajo costo, nacional</li>
+<li><strong>SATENA</strong>, ciudades secundarias, regional Colombia</li>
+<li><strong>Copa Airlines</strong>, conexiones vía Ciudad de Panamá</li>
+<li><strong>American Airlines</strong>, Miami</li>
+<li><strong>Spirit Airlines</strong>, Fort Lauderdale</li>
+<li><strong>FlexFlight</strong>, regional estacional</li>
+<li><strong>Z Air</strong>, estacional/charter</li>
+</ul>
+<p><strong>Rutas directas típicas</strong> desde BAQ: Bogotá, Medellín, Cali, Cartagena, San Andrés, Santa Marta, Miami (AA), Fort Lauderdale (Spirit), Ciudad de Panamá (Copa/Wingo). Para Europa u otras ciudades de EE.UU., harás conexión por Bogotá (El Dorado, BOG), Ciudad de Panamá (PTY) o Miami (MIA).</p>
+<p>Llegadas y salidas en vivo y horarios de aerolíneas: <a href="https://aeropuertobaq.com/" rel="noopener" target="_blank">aeropuertobaq.com</a> o <a href="https://www.flightstats.com/v2/flight-tracker/arrivals/BAQ" rel="noopener" target="_blank">FlightStats BAQ</a>.</p>
+<h2 id="arrival">Qué esperar a la llegada</h2>
+<p><strong>Migración para llegadas internacionales</strong> suele ser entre 15 a 30 minutos. Las filas empeoran los domingos por la noche y durante las semanas de Carnaval. Ten listo el pasaporte y tu itinerario de retorno.</p>
+<p><strong>Reclamación de equipaje</strong> queda un piso abajo de migración; los carruseles están bien señalizados por número de vuelo.</p>
+<p><strong>Aduanas</strong>: canal verde/rojo. La mayoría de turistas pasa por verde. A veces hay escaneos aleatorios de maletas pero normalmente son rápidos.</p>
+<p><strong>Sala de llegadas</strong>: modesta pero funcional. Cajeros para pesos (Bancolombia y Davivienda), kioscos de tarjetas SIM (Claro, Tigo, Movistar; Claro tiene la cobertura más amplia en la región), un par de mostradores de alquiler de carros, una pequeña cafetería y una oficina de información turística que a veces está atendida.</p>
+<p><strong>Dinero</strong>: retira pesos de un cajero automático en lugar de usar los mostradores de cambio; la tasa del cajero siempre es mejor. El límite diario en la mayoría de cajeros es de COP 400 a 600.000; retira el máximo para minimizar comisiones.</p>
+<p><strong>Tarjetas SIM</strong>: trae el pasaporte. Un plan prepago Claro o Tigo con 15 a 20 GB de datos cuesta COP 25 a 40k y se activa en unos 15 minutos. El tethering funciona bien.</p>
+<h2 id="to-the-city">De BAQ a la ciudad</h2>
+<p>El aeropuerto queda a 7 km (entre 20 a 35 minutos) de El Prado, 10 km de Alto Prado y 14 km de Riomar. Tienes estas opciones:</p>
+<h3>Uber, DiDi o InDriver (recomendado)</h3>
+<p>La opción más segura y confiable. Fija tu destino en la app, espera a que el conductor confirme y verifica la placa cuando subes. Tarifas a los principales barrios del norte:</p>
+<ul>
+<li><strong>El Prado</strong>: COP 30 a 50.000 (USD 8 a 14), 20 a 35 min.</li>
+<li><strong>Alto Prado / Villa Country</strong>: COP 35 a 55.000 (USD 9 a 15), 25 a 40 min.</li>
+<li><strong>Villa Santos / Buenavista</strong>: COP 45 a 70.000 (USD 11 a 18), 30 a 45 min.</li>
+<li><strong>Puerto Colombia</strong>: COP 60 a 90.000 (USD 15 a 22), 40 a 55 min.</li>
+</ul>
+<p><strong>Uber</strong> es la opción por defecto y más amigable para extranjeros. En BAQ seleccionas "Taxi" o "UberX" en la app; en la mayoría de Colombia, la opción "taxi" de Uber despacha un taxi autorizado por las tensiones regulatorias históricas, lo cual está bien y usa el mismo rastreo de seguridad que UberX. <strong>InDriver</strong> te deja proponer tarifa y típicamente le gana a Uber entre 20 a 30%. <strong>DiDi</strong> funciona pero algunos conductores son variables con el precio.</p>
+<p><strong>Punto de recogida</strong>: la mayoría de viajes compartidos se recogen en una zona designada justo después de la fila de taxis en Llegadas. La app te dirá exactamente dónde; si no estás seguro, el personal de seguridad en la salida puede indicarte.</p>
+<h3>Taxi</h3>
+<p>Los taxis oficiales forman fila afuera de Llegadas. Las tarifas a la ciudad son típicamente <strong>COP 35 a 80.000</strong> dependiendo del destino; la mayoría de conductores honrados usan las tarifas de zona publicadas. <strong>Acuerda la tarifa antes de subir</strong>; muchos taxis de BAQ no usan taxímetro. Pagar en efectivo es lo normal; la mayoría no acepta tarjeta. Más seguro que conseguir un taxi en la ciudad a la noche, pero un poco por debajo de viaje compartido en transparencia.</p>
+<h3>Bus público</h3>
+<p>Un bus de la ciudad para justo afuera de la terminal y corre hacia Barranquilla aproximadamente cada 30 minutos. La tarifa ida es como COP 3.700 a partir de enero de 2026. El tiempo de viaje es 45 a 75 minutos dependiendo del tráfico. Está bien si viajas ligero y con presupuesto apretado; no es práctico con maleta pesada o después del oscurecer. No se recomienda para visitantes por primera vez.</p>
+<h3>Alquiler de carro</h3>
+<p>Las cadenas principales (Hertz, Avis, National, Localiza) tienen mostradores en Llegadas. Es útil si explorarás la costa (Puerto Colombia, Tolú, Palomino, Cartagena); innecesario si te quedas en Barranquilla propiamente, donde viaje compartido es más barato y menos estresante que estacionar. El tráfico colombiano, las inundaciones durante la época de lluvia y la señalización desconocida hacen que manejar por tu cuenta sea un compromiso de verdad.</p>
+<h3>Transfer privado</h3>
+<p>La mayoría de hoteles ofrecen un transporte al aeropuerto pre-reservado a COP 80 a 150.000. Vale la pena para llegadas de madrugada, grupos familiares o si quieres un conductor con un cartel con tu nombre en la puerta. Pregunta al reservar. Si prefieres reservar de forma independiente con anticipación, también puedes <a href="https://www.viator.com/tours/Barranquilla/Private-airport-pick-up-barranquilla/d50228-127966P49?mcid=42383&amp;pid=P00296226&amp;medium=api&amp;api_version=2.0&amp;campaign=barranquillaguide" rel="noopener sponsored" target="_blank">reservar un transfer privado desde BAQ en Viator</a>, un conductor te espera en Llegadas con un cartel con tu nombre, precio fijo, sin regatear.</p>
+<figure class="viator-pick">
+<img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/23/58/43.jpg" alt="Private airport pick up barranquilla" width="720" height="480" loading="lazy" style="border-radius:8px;width:100%;height:auto;" />
+<figcaption style="font-size:0.8em;color:#666;margin-top:4px;">Foto vía Viator</figcaption>
+</figure>
+<p>¿Vas directo a la costa en vez de a la ciudad? Un <a href="https://www.viator.com/tours/Barranquilla/From-Ernesto-Cortissoz-International-Airport-to-Santa-Marta-or-Tayrona-Park/d50228-127977P12?mcid=42383&amp;pid=P00296226&amp;medium=api&amp;api_version=2.0&amp;campaign=barranquillaguide" rel="noopener sponsored" target="_blank">shuttle privado desde BAQ directo a Santa Marta o al Parque Tayrona</a> se salta Barranquilla por completo, útil si solo usas BAQ como el aeropuerto más cercano y a menudo más barato para un viaje a Tayrona.</p>
+<figure class="viator-pick">
+<img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/33/1e/39.jpg" alt="Private shuttle from Barranquilla Airport to Santa Marta city" width="720" height="480" loading="lazy" style="border-radius:8px;width:100%;height:auto;" />
+<figcaption style="font-size:0.8em;color:#666;margin-top:4px;">Foto vía Viator</figcaption>
+</figure>
+<h2 id="departures">Salidas: qué saber</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Tu situación es única. Pregúntale a Catalina.</span><span class="pb-es">Tu situación es única. Pregúntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">Es la concierge de Barranquilla Guide. Conoce las guías, los lugares, los precios, las visas y a las personas. Cuéntale tu situación y te orienta a la respuesta correcta.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las guías, los lugares, los precios, las visas y a las personas. Cuéntale tu situación y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Pregúntale a Catalina &rsaquo;</span><span class="pb-es">Pregúntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Llega <strong>2 horas antes de vuelos nacionales</strong>, <strong>3 horas antes de internacionales</strong>. Los mostradores de check-in abren 2.5 horas antes de la salida.</p>
+<p>La seguridad es directa; sin quitarse los zapatos, regla de líquidos según normas internacionales. Las salidas internacionales pasan por migración (más rápido que la llegada, usualmente 10 a 15 minutos) y después a las puertas internacionales, que comparten la mayoría de instalaciones con las nacionales.</p>
+<p>La tarifa aeroportuaria para salidas internacionales está incluida en el precio del boleto; no la pagas extra en el mostrador.</p>
+<p><strong>Servicios en la zona de embarque</strong>: un Juan Valdez, una pequeña zona duty-free (licor, cigarrillos, perfume), un par de restaurantes fast-casual, una librería y algunas tiendas vendiendo souvenirs colombianos. La comida en BAQ es nada del otro mundo; si tienes tiempo antes del vuelo, come en la ciudad y llega a la zona de embarque más ligero.</p>
+<p><strong>Lounge</strong>: SalaVIP de Avianca y un lounge accesible por Priority Pass / DragonPass están disponibles pasada la seguridad. Las tarjetas Priority Pass, la mayoría de tarjetas de crédito premium con acceso a lounge y pases de un día (~USD 30) funcionan.</p>
+<h2 id="layovers">Si tienes una escala larga</h2>
+<p>BAQ no tiene hoteles en la zona de embarque, así que una escala larga significa salir del aeropuerto. Con <strong>3+ horas</strong> puedes Uber a El Prado para un almuerzo de verdad en Pescayé o La Cueva y Uber de vuelta. Con <strong>5 a 6 horas</strong>, añade una caminata por el Centro Histórico, una visita al <a href="https://colombia.travel/en/barranquilla/caribbean-museum" rel="noopener" target="_blank">Museo del Caribe</a> o una parada en el Malecón. Mantén el Wi-Fi prendido, monitorea el estado del vuelo y construye un buffer de tráfico en el camino de regreso.</p>
+<h2 id="airport-hotels">Hoteles cerca de BAQ</h2>
+<p>Si tienes un vuelo a las 5 AM o una llegada de noche, quedarte cerca del aeropuerto evita un Uber de madrugada. Las opciones decentes más cercanas:</p>
+<ul>
+<li><strong>Hotel Puerta del Sol Prado</strong>, el hotel de referencia junto al aeropuerto. Shuttle incluido. ~10 minutos a BAQ.</li>
+<li><strong>Hotel Country International</strong>, de la vieja guardia, económico, 15 minutos a BAQ.</li>
+<li><strong>Hampton Inn by Hilton Barranquilla</strong>, técnicamente en Buenavista pero una opción de cadena confiable 20 minutos a BAQ. Mira nuestra <a href="/best-hotels-in-barranquilla/">guía de hoteles</a>.</li>
+</ul>
+<p>Para cualquier viaje de más de 24 horas, seguimos recomendando quedarte en El Prado, Alto Prado o Riomar y pagar el Uber extra en la mañana de salida, la diferencia de calidad en la estadía es grande.</p>
+<h2 id="faqs">Preguntas frecuentes</h2>
+<p><strong>¿BAQ es diferente de CTG (Cartagena)?</strong> Sí. Barranquilla (BAQ) y Cartagena (CTG) son aeropuertos separados 2 horas de distancia por carretera. Algunos viajeros vuelan a CTG para vacaciones y visitan Barranquilla en el día, o al revés. Para Carnaval de Barranquilla, volar directo a BAQ te ahorra mucho tiempo.</p>
+<p><strong>¿Puedo usar USD en el aeropuerto?</strong> Solo en casas de cambio. Todo lo demás, taxis, tiendas, restaurantes, incluso viajes compartidos, es en pesos. Retira de un cajero automático.</p>
+<p><strong>¿Es seguro BAQ?</strong> Sí. Se aplican precauciones estándar de aeropuerto (mantén las bolsas a la vista, ignora ofertas de "maleteros" sin solicitar), pero no hay riesgos particulares más allá de esos.</p>
+<p><strong>¿Hay vuelos directos desde Europa?</strong> Actualmente no. Conecta vía Bogotá (BOG); Madrid-Bogotá es el routeo europeo más común.</p>
+<p><strong>¿BAQ tiene cápsulas de sueño u hoteles en zona de embarque?</strong> Sin cápsulas de sueño; sin hotel en zona de embarque. Planifica una noche en uno de los hoteles en tierra descritos arriba si es necesario.</p>
+<p><strong>¿Cuál es el tema con la nueva terminal de cruceros?</strong> El turismo fluvial y marítimo de Barranquilla crece pero la terminal de cruceros queda en el puerto, no en el aeropuerto. Si tu crucero usa BAQ como punto de llegada/salida, Uber conecta los dos en unos 25 minutos.</p>
+<h2 id="further-reading">Lectura adicional en este sitio</h2>
+<p><a href="/best-hotels-in-barranquilla/">Hoteles, dónde realmente quedarte</a><br/>
+<a href="/barranquilla-neighborhoods/">Barrios, decide dónde antes de dónde</a><br/>
+<a href="/getting-around-barranquilla/">Desplazarse, buses, viaje compartido y Transmetro</a><br/>
+<a href="/is-barranquilla-safe-honest-answer-2026/">Seguridad</a><br/>
+<a href="/barranquilla-carnival-complete-guide/">Carnaval, la semana que BAQ corre a capacidad</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Los horarios y tarifas de aerolíneas cambian frecuentemente. Las tarifas de viaje compartido varían según la hora del día y el tráfico. Verificamos esta guía trimestralmente; última actualización abril de 2026.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">¿Todavía tienes preguntas?</span><span class="pb-es">¿Todavía tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina es nuestra concierge. Pregúntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en inglés o español, gratis.</span><span class="pb-es">Catalina es nuestra concierge. Pregúntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en inglés o español, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Habla con Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body es --><!-- .article-body -->
+<!-- Ad slot: end of article -->
+<div class="content-narrow content-narrow--end">
+</div>
+</article><!-- .single-article -->
+<!-- Related Articles -->
+<section class="magazine-section related-section">
+<div class="container">
+<div class="magazine-header" style="margin-bottom: 32px;">
+<span class="label">Keep reading</span>
+<h2 class="section-title">Related articles</h2>
+</div>
+<div class="magazine-grid related-grid-3">
+<article class="article-card">
+<a class="article-card-image" href="/san-basilio-de-palenque/">
+<img alt="Take a day trip to San Basilio de Palenque" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 579px) 100vw, 579px" src="/img/image-13.webp" srcset="/img/image-13.webp 1198w, /img/image-13-300x207.png 300w, /img/image-13-1024x707.webp 1024w, /img/image-13-768x530.webp 768w, /img/image-13-218x150.png 218w, /img/image-13-696x480.webp 696w, /img/image-13-1068x737.webp 1068w" width="579"/> </a>
+<span class="label">Things to Do</span>
+<h3 class="article-card-title"><a href="/san-basilio-de-palenque/">Take a day trip to San Basilio de Palenque</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>7 min read</span>
+</div>
+</article>
+<article class="article-card">
+<a class="article-card-image" href="/barranquilla-caribbean-night-break-tour/">
+<img alt="Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)" decoding="async" height="400" loading="lazy" sizes="auto, (max-width: 600px) 100vw, 600px" src="/img/caribbean-night-break-1-600x400.jpg" srcset="/img/caribbean-night-break-1-600x400.jpg 600w, /img/caribbean-night-break-1-300x200.jpg 300w, /img/caribbean-night-break-1.jpg 669w" width="600"/> </a>
+<span class="label">Things to Do</span>
+<h3 class="article-card-title"><a href="/barranquilla-caribbean-night-break-tour/">Caribbean Night Break Barranquilla: Nightlife Tour Review (2026)</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>2 min read</span>
+</div>
+</article>
+<article class="article-card">
+<a class="article-card-image" href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">
+<img alt="Your First Week in Barranquilla: The Essential Checklist (2026)" decoding="async" height="400" loading="lazy" src="/img/inside-a-city-bus-600x400.jpg" width="600"/> </a>
+<span class="label">Day to Day</span>
+<h3 class="article-card-title"><a href="/your-first-week-in-barranquilla-the-essential-arrival-checklist-2026/">Your First Week in Barranquilla: The Essential Checklist (2026)</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>10 min read</span>
+</div>
+</article>
+</div>
+</div>
+</section><!-- newsletter-prefoot:v1 -->
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading"><span class="pb-en">Get the guide in your inbox</span><span class="pb-es">Recibe la guía en tu correo</span></h2>
+<p class="email-capture-desc"><span class="pb-en">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</span><span class="pb-es">Cada semana: recomendaciones, guías nuevas y lo que vale la pena saber de Barranquilla. Sin ruido, sin feed de noticias. Solo lo útil.</span></p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" data-ph-en="Your email address" data-ph-es="Tu correo electrónico" required="" type="email"/>
+<button class="email-capture-submit" type="submit"><span class="pb-en">Subscribe</span><span class="pb-es">Suscribirme</span></button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status"><span class="pb-en">Weekly. Unsubscribe any time.</span><span class="pb-es">Semanal. Cancela cuando quieras.</span></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script src="/js/post.js?v=20260721a" defer></script>
+</body>
+</html>

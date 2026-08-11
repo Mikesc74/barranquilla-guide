@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6efe2">
+
+<title data-lang="en">Barranquilla Guide · The insider guide to Colombia's Caribbean capital</title>
+<title data-lang="es">Barranquilla Guide · La guía insider a la capital caribeña de Colombia</title>
+<meta name="description" data-lang="en" content="The insider guide to Barranquilla, Colombia. Carnaval, food, neighborhoods, moving here, working here. Catalina, our AI guide, answers questions on the chat. Free.">
+<meta name="description" data-lang="es" content="La guía insider de Barranquilla, Colombia. Carnaval, comida, barrios, mudarse aquí, trabajar aquí. Catalina, nuestra guía con IA, responde en el chat. Gratis.">
+<meta name="author" content="Mike Chartrand &amp; Santiago Santos">
+
+<link rel="canonical" href="https://barranquilla.guide/">
+<link rel="alternate" hreflang="en" href="https://barranquilla.guide/">
+<link rel="alternate" hreflang="es" href="https://barranquilla.guide/?lang=es">
+<link rel="alternate" hreflang="x-default" href="https://barranquilla.guide/">
+
+<meta property="og:title" data-lang="en" content="Barranquilla Guide · The insider guide to Colombia's Caribbean capital">
+<meta property="og:title" data-lang="es" content="Barranquilla Guide · La guía insider a la capital caribeña de Colombia">
+<meta property="og:description" data-lang="en" content="Carnaval, food, neighborhoods, moving here, working here. Catalina answers questions on the chat. Free.">
+<meta property="og:description" data-lang="es" content="Carnaval, comida, barrios, mudarse aquí, trabajar aquí. Catalina responde en el chat. Gratis.">
+<meta property="og:locale" data-lang="en" content="en_US">
+<meta property="og:locale" data-lang="es" content="es_CO">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://barranquilla.guide/">
+<meta property="og:image" content="https://barranquilla.guide/img/carnival1.webp">
+<meta property="og:site_name" content="Barranquilla Guide">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/img/favicon-32.png?v=2" sizes="32x32">
+<link rel="icon" href="/img/favicon-192.png?v=2" sizes="192x192">
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="/img/favicon-180.png?v=2">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.pexels.com" crossorigin>
+<link rel="preload" as="image" href="/img/carnival1.webp" fetchpriority="high">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","@id":"https://barranquilla.guide/#org","name":"Barranquilla Guide","url":"https://barranquilla.guide/","logo":"https://barranquilla.guide/img/favicon-512.png?v=2","sameAs":["https://medellin.guide","https://thecartagena.guide","https://instagram.com/barranquillaguide","https://facebook.com/groups/visitbarranquilla"],"founder":[{"@type":"Person","name":"Michael Chartrand","nationality":"CA","jobTitle":"Co-founder"},{"@type":"Person","name":"Santiago Santos","nationality":"CO","jobTitle":"Co-founder"}],"address":{"@type":"PostalAddress","addressLocality":"Barranquilla","addressRegion":"Atlántico","addressCountry":"CO"},"email":"hello@barranquilla.guide","knowsLanguage":["en","es"],"knowsAbout":["Barranquilla neighborhoods","El Prado","Alto Prado","Villa Country","Riomar","Buenavista","Carnaval de Barranquilla","Gran Malecón","Bocas de Cenizas","Mallorquín Ecopark","cumbia","champeta","Caribbean cuisine","cost of living in Barranquilla","healthcare in Barranquilla","dental tourism in Barranquilla","Colombian visas","immigration lawyers in Barranquilla","banking in Colombia","Bancolombia","Nequi","Daviplata","safety in Barranquilla","day trips from Barranquilla","Puerto Colombia","Tubará","Salgar"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","@id":"https://barranquilla.guide/#site","url":"https://barranquilla.guide/","name":"Barranquilla Guide","inLanguage":"en","publisher":{"@id":"https://barranquilla.guide/#org"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://barranquilla.guide/#localbusiness","name":"Barranquilla Guide","url":"https://barranquilla.guide/","address":{"@type":"PostalAddress","addressLocality":"Barranquilla","addressRegion":"Atlántico","addressCountry":"CO"},"areaServed":[{"@type":"City","name":"Barranquilla"},{"@type":"City","name":"Puerto Colombia"},{"@type":"City","name":"Soledad"},{"@type":"City","name":"Tubará"},{"@type":"AdministrativeArea","name":"Atlántico"}],"sameAs":["https://medellin.guide","https://thecartagena.guide"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Barranquilla Guide","isPartOf":{"@type":"WebSite","name":"Colombian City Guides","hasPart":[{"@type":"WebSite","name":"Medellín Guide","url":"https://medellin.guide"},{"@type":"WebSite","name":"Cartagena Guide","url":"https://thecartagena.guide"}]}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en","mainEntity":[
+{"@type":"Question","name":"Is Barranquilla safe in 2026?","acceptedAnswer":{"@type":"Answer","text":"Yes, with normal Caribbean-city sense. The neighborhoods where expats and Colombian middle-class families live (El Prado, Alto Prado, Villa Country, Riomar, Buenavista) are safe day and night, with the same petty-theft and 'no dar papaya' caution that applies in any Latin American city. Avoid certain southern barrios after dark. The Honest Answer guide on the site gives a block-by-block read."}},
+{"@type":"Question","name":"When is Carnaval de Barranquilla and is it worth the trip?","acceptedAnswer":{"@type":"Answer","text":"Carnaval runs the four days before Ash Wednesday every year (typically late February or early March). It is UNESCO-listed and the second-largest carnival in the world after Rio. Worth the trip if you want serious dancing, costumes, parades and 24/7 street energy; not the right week if you wanted quiet beach time. Book hotels 4 to 6 months ahead."}},
+{"@type":"Question","name":"How does the cost of living in Barranquilla compare to Medellín in 2026?","acceptedAnswer":{"@type":"Answer","text":"Barranquilla runs roughly 20 to 35% cheaper than Medellín for the same quality of life: rent in Alto Prado or Villa Country is materially lower than El Poblado, groceries and dining are cheaper, healthcare and prepagada plans are similar in price. The trade-off is heat and humidity year-round."}},
+{"@type":"Question","name":"What are the best neighborhoods to live in Barranquilla as an expat?","acceptedAnswer":{"@type":"Answer","text":"El Prado is the historic, walkable expat default with the most character. Alto Prado is the modern upgrade right next door. Villa Country and El Golf are quieter, more family-oriented with the best amenities. Riomar and Buenavista are newer, further north, and pair well with families needing private schools and malls."}},
+{"@type":"Question","name":"What is Bocas de Cenizas and how do you visit it?","acceptedAnswer":{"@type":"Answer","text":"Bocas de Cenizas is the point where the Magdalena River, the longest in Colombia, finally meets the Caribbean Sea. The visit is a ride on a small motorized train (the Bocas de Cenizas train) followed by a walk to the breakwaters where freshwater visibly mixes with saltwater. It runs from the Las Flores neighborhood; book through a tour operator or ask Catalina/Charo for a vetted contact."}},
+{"@type":"Question","name":"How does dental tourism work in Barranquilla?","acceptedAnswer":{"@type":"Answer","text":"Barranquilla offers the same 60 to 75% savings versus US prices that Medellín does, with shorter wait times and a more relaxed pace. Major clinics speak English, use international materials, and finish full mouth restorations across two visits ten days apart. We refer to a handful of dentists we vet ourselves."}},
+{"@type":"Question","name":"Do I need a visa to live in Barranquilla?","acceptedAnswer":{"@type":"Answer","text":"For most US, Canadian, UK, and EU passports, no visa is needed for visits up to 90 days, extendable to 180. For longer stays you'll need a V (visitor), M (migrant) or R (resident) visa. The income thresholds and process are set nationwide and change periodically, so confirm current requirements with a licensed Colombian immigration attorney."}}
+]}
+</script>
+
+<link rel="stylesheet" href="/css/site.css?v=20260808e">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+</script>
+<script defer src="/js/analytics-engagement.js" data-ga-id="G-FKFW8ZQJPN"></script>
+</head>
+<body>
+
+<a href="#main" class="pb-skip"><span class="pb-en">Skip to content</span><span class="pb-es">Saltar al contenido</span></a>
+
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<main id="main">
+
+<!-- HERO + CATALINA -->
+<section id="catalina" class="hero-merged"><div class="pb-wrap">
+<div class="cat-frame">
+<span class="cat-frame-label"><span class="pb-en">Your Barranquilla guide</span><span class="pb-es">Tu guía de Barranquilla</span></span>
+
+<div class="hero-merged-top">
+  <div class="hero-merged-copy">
+    <h1 class="pb-h1"><span class="pb-en">Barranquilla. <em>Understood.</em></span><span class="pb-es">Barranquilla. <em>Entendida.</em></span></h1>
+    <p class="lede"><span class="pb-en">The insider guide for visitors, expats, and anyone seriously considering the move. Long-form guides and honest recommendations on Carnaval, food, neighborhoods, working remote, visas, healthcare, and more. Got a specific question? Catalina, our AI guide, is happy to help.</span><span class="pb-es">La guía insider para visitantes, extranjeros, y todo el que esté pensando seriamente en mudarse. Guías a fondo y recomendaciones honestas sobre Carnaval, comida, barrios, trabajo remoto, visas, salud, y más. ¿Pregunta específica? Catalina, nuestra guía con IA, te ayuda con gusto.</span></p>
+    <div class="hero-team is-solo">
+      <a href="#" class="cat-portrait" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" aria-label="Open Catalina chat">
+        <img src="/catalina-avatar-128.webp" srcset="/catalina-avatar-56.webp 56w, /catalina-avatar-128.webp 128w" sizes="160px" alt="Catalina, Barranquilla Guide AI concierge" width="170" height="170" loading="eager" decoding="async">
+        <span class="live-dot" aria-label="online"></span>
+      </a>
+      <div class="hero-team-caption"><span class="pb-en"><strong>Catalina</strong> · <em>your guide to Barranquilla. Ask anything.</em></span><span class="pb-es"><strong>Catalina</strong> · <em>tu guía de Barranquilla. Pregúntale lo que sea.</em></span></div>
+    </div>
+  </div>
+  <div class="hero-merged-photo">
+    <img src="/img/carnival1.webp" alt="Carnaval de Barranquilla, cumbia dancers in costume" width="900" height="1035" fetchpriority="high">
+    <div class="overlay"></div>
+    <div class="lbl"><strong>Barranquilla, Colombia</strong><span class="pb-en">Carnival capital. Caribbean coast. Underestimated city.</span><span class="pb-es">Capital del Carnaval. Costa Caribe. Ciudad subestimada.</span></div>
+  </div>
+</div>
+
+<div class="hero-merged-bottom">
+  <div class="cat-cards-hint"><span class="pb-en">↓ Tap any question to chat with Catalina ↓</span><span class="pb-es">↓ Toca una pregunta para chatear con Catalina ↓</span></div>
+  <div class="cat-cta-grid">
+    <button type="button" class="cat-cta-card" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">
+      <div class="label"><span class="pb-en">ask anything</span><span class="pb-es">pregunta lo que sea</span></div>
+      <h3><span class="pb-en">I have a question</span><span class="pb-es">Tengo una pregunta</span></h3>
+      <p><span class="pb-en">Neighborhoods, restaurants, Carnaval, safety, prices, getting around, anything Barranquilla.</span><span class="pb-es">Barrios, restaurantes, Carnaval, seguridad, precios, cómo moverse, lo que sea de Barranquilla.</span></p>
+      <span class="arrow"><span class="pb-en">Talk to Catalina</span><span class="pb-es">Habla con Catalina</span></span>
+    </button>
+    <button type="button" class="cat-cta-card" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">
+      <div class="label"><span class="pb-en">a few days here</span><span class="pb-es">unos días aquí</span></div>
+      <h3><span class="pb-en">Planning a visit</span><span class="pb-es">Planeo una visita</span></h3>
+      <p><span class="pb-en">Where to stay, what to eat, what's actually worth doing, day trips to the coast.</span><span class="pb-es">Dónde quedarse, qué comer, qué vale la pena en serio, paseos de un día a la costa.</span></p>
+      <span class="arrow"><span class="pb-en">Plan it out</span><span class="pb-es">Arma el plan</span></span>
+    </button>
+    <button type="button" class="cat-cta-card" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">
+      <div class="label"><span class="pb-en">making the move</span><span class="pb-es">pensando en mudarme</span></div>
+      <h3><span class="pb-en">Thinking of moving</span><span class="pb-es">Pienso mudarme</span></h3>
+      <p><span class="pb-en">Visas, cost of living, housing by estrato, working remote, schools, healthcare.</span><span class="pb-es">Visas, costo de vida, vivienda por estrato, trabajo remoto, colegios, salud.</span></p>
+      <span class="arrow"><span class="pb-en">Map the move</span><span class="pb-es">Arma la mudanza</span></span>
+    </button>
+    <button type="button" class="cat-cta-card" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;">
+      <div class="label"><span class="pb-en">February</span><span class="pb-es">febrero</span></div>
+      <h3><span class="pb-en">Carnaval prep</span><span class="pb-es">Preparativos del Carnaval</span></h3>
+      <p><span class="pb-en">Costumes, parade routes, where to stay, what to skip. The four days that own the city.</span><span class="pb-es">Disfraces, recorridos del desfile, dónde quedarse, qué evitar. Los cuatro días que se apoderan de la ciudad.</span></p>
+      <span class="arrow"><span class="pb-en">Carnaval plan</span><span class="pb-es">Plan Carnaval</span></span>
+    </button>
+  </div>
+</div>
+
+</div>
+</div></section>
+
+<!-- BROWSE BY SECTION -->
+<section id="browse" class="pb-section services-bg"><div class="pb-wrap">
+<div class="sec-head">
+  <div class="sec-eyebrow"><span class="pb-en">browse the guide</span><span class="pb-es">recorre la guía</span></div>
+  <h2 class="pb-h2"><span class="pb-en">Six ways <em>in.</em></span><span class="pb-es">Seis <em>puertas de entrada.</em></span></h2>
+  <p><span class="pb-en">The guide is organised into six sections. Start wherever fits your reason for being here.</span><span class="pb-es">La guía está organizada en seis secciones. Empieza por la que mejor encaje con tu motivo para estar aquí.</span></p>
+</div>
+<div class="svc-grid">
+  <a href="/section/explore/" class="svc">
+    <div class="svc-photo"><img src="/img/cumbia-dancers-carnival-barranquilla.webp" alt="Cumbia dancers, Carnaval de Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">01 · Things to Do</span><span class="pb-es">01 · Qué hacer</span></span>
+      <h3><span class="pb-en">Carnaval, the river, day trips.</span><span class="pb-es">Carnaval, el río, paseos de un día.</span></h3>
+      <p><span class="pb-en">Carnaval done properly, the Gran Malecón, Bocas de Cenizas, the sunflower route, museums, and the things worth doing that no travel blog covers well.</span><span class="pb-es">El Carnaval bien vivido, el Gran Malecón, Bocas de Cenizas, la ruta del girasol, museos, y lo que vale la pena hacer y ningún blog cubre bien.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/just-visiting/" class="svc">
+    <div class="svc-photo"><img src="/img/barranquilla-bocas-de-cenizas-tour-place-gran-malecon.webp" alt="Gran Malecón del Río, Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">02 · Just Visiting</span><span class="pb-es">02 · De visita</span></span>
+      <h3><span class="pb-en">First days, where to stay, getting around.</span><span class="pb-es">Primeros días, dónde quedarte, cómo moverte.</span></h3>
+      <p><span class="pb-en">Where to stay, how to get around, the airport, the first-week checklist, travel insurance, and weddings.</span><span class="pb-es">Dónde quedarte, cómo moverte, el aeropuerto, la lista de la primera semana, seguros de viaje, y bodas.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/moving-here/" class="svc">
+    <div class="svc-photo"><img src="/img/barranquilla-el-golf-aerial-fernando-orozco.webp" alt="El Golf, Barranquilla, aerial" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">03 · Moving Here</span><span class="pb-es">03 · Mudarse aquí</span></span>
+      <h3><span class="pb-en">Visas, housing, banking, the paperwork.</span><span class="pb-es">Visas, vivienda, banca, los trámites.</span></h3>
+      <p><span class="pb-en">Visas and immigration, renting and buying, opening a bank account, starting a business, taxes, and shipping your life down.</span><span class="pb-es">Visas e inmigración, arrendar y comprar, abrir cuenta bancaria, montar empresa, impuestos, y traer tus cosas.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/eat-drink/" class="svc">
+    <div class="svc-photo"><img src="/img/family-food-barranquilla.webp" alt="Costeño family meal, Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">04 · Food &amp; Drink</span><span class="pb-es">04 · Comer y beber</span></span>
+      <h3><span class="pb-en">Costeño food, bars, the night out.</span><span class="pb-es">Comida costeña, bares, la rumba.</span></h3>
+      <p><span class="pb-en">Where to eat like a local, the bars and clubs, seafood, desserts, street food, and the restaurants worth the trip.</span><span class="pb-es">Dónde comer como local, los bares y discotecas, mariscos, postres, comida callejera, y los restaurantes que valen el viaje.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/health/" class="svc">
+    <div class="svc-photo"><img src="/img/1200/best-hospitals-barranquilla-hero.webp" alt="Hospital in Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">05 · Medical</span><span class="pb-es">05 · Salud</span></span>
+      <h3><span class="pb-en">Hospitals, dentists, medical tourism.</span><span class="pb-es">Hospitales, odontología, turismo médico.</span></h3>
+      <p><span class="pb-en">Hospitals and clinics, health insurance, and the dental, cosmetic and surgery options people fly in for.</span><span class="pb-es">Hospitales y clínicas, seguros de salud, y la odontología, estética y cirugía por las que la gente viaja.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+  <a href="/section/daily-life/" class="svc">
+    <div class="svc-photo"><img src="/img/negra-pulida-carnival-barranquilla.webp" alt="Negra pulida dancer, Carnaval de Barranquilla" loading="lazy" width="1400" height="875"></div>
+    <div class="svc-body">
+      <span class="num"><span class="pb-en">06 · Life &amp; Culture</span><span class="pb-es">06 · Vida y cultura</span></span>
+      <h3><span class="pb-en">Cost of living, neighborhoods, culture.</span><span class="pb-es">Costo de vida, barrios, cultura.</span></h3>
+      <p><span class="pb-en">Cost of living with real numbers, the neighborhoods, safety, getting set up, cumbia and champeta, and the culture behind the city.</span><span class="pb-es">Costo de vida con cifras reales, los barrios, seguridad, cómo instalarte, cumbia y champeta, y la cultura detrás de la ciudad.</span></p>
+      <span class="more"><span class="pb-en">Open the section</span><span class="pb-es">Abrir la sección</span></span>
+    </div>
+  </a>
+</div>
+</div></section>
+
+<!-- NEIGHBORHOODS STRIP -->
+<section id="neighborhoods" class="pb-section nbhd-bg"><div class="pb-wrap">
+<div class="now-head">
+  <div class="now-head-l">
+    <div class="sec-eyebrow"><span class="pb-en">neighborhoods</span><span class="pb-es">barrios</span></div>
+    <h2 class="pb-h2"><span class="pb-en">Find your <em>part of town.</em></span><span class="pb-es">Encuentra tu <em>parte de la ciudad.</em></span></h2>
+  </div>
+  <a href="/neighborhoods/" class="pb-btn"><span class="pb-en">All 14 profiles</span><span class="pb-es">Los 14 perfiles</span></a>
+</div>
+<div class="nbhd-strip-wrap">
+  <div class="nbhd-strip">
+    <a href="/neighborhoods/el-golf/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/barranquilla-el-golf-aerial-fernando-orozco-480x600.webp" alt="El Golf, aerial" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>El Golf</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/buenavista/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/mall-plaza-next-to-buenavista-480x600.jpg" alt="Buenavista" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Buenavista</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/villa-santos/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/2020-06-07-CO-villa-santos-480x600.jpg" alt="Villa Santos" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Villa Santos</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/altos-de-riomar/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/caribbean-sunset-from-alto-riomar-480x600.jpg" alt="Altos de Riomar" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Altos de Riomar</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/ciudad-jardin/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/flowers-galore-480x600.jpg" alt="Ciudad Jardín" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Ciudad Jardín</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/el-prado/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/prado-480x575.avif" alt="El Prado" loading="lazy" width="480" height="575"></div>
+      <div class="nbhd-body"><h3>El Prado</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/alto-prado/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/alto-prado-10-480x600.jpg" alt="Alto Prado" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Alto Prado</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+    <a href="/neighborhoods/villa-country/" class="nbhd">
+      <div class="nbhd-photo"><img src="/img/villa-country-area-480x600.jpg" alt="Villa Country" loading="lazy" width="480" height="600"></div>
+      <div class="nbhd-body"><h3>Villa Country</h3><span class="more"><span class="pb-en">Read profile</span><span class="pb-es">Ver perfil</span></span></div>
+    </a>
+  </div>
+</div>
+</div></section>
+
+<!-- CORNERSTONE GUIDES -->
+<section id="guides" class="pb-section guides"><div class="pb-wrap">
+<div class="sec-head">
+  <div class="sec-eyebrow"><span class="pb-en">cornerstone guides</span><span class="pb-es">guías esenciales</span></div>
+  <h2 class="pb-h2"><span class="pb-en">Start <em>here.</em></span><span class="pb-es">Empieza <em>aquí.</em></span></h2>
+  <p><span class="pb-en">The pieces most people open first. Long-form, no fluff, updated for 2026.</span><span class="pb-es">Las piezas que la mayoría abre primero. Texto largo, sin relleno, actualizadas para 2026.</span></p>
+</div>
+<div class="grid">
+  <a href="/barranquilla-guide/" class="gd">
+    <span class="meta"><span class="pb-en">Overview · 18 min</span><span class="pb-es">Panorama · 18 min</span></span>
+    <h4><span class="pb-en">The practical Barranquilla overview</span><span class="pb-es">El panorama práctico de Barranquilla</span></h4>
+    <p><span class="pb-en">Cost of living, neighborhoods, safety, weather. What to actually expect if you're moving or staying a while.</span><span class="pb-es">Costo de vida, barrios, seguridad, clima. Qué esperar de verdad si te mudas o te quedas un rato.</span></p>
+  </a>
+  <a href="/tax-residency-colombia-2026-guide/" class="gd">
+    <span class="meta"><span class="pb-en">Live · 14 min</span><span class="pb-es">Vivir aquí · 14 min</span></span>
+    <h4><span class="pb-en">Tax residency in Colombia (2026)</span><span class="pb-es">Residencia fiscal en Colombia (2026)</span></h4>
+    <p><span class="pb-en">How the 183-day rule works, what it costs, and the traps that catch U.S., Canadian, and European remote workers.</span><span class="pb-es">Cómo funciona la regla de los 183 días, qué cuesta, y las trampas que atrapan a trabajadores remotos de EE.UU., Canadá y Europa.</span></p>
+  </a>
+  <a href="/barranquilla-carnival-complete-guide/" class="gd">
+    <span class="meta"><span class="pb-en">Things to Do · 22 min</span><span class="pb-es">Qué hacer · 22 min</span></span>
+    <h4><span class="pb-en">Carnaval de Barranquilla, complete</span><span class="pb-es">Carnaval de Barranquilla, completo</span></h4>
+    <p><span class="pb-en">Parades, costumes, where to stay, what to skip. The four days that own the city.</span><span class="pb-es">Desfiles, disfraces, dónde quedarse, qué evitar. Los cuatro días que se apoderan de la ciudad.</span></p>
+  </a>
+  <a href="/is-barranquilla-safe-honest-answer-2026/" class="gd">
+    <span class="meta"><span class="pb-en">Live · 9 min</span><span class="pb-es">Vivir aquí · 9 min</span></span>
+    <h4><span class="pb-en">Is Barranquilla safe? Honest answer.</span><span class="pb-es">¿Es segura Barranquilla? Respuesta honesta.</span></h4>
+    <p><span class="pb-en">The neighborhoods that are fine, the blocks to skip, and the threats that are actually real versus the ones that aren't.</span><span class="pb-es">Los barrios que están bien, las cuadras que hay que evitar y los riesgos que son reales contra los que no.</span></p>
+  </a>
+</div>
+<div style="margin-top:48px;text-align:center"><a href="/section/daily-life/" class="pb-btn"><span class="pb-en">All everyday guides</span><span class="pb-es">Todas las guías del día a día</span></a></div>
+</div></section>
+
+<!-- EDITORIAL FEATURE -->
+<section class="pb-section editorial-bg"><div class="pb-wrap">
+<div class="editorial-grid">
+  <a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/" class="editorial-photo">
+    <img src="/img/barranquilla-city-panoramic-view-900x450.webp" alt="Barranquilla cityscape" loading="lazy" width="900" height="450">
+  </a>
+  <div>
+    <div class="sec-eyebrow"><span class="pb-en">featured story</span><span class="pb-es">historia destacada</span></div>
+    <h2 class="pb-h2"><a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/"><span class="pb-en">Barranquilla vs Medellín vs Bogotá: <em>which one is right for you?</em></span><span class="pb-es">Barranquilla vs Medellín vs Bogotá: <em>¿cuál te conviene?</em></span></a></h2>
+    <p class="editorial-excerpt"><span class="pb-en">A clear-eyed comparison of Colombia's three main expat destinations. Climate, cost, culture, opportunity, and the trade-offs nobody talks about until you've moved.</span><span class="pb-es">Una comparación clara de los tres destinos principales para extranjeros en Colombia. Clima, costo, cultura, oportunidad y los trade-offs de los que nadie habla hasta que ya te mudaste.</span></p>
+    <div class="editorial-byline">
+      <span class="ph" aria-hidden="true">M</span>
+      <div><div class="nm">Mike Chartrand</div><div class="time"><span class="pb-en">12 min read</span><span class="pb-es">12 min de lectura</span></div></div>
+    </div>
+    <a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/" class="pb-btn pb-ghost-light"><span class="pb-en">Read the story</span><span class="pb-es">Leer la historia</span></a>
+  </div>
+</div>
+</div></section>
+
+<!-- WHAT'S HAPPENING NOW -->
+<section id="now" class="pb-section now-bg"><div class="pb-wrap">
+<div class="now-head">
+  <div class="now-head-l">
+    <div class="sec-eyebrow"><span class="pb-en">what's happening</span><span class="pb-es">qué pasa</span></div>
+    <h2 class="pb-h2"><span class="pb-en">Barranquilla <em>right now.</em></span><span class="pb-es">Barranquilla <em>ahora mismo.</em></span></h2>
+  </div>
+  <a href="/category/now/" class="pb-btn"><span class="pb-en">All updates</span><span class="pb-es">Todas las actualizaciones</span></a>
+</div>
+<div class="now-grid">
+<!-- now-grid:auto -->
+  <a href="/whats-happening-in-barranquilla-week-of-august-3-2026/" class="now-card">
+    <div class="now-date"><span class="d">03</span><span class="m"><span class="pb-en">Aug</span><span class="pb-es">Ago</span></span></div>
+    <div><h3><span class="pb-en">Week of August 3, 2026</span><span class="pb-es">Semana del 3 de agosto de 2026</span></h3><p><span class="pb-en">More than 1,500 police officers cover the August 7 holiday bridge in Barranquilla, Juan Pablo Montoya and his son Sebastián bring a car exhibition to the Gran Malecón on August 16, and…</span><span class="pb-es">Más de 1.500 policías cubren el puente festivo del 7 de agosto en Barranquilla, Juan Pablo Montoya y su hijo Sebastián traen una exhibición automovilística al Gran Malecón el 16 de…</span></p></div>
+  </a>
+  <a href="/whats-happening-in-barranquilla-week-of-july-27-2026/" class="now-card">
+    <div class="now-date"><span class="d">27</span><span class="m"><span class="pb-en">Jul</span><span class="pb-es">Jul</span></span></div>
+    <div><h3><span class="pb-en">Week of July 27, 2026</span><span class="pb-es">Semana del 27 de julio de 2026</span></h3><p><span class="pb-en">Barranquilla earns LEED Gold sustainability certification, the first for a Colombian city of over a million people, Barranquilla FC knocks Junior out of the Copa Colombia on penalties,…</span><span class="pb-es">Barranquilla obtiene la certificación de sostenibilidad Leed Gold, la primera para una ciudad colombiana de más de un millón de habitantes, el Barranquilla FC elimina a Junior de la Copa…</span></p></div>
+  </a>
+  <a href="/whats-happening-in-barranquilla-week-of-july-20-2026/" class="now-card">
+    <div class="now-date"><span class="d">20</span><span class="m"><span class="pb-en">Jul</span><span class="pb-es">Jul</span></span></div>
+    <div><h3><span class="pb-en">Week of July 20, 2026</span><span class="pb-es">Semana del 20 de julio de 2026</span></h3><p><span class="pb-en">The Metropolitano stadium's new seating nears completion for a September opening, Barranquilla marks 216 years of independence with a military parade on the Gran Malecón, and a…</span><span class="pb-es">Las nuevas graderías del estadio Metropolitano están cerca de terminar para una apertura en septiembre, Barranquilla conmemora 216 años de independencia con un desfile militar en el Gran…</span></p></div>
+  </a>
+<!-- /now-grid:auto -->
+</div>
+</div></section>
+
+<!-- FROM THE MAGAZINE -->
+<section class="pb-section"><div class="pb-wrap">
+<div class="now-head">
+  <div class="now-head-l">
+    <div class="sec-eyebrow"><span class="pb-en">latest</span><span class="pb-es">lo último</span></div>
+    <h2 class="pb-h2"><span class="pb-en">From the <em>magazine.</em></span><span class="pb-es">De la <em>revista.</em></span></h2>
+  </div>
+  <a href="/section/explore/" class="pb-btn"><span class="pb-en">All stories</span><span class="pb-es">Todas las historias</span></a>
+</div>
+<div class="mag-grid">
+  <a href="/driving-in-colombia-barranquilla-2026-guide/" class="mag">
+    <div class="mag-photo"><img src="/img/funny-little-delivery-truck-e1776021188550-600x400.jpg" alt="Driving in Barranquilla" loading="lazy" width="600" height="400"></div>
+    <span class="meta"><span class="pb-en">Live</span><span class="pb-es">Vivir aquí</span></span>
+    <h4><span class="pb-en">Driving in Barranquilla: licenses, Pico y Placa, SOAT (2026)</span><span class="pb-es">Conducir en Barranquilla: licencias, Pico y Placa, SOAT (2026)</span></h4>
+    <span class="byline">Mike Chartrand · <span class="pb-en">17 min</span><span class="pb-es">17 min</span></span>
+  </a>
+  <a href="/best-bars-craft-drinks-barranquilla/" class="mag">
+    <div class="mag-photo"><img src="/img/craft-bar-barranquilla-600x400.jpg" alt="Craft bar, Barranquilla" loading="lazy" width="600" height="400"></div>
+    <span class="meta"><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></span>
+    <h4><span class="pb-en">Best bars and craft drinks in Barranquilla</span><span class="pb-es">Los mejores bares y tragos artesanales en Barranquilla</span></h4>
+    <span class="byline">Mike Chartrand · 3 min</span>
+  </a>
+  <a href="/best-restaurants-with-children-barranquilla/" class="mag">
+    <div class="mag-photo"><img src="/img/family-food-barranquilla-600x400.jpg" alt="Family dining, Barranquilla" loading="lazy" width="600" height="400"></div>
+    <span class="meta"><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></span>
+    <h4><span class="pb-en">Best places to eat with children in Barranquilla</span><span class="pb-es">Los mejores lugares para comer con niños en Barranquilla</span></h4>
+    <span class="byline">Mike Chartrand · 3 min</span>
+  </a>
+  <a href="/best-night-out-barranquilla/" class="mag">
+    <div class="mag-photo"><img src="/img/nightlife-barranquilla-2-600x400.jpg" alt="Nightlife, Barranquilla" loading="lazy" width="600" height="400"></div>
+    <span class="meta"><span class="pb-en">Eat &amp; Drink</span><span class="pb-es">Comer y beber</span></span>
+    <h4><span class="pb-en">Best places for a night out with friends</span><span class="pb-es">Los mejores planes para una noche con amigos</span></h4>
+    <span class="byline">Mike Chartrand · 4 min</span>
+  </a>
+</div>
+</div></section>
+
+</main>
+
+<!-- NEWSLETTER -->
+<section id="newsletter" class="pb-section pb-newsletter" aria-labelledby="pb-nl-heading">
+  <div class="pb-wrap">
+    <div class="nl-card">
+      <h2 class="nl-title" id="pb-nl-heading"><span class="pb-en">Get Barranquilla in your inbox</span><span class="pb-es">Recibe Barranquilla en tu correo</span></h2>
+      <p class="nl-desc"><span class="pb-en">One short Saturday email. New guides, what's on this week, and the things worth knowing. No noise.</span><span class="pb-es">Un correo corto cada sábado. Nuevas guías, qué hay esta semana, y lo que vale la pena saber. Sin ruido.</span></p>
+      <form class="newsletter-form" data-city="barranquilla" data-source="homepage" action="https://newsletter.norteconexion.com/subscribe" method="post" novalidate>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+        <div class="nl-row">
+          <input type="email" name="email" class="nl-input" placeholder="you@email.com" required aria-label="Email address" autocomplete="email" maxlength="200">
+          <button type="submit" class="nl-submit"><span class="pb-en">Subscribe</span><span class="pb-es">Suscribirme</span></button>
+        </div>
+        <input type="hidden" name="city" value="barranquilla">
+        <input type="hidden" name="source" value="homepage">
+        <p class="nl-note" role="status" aria-live="polite"><span class="pb-en">Saturdays. Unsubscribe any time.</span><span class="pb-es">Los sábados. Cancela cuando quieras.</span></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+/* Newsletter form: posts JSON to the colguides newsletter worker.
+   Self-contained so the page doesn't depend on /js/main.js. */
+(function(){
+  /* Turnstile bot protection (Automation Phase A, 2026-07-17), inlined here
+     the same as the rest of this self-contained homepage script. PLACEHOLDER
+     sitekey, replace once a real widget covering barranquilla.guide exists;
+     quietly no-ops until then. Do NOT set TURNSTILE_SECRET_KEY on the
+     guides-newsletter worker until this is deployed with a real sitekey. */
+  var TURNSTILE_SITE_KEY='0x4AAAAAAD4nS_cyaTqhNxcg';
+  var turnstileWidgets={};
+  function loadTurnstileScript(cb){
+    if(window.turnstile)return cb();
+    var existing=document.getElementById('cf-turnstile-script');
+    if(existing){existing.addEventListener('load',cb);return;}
+    var s=document.createElement('script');
+    s.id='cf-turnstile-script';s.src='https://challenges.cloudflare.com/turnstile/v0/api.js';s.async=true;s.defer=true;
+    s.addEventListener('load',cb);document.head.appendChild(s);
+  }
+  function renderTurnstile(form){
+    if(TURNSTILE_SITE_KEY.indexOf('REPLACE_WITH')===0)return;
+    if(turnstileWidgets[form]||!window.turnstile)return;
+    var holder=document.createElement('div');holder.style.display='none';form.appendChild(holder);
+    turnstileWidgets[form]=window.turnstile.render(holder,{sitekey:TURNSTILE_SITE_KEY,size:'invisible'});
+  }
+  var allNewsletterForms=document.querySelectorAll('form.newsletter-form');
+  if(allNewsletterForms.length&&TURNSTILE_SITE_KEY.indexOf('REPLACE_WITH')!==0){
+    loadTurnstileScript(function(){allNewsletterForms.forEach(renderTurnstile);});
+  }
+  document.querySelectorAll('form.newsletter-form').forEach(function(form){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var city=form.getAttribute('data-city')||'barranquilla';
+      var source=form.getAttribute('data-source')||'homepage';
+      var input=form.querySelector('input[type="email"]');
+      var btn=form.querySelector('button[type="submit"]');
+      var status=form.querySelector('[role="status"]');
+      var email=(input&&input.value||'').trim();
+      var widgetId=turnstileWidgets[form];
+      var turnstileToken=(widgetId!=null&&window.turnstile)?window.turnstile.getResponse(widgetId):'';
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){if(status){status.textContent='Please enter a valid email address.';status.className='nl-note err';}return;}
+      var origBtn=btn?btn.textContent:'';
+      if(btn){btn.textContent='Subscribing…';btn.disabled=true;}
+      fetch('https://newsletter.norteconexion.com/subscribe',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({email:email,city:city,source:source,turnstile_token:turnstileToken})})
+        .then(function(r){return r.json().then(function(b){return{ok:r.ok&&b.ok!==false,body:b};});})
+        .then(function(res){
+          if(res.ok){
+            var msg=res.body&&res.body.state==='already_confirmed'?"You're already subscribed. Thanks!":'Check your inbox to confirm.';
+            if(btn){btn.textContent='Subscribed ✓';}
+            if(input)input.value='';
+            if(status){status.textContent=msg;status.className='nl-note ok';}
+          } else {
+            if(btn){btn.textContent=origBtn||'Subscribe';btn.disabled=false;}
+            if(status){status.textContent='Something went wrong. Please try again.';status.className='nl-note err';}
+          }
+        })
+        .catch(function(){
+          if(btn){btn.textContent=origBtn||'Subscribe';btn.disabled=false;}
+          if(status){status.textContent='Network error. Please try again.';status.className='nl-note err';}
+        });
+    });
+  });
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script>
+/* Language toggle EN/ES (mirrors medellin.guide). Inlined here because
+   this page doesn't load /js/main.js. */
+(function(){
+  var html=document.documentElement;
+  var qs;try{qs=new URLSearchParams(location.search);}catch(e){qs=null;}
+  var picked=qs&&qs.get('lang');
+  if(!picked){try{picked=localStorage.getItem('bgg_lang');}catch(e){}}
+  if(!picked){var nav=(navigator.language||'en').toLowerCase();picked=nav.indexOf('es')===0?'es':'en';}
+  if(picked!=='es')picked='en';apply(picked);
+  function apply(l){
+    html.classList.remove('lang-en','lang-es');
+    html.classList.add('lang-'+l);
+    html.setAttribute('lang',l);
+    try{localStorage.setItem('bgg_lang',l);}catch(e){}
+    document.querySelectorAll('title[data-lang]').forEach(function(t){if(t.getAttribute('data-lang')===l)document.title=t.textContent;});
+  }
+  document.querySelectorAll('.pb-langtog a').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      var l=a.getAttribute('data-l');
+      apply(l);
+      try{var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u.toString());}catch(err){}
+    });
+  });
+})();
+</script>
+<script src="/js/post.js?v=20260721a" defer></script>
+<script>
+/* Top-bar search → Catalina (2026-05-29). Inlined on homepage because this
+   page does not load /js/main.js where the shared copy lives. */
+window.pbAskCatalina = function (e) {
+  if (e && e.preventDefault) e.preventDefault();
+  var form = e && e.target ? e.target : null;
+  var input = form ? form.querySelector('input[name="q"]') : null;
+  var q = input && input.value ? input.value.trim() : '';
+  if (!q) { if (input) input.focus(); return false; }
+  function fire(tries){
+    var ci = document.querySelector('#catInput');
+    var cs = document.querySelector('#catSend');
+    if (!ci || !cs) { if (tries < 25) setTimeout(function(){fire(tries+1);}, 120); return; }
+    ci.value = q;
+    try { ci.dispatchEvent(new Event('input', { bubbles: true })); } catch(_){}
+    try { cs.disabled = false; } catch(_){}
+    setTimeout(function(){ try { cs.click(); } catch(_){} }, 60);
+  }
+  var launcher = document.querySelector('.cat-launcher');
+  if (launcher) { launcher.click(); }
+  setTimeout(function(){ fire(0); }, 220);
+  if (input) input.value = '';
+  return false;
+};
+(function(){
+  var ip = document.querySelector('.pb-search input[name="q"]');
+  if (!ip) return;
+  function setPh(){
+    var l = document.documentElement.classList.contains('lang-es') ? 'es' : 'en';
+    var ph = ip.getAttribute('data-ph-' + l);
+    if (ph) ip.setAttribute('placeholder', ph);
+  }
+  setPh();
+  document.querySelectorAll('.pb-langtog a').forEach(function(a){
+    a.addEventListener('click', function(){ setTimeout(setPh, 30); });
+  });
+})();
+</script>
+</body>
+</html>

@@ -3,6 +3,33 @@
 Append-only log of `nightly-guide-audit` (Watchman) runs. Newest first.
 See `AUDIT-CHECKLIST.md` (in medellin-guide) for the 15 sections.
 
+## 2026-08-10 — Run 2 (continued audit)
+
+**Sections covered:** 4 (internal linking — structure is different from medellin,
+uses per-article directories not flat guides/), 6 (performance), 8 (accessibility),
+9 (conversion & monetization), 10 (analytics).
+
+**Key findings:** Parallel issues to medellin-guide, but more severe on monetization:
+- **Zero affiliate links site-wide** (0 Viator/Booking/GetYourGuide links)
+- **Zero partner-widget deployment** (infrastructure exists, not used)
+- **91/139 pages with meta titles >60 chars** (highest title-truncation rate of
+  all 3 sites)
+- **33/139 pages with meta descriptions >160 chars**
+- **10 pages missing image width/height** (CLS risk)
+- **GDPR consent: 2 pages only** (97 pages fire GA4 without user consent)
+- **Zero conversion event tracking** (cannot measure what monetization works)
+
+**Specific audit notes:**
+- barranquilla.guide uses per-article directories (article-slug/index.html)
+  rather than flat guides/*.html, so some counts differ from medellin
+- 139 total pages, 111 of which are article pages
+- Affiliate coverage is 0% vs medellin's 23% — this site has no monetization
+  infrastructure deployed at all
+
+**Proposals logged in NEXT-TASKS.md (Run 2 section).**
+
+---
+
 ## 2026-08-08 — Run 1 (first Watchman run)
 
 **Sections covered:** 1 (technical SEO/crawlability), 2 (on-page SEO), 3 (content

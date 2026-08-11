@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="Who writes Barranquilla Guide, how it's researched, and why it exists - a practical, opinionated, no-listicle guide to Colombia's Caribbean capital." name="description"/>
+<meta data-lang="es" content="Quién escribe Barranquilla Guide, cómo se investiga, y por qué existe: una guía práctica y con opinión sobre la capital caribeña de Colombia, sin listas genéricas." name="description"/>
+<link href="https://barranquilla.guide/about/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="About - Barranquilla Guide" property="og:title"/>
+<meta content="Who writes Barranquilla Guide, how it's researched, and why it exists - a practical, opinionated, no-listicle guide to Colombia's Caribbean capital." property="og:description"/>
+<meta content="https://barranquilla.guide/about/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/og-carnival1.webp" property="og:image"/>
+<meta content="https://barranquilla.guide/img/og-carnival1.webp" property="og:image:secure_url"/>
+<meta content="image/webp" property="og:image:type"/>
+<meta content="1280" property="og:image:width"/>
+<meta content="853" property="og:image:height"/>
+<meta content="About - Barranquilla Guide" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/og-carnival1.webp" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2026-04-21T20:05:26+00:00" property="article:modified_time"/>
+<title data-lang="en">About - Barranquilla Guide</title>
+<title data-lang="es">Acerca de - Barranquilla Guide</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<style>
+.page-article .article-header,
+.page-article .article-body { max-width: 1200px; }
+</style>
+<div style="padding-top: var(--nav-height);"></div>
+<article class="single-article page-article">
+<header class="article-header">
+<h1><span class="pb-en">About</span><span class="pb-es">Acerca de</span></h1>
+</header>
+<div class="article-body" data-lang="en">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p>Barranquilla Guide is the insider guide to Colombia’s most underestimated city, written for visitors, expats, and anyone seriously considering the move. No listicles, no affiliate-stuffed travel-blog fluff. The stuff that actually helps you make decisions.</p>
+<h2>Who writes it</h2>
+<p>I’m Mike Chartrand, a Canadian living in Medellín. I spend time in Barranquilla regularly and run this guide with Santiago Santos, a paisa partner based in Medellín. Some pages are written by Paulette Romero, a Barranquilla-based contributor. The byline on each guide shows who wrote it. When something hasn’t been personally verified by the author, we say so.</p>
+<h2>How the guides are made</h2>
+<ul>
+<li><strong>Neighborhoods</strong> are written after spending real time in each one, not from a desk in another city.</li>
+<li><strong>Prices</strong> (rent, groceries, utilities, healthcare) are re-checked on a quarterly basis and cross-referenced with Numbeo, Expatistan, and Colombian government sources. Every guide shows a “Last updated” date.</li>
+<li><strong>Restaurants and bars</strong> are places I’ve actually eaten and drunk at. If a spot appears on a “best of” list, I’ve been there more than once.</li>
+<li><strong>Medical tourism pages</strong> (dental, plastic surgery) are written conservatively: board-certified clinics only, flagged red-flags, no kickbacks.</li>
+</ul>
+<h2>What Barranquilla Guide isn’t</h2>
+<ul>
+<li>Not a tourism board. Nothing here is paid placement unless it’s labeled as such.</li>
+<li>Not a news site. For breaking local news, read El Heraldo and Zona Cero.</li>
+<li>Not a forum. For community questions, <a href="https://www.facebook.com/groups/visitbarranquilla">join the Facebook group</a> or the WhatsApp community.</li>
+</ul>
+<h2>Editorial standards</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situaci&oacute;n es &uacute;nica. Preg&uacute;ntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las gu&iacute;as, los lugares, los precios, las visas y a las personas. Cu&eacute;ntale tu situaci&oacute;n y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Preg&uacute;ntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Corrections are welcome and get fixed publicly. If you see something wrong, a price that’s out of date, a restaurant that closed, a visa rule that changed, email me via the <a href="/contact/">Contact page</a> and I’ll update it.</p>
+<h2>How this site makes money</h2>
+<p>A small number of affiliate links (mainly Booking.com, Viator, and GetYourGuide, always disclosed at the point of linking), and helping local businesses build a website and online presence through our sister project, Norte Conexión. See the <a href="/advertise/">Advertise</a> page for details. Editorial content is never influenced by any of these.</p>
+<h2>Want to get in touch?</h2>
+<ul>
+<li><strong>Tips, corrections, story ideas:</strong> <a href="/contact/">Contact form</a></li>
+<li><strong>Advertising, partnerships:</strong> <a href="/advertise/">Advertise with us</a></li>
+<li><strong>Community:</strong> <a href="https://www.facebook.com/groups/visitbarranquilla">Facebook group</a> · <a href="https://www.instagram.com/barranquilla.guide/">Instagram</a></li>
+</ul>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p>Barranquilla Guide es la gu&iacute;a de insiders para la ciudad m&aacute;s subestimada de Colombia, escrita para visitantes, expatriados y cualquiera que est&eacute; considerando seriamente el cambio. Sin listas de clickbait, sin el relleno t&iacute;pico de blogs de viajes llenos de links de afiliaci&oacute;n. Lo que realmente te ayuda a tomar decisiones.</p>
+<h2>Qui&eacute;n lo escribe</h2>
+<p>Soy Mike Chartrand, canadiense viviendo en Medell&iacute;n. Paso tiempo en Barranquilla regularmente y dirijo esta gu&iacute;a con Santiago Santos, socio paisa radicado en Medell&iacute;n. Algunas p&aacute;ginas est&aacute;n escritas por Paulette Romero, colaboradora con base en Barranquilla. El autor de cada gu&iacute;a aparece en el encabezado. Cuando algo no ha sido verificado personalmente por el autor, lo decimos claramente.</p>
+<h2>C&oacute;mo se hacen las gu&iacute;as</h2>
+<ul>
+<li><strong>Barrios</strong> se escriben despu&eacute;s de pasar tiempo real en cada uno, no desde un escritorio en otra ciudad.</li>
+<li><strong>Precios</strong> (arriendo, groceries, servicios, salud) se revisan trimestralmente y se contrastan con Numbeo, Expatistan y fuentes del gobierno colombiano. Cada gu&iacute;a muestra una fecha de &ldquo;&Uacute;ltima actualizaci&oacute;n&rdquo;.</li>
+<li><strong>Restaurantes y bares</strong> son lugares donde he comido y tomado realmente. Si un lugar aparece en una lista de &ldquo;mejores&rdquo;, he estado all&aacute; m&aacute;s de una vez.</li>
+<li><strong>P&aacute;ginas de turismo m&eacute;dico</strong> (odontolog&iacute;a, cirug&iacute;a pl&aacute;stica) se escriben con criterio: solo cl&iacute;nicas certificadas, banderas rojas marcadas, sin kickbacks.</li>
+</ul>
+<h2>Qu&eacute; Barranquilla Guide NO es</h2>
+<ul>
+<li>No es junta de turismo. Nada aqu&iacute; es paid placement a menos que est&eacute; etiquetado como tal.</li>
+<li>No es un sitio de noticias. Para noticias locales de &uacute;ltima hora, lee El Heraldo y Zona Cero.</li>
+<li>No es un foro. Para preguntas de la comunidad, <a href="https://www.facebook.com/groups/visitbarranquilla">únete al grupo de Facebook</a> o a la comunidad de WhatsApp.</li>
+</ul>
+<h2>Est&aacute;ndares editorial</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situaci&oacute;n es &uacute;nica. Preg&uacute;ntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las gu&iacute;as, los lugares, los precios, las visas y a las personas. Cu&eacute;ntale tu situaci&oacute;n y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Preg&uacute;ntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Las correcciones son bienvenidas y se corrigen p&uacute;blicamente. Si ves algo incorrecto, un precio desactualizado, un restaurante que cerr&oacute;, una regla de visa que cambi&oacute;, escr&iacute;beme por la <a href="/contact/">p&aacute;gina de Contacto</a> y lo actualizar&eacute;.</p>
+<h2>C&oacute;mo este sitio gana dinero</h2>
+<p>Un peque&ntilde;o n&uacute;mero de enlaces de afiliaci&oacute;n (principalmente Booking.com, Viator y GetYourGuide, siempre revelados en el punto de enlace), y ayudar a negocios locales a construir un sitio web y presencia en l&iacute;nea a trav&eacute;s de nuestro proyecto hermano, Norte Conexi&oacute;n. Ver la p&aacute;gina de <a href="/advertise/">Publicidad</a> para m&aacute;s detalles. El contenido editorial nunca es influenciado por ninguno de estos.</p>
+<h2>&iquest;Quieres ponerte en contacto?</h2>
+<ul>
+<li><strong>Tips, correcciones, ideas de historias:</strong> <a href="/contact/">Formulario de contacto</a></li>
+<li><strong>Publicidad, asociaciones:</strong> <a href="/advertise/">Pub&iacute;cate con nosotros</a></li>
+<li><strong>Comunidad:</strong> <a href="https://www.facebook.com/groups/visitbarranquilla">Grupo de Facebook</a> · <a href="https://www.instagram.com/barranquilla.guide/">Instagram</a></li>
+</ul>
+</div><!-- .article-body es -->
+</article><!-- newsletter-prefoot:v1 -->
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading"><span class="pb-en">Get the guide in your inbox</span><span class="pb-es">Recibe la guía en tu correo</span></h2>
+<p class="email-capture-desc"><span class="pb-en">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</span><span class="pb-es">Cada semana: recomendaciones, guías nuevas y lo que vale la pena saber de Barranquilla. Sin ruido, sin feed de noticias. Solo lo útil.</span></p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" data-ph-en="Your email address" data-ph-es="Tu correo electrónico" required="" type="email"/>
+<button class="email-capture-submit" type="submit"><span class="pb-en">Subscribe</span><span class="pb-es">Suscribirme</span></button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status"><span class="pb-en">Weekly. Unsubscribe any time.</span><span class="pb-es">Semanal. Cancela cuando quieras.</span></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script src="/js/post.js?v=20260721a" defer></script>
+</body>
+</html>

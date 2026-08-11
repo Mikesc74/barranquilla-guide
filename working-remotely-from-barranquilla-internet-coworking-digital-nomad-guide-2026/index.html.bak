@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="Working remotely from Barranquilla: internet speeds, the best coworking spots, visa options, and what digital nomad life is actually like in the city." name="description"/>
+<meta data-lang="es" content="Trabajar remotamente desde Barranquilla: velocidades de internet, los mejores espacios de coworking, opciones de visa, y cómo es realmente la vida de nómada digital en la ciudad." name="description"/>
+<link href="https://barranquilla.guide/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="Working Remotely in Barranquilla: The Digital Nomad Guide (2026) - Barranquilla Guide" property="og:title"/>
+<meta content="Working remotely from Barranquilla: internet speeds, the best coworking spots, visa options, and what digital nomad life is actually like in the city." property="og:description"/>
+<meta content="https://barranquilla.guide/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/heroes/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026.jpg" property="og:image"/>
+<meta content="https://barranquilla.guide/img/heroes/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026.jpg" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Digital nomads working on laptops in a sunny coffee shop in Barranquilla" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/heroes/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026.jpg" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2026-04-08T22:17:05+00:00" property="article:published_time"/>
+<meta content="2026-04-23T06:07:47+00:00" property="article:modified_time"/>
+<title data-lang="en">Working Remotely in Barranquilla: The Digital Nomad Guide (2026) - Barranquilla Guide</title>
+<title data-lang="es">Trabajar Remotamente en Barranquilla: La Guía del Nómada Digital (2026) - Barranquilla Guide</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/working-remotely-cafe-laptops-barranquilla.webp" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<article class="single-article">
+<!-- Hero Image -->
+<div class="article-hero">
+<div class="article-hero-image">
+<img alt="Working Remotely in Barranquilla: The Digital Nomad Guide (2026)" decoding="async" fetchpriority="high" height="630" loading="eager" src="/img/heroes/working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026.jpg" width="1200"/> </div>
+</div>
+<!-- Article Header -->
+<header class="article-header">
+<span class="label"><span class="pb-en">Day to Day</span><span class="pb-es">Día a día</span></span>
+<h1><span class="pb-en">Working Remotely in Barranquilla: The Digital Nomad Guide (2026)</span><span class="pb-es">Trabajar de forma remota en Barranquilla: Guía del nómada digital (2026)</span></h1>
+<div class="article-header-meta">
+<div class="article-author-img">
+<img alt="Mike Chartrand" decoding="async" height="80" loading="lazy" src="/img/team/mike.jpg" width="80"/> </div>
+<div>
+<div class="article-author-name">Mike Chartrand</div>
+<div class="article-date">
+          April 8, 2026, Updated April 23, 2026 · 3 min read        </div>
+</div>
+</div>
+</header><!-- .article-header -->
+<!-- Ad slot: below headline, above content -->
+<div class="content-narrow">
+</div>
+<!-- Article Body -->
+<div class="article-body" data-lang="en">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Working Remotely from Barranquilla: Internet, Coworking, Digital Nomad Guide (2026)
+     Slug: /working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/
+     Post ID: 2689
+--></p>
+<p class="guide-intro"><em>Last updated: April 2026. Barranquilla is a credible base for remote work: US-Eastern time zone with no daylight-saving shifts, gigabit fiber available citywide, a growing coworking scene, and living costs 30 to 50% below Medellín or Cartagena at similar quality. It’s not the established nomad hub that Medellín is, the trade-off is fewer other foreigners, warmer prices, and the sense of being in a real working city rather than a nomad bubble. This guide covers the logistics: internet, power, coworking, cafés, time zones, taxes, and the Digital Nomad visa you’ll want if you stay past six months. For a broader look at the city beyond the desk, see <a href="/everything-you-need-to-know-about-barranquilla/">everything you need to know about Barranquilla</a>.</em></p>
+
+<h2 id="why-barranquilla">Why Barranquilla for remote work</h2>
+<p>Practical reasons Barranquilla works well for remote workers serving US or European employers:</p>
+<ul>
+<li><strong>Time zone</strong>: Colombia Time (<strong>COT, UTC−5</strong>), same as US Eastern Time from November to March and an hour ahead of it from March to November (Colombia does not observe daylight saving). For anyone working with US East Coast or European clients, scheduling is straightforward.</li>
+<li><strong>Internet</strong>: gigabit symmetric fiber available across the north and west of the city; speeds, reliability, and pricing discussed below.</li>
+<li><strong>Cost</strong>: a comfortable remote-work setup, apartment in Alto Prado or Villa Country with fiber, a coworking day-pass, and transport, runs USD 1,200 to 2,000/month, well under Medellín or Mexico City. See our <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">cost of living breakdown</a>.</li>
+<li><strong>Climate</strong>: consistent year-round. No winter coats, no weather-induced sick days. The downside is heat (see the air-conditioning note below).</li>
+<li><strong>Legal path</strong>: the <strong>M, Nómada Digital</strong> visa lets you live here properly for up to 2 years and counts toward residency. See our <a href="/visas-colombia-barranquilla/">visa guide</a> for full requirements.</li>
+</ul>
+<h2 id="internet">Home internet, fiber providers and real speeds</h2>
+<p>Barranquilla’s home-internet market is dominated by fiber (FTTH). The major providers:</p>
+<ul>
+<li><strong>Claro Hogar</strong>, largest network, most reliable on the Coast. Fiber plans from 200 Mbps to 1 Gbps; symmetric on higher tiers. 2026 retail pricing: 500/500 Mbps ~ COP 100 to 130k/month, 1 Gbps ~ COP 150 to 180k. Bundled with TV and landline for ~COP 40k more.</li>
+<li><strong>Tigo UNE</strong>, strong second. Similar plans, sometimes cheaper promos. 600/600 Mbps often around COP 90 to 120k.</li>
+<li><strong>Movistar</strong>, present but less common; prices similar to Tigo.</li>
+<li><strong>ETB</strong>, national but limited Barranquilla footprint.</li>
+<li><strong>WOM</strong>, fixed wireless and some fiber; growing but patchy.</li>
+</ul>
+<p><strong>Real-world performance</strong>: on Claro or Tigo fiber in Alto Prado, Villa Country, Villa Santos, Riomar, or El Prado you should see the advertised speeds almost 24/7, sub-20 ms ping to Miami, and &lt;1% packet loss. The limiting factor is usually the Wi-Fi router the provider hands you, not the line - upgrade to a decent mesh (TP-Link Deco, Asus ZenWiFi, Eero) if you'll be on video calls.</p>
+<p><strong>What about older buildings in El Prado</strong>? Most have been retrofitted with fiber over the last five years, but a handful of old Republican-era edificios still have only Claro Hogar’s hybrid-fiber-coax. Ask the portero or a neighbor what’s installed before signing a lease.</p>
+<p><strong>Installation</strong>: 3 to 10 business days from signup for new connections. Requires a CE or cédula. If you’re on a tourist stay, use the apartment’s existing line (most furnished Airbnbs include it) or mobile hotspot.</p>
+<h2 id="backup-connectivity">Backup connectivity, and why you want it</h2>
+<p>Fiber in Barranquilla is reliable, but the city has two real failure modes:</p>
+<ul>
+<li><strong>Power cuts</strong>. Air-e, the regional electricity distributor, has had a rough reliability record over the past few years. Scheduled outages are announced; unscheduled ones happen, particularly during the rainy season (October-November). A typical outage lasts 30 minutes to 2 hours.</li>
+<li><strong>Physical line cuts</strong>. Construction or weather can knock a fiber drop out; typical repair is same-day or next-morning.</li>
+</ul>
+<p>Backup setup for serious remote workers:</p>
+<ul>
+<li><strong>Mobile hotspot</strong>: keep a <strong>Claro or Tigo</strong> prepaid SIM in a spare phone with 50+ GB of data (COP 60 to 90k/month). Claro has the best 4G/5G coverage on the Coast.</li>
+<li><strong>UPS for your router + modem + one monitor</strong>: a COP 400 to 700k UPS from Home Center or Falabella gives you 30 to 60 minutes to finish a call during an outage and safely save open work. Critical for avoiding router-corruption reboots.</li>
+<li><strong>Two-ISP redundancy (optional, excellent)</strong>: run Claro + Tigo simultaneously on a dual-WAN router. Around COP 250k/month total and you essentially never lose connectivity.</li>
+<li><strong>Generators</strong>: in premium buildings in Villa Santos and Altos del Limón the building has one and you don’t notice outages. Ask before leasing.</li>
+</ul>
+<h2 id="power">Power, voltage, and the AC question</h2>
+<p>Colombia runs on <strong>110V / 60Hz</strong>, same as the US. US plugs fit directly. European and UK travelers need a cheap adapter.</p>
+<p>Barranquilla is <strong>hot and humid</strong> year-round, the daily high is 31 to 33°C (88 to 91°F) nearly every day, with 70 to 85% humidity. You can live without air conditioning, but working from a warm apartment in the afternoon is genuinely unpleasant and productivity-eroding. Budget:</p>
+<ul>
+<li><strong>Air conditioning</strong>: one split unit in your workspace, ideally inverter, runs 6 to 10 hours a day. Expect COP 150 to 350k/month added to electricity bills, the single largest component of utilities on the Coast. See the utilities section of our <a href="/housing-renting-barranquilla/">housing guide</a>.</li>
+<li><strong>A ceiling fan</strong>: essential second-best for the rest of the apartment.</li>
+<li><strong>An enclosed balcony</strong> (<em>ventana cerrada</em>) or a shaded west-facing window: can make a 3 to 5°C difference.</li>
+</ul>
+<p>Apartments marketed to expats in the northern neighborhoods usually come with at least one A/C in the main bedroom; verify in the listing.</p>
+<h2 id="time-zone">Time zone advantages</h2>
+<p>Colombia is COT (UTC−5) <strong>all year</strong>. Practical implications:</p>
+<ul>
+<li><strong>Same as US Eastern Time</strong> from <strong>early November to mid-March</strong> (when the US is on EST).</li>
+<li><strong>One hour behind US Eastern</strong> from <strong>mid-March to early November</strong> (US on EDT). Your 9 am is their 10 am.</li>
+<li>Always one hour behind US Central when CT is on DST, same as CT when on standard.</li>
+<li><strong>UTC−5 year-round</strong> means UK/Europe is 5 to 6 hours ahead. A 2 pm Barranquilla call is a 7 to 8 pm London call.</li>
+<li>Same zone as Lima, Panama City, Quito, Kingston, New York (in winter).</li>
+</ul>
+<p>If you work with US teams: easy. If you work with European teams: earlier starts. If you work with Asian teams: grim, but this is true anywhere in the Americas.</p>
+<h2 id="coworking">Coworking spaces in Barranquilla</h2>
+<p>Barranquilla’s coworking scene is smaller than Medellín’s but has grown substantially since 2022. The main options:</p>
+<ul>
+<li><strong>Atom House</strong>, Villa Country. One of the city’s oldest coworkings; good Wi-Fi, hot desks, meeting rooms, decent coffee. Community skews Colombian founders and freelancers.</li>
+<li><strong>Utopia Coworking</strong>, Villa Country / Alto Prado area. Modern, quiet, strong Wi-Fi, dedicated desks available.</li>
+<li><strong>WeWork-adjacent / corporate</strong>: WeWork itself does not operate in Barranquilla as of 2026. The nearest big-brand alternative is in the corporate centers along Calle 76 and Calle 84.</li>
+<li><strong>IMPACT Hub Barranquilla</strong>, social-impact-oriented coworking, events and community as much as workspace.</li>
+<li><strong>Más Coworking / Casa Ventura</strong>, newer, neighborhood scale.</li>
+<li><strong>Mall and hotel business centers</strong>, Buenavista, Viva Barranquilla, Hotel El Prado’s business center, and Hyatt Place all have day-use workspaces for non-guests; decent backup if your fiber goes down.</li>
+</ul>
+<p><strong>Typical pricing (2026)</strong>: hot desk day pass COP 35 to 60k (USD 9 to 15), monthly unlimited hot desk COP 450 to 750k (USD 113 to 188), dedicated desk COP 700k-1.2M (USD 175 to 300), private office from COP 1.5M. Almost all include meeting-room allowance, espresso, printing.</p>
+<p>See our dedicated <a href="/best-coworking-spaces-barranquilla/">coworking spaces guide</a> for current reviews and amenities detail.</p>
+<h2 id="cafes">Cafés that actually work for laptop hours</h2>
+<p>Latin coffee culture doesn’t always love the 4-hour laptop sit, but Barranquilla has a handful of reliably laptop-friendly spots:</p>
+<ul>
+<li><strong>Juan Valdez Café</strong>, the chain. Wi-Fi, outlets, respectable cold brew, AC. Villa Country, Alto Prado, Buenavista mall locations are the best for work.</li>
+<li><strong>Tostao’ Café &amp; Pan</strong>, cheap and widely available, Wi-Fi works, outlets limited.</li>
+<li><strong>OMA Café</strong>, Colombian chain; similar to Juan Valdez.</li>
+<li><strong>Starbucks (Buenavista, Villa Country)</strong>, dependable.</li>
+<li><strong>Independent cafés in El Prado and Villa Country</strong>: a rotating crop, ask a local coworker for the current favorites, which change every six months.</li>
+</ul>
+<p>For 2 to 3 hour sessions with a video call in your headphones: any of the above. For a full workday: coworking is better; you’ll stop getting glared at for ordering one cortado and opening Figma.</p>
+<h2 id="digital-nomad-visa">The Digital Nomad visa, do you need it?</h2>
+<p>Colombia’s <strong>M, Nómada Digital</strong> visa is a proper migrant-category visa for remote workers and freelancers with foreign income. If you’re staying <strong>more than 6 months</strong> in any 12-month period, you effectively need it, because the tourist-permit annual cap is 180 days and the 183-day threshold triggers tax residency.</p>
+<ul>
+<li><strong>Income floor</strong>: 3× the Colombian minimum wage, ~USD 1,068/month in 2026.</li>
+<li><strong>Work rights</strong>: serve foreign clients or employers. You cannot take a job with a Colombian employer on this visa, that’s a different category.</li>
+<li><strong>Duration</strong>: up to 2 years, renewable. Counts toward R visa (residency).</li>
+<li><strong>Application</strong>: online through the Cancillería portal. Typical decision 5 to 30 business days.</li>
+<li><strong>Fees</strong>: ~USD 54 study + ~USD 177 issuance.</li>
+</ul>
+<p>Full requirements, documentation, and common mistakes: our <a href="/visas-colombia-barranquilla/">Colombia visa guide</a>.</p>
+<h2 id="taxes">Tax residency, the 183-day rule</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situaci&oacute;n es &uacute;nica. Preg&uacute;ntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las gu&iacute;as, los lugares, los precios, las visas y a las personas. Cu&eacute;ntale tu situaci&oacute;n y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Preg&uacute;ntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Physical presence in Colombia for more than <strong>183 days in any rolling 365-day period</strong> makes you a Colombian <strong>tax resident</strong>, liable to tax on worldwide income. Key 2026 points for remote workers:</p>
+<ul>
+<li>Colombia does <strong>not</strong> have a double-taxation treaty with the <strong>United States</strong>. US citizens can end up filing both jurisdictions, mitigated by the IRS Foreign Earned Income Exclusion (~USD 126,500 indexed) and foreign tax credits.</li>
+<li>Colombia does have treaties with the UK, Canada, Spain, France, Chile, Mexico, Italy, Switzerland, Portugal, Japan, South Korea, and several others.</li>
+<li>Top marginal personal income tax in Colombia is around 39%. Favorable brackets apply below ~USD 30k/year.</li>
+<li>Capital gains: generally 15%.</li>
+<li>Filing runs August-October each year with due dates by the last two digits of your tax ID.</li>
+</ul>
+<p>If you’ll spend close to or over the 183-day threshold, engage a Colombian <em>contador público</em> before year-end. Not tax advice, get a professional. See the tax section of our <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">banking guide</a>.</p>
+<h2 id="setup-checklist">Setup checklist for a month or more</h2>
+<ol>
+<li>Pick a neighborhood with solid fiber presence and workspace nearby, Alto Prado, Villa Country, Villa Santos, or Riomar. Our <a href="/barranquilla-neighborhoods/">neighborhoods guide</a>.</li>
+<li>Confirm the apartment has A/C in the workspace room.</li>
+<li>Install or confirm fiber internet, Claro or Tigo, 500 Mbps+ if you’re on video calls.</li>
+<li>Backup SIM with 50 GB+ data on the other carrier.</li>
+<li>UPS on the router + modem + at least one monitor.</li>
+<li>Trial a coworking for a week (day passes) before committing to a monthly membership.</li>
+<li>Set up a Colombian bank account (requires CE post-visa), see <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">banking guide</a>.</li>
+<li>Register with Migración Colombia within 15 days if you received a visa, and get your CE.</li>
+<li>If you’ll be here 6+ months, start the Nómada Digital application before your tourist permit expires.</li>
+</ol>
+<h2 id="community">Finding community</h2>
+<p>Barranquilla’s nomad scene is smaller than Medellín’s, that’s both the charm and the challenge. Where to find it:</p>
+<ul>
+<li><strong>Facebook: “Expats in Barranquilla”</strong> and “Barranquilla, Americans &amp; Canadians” are the two main groups; someone posts a meetup most weeks.</li>
+<li><strong>Coworking events</strong>: Atom House, Utopia, and IMPACT Hub all run regular meetups.</li>
+<li><strong>Dance classes and language exchanges</strong>: the fastest route into a mixed local-expat social circle. See our <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">dancing guide</a> and <a href="/study-spanish-in-barranquilla/">Spanish study guide</a>.</li>
+<li><strong>Startup Grind Barranquilla</strong> and <strong>TechHub BAQ</strong>: if you’re in tech or building something, these meetups are the easiest founder-to-founder door in.</li>
+<li><strong>University del Norte events</strong>: public lectures, entrepreneurship events, a steady stream of interesting talks.</li>
+</ul>
+<p>More on building a social circle: our <a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">expat networking guide</a>.</p>
+<h2 id="vs-other-cities">Barranquilla vs Medellín vs Bogotá for remote work</h2>
+<p>Short version: pick the city before you pick the apartment. Full comparison in our <a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/">three-city comparison</a>. Quick frame for remote work specifically:</p>
+<ul>
+<li><strong>Medellín</strong>: deepest nomad community, best weather (1,500 m altitude, 20°C year-round), more coworking options, priciest. Can feel like an expat bubble if you want that, or oppressive if you don’t.</li>
+<li><strong>Bogotá</strong>: biggest economy and talent pool; corporate capital; cool at 2,640 m. More traffic and grayer weather. Good if you want a proper metro and business gravitas.</li>
+<li><strong>Barranquilla</strong>: cheapest of the three with comparable fiber, warmest climate (literally), fewer expats, strongest Caribbean culture, and Carnaval. Good if you want to live in a city that isn’t shaped by tourism.</li>
+</ul>
+<h2 id="common-issues">Common issues and how to handle them</h2>
+<ul>
+<li><strong>Power cut during a call</strong>: UPS keeps the call alive; your hotspot SIM takes over if the outage lasts. Keep a backup laptop charged.</li>
+<li><strong>Fiber outage</strong>: switch to the hotspot; call the ISP (Claro #611, Tigo #210) to log a ticket. Typical repair &lt;24 h.</li>
+<li><strong>Heat-induced laptop throttle</strong>: keep the laptop off fabric, on a stand, in the AC room. If it’s still throttling, service the fans or underclock.</li>
+<li><strong>Background noise</strong>: Colombian neighborhoods can be loud (music, vendors, construction). Noise-cancelling headphones are the single best remote-work purchase you’ll make here. Sony WH-1000XM5 and Apple AirPods Max both work well. Consider apartment soundproofing, thick curtains, rugs, and double-glazed windows where possible.</li>
+<li><strong>Holiday scheduling</strong>: Colombia has many public holidays (18 to 20 a year). Government and banks close; your ISP support desk still runs. Schedule client calls with Colombian calendar awareness.</li>
+</ul>
+<h2 id="tools">Tools worth installing day one</h2>
+<ul>
+<li><strong>Wise / Revolut</strong>: cheapest FX for getting paid into COP or receiving USD.</li>
+<li><strong>Nequi</strong>: Colombian P2P payments and QR code merchants.</li>
+<li><strong>Rappi</strong>: food/groceries/pharmacy delivery.</li>
+<li><strong>Uber, DiDi, InDriver</strong>: transport.</li>
+<li><strong>WhatsApp Business</strong>: if you freelance locally, this is how Colombian clients will message you.</li>
+<li><strong>Speedtest by Ookla</strong>: for troubleshooting ISP promises vs reality.</li>
+<li><strong>Fing</strong>: home Wi-Fi diagnosis.</li>
+<li><strong>1Password or Bitwarden</strong>: secure your passwords across devices, especially if you travel regularly.</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<p><strong>Is the internet good enough for video calls all day?</strong> Yes, on fiber. Two simultaneous 1080p calls plus screen-sharing on a 500/500 Mbps line is fine. Wi-Fi router quality is the usual bottleneck.</p>
+<p><strong>Can I work on a tourist permit (PIP/PTP)?</strong> Technically the PIP doesn’t authorize work; in practice, quiet remote work for a foreign employer is tolerated. For long stays, use the Nómada Digital visa.</p>
+<p><strong>How’s 5G coverage?</strong> Growing. Claro and Tigo both have 5G in most of the city’s northern neighborhoods as of 2026; coverage gaps exist in older parts of Centro. 5G speeds of 300 to 600 Mbps are realistic outdoors.</p>
+<p><strong>Do coworking spaces have meeting rooms for video calls?</strong> Yes, all the ones listed above. Typically included in a monthly membership; hot-desk day passes usually include 2 to 4 hours/month.</p>
+<p><strong>Can I invoice a US client in USD from here?</strong> Yes. Best practice: invoice in USD, receive to a US bank (your own) or a Wise account, Wise the money to COP as needed. Keep clean records; DIAN (Colombian tax authority) will care once you trigger residency.</p>
+<p><strong>What about power reliability on the Caribbean coast specifically?</strong> Air-e’s performance has been contentious; the city has faced lengthy outages in previous years, though the situation has gradually improved. UPS + mobile hotspot is not paranoia, it’s standard setup.</p>
+<p><strong>Should I buy or bring a desk and chair?</strong> Bring an ergonomic chair if you can (local selection is decent but inconsistent). Monitors are readily available at Alkosto, Ktronix, or online.</p>
+<p><strong>Is there a strong tech community?</strong> Smaller than Medellín but growing. Colombia Tech, Startup Grind, and university-affiliated groups host regular events. Energy, logistics, and shared-services are Barranquilla’s economic strengths, tech is the growth sector.</p>
+<p><strong>Any issues with US/EU banking while living here?</strong> Tell your bank you’re abroad. Some US banks flag Colombia for money-laundering and require the 30-day notice. Charles Schwab, Chase, Fidelity, and HSBC Expat generally handle Colombia fine.</p>
+<h2 id="further-reading">Further reading on this site</h2>
+<p><a href="/visas-colombia-barranquilla/">Visas, especially the Nómada Digital visa</a><br/>
+<a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of living</a><br/>
+<a href="/housing-renting-barranquilla/">Housing and renting</a><br/>
+<a href="/best-coworking-spaces-barranquilla/">Coworking spaces, detailed reviews</a><br/>
+<a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking and money</a><br/>
+<a href="/tax-residency-colombia-2026-guide/">Tax residency, the 183-day rule for remote workers</a><br/>
+<a href="/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026/">SIM cards and mobile data</a><br/>
+<a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/">Barranquilla vs Medellín vs Bogotá</a><br/>
+<a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">Building a social circle</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Practical information, not tax or legal advice. Internet pricing, ISP performance, and coworking options change quickly, verify at signup. 2026 SMMLV-based visa thresholds adjust each January. Last review: April 2026.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">Still have questions?</span><span class="pb-es">&iquest;Todav&iacute;a tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</span><span class="pb-es">Catalina es nuestra concierge. Preg&uacute;ntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en ingl&eacute;s o espa&ntilde;ol, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Una pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Working Remotely from Barranquilla: Internet, Coworking, Digital Nomad Guide (2026)
+     Slug: /working-remotely-from-barranquilla-internet-coworking-digital-nomad-guide-2026/
+     Post ID: 2689
+--></p>
+<p class="guide-intro"><em>Actualizado: abril 2026. Barranquilla es una base creíble para trabajar remoto: zona horaria US-Eastern sin cambios de horario de verano, fibra gigabit disponible en toda la ciudad, una escena de coworking en crecimiento, y costos de vida 30 a 50% más bajos que Medellín o Cartagena con calidad similar. No es el hub nómada establecido que es Medellín, el trade-off es menos extranjeros, precios más accesibles, y la sensación de estar en una ciudad trabajadora de verdad en lugar de una burbuja nómada. Esta guía cubre la logística: internet, electricidad, coworking, cafés, zonas horarias, impuestos, y la visa Digital Nomad que querrás si te quedas más de seis meses. Para una mirada más amplia de la ciudad más allá del escritorio, ve <a href="/everything-you-need-to-know-about-barranquilla/">todo lo que necesitas saber sobre Barranquilla</a>.</em></p>
+
+<h2 id="why-barranquilla">Por qué Barranquilla para trabajar remoto</h2>
+<p>Razones prácticas por las que Barranquilla funciona bien para trabajadores remotos que sirven empleadores en US o Europa:</p>
+<ul>
+<li><strong>Zona horaria</strong>: Colombia Time (<strong>COT, UTC−5</strong>), igual a US Eastern Time de noviembre a marzo y una hora adelante de noviembre a marzo (Colombia no observa horario de verano). Para cualquiera que trabaje con clientes de US East Coast o Europa, la programación es directa.</li>
+<li><strong>Internet</strong>: fibra simétrica gigabit disponible en todo el norte y occidente de la ciudad; velocidades, confiabilidad y precios se discuten abajo.</li>
+<li><strong>Costo</strong>: un setup cómodo para trabajo remoto, apartamento en Alto Prado o Villa Country con fibra, un day-pass de coworking, y transporte, cuesta USD 1,200 a 2,000/mes, mucho menos que Medellín o Mexico City. Ve nuestro <a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">desglose del costo de vida</a>.</li>
+<li><strong>Clima</strong>: consistente todo el año. Sin abrigos de invierno, sin días de enfermedad por clima. Lo negativo es el calor (ve la nota sobre aire acondicionado abajo).</li>
+<li><strong>Camino legal</strong>: la visa <strong>M, Nómada Digital</strong> te permite vivir aquí correctamente hasta 2 años y cuenta hacia la residencia. Ve nuestra <a href="/visas-colombia-barranquilla/">guía de visas</a> para requerimientos completos.</li>
+</ul>
+<h2 id="internet">Internet de hogar, proveedores de fibra y velocidades reales</h2>
+<p>El mercado de internet de hogar de Barranquilla está dominado por fibra (FTTH). Los proveedores principales:</p>
+<ul>
+<li><strong>Claro Hogar</strong>, red más grande, más confiable en la Costa. Planes de fibra de 200 Mbps a 1 Gbps; simétricos en tiers superiores. Precios retail 2026: 500/500 Mbps ~ COP 100 a 130k/mes, 1 Gbps ~ COP 150 a 180k. Empaquetado con TV y teléfono por ~COP 40k más.</li>
+<li><strong>Tigo UNE</strong>, segundo fuerte. Planes similares, a veces promos más baratas. 600/600 Mbps frecuentemente alrededor de COP 90 a 120k.</li>
+<li><strong>Movistar</strong>, presente pero menos común; precios similares a Tigo.</li>
+<li><strong>ETB</strong>, nacional pero footprint limitado en Barranquilla.</li>
+<li><strong>WOM</strong>, wireless fijo y algo de fibra; en crecimiento pero desigual.</li>
+</ul>
+<p><strong>Desempeño en el mundo real</strong>: en fibra Claro o Tigo en Alto Prado, Villa Country, Villa Santos, Riomar, o El Prado deberías ver las velocidades anunciadas casi 24/7, ping sub-20 ms a Miami, y &lt;1% pérdida de paquetes. El factor limitante usualmente es el router Wi-Fi que te da el proveedor, no la línea · actualiza a un mesh decente (TP-Link Deco, Asus ZenWiFi, Eero) si estarás en llamadas de video.</p>
+<p><strong>¿Qué hay de los edificios antiguos en El Prado</strong>? La mayoría han sido retrofitteados con fibra en los últimos cinco años, pero un puñado de antiguos edificios de época republicana aún tienen solo coaxial híbrido de Claro Hogar. Pregúntale al portero o a un vecino qué está instalado antes de firmar un contrato de arrendamiento.</p>
+<p><strong>Instalación</strong>: 3 a 10 días hábiles desde el registro para conexiones nuevas. Requiere CE o cédula. Si estás en una estancia turística, usa la línea existente del apartamento (la mayoría de Airbnbs amueblados la incluyen) o hotspot móvil.</p>
+<h2 id="backup-connectivity">Conectividad de respaldo, y por qué la quieres</h2>
+<p>La fibra en Barranquilla es confiable, pero la ciudad tiene dos modos reales de fallo:</p>
+<ul>
+<li><strong>Cortes de luz</strong>. Air-e, el distribuidor de electricidad regional, ha tenido un historial de confiabilidad difícil en los últimos años. Los cortes programados se anuncian; los no programados suceden, particularmente durante la estación lluviosa (octubre-noviembre). Un corte típico dura 30 minutos a 2 horas.</li>
+<li><strong>Cortes de línea física</strong>. La construcción o el clima pueden derribar una caída de fibra; la reparación típica es el mismo día o a la mañana siguiente.</li>
+</ul>
+<p>Setup de respaldo para trabajadores remotos serios:</p>
+<ul>
+<li><strong>Hotspot móvil</strong>: mantén una SIM prepago <strong>Claro o Tigo</strong> en un teléfono de respaldo con 50+ GB de datos (COP 60 a 90k/mes). Claro tiene la mejor cobertura 4G/5G en la Costa.</li>
+<li><strong>UPS para tu router + módem + un monitor</strong>: un UPS de COP 400 a 700k de Home Center o Falabella te da 30 a 60 minutos para terminar una llamada durante un corte y guardar trabajo abierto de forma segura. Crítico para evitar reinicios de corrupción de router.</li>
+<li><strong>Redundancia de dos ISP (opcional, excelente)</strong>: ejecuta Claro + Tigo simultáneamente en un router dual-WAN. Alrededor de COP 250k/mes total y esencialmente nunca pierdes conectividad.</li>
+<li><strong>Generadores</strong>: en edificios premium en Villa Santos y Altos del Limón el edificio tiene uno y no notas los cortes. Pregunta antes de arrendar.</li>
+</ul>
+<h2 id="power">Electricidad, voltaje, y la pregunta del aire acondicionado</h2>
+<p>Colombia corre en <strong>110V / 60Hz</strong>, igual que US. Los plugs US caben directamente. Los viajeros europeos y británicos necesitan un adaptador barato.</p>
+<p>Barranquilla es <strong>caliente y húmeda</strong> todo el año, la máxima diaria es 31 a 33°C (88 a 91°F) casi todos los días, con 70 a 85% de humedad. Puedes vivir sin aire acondicionado, pero trabajar desde un apartamento cálido en la tarde es genuinamente desagradable y erosiona la productividad. Presupuesta:</p>
+<ul>
+<li><strong>Aire acondicionado</strong>: una unidad split en tu espacio de trabajo, idealmente inverter, corre 6 a 10 horas al día. Espera COP 150 a 350k/mes agregados a las facturas de electricidad, el componente más grande de servicios en la Costa. Ve la sección de servicios públicos de nuestra <a href="/housing-renting-barranquilla/">guía de vivienda</a>.</li>
+<li><strong>Un ventilador de techo</strong>: esencial segunda opción para el resto del apartamento.</li>
+<li><strong>Un balcón cerrado</strong> (<em>ventana cerrada</em>) o una ventana orientada al oeste con sombra: puede hacer una diferencia de 3 a 5°C.</li>
+</ul>
+<p>Los apartamentos comercializados a expats en los barrios del norte usualmente vienen con al menos un A/C en el dormitorio principal; verifica en el listado.</p>
+<h2 id="time-zone">Ventajas de la zona horaria</h2>
+<p>Colombia es COT (UTC−5) <strong>todo el año</strong>. Implicaciones prácticas:</p>
+<ul>
+<li><strong>Igual a US Eastern Time</strong> de <strong>principios de noviembre a mediados de marzo</strong> (cuando US está en EST).</li>
+<li><strong>Una hora atrás de US Eastern</strong> de <strong>mediados de marzo a principios de noviembre</strong> (US en EDT). Tu 9 am es su 10 am.</li>
+<li>Siempre una hora atrás de US Central cuando CT está en DST, igual a CT cuando está en standard.</li>
+<li><strong>UTC−5 todo el año</strong> significa UK/Europa está 5 a 6 horas adelante. Una llamada de 2 pm de Barranquilla es una llamada de 7 a 8 pm de Londres.</li>
+<li>Misma zona que Lima, Panama City, Quito, Kingston, New York (en invierno).</li>
+</ul>
+<p>Si trabajas con equipos de US: fácil. Si trabajas con equipos europeos: inicios más temprano. Si trabajas con equipos asiáticos: difícil, pero esto es verdad en cualquier parte de las Américas.</p>
+<h2 id="coworking">Espacios de coworking en Barranquilla</h2>
+<p>La escena de coworking de Barranquilla es más pequeña que la de Medellín pero ha crecido sustancialmente desde 2022. Las opciones principales:</p>
+<ul>
+<li><strong>Atom House</strong>, Villa Country. Uno de los coworkings más antiguos de la ciudad; buen Wi-Fi, hot desks, salas de reuniones, café decente. La comunidad se inclina hacia emprendedores y freelancers colombianos.</li>
+<li><strong>Utopia Coworking</strong>, área Villa Country / Alto Prado. Moderno, tranquilo, Wi-Fi fuerte, escritorios dedicados disponibles.</li>
+<li><strong>WeWork-adyacente / corporativo</strong>: WeWork en sí no opera en Barranquilla a partir de 2026. La alternativa de marca grande más cercana está en los centros corporativos a lo largo de Calle 76 y Calle 84.</li>
+<li><strong>IMPACT Hub Barranquilla</strong>, coworking orientado a impacto social, eventos y comunidad tanto como espacio de trabajo.</li>
+<li><strong>Más Coworking / Casa Ventura</strong>, más nuevo, escala de barrio.</li>
+<li><strong>Centros de negocios de mall y hotel</strong>, Buenavista, Viva Barranquilla, centro de negocios de Hotel El Prado, e Hyatt Place todos tienen espacios de trabajo de uso diario para no huéspedes; respaldo decente si tu fibra se cae.</li>
+</ul>
+<p><strong>Precios típicos (2026)</strong>: day pass hot desk COP 35 a 60k (USD 9 a 15), hot desk unlimited mensual COP 450 a 750k (USD 113 a 188), escritorio dedicado COP 700k-1.2M (USD 175 a 300), oficina privada desde COP 1.5M. Casi todos incluyen asignación de sala de reuniones, espresso, impresión.</p>
+<p>Ve nuestra <a href="/best-coworking-spaces-barranquilla/">guía dedicada de espacios de coworking</a> para reseñas actuales y detalle de amenidades.</p>
+<h2 id="cafes">Cafés que realmente funcionan para horas de laptop</h2>
+<p>La cultura del café latinoamericana no siempre ama la sesión de laptop de 4 horas, pero Barranquilla tiene un puñado de spots confiablemente amigables para laptop:</p>
+<ul>
+<li><strong>Juan Valdez Café</strong>, la cadena. Wi-Fi, outlets, cold brew respetable, AC. Las ubicaciones de Villa Country, Alto Prado, Buenavista mall son las mejores para trabajo.</li>
+<li><strong>Tostao' Café &amp; Pan</strong>, barato y ampliamente disponible, Wi-Fi funciona, outlets limitados.</li>
+<li><strong>OMA Café</strong>, cadena colombiana; similar a Juan Valdez.</li>
+<li><strong>Starbucks (Buenavista, Villa Country)</strong>, confiable.</li>
+<li><strong>Cafés independientes en El Prado y Villa Country</strong>: una cosecha rotativa, pregúntale a un compañero trabajador local por los favoritos actuales, que cambian cada seis meses.</li>
+</ul>
+<p>Para sesiones de 2 a 3 horas con una videollamada en tus auriculares: cualquiera de los anteriores. Para un día de trabajo completo: coworking es mejor; dejarás de ser mirado con desaprobación por pedir un cortado y abrir Figma.</p>
+<h2 id="digital-nomad-visa">La visa Digital Nomad, ¿la necesitas?</h2>
+<p>La visa <strong>M, Nómada Digital</strong> de Colombia es una visa de categoría migrante apropiada para trabajadores remotos y freelancers con ingresos extranjeros. Si te quedas <strong>más de 6 meses</strong> en cualquier período de 12 meses, efectivamente la necesitas, porque el límite anual de permiso turista es 180 días y el umbral de 183 días activa residencia fiscal.</p>
+<ul>
+<li><strong>Piso de ingresos</strong>: 3× el salario mínimo colombiano, ~USD 1,068/mes en 2026.</li>
+<li><strong>Derechos de trabajo</strong>: servir clientes o empleadores extranjeros. No puedes tomar un trabajo con un empleador colombiano en esta visa, esa es una categoría diferente.</li>
+<li><strong>Duración</strong>: hasta 2 años, renovable. Cuenta hacia visa R (residencia).</li>
+<li><strong>Solicitud</strong>: en línea a través del portal de Cancillería. Decisión típica 5 a 30 días hábiles.</li>
+<li><strong>Honorarios</strong>: ~USD 54 estudio + ~USD 177 emisión.</li>
+</ul>
+<p>Requerimientos completos, documentación, y errores comunes: nuestra <a href="/visas-colombia-barranquilla/">guía de visas de Colombia</a>.</p>
+<h2 id="taxes">Residencia fiscal, la regla de 183 días</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situación es única. Pregúntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las guías, los lugares, los precios, las visas y a las personas. Cuéntale tu situación y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Pregúntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Presencia física en Colombia por más de <strong>183 días en cualquier período de 365 días</strong> te hace un <strong>residente fiscal</strong> colombiano, responsable de impuestos sobre ingresos mundiales. Puntos clave 2026 para trabajadores remotos:</p>
+<ul>
+<li>Colombia <strong>no</strong> tiene un tratado de doble imposición con los <strong>Estados Unidos</strong>. Los ciudadanos estadounidenses pueden terminar presentando en ambas jurisdicciones, mitigado por el IRS Foreign Earned Income Exclusion (~USD 126,500 indexado) y créditos fiscales extranjeros.</li>
+<li>Colombia tiene tratados con UK, Canadá, España, Francia, Chile, México, Italia, Suiza, Portugal, Japón, Corea del Sur, y varios otros.</li>
+<li>El impuesto sobre la renta marginal superior personal en Colombia es alrededor de 39%. Brackets favorables aplican debajo de ~USD 30k/año.</li>
+<li>Ganancias de capital: generalmente 15%.</li>
+<li>La presentación corre agosto-octubre cada año con fechas de vencimiento por los últimos dos dígitos de tu ID fiscal.</li>
+</ul>
+<p>Si pasarás cerca o sobre el umbral de 183 días, contrata un <em>contador público</em> colombiano antes de fin de año. No es consejo fiscal, obtén un profesional. Ve la sección de impuestos de nuestra <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">guía de banca</a>.</p>
+<h2 id="setup-checklist">Checklist de setup para un mes o más</h2>
+<ol>
+<li>Elige un barrio con presencia de fibra sólida y espacio de trabajo cercano, Alto Prado, Villa Country, Villa Santos, o Riomar. Nuestra <a href="/barranquilla-neighborhoods/">guía de barrios</a>.</li>
+<li>Confirma que el apartamento tiene A/C en la sala de trabajo.</li>
+<li>Instala o confirma internet de fibra, Claro o Tigo, 500 Mbps+ si estás en videollamadas.</li>
+<li>SIM de respaldo con 50 GB+ de datos en el otro proveedor.</li>
+<li>UPS en el router + módem + al menos un monitor.</li>
+<li>Prueba un coworking por una semana (day passes) antes de comprometerte con una membresía mensual.</li>
+<li>Configura una cuenta bancaria colombiana (requiere CE post-visa), ve <a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">guía de banca</a>.</li>
+<li>Regístrate con Migración Colombia dentro de 15 días si recibiste una visa, y obtén tu CE.</li>
+<li>Si estarás aquí 6+ meses, comienza la solicitud de Nómada Digital antes de que expire tu permiso turista.</li>
+</ol>
+<h2 id="community">Encontrando comunidad</h2>
+<p>La escena nómada de Barranquilla es más pequeña que la de Medellín, eso es tanto el encanto como el desafío. Dónde encontrarlo:</p>
+<ul>
+<li><strong>Facebook: "Expats in Barranquilla"</strong> y "Barranquilla, Americans &amp; Canadians"</strong> son los dos grupos principales; alguien publica un meetup la mayoría de semanas.</li>
+<li><strong>Eventos de coworking</strong>: Atom House, Utopia, e IMPACT Hub todos ejecutan meetups regulares.</li>
+<li><strong>Clases de baile e intercambios de idiomas</strong>: la ruta más rápida hacia un círculo social mixto local-expat. Ve nuestra <a href="/dancing-in-barranquilla-salsa-cumbia-champeta-where-to-learn-2026/">guía de baile</a> y <a href="/study-spanish-in-barranquilla/">guía de estudio de español</a>.</li>
+<li><strong>Startup Grind Barranquilla</strong> y <strong>TechHub BAQ</strong>: si estás en tech o construyendo algo, estos meetups son la puerta founder-a-founder más fácil.</li>
+<li><strong>Eventos de Universidad del Norte</strong>: conferencias públicas, eventos de emprendimiento, un flujo constante de charlas interesantes.</li>
+</ul>
+<p>Más sobre construir un círculo social: nuestra <a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">guía de networking de expats</a>.</p>
+<h2 id="vs-other-cities">Barranquilla vs Medellín vs Bogotá para trabajo remoto</h2>
+<p>Versión corta: elige la ciudad antes de elegir el apartamento. Comparación completa en nuestra <a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/">comparación de tres ciudades</a>. Marco rápido específicamente para trabajo remoto:</p>
+<ul>
+<li><strong>Medellín</strong>: comunidad nómada más profunda, mejor clima (1,500 m de altitud, 20°C todo el año), más opciones de coworking, más cara. Puede sentirse como una burbuja de expats si quieres eso, u opresiva si no.</li>
+<li><strong>Bogotá</strong>: economía y pool de talento más grandes; capital corporativa; fría a 2,640 m. Más tráfico y clima más gris. Buena si quieres un metro apropiado y gravedad empresarial.</li>
+<li><strong>Barranquilla</strong>: la más barata de las tres con fibra comparable, el clima más cálido (literalmente), menos expats, la cultura caribeña más fuerte, y Carnaval. Buena si quieres vivir en una ciudad que no esté moldeada por turismo.</li>
+</ul>
+<h2 id="common-issues">Problemas comunes y cómo manejarlos</h2>
+<ul>
+<li><strong>Corte de luz durante una llamada</strong>: el UPS mantiene la llamada viva; tu SIM de hotspot toma el relevo si el corte dura. Mantén un laptop de respaldo cargado.</li>
+<li><strong>Corte de fibra</strong>: cambia al hotspot; llama al ISP (Claro #611, Tigo #210) para registrar un ticket. Reparación típica &lt;24 h.</li>
+<li><strong>Throttle de laptop inducido por calor</strong>: mantén el laptop fuera de tela, en un stand, en la sala de A/C. Si aún está throttlando, revisa los ventiladores o underclock.</li>
+<li><strong>Ruido de fondo</strong>: los barrios colombianos pueden ser ruidosos (música, vendedores, construcción). Los auriculares con cancelación de ruido son la compra de trabajo remoto más simple que harás aquí. Sony WH-1000XM5 y Apple AirPods Max ambos funcionan bien. Considera aislamiento acústico del apartamento, cortinas gruesas, alfombras, y ventanas de doble acristalamiento donde sea posible.</li>
+<li><strong>Programación de vacaciones</strong>: Colombia tiene muchas vacaciones públicas (18 a 20 al año). Gobierno y bancos cierran; tu escritorio de soporte de ISP aún corre. Programa llamadas de clientes con conciencia de calendario colombiano.</li>
+</ul>
+<h2 id="tools">Herramientas que vale la pena instalar el primer día</h2>
+<ul>
+<li><strong>Wise / Revolut</strong>: FX más barato para cobrar en COP o recibir USD.</li>
+<li><strong>Nequi</strong>: pagos P2P colombianos y comerciantes con código QR.</li>
+<li><strong>Rappi</strong>: entrega de comida/abarrotes/farmacia.</li>
+<li><strong>Uber, DiDi, InDriver</strong>: transporte.</li>
+<li><strong>WhatsApp Business</strong>: si trabajas como freelancer localmente, así es como los clientes colombianos te mensajearán.</li>
+<li><strong>Speedtest by Ookla</strong>: para solucionar problemas de promesas de ISP vs realidad.</li>
+<li><strong>Fing</strong>: diagnóstico de Wi-Fi de hogar.</li>
+<li><strong>1Password o Bitwarden</strong>: asegura tus contraseñas en dispositivos, especialmente si viajas regularmente.</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<p><strong>¿Es el internet lo suficientemente bueno para videollamadas todo el día?</strong> Sí, en fibra. Dos llamadas 1080p simultáneas más screen-sharing en una línea 500/500 Mbps está bien. La calidad del router Wi-Fi es el cuello de botella usual.</p>
+<p><strong>¿Puedo trabajar con un permiso turista (PIP/PTP)?</strong> Técnicamente el PIP no autoriza trabajo; en práctica, el trabajo remoto tranquilo para un empleador extranjero es tolerado. Para estancias largas, usa la visa Nómada Digital.</p>
+<p><strong>¿Cómo es la cobertura 5G?</strong> En crecimiento. Claro y Tigo ambos tienen 5G en la mayoría de los barrios del norte de la ciudad a partir de 2026; gaps de cobertura existen en partes antiguas de Centro. Las velocidades de 5G de 300 a 600 Mbps son realistas al aire libre.</p>
+<p><strong>¿Tienen salas de reuniones los espacios de coworking para videollamadas?</strong> Sí, todos los listados arriba. Típicamente incluido en una membresía mensual; day passes hot-desk usualmente incluyen 2 a 4 horas/mes.</p>
+<p><strong>¿Puedo facturar un cliente de US en USD desde aquí?</strong> Sí. Mejor práctica: factura en USD, recibe a un banco de US (el tuyo) o una cuenta Wise, transfiere el dinero a COP según sea necesario. Mantén registros limpios; DIAN (autoridad fiscal colombiana) importará una vez que actives residencia.</p>
+<p><strong>¿Qué hay sobre la confiabilidad de energía en la costa caribeña específicamente?</strong> El desempeño de Air-e ha sido controvertido; la ciudad ha enfrentado cortes prolongados en años anteriores, aunque la situación ha mejorado gradualmente. UPS + hotspot móvil no es paranoia, es setup estándar.</p>
+<p><strong>¿Debería comprar o traer un escritorio y silla?</strong> Trae una silla ergonómica si puedes (la selección local es decente pero inconsistente). Los monitores están fácilmente disponibles en Alkosto, Ktronix, o en línea.</p>
+<p><strong>¿Hay una comunidad tech fuerte?</strong> Más pequeña que Medellín pero en crecimiento. Colombia Tech, Startup Grind, y grupos afiliados a universidades albergan eventos regulares. Energía, logística, y servicios compartidos son las fortalezas económicas de Barranquilla, tech es el sector de crecimiento.</p>
+<p><strong>¿Algún problema con banca de US/EU mientras vives aquí?</strong> Dile a tu banco que estás en el extranjero. Algunos bancos de US marcan Colombia por lavado de dinero y requieren el aviso de 30 días. Charles Schwab, Chase, Fidelity, e HSBC Expat generalmente manejan Colombia bien.</p>
+<h2 id="further-reading">Lectura adicional en este sitio</h2>
+<p><a href="/visas-colombia-barranquilla/">Visas, especialmente la visa Nómada Digital</a><br/>
+<a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Costo de vida</a><br/>
+<a href="/housing-renting-barranquilla/">Vivienda y arrendamiento</a><br/>
+<a href="/best-coworking-spaces-barranquilla/">Espacios de coworking, reseñas detalladas</a><br/>
+<a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banca y dinero</a><br/>
+<a href="/tax-residency-colombia-2026-guide/">Residencia fiscal, la regla de 183 días para trabajadores remotos</a><br/>
+<a href="/sim-cards-mobile-data-in-barranquilla-which-carrier-how-to-get-set-up-2026/">Tarjetas SIM y datos móviles</a><br/>
+<a href="/barranquilla-vs-medellin-vs-bogota-which-colombian-city-is-right-for-you/">Barranquilla vs Medellín vs Bogotá</a><br/>
+<a href="/expat-networking-social-life-in-barranquilla-how-to-build-your-circle-2026/">Construir un círculo social</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Información práctica, no consejo fiscal o legal. Precios de internet, desempeño de ISP, y opciones de coworking cambian rápidamente, verifica al registro. Los umbrales de visa basados en SMMLV 2026 se ajustan cada enero. Última revisión: abril 2026.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">Still have questions?</span><span class="pb-es">¿Todavía tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</span><span class="pb-es">Catalina es nuestra concierge. Pregúntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en inglés o español, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body es --><!-- .article-body -->
+<!-- Ad slot: end of article -->
+<div class="content-narrow content-narrow--end">
+</div>
+</article><!-- .single-article -->
+<!-- Related Articles -->
+<section class="magazine-section related-section">
+<div class="container">
+<div class="magazine-header" style="margin-bottom: 32px;">
+<span class="label">Keep reading</span>
+<h2 class="section-title">Related articles</h2>
+</div>
+<div class="magazine-grid related-grid-3">
+<article class="article-card">
+<a class="article-card-image" href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">
+<img alt="Cost of Living in Barranquilla: A Real 2026 Breakdown" decoding="async" height="400" loading="lazy" src="/img/barranquilla-city-panoramic-cost-of-living-600x400.jpg" width="600"> </a>
+<span class="label">Day to Day</span>
+<h3 class="article-card-title"><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of Living in Barranquilla: A Real 2026 Breakdown</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>7 min read</span>
+</div>
+</article>
+<article class="article-card">
+<a class="article-card-image" href="/healthcare-barranquilla/">
+<img alt="Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)" decoding="async" height="400" loading="lazy" src="/img/healthcare-barranquilla-600x400.jpg" width="600"/> </a>
+<span class="label">Health &amp; Medical</span>
+<h3 class="article-card-title"><a href="/healthcare-barranquilla/">Healthcare in Barranquilla: Hospitals &amp; Health Insurance (2026)</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>12 min read</span>
+</div>
+</article>
+<article class="article-card">
+<a class="article-card-image" href="/plastic-surgery-in-barranquilla-costs-surgeons-medical-tourism-guide-2026/">
+<img alt="Plastic Surgery in Barranquilla: Costs, What to Expect, and How to Do It Right (2026)" decoding="async" height="400" loading="lazy" src="/img/pexels-cottonbro-7585317-600x400.jpg" width="600"/> </a>
+<span class="label">Health &amp; Medical</span>
+<h3 class="article-card-title"><a href="/plastic-surgery-in-barranquilla-costs-surgeons-medical-tourism-guide-2026/">Plastic Surgery in Barranquilla: Costs, What to Expect, and How to Do It Right (2026)</a></h3>
+<div class="article-card-meta">
+<span>Mike Chartrand</span>
+<span class="meta-dot"></span>
+<span>11 min read</span>
+</div>
+</article>
+</div>
+</div>
+</section><!-- newsletter-prefoot:v1 -->
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading"><span class="pb-en">Get the guide in your inbox</span><span class="pb-es">Recibe la guía en tu correo</span></h2>
+<p class="email-capture-desc"><span class="pb-en">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</span><span class="pb-es">Cada semana: recomendaciones, guías nuevas y lo que vale la pena saber de Barranquilla. Sin ruido, sin feed de noticias. Solo lo útil.</span></p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" data-ph-en="Your email address" data-ph-es="Tu correo electrónico" required="" type="email"/>
+<button class="email-capture-submit" type="submit"><span class="pb-en">Subscribe</span><span class="pb-es">Suscribirme</span></button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status"><span class="pb-en">Weekly. Unsubscribe any time.</span><span class="pb-es">Semanal. Cancela cuando quieras.</span></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script src="/js/post.js?v=20260523a" defer></script>
+</body>
+</html>

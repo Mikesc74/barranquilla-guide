@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="noindex, follow" name="robots"/>
+<meta content="Page not found on Barranquilla Guide." name="description"/>
+<title>Page not found - Barranquilla Guide</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/><!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<main class="error-404">
+<div>
+<h1>404</h1>
+<h2>Page not found</h2>
+<p>We couldn’t find that page. It may have moved, or the link may be wrong.</p>
+<p>
+<a class="btn btn--coral" href="/">Back to home</a>
+       
+      <a class="btn btn--outline-navy" href="/section/daily-life/">Browse the guides</a>
+</p>
+</div>
+</main>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script>
+/* Language toggle EN/ES (mirrors medellin.guide). Inlined here because
+   this page doesn't load /js/main.js. */
+(function(){
+  var html=document.documentElement;
+  var qs;try{qs=new URLSearchParams(location.search);}catch(e){qs=null;}
+  var picked=qs&&qs.get('lang');
+  if(!picked){try{picked=localStorage.getItem('bgg_lang');}catch(e){}}
+  if(!picked){var nav=(navigator.language||'en').toLowerCase();picked=nav.indexOf('es')===0?'es':'en';}
+  if(picked!=='es')picked='en';apply(picked);
+  function apply(l){
+    html.classList.remove('lang-en','lang-es');
+    html.classList.add('lang-'+l);
+    html.setAttribute('lang',l);
+    try{localStorage.setItem('bgg_lang',l);}catch(e){}
+  }
+  document.querySelectorAll('.pb-langtog a').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      var l=a.getAttribute('data-l');
+      apply(l);
+      try{var u=new URL(location.href);u.searchParams.set('lang',l);history.replaceState(null,'',u.toString());}catch(err){}
+    });
+  });
+})();
+</script>
+<script src="/js/post.js?v=20260721a" defer></script>
+</body>
+</html>

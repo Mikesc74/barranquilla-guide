@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="A neighborhood-by-neighborhood guide to Barranquilla: El Prado, Villa Country, Riomar, Alto Prado, Buenavista, and the areas that define life in Colombia's Caribbean city." name="description"/>
+<meta data-lang="es" content="Un guía barrio a barrio de Barranquilla: El Prado, Villa Country, Riomar, Alto Prado, Buenavista, y las áreas que definen la vida en la ciudad caribeña de Colombia." name="description"/>
+<link href="https://barranquilla.guide/barranquilla-neighborhoods/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="Neighborhoods of Barranquilla - Barranquilla Guide" property="og:title"/>
+<meta content="A neighborhood-by-neighborhood guide to Barranquilla: El Prado, Villa Country, Riomar, Alto Prado, Buenavista, and the areas that define life in Colombia's Caribbean city." property="og:description"/>
+<meta content="https://barranquilla.guide/barranquilla-neighborhoods/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-neighborhoods.jpg" property="og:image"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-neighborhoods.jpg" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1225" property="og:image:width"/>
+<meta content="689" property="og:image:height"/>
+<meta content="Neighborhoods of Barranquilla - Barranquilla Guide" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/heroes/barranquilla-neighborhoods.jpg" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2023-08-14T18:13:38+00:00" property="article:published_time"/>
+<meta content="2026-04-23T06:08:37+00:00" property="article:modified_time"/>
+<title data-lang="en">Neighborhoods of Barranquilla - Barranquilla Guide</title>
+<title data-lang="es">Barrios de Barranquilla - Guía de Barranquilla</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<!-- PERF: hero preload -->
+<link as="image" fetchpriority="high" href="/img/centro-fluvial-intendencia.webp" rel="preload"/>
+<!-- Self-hosted webfonts (declarations in /css/site.css) -->
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<!-- fraunces-font-load -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<article class="single-article">
+<!-- Hero Image -->
+<div class="article-hero">
+<div class="article-hero-image">
+<img alt="Neighborhoods of Barranquilla" decoding="async" fetchpriority="high" height="630" loading="eager" src="/img/heroes/barranquilla-neighborhoods.jpg" width="1200"/> </div>
+</div>
+<!-- Article Header -->
+<header class="article-header">
+<span class="label"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></span>
+<h1><span class="pb-en">Neighborhoods of Barranquilla</span><span class="pb-es">Barrios de Barranquilla</span></h1>
+<div class="article-header-meta">
+<div class="article-author-img">
+<img alt="Paulette Romero" decoding="async" height="80" loading="lazy" src="/img/team/paulette.svg" width="80"/> </div>
+<div>
+<div class="article-author-name">Paulette Romero</div>
+<div class="article-date">
+          August 14, 2023, Updated April 23, 2026 · 8 min read        </div>
+</div>
+</div>
+</header><!-- .article-header -->
+<!-- Ad slot: below headline, above content -->
+<div class="content-narrow">
+</div>
+<!-- Article Body -->
+<div class="article-body" data-lang="en">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta espec&iacute;fica mientras lees? <strong>Preg&uacute;ntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Neighborhoods of Barranquilla: The Complete Guide (2026)
+     Intended slug: /neighborhoods/ (pillar page). Sub-pages exist for Ciudad Jardín
+     and should exist for El Prado, Alto Prado, Riomar, Villa Country, Villa Santos.
+     Paste the HTML below into WordPress via Code editor or a Custom HTML block.
+--></p>
+<p class="guide-intro"><em>Last updated: April 2026. Barranquilla is bigger and more varied than most first-time visitors expect. This guide walks through every neighborhood a newcomer, renter, or long-stay visitor actually needs to know, what it feels like, who lives there, what it costs, and when you’d pick it.</em></p>
+
+<h2 id="how-the-city-is-organized">How the city is organized</h2>
+<p>Barranquilla is divided into five <em>localidades</em> (administrative districts) and roughly 180 <em>barrios</em> (neighborhoods). For practical purposes, you only need to understand the north-south gradient.</p>
+<p>The <strong>north</strong>, Localidad Riomar and the upper part of Localidad Norte-Centro Histórico, is where almost every expat, business traveler, and upper-middle-class Barranquillero lives or wants to live. It has the newest buildings, the best restaurants, 24-hour security, reliable utilities, and walkable pockets. The <strong>historic center and inner south</strong> (Centro, Barrio Abajo, Boston, El Recreo) is cheaper, grittier, more authentically costeño, and varies block by block. The <strong>outer south and west</strong> (Localidades Sur-Occidente, Metropolitana, Sur-Oriente) is working-class, not tourist-facing, and not where you’ll be renting unless you have a specific reason.</p>
+<p>Every building has a government-assigned <strong>estrato</strong> (1 to 6) that sets utility rates. In the neighborhoods below, we note typical estratos because they tell you both something about the price and something about the monthly utility bill. Most of the north is 5 to 6; inner southern neighborhoods are 3 to 4.</p>
+<h2 id="north-riomar">The north: Riomar and its sub-neighborhoods</h2>
+<p>Riomar is the northwesternmost locality, bounded by the Magdalena River to the west and the city of Puerto Colombia to the north. It holds most of Barranquilla’s newer residential development.</p>
+<h3>Villa Santos</h3>
+<p>Quiet, residential, and thoroughly upper-middle-class. Dominated by mid-2000s and newer apartment towers with pools, gyms, and 24-hour porterías. Close to <a href="https://www.buenavista.com.co/" rel="noopener" target="_blank">Buenavista I &amp; II malls</a>, the Éxito hypermarket, and the 84 commercial corridor. Rent for an unfurnished 2-bed typically runs COP 2.8 to 4.0M/month. Estrato 6.</p>
+<h3>Villa Campestre</h3>
+<p>North of Villa Santos, newer still, and progressively more suburban as you move toward Puerto Colombia. Gated condominium complexes dominate. Good if you have kids, want a pool, or are priced out of Villa Santos. Fewer walkable amenities; you’ll need a car or standing Uber habit. Estrato 6.</p>
+<h3>Altos del Limón &amp; Miramar</h3>
+<p>Hillside and riverfront towers with some of the city’s best views. Close to the <a href="https://www.countryclubdebarranquilla.com/" rel="noopener" target="_blank">Country Club</a>, the <a href="https://www.lagranmalecon.com/" rel="noopener" target="_blank">Gran Malecón</a>, and the top of the 84 strip. Altos del Limón skews family; Miramar is denser and has more expat renters. Estrato 6.</p>
+<h3>Buenavista</h3>
+<p>Named for the mall at its center. Mixed-use, slightly more commercial feel than Villa Santos; heavy restaurant and nightlife density along Calle 98. Estrato 5 to 6.</p>
+<h2 id="north-norte-centro">The north: Norte-Centro Histórico</h2>
+<p>This locality covers the inner north, the historic center, and everything between them.</p>
+<h3>Alto Prado</h3>
+<p>If you had to pick one neighborhood for a first-time renter or expat, this is it. Walkable, dense, restaurant-saturated, and bounded roughly by Carreras 46 to 54 and Calles 80 to 85. You can live here without a car; you can also live here furnished on a month-to-month Airbnb and not regret it. Every kind of apartment exists, from 1960s walk-ups to brand-new towers. Rents COP 1.8 to 3.8M depending on building and size. Estrato 5 to 6.</p>
+<h3>Villa Country</h3>
+<p>Immediately east of Alto Prado, anchored by the <a href="https://www.villacountry.com.co/" rel="noopener" target="_blank">Centro Comercial Villa Country</a> and the Calle 84 restaurant strip. Functionally hard to distinguish from Alto Prado, and most people conflate the two. Great for professionals and couples. Estrato 6.</p>
+<h3>El Prado</h3>
+<p>The city’s original elite neighborhood, developed in the 1920s-30s, and the heart of its architectural heritage. Art Deco and Republican-era mansions line the Avenida Olaya Herrera. Many have been converted to consulates, boutique hotels, restaurants, and apartment subdivisions. The best neighborhood for a short visit (centrally located, safe by Barranquilla standards, walkable to Plaza de la Paz and Carrera 43 commerce). For renters it offers character and price relative to Alto Prado, with older infrastructure in some buildings. Estrato 5.</p>
+<h3>El Golf / Altos del Prado</h3>
+<p>Quiet, leafy, flanking the <a href="https://www.countryclubdebarranquilla.com/" rel="noopener" target="_blank">Country Club</a>. Mostly single-family homes and low-rise condos, a high proportion of long-term residents, and not much commerce on the streets. Pick this if you want calm and can afford it. Estrato 6.</p>
+<h3>Ciudad Jardín</h3>
+<p>East of El Prado, adjacent to the <a href="https://www.uninorte.edu.co/" rel="noopener" target="_blank">Universidad del Norte</a>. More students and young professionals than the average north-side neighborhood, with better value per square meter. A favorite of academics and families with kids at Uninorte or the nearby international schools. Estrato 5.</p>
+<h3>Granadillo &amp; Paraíso</h3>
+<p>Middle-class buffer zones south of Alto Prado. Quieter, a bit cheaper, still safe, and with reasonable transit to the north. Good if you want north-side amenities on a stratum-4 utility bill. Estrato 4.</p>
+<h2 id="historic-center">The historic center and inner south</h2>
+<h3>Centro Histórico</h3>
+<p>The old downtown, Calles 30 through 40, around Paseo Bolívar and the Plaza San Nicolás. Dense with commerce by day, much quieter at night. Home to landmark institutions like the <a href="https://www.catedralbarranquilla.org/" rel="noopener" target="_blank">Catedral Metropolitana</a>, the <a href="https://www.teatroamira.com/" rel="noopener" target="_blank">Teatro Amira de la Rosa</a>, and a wave of recent restoration around the <a href="https://colombia.travel/en/barranquilla/caribbean-museum" rel="noopener" target="_blank">Museo del Caribe</a> and Parque Cultural del Caribe. Not where you live; very much where you visit.</p>
+<h3>Barrio Abajo</h3>
+<p>The cultural heart of Carnaval, a short walk from the Museo del Caribe. Murals, traditional dance schools, champeta at street level. Touristy by day, mixed at night, visit with a local if it’s your first time. Estrato 2 to 3.</p>
+<h3>Boston, El Recreo, Colombia</h3>
+<p>Middle-stratum residential neighborhoods that form a wedge between the old center and the north. Mostly Colombian renters, smaller apartments, cheaper rent (COP 900k-1.8M for a 1 to 2-bed is common). Good value if you speak Spanish and don’t need the expat social infrastructure. Estrato 3 to 4.</p>
+<h3>San Roque, Rebolo, La Chinita</h3>
+<p>Historic working-class neighborhoods close to downtown. Culturally rich, economically under-resourced, and not recommended as a first landing point for a visitor. Some blocks are fine by day and you may pass through for a specific destination; walk with a local who knows them.</p>
+<h2 id="southwest">The southwest and outer edges</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situaci&oacute;n es &uacute;nica. Preg&uacute;ntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las gu&iacute;as, los lugares, los precios, las visas y a las personas. Cu&eacute;ntale tu situaci&oacute;n y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Preg&uacute;ntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Localidades Sur-Occidente and Metropolitana cover much of the population but very little of the tourist or expat map. Neighborhoods like La Manga, Los Andes, Carrizal, and San José are mostly residential with limited services aimed at visitors. Unless you’re visiting family, attending a specific event, or have a work reason, you won’t be here, and if you are, don’t wander after dark and don’t show valuables.</p>
+<p>On the northern fringe, <strong>Puerto Colombia</strong> (technically a separate municipality, 15 to 20 km from downtown) is worth a separate mention: a coastal town with beaches, seafood shacks, a historic pier, and a quieter lifestyle. Some expats commute from here; the <a href="https://www.uninorte.edu.co/" rel="noopener" target="_blank">Universidad del Norte</a> is just across the border.</p>
+<h2 id="pick-by-use-case">Pick your neighborhood by what you’re doing</h2>
+<p><strong>Visiting for a weekend or a conference</strong>: stay in El Prado or Alto Prado. Central, safe, walkable, restaurant-heavy. El Prado if you want character; Alto Prado if you want modern.</p>
+<p><strong>Coming for Carnaval</strong>: book El Prado six months out, or any hotel on the 84 to 85 corridor. You want walking distance to Vía 40 (the parade route) without needing a car in traffic.</p>
+<p><strong>Moving for work, 6 to 12 months</strong>: Alto Prado or Villa Country. Furnished options exist, walkability to restaurants, and easy to decamp if you decide to stay longer.</p>
+<p><strong>Relocating long term with a family</strong>: Villa Santos, Villa Campestre, or Altos del Limón. Newer apartments, schools, reliable security, closer to the international schools on the Via al Mar.</p>
+<p><strong>Digital nomads / remote workers</strong>: Alto Prado is the obvious pick, dense café scene, a dozen coworking options, short Uber to the malls and the Malecón.</p>
+<p><strong>Students at Uninorte</strong>: Ciudad Jardín or the northern edge of Granadillo. Best value for proximity to campus.</p>
+<p><strong>Budget-conscious long-stays</strong>: Boston, El Recreo, or Colombia. Spanish required; local neighborhood vibe, lower rent, no-frills living.</p>
+<h2 id="practical">Practical notes on choosing</h2>
+<p>Walk the block at the time of day you’d actually be out. A neighborhood that’s charming at 4 PM can be empty and poorly lit at 10 PM, and vice versa. Check where the nearest supermarket, pharmacy, and gym actually are, distances in Barranquilla feel short on a map and long in the humidity.</p>
+<p>Verify the building’s generator (<em>planta eléctrica</em>) policy before committing. Air-e outages are much rarer than they were five years ago, but they still happen; buildings that run their generators for apartments (not just common areas) are meaningfully more comfortable.</p>
+<p>Check traffic patterns on Calle 84 and Carrera 46 if you plan to commute by car. The evening rush through the restaurant corridor is punishing.</p>
+<p>Consider the wind. The north side of the city, especially closer to the river, has genuinely better breezes, a real quality-of-life factor in a city that regularly hits 34°C with 80% humidity.</p>
+<h2 id="further-reading">Further reading on this site</h2>
+<p><a href="/housing-renting-barranquilla/">Housing &amp; Renting in Barranquilla</a>, how leases, guarantees, and utilities actually work.<br/>
+<a href="/neighborhoods/ciudad-jardin/">Ciudad Jardín in depth</a><br/>
+<a href="/best-hotels-in-barranquilla/">Where to stay: the best hotels by neighborhood</a><br/>
+<a href="/is-barranquilla-safe-honest-answer-2026/">Safety, by neighborhood and time of day</a><br/>
+<a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of living breakdown</a><br/>
+<a href="/everything-you-need-to-know-about-barranquilla/">Everything you need to know about Barranquilla</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Prices and neighborhood characterizations reflect April 2026. Barranquilla is changing fast, new towers in Villa Santos, continued restoration in the Centro, and creeping gentrification in Barrio Abajo are all worth tracking. If we’ve missed a block worth mentioning, <a href="/contact/">let us know</a>.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">Still have questions?</span><span class="pb-es">&iquest;Todav&iacute;a tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</span><span class="pb-es">Catalina es nuestra concierge. Preg&uacute;ntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en ingl&eacute;s o espa&ntilde;ol, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<!-- catalina-top-cta v2 -->
+<div class="cat-cta-inline">
+<span class="cat-cta-text"><span class="pb-en">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span><span class="pb-es">&iquest;Pregunta específica mientras lees? <strong>Pregúntale a Catalina</strong>, la concierge de Barranquilla Guide.</span></span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</div>
+<p><!-- Neighborhoods of Barranquilla: The Complete Guide (2026)
+     Intended slug: /neighborhoods/ (pillar page). Sub-pages exist for Ciudad Jardín
+     and should exist for El Prado, Alto Prado, Riomar, Villa Country, Villa Santos.
+     Paste the HTML below into WordPress via Code editor or a Custom HTML block.
+--></p>
+<p class="guide-intro"><em>Actualizado: abril de 2026. Barranquilla es más grande y variada de lo que esperan la mayoría de visitantes por primera vez. Esta guía recorre cada barrio que realmente necesita conocer un nuevo residente, arrendatario o visitante de larga estadía: cómo se siente, quién vive ahí, qué cuesta y cuándo lo elegirías.</em></p>
+
+<h2 id="how-the-city-is-organized">Cómo está organizada la ciudad</h2>
+<p>Barranquilla se divide en cinco <em>localidades</em> (distritos administrativos) y aproximadamente 180 <em>barrios</em>. Para propósitos prácticos, solo necesitas entender el gradiente norte-sur.</p>
+<p>El <strong>norte</strong>, la Localidad Riomar y la parte alta de la Localidad Norte-Centro Histórico, es donde vive casi todo expatriado, viajero de negocios y barranquillero de clase media-alta, o donde quiere vivir. Tiene los edificios más nuevos, los mejores restaurantes, seguridad 24 horas, servicios confiables y zonas caminables. El <strong>centro histórico e interior sur</strong> (Centro, Barrio Abajo, Boston, El Recreo) es más barato, más bronco, más auténticamente costeño, y varía cuadra a cuadra. El <strong>sur y occidente exterior</strong> (Localidades Sur-Occidente, Metropolitana, Sur-Oriente) es clase trabajadora, no orientado al turismo, y no es donde vas a estar arrendando a menos que tengas una razón específica.</p>
+<p>Todo edificio tiene un <strong>estrato</strong> asignado por el gobierno (1 a 6) que fija las tarifas de servicios. En los barrios de abajo, anotamos los estratos típicos porque te dicen algo tanto del precio como de la factura mensual de servicios. La mayoría del norte es 5 a 6; los barrios del interior sur son 3 a 4.</p>
+<h2 id="north-riomar">El norte: Riomar y sus sub-barrios</h2>
+<p>Riomar es la localidad más noroeste, limitada por el río Magdalena al occidente y la ciudad de Puerto Colombia al norte. Alberga la mayoría del nuevo desarrollo residencial de Barranquilla.</p>
+<h3>Villa Santos</h3>
+<p>Tranquilo, residencial, completamente clase media-alta. Dominado por torres de apartamentos de mediados de los 2000 en adelante con piscinas, gimnasios y porterías 24 horas. Cerca de <a href="https://www.buenavista.com.co/" rel="noopener" target="_blank">Centros Comerciales Buenavista I y II</a>, el hipermercado Éxito y el corredor comercial 84. Arriendo de un 2 habitaciones sin amueblar típicamente corre COP 2.8 a 4.0M/mes. Estrato 6.</p>
+<h3>Villa Campestre</h3>
+<p>Al norte de Villa Santos, aún más nuevo, y progresivamente más suburbano conforme te acercas a Puerto Colombia. Los complejos de condominios cerrados dominan. Bueno si tienes hijos, quieres piscina o te sacó del presupuesto Villa Santos. Menos amenidades caminables; necesitarás carro o hábito permanente de Uber. Estrato 6.</p>
+<h3>Altos del Limón y Miramar</h3>
+<p>Torres en colina y frente a río con algunas de las mejores vistas de la ciudad. Cerca del <a href="https://www.countryclubdebarranquilla.com/" rel="noopener" target="_blank">Country Club</a>, la <a href="https://www.lagranmalecon.com/" rel="noopener" target="_blank">Gran Malecón</a> y la parte alta de la franja 84. Altos del Limón se inclina hacia familias; Miramar es más denso y tiene más arrendatarios expatriados. Estrato 6.</p>
+<h3>Buenavista</h3>
+<p>Nombrado por el centro comercial en su centro. Mixto, sensación ligeramente más comercial que Villa Santos; densa densidad de restaurantes y vida nocturna a lo largo de la Calle 98. Estrato 5 a 6.</p>
+<h2 id="north-norte-centro">El norte: Norte-Centro Histórico</h2>
+<p>Esta localidad cubre el interior norte, el centro histórico, y todo lo que hay entre medio.</p>
+<h3>Alto Prado</h3>
+<p>Si tuvieras que elegir un barrio para un arrendatario o expatriado de primera vez, sería este. Caminable, denso, saturado de restaurantes, y acotado aproximadamente por Carreras 46 a 54 y Calles 80 a 85. Puedes vivir aquí sin carro; también puedes vivir aquí amueblado por Airbnb mes a mes y no arrepentirte. Existe todo tipo de apartamento, desde caminatas de los años 60 hasta torres nuevecitas. Arriendos COP 1.8 a 3.8M dependiendo del edificio y tamaño. Estrato 5 a 6.</p>
+<h3>Villa Country</h3>
+<p>Inmediatamente al este de Alto Prado, anclado por el <a href="https://www.villacountry.com.co/" rel="noopener" target="_blank">Centro Comercial Villa Country</a> y la franja de restaurantes Calle 84. Funcionalmente difícil de distinguir de Alto Prado, y la mayoría de gente confunde los dos. Excelente para profesionales y parejas. Estrato 6.</p>
+<h3>El Prado</h3>
+<p>El barrio élite original de la ciudad, desarrollado en los años 20 y 30, y el corazón de su herencia arquitectónica. Mansiones art deco y de la era republicana flanquean la Avenida Olaya Herrera. Muchas han sido convertidas a consulados, hoteles boutique, restaurantes y subdivisiones de apartamentos. El mejor barrio para una visita corta (ubicación central, seguro por estándares de Barranquilla, caminable a la Plaza de la Paz y comercio de Carrera 43). Para arrendatarios ofrece carácter y precio relativo a Alto Prado, con infraestructura más vieja en algunos edificios. Estrato 5.</p>
+<h3>El Golf / Altos del Prado</h3>
+<p>Tranquilo, arbolado, flanqueando el <a href="https://www.countryclubdebarranquilla.com/" rel="noopener" target="_blank">Country Club</a>. Principalmente casas unifamiliares y condos bajos, alta proporción de residentes de largo plazo, y no mucho comercio en las calles. Elige esto si quieres calma y puedes pagarlo. Estrato 6.</p>
+<h3>Ciudad Jardín</h3>
+<p>Al este de El Prado, adyacente a la <a href="https://www.uninorte.edu.co/" rel="noopener" target="_blank">Universidad del Norte</a>. Más estudiantes y profesionales jóvenes que el promedio del barrio norte, con mejor valor por metro cuadrado. Favorito de académicos y familias con hijos en Uninorte o colegios internacionales cercanos. Estrato 5.</p>
+<h3>Granadillo y Paraíso</h3>
+<p>Zonas amortiguadoras de clase media al sur de Alto Prado. Más tranquilo, un poco más barato, aún seguro, y con tránsito razonable hacia el norte. Bueno si quieres amenidades norte con factura de servicios estrato 4. Estrato 4.</p>
+<h2 id="historic-center">El centro histórico e interior sur</h2>
+<h3>Centro Histórico</h3>
+<p>El viejo downtown, Calles 30 a 40, alrededor del Paseo Bolívar y la Plaza San Nicolás. Denso de comercio de día, mucho más tranquilo de noche. Hogar de instituciones emblemáticas como la <a href="https://www.catedralbarranquilla.org/" rel="noopener" target="_blank">Catedral Metropolitana</a>, el <a href="https://www.teatroamira.com/" rel="noopener" target="_blank">Teatro Amira de la Rosa</a>, y una ola de restauración reciente alrededor del <a href="https://colombia.travel/en/barranquilla/caribbean-museum" rel="noopener" target="_blank">Museo del Caribe</a> y Parque Cultural del Caribe. No es donde vives; definitivamente es donde visitas.</p>
+<h3>Barrio Abajo</h3>
+<p>El corazón cultural del Carnaval, a corta distancia a pie del Museo del Caribe. Murales, escuelas de danza tradicional, champeta a nivel de calle. Turístico de día, mixto de noche, visita con un local si es tu primera vez. Estrato 2 a 3.</p>
+<h3>Boston, El Recreo, Colombia</h3>
+<p>Barrios residenciales de estrato medio que forman una cuña entre el viejo centro y el norte. Mayormente arrendatarios colombianos, apartamentos más pequeños, arriendo más barato (COP 900k-1.8M para un 1 a 2 habitaciones es común). Buen valor si hablas español y no necesitas la infraestructura social expatriada. Estrato 3 a 4.</p>
+<h3>San Roque, Rebolo, La Chinita</h3>
+<p>Barrios históricos de clase trabajadora cerca del downtown. Culturalmente ricos, económicamente sub-resourceados, y no recomendados como punto de partida para un visitante. Algunos bloques están bien de día y puedes atravesarlos hacia un destino específico; camina con un local que los conozca.</p>
+<h2 id="southwest">El occidente y los bordes exteriores</h2>
+<!-- catalina-mid-cta v2 -->
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Your situation is different. Ask Catalina.</span><span class="pb-es">Tu situación es única. Pregúntale a Catalina.</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">She is the Barranquilla Guide concierge. She knows the guides, the venues, the prices, the visas, the people. Tell her your scenario, she points you to the right answer.</span><span class="pb-es">Es la concierge de Barranquilla Guide. Conoce las guías, los lugares, los precios, las visas y a las personas. Cuéntale tu situación y te orienta a la respuesta correcta.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn"><span class="pb-en">Ask Catalina &rsaquo;</span><span class="pb-es">Pregúntale a Catalina &rsaquo;</span></a>
+</aside>
+
+<p>Las Localidades Sur-Occidente y Metropolitana cubren mucha población pero muy poco del mapa turístico o expatriado. Barrios como La Manga, Los Andes, Carrizal y San José son principalmente residenciales con servicios limitados orientados a visitantes. A menos que estés visitando familia, asistiendo a un evento específico o tengas una razón de trabajo, no estarás aquí, y si lo haces, no deambules después de oscurecer y no muestres valuables.</p>
+<p>En el borde norte, <strong>Puerto Colombia</strong> (técnicamente un municipio separado, 15 a 20 km del downtown) merece mención aparte: un pueblo costero con playas, puestos de mariscos, un muelle histórico, y un estilo de vida más tranquilo. Algunos expatriados se desplazan desde aquí; la <a href="https://www.uninorte.edu.co/" rel="noopener" target="_blank">Universidad del Norte</a> está justo cruzando la frontera.</p>
+<h2 id="pick-by-use-case">Elige tu barrio por lo que estés haciendo</h2>
+<p><strong>Visitando por un fin de semana o conferencia</strong>: quédate en El Prado o Alto Prado. Central, seguro, caminable, pesado en restaurantes. El Prado si quieres carácter; Alto Prado si quieres moderno.</p>
+<p><strong>Viniendo por Carnaval</strong>: reserva El Prado seis meses antes, o cualquier hotel en el corredor 84 a 85. Quieres estar a distancia de caminata de Vía 40 (la ruta del desfile) sin necesitar carro en el tráfico.</p>
+<p><strong>Mudándote por trabajo, 6 a 12 meses</strong>: Alto Prado o Villa Country. Existen opciones amuebladas, caminabilidad a restaurantes, y fácil de largarse si decides quedarte más.</p>
+<p><strong>Reubicándote a largo plazo con familia</strong>: Villa Santos, Villa Campestre o Altos del Limón. Apartamentos nuevos, colegios, seguridad confiable, más cerca de los colegios internacionales en la Vía al Mar.</p>
+<p><strong>Nómadas digitales / trabajadores remotos</strong>: Alto Prado es la opción obvia, escena de cafés densa, una docena de opciones de coworking, Uber corto a los centros comerciales y la Malecón.</p>
+<p><strong>Estudiantes en Uninorte</strong>: Ciudad Jardín o el borde norte de Granadillo. Mejor valor por proximidad al campus.</p>
+<p><strong>Estadías largas conscientes de presupuesto</strong>: Boston, El Recreo o Colombia. Se requiere español; vibes de barrio local, arriendo más bajo, vida sin lujos.</p>
+<h2 id="practical">Notas prácticas al elegir</h2>
+<p>Camina la cuadra a la hora del día que realmente estarías afuera. Un barrio que es encantador a las 4 PM puede estar vacío y mal iluminado a las 10 PM, y viceversa. Verifica dónde están realmente el supermercado más cercano, farmacia y gimnasio; las distancias en Barranquilla se ven cortas en un mapa y largas en la humedad.</p>
+<p>Verifica la política de planta eléctrica del edificio antes de comprometerte. Los apagones de Air-e son mucho más raros que hace cinco años, pero aún pasan; edificios que corren sus plantas para apartamentos (no solo áreas comunes) son significativamente más cómodos.</p>
+<p>Verifica patrones de tráfico en la Calle 84 y Carrera 46 si planeas desplazarte en carro. La prisa de la tarde por el corredor de restaurantes es punzante.</p>
+<p>Considera el viento. El lado norte de la ciudad, especialmente más cerca del río, tiene genuinamente mejores brisas, un factor real de calidad de vida en una ciudad que regularmente llega a 34°C con 80% de humedad.</p>
+<h2 id="further-reading">Lectura adicional en este sitio</h2>
+<p><a href="/housing-renting-barranquilla/">Vivienda y Arriendo en Barranquilla</a>, cómo funcionan realmente los contratos, garantías y servicios.<br/>
+<a href="/neighborhoods/ciudad-jardin/">Ciudad Jardín en profundidad</a><br/>
+<a href="/best-hotels-in-barranquilla/">Dónde hospedarse: los mejores hoteles por barrio</a><br/>
+<a href="/is-barranquilla-safe-honest-answer-2026/">Seguridad, por barrio y hora del día</a><br/>
+<a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Desglose del costo de vida</a><br/>
+<a href="/everything-you-need-to-know-about-barranquilla/">Todo lo que necesitas saber sobre Barranquilla</a></p>
+<hr/>
+<p style="font-size: 0.85em; color: #666;"><em>Los precios y caracterizaciones de barrios reflejan abril de 2026. Barranquilla está cambiando rápido, nuevas torres en Villa Santos, restauración continuada en el Centro, y gentrificación gradual en Barrio Abajo todos merecen seguimiento. Si nos hemos perdido una cuadra que vale la pena mencionar, <a href="/contact/">cuéntanos</a>.</em></p>
+
+<!-- catalina-bottom-cta v2 -->
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title"><span class="pb-en">Still have questions?</span><span class="pb-es">¿Todavía tienes preguntas?</span></p>
+<p class="cat-cta-bot-body"><span class="pb-en">Catalina is our concierge. Ask her about visas, neighborhoods, healthcare, prices, anything Barranquilla. She answers in chat or WhatsApp, English or Spanish, free.</span><span class="pb-es">Catalina es nuestra concierge. Pregúntale sobre visas, barrios, salud, precios, cualquier cosa de Barranquilla. Responde por chat o WhatsApp, en inglés o español, gratis.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn"><span class="pb-en">Chat with Catalina &rsaquo;</span><span class="pb-es">Habla con Catalina &rsaquo;</span></a>
+</section>
+</div><!-- .article-body es --><!-- .article-body -->
+<!-- Ad slot: end of article -->
+<div class="content-narrow content-narrow--end">
+</div>
+</article><!-- .single-article -->
+<!-- Related Articles --><!-- newsletter-prefoot:v1 -->
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading"><span class="pb-en">Get the guide in your inbox</span><span class="pb-es">Recibe la guía en tu correo</span></h2>
+<p class="email-capture-desc"><span class="pb-en">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise, no news feed. Just the useful stuff.</span><span class="pb-es">Cada semana: recomendaciones, guías nuevas y lo que vale la pena saber de Barranquilla. Sin ruido, sin feed de noticias. Solo lo útil.</span></p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="prefooter" method="post" novalidate="">
+<input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" tabindex="-1" type="text">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" data-ph-en="Your email address" data-ph-es="Tu correo electrónico" required="" type="email"/>
+<button class="email-capture-submit" type="submit"><span class="pb-en">Subscribe</span><span class="pb-es">Suscribirme</span></button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="prefooter"/>
+<div aria-live="polite" class="email-capture-note" role="status"><span class="pb-en">Weekly. Unsubscribe any time.</span><span class="pb-es">Semanal. Cancela cuando quieras.</span></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+
+<script>
+(function(){
+  var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;
+  function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}
+  function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}
+  t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});
+  if(s)s.addEventListener('click',c);
+  document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});
+})();
+</script>
+<script src="https://catalina.barranquilla.guide/widget.js" defer></script>
+<script src="/js/post.js?v=20260721a" defer></script>
+</body>
+</html>

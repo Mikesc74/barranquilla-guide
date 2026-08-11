@@ -25,3 +25,6 @@ venv/
 /*.png
 /*.PNG
 /_image-prompts-*.md
+
+# Watchman scheduled task credentials - NEVER commit
+.watchman-env

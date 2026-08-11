@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#1a1a2e" name="theme-color"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta data-lang="en" content="Colombia's health insurance landscape in 2026 is in crisis (Sanitas and Nueva EPS intervened, Coomeva EPS liquidated). This is the honest guide for expats in Barranquilla: what EPS works, prepagada providers, international insurance, the visa-insurance gotcha, and the stack most foreigners actually use." name="description"/>
+<meta data-lang="es" content="Colombia&#x27;s health insurance landscape in 2026 is in crisis (Sanitas and Nueva EPS intervened, Coomeva EPS liquidated). This is the honest guide for expats in Barranquilla: what EPS works, prepagada providers, international insurance, the visa-insurance gotcha, and the stack most foreigners actually use." name="description"/>
+<link href="https://barranquilla.guide/health-insurance-colombia/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="Health Insurance for Expats in Colombia: The Honest 2026 Guide - Barranquilla Guide" property="og:title"/>
+<meta content="EPS crisis caveats, prepagada providers, international insurance, the EPS-is-not-visa-insurance gotcha, and the stack most expats settle on." property="og:description"/>
+<meta content="https://barranquilla.guide/health-insurance-colombia/" property="og:url"/>
+<meta content="Barranquilla Guide" property="og:site_name"/>
+<meta content="https://barranquilla.guide/img/shared/health-insurance.webp" property="og:image"/>
+<meta content="https://barranquilla.guide/img/shared/health-insurance.webp" property="og:image:secure_url"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Health insurance for expats in Colombia, an honest 2026 guide" property="og:image:alt"/>
+<meta content="https://barranquilla.guide/img/shared/health-insurance.webp" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="2026-05-29T12:00:00+00:00" property="article:published_time"/>
+<meta content="2026-05-29T12:00:00+00:00" property="article:modified_time"/>
+<title data-lang="en">Health Insurance for Expats in Colombia: The Honest 2026 Guide - Barranquilla Guide</title>
+<title data-lang="es">Seguro de Salud para Extranjeros en Colombia: La Guía Honesta 2026 - Barranquilla Guide</title>
+<link href="/img/favicon-32.png?v=2" rel="icon" sizes="32x32"/>
+<link href="/img/favicon-192.png?v=2" rel="icon" sizes="192x192"/>
+<link rel="icon" href="/img/favicon-512.png?v=2" sizes="512x512" type="image/png">
+<link href="/img/favicon-180.png?v=2" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link as="font" crossorigin="" href="/fonts/inter-400-latin.woff2" rel="preload" type="font/woff2"/>
+<link as="font" crossorigin="" href="/fonts/playfair-display-700-latin.woff2" rel="preload" type="font/woff2"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" media="print" onload="this.media='all'" rel="stylesheet"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/css/site.css?v=20260808e" rel="stylesheet">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FKFW8ZQJPN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FKFW8ZQJPN', { send_page_view: false });
+  </script>
+<script data-ga-id="G-FKFW8ZQJPN" defer="" src="/js/analytics-engagement.js"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Health Insurance for Expats in Colombia: The Honest 2026 Guide","description":"EPS crisis caveats, prepagada providers, international insurance, the EPS-is-not-visa-insurance gotcha.","author":{"@type":"Person","name":"Mike Chartrand","url":"https://mikec.pro"},"publisher":{"@type":"Organization","name":"Barranquilla Guide","url":"https://barranquilla.guide"},"datePublished":"2026-05-29","dateModified":"2026-05-29","url":"https://barranquilla.guide/health-insurance-colombia/","image":"https://barranquilla.guide/img/heroes/health-insurance-colombia.jpg"}
+</script>
+</head>
+<body>
+
+<a class="pb-skip" href="#main">Skip to content</a>
+<div class="pb-top"><div class="pb-wrap">
+<div class="pb-l"><span class="pb-en">The insider Barranquilla guide.</span><span class="pb-es">La guía insider de Barranquilla.</span></div>
+<form class="pb-search" role="search" onsubmit="return pbAskCatalina(event)" aria-label="Search with Catalina">
+<input type="search" name="q" autocomplete="off" placeholder="Search with Catalina" data-ph-en="Search with Catalina" data-ph-es="Busca con Catalina" aria-label="Search with Catalina">
+<button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg></button>
+</form>
+<div class="pb-l">
+<div class="pb-langtog" role="group" aria-label="Language"><a href="#" data-l="en" rel="nofollow" aria-label="English">EN</a><a href="#" data-l="es" rel="nofollow" aria-label="Español">ES</a></div>
+<a href="https://medellin.guide" rel="noopener" style="opacity:.6;font-size:11.5px;letter-spacing:.04em" target="_blank">Medellín Guide ↗</a>
+</div>
+</div></div>
+<header class="site-pb"><div class="pb-wrap">
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span class="pb-dot">.</span>guide</a>
+<nav aria-label="Primary" class="pb-nav">
+<a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+</nav>
+<div class="pb-headcta">
+<a class="pb-btn pb-gold" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Ask Catalina</span><span class="pb-es">Pregúntale a Catalina</span></a>
+<button aria-controls="pbDrawer" aria-expanded="false" aria-label="Open menu" class="pb-navtog" id="pbNavToggle"><span></span></button>
+</div>
+</div></header>
+<div class="pb-scrim" id="pbScrim"></div>
+<aside aria-hidden="true" class="pb-drawer" id="pbDrawer">
+<a data-pb-close="" href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" style="color:var(--pb-terra-deep);font-weight:600"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a>
+<a data-pb-close="" href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a>
+<a data-pb-close="" href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a>
+<a data-pb-close="" href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a>
+<a data-pb-close="" href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a>
+<a data-pb-close="" href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a>
+<a data-pb-close="" href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a>
+<a data-pb-close="" href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a>
+<a data-pb-close="" href="/neighborhoods/"><span class="pb-en">Neighborhoods</span><span class="pb-es">Barrios</span></a>
+<a data-pb-close="" href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a>
+<a data-pb-close="" href="/#newsletter"><span class="pb-en">Newsletter</span><span class="pb-es">Boletín</span></a>
+</aside>
+
+<article class="single-article" id="main">
+<div style="padding-top: var(--nav-height);"></div>
+<header class="article-header">
+<span class="label"><span class="pb-en">Health &amp; Medical</span><span class="pb-es">Salud &amp; Médico</span></span>
+<h1><span class="pb-en">Health Insurance for Expats in Colombia: The Honest 2026 Guide</span><span class="pb-es">Seguro de Salud para Extranjeros en Colombia: La Guía Honesta 2026</span></h1>
+<div class="article-header-meta">
+<div>
+<div class="article-author-name">Mike Chartrand</div>
+<div class="article-date">Updated May 2026 · 16 min read</div>
+</div>
+</div>
+</header>
+
+<div class="article-body" data-lang="en">
+<div class="cat-cta-inline">
+<span class="cat-cta-text">Specific question while you read? <strong>Ask Catalina</strong>, the Barranquilla Guide concierge.</span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn">Chat with Catalina &rsaquo;</a>
+</div>
+
+<p class="guide-intro">Colombia's health-insurance system is one of the better ones in Latin America by design, but the system is in active crisis as of 2026: Sanitas and Nueva EPS are under government intervention, Coomeva EPS has been liquidated, Sura and Compensar have filed voluntary withdrawal requests. Any guide that doesn't tell you that is outdated. This is the honest picture for expats moving to Barranquilla in 2026: what EPS still works, which prepagada providers are stable, the international-insurance options, the visa-insurance gotcha that catches almost everyone, and the stack most long-term foreigners actually settle on.</p>
+
+<div class="callout">
+<strong>Three caveats to bake in from the start.</strong> (1) Verify any EPS or prepagada status on <a href="https://www.supersalud.gov.co" rel="noopener" target="_blank">supersalud.gov.co</a> before enrolling. (2) EPS does NOT satisfy the visa-insurance requirement on first M, R, or V applications; you need an international policy for that step. (3) The "best EPS" answer changes faster than aggregator articles can update. Sources here are May 2026; re-verify before signing.
+</div>
+
+<h2 id="how">How Colombia's healthcare system is structured</h2>
+<p>Three layers stack on top of each other:</p>
+<ul>
+<li><strong>EPS (Entidad Promotora de Salud) ·</strong> the mandatory public-private health insurance layer, with benefits guaranteed under a national plan called the PBS (formerly POS). Every legal resident must be enrolled. Contributions are 12.5 percent of declared monthly income for self-employed (split 8.5%/4% employer/employee for salaried workers). Covers primary care, specialists, hospitalization, surgery, mental health, maternity, most medications, and emergencies.</li>
+<li><strong>Prepagada (medicina prepagada) ·</strong> private supplementary insurance sold by Colsanitas, Colmédica, MedPlus, Coomeva Medicina Prepagada, Sura, and others. Add-on to EPS, not a replacement. Buys you direct specialist access, shorter waits, choice of doctor, and access to top private hospitals.</li>
+<li><strong>International insurance ·</strong> foreign-issued policies (Cigna Global, GeoBlue, IMG, Allianz Care, SafetyWing) that cover you in Colombia and elsewhere. Used by short-term visitors, digital nomads under 90 days, and high-income expats who want medevac coverage built in.</li>
+</ul>
+<p>The big insight: EPS is mandatory once you have a cédula de extranjería. Most long-term expats pair it with prepagada to remove the friction. Short-term visitors and digital nomads usually skip EPS and use international insurance.</p>
+
+<h2 id="crisis">The 2025-2026 EPS crisis · what's actually happening</h2>
+<p>Between 2024 and 2026, the Colombian government's Supersalud took several major EPS into <strong>intervention</strong> (a forced takeover where the state appoints management while the entity's finances are restructured). Other EPS have requested <strong>voluntary withdrawal</strong>. One major EPS has been <strong>liquidated</strong> outright. Honest framing as of May 2026:</p>
+<ul>
+<li><strong>Sanitas EPS ·</strong> under forced intervention since 2024, extended into 2026. Owned by Keralty. Still operating and accepting affiliates, but the future is uncertain.</li>
+<li><strong>Nueva EPS ·</strong> under intervention through April 2027. The largest EPS by affiliate count (~10.8 million). Operational and financial indicators deteriorating per Supersalud reports.</li>
+<li><strong>Sura EPS ·</strong> filed voluntary withdrawal in 2024. Supersalud rejected the initial request in December 2024. Still the most respected EPS in Antioquia (Medellín) for service quality; future is uncertain.</li>
+<li><strong>Compensar ·</strong> filed voluntary withdrawal. Strong in Bogotá. Uncertain.</li>
+<li><strong>Coomeva EPS ·</strong> LIQUIDATED. ~1.2-1.3 million affiliates were reassigned. Don't enroll. (Note: Coomeva <em>Medicina Prepagada</em> is a separate legal entity and is still operating.)</li>
+<li><strong>Salud Total ·</strong> ~4.7 million affiliates. NOT intervened. Among the most financially stable large contributory EPS in 2026.</li>
+</ul>
+
+<div class="callout">
+<strong>The practical filtering rule.</strong> For a new expat enrolling in 2026, the conservative pick is Salud Total (not intervened, currently stable). The "best service experience" pick is Sura (mid-withdrawal uncertainty). Sanitas and Nueva EPS work but are operating under government control. Avoid expat blogs that recommend "the best EPS" without acknowledging this is a moving target.
+</div>
+
+<h2 id="eps">EPS · what it costs, what it covers, how to enroll</h2>
+<p>EPS enrollment is mandatory for anyone with a cédula de extranjería. You enroll at any EPS office or online once your cédula is processed.</p>
+
+<h3>Cost</h3>
+<p>For self-employed foreigners on a visa, the contribution is <strong>12.5 percent of declared monthly income</strong>, with a floor at 1 SMMLV. In 2026 the SMMLV is COP 1,750,905, so the minimum contribution is roughly <strong>COP 218,863 per month (~USD 55)</strong>. The ceiling is 25 SMMLV of declared income.</p>
+<p>Rentista and Digital Nomad visa holders typically declare at the 3x SMMLV floor matching their visa-income requirement, putting their EPS contribution at about COP 657,000 per month (~USD 164).</p>
+<p>Salaried workers have 4 percent deducted from payroll; employers pay 8.5 percent. Pensionados pay 4 percent of pension income.</p>
+
+<h3>What's covered</h3>
+<p>The PBS (Plan de Beneficios en Salud) is broad: primary care, specialist consultations, hospitalization, surgery, mental health, maternity, pediatrics, most medications, physical therapy, basic dental, emergency care, cancer treatment, cardiac surgery, organ transplants (in covered indications). Not covered: most cosmetic procedures, experimental treatments, advanced dental beyond basic, vision correction, some sub-specialty work. No out-of-pocket maximum cap because there's no out-of-pocket structure; covered care costs nothing or a small copay (COP 500-5,000).</p>
+
+<h3>How enrollment actually works (Barranquilla-specific)</h3>
+<ol>
+<li>Pick an EPS that accepts foreign cédulas. Salud Total, Sura, or one of the larger options.</li>
+<li>Go to a branch office with your cédula de extranjería, recent utility bill or lease showing your address, and your visa.</li>
+<li>Fill the Formulario de Afiliación.</li>
+<li>Declare your base income (IBC). Minimum 1 SMMLV; Rentista/DNV holders typically declare 3x SMMLV.</li>
+<li>Pay first month's contribution on the spot or via PSE.</li>
+<li>Pick your primary IPS. In Barranquilla: Salud Total has IPS in Buena Vista and El Prado; Sura's IPS network in BAQ is smaller than in Medellín but present in Villa Country and Buena Vista.</li>
+</ol>
+<p>Coverage begins 1 to 3 business days after enrollment is confirmed.</p>
+
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Want the whole trip handled?</span><span class="pb-es">¿Quieres todo el viaje resuelto?</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">We coordinate medical trips end to end: vetted clinics only, the consults, the procedure, recovery, and the logistics around it. Tell Catalina what you are considering and she loops in Mike and Santi.</span><span class="pb-es">Coordinamos viajes médicos de principio a fin: solo clínicas verificadas, las consultas, el procedimiento, la recuperación y la logística alrededor. Cuéntale a Catalina qué estás considerando y entran Mike y Santi.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn">Ask Catalina &rsaquo;</a>
+</aside>
+
+<h2 id="prepagada">Prepagada · the private supplementary layer</h2>
+<p>Prepagada is sold by some of the same companies as EPS but operates as a separate contract. Monthly premium buys you:</p>
+<ul>
+<li>Direct specialist access (no GP referral).</li>
+<li>Same-week or same-day appointments for most specialties.</li>
+<li>Private hospital rooms.</li>
+<li>Access to top private hospitals (Clínica Portoazul, Clínica La Misericordia, Clínica Iberoamérica, Clínica Bonnadona Prevenir).</li>
+<li>English-speaking doctors on most panels.</li>
+</ul>
+
+<h3>The main prepagada providers in 2026</h3>
+<ul>
+<li><strong>Colsanitas (Keralty group) ·</strong> 5 plan tiers, 40+ years of operation, largest private clinic network. <a href="https://www.colsanitas.com" rel="noopener" target="_blank">colsanitas.com</a></li>
+<li><strong>Colmédica ·</strong> 15 plan options. NOTE: Colmédica is NOT the same as Sura's plan complementario; separate companies, separate products. <a href="https://www.colmedica.com" rel="noopener" target="_blank">colmedica.com</a></li>
+<li><strong>MedPlus ·</strong> Supersalud-authorized provider.</li>
+<li><strong>Coomeva Medicina Prepagada ·</strong> still operating in 2026 (separate legal entity from the liquidated Coomeva EPS).</li>
+<li><strong>Sura Plan Complementario ·</strong> Sura sells its own separate complementary plan as an EPS add-on.</li>
+</ul>
+
+<h3>Indicative monthly prices (2026 COP, approximate ranges)</h3>
+<p>Prices vary by provider, plan tier, age, and pre-existing conditions. Get a written cotización from each provider before signing.</p>
+<table>
+<thead>
+<tr><th>Age</th><th>Entry-level</th><th>Mid-tier</th><th>Top-tier</th></tr>
+</thead>
+<tbody>
+<tr><td>30-35</td><td>COP 130,000-220,000</td><td>COP 220,000-400,000</td><td>COP 400,000-700,000</td></tr>
+<tr><td>50</td><td>COP 220,000-400,000</td><td>COP 400,000-700,000</td><td>COP 700,000-1,200,000</td></tr>
+<tr><td>65+</td><td>COP 400,000-700,000</td><td>COP 700,000-1,200,000</td><td>COP 1,200,000+</td></tr>
+</tbody>
+</table>
+<p>USD equivalents at TRM ~4,000: entry-level age 35 runs about USD 35-55/month; mid-tier age 50 runs about USD 100-175/month.</p>
+
+<h3>Pre-existing conditions and waiting periods</h3>
+<p>Prepagada providers screen for pre-existing conditions and apply waiting periods (typically 6-24 months for major procedures, longer for some chronic conditions). EPS does NOT screen and has no waiting periods, which is one reason most expats enroll in both.</p>
+
+<h2 id="international">International insurance · for short-term visitors and digital nomads</h2>
+<p>If you're in Colombia under 90 days, on a digital-nomad visa, on corporate assignment, or just want medevac coverage built in, international insurance is usually right. The major options:</p>
+
+<h3>Long-term expat plans</h3>
+<ul>
+<li><strong>Cigna Global ·</strong> tier-based plans, USD 200-300/mo healthy 30-40yo core inpatient; USD 350-500 with full outpatient/dental. <a href="https://www.cignaglobal.com" rel="noopener" target="_blank">cignaglobal.com</a></li>
+<li><strong>GeoBlue (Xplorer) ·</strong> US-passport-focused. Generally priced between Cigna Gold and Platinum.</li>
+<li><strong>IMG Global ·</strong> long-term reimbursement model.</li>
+<li><strong>Allianz Care ·</strong> long-term expat product, strong global network.</li>
+</ul>
+
+<h3>Digital nomad and short-term plans</h3>
+<ul>
+<li><strong>SafetyWing (Nomad Insurance) ·</strong> ~USD 50/mo subscription. Cheap but real coverage caps; read the policy.</li>
+<li><strong>World Nomads ·</strong> trip-based, adventure-activity coverage. Best under 45 days.</li>
+<li><strong>Allianz Travel ·</strong> short-term traveler product, separate from Allianz Care.</li>
+</ul>
+
+<h2 id="visa">The visa-insurance gotcha that catches everyone</h2>
+<p>The single most important fact in this guide:</p>
+<div class="callout">
+<strong>An EPS affiliation does NOT satisfy the Colombian visa-insurance requirement on first M, R, or V applications.</strong> The Cancillería resolution requires international coverage including hospitalization, emergency medical, and <strong>repatriation</strong>. EPS does not include international repatriation, so it is automatically insufficient on day one.
+</div>
+
+<p>The realistic workflow:</p>
+<ol>
+<li>Apply for your first M (Migrant) or R (Resident) visa with an <strong>international travel-medical policy</strong> covering the period of stay. AXA Assistance Colombia, Assist Card, SafetyWing, IATI Seguros, and similar are commonly accepted.</li>
+<li>Receive the visa.</li>
+<li>Apply for your cédula de extranjería.</li>
+<li>Enroll in an EPS (now mandatory for residents).</li>
+<li>On visa renewal or upgrade, present the EPS certificate of affiliation.</li>
+</ol>
+
+<p>The Cancillería does NOT publish a fixed USD minimum; Resolution 5477 requires "sufficient coverage" for the stay. Practical floor: medical coverage of USD 100,000+, evacuation/repatriation included, valid for full duration, in a policy that explicitly names: hospitalization, emergency medical care, disability, maternity (for adult women in pregnancy age), death, and repatriation.</p>
+
+<h2 id="travel-medical">Travel-medical for short stays under 90 days</h2>
+<p>Commonly accepted in practice for V/PIP/M-first-time applications:</p>
+<ul>
+<li><strong>AXA Assistance Colombia ·</strong> up to USD $200,000 medical coverage, baggage, 24/7 assistance. Locally underwritten. <a href="https://axa.asistenciaviaje.com.co" rel="noopener" target="_blank">axa.asistenciaviaje.com.co</a></li>
+<li><strong>Assist Card ·</strong> widely used across LATAM.</li>
+<li><strong>SafetyWing Nomad Insurance ·</strong> USD ~$50/month, includes emergency evacuation.</li>
+<li><strong>IATI Seguros / Mondo / Heymondo ·</strong> European-headquartered, popular and frequently cited.</li>
+</ul>
+
+<p>The certificate must explicitly list hospitalization, emergency medical, disability, maternity, death, and repatriation, with start and end dates covering your requested stay.</p>
+
+<h2 id="stack">The stack most foreigners actually use</h2>
+
+<h3>Stack 1: EPS + Prepagada (most common for long-term residents)</h3>
+<ul>
+<li>EPS for legally required base + catastrophic protection.</li>
+<li>Prepagada for fast specialist access, choice of doctor, private rooms.</li>
+<li>Total: COP 657,000 EPS + COP 220,000-400,000 prepagada = ~USD 220-265/month at 35yo.</li>
+</ul>
+
+<h3>Stack 2: EPS + International (medevac-paranoid stack)</h3>
+<ul>
+<li>EPS for mandatory base.</li>
+<li>International policy (Cigna Global, Allianz Care) for repatriation and stays outside Colombia.</li>
+<li>Total: COP 657,000 + USD 250-400 = ~USD 415-565/month at 35yo. Expensive but works for split-time residents.</li>
+</ul>
+
+<h3>Stack 3: International only (the digital nomad)</h3>
+<ul>
+<li>SafetyWing or Cigna Global, no Colombian enrollment.</li>
+<li>Works only on 90-day tourist permits or some digital-nomad visa setups.</li>
+<li>Total: USD 50-300/month depending on plan.</li>
+</ul>
+
+<h2 id="hospitals">Where you'll actually use this · top private hospitals by city</h2>
+<p>Both prepagada and international insurance route you to private hospitals. Most commonly reached:</p>
+<ul>
+<li><strong>Barranquilla:</strong> Clínica Portoazul Auna (international-patient program, Newsweek-listed), Clínica La Misericordia (LMCI), Clínica Iberoamérica (Keralty/Colsanitas group), Clínica Bonnadona Prevenir, Clínica General del Norte.</li>
+<li><strong>Cartagena:</strong> Hospital Serena del Mar (JCI), Nuevo Hospital de Bocagrande, Clínica Medihelp.</li>
+<li><strong>Medellín:</strong> Hospital Pablo Tobón Uribe, Clínica Las Américas, Clínica El Rosario.</li>
+<li><strong>Bogotá:</strong> Fundación Santa Fe de Bogotá (JCI), Clínica del Country, Clínica Reina Sofía.</li>
+</ul>
+
+<h2 id="mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Assuming EPS satisfies the visa-insurance requirement.</strong> It does not on first application.</li>
+<li><strong>Enrolling in a recently-intervened EPS without knowing.</strong> Verify on supersalud.gov.co.</li>
+<li><strong>Confusing Coomeva EPS (liquidated) with Coomeva Medicina Prepagada (still operating).</strong> Different legal entities.</li>
+<li><strong>Confusing Colmédica with Sura's plan complementario.</strong> Different companies, different products.</li>
+<li><strong>Skipping prepagada, then waiting 8 weeks for a specialist.</strong> If you can afford it, prepagada earns its keep on appointment time alone.</li>
+<li><strong>Underbuying international insurance.</strong> SafetyWing at USD 50/month is great for the price but excludes a lot. Read the policy.</li>
+<li><strong>Letting a Colombian policy lapse and assuming easy re-enrollment.</strong> Re-enrollment triggers new waiting periods on prepagada.</li>
+<li><strong>Not declaring real income to EPS.</strong> Under-declaring is technically illegal; DIAN cross-checks.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+<dl class="faq">
+<dt>Can I see English-speaking doctors with EPS in Barranquilla?</dt>
+<dd>Possible but luck-of-the-draw. Prepagada gives reliable access to English-speaking specialists, especially at Clínica Portoazul.</dd>
+
+<dt>Does my US/Canadian insurance cover me in Colombia?</dt>
+<dd>Almost never for routine care. Some PPOs cover emergency care abroad as out-of-network. Medicare and CA provincial plans do not. Get a written statement before assuming.</dd>
+
+<dt>Do I need a Colombian bank account to enroll?</dt>
+<dd>Helpful but not strictly required. PSE or in-person payment works. Long-term, the local account is easier.</dd>
+
+<dt>Can my non-cédula partner be on my EPS or prepagada?</dt>
+<dd>EPS: as a beneficiary of a Colombian-recognized union. Prepagada: yes, as a separately-priced add-on.</dd>
+
+<dt>What if I need a procedure not in the PBS?</dt>
+<dd>Three options: pay out of pocket; prepagada coverage; tutela (constitutional injunction) if medically necessary and EPS refuses. Tutelas work but take weeks.</dd>
+
+<dt>I'm 67 and retiring to BAQ. Will prepagada accept me?</dt>
+<dd>Yes, with full pre-existing-condition screening and higher premiums. Some plans cap new-enrollee age at 70 or 75. Get cotizaciones from multiple providers; spread is significant.</dd>
+
+<dt>Pregnancy and maternity?</dt>
+<dd>EPS covers maternity completely. Prepagada often adds private-room delivery and choice of OB. Most international policies require pregnancy as a rider with 12-month waiting period.</dd>
+
+<dt>Emergency room experience in Barranquilla?</dt>
+<dd>EPS-only: long waits in public ER or your EPS's IPS. Prepagada or international: directly to Clínica Portoazul or Clínica La Misericordia ER, usually seen within 30 minutes.</dd>
+</dl>
+
+<h2 id="catalina">Want help picking the right stack?</h2>
+<p>Tell Catalina your age, visa status, budget, and BAQ neighborhood. She'll cross-check EPS intervention status, get prepagada quotes, recommend international options if short-term, and walk you through the visa-insurance rule so you don't get rejected at the consulate.</p>
+<p><small><em>This guide reflects May 2026 information about a rapidly-changing market. Verify EPS status on supersalud.gov.co and get written cotizaciones before enrolling. Editorial information, not legal, medical, or financial advice.</em></small></p>
+
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="/healthcare-barranquilla/">Healthcare in Barranquilla (overview)</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas &amp; residency in Colombia</a></li>
+<li><a href="/tax-residency-colombia-2026-guide/">Tax residency in Colombia: the 183-day rule</a></li>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Cost of living in Barranquilla</a></li>
+<li><a href="/canadian-taxes-colombia-seniors/">Canadian taxes for seniors in Colombia</a></li>
+</ul>
+
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title">Still have questions?</p>
+<p class="cat-cta-bot-body">Catalina is our concierge. Ask her about EPS, prepagada, international insurance, anything Colombian healthcare. She answers in chat or WhatsApp, English or Spanish, free.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn">Chat with Catalina &rsaquo;</a>
+</section>
+</div><!-- .article-body -->
+
+<!-- Article Body (Spanish) -->
+<div class="article-body" data-lang="es">
+<div class="cat-cta-inline">
+<span class="cat-cta-text">¿Alguna pregunta específica mientras lees? <strong>Pregúntale a Catalina</strong>, la concierge de la Guía de Barranquilla.</span>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-btn">Chatea con Catalina &rsaquo;</a>
+</div>
+
+<p class="guide-intro">El sistema de salud de Colombia es uno de los mejores de América Latina en teoría, pero el sistema está en crisis activa desde 2026: Sanitas y Nueva EPS están bajo intervención del gobierno, Coomeva EPS ha sido liquidada, Sura y Compensar han solicitado retiro voluntario. Cualquier guía que no te lo diga está desactualizada. Este es el panorama honesto para extranjeros que se mudan a Barranquilla en 2026: qué EPS todavía funciona, cuáles proveedores de prepagada son estables, las opciones de seguros internacionales, la trampa del seguro de visa que atrapa a casi todos, y el combo que realmente usan los extranjeros de largo plazo.</p>
+
+<div class="callout">
+<strong>Tres salvedades que debes tener desde el inicio.</strong> (1) Verifica cualquier estado de EPS o prepagada en <a href="https://www.supersalud.gov.co" rel="noopener" target="_blank">supersalud.gov.co</a> antes de afiliarte. (2) EPS NO satisface el requisito de seguro de visa en primeras solicitudes M, R, o V; necesitas una póliza internacional para ese paso. (3) La respuesta de "mejor EPS" cambia más rápido de lo que pueden actualizar los artículos agregadores. Las fuentes aquí son de mayo 2026; re-verifica antes de firmar.
+</div>
+
+<h2 id="how">Cómo está estructurado el sistema de salud en Colombia</h2>
+<p>Tres capas se apilan una encima de la otra:</p>
+<ul>
+<li><strong>EPS (Entidad Promotora de Salud) ·</strong> la capa obligatoria de seguros de salud público-privados, con beneficios garantizados bajo un plan nacional llamado PBS (anteriormente POS). Todo residente legal debe estar afiliado. Las contribuciones son el 12,5 por ciento del ingreso mensual declarado para independientes (divididas 8,5%/4% empleador/empleado para trabajadores asalariados). Cubre atención primaria, especialistas, hospitalización, cirugía, salud mental, maternidad, la mayoría de medicamentos y emergencias.</li>
+<li><strong>Prepagada (medicina prepagada) ·</strong> seguros privados suplementarios vendidos por Colsanitas, Colmédica, MedPlus, Coomeva Medicina Prepagada, Sura y otros. Es un complemento a EPS, no un reemplazo. Te compra acceso directo a especialistas, esperas más cortas, elección de médico y acceso a los mejores hospitales privados.</li>
+<li><strong>Seguros internacionales ·</strong> pólizas emitidas en el extranjero (Cigna Global, GeoBlue, IMG, Allianz Care, SafetyWing) que te cubren en Colombia y en otros lugares. Usados por visitantes de corto plazo, nómadas digitales menores de 90 días y expatriados de altos ingresos que quieren cobertura de evacuación incluida.</li>
+</ul>
+<p>La gran idea: EPS es obligatorio una vez tienes cédula de extranjería. La mayoría de expatriados de largo plazo lo combinan con prepagada para quitar la fricción. Visitantes de corto plazo y nómadas digitales generalmente saltean EPS y usan seguros internacionales.</p>
+
+<h2 id="crisis">La crisis de EPS 2025-2026 · qué está pasando realmente</h2>
+<p>Entre 2024 y 2026, la Superintendencia de Salud del gobierno colombiano llevó varias EPS mayores a <strong>intervención</strong> (una toma de control forzada donde el estado nombra administración mientras se reestructuran las finanzas de la entidad). Otras EPS han solicitado <strong>retiro voluntario</strong>. Una EPS mayor ha sido <strong>liquidada</strong> directamente. Marco honesto a mayo 2026:</p>
+<ul>
+<li><strong>Sanitas EPS ·</strong> bajo intervención forzada desde 2024, extendida hasta 2026. Propiedad de Keralty. Todavía operando y aceptando afiliados, pero el futuro es incierto.</li>
+<li><strong>Nueva EPS ·</strong> bajo intervención hasta abril 2027. La EPS más grande por cantidad de afiliados (~10,8 millones). Operativa pero con indicadores financieros deteriorándose según reportes de Supersalud.</li>
+<li><strong>Sura EPS ·</strong> solicitó retiro voluntario en 2024. Supersalud rechazó la solicitud inicial en diciembre 2024. Sigue siendo la EPS más respetada en Antioquia (Medellín) por calidad de servicio; el futuro es incierto.</li>
+<li><strong>Compensar ·</strong> solicitó retiro voluntario. Fuerte en Bogotá. Incierto.</li>
+<li><strong>Coomeva EPS ·</strong> LIQUIDADA. ~1,2-1,3 millones de afiliados fueron reasignados. No te afílies. (Nota: Coomeva <em>Medicina Prepagada</em> es una entidad legal separada y sigue operando.)</li>
+<li><strong>Salud Total ·</strong> ~4,7 millones de afiliados. NO está bajo intervención. Entre las EPS contributivas grandes más financieramente estables en 2026.</li>
+</ul>
+
+<div class="callout">
+<strong>La regla práctica de filtrado.</strong> Para un nuevo expatriado afiliándose en 2026, la opción conservadora es Salud Total (no intervenida, actualmente estable). La opción de "mejor experiencia de servicio" es Sura (con incertidumbre por retiro). Sanitas y Nueva EPS funcionan pero operan bajo control del gobierno. Evita blogs de expatriados que recomienden "la mejor EPS" sin reconocer que esto es un objetivo en movimiento.
+</div>
+
+<h2 id="eps">EPS · qué cuesta, qué cubre, cómo afiliarte</h2>
+<p>La afiliación a EPS es obligatoria para cualquiera con cédula de extranjería. Te afílias en cualquier oficina de EPS u online una vez que tu cédula ha sido procesada.</p>
+
+<h3>Costo</h3>
+<p>Para independientes extranjeros con visa, la contribución es <strong>12,5 por ciento del ingreso mensual declarado</strong>, con un piso de 1 SMMLV. En 2026 el SMMLV es COP 1.750.905, así que la contribución mínima es aproximadamente <strong>COP 218.863 mensuales (~USD 55)</strong>. El techo es 25 SMMLV del ingreso declarado.</p>
+<p>Los titulares de visa Rentista y Nómada Digital típicamente declaran al piso de 3x SMMLV que coincide con el requisito de ingreso de su visa, poniendo su contribución a EPS en alrededor de COP 657.000 mensuales (~USD 164).</p>
+<p>Los trabajadores asalariados tienen el 4 por ciento deducido de la nómina; los empleadores pagan el 8,5 por ciento. Los pensionados pagan el 4 por ciento del ingreso de pensión.</p>
+
+<h3>Qué está cubierto</h3>
+<p>El PBS (Plan de Beneficios en Salud) es amplio: atención primaria, consultas de especialistas, hospitalización, cirugía, salud mental, maternidad, pediatría, la mayoría de medicamentos, fisioterapia, odontología básica, atención de emergencias, tratamiento del cáncer, cirugía cardíaca, trasplantes de órganos (en indicaciones cubiertas). No cubierto: la mayoría de procedimientos cosméticos, tratamientos experimentales, odontología avanzada más allá de lo básico, corrección de visión, algo de trabajo de subespecialidad. Sin tope de desembolso de bolsillo porque no hay estructura de desembolso de bolsillo; la atención cubierta no cuesta nada o un copago pequeño (COP 500-5.000).</p>
+
+<h3>Cómo funciona la afiliación realmente (específico de Barranquilla)</h3>
+<ol>
+<li>Elige una EPS que acepte cédulas extranjeras. Salud Total, Sura, u otra de las opciones mayores.</li>
+<li>Ve a una oficina de sucursal con tu cédula de extranjería, recibo de servicios reciente o contrato de arrendamiento que muestre tu dirección, y tu visa.</li>
+<li>Llena el Formulario de Afiliación.</li>
+<li>Declara tu ingreso base (IBC). Mínimo 1 SMMLV; los titulares de Rentista/DNV típicamente declaran 3x SMMLV.</li>
+<li>Paga la contribución del primer mes en el acto o vía PSE.</li>
+<li>Elige tu IPS primaria. En Barranquilla: Salud Total tiene IPS en Buena Vista y El Prado; la red de IPS de Sura en BAQ es más pequeña que en Medellín pero presente en Villa Country y Buena Vista.</li>
+</ol>
+<p>La cobertura comienza 1 a 3 días hábiles después de que la afiliación es confirmada.</p>
+
+<aside class="cat-cta-mid">
+<p class="cat-cta-mid-title"><span class="pb-en">Want the whole trip handled?</span><span class="pb-es">¿Quieres todo el viaje resuelto?</span></p>
+<p class="cat-cta-mid-body"><span class="pb-en">We coordinate medical trips end to end: vetted clinics only, the consults, the procedure, recovery, and the logistics around it. Tell Catalina what you are considering and she loops in Mike and Santi.</span><span class="pb-es">Coordinamos viajes médicos de principio a fin: solo clínicas verificadas, las consultas, el procedimiento, la recuperación y la logística alrededor. Cuéntale a Catalina qué estás considerando y entran Mike y Santi.</span></p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-mid-btn">Pregúntale a Catalina &rsaquo;</a>
+</aside>
+
+<h2 id="prepagada">Prepagada · la capa suplementaria privada</h2>
+<p>La prepagada es vendida por algunas de las mismas compañías que EPS pero opera como un contrato separado. La prima mensual te compra:</p>
+<ul>
+<li>Acceso directo a especialistas (sin derivación de médico general).</li>
+<li>Citas en la misma semana o el mismo día para la mayoría de especialidades.</li>
+<li>Cuartos privados en hospitales.</li>
+<li>Acceso a los mejores hospitales privados (Clínica Portoazul, Clínica La Misericordia, Clínica Iberoamérica, Clínica Bonnadona Prevenir).</li>
+<li>Médicos que hablan inglés en la mayoría de paneles.</li>
+</ul>
+
+<h3>Los proveedores principales de prepagada en 2026</h3>
+<ul>
+<li><strong>Colsanitas (grupo Keralty) ·</strong> 5 niveles de plan, 40+ años de operación, la red de clínicas privadas más grande. <a href="https://www.colsanitas.com" rel="noopener" target="_blank">colsanitas.com</a></li>
+<li><strong>Colmédica ·</strong> 15 opciones de plan. NOTA: Colmédica NO es lo mismo que el plan complementario de Sura; compañías separadas, productos separados. <a href="https://www.colmedica.com" rel="noopener" target="_blank">colmedica.com</a></li>
+<li><strong>MedPlus ·</strong> proveedor autorizado por Supersalud.</li>
+<li><strong>Coomeva Medicina Prepagada ·</strong> todavía operando en 2026 (entidad legal separada de la Coomeva EPS liquidada).</li>
+<li><strong>Sura Plan Complementario ·</strong> Sura vende su propio plan complementario separado como complemento de EPS.</li>
+</ul>
+
+<h3>Precios mensuales indicativos (2026 COP, rangos aproximados)</h3>
+<p>Los precios varían por proveedor, nivel de plan, edad y condiciones preexistentes. Obtén una cotización escrita de cada proveedor antes de firmar.</p>
+<table>
+<thead>
+<tr><th>Edad</th><th>Nivel básico</th><th>Nivel medio</th><th>Nivel superior</th></tr>
+</thead>
+<tbody>
+<tr><td>30-35</td><td>COP 130.000-220.000</td><td>COP 220.000-400.000</td><td>COP 400.000-700.000</td></tr>
+<tr><td>50</td><td>COP 220.000-400.000</td><td>COP 400.000-700.000</td><td>COP 700.000-1.200.000</td></tr>
+<tr><td>65+</td><td>COP 400.000-700.000</td><td>COP 700.000-1.200.000</td><td>COP 1.200.000+</td></tr>
+</tbody>
+</table>
+<p>Equivalentes en USD con TRM ~4.000: nivel básico edad 35 corre alrededor de USD 35-55/mes; nivel medio edad 50 corre alrededor de USD 100-175/mes.</p>
+
+<h3>Condiciones preexistentes y períodos de espera</h3>
+<p>Los proveedores de prepagada hacen screening para condiciones preexistentes y aplican períodos de espera (típicamente 6-24 meses para procedimientos mayores, más largo para algunas condiciones crónicas). EPS NO hace screening y no tiene períodos de espera, lo que es una de las razones por las que la mayoría de expatriados se afilian a ambas.</p>
+
+<h2 id="international">Seguros internacionales · para visitantes de corto plazo y nómadas digitales</h2>
+<p>Si estás en Colombia menos de 90 días, con visa de nómada digital, en asignación corporativa, o simplemente quieres cobertura de evacuación incorporada, el seguro internacional es generalmente lo correcto. Las opciones principales:</p>
+
+<h3>Planes para expatriados de largo plazo</h3>
+<ul>
+<li><strong>Cigna Global ·</strong> planes por niveles, USD 200-300/mes cobertura interna basada en salud para edad 30-40 básica; USD 350-500 con cobertura ambulatoria completa/dental. <a href="https://www.cignaglobal.com" rel="noopener" target="_blank">cignaglobal.com</a></li>
+<li><strong>GeoBlue (Xplorer) ·</strong> enfocado en pasaportes estadounidenses. Generalmente priceado entre Cigna Gold y Platinum.</li>
+<li><strong>IMG Global ·</strong> modelo de reembolso de largo plazo.</li>
+<li><strong>Allianz Care ·</strong> producto para expatriados de largo plazo, red global fuerte.</li>
+</ul>
+
+<h3>Planes para nómadas digitales y corto plazo</h3>
+<ul>
+<li><strong>SafetyWing (Nomad Insurance) ·</strong> ~USD 50/mes suscripción. Barato pero topes de cobertura reales; lee la póliza.</li>
+<li><strong>World Nomads ·</strong> basado en viajes, cobertura de actividades de aventura. Mejor menos de 45 días.</li>
+<li><strong>Allianz Travel ·</strong> producto de viajero de corto plazo, separado de Allianz Care.</li>
+</ul>
+
+<h2 id="visa">La trampa del seguro de visa que atrapa a todos</h2>
+<p>El hecho más importante en esta guía:</p>
+<div class="callout">
+<strong>Una afiliación a EPS NO satisface el requisito de seguro de visa de Colombia en primeras solicitudes M, R, o V.</strong> La resolución de la Cancillería requiere cobertura internacional incluyendo hospitalización, emergencias médicas, y <strong>repatriación</strong>. EPS no incluye repatriación internacional, así que es automáticamente insuficiente el primer día.
+</div>
+
+<p>El flujo de trabajo realista:</p>
+<ol>
+<li>Solicita tu primera visa M (Migrante) o R (Residente) con una <strong>póliza internacional de viaje médico</strong> cubriendo el período de estadía. AXA Assistance Colombia, Assist Card, SafetyWing, IATI Seguros, y similares son comúnmente aceptados.</li>
+<li>Recibe la visa.</li>
+<li>Solicita tu cédula de extranjería.</li>
+<li>Afíliate a una EPS (ahora obligatorio para residentes).</li>
+<li>En renovación o cambio de visa, presenta el certificado de afiliación a EPS.</li>
+</ol>
+
+<p>La Cancillería NO publica un mínimo fijo en USD; la Resolución 5477 requiere "cobertura suficiente" para la estadía. Piso práctico: cobertura médica de USD 100.000+, evacuación/repatriación incluida, válida por la duración completa, en una póliza que explícitamente nombre: hospitalización, atención médica de emergencia, incapacidad, maternidad (para mujeres adultas en edad reproductiva), muerte y repatriación.</p>
+
+<h2 id="travel-medical">Viaje médico para estadías cortas menores de 90 días</h2>
+<p>Comúnmente aceptadas en la práctica para aplicaciones V/PIP/M-primera-vez:</p>
+<ul>
+<li><strong>AXA Assistance Colombia ·</strong> hasta USD 200.000 en cobertura médica, equipaje, asistencia 24/7. Asegurada localmente. <a href="https://axa.asistenciaviaje.com.co" rel="noopener" target="_blank">axa.asistenciaviaje.com.co</a></li>
+<li><strong>Assist Card ·</strong> ampliamente usada en toda LATAM.</li>
+<li><strong>SafetyWing Nomad Insurance ·</strong> USD ~50/mes, incluye evacuación de emergencia.</li>
+<li><strong>IATI Seguros / Mondo / Heymondo ·</strong> con sede en Europa, populares y frecuentemente citadas.</li>
+</ul>
+
+<p>El certificado debe explícitamente listar hospitalización, emergencia médica, incapacidad, maternidad, muerte y repatriación, con fechas de inicio y fin cubriendo tu estadía solicitada.</p>
+
+<h2 id="stack">El combo que realmente usan los extranjeros</h2>
+
+<h3>Combo 1: EPS + Prepagada (más común para residentes de largo plazo)</h3>
+<ul>
+<li>EPS para base legalmente requerida + protección catastrófica.</li>
+<li>Prepagada para acceso rápido a especialistas, elección de médico, cuartos privados.</li>
+<li>Total: COP 657.000 EPS + COP 220.000-400.000 prepagada = ~USD 220-265/mes a edad 35.</li>
+</ul>
+
+<h3>Combo 2: EPS + Internacional (combo paranoia-evacuación)</h3>
+<ul>
+<li>EPS para base obligatoria.</li>
+<li>Póliza internacional (Cigna Global, Allianz Care) para repatriación y estadías fuera de Colombia.</li>
+<li>Total: COP 657.000 + USD 250-400 = ~USD 415-565/mes a edad 35. Caro pero funciona para residentes de tiempo dividido.</li>
+</ul>
+
+<h3>Combo 3: Solo internacional (el nómada digital)</h3>
+<ul>
+<li>SafetyWing o Cigna Global, sin afiliación colombiana.</li>
+<li>Funciona solo con permisos turísticos de 90 días o algunos esquemas de visa de nómada digital.</li>
+<li>Total: USD 50-300/mes dependiendo del plan.</li>
+</ul>
+
+<h2 id="hospitals">Dónde realmente usarás esto · hospitales privados top por ciudad</h2>
+<p>Tanto prepagada como seguros internacionales te direccionan a hospitales privados. Los más comúnmente alcanzados:</p>
+<ul>
+<li><strong>Barranquilla:</strong> Clínica Portoazul Auna (programa de paciente internacional, listada en Newsweek), Clínica La Misericordia (LMCI), Clínica Iberoamérica (grupo Keralty/Colsanitas), Clínica Bonnadona Prevenir, Clínica General del Norte.</li>
+<li><strong>Cartagena:</strong> Hospital Serena del Mar (JCI), Nuevo Hospital de Bocagrande, Clínica Medihelp.</li>
+<li><strong>Medellín:</strong> Hospital Pablo Tobón Uribe, Clínica Las Américas, Clínica El Rosario.</li>
+<li><strong>Bogotá:</strong> Fundación Santa Fe de Bogotá (JCI), Clínica del Country, Clínica Reina Sofía.</li>
+</ul>
+
+<h2 id="mistakes">Errores comunes</h2>
+<ul>
+<li><strong>Asumir que EPS satisface el requisito de seguro de visa.</strong> No lo hace en primera solicitud.</li>
+<li><strong>Afiliarse a una EPS recientemente intervenida sin saberlo.</strong> Verifica en supersalud.gov.co.</li>
+<li><strong>Confundir Coomeva EPS (liquidada) con Coomeva Medicina Prepagada (todavía operando).</strong> Entidades legales diferentes.</li>
+<li><strong>Confundir Colmédica con el plan complementario de Sura.</strong> Compañías diferentes, productos diferentes.</li>
+<li><strong>Saltarse prepagada, luego esperar 8 semanas para un especialista.</strong> Si puedes pagarlo, prepagada justifica su costo solo en tiempo de cita.</li>
+<li><strong>Comprar poco seguro internacional.</strong> SafetyWing a USD 50/mes es excelente por el precio pero excluye bastante. Lee la póliza.</li>
+<li><strong>Dejar que una póliza colombiana expire y asumir re-afiliación fácil.</strong> La re-afiliación dispara nuevos períodos de espera en prepagada.</li>
+<li><strong>No declarar ingreso real a EPS.</strong> Bajo-declarar es técnicamente ilegal; DIAN hace verificación cruzada.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+<dl class="faq">
+<dt>¿Puedo ver médicos que hablen inglés con EPS en Barranquilla?</dt>
+<dd>Posible pero dependencia de la suerte. Prepagada te da acceso confiable a especialistas que hablan inglés, especialmente en Clínica Portoazul.</dd>
+
+<dt>¿Mi seguro de US/Canadá me cubre en Colombia?</dt>
+<dd>Casi nunca para atención de rutina. Algunos PPOs cubren atención de emergencia en el extranjero como fuera de red. Medicare y planes provinciales de CA no. Obtén una declaración escrita antes de asumir.</dd>
+
+<dt>¿Necesito una cuenta bancaria colombiana para afiliarse?</dt>
+<dd>Útil pero no estrictamente requerido. PSE o pago en persona funciona. A largo plazo, la cuenta local es más fácil.</dd>
+
+<dt>¿Puede mi pareja sin cédula estar en mi EPS o prepagada?</dt>
+<dd>EPS: como beneficiario de una unión reconocida colombianamente. Prepagada: sí, como un add-on priceado por separado.</dd>
+
+<dt>¿Qué si necesito un procedimiento no en el PBS?</dt>
+<dd>Tres opciones: pagar de tu bolsillo; cobertura prepagada; tutela (injunción constitucional) si es médicamente necesario y EPS rechaza. Las tutelas funcionan pero toman semanas.</dd>
+
+<dt>Tengo 67 y me estoy jubilando en BAQ. ¿Aceptará prepagada?</dt>
+<dd>Sí, con screening completo de condiciones preexistentes y primas más altas. Algunos planes tienen límite de edad de afiliación nuevo a 70 o 75. Obtén cotizaciones de múltiples proveedores; el rango es significativo.</dd>
+
+<dt>¿Embarazo y maternidad?</dt>
+<dd>EPS cubre maternidad completamente. Prepagada a menudo agrega parto en cuarto privado y elección de OB. La mayoría de pólizas internacionales requieren embarazo como rider con período de espera de 12 meses.</dd>
+
+<dt>¿Experiencia de emergencia en Barranquilla?</dt>
+<dd>Solo EPS: esperas largas en ER público o en la IPS de tu EPS. Prepagada o internacional: directamente a ER de Clínica Portoazul o Clínica La Misericordia, usualmente visto en 30 minutos.</dd>
+</dl>
+
+<h2 id="catalina">¿Quieres ayuda eligiendo el combo correcto?</h2>
+<p>Cuéntale a Catalina tu edad, estatus de visa, presupuesto y barrio en BAQ. Ella verificará el estatus de intervención de EPS, obtendrá cotizaciones de prepagada, recomendará opciones internacionales si es corto plazo, y te guiará a través de la regla del seguro de visa para que no te rechacen en el consulado.</p>
+<p><small><em>Esta guía refleja información de mayo 2026 sobre un mercado que cambia rápidamente. Verifica el estatus de EPS en supersalud.gov.co y obtén cotizaciones escritas antes de afiliarte. Información editorial, no consejo legal, médico, o financiero.</em></small></p>
+
+<h2 id="further-reading">Lectura adicional</h2>
+<ul>
+<li><a href="/healthcare-barranquilla/">Salud en Barranquilla (visión general)</a></li>
+<li><a href="/visas-colombia-barranquilla/">Visas y residencia en Colombia</a></li>
+<li><a href="/tax-residency-colombia-2026-guide/">Residencia fiscal en Colombia: la regla de 183 días</a></li>
+<li><a href="/cost-of-living-in-barranquilla-a-real-2026-breakdown/">Costo de vida en Barranquilla</a></li>
+<li><a href="/canadian-taxes-colombia-seniors/">Impuestos canadienses para jubilados en Colombia</a></li>
+</ul>
+
+<section class="cat-cta-bot">
+<p class="cat-cta-bot-title">¿Todavía tienes preguntas?</p>
+<p class="cat-cta-bot-body">Catalina es nuestra concierge. Pregúntale sobre EPS, prepagada, seguros internacionales, lo que sea de salud colombiana. Ella responde en chat o WhatsApp, inglés o español, gratis.</p>
+<a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;" class="cat-cta-bot-btn">Chatea con Catalina &rsaquo;</a>
+</section>
+</div><!-- .article-body es -->
+</article>
+
+<section aria-labelledby="newsletter-prefoot-heading" class="email-capture" id="newsletter">
+<div class="container">
+<div class="email-capture-inner">
+<div>
+<span class="label">Newsletter</span>
+<h2 class="email-capture-title" id="newsletter-prefoot-heading">Get the guide in your inbox</h2>
+<p class="email-capture-desc">Weekly picks, new guides, and things worth knowing about Barranquilla. No noise.</p>
+</div>
+<div class="email-capture-form">
+<form action="https://newsletter.norteconexion.com/subscribe" class="newsletter-form" data-city="barranquilla" data-source="health-insurance-colombia" method="post" novalidate="">
+<div class="email-capture-row">
+<input aria-label="Email address" class="email-capture-input" name="email" placeholder="Your email address" required="" type="email"/>
+<button class="email-capture-submit" type="submit">Subscribe</button>
+</div>
+<input name="city" type="hidden" value="barranquilla"/>
+<input name="source" type="hidden" value="health-insurance-colombia"/>
+<div aria-live="polite" class="email-capture-note" role="status">Weekly. Unsubscribe any time.</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="site-pb-foot"><div class="pb-wrap">
+<div class="pb-grid">
+<div>
+<a class="pb-brand" href="/"><span class="pb-mark"><img src="/logo-b.webp" alt="" width="34" height="34" loading="eager"></span>barranquilla<span style="color:var(--pb-gold)">.</span>guide</a>
+<p style="max-width:300px">The insider guide to Barranquilla, Colombia.</p>
+<p style="margin-top:18px"><a href="#" onclick="var l=document.querySelector('.cat-launcher');if(l){l.click();}return false;"><span class="pb-en">Chat with Catalina</span><span class="pb-es">Habla con Catalina</span></a><br/><a href="mailto:hello@barranquilla.guide">hello@barranquilla.guide</a></p>
+</div>
+<div><h5><span class="pb-en">Sections</span><span class="pb-es">Secciones</span></h5><ul>
+<li><a href="/section/explore/"><span class="pb-en">Things to Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/section/just-visiting/"><span class="pb-en">Just Visiting</span><span class="pb-es">De visita</span></a></li>
+<li><a href="/section/moving-here/"><span class="pb-en">Moving Here</span><span class="pb-es">Mudarse aquí</span></a></li>
+<li><a href="/section/eat-drink/"><span class="pb-en">Food &amp; Drink</span><span class="pb-es">Comer y beber</span></a></li>
+<li><a href="/section/health/"><span class="pb-en">Medical</span><span class="pb-es">Salud</span></a></li>
+<li><a href="/section/daily-life/"><span class="pb-en">Life &amp; Culture</span><span class="pb-es">Vida y cultura</span></a></li>
+<li><a href="/category/now/"><span class="pb-en">News</span><span class="pb-es">Noticias</span></a></li>
+<li><a href="/city-map/"><span class="pb-en">Map</span><span class="pb-es">Mapa</span></a></li>
+</ul></div>
+<div><h5>Cornerstone guides</h5><ul>
+<li><a href="/things-to-do-around-barranquilla/"><span class="pb-en">To Do</span><span class="pb-es">Qué hacer</span></a></li>
+<li><a href="/barranquilla-carnival-complete-guide/">Carnaval</a></li>
+<li><a href="/everything-you-need-to-know-about-barranquilla/"><span class="pb-en">Everything to know</span><span class="pb-es">Todo lo básico</span></a></li>
+<li><a href="/visas-colombia-barranquilla/"><span class="pb-en">Visas</span><span class="pb-es">Visas</span></a></li>
+<li><a href="/banking-cash-money-in-barranquilla-the-complete-expat-guide-2026/">Banking</a></li>
+<li><a href="/best-tours-experiences-barranquilla/">Best tours</a></li>
+</ul></div>
+<div><h5><span class="pb-en">Sister sites</span><span class="pb-es">Sitios hermanos</span></h5><ul><li><a href="https://medellin.guide" rel="noopener" target="_blank">medellin.guide</a></li><li><a href="https://thecartagena.guide" rel="noopener" target="_blank">thecartagena.guide</a></li></ul><h5 style="margin-top:20px"><span class="pb-en">Company</span><span class="pb-es">Compa&ntilde;&iacute;a</span></h5><ul><li><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a></li><li><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></li><li><a href="/advertise/"><span class="pb-en">Advertise</span><span class="pb-es">Anunciar</span></a></li><li><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a></li></ul></div>
+</div>
+<div class="pb-legal">
+<span>© 2026 Barranquilla.guide · Updated May 2026</span>
+<span><a href="/privacy-policy/"><span class="pb-en">Privacy</span><span class="pb-es">Privacidad</span></a><a href="/about/"><span class="pb-en">About</span><span class="pb-es">Acerca de</span></a><a href="/contact/"><span class="pb-en">Contact</span><span class="pb-es">Contacto</span></a></span>
+</div>
+<div class="pb-pyme">
+<span class="pb-en">Built by <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · Canadian-led, built in Medellín.</span>
+<span class="pb-es">Sitio web por <a href="https://norteconexion.com" rel="noopener" target="_blank">NorteConexión</a> · liderazgo canadiense, construido en Medellín.</span>
+</div>
+</div></footer>
+
+<script defer="" src="/js/main.js?v=20260524a"></script>
+<script defer="" src="https://catalina.barranquilla.guide/widget.js"></script>
+<script>(function(){var b=document.body;var t=document.getElementById('pbNavToggle');var d=document.getElementById('pbDrawer');var s=document.getElementById('pbScrim');if(!t||!d)return;function o(){b.classList.add('pb-nav-open');t.setAttribute('aria-expanded','true');d.setAttribute('aria-hidden','false');}function c(){b.classList.remove('pb-nav-open');t.setAttribute('aria-expanded','false');d.setAttribute('aria-hidden','true');}t.addEventListener('click',function(){b.classList.contains('pb-nav-open')?c():o();});if(s)s.addEventListener('click',c);document.querySelectorAll('[data-pb-close]').forEach(function(a){a.addEventListener('click',c);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&b.classList.contains('pb-nav-open'))c();});})();</script>
+</body>
+</html>

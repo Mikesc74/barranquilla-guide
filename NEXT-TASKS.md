@@ -4,11 +4,100 @@ Ranked PROPOSE backlog from the Watchman audit. Highest estimated impact first.
 Everything here is work **Claude implements once approved** — there is no other
 implementer. Nothing in this file has been applied.
 
-Generated 2026-08-08 (Watchman run 1). See `AUDIT-LOG.md` for what was already
-auto-fixed this run.
+Generated 2026-08-08 (Watchman run 1). Updated 2026-08-10 (Watchman run 2).
+See `AUDIT-LOG.md` for what was already auto-fixed this run.
 
 ---
 
+## NEW PROPOSALS FROM RUN 2 (2026-08-10)
+
+### B1. CRITICAL: Zero monetization infrastructure deployed (Section 9)
+
+**Impact: HIGHEST revenue opportunity**
+
+Unlike medellin-guide (23 pages with affiliate links), barranquilla.guide has:
+- 0 affiliate links site-wide (Viator, Booking, GetYourGuide)
+- 0 partner-widget deployments
+- 0 gated PDF lead-magnets
+- 0 conversion event tracking
+
+**This site is completely unmonetized despite having the same infrastructure.**
+
+**Quick wins:**
+1. Deploy Viator/GetYourGuide affiliate links to all tour/day-trip guides
+   (tours-medellin equivalent, day-trips-from-barranquilla, etc.)
+2. Deploy partner widgets to medical/visa guides (doctor, dentist, visa categories)
+3. Wire up GA4 conversion events
+4. Consider gated PDFs for 3-5 high-value articles
+
+**Effort:** ~3-4 hours (product-code lookups already done in August 2026 per
+CLAUDE.md, just need to add links to barranquilla pages)
+
+---
+
+### B2. CRITICAL: GDPR compliance risk (Section 10)
+
+**Impact: HIGH regulatory risk** — Same as medellin-guide.
+
+97/139 pages fire GA4 without user consent, violating GDPR/CCPA.
+
+**Fix:** Deploy existing consent.js pattern site-wide.
+
+**Effort:** ~30 minutes
+
+---
+
+### B3. Meta title truncation (91/139 pages >60 chars) — Section 2
+
+**Impact: Moderate CTR loss** — Worst of all 3 sites.
+
+**Decision needed:** Whether to rewrite titles blindly or wait for GSC data to
+target high-opportunity keywords first.
+
+---
+
+### B4. 10 pages missing image width/height (CLS ranking factor) — Section 6
+
+**Impact: Moderate** — Core Web Vitals ranking factor.
+
+**Effort:** ~30 minutes (scripted dimension extraction + verify)
+
+---
+
+### NEW: M1. Card image duplicates (Section 16 audit)
+
+**Moderate priority:** Three image-reuse issues found:
+
+1. **`og-carnival1.webp` used 5 times** on unrelated page types
+   - `/about` (About page)
+   - `/advertise` (Advertise page)
+   - `/category/now` (News/weekly posts archive)
+   - `/city-map` (Map page)
+   - `/neighborhoods` (Neighborhoods archive)
+
+   These are all different page purposes; each should have its own image. Carnival imagery
+   only makes sense for entertainment/events context, not for site navigation pages.
+
+   **Fix:** Replace with distinct images:
+   - /about → about/team/city photo
+   - /advertise → advertising/business context
+   - /category/now → news/current events generic
+   - /city-map → map/city layout
+   - /neighborhoods → residential/district imagery
+
+2. **`barranquilla-city-panoramic-view.jpg` used 2 times** on different weekly updates.
+   Weekly posts are time-sensitive and each week's news is distinct—should not share
+   the exact same image even if reusing a generic city view. Minor issue.
+
+3. **`gran-malecon-barranquilla-waterfront.jpg` used 2 times** on different weekly updates.
+   Same as above—two different weeks, two different story sets, should have distinct imagery.
+
+**Impact:** Medium—primarily affects non-traffic-driving utility pages and weekly posts.
+5 image replacements needed.
+
+**Next step:** Source distinct images for the use cases above, update og:image links.
+
+---
 
 ### 1. Meta titles are too long on 91 pages — direct CTR loss on traffic you already have
 
